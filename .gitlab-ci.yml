@@ -1,7 +1,7 @@
 image: hatsoftwares/hugo-vnu:latest
 stages:
   - validity-check
-  - pages
+  - deploy
 
 validity-check:
   stage: validity-check
