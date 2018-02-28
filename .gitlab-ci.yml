@@ -1,7 +1,7 @@
 image: hatsoftwares/hugo-vnu:latest
 stages:
   - validity-check
-  - deploy
+  - pages
 
 validity-check:
   stage: validity-check
@@ -21,7 +21,7 @@ deploy:
     - master
 
 pages:
-  stage: deploy
+  stage: pages
   script:
     - mkdir .public
     - cp -r * .public
