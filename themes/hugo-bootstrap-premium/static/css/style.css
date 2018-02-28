@@ -63,7 +63,7 @@ p {
 
 /* Sections background */
 body {
-    background: #211F20 url('/network.png') top center no-repeat;
+    background: #211F20 url('../network.png') top center no-repeat;
 }
 
 body .content .container {
@@ -87,7 +87,7 @@ body .medias .container {
 }
 
 .medias {
-    background-image: url('/player-peertube-flou.jpg');
+    background-image: url('../player-peertube-flou.jpg');
     background-size: cover;
     padding-top: 30px;
     padding-bottom: 50px;
@@ -96,21 +96,21 @@ body .medias .container {
 }
 
 .install {
-    background: #737373 url('/network-o.png') top center;
-    background-image: url('/player-peertube-flou.jpg');
+    background: #737373 url('../network-o.png') top center;
+    background-image: url('../player-peertube-flou.jpg');
     background-size: cover;
 }
 
 .getting-started {
-    background: #F1680D url('/network-o.png') center center;
+    background: #F1680D url('../network-o.png') center center;
 }
 
 .why {
-    background: #F1680D url('/network.png') center center;
+    background: #F1680D url('../network.png') center center;
 }
 
 .how-it-works {
-    background: #737373 url('/network-o.png') center center;
+    background: #737373 url('../network-o.png') center center;
 }
 
 /* Navbar */
