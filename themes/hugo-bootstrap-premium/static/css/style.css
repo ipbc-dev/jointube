@@ -1,0 +1,303 @@
+/* Default */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 16px;
+}
+
+body > .container {
+    padding: 0 15px;
+    margin-top: 0px;
+    width:100%;
+}
+
+.navbar-brand {
+    padding: 20px;
+    vertical-align: baseline;;
+}
+
+.navbar-brand-img {
+    padding: 0px;
+}
+@media screen and (max-width: 768px) {
+    a.navbar-brand-img>img {
+        vertical-align: bottom;
+        padding: 1em 0 0 15px;
+        max-width: 80%;
+    }
+}
+
+a.navbar-brand-img > img {
+  vertical-align: bottom;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+/* Peertube */
+
+/* *
+ * Orange : #F1680D;
+ * Noir : #211F20;
+ * Gris : #737373;
+ * Blanc : #fff;
+ * */
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    margin: 40px auto;
+}
+
+/* Sections background */
+body {
+    background: #211F20 url('/network.png') top center no-repeat;
+}
+
+body .content .container {
+    background: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top:20px;
+    padding-bottom:20px;
+    -webkit-box-shadow: 0px 3px 4px rgba(50, 50, 50, 0.2);
+    -moz-box-shadow: 0px 3px 4px rgba(50, 50, 50, 0.2);
+    box-shadow: 0px 3px 4px rgba(50, 50, 50, 0.2);
+}
+
+body .medias .container {
+    background: transparent;
+}
+
+.intro {
+    background: transparent;
+    margin-top:-70px;
+}
+
+.medias {
+    background-image: url('/player-peertube-flou.jpg');
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.install {
+    background: #737373 url('/network-o.png') top center;
+    background-image: url('/player-peertube-flou.jpg');
+    background-size: cover;
+}
+
+.getting-started {
+    background: #F1680D url('/network-o.png') center center;
+}
+
+.why {
+    background: #F1680D url('/network.png') center center;
+}
+
+.how-it-works {
+    background: #737373 url('/network-o.png') center center;
+}
+
+/* Navbar */
+#main-header #navbar .btn-group {
+    margin-top: 8px;
+}
+
+.navbar {
+    background: transparent;
+    border: none;
+    margin-top:30px;
+    z-index:2;
+}
+.navbar .container {
+    background: #f7f7f7;
+    padding-right: 15px;
+    -webkit-box-shadow: 0px -1px 4px rgba(50, 50, 50, 0.2);
+    -moz-box-shadow: 0px -1px 4px rgba(50, 50, 50, 0.2);
+    box-shadow: 0px -1px 4px rgba(50, 50, 50, 0.2);
+}
+
+/* Why */
+.why .col-sm-4 p {
+    text-align: center;
+    padding: 30px;
+    font-size: 1.5em;
+    color: #F1680D;
+    opacity:0.7;
+}
+
+
+
+.why .col-sm-push-4 p,
+.why .col-sm-push-4 h3 {
+    text-align: right;
+}
+
+/* Medias */
+.medias li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px 10px;
+}
+
+/* Buttons */
+.intro a[href^="#"],
+.install a[href^="#"],
+.how-it-works a[href^="#"] {
+    margin-top:20px;
+    margin-bottom:20px;
+    font-weight: 500;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    opacity:0.8;
+    text-decoration:none;
+    display:inline-block;
+}
+
+.intro a[href^="#"]:hover,
+.install a[href^="#"]:hover,
+.how-it-works a[href^="#"]:hover {
+    opacity:1;
+}
+
+.intro a[href="#getting-started"],
+.how-it-works a[href="#getting-started"] {
+    margin-right: 4px;
+    color: #fff;
+    background: #F1680D;
+}
+
+.intro a[href="#how-it-works"],
+.install a[href*="wiki"] {
+    margin-right: auto;
+    color: #F1680D;
+    background: #fff;
+    border: 1px solid #F1680D;
+}
+
+.getting-started h2 {
+    color: #F1680D;
+}
+
+/*
+
+
+#-home > .container { margin-bottom: 80px;}
+
+
+
+#-home .content > p:nth-child(5) a:last-child,
+#-home .content .col-sm-8 p:last-child a:last-child {
+    display: inline-block;
+    margin-bottom: 0;
+    text-decoration:none;
+    text-align: center;
+    vertical-align: middle;
+    color: #333;
+    text-transform:uppercase;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+    padding: 6px 16px;
+    font-size: 13px;
+    line-height: 1.846;
+    border-radius: 3px;
+    touch-action: manipulation;
+}
+#-home .content > p a:last-child:hover,
+#-home .content > p a:last-child:focus,
+#-home .content .col-sm-8 a:last-child:hover,
+#-home .content .col-sm-8 a:last-child:focus {
+    background-color: #e0e0e0;
+    border-color: #949494;
+}
+
+.content {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+h1,h2,h3 {
+    color:#333 !important;
+}
+
+section {
+    background-size: cover;
+    background-position: center center;
+}
+
+.container.ombre {
+    margin-top:30px !important;
+}
+
+.small {
+    font-size:14px;
+}
+
+#youtube, #peertube, #infos {
+    background-image:url('img/network.png');
+}
+#youtube .jumbotron {
+    background:#fff;
+}
+
+#youtube img {
+    margin-bottom:30px;
+}
+
+#enjeux, #solutions,#soutenir {
+    background-image:url('img/network-o.png');
+}
+
+#changeons {
+    background-image:url('img/player-peertube-flou.jpg');
+    padding-top:100px;
+    padding-bottom:150px;
+    text-shadow:0 0 5px rgba(0, 0, 0, 0.5);
+}
+#soutenir {
+    background-color:#C48A1B;
+}
+#infos {
+    background-color:#6A5687;
+    display:none;
+}
+#enjeux .col-md-5 i {
+    color:#CC2D18;
+}
+#solutions .col-md-5 i {
+    color:#52632A;
+}
+
+#enjeux .well,
+#solutions .well {
+    margin:30px;
+}
+
+#enjeux img,
+#solutions img {
+    max-width:100%;
+}
+
+#ready .bg-warning {
+    border: 1px solid #FFCF4F;
+    border-radius: 4px;
+}*/
