@@ -1,7 +1,7 @@
 image: hatsoftwares/hugo-vnu:latest
 stages:
   - validity-check
-  - deploy
+  - pages
 
 validity-check:
   stage: validity-check
@@ -17,5 +17,17 @@ deploy:
     - chmod 700 "${HOME}/.ssh"
     - echo -e "${DEPLOYEMENT_KNOWN_HOSTS}" > ${HOME}/.ssh/known_hosts
     - if [ ! -z ${DEPLOYEMENT_KEY+x} ]; then echo -e "${DEPLOYEMENT_KEY}" > key; chmod 600 key; rsync -e "ssh -i key" -a --delete --exclude='stats' --exclude='.htaccess' public/ ${DEPLOYEMENT_USER}@${DEPLOYEMENT_HOST}:../../web/; rm key; fi
+  only:
+    - master
+
+pages:
+  stage: deploy
+  script:
+    - mkdir .public
+    - cp -r * .public
+    - mv .public public
+  artifacts:
+    paths:
+    - public
   only:
     - master
