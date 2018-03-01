@@ -109,7 +109,7 @@ or the entire fediverse.
 {{% grid class="container" %}}
 {{% grid class="col-sm-12" %}}
 
-## Sign up
+## Sign up {#getting-started}
 
 Liste des instances
 
@@ -164,7 +164,7 @@ You only host your own users and the content that they subscribe to.
 {{% grid class="container" %}}
 {{% grid class="col-sm-5" %}}
 
-## How it works
+## How it works {#how-it-works}
 
 Anyone can run a server of Mastodon. Each server hosts individual user accounts,
 the content they produce, and the content they subscribe to.
