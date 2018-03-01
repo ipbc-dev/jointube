@@ -12,7 +12,7 @@ validity-check:
 deploy:
   stage: deploy
   script:
-    - hugo
+    - hugo -b "http://joinpeertube.org"
     - mkdir "${HOME}/.ssh"
     - chmod 700 "${HOME}/.ssh"
     - echo -e "${DEPLOYEMENT_KNOWN_HOSTS}" > ${HOME}/.ssh/known_hosts
@@ -23,7 +23,7 @@ deploy:
 pages:
   stage: deploy
   script:
-    - hugo
+    - hugo -b "https://joinpeertube.framalab.org/"
   artifacts:
     paths:
     - public
