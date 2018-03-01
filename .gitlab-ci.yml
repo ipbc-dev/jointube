@@ -15,8 +15,10 @@ deploy:
     - hugo -b "http://joinpeertube.org"
     - mkdir "${HOME}/.ssh"
     - chmod 700 "${HOME}/.ssh"
-    - echo -e "${DEPLOYEMENT_KNOWN_HOSTS}" > ${HOME}/.ssh/known_hosts
-    - if [ ! -z ${DEPLOYEMENT_KEY+x} ]; then echo -e "${DEPLOYEMENT_KEY}" > key; chmod 600 key; rsync -e "ssh -i key" -a --delete --exclude='stats' --exclude='.htaccess' public/ ${DEPLOYEMENT_USER}@${DEPLOYEMENT_HOST}:../../web/; rm key; fi
+    - if [ ! -z ${DEPLOYEMENT_KNOWN_HOSTS+x} ]; then echo -e "${DEPLOYEMENT_KNOWN_HOSTS}" > ${HOME}/.ssh/known_hosts; fi
+    - eval `ssh-agent -s`
+    - if [ ! -z ${DEPLOYEMENT_KEY+x} ]; then ssh-add <(echo "$DEPLOYEMENT_KEY" | base64 --decode); fi
+    - if [ ! -z ${DEPLOYEMENT_KEY+x} ]; then rsync -a --delete --exclude='stats' --exclude='error' --exclude='.htaccess' public/ ${DEPLOYEMENT_USER}@${DEPLOYEMENT_HOST}:../../web/; fi
   only:
     - master
 
