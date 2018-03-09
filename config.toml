@@ -111,19 +111,19 @@ title = "PeerTube"
 name = "Aide"
 weight = 2
 identifier = ""
-url = "https://framacolibri.org"
+url = "https://framacolibri.org/c/qualite/peertube"
 
 [[Languages.fr.menu.main]]
 name = "Documentation"
 weight = 3
 identifier = ""
-url = "https://framagit.org/chocobozzz/PeerTube"
+url = "https://peertube.frama.wiki"
 
 [[Languages.fr.menu.main]]
 name = "Code source"
 weight = 4
 identifier = ""
-url = "https://framagit.org/chocobozzz/PeerTube"
+url = "https://github.com/Chocobozzz/PeerTube"
 
 [Languages.en]
 languageCode = "en"
@@ -134,16 +134,16 @@ title = "PeerTube"
 name = "Support"
 weight = 2
 identifier = ""
-url = "https://framacolibri.org"
+url = "https://framacolibri.org/c/qualite/peertube"
 
 [[Languages.en.menu.main]]
 name = "Documentation"
 weight = 3
 identifier = ""
-url = "https://framagit.org/chocobozzz/PeerTube"
+url = "https://peertube.frama.wiki"
 
 [[Languages.en.menu.main]]
 name = "Source code"
 weight = 4
 identifier = ""
-url = "https://framagit.org/chocobozzz/PeerTube"
+url = "https://github.com/Chocobozzz/PeerTube"

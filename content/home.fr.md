@@ -11,10 +11,10 @@ id = "-home"
 {{% grid class="row intro" %}}
 {{% grid class="container" %}}
 {{% grid class="col-sm-12 text-center" %}}
-# Social networking, back in your hands
-## The world’s largest free, open-source, decentralized microblogging network
+# Repenez le contrôle de vos vidéos
+## Une plateforme de vidéos fédérée utilisant le P2P
 
-[Get started](#getting-started) [How it works ](#how-it-works)
+[Pour commencer](#getting-started) [Comment ça fonctionne](#how-it-works)
 
 ![](/notebook.jpg)
 
