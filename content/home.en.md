@@ -22,6 +22,8 @@ id = "-home"
 {{% /grid %}}
 {{% /grid %}}
 {{% grid class="row medias" %}}
+
+<!---
 {{% grid class="container" %}}
 {{% grid class="col-sm-12 text-center" %}}
 
@@ -34,6 +36,9 @@ id = "-home"
 
 {{% /grid %}}
 {{% /grid %}}
+-->
+
+
 {{% /grid %}}
 {{% grid class="row why" %}}
 {{% grid class="container" %}}
