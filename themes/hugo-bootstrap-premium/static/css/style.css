@@ -197,3 +197,26 @@ body .medias .container {
 .getting-started h2 {
     color: #F1680D;
 }
+
+#instances-list {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+#instances-list .list-group-item {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#instances-list .list-group-item .list-group-item-heading {
+    margin-bottom: 0;
+}
+
+#instances-list .list-group-item .list-group-item-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 5px;
+}
