@@ -119,7 +119,8 @@ Liste des instances
 
 <div id="instances-list" class="list-group"></div>
 
-<div class="alert alert-info">This is like picking an e-mail hosting provider: the domain will also be part of your username!</div>
+<div id="instances-list-error" class="alert alert-danger" style="display: none">Nous sommes désolé mais nous n'arrivons pas à récupérer la liste des instances. Merci de réessayer plus tard.</div>
+<div class="alert alert-info">C'est comme choisir un fournisseur d'email : le nom de domaine fera partie de votre identifiant !</div>
 
 {{% /grid %}}
 {{% /grid %}}
