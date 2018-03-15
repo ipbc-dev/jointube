@@ -119,7 +119,8 @@ or the entire fediverse.
 Liste des instances
 
 <div id="instances-list" class="list-group"></div>
-<div class="alert alert-info">This is like picking an e-mail hosting provider: the domain will also be part of your username!</div>
+<div id="instances-list-error" class="alert alert-danger" style="display: none">We are sorry but we failed to list available instances. Please try again later.</div>
+<div class="alert alert-info">This is like picking an e-mail hosting provider: the domain will be part of your username!</div>
 
 
 {{% /grid %}}
