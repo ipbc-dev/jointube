@@ -11,8 +11,8 @@ id = "-home"
 {{% grid class="row intro" %}}
 {{% grid class="container" %}}
 {{% grid class="col-sm-12 text-center" %}}
-# Social networking, back in your hands
-## The world’s largest free, open-source, decentralized microblogging network
+# Video streaming, back in your hands
+## A federated video streaming platform using P2P directly in the web browser
 
 [Get started](#getting-started) [How it works ](#how-it-works)
 
