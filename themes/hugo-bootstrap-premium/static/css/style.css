@@ -61,6 +61,10 @@ p {
     margin: 40px auto;
 }
 
+.content p:last-child {
+    margin: 0 !important;
+}
+
 /* Sections background */
 body {
     background: #211F20 url('../network.png') top center no-repeat;
@@ -235,4 +239,5 @@ body .medias .container {
 .footer p {
     font-size: small;
     margin: 0;
+    padding: 5px 0;
 }

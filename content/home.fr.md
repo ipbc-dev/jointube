@@ -45,8 +45,8 @@ id = "-home"
 
 ### Trouvez votre parfait hébergeur de vidéos
 
-PeerTube n'est pas une seule entité avec qu'un seul groupe de règles : 
-c'est un réseau de dizaines d'hébergeurs interconnectés et uniques, composés
+PeerTube n'est pas une seule entité avec unique groupe de règles : 
+c'est un réseau de dizaines d'hébergeurs interconnectés, et chaque hébergeur est composé
 de personnes et d'administrateurs différents. Vous n'aimez pas certaines règles ? 
 Vous êtes libre de rejoindre l'hébergeur de votre choix, ou mieux encore, 
 être votre propre hébergeur avec vos propres règles !
@@ -91,8 +91,8 @@ c'est PeerTube qui est à votre service, et pas l'inverse.
 ### Devenez un acteur de la diffusion de vidéos
 
 Lorsque vous regardez une vidéo avec PeerTube, la technologie WebTorrent
-vous permet de participer à la diffusion de cette vidéo pour des futurs 
-internautes.
+vous permet de participer à la diffusion de cette vidéo avec les internautes qui
+la regardent en même temps que vous.
 
 {{% /grid %}}
 {{% grid class="col-sm-4 col-sm-pull-8 text-center" %}}
@@ -122,7 +122,7 @@ Liste des instances sur lesquelles vous pouvez vous inscrire :
 {{% grid class="container" %}}
 {{% grid class="col-sm-12" %}}
 
-## Installez le votre
+## Installez la vôtre
 
 Intéressé par l'hébergement de votre propre instance, pour vos amis, votre famille 
 ou organisation ? Vous pouvez commencer par lire la documentation qui concerne 
@@ -192,5 +192,4 @@ Ce site web a été construit sur la base de <a href="https://joinmastodon.org" 
 {{% /grid %}}
 {{% /grid %}}
 {{% /grid %}}
-
 <p>

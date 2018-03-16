@@ -192,5 +192,4 @@ Built on top of <a href="https://joinmastodon.org" target="_blank">joinmastodon.
 {{% /grid %}}
 {{% /grid %}}
 {{% /grid %}}
-
 <p>
