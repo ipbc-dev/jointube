@@ -137,10 +137,11 @@ family or organization — you can get started by reading the installation
 documentation.
 You only host your own users and the content that they subscribe to.
 
-[Read the docs](#wiki)
+<a href="https://github.com/Chocobozzz/PeerTube/#production" target="_blank">Read the docs</a>
 
 {{% /grid %}}
 {{% /grid %}}
+
 {{% /grid %}}
 {{% grid class="row how-it-works" %}}
 {{% grid class="container" %}}
@@ -182,5 +183,13 @@ audience to a yet another platform again.
 {{% /grid %}}
 {{% /grid %}}
 {{% /grid %}}
-<p>
+{{% grid class="row footer" %}}
+{{% grid class="container" %}}
+{{% grid class="col-sm-12" %}}
 
+Built on top of <a href="https://joinmastodon.org" target="_blank">joinmastodon.org</a>. Thanks!
+
+{{% /grid %}}
+{{% /grid %}}
+{{% /grid %}}
+<p>
