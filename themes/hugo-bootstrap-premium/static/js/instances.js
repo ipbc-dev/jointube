@@ -14,37 +14,69 @@ $(function () {
 
       const lis = []
       instances.forEach(function (instance) {
-        const el = createInstanceElement(instance.host, instance.name, instance.shortDescription)
+        const el = createInstanceElement(instance)
         lis.push(el)
       })
 
       instancesListElement.append(lis)
     })
-    .fail(function (err) {
+    .fail(function () {
       $('#instances-list-error').css('display', 'block')
     })
 
-  function createInstanceElement (host, name, description) {
+  function createInstanceElement (instance) {
     const a = $('<a>', {
       class: 'list-group-item',
-      href: 'https://' + host,
+      href: 'https://' + instance.host,
       target: '_blank',
-      title: host
+      title: instance.host
+    })
+
+    const leftDiv = $('<div>', {
+      class: 'left-div'
+    })
+    const rightDiv = $('<div>', {
+      class: 'right-div'
     })
 
     const h4 = $('<h4>', {
-      class: 'list-group-item-heading',
-      text: name
+      class: 'list-group-item-heading'
     })
-    a.append(h4)
+    const spanName = $('<span>', {
+      text: instance.name,
+      class: 'instance-name'
+    })
+    const spanHost = $('<small>', {
+      text: instance.host,
+      class: 'instance-host'
+    })
+    h4.append(spanName, spanHost)
+    leftDiv.append(h4)
 
-    if (description) {
+    if (instance.shortDescription) {
       const p = $('<p>', {
         class: 'list-group-item-text',
-        text: description
+        text: instance.shortDescription
       })
-      a.append(p)
+      leftDiv.append(p)
     }
+
+    if (instance.totalInstanceFollowers) {
+      const li = $('<li>', {
+        text: instance.totalInstanceFollowers + ' followers'
+      })
+      rightDiv.append(li)
+
+    }
+
+    if (instance.totalInstanceFollowing) {
+      const li = $('<li>', {
+        text: 'Follows ' + instance.totalInstanceFollowing + ' instances'
+      })
+      rightDiv.append(li)
+    }
+
+    a.append(leftDiv, rightDiv)
 
     return a
   }
