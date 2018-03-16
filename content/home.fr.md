@@ -74,7 +74,7 @@ PeerTube vous permet de partager toutes vos vidéos.
 ### Les utilisateurs et utilisatrices au premier plan
 
 Vous êtes une personne, pas un produit. PeerTube est un logiciel libre gratuit
-financé par une association française à but non lucratif: Framasoft.
+financé par une association française à but non lucratif : Framasoft.
 Toutes les instances sont créées, animées, modérées et maintenues de façon 
 indépendante. PeerTube n'est soumis au monopole d'aucune entreprise, ne dépend
 d'aucune publicité et ne vous piste pas. Avec PeerTube vous n'êtes pas un produit :
@@ -173,8 +173,7 @@ ou organisation différente, pouvant donc appliquer des règles de modération
 et de bonne conduite variées, vous permettant de trouver l'instance qui vous
 conviendra le mieux.
 
-
-En regardant une vidéo, vous aidez l'hébergeur à la diffuser en devant vous-même
+En regardant une vidéo, vous aidez l'hébergeur à la diffuser en devenant vous-même
 un diffuseur de cette vidéo. Chaque instance n'a donc pas besoin d'énormément d'argent
 pour diffuser les vidéos de ses utilisateurs !
 
