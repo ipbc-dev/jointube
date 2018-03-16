@@ -11,8 +11,8 @@ id = "-home"
 {{% grid class="row intro" %}}
 {{% grid class="container" %}}
 {{% grid class="col-sm-12 text-center" %}}
-# Repenez le contrôle de vos vidéos
-## Une plateforme de vidéos fédérée utilisant le P2P
+# Reprenez le contrôle de vos vidéos
+## Une plateforme de vidéos web fédérée utilisant le P2P
 
 [Pour commencer](#getting-started) [Comment ça fonctionne](#how-it-works)
 
@@ -43,13 +43,13 @@ id = "-home"
 {{% grid class="container" %}}
 {{% grid class="col-sm-8" %}}
 
-### Find your perfect community
+### Trouvez votre parfait hébergeur de vidéos
 
-Mastodon isn’t one place and one set of rules: it’s thousands of unique,
-interconnected communities to choose from, filled with different people,
-interests, languages, and needs. Don’t like the rules?
-You’re free to join any community you like, or better yet:
-you can host your own, on your own terms!
+PeerTube n'est pas une seule entité avec qu'un seul groupe de règles : 
+c'est un réseau de dizaines d'hébergeurs interconnectés et uniques, composés
+de personnes et d'administrateurs différents. Vous n'aimez pas certaines règles ? 
+Vous êtes libre de rejoindre l'hébergeur de votre choix, ou mieux encore, 
+être votre propre hébergeur avec vos propres règles !
 
 {{% /grid %}}
 {{% grid class="col-sm-4 text-center" %}}
@@ -59,14 +59,9 @@ you can host your own, on your own terms!
 {{% /grid %}}
 {{% grid class="col-sm-8 col-sm-push-4" %}}
 
-### Take control of your content
+### Prenez le contrôle de votre contenu
 
-With powerful tools to control who sees your posts and a 500-character limit,
-Mastodon empowers you to share your ideas, unabridged.
-The best part? All posts are in chronological order, not “optimized”
-to push ads into your timeline.
-With apps for iOS, Android, and every other platform imaginable,
-Mastodon is always at your fingertips.
+PeerTube vous permet de partager toutes vos vidéos.
 
 {{% /grid %}}
 {{% grid class="col-sm-4 col-sm-pull-8 text-center" %}}
@@ -76,13 +71,14 @@ Mastodon is always at your fingertips.
 {{% /grid %}}
 {{% grid class="col-sm-8" %}}
 
-### Putting the user first
+### Les utilisateurs et utilisatrices au premier plan
 
-You’re a person, not a product. Mastodon is a free, open-source development
-that has been crowdfunded, not financed.
-All instances are independently owned, operated, and moderated.
-There is no monopoly by a single commercial company, no ads, and no tracking.
-Mastodon works for you, and not the other way around.
+Vous êtes une personne, pas un produit. PeerTube est un logiciel libre gratuit
+financé par une association française à but non lucratif: Framasoft.
+Toutes les instances sont créées, animées, modérées et maintenues de façon 
+indépendante. PeerTube n'est soumis au monopole d'aucune entreprise, ne dépend
+d'aucune publicité et ne vous piste pas. Avec PeerTube vous n'êtes pas un produit :
+c'est PeerTube qui est à votre service, et pas l'inverse. 
 
 {{% /grid %}}
 {{% grid class="col-sm-4" %}}
@@ -92,14 +88,11 @@ Mastodon works for you, and not the other way around.
 {{% /grid %}}
 {{% grid class="col-sm-8 col-sm-push-4" %}}
 
-### Feel safe in your community
+### Devenez un acteur de la diffusion de vidéos
 
-Mastodon comes with effective anti-abuse tools to help protect yourself
-from online abuse.
-With small, interconnected communities, it means that there are more
-moderators you can approach to help with a situation.
-This also means you can choose who sees your posts: friends, your community,
-or the entire fediverse.
+Lorsque vous regardez une vidéo avec PeerTube, la technologie WebTorrent
+vous permet de participer à la diffusion de cette vidéo pour des futurs 
+internautes.
 
 {{% /grid %}}
 {{% grid class="col-sm-4 col-sm-pull-8 text-center" %}}
@@ -113,9 +106,9 @@ or the entire fediverse.
 {{% grid class="container" %}}
 {{% grid class="col-sm-12" %}}
 
-## Sign up {#getting-started}
+## S'inscrire {#getting-started}
 
-Liste des instances
+Liste des instances sur lesquelles vous pouvez vous inscrire :
 
 <div id="instances-list" class="list-group"></div>
 
@@ -129,14 +122,17 @@ Liste des instances
 {{% grid class="container" %}}
 {{% grid class="col-sm-12" %}}
 
-## Install your own
+## Installez le votre
 
-If you are interested in running your own instance — for your friends,
-family or organization — you can get started by reading the installation
-documentation.
-You only host your own users and the content that they subscribe to.
+Intéressé par l'hébergement de votre propre instance, pour vos amis, votre famille 
+ou organisation ? Vous pouvez commencer par lire la documentation qui concerne 
+l'installation. 
 
-[Read the docs](#wiki)
+Vous hébergerez seulement vos propres utilisateurs ainsi que
+leurs propres vidéos et afficherez sur la page d'accueil seulement les vidéos
+des instances que vous aurez **choisi** de suivre.
+
+<a href="https://github.com/Chocobozzz/PeerTube/#production" target="_blank">Read the docs</a>
 
 {{% /grid %}}
 {{% /grid %}}
@@ -145,40 +141,56 @@ You only host your own users and the content that they subscribe to.
 {{% grid class="container" %}}
 {{% grid class="col-sm-5" %}}
 
-## How it works {#how-it-works}
+## Comment ça fonctionne {#how-it-works}
 
-Anyone can run a server of Mastodon. Each server hosts individual user accounts,
-the content they produce, and the content they subscribe to.
+N'importe qui peut héberger un serveur PeerTube qu'on nomme **instance**. 
+Chaque instance héberge ses propres utilisateurs et leurs vidéos. Il garde 
+aussi une vision des vidéos présentes sur les instances suivies par l'administrateur
+afin de pouvoir les proposer à ses utilisateurs. 
 
-Each user account has a globally unique name (e.g. @user@example.com),
-consisting of the local username (@user), and the domain name of
-the server it is on (example.com).
+Chaque compte possède un identifiant global unique (comme par exemple 
+@chocobozzz@framatube.org) qui est composé d'un pseudonyme (@chocobozzz)
+et du nom de domaine du serveur sur lequel il se trouve (framatube.org).
 
-Users can follow each other, regardless of where they’re hosted — when a
-local user follows a user from a different server, the server subscribes
-to that user’s updates for the first time.
+Les administrateurs d'une instance PeerTube peuvent se suivre mutuellement.
+Quand votre instance PeerTube suit une autre instance PeerTube, vous recevez
+les vidéos uploadées sur cette instance. De cette manière, vous pouvez afficher
+les vidéos présentes sur votre instance, et sur l'instance que avez décidé de suivre.
+Vous gardez donc le contrôle des vidéos affichées sur votre serveur PeerTube !
 
 {{% /grid %}}
 {{% grid class="col-sm-7 text-center" %}}
 
-[![](/pt-p2p.png)](../educ-pop)
+![peertube federation schema](/pt-p2p.png)
 
 {{% /grid %}}
 {{% grid class="col-sm-12" %}}
 
-### Why is that cool?
+### En quoi c'est génial ?
 
-Servers are run independently by different people and organizations.
-They can apply wildly different moderation policies, so you can find or
-make one that fits your taste perfectly.
-A decentralized network is harder for governments to censor.
-If one server goes bankrupt or starts acting unethically, the network
-persists so you never have to worry about migrating your friends and
-audience to a yet another platform again.
+Chaque serveur fonctionne de manière indépendante et est géré par une personne 
+ou organisation différente, pouvant donc appliquer des règles de modération
+et de bonne conduite variées, vous permettant de trouver l'instance qui vous
+conviendra le mieux.
+
+
+En regardant une vidéo, vous aidez l'hébergeur à la diffuser en devant vous-même
+un diffuseur de cette vidéo. Chaque instance n'a donc pas besoin d'énormément d'argent
+pour diffuser les vidéos de ses utilisateurs !
 
 [Get started](#getting-started)
 
 {{% /grid %}}
 {{% /grid %}}
 {{% /grid %}}
+{{% grid class="row footer" %}}
+{{% grid class="container" %}}
+{{% grid class="col-sm-12" %}}
+
+Ce site web a été construit sur la base de <a href="https://joinmastodon.org" target="_blank">joinmastodon.org</a>. Merci !
+
+{{% /grid %}}
+{{% /grid %}}
+{{% /grid %}}
+
 <p>

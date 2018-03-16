@@ -159,7 +159,7 @@ body .medias .container {
 
 /* Buttons */
 .intro a[href^="#"],
-.install a[href^="#"],
+.install a,
 .how-it-works a[href^="#"] {
     margin-top:20px;
     margin-bottom:20px;
@@ -174,7 +174,7 @@ body .medias .container {
 }
 
 .intro a[href^="#"]:hover,
-.install a[href^="#"]:hover,
+.install a:hover,
 .how-it-works a[href^="#"]:hover {
     opacity:1;
 }
@@ -187,7 +187,7 @@ body .medias .container {
 }
 
 .intro a[href="#how-it-works"],
-.install a[href*="wiki"] {
+.install a[href*="github"] {
     margin-right: auto;
     color: #F1680D;
     background: #fff;
@@ -219,4 +219,20 @@ body .medias .container {
     overflow: hidden;
     text-overflow: ellipsis;
     margin-top: 5px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer .container {
+    padding: 0 !important;
+    margin: 0 auto !important;
+    background-color: #211F20 !important;
+    color: #fff;
+}
+
+.footer p {
+    font-size: small;
+    margin: 0;
 }
