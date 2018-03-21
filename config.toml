@@ -115,7 +115,7 @@ title = "FAQ"
 url = "/fr/faq/"
 
 [[Languages.fr.menu.main]]
-name = "Aide"
+name = "Support"
 weight = 3
 identifier = ""
 url = "https://framacolibri.org/c/qualite/peertube"
