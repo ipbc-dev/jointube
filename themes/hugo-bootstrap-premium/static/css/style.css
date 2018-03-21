@@ -163,7 +163,7 @@ body .medias .container {
 
 /* Buttons */
 .intro a[href^="#"],
-.install a,
+.install a[href="https://github.com/Chocobozzz/PeerTube/#production"],
 .how-it-works a[href^="#"] {
     margin-top:20px;
     margin-bottom:20px;
