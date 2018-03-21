@@ -11,7 +11,7 @@ id = "-faq"
 {{% grid class="row" %}}
 {{% grid class="container" %}}
 {{% grid class="col-sm-12" %}}
-<h2 class="text-center">10 questions pour découvrir Framatube…</h2>
+<h2 class="text-center">Quelques questions pour découvrir PeerTube…</h2>
 
 <!--début accordéon-->
 <div id="accordion" class="panel-group">
@@ -45,7 +45,7 @@ id = "-faq"
         <li>Une fédération d'hébergements interconnectés (donc plus de choix de vidéos où qu'on aille les voir) ;</li>
         <li>De la diffusion -et donc du visionnage- en pair-à-pair (donc pas de ralentissement quand une vidéo devient virale).</li>
       </ol>
-      <p>Liées ensemble, ces trois caractéristiques permettent de faciliter l'hébergement de vidéos côté serveur, tout en restant pratique et amusant côté internautes.</p>
+      <p>Liées ensemble, ces trois caractéristiques permettent de faciliter l'hébergement de vidéos côté serveur, tout en restant pratique, éthique et amusant côté internautes.</p>
     </div>
   </div>
 </div>
@@ -103,15 +103,15 @@ id = "-faq"
 <div class="panel panel-default">
   <div class="panel-heading">
     <h4 class="panel-title">
-      <a data-toggle="collapse" data-parent="#accordion" href="#collapse06">6. Donc en mars, PeerTube va détrôner YouTube ?</a>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse06">6. Dès mars 2018, PeerTube va détrôner YouTube ?</a>
     </h4>
   </div>
   <div id="collapse06" class="panel-collapse collapse">
     <div class="panel-body">
       <p>On peut répondre avec certitude : non !</p>
-      <p>En mars 2018, PeerTube sortira sa version bêta, utilisable publiquement. Nous travaillons déjà avec plusieurs collectifs pour que des premiers hébergements fédérés s'ouvrent à cette date, dont le nôtre.</p>
-      <p>Mais PeerTube ne sera pas encore parfait, et de nombreuses fonctionnalités manqueront à l'appel : si nous dépassons nos objectifs de collectes, notre priorité sera de nous investir encore plus dans son développement.</p>
-      <p>Mars 2018 représentera la naissance des fédérations PeerTube : plus ce logiciel sera utilisé et soutenu, plus des personnes l'utiliseront et y contriburont, et plus vite il évolura vers une alternative concrète aux plateformes telles que YouTube.</p>
+      <p>En mars 2018, PeerTube a sorti sa version bêta, utilisable publiquement. Plusieurs collectifs ont monté des premiers hébergements, créant ainsi les bases de la fédération.</p>
+      <p>Mais PeerTube n'est pas (encore) parfait, et de nombreuses fonctionnalités manquent à l'appel. Nous comptons bien continuer de l'améliorer pour sortir une version 1 d'ici fin 2018.</p>
+      <p>Mars 2018 représente donc la naissance des fédérations PeerTube : plus ce logiciel sera utilisé et soutenu, plus des personnes l'utiliseront et y contriburont, et plus vite il évolura vers une alternative concrète aux plateformes telles que YouTube.</p>
     </div>
   </div>
 </div>
@@ -124,13 +124,13 @@ id = "-faq"
   </div>
   <div id="collapse07" class="panel-collapse collapse">
     <div class="panel-body">
-      <p>Être libre ne signifie pas être au dessus de la loi ! Chaque hébergement PeerTube pourra décider de ses propres conditions générales d'utilisation, dans le cadre de la loi dont ils dépendent.</p>
-      <p>Par exemple, en France, les contenus discriminants <a href="https://fr.wikipedia.org/wiki/Lois_contre_le_racisme_et_les_discours_de_haine">sont interdits</a> et peuvent être <a href="http://stop-discrimination.gouv.fr/agir/ne-pas-laisser-faire-les-recours">signalés aux autorités</a>. PeerTube permettra aux internautes de signaler une vidéo problématique, et chaque hébergeur devra alors appliquer sa modération conformément à ses conditions générales et à la loi.</p>
-      <p>Le système de fédération, quant à lui, permettra aux hébergeurs de décider avec qui ils veulent se mettre en réseau, ou pas, selon les types de contenus ou les politiques de modération des autres.</p>
+      <p>Être libre ne signifie pas être au dessus de la loi ! Chaque hébergement PeerTube peut décider de ses propres conditions générales d'utilisation, dans le cadre de la loi dont ils dépendent.</p>
+      <p>Par exemple, en France, les contenus discriminants <a href="https://fr.wikipedia.org/wiki/Lois_contre_le_racisme_et_les_discours_de_haine">sont interdits</a> et peuvent être <a href="http://stop-discrimination.gouv.fr/agir/ne-pas-laisser-faire-les-recours">signalés aux autorités</a>. PeerTube permet aux internautes de signaler une vidéo problématique, et chaque hébergeur doit alors appliquer sa modération conformément à ses conditions générales et à la loi.</p>
+      <p>Le système de fédération, quant à lui, permet aux hébergeurs de décider avec qui ils veulent se mettre en réseau, ou pas, selon les types de contenus ou les politiques de modération des autres.</p>
     </div>
   </div>
 </div>
-<!-- question 08-->
+<!-- question 08 à effacer !!!
 <div class="panel panel-default">
   <div class="panel-heading">
     <h4 class="panel-title">
@@ -146,11 +146,12 @@ id = "-faq"
     </div>
   </div>
 </div>
+-->
 <!-- question 09-->
 <div class="panel panel-default">
   <div class="panel-heading">
     <h4 class="panel-title">
-      <a data-toggle="collapse" data-parent="#accordion" href="#collapse09">9. Et vous êtes qui, Framasoft ?</a>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse09">8. C'est qui ce « Framasoft » qui organise le développement de PeerTube ?</a>
     </h4>
   </div>
   <div id="collapse09" class="panel-collapse collapse">
@@ -166,19 +167,14 @@ id = "-faq"
 <div class="panel panel-default">
   <div class="panel-heading">
     <h4 class="panel-title">
-      <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">10. Si je vous soutiens, où ira mon argent ?</a>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">9. Si je soutiens Framasoft, où ira mon argent ?</a>
     </h4>
   </div>
   <div id="collapse10" class="panel-collapse collapse">
     <div class="panel-body">
-      <p>Il ira dans le budget 2018 de l'association Framasoft, comme tous les dons que nous recevons.</p>
+      <p>Il ira dans le budget de l'association Framasoft, comme tous les dons que nous recevons.</p>
       <p>Selon la loi française dont dépend Framasoft, un don ne peut pas engager de contrepartie ni être attribué à un poste spécifique des dépenses d'une association.</p>
-      <p>Nous avons donc décidé d'être transparents :</p>
-      <ul>
-        <li>Framasoft engage 30 000 € dans le développement de PeerTube ;</li>
-        <li>Il nous manque 90 000 € pour boucler notre budget pour 2018 (qui inclut PeerTube, le maintien des services <a href="https://degooglisons-internet.org">Dégooglisons Internet</a>, et les futurs projets de <a href="https://contributopia.org">Contributopia</a>) ;</li>
-        <li>Si nous dépassons cet objectif avant le 31/12/2017, notre priorité sera de s'investir dans le développement de PeerTube après la sortie de la bêta (avec des fonctionnalités supplémentaires).</li>
-      </ul>
+      <p>Nous cherchons à être transparents et à rendre compte régulièrement de l'ensemble des actions que nous menons, que ce soit dans notre <a href="https://framablog.org">blog</a>, notre <a href="https://contact.framasoft.org/newsletter/">newsletter</a>, ou sur nos comptes de médias sociaux.</p>
       <p>Notre comptabilité est vérifiée et validée par un commissaire aux comptes indépendant dont nous publions les rapports annuels <a href="https://soutenir.framasoft.org/association">sur cette page</a> (voir <a href="https://soutenir.framasoft.org/sites/default/files/rapport_financier_2016.pdf">le rapport 2016</a>).</p>
     </div>
   </div>

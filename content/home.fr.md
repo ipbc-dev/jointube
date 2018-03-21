@@ -12,7 +12,7 @@ id = "-home"
 {{% grid class="container" %}}
 {{% grid class="col-sm-12 text-center" %}}
 # Reprenez le contrôle de vos vidéos
-## Une plateforme de vidéos web fédérée utilisant le P2P
+## L'hébergement de vidéos décentralisé, en réseau, basé sur du logiciel libre
 
 [Pour commencer](#getting-started) [Comment ça fonctionne](#how-it-works)
 
@@ -43,9 +43,9 @@ id = "-home"
 {{% grid class="container" %}}
 {{% grid class="col-sm-8" %}}
 
-### Trouvez votre parfait hébergeur de vidéos
+### Reprenez le pouvoir... et les responsabilités !
 
-PeerTube n'est pas une seule entité avec unique groupe de règles : 
+PeerTube n'est pas une seule plateforme d'hébergement vidéo avec un unique groupe de règles : 
 c'est un réseau de dizaines d'hébergeurs interconnectés, et chaque hébergeur est composé
 de personnes et d'administrateurs différents. Vous n'aimez pas certaines règles ? 
 Vous êtes libre de rejoindre l'hébergeur de votre choix, ou mieux encore, 
@@ -61,7 +61,9 @@ Vous êtes libre de rejoindre l'hébergeur de votre choix, ou mieux encore,
 
 ### Prenez le contrôle de votre contenu
 
-PeerTube vous permet de partager toutes vos vidéos.
+PeerTube vous permet de partager toutes vos vidéos. Être en contact direct avec un hébergeur à taille humaine (ou devenir votre propre hébergeur) vous permet d'influer sur les conditions de leur diffusion.
+Vos vidéos bénéficieront des outils de description, catégorisation, personnalisation des miniatures, marquage des contenus pour public matures.
+Personnaliser le bouton **Soutenir** vous permettra d'indiquer librement à votre audience comment soutenir votre démarche.
 
 {{% /grid %}}
 {{% grid class="col-sm-4 col-sm-pull-8 text-center" %}}
@@ -74,10 +76,11 @@ PeerTube vous permet de partager toutes vos vidéos.
 ### Les utilisateurs et utilisatrices au premier plan
 
 Vous êtes une personne, pas un produit. PeerTube est un logiciel libre gratuit
-financé par une association française à but non lucratif : Framasoft.
+financé par une association française à but non lucratif : [Framasoft](https://soutenir.framasoft.org/association).
 Toutes les instances sont créées, animées, modérées et maintenues de façon 
 indépendante. PeerTube n'est soumis au monopole d'aucune entreprise, ne dépend
-d'aucune publicité et ne vous piste pas. Avec PeerTube vous n'êtes pas un produit :
+d'aucune publicité et ne vous piste pas.
+Avec PeerTube vous n'êtes pas un produit :
 c'est PeerTube qui est à votre service, et pas l'inverse. 
 
 {{% /grid %}}
@@ -93,6 +96,8 @@ c'est PeerTube qui est à votre service, et pas l'inverse.
 Lorsque vous regardez une vidéo avec PeerTube, la technologie WebTorrent
 vous permet de participer à la diffusion de cette vidéo avec les internautes qui
 la regardent en même temps que vous.
+Ce partage des flux vidéos permet une répartition saine des échanges sur la toile.
+De plus, le protocole de fédération (ActivityPub) permet en plus de publier les vidéos et commentaires sur d'autres outils qui l'utilisent, comme par exemple [Mastodon](https://joinmastodon.org) ! (expérimental)
 
 {{% /grid %}}
 {{% grid class="col-sm-4 col-sm-pull-8 text-center" %}}
@@ -125,14 +130,13 @@ Liste des instances sur lesquelles vous pouvez vous inscrire :
 ## Installez la vôtre
 
 Intéressé par l'hébergement de votre propre instance, pour vos amis, votre famille 
-ou organisation ? Vous pouvez commencer par lire la documentation qui concerne 
-l'installation. 
+ou organisation ? Vous pouvez commencer par [lire la documentation qui concerne 
+l'installation](https://github.com/Chocobozzz/PeerTube/blob/develop/support/doc/production.md). 
 
 Vous hébergerez seulement vos propres utilisateurs ainsi que
-leurs propres vidéos et afficherez sur la page d'accueil seulement les vidéos
-des instances que vous aurez **choisi** de suivre.
+leurs propres vidéos. Vous pouvez définir le nombre d'inscritptions disponibles et un quota d'espace-disque par utilisateur. Sur votre page d'accueil ne s'afficheront que les vidéos des instances que vous aurez **choisi** de suivre.
 
-<a href="https://github.com/Chocobozzz/PeerTube/#production" target="_blank">Read the docs</a>
+<a href="https://github.com/Chocobozzz/PeerTube/#production" target="_blank">Lire la documentation</a>
 
 {{% /grid %}}
 {{% /grid %}}
@@ -154,7 +158,7 @@ et du nom de domaine du serveur sur lequel il se trouve (framatube.org).
 
 Les administrateurs d'une instance PeerTube peuvent se suivre mutuellement.
 Quand votre instance PeerTube suit une autre instance PeerTube, vous recevez
-les vidéos uploadées sur cette instance. De cette manière, vous pouvez afficher
+les informations d'affichage des vidéos de cette instance. De cette manière, vous pouvez afficher
 les vidéos présentes sur votre instance, et sur l'instance que avez décidé de suivre.
 Vous gardez donc le contrôle des vidéos affichées sur votre serveur PeerTube !
 
@@ -177,7 +181,7 @@ En regardant une vidéo, vous aidez l'hébergeur à la diffuser en devenant vous
 un diffuseur de cette vidéo. Chaque instance n'a donc pas besoin d'énormément d'argent
 pour diffuser les vidéos de ses utilisateurs !
 
-[Get started](#getting-started)
+[Se lancer](#getting-started)
 
 {{% /grid %}}
 {{% /grid %}}
