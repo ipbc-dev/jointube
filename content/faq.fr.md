@@ -130,8 +130,7 @@ id = "-faq"
     </div>
   </div>
 </div>
-<!--
-<!-- question 08 à effacer !!!-->
+<!-- question 08 à effacer !!!
 <div class="panel panel-default">
   <div class="panel-heading">
     <h4 class="panel-title">
