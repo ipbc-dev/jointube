@@ -184,7 +184,7 @@ id = "-faq"
   </div>
 </div>
 </div>
-<!-- fin accordéon-->
+<!-- fin accordéon--><p>
 {{% /grid %}}
 {{% /grid %}}
 {{% /grid %}}
