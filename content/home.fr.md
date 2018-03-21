@@ -162,6 +162,9 @@ les informations d'affichage des vidéos de cette instance. De cette manière, v
 les vidéos présentes sur votre instance, et sur l'instance que avez décidé de suivre.
 Vous gardez donc le contrôle des vidéos affichées sur votre serveur PeerTube !
 
+[Des questions ?](/fr/faq/)
+
+
 {{% /grid %}}
 {{% grid class="col-sm-7 text-center" %}}
 

@@ -181,6 +181,9 @@ id = "-faq"
 </div>
 </div>
 <!-- fin accordéon--><p>
+
+[Échanger sur notre forum](https://framacolibri.org/c/qualite/peertube)
+
 {{% /grid %}}
 {{% /grid %}}
 {{% /grid %}}
