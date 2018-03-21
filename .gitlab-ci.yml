@@ -25,7 +25,8 @@ deploy:
 pages:
   stage: deploy
   script:
-    - hugo -b "https://joinpeertube.framalab.org/"
+    - hugo -b "https://$GITLAB_USER_LOGIN.frama.io/$CI_PROJECT_NAME/"
+    - rm public/js/pathnamereplace.js
   artifacts:
     paths:
     - public
