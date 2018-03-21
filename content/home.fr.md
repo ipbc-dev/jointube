@@ -97,7 +97,7 @@ Lorsque vous regardez une vidéo avec PeerTube, la technologie WebTorrent
 vous permet de participer à la diffusion de cette vidéo avec les internautes qui
 la regardent en même temps que vous.
 Ce partage des flux vidéos permet une répartition saine des échanges sur la toile.
-De plus, le protocole de fédération (ActivityPub) permet en plus de publier les vidéos et commentaires sur d'autres outils qui l'utilisent, comme par exemple [Mastodon](https://joinmastodon.org) ! (expérimental)
+De plus, le protocole de fédération (ActivityPub) permet de publier les vidéos et commentaires sur d'autres outils qui l'utilisent, comme par exemple [Mastodon](https://joinmastodon.org) ! (expérimental)
 
 {{% /grid %}}
 {{% grid class="col-sm-4 col-sm-pull-8 text-center" %}}
@@ -161,6 +161,9 @@ Quand votre instance PeerTube suit une autre instance PeerTube, vous recevez
 les informations d'affichage des vidéos de cette instance. De cette manière, vous pouvez afficher
 les vidéos présentes sur votre instance, et sur l'instance que avez décidé de suivre.
 Vous gardez donc le contrôle des vidéos affichées sur votre serveur PeerTube !
+
+[Des questions ?](/fr/faq/)
+
 
 {{% /grid %}}
 {{% grid class="col-sm-7 text-center" %}}
