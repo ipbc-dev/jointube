@@ -10,6 +10,7 @@ type = "page"
 {{% grid class="row intro" %}}
 {{% grid class="container" %}}
 {{% grid class="col-sm-12 text-center" %}}
+
 # Video streaming, back in your hands
 ## A federated video streaming platform using P2P directly in the web browser
 
@@ -115,10 +116,12 @@ or the entire fediverse.
 
 ## Sign up {#getting-started}
 
-Liste des instances
+Instances' list
 
 <div id="instances-list" class="list-group"></div>
+
 <div id="instances-list-error" class="alert alert-danger" style="display: none">We are sorry but we failed to list available instances. Please try again later.</div>
+
 <div class="alert alert-info">This is like picking an e-mail hosting provider: the domain will be part of your username!</div>
 
 
@@ -162,7 +165,7 @@ to that user’s updates for the first time.
 {{% /grid %}}
 {{% grid class="col-sm-7 text-center" %}}
 
-[![](/pt-p2p.png)](../educ-pop)
+![](/pt-p2p.png)
 
 {{% /grid %}}
 {{% grid class="col-sm-12" %}}
