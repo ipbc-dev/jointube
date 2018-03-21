@@ -5,7 +5,6 @@ title = "Home"
 author = "Framasoft"
 draft = false
 type = "page"
-id = "-home"
 +++
 
 {{% grid class="row intro" %}}

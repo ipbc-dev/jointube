@@ -5,7 +5,6 @@ title = "Accueil"
 author = "Framasoft"
 draft = false
 type = "page"
-id = "-home"
 +++
 
 {{% grid class="row intro" %}}
@@ -45,10 +44,10 @@ id = "-home"
 
 ### Reprenez le pouvoir... et les responsabilités !
 
-PeerTube n'est pas une seule plateforme d'hébergement vidéo avec un unique groupe de règles : 
+PeerTube n'est pas une seule plateforme d'hébergement vidéo avec un unique groupe de règles :
 c'est un réseau de dizaines d'hébergeurs interconnectés, et chaque hébergeur est composé
-de personnes et d'administrateurs différents. Vous n'aimez pas certaines règles ? 
-Vous êtes libre de rejoindre l'hébergeur de votre choix, ou mieux encore, 
+de personnes et d'administrateurs différents. Vous n'aimez pas certaines règles ?
+Vous êtes libre de rejoindre l'hébergeur de votre choix, ou mieux encore,
 être votre propre hébergeur avec vos propres règles !
 
 {{% /grid %}}
@@ -77,11 +76,11 @@ Personnaliser le bouton **Soutenir** vous permettra d'indiquer librement à votr
 
 Vous êtes une personne, pas un produit. PeerTube est un logiciel libre gratuit
 financé par une association française à but non lucratif : [Framasoft](https://soutenir.framasoft.org/association).
-Toutes les instances sont créées, animées, modérées et maintenues de façon 
+Toutes les instances sont créées, animées, modérées et maintenues de façon
 indépendante. PeerTube n'est soumis au monopole d'aucune entreprise, ne dépend
 d'aucune publicité et ne vous piste pas.
 Avec PeerTube vous n'êtes pas un produit :
-c'est PeerTube qui est à votre service, et pas l'inverse. 
+c'est PeerTube qui est à votre service, et pas l'inverse.
 
 {{% /grid %}}
 {{% grid class="col-sm-4" %}}
@@ -129,9 +128,9 @@ Liste des instances sur lesquelles vous pouvez vous inscrire :
 
 ## Installez la vôtre
 
-Intéressé par l'hébergement de votre propre instance, pour vos amis, votre famille 
-ou organisation ? Vous pouvez commencer par [lire la documentation qui concerne 
-l'installation](https://github.com/Chocobozzz/PeerTube/blob/develop/support/doc/production.md). 
+Intéressé par l'hébergement de votre propre instance, pour vos amis, votre famille
+ou organisation ? Vous pouvez commencer par [lire la documentation qui concerne
+l'installation](https://github.com/Chocobozzz/PeerTube/blob/develop/support/doc/production.md).
 
 Vous hébergerez seulement vos propres utilisateurs ainsi que
 leurs propres vidéos. Vous pouvez définir le nombre d'inscritptions disponibles et un quota d'espace-disque par utilisateur. Sur votre page d'accueil ne s'afficheront que les vidéos des instances que vous aurez **choisi** de suivre.
@@ -147,12 +146,12 @@ leurs propres vidéos. Vous pouvez définir le nombre d'inscritptions disponible
 
 ## Comment ça fonctionne {#how-it-works}
 
-N'importe qui peut héberger un serveur PeerTube qu'on nomme **instance**. 
-Chaque instance héberge ses propres utilisateurs et leurs vidéos. Il garde 
+N'importe qui peut héberger un serveur PeerTube qu'on nomme **instance**.
+Chaque instance héberge ses propres utilisateurs et leurs vidéos. Il garde
 aussi une vision des vidéos présentes sur les instances suivies par l'administrateur
-afin de pouvoir les proposer à ses utilisateurs. 
+afin de pouvoir les proposer à ses utilisateurs.
 
-Chaque compte possède un identifiant global unique (comme par exemple 
+Chaque compte possède un identifiant global unique (comme par exemple
 @chocobozzz@framatube.org) qui est composé d'un pseudonyme (@chocobozzz)
 et du nom de domaine du serveur sur lequel il se trouve (framatube.org).
 
@@ -175,7 +174,7 @@ Vous gardez donc le contrôle des vidéos affichées sur votre serveur PeerTube 
 
 ### En quoi c'est génial ?
 
-Chaque serveur fonctionne de manière indépendante et est géré par une personne 
+Chaque serveur fonctionne de manière indépendante et est géré par une personne
 ou organisation différente, pouvant donc appliquer des règles de modération
 et de bonne conduite variées, vous permettant de trouver l'instance qui vous
 conviendra le mieux.
