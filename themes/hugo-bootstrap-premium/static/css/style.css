@@ -191,7 +191,7 @@ body .medias .container {
 }
 
 .intro a[href="#how-it-works"],
-.install a[href*="github"] {
+.install a[href="https://github.com/Chocobozzz/PeerTube/#production"] {
     margin-right: auto;
     color: #F1680D;
     background: #fff;
