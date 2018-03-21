@@ -136,7 +136,7 @@ l'installation](https://github.com/Chocobozzz/PeerTube/blob/develop/support/doc/
 Vous hébergerez seulement vos propres utilisateurs ainsi que
 leurs propres vidéos. Vous pouvez définir le nombre d'inscritptions disponibles et un quota d'espace-disque par utilisateur. Sur votre page d'accueil ne s'afficheront que les vidéos des instances que vous aurez **choisi** de suivre.
 
-<a href="https://github.com/Chocobozzz/PeerTube/#production" target="_blank">Read the docs</a>
+<a href="https://github.com/Chocobozzz/PeerTube/#production" target="_blank">Lire la documentation</a>
 
 {{% /grid %}}
 {{% /grid %}}
@@ -181,7 +181,7 @@ En regardant une vidéo, vous aidez l'hébergeur à la diffuser en devenant vous
 un diffuseur de cette vidéo. Chaque instance n'a donc pas besoin d'énormément d'argent
 pour diffuser les vidéos de ses utilisateurs !
 
-[Get started](#getting-started)
+[Se lancer](#getting-started)
 
 {{% /grid %}}
 {{% /grid %}}
