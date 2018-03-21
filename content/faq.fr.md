@@ -5,10 +5,9 @@ title = "FAQ"
 author = "Framasoft"
 draft = false
 type = "page"
-id = "-faq"
 +++
 
-{{% grid class="row" %}}
+{{% grid class="row faq" %}}
 {{% grid class="container" %}}
 {{% grid class="col-sm-12" %}}
 <h2 class="text-center">Quelques questions pour découvrir PeerTube…</h2>

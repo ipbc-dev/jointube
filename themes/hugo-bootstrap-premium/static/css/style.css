@@ -12,7 +12,7 @@ body {
 body > .container {
     padding: 0 15px;
     margin-top: 0px;
-    width:100%;
+    width: 100%;
 }
 
 .navbar-brand {
@@ -74,8 +74,8 @@ body .content .container {
     background: #fff;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding-top:20px;
-    padding-bottom:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     -webkit-box-shadow: 0px 3px 4px rgba(50, 50, 50, 0.2);
     -moz-box-shadow: 0px 3px 4px rgba(50, 50, 50, 0.2);
     box-shadow: 0px 3px 4px rgba(50, 50, 50, 0.2);
@@ -85,9 +85,9 @@ body .medias .container {
     background: transparent;
 }
 
-.intro {
+.intro, .faq {
     background: transparent;
-    margin-top:-70px;
+    margin-top: -70px;
 }
 
 .medias {
@@ -126,8 +126,8 @@ body .medias .container {
 .navbar {
     background: transparent;
     border: none;
-    margin-top:30px;
-    z-index:2;
+    margin-top: 30px;
+    z-index: 2;
 }
 .navbar .container {
     background: #f7f7f7;
@@ -143,7 +143,7 @@ body .medias .container {
     padding: 30px;
     font-size: 1.5em;
     color: #F1680D;
-    opacity:0.7;
+    opacity: 0.7;
 }
 
 
@@ -164,23 +164,25 @@ body .medias .container {
 /* Buttons */
 .intro a[href^="#"],
 .install a[href="https://github.com/Chocobozzz/PeerTube/#production"],
-.how-it-works a[href^="#"] {
-    margin-top:20px;
-    margin-bottom:20px;
+.how-it-works a[href^="#"],
+.how-it-works a[href*="/faq"],
+.faq a[href="https://framacolibri.org/c/qualite/peertube"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-weight: 500;
     padding: 10px 16px;
     font-size: 18px;
     line-height: 1.3333333;
     border-radius: 6px;
-    opacity:0.8;
-    text-decoration:none;
-    display:inline-block;
+    opacity: 0.8;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .intro a[href^="#"]:hover,
 .install a:hover,
 .how-it-works a[href^="#"]:hover {
-    opacity:1;
+    opacity: 1;
 }
 
 .intro a[href="#getting-started"],
@@ -191,7 +193,9 @@ body .medias .container {
 }
 
 .intro a[href="#how-it-works"],
-.install a[href="https://github.com/Chocobozzz/PeerTube/#production"] {
+.install a[href="https://github.com/Chocobozzz/PeerTube/#production"],
+.how-it-works a[href*="/faq"],
+.faq a[href="https://framacolibri.org/c/qualite/peertube"] {
     margin-right: auto;
     color: #F1680D;
     background: #fff;
@@ -265,4 +269,8 @@ body .medias .container {
     font-size: small;
     margin: 0;
     padding: 5px 0;
+}
+
+.faq h2 {
+    margin: 40px 0px;
 }
