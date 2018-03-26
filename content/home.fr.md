@@ -165,7 +165,6 @@ Vous gardez donc le contrôle des vidéos affichées sur votre serveur PeerTube 
 
 [Des questions ?](/fr/faq/)
 
-
 {{% /grid %}}
 {{% grid class="col-sm-7 text-center" %}}
 
