@@ -1,5 +1,5 @@
 $(function () {
-  const instancesApi = 'https://instances.peertu.be/api/v1/instances'
+  const instancesApi = 'https://instances.joinpeertube.org/api/v1/instances'
   const data = {
     start: 0,
     count: 100,
