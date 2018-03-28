@@ -1,0 +1,35 @@
+[[Languages.en.menu.switchlang]]
+  name = "Français"
+  identifier = ""
+  weight = 4
+  url = "fr"
+
+[Languages.en]
+languageCode = "en"
+weight = 1
+title = "PeerTube"
+
+[[Languages.en.menu.main]]
+name = "FAQ"
+identifier = "faq"
+weight = 2
+title = "FAQ"
+url = "/en/faq/"
+
+[[Languages.en.menu.main]]
+name = "Support"
+weight = 3
+identifier = ""
+url = "https://framacolibri.org/c/qualite/peertube"
+
+[[Languages.en.menu.main]]
+name = "Documentation"
+weight = 4
+identifier = ""
+url = "https://peertube.frama.wiki"
+
+[[Languages.en.menu.main]]
+name = "Source code"
+weight = 5
+identifier = ""
+url = "https://github.com/Chocobozzz/PeerTube"

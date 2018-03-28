@@ -10,6 +10,7 @@ type = "page"
 {{% grid class="row intro" %}}
 {{% grid class="container" %}}
 {{% grid class="col-sm-12 text-center" %}}
+
 # Reprenez le contrôle de vos vidéos
 ## L'hébergement de vidéos décentralisé, en réseau, basé sur du logiciel libre
 
@@ -117,6 +118,7 @@ Liste des instances sur lesquelles vous pouvez vous inscrire :
 <div id="instances-list" class="list-group"></div>
 
 <div id="instances-list-error" class="alert alert-danger" style="display: none">Nous sommes désolé mais nous n'arrivons pas à récupérer la liste des instances. Merci de réessayer plus tard.</div>
+
 <div class="alert alert-info">C'est comme choisir un fournisseur d'email : le nom de domaine fera partie de votre identifiant !</div>
 
 {{% /grid %}}
@@ -162,7 +164,6 @@ les vidéos présentes sur votre instance, et sur l'instance que avez décidé d
 Vous gardez donc le contrôle des vidéos affichées sur votre serveur PeerTube !
 
 [Des questions ?](/fr/faq/)
-
 
 {{% /grid %}}
 {{% grid class="col-sm-7 text-center" %}}

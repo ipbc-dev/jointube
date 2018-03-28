@@ -9,7 +9,7 @@ type = "page"
 
 {{% grid class="row faq" %}}
 {{% grid class="container" %}}
-{{% grid class="col-sm-12" %}}
+{{< grid class="col-sm-12" >}}
 <h2 class="text-center">Quelques questions pour découvrir PeerTube…</h2>
 
 <!--début accordéon-->
@@ -18,14 +18,30 @@ type = "page"
 <div class="panel panel-default">
   <div class="panel-heading">
     <h4 class="panel-title">
-      <a data-toggle="collapse" data-parent="#accordion" href="#collapse01">1. C'est quoi, PeerTube ?</a>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse01">
+
+1. C’est quoi, PeerTube ?
+
+      </a>
     </h4>
   </div>
   <div id="collapse01" class="panel-collapse collapse in">
     <div class="panel-body">
-      <p>PeerTube est un logiciel qui s'intalle sur un serveur. Il permet de créer un site web d'hébergement et de diffusion de vidéos, un peu comme YouTube.</p>
-      <p>La différence avec YouTube, c'est qu'il n'est pas pensé pour créer une énorme plateforme centralisant les vidéos du monde entier sur une ferme de serveurs (qui coûte horriblement cher).</p>
-      <p>Au contraire, le concept de PeerTube est de créer un réseau de nombreux petits hébergeurs de vidéos, interconnectés.</p>
+      <p>
+
+PeerTube est un logiciel qui s’intalle sur un serveur. Il permet de créer un site web d’hébergement et de diffusion de vidéos, un peu comme YouTube.
+
+      </p>
+      <p>
+
+La différence avec YouTube, c’est qu’il n’est pas pensé pour créer une énorme plateforme centralisant les vidéos du monde entier sur une ferme de serveurs (qui coûte horriblement cher).
+
+      </p>
+      <p>
+
+Au contraire, le concept de PeerTube est de créer un réseau de nombreux petits hébergeurs de vidéos, interconnectés.
+
+</p>
     </div>
   </div>
 </div>
@@ -33,18 +49,42 @@ type = "page"
 <div class="panel panel-default">
   <div class="panel-heading">
     <h4 class="panel-title">
-      <a data-toggle="collapse" data-parent="#accordion" href="#collapse02">2. Pourquoi créer un nouveau logiciel pour héberger des vidéos ?</a>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse02">
+
+2. Pourquoi créer un nouveau logiciel pour héberger des vidéos ?
+
+      </a>
     </h4>
   </div>
   <div id="collapse02" class="panel-collapse collapse">
     <div class="panel-body">
-      <p>PeerTube est unique car (à notre connaissance), c'est la seule application web d'hébergement vidéo qui allie trois avantages :</p>
+      <p>
+
+PeerTube est unique car (à notre connaissance), c’est la seule application web d’hébergement vidéo qui allie trois avantages :
+
+      </p>
       <ol>
-        <li>Un code ouvert (transparence) sous licence libre (éthique, respect & developpement communautaire) ;</li>
-        <li>Une fédération d'hébergements interconnectés (donc plus de choix de vidéos où qu'on aille les voir) ;</li>
-        <li>De la diffusion -et donc du visionnage- en pair-à-pair (donc pas de ralentissement quand une vidéo devient virale).</li>
+        <li>
+
+Un code ouvert (transparence) sous licence libre (éthique, respect & developpement communautaire) ;
+
+        </li>
+        <li>
+
+Une fédération d’hébergements interconnectés (donc plus de choix de vidéos où qu’on aille les voir) ;
+
+        </li>
+        <li>
+
+De la diffusion -et donc du visionnage- en pair-à-pair (donc pas de ralentissement quand une vidéo devient virale).
+
+        </li>
       </ol>
-      <p>Liées ensemble, ces trois caractéristiques permettent de faciliter l'hébergement de vidéos côté serveur, tout en restant pratique, éthique et amusant côté internautes.</p>
+      <p>
+
+Liées ensemble, ces trois caractéristiques permettent de faciliter l’hébergement de vidéos côté serveur, tout en restant pratique, éthique et amusant côté internautes.
+
+      </p>
     </div>
   </div>
 </div>
@@ -52,17 +92,41 @@ type = "page"
 <div class="panel panel-default">
   <div class="panel-heading">
     <h4 class="panel-title">
-      <a data-toggle="collapse" data-parent="#accordion" href="#collapse03">3. Pourquoi c'est mieux que ce soit un logiciel libre ?</a>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse03">
+
+3. Pourquoi c’est mieux que ce soit un logiciel libre ?
+
+      </a>
     </h4>
   </div>
   <div id="collapse03" class="panel-collapse collapse">
     <div class="panel-body">
-      <p>Parce que c'est un logiciel qui respecte nos libertés fondamentales, et les garantit par <a href="https://github.com/Chocobozzz/PeerTube/blob/develop/LICENSE">une licence</a>, donc un contrat légalement opposable.</p>
-      <p>Concrètement, ici, cela signifie que :</p>
+      <p>
+
+Parce que c’est un logiciel qui respecte nos libertés fondamentales, et les garantit par <a href="https://github.com/Chocobozzz/PeerTube/blob/develop/LICENSE">une licence</a>, donc un contrat légalement opposable.
+
+      </p>
+      <p>
+
+Concrètement, ici, cela signifie que :
+
+      </p>
       <ul>
-        <li>PeerTube est diffusé gratuitement, pas besoin de payer pour l'installer sur son serveur ;</li>
-        <li>On peut regarder sous le capot de PeerTube (son code source) : il est auditable, transparent ;</li>
-        <li>Son développement est communautaire, il peut s'enrichir des contributions de chacun·e.</li>
+        <li>
+
+PeerTube est diffusé gratuitement, pas besoin de payer pour l’installer sur son serveur ;
+
+        </li>
+        <li>
+
+On peut regarder sous le capot de PeerTube (son code source) : il est auditable, transparent ;
+
+        </li>
+        <li>
+
+Son développement est communautaire, il peut s’enrichir des contributions de chacun·e.
+
+        </li>
       </ul>
     </div>
   </div>
@@ -71,15 +135,35 @@ type = "page"
 <div class="panel panel-default">
   <div class="panel-heading">
     <h4 class="panel-title">
-      <a data-toggle="collapse" data-parent="#accordion" href="#collapse04">4. Quel est l'intérêt de fédérer les hébergements de vidéos ?</a>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse04">
+
+4. Quel est l’intérêt de fédérer les hébergements de vidéos ?
+
+      </a>
     </h4>
   </div>
   <div id="collapse04" class="panel-collapse collapse">
     <div class="panel-body">
-      <p>L'avantage de YouTube (et autres plateformes), c'est son catalogue vidéo : du tuto tricot aux constructions minecraft en passant par les vidéos de chatons ou de vacances… on y trouve de tout !</p>
-      <p>Plus le catalogue vidéo est varié, plus il y a de public intéressé, plus on y poste de vidéos… mais héberger les vidéos du monde entier coûte (très, très) cher !</p>
-      <p>Si l'hébergeur Tricot-PeerTube devient ami avec Chatons-Tube et Framatube, il affichera les vidéos des autres sur son site : on dilue ainsi les coûts d'hébergement tout en restant pratique et complet pour les internautes.</p>
-      <p>Le protocole de fédération de PeerTube sera fluide (chacun peut choisir ses hébergeurs "amis"), et basé sur <a href="https://activitypub.rocks/">ActivityPub</a> : cela ouvrira la possibilité de se connecter avec des outils comme Mastodon ou MediaGoblin.</p>
+      <p>
+
+L’avantage de YouTube (et autres plateformes), c’est son catalogue vidéo : du tuto tricot aux constructions minecraft en passant par les vidéos de chatons ou de vacances… on y trouve de tout !
+
+      </p>
+      <p>
+
+Plus le catalogue vidéo est varié, plus il y a de public intéressé, plus on y poste de vidéos… mais héberger les vidéos du monde entier coûte (très, très) cher !
+
+      </p>
+      <p>
+
+Si l’hébergeur Tricot-PeerTube devient ami avec Chatons-Tube et Framatube, il affichera les vidéos des autres sur son site : on dilue ainsi les coûts d’hébergement tout en restant pratique et complet pour les internautes.
+
+      </p>
+      <p>
+
+Le protocole de fédération de PeerTube sera fluide (chacun peut choisir ses hébergeurs "amis"), et basé sur <a href="https://activitypub.rocks/">ActivityPub</a> : cela ouvrira la possibilité de se connecter avec des outils comme Mastodon ou MediaGoblin.
+
+      </p>
     </div>
   </div>
 </div>
@@ -87,14 +171,30 @@ type = "page"
 <div class="panel panel-default">
   <div class="panel-heading">
     <h4 class="panel-title">
-      <a data-toggle="collapse" data-parent="#accordion" href="#collapse05">5. Pourquoi diffuser les vidéos en pair-à-pair ?</a>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse05">
+
+5. Pourquoi diffuser les vidéos en pair-à-pair ?
+
+      </a>
     </h4>
   </div>
   <div id="collapse05" class="panel-collapse collapse">
     <div class="panel-body">
-      <p>Lorsque l'on héberge un fichier lourd comme une vidéo, la plus grosse chose à craindre, c'est le succès : si une vidéo devient virale et que plein de personnes la regardent en même temps, le serveur a de gros risque de tomber !</p>
-      <p>La diffusion en pair-à-pair permet, grâce au protocole <a href="https://fr.wikipedia.org/wiki/WebRTC">WebRTC</a>, que les internautes qui regardent la même vidéo en même temps s'échangent des bouts de fichiers, ce qui soulage le serveur.</p>
-      <p>Il n'y a rien à faire : votre navigateur web le fait automatiquement. Si vous êtes sur mobile ou si votre réseau ne le permet pas (routeur, pare-feu, etc.), cette fonction est désactivée pour repasser à une diffusion vidéo "à l'ancienne" ;).</p>
+      <p>
+
+Lorsque l’on héberge un fichier lourd comme une vidéo, la plus grosse chose à craindre, c’est le succès : si une vidéo devient virale et que plein de personnes la regardent en même temps, le serveur a de gros risque de tomber !
+
+      </p>
+      <p>
+
+La diffusion en pair-à-pair permet, grâce au protocole <a href="https://fr.wikipedia.org/wiki/WebRTC">WebRTC</a>, que les internautes qui regardent la même vidéo en même temps s’échangent des bouts de fichiers, ce qui soulage le serveur.
+
+      </p>
+      <p>
+
+Il n’y a rien à faire : votre navigateur web le fait automatiquement. Si vous êtes sur mobile ou si votre réseau ne le permet pas (routeur, pare-feu, etc.), cette fonction est désactivée pour repasser à une diffusion vidéo "à l’ancienne" ;).
+
+      </p>
     </div>
   </div>
 </div>
@@ -102,15 +202,35 @@ type = "page"
 <div class="panel panel-default">
   <div class="panel-heading">
     <h4 class="panel-title">
-      <a data-toggle="collapse" data-parent="#accordion" href="#collapse06">6. Dès mars 2018, PeerTube va détrôner YouTube ?</a>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse06">
+
+6. Dès mars 2018, PeerTube va détrôner YouTube ?
+
+      </a>
     </h4>
   </div>
   <div id="collapse06" class="panel-collapse collapse">
     <div class="panel-body">
-      <p>On peut répondre avec certitude : non !</p>
-      <p>En mars 2018, PeerTube a sorti sa version bêta, utilisable publiquement. Plusieurs collectifs ont monté des premiers hébergements, créant ainsi les bases de la fédération.</p>
-      <p>Mais PeerTube n'est pas (encore) parfait, et de nombreuses fonctionnalités manquent à l'appel. Nous comptons bien continuer de l'améliorer pour sortir une version 1 d'ici fin 2018.</p>
-      <p>Mars 2018 représente donc la naissance des fédérations PeerTube : plus ce logiciel sera utilisé et soutenu, plus des personnes l'utiliseront et y contriburont, et plus vite il évolura vers une alternative concrète aux plateformes telles que YouTube.</p>
+      <p>
+
+On peut répondre avec certitude : non !
+
+      </p>
+      <p>
+
+En mars 2018, PeerTube a sorti sa version bêta, utilisable publiquement. Plusieurs collectifs ont monté des premiers hébergements, créant ainsi les bases de la fédération.
+
+      </p>
+      <p>
+
+Mais PeerTube n’est pas (encore) parfait, et de nombreuses fonctionnalités manquent à l’appel. Nous comptons bien continuer de l’améliorer pour sortir une version 1 d’ici fin 2018.
+
+      </p>
+      <p>
+
+Mars 2018 représente donc la naissance des fédérations PeerTube : plus ce logiciel sera utilisé et soutenu, plus des personnes l’utiliseront et y contriburont, et plus vite il évolura vers une alternative concrète aux plateformes telles que YouTube.
+
+      </p>
     </div>
   </div>
 </div>
@@ -118,14 +238,29 @@ type = "page"
 <div class="panel panel-default">
   <div class="panel-heading">
     <h4 class="panel-title">
-      <a data-toggle="collapse" data-parent="#accordion" href="#collapse07">7. Mais si c'est libre, on verra tout et n'importe quoi, comme vidéos ?</a>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse07">
+
+7. Mais si c’est libre, on verra tout et n’importe quoi, comme vidéos ?
+
+    </a>
     </h4>
   </div>
   <div id="collapse07" class="panel-collapse collapse">
     <div class="panel-body">
-      <p>Être libre ne signifie pas être au dessus de la loi ! Chaque hébergement PeerTube peut décider de ses propres conditions générales d'utilisation, dans le cadre de la loi dont ils dépendent.</p>
-      <p>Par exemple, en France, les contenus discriminants <a href="https://fr.wikipedia.org/wiki/Lois_contre_le_racisme_et_les_discours_de_haine">sont interdits</a> et peuvent être <a href="http://stop-discrimination.gouv.fr/agir/ne-pas-laisser-faire-les-recours">signalés aux autorités</a>. PeerTube permet aux internautes de signaler une vidéo problématique, et chaque hébergeur doit alors appliquer sa modération conformément à ses conditions générales et à la loi.</p>
-      <p>Le système de fédération, quant à lui, permet aux hébergeurs de décider avec qui ils veulent se mettre en réseau, ou pas, selon les types de contenus ou les politiques de modération des autres.</p>
+      <p>
+
+Être libre ne signifie pas être au dessus de la loi ! Chaque hébergement PeerTube peut décider de ses propres conditions générales d’utilisation, dans le cadre de la loi dont ils dépendent.
+
+      </p>
+      <p>
+
+Par exemple, en France, les contenus discriminants <a href="https://fr.wikipedia.org/wiki/Lois_contre_le_racisme_et_les_discours_de_haine">sont interdits</a> et peuvent être <a href="http://stop-discrimination.gouv.fr/agir/ne-pas-laisser-faire-les-recours">signalés aux autorités</a>. PeerTube permet aux internautes de signaler une vidéo problématique, et chaque hébergeur doit alors appliquer sa modération conformément à ses conditions générales et à la loi.
+
+      </p>
+      <p>
+
+Le système de fédération, quant à lui, permet aux hébergeurs de décider avec qui ils veulent se mettre en réseau, ou pas, selon les types de contenus ou les politiques de modération des autres.
+      </p>
     </div>
   </div>
 </div>
@@ -133,15 +268,15 @@ type = "page"
 <div class="panel panel-default">
   <div class="panel-heading">
     <h4 class="panel-title">
-      <a data-toggle="collapse" data-parent="#accordion" href="#collapse08">8. Mais ce PeerTube, pourquoi vous l'appellez Framatube ?</a>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse08">8. Mais ce PeerTube, pourquoi vous l’appellez Framatube ?</a>
     </h4>
   </div>
   <div id="collapse08" class="panel-collapse collapse">
     <div class="panel-body">
       <p>Framatube est le nom que nous avons donné au projet de financement participatif, pour promouvoir le développement de PeerTube.</p>
-      <p>Dès mars 2018, lorsque PeerTube aura une version bêta utilisée publiquement, Framatube ne deviendra qu'un des hébergements PeerTube, qu'une des portes d'entrées vers ce réseau fédéré.</p>
-      <p>Le futur hébergment Framatube n'hébergera que des vidéos sous licences libres, traitant du logiciel libre et de sa culture. Mais il sera en relation avec d'autres hébergements qui pourront, peut-être, héberger vos vidéos.</p>
-      <p>Le nom Framatube vient du nom de notre association, <a href="https://fr.wikipedia.org/wiki/Framasoft">Framasoft</a> : nous avons voulu mettre nos moyens et notre réputation au service de ce projet car nous croyons qu'il peut radicalement changer le paysage numérique.</p>
+      <p>Dès mars 2018, lorsque PeerTube aura une version bêta utilisée publiquement, Framatube ne deviendra qu’un des hébergements PeerTube, qu’une des portes d’entrées vers ce réseau fédéré.</p>
+      <p>Le futur hébergment Framatube n’hébergera que des vidéos sous licences libres, traitant du logiciel libre et de sa culture. Mais il sera en relation avec d’autres hébergements qui pourront, peut-être, héberger vos vidéos.</p>
+      <p>Le nom Framatube vient du nom de notre association, <a href="https://fr.wikipedia.org/wiki/Framasoft">Framasoft</a> : nous avons voulu mettre nos moyens et notre réputation au service de ce projet car nous croyons qu’il peut radicalement changer le paysage numérique.</p>
     </div>
   </div>
 </div>
@@ -150,15 +285,35 @@ type = "page"
 <div class="panel panel-default">
   <div class="panel-heading">
     <h4 class="panel-title">
-      <a data-toggle="collapse" data-parent="#accordion" href="#collapse09">8. C'est qui ce « Framasoft » qui organise le développement de PeerTube ?</a>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse09">
+
+8. C’est qui ce « Framasoft » qui organise le développement de PeerTube ?
+
+      </a>
     </h4>
   </div>
   <div id="collapse09" class="panel-collapse collapse">
     <div class="panel-body">
-      <p>Framasoft est une petite associaiton loi 1901 basée en France, qui existe depuis 2004. Notre but est de promouvoir les libertés numériques auprès du grand public, à l'aide de projets concrets.</p>
-      <p>D'octobre 2014 à octobre 2017, nous avons fait campagne pour "<a href="https://degooglisons-internet.org">Dégoogliser Internet</a>", afin de démontrer que le logiciel libre peut être une alternative éthique aux services des géants du web.</p>
-      <p>Nous hébergons aujourd'hui plus de <a href="http://degooglisons-internet.org/liste/">30 services alternatifs</a> qui permettent à des centaines de milliers de personnes de changer leurs habitudes numériques, le tout étant principalement financé par les dons.</p>
-      <p>Nous nous sommes investis dans le financement de PeerTube dans le cadre de notre nouvelle campagne <a href="https://contributopia.org">Contributopia</a>, qui vise à concrétiser les outils numériques d'une socité de la contribution.</p>
+      <p>
+
+Framasoft est une petite associaiton loi 1901 basée en France, qui existe depuis 2004. Notre but est de promouvoir les libertés numériques auprès du grand public, à l’aide de projets concrets.
+
+      </p>
+      <p>
+
+D’octobre 2014 à octobre 2017, nous avons fait campagne pour "<a href="https://degooglisons-internet.org">Dégoogliser Internet</a>", afin de démontrer que le logiciel libre peut être une alternative éthique aux services des géants du web.
+
+      </p>
+      <p>
+
+Nous hébergons aujourd’hui plus de <a href="http://degooglisons-internet.org/liste/">30 services alternatifs</a> qui permettent à des centaines de milliers de personnes de changer leurs habitudes numériques, le tout étant principalement financé par les dons.
+
+      </p>
+      <p>
+
+Nous nous sommes investis dans le financement de PeerTube dans le cadre de notre nouvelle campagne <a href="https://contributopia.org">Contributopia</a>, qui vise à concrétiser les outils numériques d’une socité de la contribution.
+
+      </p>
     </div>
   </div>
 </div>
@@ -166,23 +321,43 @@ type = "page"
 <div class="panel panel-default">
   <div class="panel-heading">
     <h4 class="panel-title">
-      <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">9. Si je soutiens Framasoft, où ira mon argent ?</a>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">
+
+9. Si je soutiens Framasoft, où ira mon argent ?
+
+      </a>
     </h4>
   </div>
   <div id="collapse10" class="panel-collapse collapse">
     <div class="panel-body">
-      <p>Il ira dans le budget de l'association Framasoft, comme tous les dons que nous recevons.</p>
-      <p>Selon la loi française dont dépend Framasoft, un don ne peut pas engager de contrepartie ni être attribué à un poste spécifique des dépenses d'une association.</p>
-      <p>Nous cherchons à être transparents et à rendre compte régulièrement de l'ensemble des actions que nous menons, que ce soit dans notre <a href="https://framablog.org">blog</a>, notre <a href="https://contact.framasoft.org/newsletter/">newsletter</a>, ou sur nos comptes de médias sociaux.</p>
-      <p>Notre comptabilité est vérifiée et validée par un commissaire aux comptes indépendant dont nous publions les rapports annuels <a href="https://soutenir.framasoft.org/association">sur cette page</a> (voir <a href="https://soutenir.framasoft.org/sites/default/files/rapport_financier_2016.pdf">le rapport 2016</a>).</p>
+      <p>
+
+Il ira dans le budget de l’association Framasoft, comme tous les dons que nous recevons.
+
+      </p>
+      <p>
+
+Selon la loi française dont dépend Framasoft, un don ne peut pas engager de contrepartie ni être attribué à un poste spécifique des dépenses d’une association.
+
+      </p>
+      <p>
+
+Nous cherchons à être transparents et à rendre compte régulièrement de l’ensemble des actions que nous menons, que ce soit dans notre <a href="https://framablog.org">blog</a>, notre <a href="https://contact.framasoft.org/newsletter/">newsletter</a>, ou sur nos comptes de médias sociaux.
+
+      </p>
+      <p>
+
+Notre comptabilité est vérifiée et validée par un commissaire aux comptes indépendant dont nous publions les rapports annuels <a href="https://soutenir.framasoft.org/association">sur cette page</a> (voir <a href="https://soutenir.framasoft.org/sites/default/files/rapport_financier_2016.pdf">le rapport 2016</a>).
+
+      </p>
     </div>
   </div>
 </div>
 </div>
 <!-- fin accordéon--><p>
 
-[Échanger sur notre forum](https://framacolibri.org/c/qualite/peertube)
+<a href="https://framacolibri.org/c/qualite/peertube">Échanger sur notre forum</a>
 
-{{% /grid %}}
+{{< /grid >}}
 {{% /grid %}}
 {{% /grid %}}

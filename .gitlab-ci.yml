@@ -6,13 +6,13 @@ stages:
 validity-check:
   stage: validity-check
   script:
-    - hugo
+    - hugo --config=config.toml,`ls config/*toml | paste -sd "," -`
     - find public -name index.html | xargs java -jar /opt/dist/vnu.jar
 
 deploy:
   stage: deploy
   script:
-    - hugo -b "https://joinpeertube.org"
+    - hugo --config=config.toml,`ls config/*toml | paste -sd "," -` -b "https://joinpeertube.org"
     - mkdir "${HOME}/.ssh"
     - chmod 700 "${HOME}/.ssh"
     - if [ ! -z ${DEPLOYEMENT_KNOWN_HOSTS+x} ]; then echo -e "${DEPLOYEMENT_KNOWN_HOSTS}" > ${HOME}/.ssh/known_hosts; fi
@@ -22,13 +22,20 @@ deploy:
   only:
     - master
 
+trads:
+  stage: deploy
+  image: framasoft/push-trad:latest
+  script:
+  - if [ ! -z ${ZANATA_CONFIG_FRAMABOT+x} ]; then mkdir -p ${HOME}/.config; echo -e "${ZANATA_CONFIG_FRAMABOT}" > ${HOME}/.config/zanata.ini; fi
+  - if [ ! -z ${ZANATA_CONFIG_FRAMABOT+x} ]; then make push-locales; fi
+  only:
+    - master
+
 pages:
   stage: deploy
   script:
-    - hugo -b "https://$GITLAB_USER_LOGIN.frama.io/$CI_PROJECT_NAME/"
+    - hugo --config=config.toml,`ls config/*toml | paste -sd "," -` -b "https://$GITLAB_USER_LOGIN.frama.io/$CI_PROJECT_NAME/"
     - rm public/js/pathnamereplace.js
   artifacts:
     paths:
     - public
-  only:
-    - master
