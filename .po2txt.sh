@@ -8,7 +8,7 @@ do
     then
         po2txt -i $i --progress none -o po/$l.toml
     else
-        po2txt -i $i --progress none -o po/$j.md
+        po2txt -i $i --progress none -t content/$k.fr.md -o po/$j.md
     fi
 done
 mv po/*.md content/
