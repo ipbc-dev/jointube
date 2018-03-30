@@ -76,6 +76,13 @@ $(function () {
       rightDiv.append(li)
     }
 
+    if (instance.userVideoQuota) {
+      const li = $('<li>', {
+        text: bytes(instance.userVideoQuota) + ' per user'
+      })
+      rightDiv.append(li)
+    }
+
     a.append(leftDiv, rightDiv)
 
     return a
@@ -89,5 +96,21 @@ $(function () {
     }
 
     return a
+  }
+
+  // https://github.com/danrevah/ngx-pipes/blob/master/src/pipes/math/bytes.ts
+  const dictionaryBytes = [
+    { max: 1024, type: 'B' },
+    { max: 1048576, type: 'KB' },
+    { max: 1073741824, type: 'MB' },
+    { max: 1.0995116e12, type: 'GB' }
+  ]
+  function bytes (value) {
+    if (value === -1) return 'No quota'
+
+    const format = dictionaryBytes.find(function (d) { return value < d.max }) || dictionaryBytes[dictionaryBytes.length - 1]
+    const calc = Math.floor(value / (format.max / 1024)).toString()
+
+    return calc + format.type
   }
 })

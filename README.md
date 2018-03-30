@@ -7,5 +7,5 @@ Homepage of [joinpeertube.org](https://joinpeertube.org) based on [Hugo](https:/
 
 To see your changes in action, run :
 
-    hugo server -D -b "http://localhost:1313/"
+    $ make serve
 
