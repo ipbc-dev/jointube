@@ -29,12 +29,12 @@ type = "page"
     <div class="panel-body">
       <p>
 
-PeerTube is a software that you install on a web server. It allows creating an video hosting website, a bit like YouTube.
+PeerTube is a software that you install on a web server. It allows you to create a video hosting website, a bit like YouTube.
 
       </p>
       <p>
 
-The difference with YouTube is that it's not thought to create a huge plateform centralizing videos from the whole world on a single server farm (which is horribly expensive).
+The difference to YouTube is that it's not intended to create a huge platform centralizing videos from the whole world on a single server farm (which is horribly expensive).
 
       </p>
       <p>
@@ -66,7 +66,7 @@ PeerTube is unique because (as far as we know) it's the only video hosting web a
       <ol>
         <li>
 
-An open code (transparency) under a free/libre licence (ethic, respect and community development) ;
+An open code (transparency) under a free/libre license (ethic, respect and community development) ;
 
         </li>
         <li>
@@ -108,7 +108,7 @@ Because it's software that respects our fundamental freedoms, and guarantees the
       </p>
       <p>
 
-Concretely here, it mean that:
+Concretely here, it means that:
 
       </p>
       <ul>
@@ -119,7 +119,6 @@ PeerTube is freely provided, no need to pay to install it on your server ;
         </li>
         <li>
 
-On peut regarder sous le capot de PeerTube (son code source) : il est auditable, transparent ;
 We can look under the hood of PeerTube (it's source code): it's auditable, transparent;
 
         </li>
@@ -174,7 +173,7 @@ PeerTube's federation protocol will be fluid (everyone can choose their "friends
     <h4 class="panel-title">
       <a data-toggle="collapse" data-parent="#accordion" href="#collapse05">
 
-5. Why broadcast PeerTube videos though peer-to-peer?
+5. Why broadcast PeerTube videos through peer-to-peer?
 
       </a>
     </h4>
@@ -193,7 +192,7 @@ Peer-to-peer broadcasting allows, thanks to the <a href="https://fr.wikipedia.or
       </p>
       <p>
 
-There is nothing to do: your web browser does it automatically. If you are on a mobile phone or if your network does not allow it (router, firewall, etc.), this function is disabled to switch back to an "old-style" video broadcast ;).
+There is nothing to do: your web browser does it automatically. If you are on a mobile phone or if your network does not allow it (router, firewall, etc.), this function is disabled and switches back to an "old-style" video broadcast ;).
 
       </p>
     </div>
@@ -241,7 +240,7 @@ March 2018 thus represents the birth of the PeerTube federations: the more this 
     <h4 class="panel-title">
       <a data-toggle="collapse" data-parent="#accordion" href="#collapse07">
 
-7. But if it's free, we'll see like videos about anything and everything?
+7. But if it's free, we'll see videos about anything and everything?
 
     </a>
     </h4>
@@ -261,6 +260,7 @@ For example, in France, discriminatory content <a href="https://fr.wikipedia.org
       <p>
 
 The federation system, for its part, allows hosts to decide with whom they want to connect with, or not, depending on the types of content or the moderation policies of others.
+
       </p>
     </div>
   </div>
@@ -312,7 +312,7 @@ We now host over <a href="https://degooglisons-internet.org/liste?l=en">30 alter
       </p>
       <p>
 
-We have invested in the financing of PeerTube as part of our new campaign <a href="https://contributopia.org">Contributopia</a>, which aims to concretize the digital tools of a society's contribution.
+We have invested in the financing of PeerTube as part of our new campaign <a href="https://contributopia.org">Contributopia</a>, which aims to realise the digital tools for a contribution-based society.
 
       </p>
     </div>
@@ -333,7 +333,7 @@ We have invested in the financing of PeerTube as part of our new campaign <a hre
     <div class="panel-body">
       <p>
 
-It will go into the association Framasoft's budget, like all the donations we receive.
+It will go into the budget of the Framasoft association, like all the donations we receive.
 
       </p>
       <p>

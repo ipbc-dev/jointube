@@ -11,10 +11,10 @@ type = "page"
 {{% grid class="container" %}}
 {{% grid class="col-sm-12 text-center" %}}
 
-# Take back the control on your videos
+# Take back the control of your videos
 ## A decentralized video hosting network, based on free/libre software
 
-[Get started](#getting-started) [How it works ](#how-it-works)
+[Get started](#getting-started) [How it works](#how-it-works)
 
 ![](/notebook.jpg)
 
@@ -43,11 +43,11 @@ type = "page"
 {{% grid class="container" %}}
 {{% grid class="col-sm-8" %}}
 
-### Take the power back... and the responsibilities!
+### Take back the power... and the responsibilities!
 
-Peertube isn't a single video hosting platform with a single group of rules:
+PeerTube isn't a single video hosting platform with a single group of rules:
 it's a network of dozens of interconnected hosting providers, and each provider is composed
-of different people and administrators. You don't like some of the rules ?
+of different people and administrators. You don't like some of the rules?
 You're free to join the hosting provider of your choice, or even better,
 be your own hosting provider with your own rules!
 
@@ -61,7 +61,7 @@ be your own hosting provider with your own rules!
 
 ### Take control of your content
 
-PeerTube allows you to share all your videos. Being in direct contact with a human hosting provider (or becoming your own) allows you to choose how their diffusion is done.
+PeerTube allows you to share all your videos. Being in direct contact with a human hosting provider (or becoming your own) allows you to choose how their broadcasting is done.
 Your videos will benefit from tools to fill description, categorization, choosing a preview image and marking videos as not safe for work.
 Tweaking the **Support** button will allow you to show your audience how you want them to support your work.
 
@@ -78,9 +78,9 @@ Tweaking the **Support** button will allow you to show your audience how you wan
 You're a person, not a product. PeerTube is a free/libre software
 financed by a French non-profit organization: [Framasoft](https://soutenir.framasoft.org/association).
 All instances are created, animated, moderated and maintained independently.
-PeerTube isn't submitted by any company monopole, doesn't depend on ads and doesn't tracks you.
+PeerTube isn't submitted by any company monopole, doesn't depend on ads and doesn't track you.
 With PeerTube you're not a product:
-Peertube is at your service, not the other way around.
+PeerTube is at your service, not the other way around.
 
 {{% /grid %}}
 {{% grid class="col-sm-4" %}}
@@ -93,10 +93,10 @@ Peertube is at your service, not the other way around.
 ### Become an actor of your videos broadcasting
 
 When you watch a video with PeerTube, the WebTorrent technology
-allows you to be part of the broadcast from this video with the viewers who
-watch it at the same time.
+allows you to be part of the broadcasting of this video with the viewers who
+are watching it at the same time.
 This video stream sharing allows a healthier distribution of exchanges on the network.
-Moreover, the federation protocol (ActivityPub) allows to publish the videos and comments on other platforms using it, such as [Mastodon](https://joinmastodon.org)! (experimental)
+Moreover, the federation protocol (ActivityPub) allows to publish the videos and comments on other platforms that support it, such as [Mastodon](https://joinmastodon.org)! (experimental)
 
 {{% /grid %}}
 {{% grid class="col-sm-4 col-sm-pull-8 text-center" %}}
@@ -147,17 +147,17 @@ Your can define the number of available registrations and a disk quota per user.
 
 ## How it works {#how-it-works}
 
-Everybody can host a PeerTube server named **instance**.
-Every instance hosts it's own users and their videos. 
-It also keeps a list of the videos available on the instances 
-the administrator choose to follow in order to propose them to it's users.
+Everybody can host a PeerTube server we call **instance**.
+Every instance hosts its own users and their videos.
+It also keeps a list of the videos available of the instances
+the administrator chooses to follow in order to suggest them to its users.
 
-Every account has a globally unique (e.g. @chocobozzz@framatube.org) consisting of the local username (@chocobozzz) and the domain name of the server it is on (framatube.org).
+Every account has a globally unique identifier (e.g. @chocobozzz@framatube.org) consisting of the local username (@chocobozzz) and the domain name of the server it is on (framatube.org).
 
 The administrators of a PeerTube instance can follow each other.
 When your PeerTube instance follows another PeerTube instance, you receive
 the videos preview informations from this instance. This way, you can display 
-the videos available on your instance and on the instance you decided to follow.
+the videos available on your instance and on the instances you decided to follow.
 So you keep control of the videos displayed on your PeerTube instance!
 
 [Questions?](/en/faq)
@@ -174,10 +174,10 @@ So you keep control of the videos displayed on your PeerTube instance!
 
 Each server operates independently and is managed by a different person
 or organization, who can therefore apply various moderation and conduct rules,
-allowing you to find the instance who will suit you best.
+allowing you to find the instance that suits you best.
 
-By watching a video, you help the hosting provider broadcasting it by becoming yourself
-a broadcaster of this video. Each instance doesn't need much money to broadcast
+By watching a video, you help the hosting provider to broadcast it by becoming
+a broadcaster of the video yourself. Each instance doesn't need much money to broadcast
 the videos of its users.
 
 [Get started](#getting-started)
