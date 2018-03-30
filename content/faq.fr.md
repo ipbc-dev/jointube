@@ -260,6 +260,7 @@ Par exemple, en France, les contenus discriminants <a href="https://fr.wikipedia
       <p>
 
 Le système de fédération, quant à lui, permet aux hébergeurs de décider avec qui ils veulent se mettre en réseau, ou pas, selon les types de contenus ou les politiques de modération des autres.
+
       </p>
     </div>
   </div>
