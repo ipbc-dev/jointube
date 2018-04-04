@@ -43,7 +43,7 @@ type = "page"
 {{% grid class="container" %}}
 {{% grid class="col-sm-8" %}}
 
-### Take back the power... and the responsibilities!
+### Take back the power… and the responsibilities!
 
 PeerTube isn't a single video hosting platform with a single group of rules:
 it's a network of dozens of interconnected hosting providers, and each provider is composed
@@ -110,7 +110,17 @@ Moreover, the federation protocol (ActivityPub) allows to publish the videos and
 {{% grid class="container" %}}
 {{% grid class="col-sm-12" %}}
 
-## Sign up {#getting-started}
+## Get started {#getting-started}
+
+### Watch
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://framatube.org/videos/embed/0900bd2e-7306-4c39-b48b-2d0cd611742e" allowfullscreen></iframe>
+</div>
+
+[Watch videos on Framatube](https://framatube.org)
+
+### Register
 
 List of instances on which you can register:
 
@@ -172,9 +182,9 @@ So you keep control of the videos displayed on your PeerTube instance!
 
 ### Why is that cool?
 
-Each server operates independently and is managed by a different person
-or organization, who can therefore apply various moderation and conduct rules,
-allowing you to find the instance that suits you best.
+Servers are run independently by different people and organizations.
+They can apply wildly different moderation policies, so you can find or
+make one that fits your taste perfectly.
 
 By watching a video, you help the hosting provider to broadcast it by becoming
 a broadcaster of the video yourself. Each instance doesn't need much money to broadcast
