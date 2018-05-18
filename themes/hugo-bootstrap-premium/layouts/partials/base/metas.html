@@ -13,6 +13,8 @@
 <link rel="author" href="http://plus.google.com/+{{ . }}">
 {{ end }}
 
+<meta property="image" content="{{ .Site.BaseURL }}{{ .Site.Params.OpenGraphImage }}"/>
+
 <meta property="og:title" content="{{ .Title }} {{ if ne .Title .Site.Title }} &middot; {{ .Site.Title }} {{ end }}">
 <meta property="og:site_name" content="{{ .Site.Title }}"/>
 <meta property="og:url" content="{{ .Permalink }}" />
@@ -23,6 +25,7 @@
 {{ else }}
 <meta property="og:type" content="article" />
 <meta property="og:description" content="{{ .Description }}"/>
+<meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.OpenGraphImage }}"/>
 <meta property="og:article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" />
 <meta property="og:article:modified_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" />
 
@@ -44,6 +47,8 @@
 <meta name="twitter:description" content="{{ .Description }}" />
 <meta name="twitter:url" content="{{ .Permalink }}" />
 <meta name="twitter:domain" content="{{ .Site.BaseURL }}">
+<meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.OpenGraphImage }}"/>
+
   {{ end }}
 
   {{ if ne .Site.Params.googleplus "" }}

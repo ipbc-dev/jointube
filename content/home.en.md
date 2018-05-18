@@ -1,7 +1,7 @@
 +++
 
 date = "2018-02-28T14:41:00+01:00"
-title = "Home"
+title = "PeerTube"
 author = "Framasoft"
 draft = false
 type = "page"
@@ -166,7 +166,7 @@ Every account has a globally unique identifier (e.g. @chocobozzz@framatube.org) 
 
 The administrators of a PeerTube instance can follow each other.
 When your PeerTube instance follows another PeerTube instance, you receive
-the videos preview informations from this instance. This way, you can display 
+the videos preview informations from this instance. This way, you can display
 the videos available on your instance and on the instances you decided to follow.
 So you keep control of the videos displayed on your PeerTube instance!
 
