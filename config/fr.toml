@@ -8,6 +8,7 @@
 languageCode = "fr"
 weight = 1
 title = "PeerTube"
+description = "L'hébergement de vidéos décentralisé, en réseau, basé sur du logiciel libre"
 
 [[Languages.fr.menu.main]]
 name = "FAQ"
@@ -33,3 +34,9 @@ name = "Code source"
 weight = 5
 identifier = ""
 url = "https://github.com/Chocobozzz/PeerTube"
+
+[[Languages.fr.menu.main]]
+name = "Instances"
+weight = 6
+identifier = ""
+url = "https://instances.joinpeertube.org"

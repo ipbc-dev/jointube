@@ -1,7 +1,7 @@
 +++
 
 date = "2018-02-28T14:41:00+01:00"
-title = "Accueil"
+title = "PeerTube"
 author = "Framasoft"
 draft = false
 type = "page"

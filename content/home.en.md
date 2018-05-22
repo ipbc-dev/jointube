@@ -1,7 +1,7 @@
 +++
 
 date = "2018-02-28T14:41:00+01:00"
-title = "Home"
+title = "PeerTube"
 author = "Framasoft"
 draft = false
 type = "page"
@@ -115,7 +115,7 @@ Moreover, the federation protocol (ActivityPub) allows to publish the videos and
 ### Watch
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://framatube.org/videos/embed/0900bd2e-7306-4c39-b48b-2d0cd611742e" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://framatube.org/videos/embed/a8ea95b8-0396-49a6-8f30-e25e25fb2828" allowfullscreen></iframe>
 </div>
 
 [Watch videos on Framatube](https://framatube.org)
@@ -166,7 +166,7 @@ Every account has a globally unique identifier (e.g. @chocobozzz@framatube.org) 
 
 The administrators of a PeerTube instance can follow each other.
 When your PeerTube instance follows another PeerTube instance, you receive
-the videos preview informations from this instance. This way, you can display 
+the videos preview informations from this instance. This way, you can display
 the videos available on your instance and on the instances you decided to follow.
 So you keep control of the videos displayed on your PeerTube instance!
 

@@ -56,6 +56,7 @@ name = "paper"
 switchlang = true
 # You can use markdown here.
 BrandImage = "/brand.png"
+OpenGraphImage = "notebook.jpg"
 brand = "Peertube"
 topline = ""
 footline = ""

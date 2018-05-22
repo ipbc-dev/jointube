@@ -224,14 +224,14 @@ body .medias .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: calc(100% - 140px); /* 100% - .right-div width */
+    width: calc(100% - 160px); /* 100% - .right-div width */
 }
 
 #instances-list .list-group-item .right-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 140px;
+    width: 160px;
 }
 
 #instances-list .list-group-item .right-div li {
