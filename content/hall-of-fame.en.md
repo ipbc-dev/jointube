@@ -73,7 +73,6 @@ type = "page"
     </a>
   </div>
 </div>
-
 <p class="text-center"><a class="button" href="https://www.kisskissbankbank.com/en/projects/peertube-a-free-and-federated-video-platform">Become a sponsor</a></p>
 
 <h3>Financial Contributors</h3>
@@ -100,7 +99,6 @@ type = "page"
   <li>Winter Matsunaga</li>
   <li>Carola Mcelravy</li>
 </ul>
-
 <p><a class="button" href="https://www.kisskissbankbank.com/en/projects/peertube-a-free-and-federated-video-platform">Add your name here</a></p>
 
 <h3>Contributors</h3>
@@ -136,7 +134,6 @@ type = "page"
   <li>Nautigsam</li>
   <li>ewft</li>
 </ul>
-
 <p><a class="button" href="https://github.com/Chocobozzz/PeerTube/">Contribute to the code</a></p>
 
 {{< /grid >}}

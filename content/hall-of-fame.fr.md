@@ -99,7 +99,6 @@ type = "page"
   <li>Winter Matsunaga</li>
   <li>Carola Mcelravy</li>
 </ul>
-
 <p><a class="button" href="https://www.kisskissbankbank.com/en/projects/peertube-a-free-and-federated-video-platform">Ajouter votre nom ici</a></p>
 
 <h3>Contributeurs</h3>
@@ -136,7 +135,6 @@ type = "page"
   <li>Nautigsam</li>
   <li>ewft</li>
 </ul>
-
 <p><a class="button" href="https://github.com/Chocobozzz/PeerTube/">Contribuer au code</a></p>
 
 {{< /grid >}}
