@@ -14,19 +14,20 @@ type = "page"
 # Take back the control of your videos
 ## A decentralized video hosting network, based on free/libre software
 
-[Get started](#getting-started) [How it works](#how-it-works)
 
-<div class="col-md-5 well col-md-push-7">
+
+<div class="col-md-6 well col-md-push-6">
   <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" allowfullscreen
-      src="https://framatube.org/videos/embed/f78a97f8-a142-4ce1-a5bd-154bf9386504"></iframe>
+      src="https://framatube.org/videos/embed/217eefeb-883d-45be-b7fc-a788ad8507d3"></iframe>
   </div>
-  <p class="text-left">PeerTube est actuellement en campagne de financement participatif.
-  Ensemble, participons à aller vers une version 1.</p>
-  <p><a class="button" href="#kisskissbankbank">Soutenir Peertube</a></p>
+  <p class="text-left">Help us improve PeerTube to its v1!<br>
+  Only <b><span id="kkbbDays">45</span> days</b> left to contributing to our crowdfunding!</p>
+  <p><a class="button" href="https://www.kisskissbankbank.com/en/projects/peertube-a-free-and-federated-video-platform">Soutenir PeerTube</a></p>
 </div>
-<div class="col-md-7 col-md-pull-5">
+<div class="col-md-6 col-md-pull-6">
   <img src="/notebook.jpg" class="img-responsive" alt="" />
+  <p><a href="#getting-started">Get started</a> <a href="#how-it-works">How it works</a></p>
 </div>
 
 {{% /grid %}}
