@@ -77,7 +77,7 @@ type = "page"
 
 <h3>Donateurs</h3>
 
-<ul>
+<!--<ul>
   <li>Nu Trepanier</li>
   <li>Zina Hargis</li>
   <li>Katy Comeaux</li>
@@ -98,7 +98,7 @@ type = "page"
   <li>Tandy Look</li>
   <li>Winter Matsunaga</li>
   <li>Carola Mcelravy</li>
-</ul>
+</ul>-->
 <p><a class="button" href="https://www.kisskissbankbank.com/fr/projects/peertube-a-free-and-federated-video-platform">Ajouter votre nom ici</a></p>
 
 <h3>Contributeurs</h3>
