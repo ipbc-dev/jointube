@@ -60,6 +60,7 @@ OpenGraphImage = "/notebook.jpg"
 brand = "Peertube"
 topline = ""
 footline = ""
+twitter = "framasoft"
 
 customJS = []
 customCSS = []

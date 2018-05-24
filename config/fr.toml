@@ -6,9 +6,8 @@
 
 [Languages.fr]
 languageCode = "fr"
+title = "JoinPeerTube"
 weight = 1
-title = "PeerTube"
-description = "L'hébergement de vidéos décentralisé, en réseau, basé sur du logiciel libre"
 
 [[Languages.fr.menu.main]]
 name = "FAQ"
