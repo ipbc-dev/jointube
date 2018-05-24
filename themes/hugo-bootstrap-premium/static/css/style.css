@@ -292,7 +292,7 @@ footer { /* Hugo’s footer != JoinPT’s footer */
 }
 
 /* Hall of Fame */
-.hof ul { // = .list-inline.well
+.hof ul { /* = .list-inline.well */
   margin-left: -5px;
   list-style: none;
   padding: 19px;
