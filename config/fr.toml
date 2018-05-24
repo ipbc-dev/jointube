@@ -40,3 +40,10 @@ name = "Instances"
 weight = 6
 identifier = ""
 url = "https://instances.joinpeertube.org"
+
+[[Languages.fr.menu.main]]
+name = "Tableau d’honneur"
+identifier = "hof"
+weight = 7
+title = "Tableau d’honneur"
+url = "/fr/hall-of-fame/"

@@ -16,7 +16,18 @@ type = "page"
 
 [Get started](#getting-started) [How it works](#how-it-works)
 
-![](/notebook.jpg)
+<div class="col-md-5 well col-md-push-7">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" frameborder="0" allowfullscreen
+      src="https://framatube.org/videos/embed/f78a97f8-a142-4ce1-a5bd-154bf9386504"></iframe>
+  </div>
+  <p class="text-left">PeerTube est actuellement en campagne de financement participatif.
+  Ensemble, participons à aller vers une version 1.</p>
+  <p><a class="button" href="#kisskissbankbank">Soutenir Peertube</a></p>
+</div>
+<div class="col-md-7 col-md-pull-5">
+  <img src="/notebook.jpg" class="img-responsive" alt="" />
+</div>
 
 {{% /grid %}}
 {{% /grid %}}

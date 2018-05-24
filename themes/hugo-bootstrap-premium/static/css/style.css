@@ -85,9 +85,21 @@ body .medias .container {
     background: transparent;
 }
 
-.intro, .faq {
+.intro, .faq, .hof {
     background: transparent;
     margin-top: -70px;
+}
+
+.intro .embed-responsive + p {
+  margin-bottom:0;
+  margin-top: 20px;
+}
+
+.intro .col-md-push-7 .button {
+  margin-bottom:10px;
+}
+.intro .col-md-pull-5 {
+  margin-left:-15px;
 }
 
 .medias {
@@ -167,7 +179,8 @@ body .medias .container {
 .how-it-works a[href^="#"],
 .how-it-works a[href*="/faq"],
 .faq .col-sm-12 > p a[href="https://framacolibri.org/c/qualite/peertube"],
-.getting-started .col-sm-12 > p a[href*="framatube.org"] {
+.getting-started .col-sm-12 > p a[href*="framatube.org"],
+.button {
     margin-top: 20px;
     margin-bottom: 20px;
     font-weight: 500;
@@ -182,7 +195,8 @@ body .medias .container {
 
 .intro a[href^="#"]:hover,
 .install a:hover,
-.how-it-works a[href^="#"]:hover {
+.how-it-works a[href^="#"]:hover,
+.button {
     opacity: 1;
 }
 
@@ -197,14 +211,16 @@ body .medias .container {
 .install a[href="https://github.com/Chocobozzz/PeerTube/#production"],
 .how-it-works a[href*="/faq"],
 .faq .col-sm-12 > p a[href="https://framacolibri.org/c/qualite/peertube"],
-.getting-started .col-sm-12 > p a[href*="framatube.org"] {
+.getting-started .col-sm-12 > p a[href*="framatube.org"],
+.button {
     margin-right: auto;
     color: #F1680D;
     background: #fff;
     border: 1px solid #F1680D;
 }
 
-.getting-started h2 {
+.getting-started h2,
+a.button {
     color: #F1680D;
 }
 
@@ -281,4 +297,20 @@ footer { /* Hugo’s footer != JoinPT’s footer */
 
 .faq h2 {
     margin: 40px 0px;
+}
+
+.thumbnail img {
+    margin:0;
+}
+
+.hof .list-inline li:nth-of-type(n+2):before {
+    content: "▶";
+    margin-right: 12px;
+    color: #F1680D;
+}
+.hof .list-inline li:nth-of-type(2n+2):before {
+    color: #211F20;
+}
+.hof .list-inline li:nth-of-type(3n+2):before {
+    color: #737373;
 }
