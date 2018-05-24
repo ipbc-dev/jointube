@@ -18,7 +18,7 @@ type = "page"
 
 <div class="col-md-5 well col-md-push-7">
   <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" frameborder="0" allowfullscreen
+    <iframe class="embed-responsive-item" allowfullscreen
       src="https://framatube.org/videos/embed/f78a97f8-a142-4ce1-a5bd-154bf9386504"></iframe>
   </div>
   <p class="text-left">PeerTube est actuellement en campagne de financement participatif.
