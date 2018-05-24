@@ -6,9 +6,8 @@
 
 [Languages.en]
 languageCode = "en"
+title = "JoinPeerTube"
 weight = 1
-title = "PeerTube"
-description = "A decentralized video hosting network, based on free/libre software"
 
 [[Languages.en.menu.main]]
 name = "FAQ"

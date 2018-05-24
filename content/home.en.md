@@ -1,7 +1,8 @@
 +++
 
 date = "2018-02-28T14:41:00+01:00"
-title = "PeerTube"
+title = "Take back the control of video streaming! #JoinPeertube"
+description = "PeerTube is an open-source federated video network. Videos can be hosted by the people, with the people, for the people."
 author = "Framasoft"
 draft = false
 type = "page"
