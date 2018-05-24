@@ -22,7 +22,7 @@ type = "page"
   </div>
   <p class="text-left">Aidez-nous à réaliser la v1 de PeerTube !<br>
   Plus que <b><span id="kkbbDays">45</span> jours</b> pour participer à notre financement participatif !</p>
-  <p><a class="button" href="https://www.kisskissbankbank.com/en/projects/peertube-a-free-and-federated-video-platform">Soutenir PeerTube</a></p>
+  <p><a class="button" href="https://www.kisskissbankbank.com/fr/projects/peertube-a-free-and-federated-video-platform">Soutenir PeerTube</a></p>
 </div>
 <div class="col-md-6 col-md-pull-6">
   <img src="/notebook.jpg" class="img-responsive" alt="" />

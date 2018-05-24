@@ -17,63 +17,63 @@ type = "page"
 
 <div class="row">
   <div class="col-sm-3 col-xs-6">
-    <a href="https://www.kisskissbankbank.com/en/projects/peertube-a-free-and-federated-video-platform">
+    <a href="https://www.kisskissbankbank.com/fr/projects/peertube-a-free-and-federated-video-platform">
       <div class="thumbnail">
         <img src="/votre_logo.png" alt="">
       </div>
     </a>
   </div>
   <div class="col-sm-3 col-xs-6">
-    <a href="https://www.kisskissbankbank.com/en/projects/peertube-a-free-and-federated-video-platform">
+    <a href="https://www.kisskissbankbank.com/fr/projects/peertube-a-free-and-federated-video-platform">
       <div class="thumbnail">
         <img src="/votre_logo.png" alt="">
       </div>
     </a>
   </div>
   <div class="col-sm-3 col-xs-6">
-    <a href="https://www.kisskissbankbank.com/en/projects/peertube-a-free-and-federated-video-platform">
+    <a href="https://www.kisskissbankbank.com/fr/projects/peertube-a-free-and-federated-video-platform">
       <div class="thumbnail">
         <img src="/votre_logo.png" alt="">
       </div>
     </a>
   </div>
   <div class="col-sm-3 col-xs-6">
-    <a href="https://www.kisskissbankbank.com/en/projects/peertube-a-free-and-federated-video-platform">
+    <a href="https://www.kisskissbankbank.com/fr/projects/peertube-a-free-and-federated-video-platform">
       <div class="thumbnail">
         <img src="/votre_logo.png" alt="">
       </div>
     </a>
   </div>
   <div class="col-sm-3 col-xs-6">
-    <a href="https://www.kisskissbankbank.com/en/projects/peertube-a-free-and-federated-video-platform">
+    <a href="https://www.kisskissbankbank.com/fr/projects/peertube-a-free-and-federated-video-platform">
       <div class="thumbnail">
         <img src="/votre_logo.png" alt="">
       </div>
     </a>
   </div>
   <div class="col-sm-3 col-xs-6">
-    <a href="https://www.kisskissbankbank.com/en/projects/peertube-a-free-and-federated-video-platform">
+    <a href="https://www.kisskissbankbank.com/fr/projects/peertube-a-free-and-federated-video-platform">
       <div class="thumbnail">
         <img src="/votre_logo.png" alt="">
       </div>
     </a>
   </div>
   <div class="col-sm-3 col-xs-6">
-    <a href="https://www.kisskissbankbank.com/en/projects/peertube-a-free-and-federated-video-platform">
+    <a href="https://www.kisskissbankbank.com/fr/projects/peertube-a-free-and-federated-video-platform">
       <div class="thumbnail">
         <img src="/votre_logo.png" alt="">
       </div>
     </a>
   </div>
   <div class="col-sm-3 col-xs-6">
-    <a href="https://www.kisskissbankbank.com/en/projects/peertube-a-free-and-federated-video-platform">
+    <a href="https://www.kisskissbankbank.com/fr/projects/peertube-a-free-and-federated-video-platform">
       <div class="thumbnail">
         <img src="/votre_logo.png" alt="">
       </div>
     </a>
   </div>
 </div>
-<p class="text-center"><a class="button" href="https://www.kisskissbankbank.com/en/projects/peertube-a-free-and-federated-video-platform">Devenir sponsor</a></p>
+<p class="text-center"><a class="button" href="https://www.kisskissbankbank.com/fr/projects/peertube-a-free-and-federated-video-platform">Devenir sponsor</a></p>
 
 <h3>Donateurs</h3>
 
@@ -99,7 +99,7 @@ type = "page"
   <li>Winter Matsunaga</li>
   <li>Carola Mcelravy</li>
 </ul>
-<p><a class="button" href="https://www.kisskissbankbank.com/en/projects/peertube-a-free-and-federated-video-platform">Ajouter votre nom ici</a></p>
+<p><a class="button" href="https://www.kisskissbankbank.com/fr/projects/peertube-a-free-and-federated-video-platform">Ajouter votre nom ici</a></p>
 
 <h3>Contributeurs</h3>
 
