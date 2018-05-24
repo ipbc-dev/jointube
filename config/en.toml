@@ -39,3 +39,10 @@ name = "Instances"
 weight = 6
 identifier = ""
 url = "https://instances.joinpeertube.org"
+
+[[Languages.en.menu.main]]
+name = "Hall of fame"
+identifier = "hof"
+weight = 7
+title = "Hall of fame"
+url = "/en/hall-of-fame/"

@@ -24,7 +24,7 @@ body > .container {
     padding: 0px;
 }
 @media screen and (max-width: 768px) {
-    a.navbar-brand-img>img {
+    a.navbar-brand-img > img {
         vertical-align: bottom;
         padding: 1em 0 0 15px;
         max-width: 80%;
@@ -85,7 +85,7 @@ body .medias .container {
     background: transparent;
 }
 
-.intro, .faq {
+.intro, .faq, .hof {
     background: transparent;
     margin-top: -70px;
 }
@@ -167,7 +167,8 @@ body .medias .container {
 .how-it-works a[href^="#"],
 .how-it-works a[href*="/faq"],
 .faq .col-sm-12 > p a[href="https://framacolibri.org/c/qualite/peertube"],
-.getting-started .col-sm-12 > p a[href*="framatube.org"] {
+.getting-started .col-sm-12 > p a[href*="framatube.org"],
+.button {
     margin-top: 20px;
     margin-bottom: 20px;
     font-weight: 500;
@@ -182,7 +183,8 @@ body .medias .container {
 
 .intro a[href^="#"]:hover,
 .install a:hover,
-.how-it-works a[href^="#"]:hover {
+.how-it-works a[href^="#"]:hover,
+.button {
     opacity: 1;
 }
 
@@ -197,14 +199,16 @@ body .medias .container {
 .install a[href="https://github.com/Chocobozzz/PeerTube/#production"],
 .how-it-works a[href*="/faq"],
 .faq .col-sm-12 > p a[href="https://framacolibri.org/c/qualite/peertube"],
-.getting-started .col-sm-12 > p a[href*="framatube.org"] {
+.getting-started .col-sm-12 > p a[href*="framatube.org"],
+.button {
     margin-right: auto;
     color: #F1680D;
     background: #fff;
     border: 1px solid #F1680D;
 }
 
-.getting-started h2 {
+.getting-started h2,
+a.button {
     color: #F1680D;
 }
 
@@ -281,4 +285,71 @@ footer { /* Hugo’s footer != JoinPT’s footer */
 
 .faq h2 {
     margin: 40px 0px;
+}
+
+.thumbnail img {
+    margin:0;
+}
+
+/* Hall of Fame */
+.hof ul { /* = .list-inline.well */
+  margin-left: -5px;
+  list-style: none;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.hof ul > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.hof li:nth-of-type(n+2):before {
+    content: "▶";
+    margin-right: 12px;
+    color: #F1680D;
+}
+.hof li:nth-of-type(2n+2):before {
+    color: #211F20;
+}
+.hof li:nth-of-type(3n+2):before {
+    color: #737373;
+}
+
+/* KKBB */
+.intro .embed-responsive + p {
+  margin-bottom:0;
+  margin-top: 20px;
+}
+
+.intro .col-md-push-6 .button {
+  margin-bottom:10px;
+}
+
+@media (min-width: 1200px) {
+  [lang="fr"] .intro .col-md-pull-6 a {
+    margin-top: 36px;
+  }
+}
+@media (max-width: 1200px) {
+  [lang="fr"] .intro .col-md-pull-6 a {
+    margin-top: -10px;
+  }
+}
+
+@media (min-width: 992px) {
+  [lang="en"] .intro .col-md-pull-6 a {
+    margin-top: 39px;
+  }
+}
+@media (min-width: 1200px) {
+  [lang="en"] .intro .col-md-pull-6 a {
+    margin-top: 11px;
+  }
 }
