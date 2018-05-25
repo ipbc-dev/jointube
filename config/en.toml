@@ -20,7 +20,7 @@ url = "/en/faq/"
 name = "Support"
 weight = 3
 identifier = ""
-url = "https://framacolibri.org/c/qualite/peertube"
+url = "https://framacolibri.org/c/peertube"
 
 [[Languages.en.menu.main]]
 name = "Documentation"
