@@ -2,7 +2,7 @@
 baseurl = "https://joinpeertube.org/"
 
 # Remark if you want to disable multilingual support.
-DefaultContentLanguage = "fr"
+DefaultContentLanguage = "en"
 
 # If you want all of the languages to be put below their respective language code,
 # enable DefaultContentLanguageInSubdir = true. Without enabling it english content
