@@ -667,7 +667,7 @@ Because only you can determine what makes you trust such or such host, and thus 
 
 <!-- fin accordéon -->
 
-<a href="https://framacolibri.org/c/qualite/peertube">Exchange on our forum</a>
+<a href="https://framacolibri.org/c/peertube">Exchange on our forum</a>
 
 <h3>
 
