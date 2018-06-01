@@ -591,22 +591,21 @@ Quelle est la politique de rémunération de PeerTube&nbsp;?
   <div class="panel-body">
     <p>
 
-Il n’y en a pas, pas pour l’instant&nbsp;: PeerTube est un outil que nous avons voulu neutre au niveau de la rémunération.
+PeerTube est un outil que nous avons voulu neutre au niveau de la rémunération.
+
+    </p>
+    <p>
+Actuellement, la solution proposée est d'utiliser le bouton «&nbsp;Soutenir&nbsp;» («&nbsp;<i lang="en">Support</i>&nbsp;»). Ce bouton permet d'afficher un cadre dans lequel les personnes qui mettent en ligne des vidéos peuvent afficher des textes, images, et liens librement. Par exemple, il est possible d'afficher un bouton Patreon, Tipeee, Paypal, Liberapay (ou toute autre solution, puisque le champ de saisie est libre). Autres exemples possibles : indiquer une adresse pour un remerciement par carte postale, négocier avec un sponsor l'affichage du logo de son entreprise, mettre en avant un lien pour soutenir une ONG, etc.
 
     </p>
     <p>
 
-Pour l’instant, la seule solution proposée aux personnes qui mettent en ligne des vidéos est de mettre un texte et un lien qui apparaîtront dans le bouton soutenir («&nbsp;<i lang="en">Support</i>&nbsp;») sous la vidéo.
+Favoriser une solution technique serait imposer, dans le code, une vision politique des partages culturels et de leurs financements. Toutes les solutions de rémunération sont donc possibles dans PeerTube.
 
     </p>
     <p>
 
-Nous ne sommes pas allé·e·s plus loin car favoriser une solution technique serait imposer, dans le code, une vision politique des partages culturels et de leurs financements.
-
-    </p>
-    <p>
-
-Or de nombreuses améliorations de PeerTube sont à prévoir…
+Par ailleurs, de nombreuses améliorations de PeerTube sont à prévoir…
 
 Dont celles qui vous permettraient de créer (et choisir) vous-même les outils de monétisation qui vous intéressent&nbsp;!
 
