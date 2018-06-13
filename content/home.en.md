@@ -23,7 +23,7 @@ type = "page"
       src="https://framatube.org/videos/embed/217eefeb-883d-45be-b7fc-a788ad8507d3"></iframe>
   </div>
   <p class="text-left">Help us improve PeerTube to its v1!<br>
-  Only <b><span id="kkbbDays">45</span> days</b> left to contributing to our crowdfunding!</p>
+  Only <b><span id="kkbbDays">45</span> days</b> left to contribute to our crowdfunding!</p>
   <p><a class="button" href="https://www.kisskissbankbank.com/en/projects/peertube-a-free-and-federated-video-platform">Support PeerTube</a></p>
 </div>
 <div class="col-md-6 col-md-pull-6">
