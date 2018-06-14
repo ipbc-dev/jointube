@@ -9,7 +9,7 @@ $(
     }, 500);
 });
 
-const end = new Date('07/08/2018 11:59 PM');
+const end = new Date('04/08/2018 11:59 PM');
 const now = new Date();
 const days = (end - now < 0) ? 0 : Math.floor((end - now) / 86400000); // 24*60*60*1000
 document.getElementById('kkbbDays').innerHTML = days;
