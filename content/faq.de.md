@@ -501,7 +501,7 @@ Jedes PeerTube-Hosting kann im Rahmen des Gesetzes, von dem es abhängt, seine e
     </p>
     <p>
 
-In Frankreich beispielsweise ist diskriminierender Inhalt <a href="https://fr.wikipedia.org/wiki/Lois_contre_le_racisme_et_discours_de_haine"> verboten</a> und kann <a href="http://stop-discrimination.gouv.fr/agir/ne-pas-laisser-faire-les-recours">an die Behörden gemeldet werden.
+In Frankreich beispielsweise ist diskriminierender Inhalt <a href="https://fr.wikipedia.org/wiki/Lois_contre_le_racisme_et_discours_de_haine"> verboten</a> und kann <a href="http://stop-discrimination.gouv.fr/agir/ne-pas-laisser-faire-les-recours">an die Behörden gemeldet werden</a>.
 
 PeerTube ermöglicht es Benutzern, ein Problem-Video zu melden, und jeder Host muss dann seine Moderation in Übereinstimmung mit seinen Bedingungen und dem Gesetz anwenden.
 
