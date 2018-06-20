@@ -595,6 +595,7 @@ There are none, not at the moment : PeerTube is a tool that we wanted neutral in
 
     </p>
     <p>
+
 For now, the solution proposed to people who upload videos is to use the "support" button under the video. This button displays a frame in which people who upload videos can display text, images, and links freely. For example, it's possible to put a patreon, Tipeee, Paypal, Liberapay (or another solution) button. Other examples: put an adress for a postcard thanks, put a logo of your enterprise, a link for support an GNO,...
 
     </p>

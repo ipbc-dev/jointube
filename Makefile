@@ -1,9 +1,9 @@
 all: hugo
 
 locales:
-	txt2po --progress=none --duplicates=merge -P -i content/home.fr.md -o pot/home.pot
-	txt2po --progress=none --duplicates=merge -P -i content/faq.fr.md -o pot/faq.pot
-	txt2po --progress=none --duplicates=merge -P -i content/hall-of-fame.fr.md -o pot/hall-of-fame.pot
+	txt2po --progress=none --duplicates=merge -P -i content/home.en.md -o pot/home.pot
+	txt2po --progress=none --duplicates=merge -P -i content/faq.en.md -o pot/faq.pot
+	txt2po --progress=none --duplicates=merge -P -i content/hall-of-fame.en.md -o pot/hall-of-fame.pot
 	txt2po --progress=none --duplicates=merge -P -i config/en.toml -o pot/config.pot
 
 push-locales: locales

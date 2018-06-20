@@ -265,7 +265,7 @@ Für alle, die wissen, wie man einen Server verwaltet, ist PeerTube&hellip;
 
 <strong>Es ist eine Software, die Sie auf Ihrem Server installieren</strong>, um Ihre Website-Hosting und Video-Distribution zu erstellen&hellip;
 
-Grundsätzlich: Sie erstellen Ihr eigenes „hausgemacht YouTube”! 
+Grundsätzlich: Sie erstellen Ihr eigenes „hausgemacht YouTube”!
 
     </p>
     <p>
@@ -595,6 +595,7 @@ PeerTube ist ein Werkzeug, das wir kompensationsneutral gestalten wollten.
 
     </p>
     <p>
+
 Die vorgeschlagene Lösung ist derzeit die Verwendung der Schaltfläche "Support" ("&nbsp;<i lang="en">Support</i>&nbsp;"). Diese Schaltfläche zeigt einen Rahmen an, in dem Personen, die Videos hochladen, Text, Bilder und Links frei anzeigen können. Zum Beispiel ist es möglich, einen Patreon, Tipeee, Paypal, Liberapay Button anzuzeigen (oder jede andere Lösung, da das Eingabefeld frei ist). Weitere mögliche Beispiele: Geben Sie eine Adresse für eine Postkarte an, verhandeln Sie mit einem Sponsor, um sein Firmenlogo zu zeigen, markieren Sie einen Link zur Unterstützung einer NGO, etc.
 
     </p>
@@ -666,7 +667,7 @@ Denn nur Sie können bestimmen, was Sie diesem oder jenem Gastgeber anvertrauen 
 
 <!-- fin accordéon -->
 
-<a href="https://framacolibri.org/c/qualite/peertube">Talk in unserem Forum </a>
+<a href="https://framacolibri.org/c/peertube">Talk in unserem Forum</a>
 
 <h3>
 
@@ -706,7 +707,7 @@ Wir empfehlen, PeerTube nicht auf einer schwachen Hardware oder hinter einer sch
     </p>
     <p>
 
-Stören Sie den Entwickler nicht, Ihnen bei der Installation Ihrer Instanz zu helfen: unser <a href="https://framacolibri.org/c/qualite/peertube">support forum</a> ist dafür da.
+Stören Sie den Entwickler nicht, Ihnen bei der Installation Ihrer Instanz zu helfen: unser <a href="https://framacolibri.org/c/peertube">support forum</a> ist dafür da.
 
     </p>
   </div>
@@ -742,7 +743,7 @@ Sie können <a href="https://github.com/Chocobozzz/PeerTube/issues">ein Problem 
     </p>
     <p>
 
-Wenn Sie eine andere Art von Hilfe anbieten möchten, oder wenn Sie eine Funktion wünschen, die nicht verfügbar ist, kommen Sie und diskutieren Sie sie auf unserem <a href="https://framacolibri.org/c/qualite/peertube">Beitragsforum</a>.
+Wenn Sie eine andere Art von Hilfe anbieten möchten, oder wenn Sie eine Funktion wünschen, die nicht verfügbar ist, kommen Sie und diskutieren Sie sie auf unserem <a href="https://framacolibri.org/c/peertube">Beitragsforum</a>.
 
     </p>
   </div>

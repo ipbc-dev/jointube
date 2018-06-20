@@ -595,6 +595,7 @@ PeerTube est un outil que nous avons voulu neutre au niveau de la rémunération
 
     </p>
     <p>
+
 Actuellement, la solution proposée est d'utiliser le bouton «&nbsp;Soutenir&nbsp;» («&nbsp;<i lang="en">Support</i>&nbsp;»). Ce bouton permet d'afficher un cadre dans lequel les personnes qui mettent en ligne des vidéos peuvent afficher des textes, images, et liens librement. Par exemple, il est possible d'afficher un bouton Patreon, Tipeee, Paypal, Liberapay (ou toute autre solution, puisque le champ de saisie est libre). Autres exemples possibles : indiquer une adresse pour un remerciement par carte postale, négocier avec un sponsor l'affichage du logo de son entreprise, mettre en avant un lien pour soutenir une ONG, etc.
 
     </p>
@@ -721,7 +722,7 @@ Ne dérangez pas le développeur pour vous aider à installer votre instance&nbs
 
     <a data-toggle="collapse" data-parent="#accordion-tech" href="#code" aria-controls="code" aria-expanded="false">
 
-Comment participer au code de PeerTube ?
+Comment participer au code de PeerTube&nbsp;?
 
     </a>
   </h4>
