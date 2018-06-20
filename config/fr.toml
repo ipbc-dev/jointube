@@ -1,4 +1,10 @@
 [[Languages.fr.menu.switchlang]]
+  name = "Deutsch"
+  identifier = ""
+  weight = 4
+  url = "de"
+
+[[Languages.fr.menu.switchlang]]
   name = "English"
   identifier = ""
   weight = 4
