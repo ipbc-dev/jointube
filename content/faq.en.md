@@ -265,7 +265,7 @@ For those who know how to administer a server, PeerTube is…
 
 <strong>It's a software you install on your server</strong> to create a website hosting and broadcasting videos&hellip;
 
-Basically: you create your own "homemaed YouTube"!
+Basically: you create your own "homemade YouTube"!
 
     </p>
     <p>
