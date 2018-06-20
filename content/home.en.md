@@ -12,10 +12,8 @@ type = "page"
 {{% grid class="container" %}}
 {{% grid class="col-sm-12 text-center" %}}
 
-# Take back the control of your videos
+# Take back control of your videos
 ## A decentralized video hosting network, based on free/libre software
-
-
 
 <div class="col-md-6 well col-md-push-6">
   <div class="embed-responsive embed-responsive-16by9">
@@ -24,7 +22,7 @@ type = "page"
   </div>
   <p class="text-left">Help us improve PeerTube to its v1!<br>
   Only <b><span id="kkbbDays">45</span> days</b> left to contribute to our crowdfunding!</p>
-  <p><a class="button" href="https://www.kisskissbankbank.com/en/projects/peertube-a-free-and-federated-video-platform">Support PeerTube</a></p>
+  <p><a class="button" href="https://www.kisskissbankbank.com/en/projects/peertube-a-free-and-federated-video-platform">Soutenir PeerTube</a></p>
 </div>
 <div class="col-md-6 col-md-pull-6">
   <img src="/notebook.jpg" class="img-responsive" alt="" />
@@ -88,7 +86,8 @@ Tweaking the **Support** button will allow you to show your audience how you wan
 
 ### Putting the users first
 
-You're a person, not a product. PeerTube is a free/libre software
+You're a person, not a product.
+PeerTube is a free/libre software
 financed by a French non-profit organization: [Framasoft](https://soutenir.framasoft.org/association).
 All instances are created, animated, moderated and maintained independently.
 PeerTube isn't submitted by any company monopole, doesn't depend on ads and doesn't track you.

@@ -378,7 +378,7 @@ For those who wants to watch videos, PeerTube has the benefit of&hellip;
   <div class="panel-body">
     <p>
 
-One of the advantages is that <strong>you become a part of the broadcasting of the videos you are watching</strong>.
+One of the benefits is that <strong>you become a part of the broadcasting of the videos you are watching</strong>.
 
 If other people are watching a PeerTube video at the same time as you, as long as your tab remains open, your browser shares bits of that video and you participate in a healthier use of the Internet.
 
@@ -595,13 +595,12 @@ There are none, not at the moment : PeerTube is a tool that we wanted neutral in
 
     </p>
     <p>
-
-For now, the only solution proposed to people who upload videos is to put a text and a link that will appear in the support button ("<i>Support</i>") under the video.
+For now, the solution proposed to people who upload videos is to use the "support" button under the video. This button displays a frame in which people who upload videos can display text, images, and links freely. For example, it's possible to put a patreon, Tipeee, Paypal, Liberapay (or another solution) button. Other examples: put an adress for a postcard thanks, put a logo of your enterprise, a link for support an GNO,...
 
     </p>
     <p>
 
-We did not go any further because to favour a technical solution would be to impose, in the code, a political vision of cultural sharing and its financing.
+We did not go any further because to favour a technical solution would be to impose, in the code, a political vision of cultural sharing and its financing. Every financial solutions are possibles in PeerTube.
 
     </p>
     <p>
@@ -707,7 +706,7 @@ We recommend not to install PeerTube on a weak hardware or behind a weak connect
     </p>
     <p>
 
-Don't bother the developer to help you install your instance: our <a href="https://framacolibri.org/c/qualite/peertube">support forum</a> is there for that.
+Don't bother the developer to help you install your instance: our <a href="https://framacolibri.org/c/peertube">support forum</a> is there for that.
 
     </p>
   </div>
@@ -743,7 +742,7 @@ You can <a href="https://github.com/Chocobozzz/PeerTube/issues">create an issue<
     </p>
     <p>
 
-If you want to provide another type of help, or if you want a feature that is not available, come discuss it on our <a href="https://framacolibri.org/c/qualite/peertube">contribution forum</a>.
+If you want to provide another type of help, or if you want a feature that is not available, come discuss it on our <a href="https://framacolibri.org/c/peertube">contribution forum</a>.
 
     </p>
   </div>

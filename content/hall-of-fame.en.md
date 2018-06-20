@@ -102,6 +102,7 @@ type = "page"
 <p><a class="button" href="https://www.kisskissbankbank.com/en/projects/peertube-a-free-and-federated-video-platform">Add your name here</a></p>
 
 <h3>Contributors</h3>
+
 <ul>
   <li>Chocobozzz</li>
   <li>gegeweb</li>
