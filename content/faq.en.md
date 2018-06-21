@@ -50,7 +50,7 @@ What is PeerTube?
   <div class="panel-body">
     <p>
 
-PeerTube is a software that you install on a web server.
+PeerTube is software that you install on a web server.
 
 It allows you to create a video hosting website, so create your "homemade YouTube".
 
@@ -104,7 +104,7 @@ A federation of interconnected hosting providers (so more video choices wherever
       </li>
       <li>
 
-Broadcasting – and therefore viewing – peer-to-peer (so no slowing down when a video becomes viral).
+Peer-to-peer broadcasting – and therefore viewing – (so no slowing down when a video becomes viral).
 
       </li>
     </ol>
@@ -125,7 +125,7 @@ Linked together, these three features makes it easy to host videos on the server
 
     <a data-toggle="collapse" data-parent="#accordion-presentation" href="#libre" aria-controls="libre" aria-expanded="false">
 
-Why is it better as a free/libre software?
+Why is it better as free/libre software?
 
     </a>
   </h4>
@@ -136,7 +136,7 @@ Why is it better as a free/libre software?
   <div class="panel-body">
     <p>
 
-Because it's software that respects our fundamental freedoms, and guarantees them by <a href="https://github.com/Chocobozzz/PeerTube/blob/develop/LICENSE">a license</a>, so a legally enforceable contract.
+Because by design free/libre software respects our fundamental freedoms, and guarantees them by <a href="https://github.com/Chocobozzz/PeerTube/blob/develop/LICENSE">a license</a>, so a legally enforceable contract.
 
     </p>
     <p>
@@ -157,7 +157,7 @@ We can look under the hood of PeerTube (its source code): it's auditable, transp
       </li>
       <li>
 
-It's development is community-based, it can be enhanced by everyone's contributions.
+Its development is community-based, it can be enhanced by everyone's contributions.
 
       </li>
     </ul>
@@ -184,17 +184,17 @@ What's the interest to federate the video hosting providers?
   <div class="panel-body">
     <p>
 
-The advantage of YouTube (and other platforms) is its video catalog: from knitting tutorials to minecraft constructions through videos of kittens or holidays... you can find everything! 
+The advantage of YouTube (and other platforms) is its video catalog: from knitting tutorials to Minecraft constructions through videos of kittens or holidays... you can find everything! 
 
     </p>
     <p>
 
-The more the video catalogue is varied, the more people are interested, the more videos are posted... but hosting videos from all over the world is (very, very) expensive!
+The more the video catalogue is varied, the more people are interested, the more videos are uploaded... but hosting videos from all over the world is (very, very) expensive!
 
     </p>
     <p>
 
-If the hosting provider Knitting-PeerTube becomes friends with Kittens-Tube and Framatube, it will display the videos of others on its site: thus diluting hosting costs while remaining practical and complete for Internet users.
+If the hosting provider Knitting-PeerTube becomes friends with Kittens-Tube and Framatube, it will display the videos of others on its site, thus diluting hosting costs while remaining practical and complete for Internet users.
 
     </p>
     <p>
@@ -225,12 +225,12 @@ Why broadcast PeerTube videos through peer-to-peer?
   <div class="panel-body">
     <p>
 
-When you host a large file like a video, the biggest thing to fear is success: if a video becomes viral and many people watch it at the same time, the server has a big risk of falling!
+When you host a large file like a video, the biggest thing to fear is success: if a video becomes viral and many people watch it at the same time, the server has a big risk of getting overloaded!
 
     </p>
     <p>
 
-Peer-to-peer broadcasting allows, thanks to the <a href="https://fr.wikipedia.org/wiki/WebRTC">WebRTC</a> protocol, that Internet users who watch the same video at the same time exchange bits of files, which relieves the server.
+Peer-to-peer broadcasting allows, thanks to the <a href="https://en.wikipedia.org/wiki/WebRTC">WebRTC</a> protocol, that Internet users who watch the same video at the same time exchange bits of files, which relieves the server.
 
     </p>
     <p>
@@ -263,16 +263,16 @@ For those who know how to administer a server, PeerTube is…
   <div class="panel-body">
     <p>
 
-<strong>It's a software you install on your server</strong> to create a website hosting and broadcasting videos&hellip;
+<strong>It's software you install on your server</strong> to create a website where videos are hosted and broadcast&hellip;
 
 Basically: you create your own "homemade YouTube"!
 
     </p>
     <p>
 
-There already are Free-libre softwares that enable you to do this.
+There already exists free/libre software that enables you to do this.
 
-But with PeerTube, you can link your PeerTube instance (your videos website) to Zaïd's PeerTube instance (where he hosts videos of the lectures for his people's university), to Catherin's (who hosts her webmedia's videos) or even to Solar's PeerTube instance (who manages a vlogers collective).
+But with PeerTube, you can link your instance (your video website) to Zaïd's PeerTube instance (where he hosts videos of the lectures for his people's university), to Catherin's (who hosts her webmedia videos) or even to Solar's PeerTube instance (who manages a vloggers collective).
 
     </p>
     <p>
@@ -283,23 +283,21 @@ But PeerTube doesn't centralize: it federates.
 
       </strong>
 
-Thanks to the <a href="https://activitypub.rocks/">ActivityPub</a> protocol (also used by <a href="https://joinmastodon.org/">the Mastodon federation</a>, a free-libre Twitter alternative), PeerTube can federates several small hosters so they don't have to buy thousands of hard disks to host videos for the whole world.
+Thanks to the <a href="https://activitypub.rocks/">ActivityPub</a> protocol (also used by <a href="https://joinmastodon.org/">the Mastodon federation</a>, a free/libre Twitter alternative), PeerTube can federate several small hosters so they don't have to buy thousands of hard disks to host videos for the whole world.
 
     </p>
     <p>
 
-As a result, on your PeerTube website, the audience will be able to watch not only your videos, but also videos hosted by Zaïd, Catherin or Solar&hellip; without having to host their videos on you PeerTube-powered website.
+As a result, on your PeerTube website, the audience will be able to watch not only your videos, but also videos hosted by Zaïd, Catherin or Solar&hellip; without having to host their videos on your PeerTube-powered website.
 
-Such diversity in a video-catalog makes it very attractive.
-
-Such a large choice and diversity of videos made centralized platform such YouTube very succesfull.
+Such a large choice and diversity of videos is what made centralized platforms such as YouTube succesful.
 
     </p>
     <p>
 
-Federation offers another benefit: <strong>everyone becomes independant</strong>.
+Federation offers another benefit: <strong>everyone becomes independent</strong>.
 
-Zaïd, Catherin, Solar and yourself can make your own rules, your own Terms of Services (for exemple, one can imagine a MeowTube where dogs videos are strictly forbidden&#x1F642;).
+Zaïd, Catherin, Solar and yourself can make your own rules, your own Terms of Services (for example, one can imagine a MeowTube where dogs videos are strictly forbidden &#x1F642;).
 
     </p>
   </div>
@@ -327,7 +325,7 @@ For those who wants to upload their videos, PeerTube allows&hellip;
 
 It allows you to choose a hoster that fits you.
 
-YouTube's excesses are a good exemple: its hoster, Google-Alphabet, can impose its "Robocopyright" (the ContentID system) or its tools to index, recommand and spolight videos; and those tools seems as unfair as they are obscure.
+YouTube's excesses are a good exemple: its hoster, Google/Alphabet, can impose its "Robocopyright" (the ContentID system) or its tools to index, recommend and spotlight videos; and those tools seem as unfair as they are obscure.
 
 Even though, it already forces you <a href="https://tosdr.org/#youtube">to give it extended copyrights on your videos, for free</a>!
 
@@ -352,7 +350,7 @@ If hundreds of people are watching your video at the same time, their browsers a
 
 Before this peer-to-peer broadcast, successful videographers (or videos that make the buzz) were doomed to be hosted by a web giant whose infrastructure can handle millions of simultaneous views…
 
-Or to pay very expensive an independent video hosting so that it holds the load.
+Or to pay for a very expensive independent video host so that it can hold the load.
 
     </p>
   </div>
@@ -367,7 +365,7 @@ Or to pay very expensive an independent video hosting so that it holds the load.
 
     <a data-toggle="collapse" data-parent="#accordion-presentation" href="#audience" aria-controls="audience" aria-expanded="false">
 
-For those who wants to watch videos, PeerTube has the benefit of&hellip;
+For those who want to watch videos, PeerTube can offer&hellip;
 
     </a>
   </h4>
@@ -385,12 +383,12 @@ If other people are watching a PeerTube video at the same time as you, as long a
     </p>
     <p>
 
-Of course, PeerTube's video player adapts to your situation : if your installation does not allow peer-to-peer playback (corporate network, recalcitrant browser, etc.) video playback will be done in the classic way.
+Of course, PeerTube's video player adapts to your situation: if your installation does not allow peer-to-peer playback (corporate network, recalcitrant browser, etc.) video playback will be done in the classic way.
 
     </p>
     <p>
 
-But above all, <strong>PeerTube considers you as a person, and not as a product</strong> that you have to track, profile, and lock in video loops to better sell your available brain time.
+But above all, <strong>PeerTube treats you like a person, not as a product</strong> that it has to track, profile, and lock in video loops to better sell your available brain time.
 
 Thus, the <a href="https://github.com/Chocobozzz/PeerTube">source code</a> (the recipe) of the PeerTube software is open, making its operation transparent.
 
@@ -438,7 +436,7 @@ We can answer with certainty: no!
 
 In March 2018, PeerTube released its publicly usable beta version.
 
- Several collectives set up the first instances, thus creating the bases of the federation.
+Several collectives set up the first instances, thus creating the bases of the federation.
 
     </p>
     <p>
@@ -468,7 +466,7 @@ Nevertheless, the ambition remains to be <strong>a free and decentralized altern
 
 <h3>
 
-Creation and contents
+Creation and content
 
 </h3>
 
@@ -483,7 +481,7 @@ Creation and contents
 
     <a data-toggle="collapse" data-parent="#accordion-creation" href="#law" aria-controls="law" aria-expanded="false">
 
-If it's free, can we put illegal contents on it?
+If it's free, can we upload illegal stuff on it?
 
   </a>
   </h4>
@@ -496,19 +494,19 @@ If it's free, can we put illegal contents on it?
 
 Being free doesn't mean being above the law!
 
-Each PeerTube hosting provider can decide its own general conditions of use, within the law on which they depend.
+Each PeerTube hosting provider can decide on its own general conditions of use, abiding by their local laws.
 
     </p>
     <p>
 
 For example, in France, discriminatory content <a href="https://fr.wikipedia.org/wiki/Lois_contre_le_racisme_et_les_discours_de_haine">is prohibited</a> and may be <a href="http://stop-discrimination.gouv.fr/agir/ne-pas-laisser-faire-les-recours">reported to the authorities</a>.
 
-PeerTube allows users to report a problematic video, and each administrator must then apply its moderation in accordance with its terms and conditions and the law.
+PeerTube allows users to report problematic videos, and each administrator must then apply its moderation in accordance with its terms and conditions and the law.
 
     </p>
     <p>
 
-The federation system, for its part, allows hosts to decide with whom they want to connect with, or not, depending on the types of content or the moderation policies of others.
+The federation system, for its part, allows hosts to decide with whom they want to connect, depending on the types of content or the moderation policies of others.
 
     </p>
   </div>
@@ -534,7 +532,7 @@ Who is responsible for content published on PeerTube?
   <div class="panel-body">
     <p>
 
-PeerTube is not a website : it is software that allows a web hoster (for example, Dominique) to create a video website (let's call it DominiqueTube).
+PeerTube is not a website: it is software that allows a web hoster (for example, Dominique) to create a video website (let's call it DominiqueTube).
 
     </p>
     <p>
@@ -558,14 +556,14 @@ Although the report is made from Framatube, it is sent directly to the person ho
     </p>
     <p>
 
-From that moment on, Dominique is responsible, because she's warned that she's hosting an illegal video.
+From that moment on, Dominique is responsible, because they are warned that they're hosting an illegal video.
 
-It is therefore up to it to act if it does not want to be accountable before the law.
+It is therefore up to them to act if they don't want to be held accountable before the law.
 
     </p>
     <p>
 
-Then Dominique and Solal can turn against Camille, who committed the misdeed.
+Then Dominique and Solal can turn against Camille, who uploaded the video.
 
     </p>
   </div>
@@ -591,22 +589,22 @@ What is PeerTube's remuneration policy?
   <div class="panel-body">
     <p>
 
-There are none, not at the moment : PeerTube is a tool that we wanted neutral in terms of remuneration.
+There are none, not at the moment: PeerTube is a tool that we wanted neutral in terms of remuneration.
 
     </p>
     <p>
 
-For now, the solution proposed to people who upload videos is to use the "support" button under the video. This button displays a frame in which people who upload videos can display text, images, and links freely. For example, it's possible to put a patreon, Tipeee, Paypal, Liberapay (or another solution) button. Other examples: put an adress for a postcard thanks, put a logo of your enterprise, a link for support an GNO,...
+For now, the solution proposed to people who upload videos is to use the "support" button under the video. This button displays a frame in which people who upload videos can display text, images, and links freely. For example, it's possible to put a link to Patreon, Tipeee, Paypal, Liberapay (or any other solution) there. Other examples: put a postal address if you'd like to receive physical thank-you cards, put a logo of your enterprise, a link to support a non-profit organisation…
 
     </p>
     <p>
 
-We did not go any further because to favour a technical solution would be to impose, in the code, a political vision of cultural sharing and its financing. Every financial solutions are possibles in PeerTube.
+We did not go any further because to favour one technical solution would be to impose, in the code, a political vision of cultural sharing and its financing. All financial solutions are possible and treated equally in PeerTube.
 
     </p>
     <p>
 
-However many improvements of PeerTube are to be expected...
+However, many improvements of PeerTube are to be expected…
 
 Including those that would allow you to create (and choose) the monetization tools that interest you!
 
@@ -644,19 +642,19 @@ You need to find a PeerTube hosting instance you trust.
     </p>
     <p>
 
-The complete list of instances <a href="https://instances.joinpeertube.org/">is there</a>, and we show <a href="https://joinpeertube.org/fr/#getting-started">here those that are open to registration</a>.
+There's a complete <a href="https://instances.joinpeertube.org/">list of instances here</a>, and a list of those that are <a href="https://joinpeertube.org/en/#getting-started">open to registration here</a>.
 
     </p>
     <p>
 
-Then, we recommend you go to the instances, read their "about" page to discover their terms of use (disk space limit per user, content policy, etc.).
+Then, we recommend you go to the instances, read their "about" page to discover their terms of use (disk space limit per user, content policy, etc.)
 
     </p>
     <p>
 
-The best is to contact and discuss directly with hosting providers, to understand their business model, vision, etc.
+It's best to contact and talk directly with hosting providers, to understand their business model, vision, etc.
 
-Because only you can determine what makes you trust such or such host, and thus entrust your videos to him.
+Because only you can determine what makes you trust such or such host, and thus entrust your videos to them.
 
     </p>
   </div>
@@ -667,7 +665,7 @@ Because only you can determine what makes you trust such or such host, and thus 
 
 <!-- fin accordéon -->
 
-<a href="https://framacolibri.org/c/peertube">Exchange on our forum</a>
+<a href="https://framacolibri.org/c/peertube">Discuss on our forum</a>
 
 <h3>
 
@@ -686,7 +684,7 @@ Technical questions
 
     <a data-toggle="collapse" data-parent="#accordion-tech" href="#install" aria-controls="install" aria-expanded="false">
 
-How to install PeerTube?
+How do I install PeerTube?
 
     </a>
   </h4>
@@ -702,12 +700,12 @@ The <a href="https://github.com/Chocobozzz/PeerTube/blob/develop/support/doc/pro
     </p>
     <p>
 
-We recommend not to install PeerTube on a weak hardware or behind a weak connection (for example, on a RaspberryPi with an ADSL connection): this could slow down all federations.
+We recommend not to install PeerTube on low-end hardware or behind a weak connection (for example, on a RaspberryPi with an ADSL connection): this could slow down all federations.
 
     </p>
     <p>
 
-Don't bother the developer to help you install your instance: our <a href="https://framacolibri.org/c/peertube">support forum</a> is there for that.
+Don't bother the developer to help you install your instance: we have a <a href="https://framacolibri.org/c/peertube">support forum</a> for that.
 
     </p>
   </div>
@@ -722,7 +720,7 @@ Don't bother the developer to help you install your instance: our <a href="https
 
     <a data-toggle="collapse" data-parent="#accordion-tech" href="#code" aria-controls="code" aria-expanded="false">
 
-How to participate to PeerTube's  code?
+How do I contribute to PeerTube's code?
 
     </a>
   </h4>
@@ -733,7 +731,7 @@ How to participate to PeerTube's  code?
   <div class="panel-body">
     <p>
 
-The <a href="https://github.com/Chocobozzz/PeerTube">git repository of PeerTube is here</a>.
+The <a href="https://github.com/Chocobozzz/PeerTube">Git repository of PeerTube is here</a>.
 
     </p>
     <p>
@@ -743,7 +741,7 @@ You can <a href="https://github.com/Chocobozzz/PeerTube/issues">create an issue<
     </p>
     <p>
 
-If you want to provide another type of help, or if you want a feature that is not available, come discuss it on our <a href="https://framacolibri.org/c/peertube">contribution forum</a>.
+If you want to help out in another way, or if you want to request a feature, come discuss it on our <a href="https://framacolibri.org/c/peertube">contribution forum</a>.
 
     </p>
   </div>
@@ -784,7 +782,7 @@ After discussing it on our forum, we feel that d.tube is not free or open source
     </p>
     <p>
 
-D.tube is based on Steem for "remuneration", it is a choice, but Steem is <a href="https://en.wikipedia.org/wiki/Steemit#Criticism">widely criticized</a> as <a href="https://steemit.com/steemit/@docdelux/30-days-of-steemit-here-is-my-criticism">highly centralized</a>, and especially <a href="https://steemit.com/steemit/@thecryptonews/psa-constructive-criticism-the-ugly-truth-behind-steemit">close to a Ponzi system</a>.
+D.tube is based on Steem for "remuneration", it is a choice, but Steem is <a href="https://en.wikipedia.org/wiki/Steemit#Criticism">widely criticized</a> as <a href="https://steemit.com/steemit/@docdelux/30-days-of-steemit-here-is-my-criticism">highly centralized</a>, and suspiciously <a href="https://steemit.com/steemit/@thecryptonews/psa-constructive-criticism-the-ugly-truth-behind-steemit">resembles a Ponzi system</a>.
 
     </p>
     <p>
