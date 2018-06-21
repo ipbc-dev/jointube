@@ -14,7 +14,7 @@ type = "page"
 
 <h2 class="text-center">
 
-A few questions to discover PeerTube...
+A few questions to discover PeerTube&hellip;
 
 </h2>
 <p><i class="text-center">
@@ -62,7 +62,7 @@ The difference to YouTube is that it's not intended to create a huge platform ce
     </p>
     <p>
 
-On the contrary, PeerTube's concept is to create a network of multiple small interconnected video hosting providers. 
+On the contrary, PeerTube's concept is to create a network of multiple small interconnected video hosting providers.
 
     </p>
   </div>
@@ -184,12 +184,12 @@ What's the interest to federate the video hosting providers?
   <div class="panel-body">
     <p>
 
-The advantage of YouTube (and other platforms) is its video catalog: from knitting tutorials to Minecraft constructions through videos of kittens or holidays... you can find everything! 
+The advantage of YouTube (and other platforms) is its video catalog: from knitting tutorials to Minecraft constructions through videos of kittens or holidays&hellip; you can find everything!
 
     </p>
     <p>
 
-The more the video catalogue is varied, the more people are interested, the more videos are uploaded... but hosting videos from all over the world is (very, very) expensive!
+The more the video catalogue is varied, the more people are interested, the more videos are uploaded&hellip; but hosting videos from all over the world is (very, very) expensive!
 
     </p>
     <p>
@@ -289,6 +289,8 @@ Thanks to the <a href="https://activitypub.rocks/">ActivityPub</a> protocol (als
     <p>
 
 As a result, on your PeerTube website, the audience will be able to watch not only your videos, but also videos hosted by Zaïd, Catherin or Solar&hellip; without having to host their videos on your PeerTube-powered website.
+
+Such diversity in a video-catalog makes it very attractive.
 
 Such a large choice and diversity of videos is what made centralized platforms such as YouTube succesful.
 
@@ -647,7 +649,7 @@ There's a complete <a href="https://instances.joinpeertube.org/">list of instanc
     </p>
     <p>
 
-Then, we recommend you go to the instances, read their "about" page to discover their terms of use (disk space limit per user, content policy, etc.)
+Then, we recommend you go to the instances, read their "about" page to discover their terms of use (disk space limit per user, content policy, etc.).
 
     </p>
     <p>

@@ -14,7 +14,7 @@ type = "page"
 
 <h2 class="text-center">
 
-Einige Fragen zu PeerTube...
+Einige Fragen zu PeerTube&hellip;
 
 </h2>
 <p><i class="text-center">
@@ -230,7 +230,7 @@ Wenn Sie eine große Datei wie ein Video hosten, ist das größte Problem der Er
     </p>
     <p>
 
-Die Peer-to-Peer-Verteilung ermöglicht dank des Protokolls <a href="https://fr.wikipedia.org/wiki/WebRTC">WebRTC</a>, dass Internetnutzer, die das gleiche Video gleichzeitig ansehen, Bits von Dateien austauschen, was den Server entlastet.
+Die Peer-to-Peer-Verteilung ermöglicht dank des Protokolls <a href="https://de.wikipedia.org/wiki/WebRTC">WebRTC</a>, dass Internetnutzer, die das gleiche Video gleichzeitig ansehen, Bits von Dateien austauschen, was den Server entlastet.
 
     </p>
     <p>
@@ -327,7 +327,7 @@ Für diejenigen, die ihre Videos online ausstrahlen wollen, bietet PeerTube die 
 
 Es erlaubt Ihnen, die Unterkunft zu wählen, die zu Ihnen passt.
 
-Wir haben es bei YouTube gesehen: Sein Host, Google-Alphabet, kann sein System <a href="https://scinfolex.com/2016/07/05/ce-que-le-filtrage-automatise-des-contenus-sur-youtube-fait-a-la-creation/">ContentID (die berühmte"&nbsp;Robocopyright&nbsp;")</a> oder seine Videoverbesserungs-Tools, die ebenso obskur wie unfair erscheinen.
+Wir haben es bei YouTube gesehen: Sein Host, Google-Alphabet, kann sein System <a href="https://scinfolex.com/2016/07/05/ce-que-le-filtrage-automatise-des-contenus-sur-youtube-fait-a-la-creation/" hreflang="fr">ContentID (die berühmte"&nbsp;Robocopyright&nbsp;")</a> oder seine Videoverbesserungs-Tools, die ebenso obskur wie unfair erscheinen.
 
 Was auch immer passiert, er verhängt bereits <a href="https://tosdr.org/#youtube">um ihm - kostenlos - Rechte an Ihren Videos zu geben </a>.
 
@@ -606,7 +606,7 @@ Eine technische Lösung zu favorisieren, würde bedeuten, im Kodex eine politisc
     </p>
     <p>
 
-Darüber hinaus sind viele Verbesserungen von PeerTube zu erwarten....
+Darüber hinaus sind viele Verbesserungen von PeerTube zu erwarten&hellip;
 
 Einschließlich derjenigen, die es Ihnen ermöglichen würden, die für Sie interessanten Monetarisierungswerkzeuge selbst zu erstellen (und auszuwählen)!
 

@@ -606,7 +606,7 @@ Andere opties zijn er nog niet omdat voor één bepaald platform kiezen zou will
     </p>
     <p>
 
-Maar je mag nog veel verbeteringen aan PeerTube verwachten …
+Maar je mag nog veel verbeteringen aan PeerTube verwachten &hellip;
 
 Onder andere een systeem dat je vergoedingssystemen die je interesseren laat toevoegen en kiezen voor video's!
 
@@ -656,7 +656,7 @@ We raden aan naar de instanties te gaan, hun "over"-pagina te lezen om hun gebru
 
 Het is best rechtstreeks contact op te nemen met de hostingproviders en met hen te overleggen om hun businessmodel en visie te begrijpen,
 
-want alleen jij kan beslissen wat ervoor zorgt dat je een host vertrouwt met je video's.
+Want alleen jij kan beslissen wat ervoor zorgt dat je een host vertrouwt met je video's.
 
     </p>
   </div>

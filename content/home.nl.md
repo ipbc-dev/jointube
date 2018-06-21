@@ -73,7 +73,7 @@ word je eigen hostingprovider en kies je eigen regels!
 ### Behoud controle over je content
 
 PeerTube laat toe al je video's te delen. Doordat je in rechtstreeks contact staat met de mensen die je video's hosten (of door je eigen provider te worden), kan je kiezen hoe jouw video's uitgezonden worden.
-Je hebt de mogelijkheid video's een beschrijving te geven, in categorieën in te delen, een thumbnail te kiezen, als "not safe for work" te markeren…
+Je hebt de mogelijkheid video's een beschrijving te geven, in categorieën in te delen, een thumbnail te kiezen, als "not safe for work" te markeren …
 Je kan tekst kiezen die getoond wordt als je op de **Ondersteun**-knop klikt, zodat je je publiek kan tonen hoe ze je werk (bv. financieel) kunnen ondersteunen.
 
 {{% /grid %}}
@@ -108,7 +108,7 @@ Als je een video bekijkt met PeerTube, laat de WebTorrent-technologie
 je die video uitzenden naar mensen die
 op hetzelfde moment er ook naar kijken.
 Dit systeem creëert een gezonder gebruik van het netwerk.
-Bovendien laat het gebruikte federatieprotocol (ActivityPub) het mogelijk video's en reacties te delen op andere platformen, zoals [Mastodon](https://joinmastodon.org)! (experimenteel)
+Bovendien maakt het gebruikte federatieprotocol (ActivityPub) het mogelijk video's en reacties te delen op andere platformen, zoals [Mastodon](https://joinmastodon.org)! (experimenteel)
 
 {{% /grid %}}
 {{% grid class="col-sm-4 col-sm-pull-8 text-center" %}}
@@ -140,7 +140,7 @@ Lijst van instanties waar je je kan registreren:
 
 <div id="instances-list-error" class="alert alert-danger" style="display: none">Sorry, de lijst van beschikbare instanties kon niet opgehaald worden. Controleer dat JavaScript ingeschakeld is en probeer later opnieuw.</div>
 
-<div class="alert alert-info">Dit is zoals het kiezen van een e-mail-provider: de domeinnaam wordt deel van je gebruikersnaam!</div>
+<div class="alert alert-info">Dit is zoals het kiezen van een e-mail-provider: de domeinnaam is deel van je gebruikersnaam!</div>
 
 {{% /grid %}}
 {{% /grid %}}
