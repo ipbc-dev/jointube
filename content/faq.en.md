@@ -405,7 +405,7 @@ PeerTube is not only open-source: it's free (as in free speech).
 
 Its free license guarantees our fundamental freedoms as users.
 
-It is this respect for our freedoms that allows Framasoft to invite you to contribute to this software, and many evolutions (innovative comment system, etc.) have already been blown away by some of you.
+It is this respect for our freedoms that allows Framasoft to invite you to contribute to this software, and many evolutions (innovative comment system, etc.) have already been suggested by some of you.
 
     </p>
   </div>
