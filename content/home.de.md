@@ -13,7 +13,7 @@ type = "page"
 {{% grid class="col-sm-12 text-center" %}}
 
 # Übernehmen Sie die Kontrolle über Ihre Videos
-## Dezentrales, vernetztes, auf befreiend Software basierendes Video-Hosting
+## Ein dezentrales, auf freier Software basierendes Video-Hosting-Netzwerk
 
 <div class="col-md-6 well col-md-push-6">
   <div class="embed-responsive embed-responsive-16by9">
@@ -21,12 +21,12 @@ type = "page"
       src="https://framatube.org/videos/embed/217eefeb-883d-45be-b7fc-a788ad8507d3"></iframe>
   </div>
   <p class="text-left">Helfen Sie uns, PeerTube v1 zu entwickeln!<br>
-  Nur noch <b><span id="kkbbDays">45</span> Tage</b> bis zur Teilnahme an unserer Beteiligungsfinanzierung!</p>
+  Nur noch <b><span id="kkbbDays">45</span> Tage</b> bis zum Ende der Spendenkampagne!</p>
   <p><a class="button" href="https://www.kisskissbankbank.com/de/projects/peertube-a-free-and-federated-video-platform">PeerTube unterstützen</a></p>
 </div>
 <div class="col-md-6 col-md-pull-6">
   <img src="/notebook.jpg" class="img-responsive" alt="" />
-  <p><a href="#getting-started">Zu Beginn</a> <a href="#how-it-works">Wie es funktioniert</a></p>
+  <p><a href="#getting-started">Erste Schritte</a> <a href="#how-it-works">So funktionierts</a></p>
 </div>
 
 {{% /grid %}}
@@ -54,12 +54,12 @@ type = "page"
 {{% grid class="container" %}}
 {{% grid class="col-sm-8" %}}
 
-### Macht zurückerobern&hellip; und Verantwortung!
+### Übernehmen Sie wieder die Kontrolle ... und die Verantwortung!
 
-PeerTube ist keine einzige Video-Hosting-Plattform mit einem einzigen Regelwerk.
-ist ein Netzwerk von Dutzenden von miteinander verbundenen Hosts, und jeder Host besteht aus verschiedenen Personen und Administratoren.
-Sie mögen bestimmte Regeln nicht?
-Es steht Ihnen frei, dem Gastgeber Ihrer Wahl beizutreten, oder noch besser, Ihr eigener Gastgeber mit Ihren eigenen Regeln zu sein!
+PeerTube ist nicht eine einzelne Video-Hosting-Plattform mit einem einzelnen Regelwerk:
+Es ist ein Netzwerk aus Dutzenden miteinander verbundener Anbieter, die sich aus verschiedenen Personen und Administratoren zusammensetzen.
+Einige Regeln gefallen Ihnen nicht?
+Dann suchen Sie sich einen passenderen Anbieter oder noch besser: Seien Sie Ihr eigener Gastgeber mit Ihren eigenen Regeln!
 
 {{% /grid %}}
 {{% grid class="col-sm-4 text-center" %}}
@@ -69,11 +69,11 @@ Es steht Ihnen frei, dem Gastgeber Ihrer Wahl beizutreten, oder noch besser, Ihr
 {{% /grid %}}
 {{% grid class="col-sm-8 col-sm-push-4" %}}
 
-### Übernehmen Sie die Kontrolle über Ihre Content
+### Bestimmen Sie Ihre Inhalte
 
-Mit PeerTube können Sie alle Ihre Videos freigeben. Der direkte Kontakt mit einem Host in menschlicher Größe (oder das Werden Ihres eigenen Hosts) ermöglicht es Ihnen, die Bedingungen ihrer Verbreitung zu beeinflussen.
-Ihre Videos profitieren von Beschreibungswerkzeugen, Kategorisierung, Anpassung der Thumbnails, Markierung von Inhalten für ein reifes Publikum.
-Das Anpassen der Schaltfläche **Support** ermöglicht es Ihnen, Ihrem Publikum frei zu sagen, wie Sie Ihren Ansatz unterstützen sollen.
+Mit PeerTube können Sie alle Ihre Videos teilen. Der direkte Kontakt mit einem  wirklichen Menschen als Anbieter  (oder Ihr eigener zu werden) erlaubt Ihnen zu entscheiden, wie sie verteilt werden sollen.
+Werten Sie Ihre Videos mit Hilfe leicht zu bedienender Werkzeuge zur Beschreibung, Kategorisierung, Auswahl von Vorschaubildern, Markierung von NSFW-Inhalten.
+Mit dem anpassbaren **Support**-Button können Sie Ihrem Publikum mitteilen, wie Sie Ihr Angebot unterstützen können.
 
 {{% /grid %}}
 {{% grid class="col-sm-4 col-sm-pull-8 text-center" %}}

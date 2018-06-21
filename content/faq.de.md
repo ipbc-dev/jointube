@@ -283,7 +283,7 @@ Aber PeerTube zentralisiert sich nicht: Es föderiert.
 
       </strong>
 
-Dank des Protokolls <a href="https://en.wikipedia.org/wiki/ActivityPub">ActivityPub</a> (wird auch von <a href="https://joinmastodon.org/">Mastodon Föderation</a>, einer kostenlosen Alternative zu Twitter, verwendet) führt PeerTube viele kleine Hosts zusammen, um sie nicht zu zwingen, Tausende von Festplatten zu kaufen, um Videos aus aller Welt zu hosten.
+Dank des Protokolls <a href="https://en.wikipedia.org/wiki/ActivityPub">ActivityPub</a> (wird auch von <a href="https://joinmastodon.org/">Mastodon Föderation</a>, einer freien Alternative zu Twitter, verwendet) führt PeerTube viele kleine Hosts zusammen, um sie nicht zu zwingen, Tausende von Festplatten zu kaufen, um Videos aus aller Welt zu hosten.
 
     </p>
     <p>
@@ -403,7 +403,7 @@ PeerTube ist nicht nur Open-Source: es ist befreiend.
 
       </strong>
 
-Seine kostenlose Lizenz garantiert unsere Grundfreiheiten als Nutzer.
+Seine freie Lizenz garantiert unsere Grundfreiheiten als Nutzer.
 
 Es ist dieser Respekt vor unseren Freiheiten, der es Framasoft erlaubt, Sie einzuladen, zu dieser Software beizutragen, und viele Entwicklungen (innovatives Kommentarsystem, etc.) wurden uns bereits von einigen von Ihnen vorgeschlagen.
 
@@ -483,7 +483,7 @@ Kreation und Inhalt
 
     <a data-toggle="collapse" data-parent="#accordion-creation" href="#law" aria-controls="law" aria-expanded="false">
 
-Wenn es kostenlos ist, können Sie dann illegale Inhalte einfügen?
+Wenn es frei ist, können Sie dann illegale Inhalte einfügen?
 
   </a>
   </h4>
