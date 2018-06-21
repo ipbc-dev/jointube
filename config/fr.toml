@@ -10,6 +10,12 @@
   weight = 4
   url = "en"
 
+[[Languages.fr.menu.switchlang]]
+  name = "Nederlands"
+  identifier = ""
+  weight = 4
+  url = "nl"
+
 [Languages.fr]
 languageCode = "fr"
 title = "JoinPeerTube"

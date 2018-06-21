@@ -1,60 +1,60 @@
-[[Languages.en.menu.switchlang]]
+[[Languages.nl.menu.switchlang]]
   name = "Deutsch"
   identifier = ""
   weight = 4
   url = "de"
 
-[[Languages.en.menu.switchlang]]
+[[Languages.nl.menu.switchlang]]
   name = "Français"
   identifier = ""
   weight = 4
   url = "fr"
 
-[[Languages.en.menu.switchlang]]
-  name = "Nederlands"
+[[Languages.nl.menu.switchlang]]
+  name = "English"
   identifier = ""
   weight = 4
-  url = "nl"
+  url = "en"
 
-[Languages.en]
-languageCode = "en"
+[Languages.nl]
+languageCode = "nl"
 title = "JoinPeerTube"
 weight = 1
 
-[[Languages.en.menu.main]]
+[[Languages.nl.menu.main]]
 name = "FAQ"
 identifier = "faq"
 weight = 2
 title = "FAQ"
-url = "/en/faq/"
+url = "/nl/faq/"
 
-[[Languages.en.menu.main]]
-name = "Support"
+[[Languages.nl.menu.main]]
+name = "Hulp"
 weight = 3
 identifier = ""
 url = "https://framacolibri.org/c/peertube"
 
-[[Languages.en.menu.main]]
-name = "Documentation"
+[[Languages.nl.menu.main]]
+name = "Documentatie"
 weight = 4
 identifier = ""
 url = "https://peertube.frama.wiki"
 
-[[Languages.en.menu.main]]
-name = "Source code"
+[[Languages.nl.menu.main]]
+name = "Broncode"
 weight = 5
 identifier = ""
 url = "https://github.com/Chocobozzz/PeerTube"
 
-[[Languages.en.menu.main]]
-name = "Instances"
+[[Languages.nl.menu.main]]
+name = "Instanties"
 weight = 6
 identifier = ""
 url = "https://instances.joinpeertube.org"
 
-[[Languages.en.menu.main]]
-name = "Hall of fame"
+[[Languages.nl.menu.main]]
+name = "Eregalerij"
 identifier = "hof"
 weight = 7
-title = "Hall of fame"
-url = "/en/hall-of-fame/"
+title = "Eregalerij"
+url = "/nl/hall-of-fame/"
