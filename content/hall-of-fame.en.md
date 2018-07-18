@@ -119,7 +119,7 @@ type = "page"
   <li>Daniel-Bartsch</li>
   <li>Daniel-Thul</li>
   <li>Danny-Joerger</li>
-  <li>Darth_Judge</li>
+  <li>Darth Judge</li>
   <li>Dashcom</li>
   <li>David-BADOIL</li>
   <li>David-Dormoy</li>
