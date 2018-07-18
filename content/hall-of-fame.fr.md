@@ -14,7 +14,6 @@ type = "page"
 <h2 class="text-center">Tableau d’honneur</h2>
 
 <h3>Sponsors</h3>
-
 <div class="row">
   <div class="col-sm-3 col-xs-6">
     <a href="https://qonfucius.com/">
@@ -33,7 +32,6 @@ type = "page"
 </div>
 
 <h3>Donateurs</h3>
-
 <ul>
   <li>0x010C</li>
   <li>3dsman</li>
@@ -435,7 +433,6 @@ type = "page"
 </ul>
 
 <h3>Contributeurs</h3>
-
 <ul>
   <li>Chocobozzz</li>
   <li>gegeweb</li>
