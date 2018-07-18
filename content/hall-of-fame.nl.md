@@ -12,7 +12,6 @@ type = "page"
 {{< grid class="col-sm-12" >}}
 
 <h2 class="text-center">Eregalerij</h2>
-
 <h3>Sponsors</h3>
 <div class="row">
   <div class="col-sm-3 col-xs-6">
@@ -30,7 +29,6 @@ type = "page"
     </a>
   </div>
 </div>
-
 <h3>Financiële bijdragers</h3>
 <ul>
   <li>0x010C</li>
@@ -431,7 +429,6 @@ type = "page"
   <li>ZeBlackPearl</li>
   <li>ZeGreg</li>
 </ul>
-
 <h3>Medewerkers</h3>
 <ul>
   <li>Chocobozzz</li>
