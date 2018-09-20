@@ -5,6 +5,12 @@
   url = "de"
 
 [[Languages.nl.menu.switchlang]]
+  name = "Esperanto"
+  identifier = ""
+  weight = 4
+  url = "eo"
+
+[[Languages.nl.menu.switchlang]]
   name = "Français"
   identifier = ""
   weight = 4
@@ -15,6 +21,18 @@
   identifier = ""
   weight = 4
   url = "en"
+
+[[Languages.nl.menu.switchlang]]
+  name = "Język polski"
+  identifier = ""
+  weight = 4
+  url = "pl"
+
+[[Languages.nl.menu.switchlang]]
+  name = "繁體中文"
+  identifier = ""
+  weight = 4
+  url = "zh-hant-tw"
 
 [Languages.nl]
 languageCode = "nl"

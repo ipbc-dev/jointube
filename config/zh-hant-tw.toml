@@ -1,78 +1,78 @@
-[[Languages.de.menu.switchlang]]
-  name = "English"
+[[Languages.zh-hant-tw.menu.switchlang]]
+  name = "Deutsch"
   identifier = ""
   weight = 4
-  url = "en"
+  url = "de"
 
-[[Languages.de.menu.switchlang]]
+[[Languages.zh-hant-tw.menu.switchlang]]
   name = "Esperanto"
   identifier = ""
   weight = 4
   url = "eo"
 
-[[Languages.de.menu.switchlang]]
+[[Languages.zh-hant-tw.menu.switchlang]]
   name = "Français"
   identifier = ""
   weight = 4
   url = "fr"
 
-[[Languages.de.menu.switchlang]]
+[[Languages.zh-hant-tw.menu.switchlang]]
   name = "Nederlands"
   identifier = ""
   weight = 4
   url = "nl"
 
-[[Languages.de.menu.switchlang]]
+[[Languages.zh-hant-tw.menu.switchlang]]
   name = "Język polski"
   identifier = ""
   weight = 4
   url = "pl"
 
-[[Languages.de.menu.switchlang]]
-  name = "繁體中文"
+[[Languages.zh-hant-tw.menu.switchlang]]
+  name = "English"
   identifier = ""
   weight = 4
-  url = "zh-hant-tw"
+  url = "en"
 
-[Languages.de]
-languageCode = "de"
+[Languages.zh-hant-tw]
+languageCode = "zh-hant-tw"
 title = "JoinPeerTube"
 weight = 1
 
-[[Languages.de.menu.main]]
+[[Languages.zh-hant-tw.menu.main]]
 name = "FAQ"
 identifier = "faq"
 weight = 2
 title = "FAQ"
-url = "/de/faq/"
+url = "/zh-hant-tw/faq/"
 
-[[Languages.de.menu.main]]
-name = "Unterstützung"
+[[Languages.zh-hant-tw.menu.main]]
+name = "支援"
 weight = 3
 identifier = ""
 url = "https://framacolibri.org/c/peertube"
 
-[[Languages.de.menu.main]]
-name = "Dokumentation"
+[[Languages.zh-hant-tw.menu.main]]
+name = "文件"
 weight = 4
 identifier = ""
 url = "https://docs.joinpeertube.org/"
 
-[[Languages.de.menu.main]]
-name = "Quellcode"
+[[Languages.zh-hant-tw.menu.main]]
+name = "原始碼"
 weight = 5
 identifier = ""
 url = "https://github.com/Chocobozzz/PeerTube"
 
-[[Languages.de.menu.main]]
-name = "Instanzen"
+[[Languages.zh-hant-tw.menu.main]]
+name = "實體"
 weight = 6
 identifier = ""
 url = "https://instances.joinpeertube.org"
 
-[[Languages.de.menu.main]]
-name = "Ehrenliste"
+[[Languages.zh-hant-tw.menu.main]]
+name = "名人堂"
 identifier = "hof"
 weight = 7
-title = "Hall of fame"
-url = "/de/hall-of-fame/"
+title = "名人堂"
+url = "/zh-hant-tw/hall-of-fame/"

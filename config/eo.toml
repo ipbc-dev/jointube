@@ -1,78 +1,78 @@
-[[Languages.de.menu.switchlang]]
+[[Languages.eo.menu.switchlang]]
+  name = "Deutsch"
+  identifier = ""
+  weight = 4
+  url = "de"
+
+[[Languages.eo.menu.switchlang]]
   name = "English"
   identifier = ""
   weight = 4
   url = "en"
 
-[[Languages.de.menu.switchlang]]
-  name = "Esperanto"
-  identifier = ""
-  weight = 4
-  url = "eo"
-
-[[Languages.de.menu.switchlang]]
+[[Languages.eo.menu.switchlang]]
   name = "Français"
   identifier = ""
   weight = 4
   url = "fr"
 
-[[Languages.de.menu.switchlang]]
+[[Languages.eo.menu.switchlang]]
   name = "Nederlands"
   identifier = ""
   weight = 4
   url = "nl"
 
-[[Languages.de.menu.switchlang]]
+[[Languages.eo.menu.switchlang]]
   name = "Język polski"
   identifier = ""
   weight = 4
   url = "pl"
 
-[[Languages.de.menu.switchlang]]
+[[Languages.eo.menu.switchlang]]
   name = "繁體中文"
   identifier = ""
   weight = 4
   url = "zh-hant-tw"
 
-[Languages.de]
-languageCode = "de"
+[Languages.eo]
+languageCode = "eo"
 title = "JoinPeerTube"
 weight = 1
 
-[[Languages.de.menu.main]]
-name = "FAQ"
+[[Languages.eo.menu.main]]
+name = "Demandoj"
 identifier = "faq"
 weight = 2
 title = "FAQ"
-url = "/de/faq/"
+url = "/eo/faq/"
 
-[[Languages.de.menu.main]]
-name = "Unterstützung"
+[[Languages.eo.menu.main]]
+name = "Apogo"
 weight = 3
 identifier = ""
 url = "https://framacolibri.org/c/peertube"
 
-[[Languages.de.menu.main]]
-name = "Dokumentation"
+[[Languages.eo.menu.main]]
+name = "Dokumentado"
 weight = 4
 identifier = ""
 url = "https://docs.joinpeertube.org/"
 
-[[Languages.de.menu.main]]
-name = "Quellcode"
-weight = 5
+[[Languages.eo.menu.main]]
+name = "Fontkodo"
+weight = 4
 identifier = ""
 url = "https://github.com/Chocobozzz/PeerTube"
 
-[[Languages.de.menu.main]]
-name = "Instanzen"
+[[Languages.eo.menu.main]]
+name = "Ekzemploj"
 weight = 6
 identifier = ""
 url = "https://instances.joinpeertube.org"
 
-[[Languages.de.menu.main]]
-name = "Ehrenliste"
+[[Languages.eo.menu.main]]
+name = "Honoro Rulo"
 identifier = "hof"
 weight = 7
-title = "Hall of fame"
-url = "/de/hall-of-fame/"
+title = "Honoro Rulo"
+url = "/eo/hall-of-fame/"

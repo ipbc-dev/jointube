@@ -1,78 +1,78 @@
-[[Languages.de.menu.switchlang]]
-  name = "English"
+[[Languages.pl.menu.switchlang]]
+  name = "Deutsch"
   identifier = ""
   weight = 4
-  url = "en"
+  url = "de"
 
-[[Languages.de.menu.switchlang]]
+[[Languages.pl.menu.switchlang]]
   name = "Esperanto"
   identifier = ""
   weight = 4
   url = "eo"
 
-[[Languages.de.menu.switchlang]]
+[[Languages.pl.menu.switchlang]]
   name = "Français"
   identifier = ""
   weight = 4
   url = "fr"
 
-[[Languages.de.menu.switchlang]]
+[[Languages.pl.menu.switchlang]]
   name = "Nederlands"
   identifier = ""
   weight = 4
   url = "nl"
 
-[[Languages.de.menu.switchlang]]
-  name = "Język polski"
+[[Languages.pl.menu.switchlang]]
+  name = "English"
   identifier = ""
   weight = 4
-  url = "pl"
+  url = "en"
 
-[[Languages.de.menu.switchlang]]
+[[Languages.pl.menu.switchlang]]
   name = "繁體中文"
   identifier = ""
   weight = 4
   url = "zh-hant-tw"
 
-[Languages.de]
-languageCode = "de"
+[Languages.pl]
+languageCode = "pl"
 title = "JoinPeerTube"
 weight = 1
 
-[[Languages.de.menu.main]]
-name = "FAQ"
+[[Languages.pl.menu.main]]
+name = "Najczęściej zadawane pytania"
 identifier = "faq"
 weight = 2
-title = "FAQ"
-url = "/de/faq/"
+title = "Najczęściej zadawane pytania"
+url = "/pl/faq/"
 
-[[Languages.de.menu.main]]
-name = "Unterstützung"
+[[Languages.pl.menu.main]]
+name = "Wsparcie"
 weight = 3
 identifier = ""
 url = "https://framacolibri.org/c/peertube"
 
-[[Languages.de.menu.main]]
-name = "Dokumentation"
+[[Languages.pl.menu.main]]
+name = "Dokumentacja"
 weight = 4
 identifier = ""
 url = "https://docs.joinpeertube.org/"
 
-[[Languages.de.menu.main]]
-name = "Quellcode"
+[[Languages.pl.menu.main]]
+name = "Kod źródłowy"
 weight = 5
 identifier = ""
 url = "https://github.com/Chocobozzz/PeerTube"
 
-[[Languages.de.menu.main]]
-name = "Instanzen"
+[[Languages.pl.menu.main]]
+name = "Instancje"
 weight = 6
 identifier = ""
 url = "https://instances.joinpeertube.org"
 
-[[Languages.de.menu.main]]
-name = "Ehrenliste"
+[[Languages.pl.menu.main]]
+name = "Sala sławy"
 identifier = "hof"
 weight = 7
-title = "Hall of fame"
-url = "/de/hall-of-fame/"
+title = "Sala sławy"
+url = "/pl/hall-of-fame/"
