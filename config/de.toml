@@ -38,7 +38,7 @@ url = "https://framacolibri.org/c/peertube"
 name = "Dokumentation"
 weight = 4
 identifier = ""
-url = "https://peertube.frama.wiki"
+url = "https://docs.joinpeertube.org/"
 
 [[Languages.de.menu.main]]
 name = "Quellcode"
