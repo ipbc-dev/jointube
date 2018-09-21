@@ -1,26 +1,33 @@
-all: hugo
+backup-locales:
+	cp app/locales/*.yml zanata/backup/
 
-locales:
-	txt2po --progress=none --duplicates=merge -P -i content/home.en.md -o pot/home.pot
-	txt2po --progress=none --duplicates=merge -P -i content/faq.en.md -o pot/faq.pot
-	txt2po --progress=none --duplicates=merge -P -i content/hall-of-fame.en.md -o pot/hall-of-fame.pot
-	txt2po --progress=none --duplicates=merge -P -i config/en.toml -o pot/config.pot
+restore-locales:
+	cp zanata/backup/*.yml app/locales/
 
-push-locales: locales
-	zanata-cli -q -B push
+prepare-locales:
+	rm -f zanata/yml/*.yml zanata/po/*.po zanata/po/*.pot zanata/po/*.err
 
-pull-locales:
-	zanata-cli -q -B pull --min-doc-percent 75
-	./.po2txt.sh
+clean-locales: backup-locales prepare-locales
+	zanata/scripts/yml2po.sh
+	zanata/scripts/po2yml.sh
 
-clean-locales:
-	rm po/*
+po:
+	zanata/scripts/yml2po.sh
 
-stats-locales:
-	zanata-cli -q stats
+yml: backup-locales
+	zanata/scripts/po2yml.sh
 
-hugo:
-	hugo --config=config.toml,`ls config/*toml | paste -sd "," -`
+push-locales: po
+	zanata-cli -q -B push --push-type both
 
-serve:
-	hugo serve --config=config.toml,`ls config/*toml | paste -sd "," -`
+pull-locales: prepare-locales
+	cp zanata/zanata.xml zanata.xml
+	sed -e 's@<project></project>@<project>$(shell basename $(CURDIR))</project>@' -i zanata.xml
+	zanata-cli -q -B pull --pull-type both --min-doc-percent 75
+	make yml
+
+preview:
+	npm run preview
+
+build:
+	npm run prod

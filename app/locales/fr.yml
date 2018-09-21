@@ -1,0 +1,398 @@
+meta:
+  title: '@:home.title ! #JoinPeerTube'
+nav:
+  langChange: Changer la langue
+  lang: Langue
+  translate: Traduire
+menu:
+  faq: F.A.Q.
+  help: Support
+  docs: Documentation
+  code: Code source
+  instances: Instances
+  hall-of-fame: Tableau d’honneur
+link:
+  forumPT: https://framacolibri.org/c/qualite/peertube
+  wArticle: https://fr.wikipedia.org/wiki
+home:
+  title: Reprenez le contrôle de vos vidéos
+  intro:
+    title: L’hébergement de vidéos décentralisé, en réseau, basé sur du logiciel libre
+    getting-started: Pour commencer
+    how-it-works: Comment ça fonctionne
+  why:
+    power:
+      title: Reprenez le pouvoir… et les responsabilités !
+      desc: 'PeerTube n’est pas une seule plateforme d’hébergement vidéo avec un unique
+        groupe de règles : c’est un réseau de dizaines d’hébergeurs interconnectés,
+        et chaque hébergeur est composé de personnes et d’administrateurs différents.
+        Vous n’aimez pas certaines règles ? Vous êtes libre de rejoindre l’hébergeur
+        de votre choix, ou mieux encore, être votre propre hébergeur avec vos propres
+        règles !'
+    content:
+      title: Prenez le contrôle de votre contenu
+      desc: PeerTube vous permet de partager toutes vos vidéos. Être en contact direct
+        avec un hébergeur à taille humaine (ou devenir votre propre hébergeur) vous
+        permet d’influer sur les conditions de leur diffusion. Vos vidéos bénéficieront
+        des outils de description, catégorisation, personnalisation des miniatures,
+        marquage des contenus pour public matures. Personnaliser le bouton <strong>Soutenir</strong>
+        vous permettra d’indiquer librement à votre audience comment soutenir votre
+        démarche.
+    usersfirst:
+      title: Les utilisateurs et utilisatrices au premier plan
+      desc: 'Vous êtes une personne, pas un produit. PeerTube est un logiciel libre
+        gratuit financé par une association française à but non lucratif : @:data.html.soft</>.
+        Toutes les instances sont créées, animées, modérées et maintenues de façon
+        indépendante. PeerTube n’est soumis au monopole d’aucune entreprise, ne dépend
+        d’aucune publicité et ne vous piste pas. Avec PeerTube vous n’êtes pas un
+        produit : c’est PeerTube qui est à votre service, et pas l’inverse.'
+    broadcast:
+      title: Devenez un acteur de la diffusion de vidéos
+      desc: Lorsque vous regardez une vidéo avec PeerTube, la technologie WebTorrent
+        vous permet de participer à la diffusion de cette vidéo avec les internautes
+        qui la regardent en même temps que vous. Ce partage des flux vidéos permet
+        une répartition saine des échanges sur la toile. De plus, le protocole de
+        fédération (ActivityPub) permet de publier les vidéos et commentaires sur
+        d’autres outils qui l’utilisent, comme <a href="@:data.link.mastodon">Mastodon</a> !
+        (expérimental)
+  getting-started:
+    title: Pour commencer
+    watch:
+      title: Regarder
+      framatube: Voir des vidéos sur @:data.color.tube
+    register:
+      title: S’inscrire
+      list: 'Liste des instances sur lesquelles vous pouvez vous inscrire :'
+      error: Nous sommes désolés mais nous n’arrivons pas à récupérer la liste des
+        instances. Merci de réessayer plus tard.
+      email: 'C’est comme choisir un fournisseur d’email : le nom de domaine fera
+        partie de votre identifiant !'
+  install:
+    title: Installez la vôtre
+    text:
+    - Intéressé par l’hébergement de votre propre instance, pour vos amis, votre famille
+      ou organisation ? Vous pouvez commencer par <a href="@:data.link.gitPT/blob/develop/support/doc/production.md">lire
+      la documentation qui concerne l’installation</a>.
+    - Vous hébergerez seulement vos propres utilisateurs ainsi que leurs propres vidéos.
+      Vous pouvez définir le nombre d’inscriptions disponibles et un quota d’espace-disque
+      par utilisateur. Sur votre page d’accueil ne s’afficheront que les vidéos des
+      instances que vous aurez <strong>choisi</strong> de suivre.
+    btn: Lire la documentation
+  how-it-works:
+    how:
+      title: Comment ça fonctionne
+      text:
+      - N’importe qui peut héberger un serveur PeerTube qu’on nomme <strong>instance</strong>.
+        Chaque instance héberge ses propres utilisateurs et leurs vidéos. Il garde
+        aussi une vision des vidéos présentes sur les instances suivies par l’administrateur
+        afin de pouvoir les proposer à ses utilisateurs.
+      - Chaque compte possède un identifiant global unique (comme @chocobozzz@framatube.org)
+        qui est composé d’un pseudonyme (@chocobozzz) et du nom de domaine du serveur
+        sur lequel il se trouve (framatube.org).
+      - Les administrateurs d’une instance PeerTube peuvent se suivre mutuellement.
+        Quand votre instance PeerTube suit une autre instance PeerTube, vous recevez
+        les informations d’affichage des vidéos de cette instance. De cette manière,
+        vous pouvez afficher les vidéos présentes sur votre instance, et sur l’instance
+        que avez décidé de suivre. Vous gardez donc le contrôle des vidéos affichées
+        sur votre serveur PeerTube !
+      btn: Des questions ?
+    why:
+      title: En quoi c’est génial ?
+      text:
+      - Chaque serveur fonctionne de manière indépendante et est géré par une personne
+        ou organisation différente, pouvant donc appliquer des règles de modération
+        et de bonne conduite variées, vous permettant de trouver l’instance qui vous
+        conviendra le mieux.
+      - En regardant une vidéo, vous aidez l’hébergeur à la diffuser en devenant vous-même
+        un diffuseur de cette vidéo. Chaque instance n’a donc pas besoin d’énormément
+        d’argent pour diffuser les vidéos de ses utilisateurs !
+      btn: Se lancer
+footer:
+  text: Ce site web a été construit sur la base de
+  thanks: Merci !
+faq:
+  title: Quelques questions pour découvrir PeerTube…
+  clic: (cliquez sur les questions pour découvrir les réponses)
+  section:
+    prez: Présentation de PeerTube
+    content: Création et contenus
+    tech: Questions techniques
+  prez:
+    what:
+      title: C’est quoi, PeerTube ?
+      text:
+      - PeerTube est un logiciel qui s’installe sur un serveur. Il permet de créer
+        un site web d’hébergement et de diffusion de vidéos, donc de faire son « YouTube
+        maison ».
+      - La différence avec YouTube, c’est qu’il n’est pas pensé pour créer une énorme
+        plateforme centralisant les vidéos du monde entier sur une ferme de serveurs
+        (qui coûte horriblement cher).
+      - Au contraire, le concept de PeerTube est de créer un réseau de nombreux petits
+        hébergeurs de vidéos, interconnectés.
+    pros:
+      title: Les trois avantages clés de PeerTube.
+      text:
+      - 'PeerTube est unique car (à notre connaissance), c’est la seule application
+        web d’hébergement vidéo qui allie trois avantages :'
+      - Liées ensemble, ces trois caractéristiques permettent de faciliter l’hébergement
+        de vidéos côté serveur, tout en restant pratique, éthique et amusant côté
+        internautes.
+      list:
+      - Un code ouvert (transparence) sous licence libre (éthique, respect et développement
+        communautaire) ;
+      - Une fédération d’hébergements interconnectés (donc plus de choix de vidéos
+        où qu’on aille les voir) ;
+      - De la diffusion – et donc du visionnage – en pair-à-pair (donc pas de ralentissement
+        quand une vidéo devient virale).
+    libre:
+      title: Pourquoi c’est mieux que ce soit un logiciel libre ?
+      text:
+      - Parce que c’est un logiciel qui respecte nos libertés fondamentales, et les
+        garantit par <a href="@:data.link.gitPT/blob/develop/LICENSE">une licence</a>,
+        donc un contrat légalement opposable.
+      - 'Concrètement, ici, cela signifie que :'
+      list:
+      - PeerTube est diffusé gratuitement, pas besoin de payer pour l’installer sur
+        son serveur ;
+      - 'On peut regarder sous le capot de PeerTube (son code source) : il est auditable,
+        transparent ;'
+      - Son développement est communautaire, il peut s’enrichir des contributions
+        de chacun·e.
+    federated:
+      title: Quel est l’intérêt de fédérer les hébergements de vidéos ?
+      text:
+      - 'L’avantage de YouTube (et autres plateformes), c’est son catalogue vidéo :
+        du tuto tricot aux constructions minecraft en passant par les vidéos de chatons
+        ou de vacances… on y trouve de tout !'
+      - Plus le catalogue vidéo est varié, plus il y a de public intéressé, plus on
+        y poste de vidéos… mais héberger les vidéos du monde entier coûte (très, très)
+        cher !
+      - 'Si l’hébergeur Tricot-PeerTube devient ami avec Chatons-Tube et Framatube,
+        il affichera les vidéos des autres sur son site : on dilue ainsi les coûts
+        d’hébergement tout en restant pratique et complet pour les internautes.'
+      - 'Le protocole de fédération de PeerTube sera fluide (chacun peut choisir ses
+        hébergeurs « amis »), et basé sur <a href="@:data.link.activitypub">ActivityPub</a> :
+        cela ouvrira la possibilité de se connecter avec des outils comme Mastodon
+        ou MediaGoblin.'
+    p2p:
+      title: Pourquoi diffuser les vidéos en pair-à-pair ?
+      text:
+      - 'Lorsque l’on héberge un fichier lourd comme une vidéo, la plus grosse chose
+        à craindre, c’est le succès : si une vidéo devient virale et que plein de
+        personnes la regardent en même temps, le serveur a de gros risques de tomber !'
+      - La diffusion en pair-à-pair permet, grâce au protocole <a href="@:link.wArticle/WebRTC">WebRTC</a>,
+        que les internautes qui regardent la même vidéo en même temps s’échangent
+        des bouts de fichiers, ce qui soulage le serveur.
+      - 'Il n’y a rien à faire : votre navigateur web le fait automatiquement. Si
+        vous êtes sur mobile ou si votre réseau ne le permet pas (routeur, pare-feu,
+        etc.), cette fonction est désactivée pour repasser à une diffusion vidéo « à
+        l’ancienne » 😉.'
+    admin:
+      title: Pour qui sait administrer un serveur, PeerTube, c’est…
+      text:
+      - '<strong>C’est un logiciel que vous installez sur votre serveur</strong> pour
+        créer votre site web d’hébergement et de diffusion de vidéos… En gros : vous
+        vous créez votre propre « YouTube maison » !'
+      - Il existe déjà des logiciels libres qui vous permettent de faire cela. L’avantage
+        ici, c’est que vous pouvez choisir de relier votre instance PeerTube (votre
+        site web de vidéos), à l’instance PeerTube de Zaïd (où se trouvent les vidéos
+        des conférences de son université populaire), à celle de Catherine (qui héberge
+        les vidéos de son Webmédia), ou encore à l’instance PeerTube de Solar (qui
+        gère le serveur de son collectif de vidéastes).
+      - '<strong>Mais PeerTube ne centralise pas : il fédère.</strong> Grâce au protocole
+        <a href="@:link.wArticle/ActivityPub">ActivityPub</a> (utilisé aussi par <a
+        href="@:data.link.mastodon">la fédération Mastodon</a>, une alternative libre
+        à Twitter) PeerTube fédère plein de petits hébergeurs pour ne pas les obliger
+        à acheter des milliers de disques durs afin d’héberger les vidéos du monde
+        entier.'
+      - 'Du coup, sur votre site web PeerTube, le public pourra voir vos vidéos, mais
+        aussi celles hébergées par Zaïd, Catherine ou Solar… sans que votre site web
+        n’ait à héberger les vidéos des autres ! Cette diversité dans le catalogue
+        de vidéos devient très attractive. C’est ce qui a fait le succès des plateformes
+        centralisatrices à la YouTube : le choix et la variété des vidéos.'
+      - Un autre avantage de cette fédération, c’est que <strong>chacun·e est indépendant·e</strong>.
+        Zaïd, Catherine, Solar et vous-même pouvez avoir vos propres règles du jeu,
+        et créer vos propres Conditions Générales d’Utilisation (on peut, par exemple,
+        imaginer un MiaouTube où les vidéos de chiens seraient strictement interdites
+        😉).
+    video-maker:
+      title: Pour qui veut diffuser ses vidéos en ligne PeerTube permet…
+      text:
+      - 'Il vous permet de choisir un hébergement qui vous correspond. On l’a vu avec
+        les dérives de YouTube : son hébergeur, Google-Alphabet, peut imposer son
+        système <a href="https://scinfolex.com/2016/07/05/ce-que-le-filtrage-automatise-des-contenus-sur-youtube-fait-a-la-creation">ContentID
+        (le fameux « Robocopyright »)</a> ou ses outils de mise en valeur des vidéos,
+        qui semblent aussi obscurs qu’injustes. Quoi qu’il arrive, il vous impose
+        déjà <a href="@:data.link.tosdr"> de lui céder – gracieusement – des droits
+        sur vos vidéos</a>.'
+      - Avec PeerTube, <strong>vous choisissez l’hébergeur de vos vidéos selon ses
+        conditions d’utilisation</strong>, sa politique de modération, ses choix de
+        fédération… Comme vous n’avez pas un géant du web en face de vous, vous pourrez
+        probablement discuter ensemble si vous avez un souci, un besoin, une envie…
+      - L’autre gros avantage de PeerTube, c’est que votre hébergeur n’a pas à craindre
+        le succès soudain d’une de vos vidéos. En effet, PeerTube diffuse les vidéos
+        avec le protocole <a href="@:link.wArticle/BitTorrent">WebTorrent</a>. Si
+        des centaines de personnes regardent votre vidéo au même moment, leur navigateur
+        envoie automatiquement des bouts de votre vidéo aux autres spectateurs.
+      - Mine de rien, avant cette diffusion en pair-à-pair, les vidéastes à succès
+        (ou les vidéos qui font le buzz) étaient condamnés à s’héberger chez un géant
+        du web dont l’infrastructure peut encaisser des millions de vues simultanées…
+        Ou à payer très cher un hébergement de vidéo indépendant afin qu’il tienne
+        la charge.
+    audience:
+      title: Pour qui veut voir des vidéos, PeerTube a pour avantages…
+      text:
+      - Un des avantages, c’est que <strong>vous devenez partie prenante de la diffusion
+        des vidéos que vous êtes en train de regarder</strong>. Si d’autres personnes
+        regardent une vidéo PeerTube en même temps que vous, tant que votre onglet
+        reste ouvert, votre navigateur partage des bouts de cette vidéo et vous participez
+        ainsi à une utilisation plus saine d’Internet.
+      - 'Bien sûr, le lecteur vidéo de PeerTube s’adapte à votre situation : si votre
+        installation ne permet pas la diffusion en pair-à-pair (réseau d’entreprise,
+        navigateur récalcitrant, etc.) la lecture de la vidéo se fera de manière classique.'
+      - Mais surtout, <strong>PeerTube vous considère comme une personne, et non pas
+        comme un produit</strong> qu’il faut pister, profiler, et enfermer dans des
+        boucles vidéos pour mieux vendre votre temps de cerveau disponible. Ainsi,
+        <a href="@:data.link.gitPT">le code source</a> (la recette de cuisine) du
+        logiciel PeerTube est ouvert, ce qui fait que son fonctionnement est transparent.
+      - '<strong>PeerTube n’est pas juste open-source : il est libre.</strong> Sa
+        licence libre garantit nos libertés fondamentales d’utilisateurs ou d’utilisatrices.
+        C’est ce respect de nos libertés qui permet à Framasoft de vous inviter à
+        contribuer à ce logiciel, et de nombreuses évolutions (système de commentaires
+        innovant, etc.) nous ont déjà été soufflées par certain·e·s d’entre vous.'
+    remplace-yt:
+      title: Le but de PeerTube, c’est de remplacer YouTube ?
+      text:
+      - 'On peut répondre avec certitude : non !'
+      - En mars 2018, PeerTube a sorti sa version bêta, utilisable publiquement. Plusieurs
+        collectifs ont monté des premiers hébergements, créant ainsi les bases de
+        la fédération.
+      - Mais ceci n’est qu’un début, PeerTube n’est pas (encore) parfait, et de nombreuses
+        fonctionnalités manquent à l’appel. Nous comptons bien continuer de l’améliorer
+        pour sortir une version 1 d’icifin 2018.
+      - 'Mars 2018 représente donc la naissance des fédérations PeerTube : plus ce
+        logiciel sera utilisé et soutenu, plus des personnes l’utiliseront et y contribueront,
+        et plus vite il évolura vers une alternative concrète aux plateformes telles
+        que YouTube.'
+      - 'Néanmoins, l’ambition reste d’être <strong>une alternative libre et décentralisée</strong> :
+        le but d’une alternative n’est pas de remplacer, mais de proposer quelque
+        chose d’autre, avec des valeurs différentes, en parallèle de ce qui existe
+        déjà.'
+  content:
+    law:
+      title: Si c’est libre, on peut y mettre des contenus illicites ?
+      text:
+      - Être libre ne signifie pas être au-dessus de la loi ! Chaque hébergement PeerTube
+        peut décider de ses propres conditions générales d’utilisation, dans le cadre
+        de la loi dont ils dépendent.
+      - Par exemple, en France, les contenus discriminants <a href="https://fr.wikipedia.org/wiki/Lois_contre_le_racisme_et_les_discours_de_haine">sont
+        interdits</a> et peuvent être <a href="http://stop-discrimination.gouv.fr/agir/ne-pas-laisser-faire-les-recours">signalés
+        aux autorités</a>. PeerTube permet aux internautes de signaler une vidéo problématique,
+        et chaque hébergeur doit alors appliquer sa modération conformément à ses
+        conditions générales et à la loi.
+      - Le système de fédération, quant à lui, permet aux hébergeurs de décider avec
+        qui ils veulent se mettre en réseau, ou pas, selon les types de contenus ou
+        les politiques de modération des autres.
+    responsible:
+      title: Qui est responsable du contenu publié sur PeerTube ?
+      text:
+      - 'PeerTube n’est pas un site web : c’est un logiciel qui permet à un hébergeur
+        (par exemple, Dominique) de créer un site web de vidéos (appelons-le DominiqueTube).'
+      - Imaginons maintenant que Camille s’est créé un compte sur DominiqueTube et
+        y téléverse une vidéo illégale, car cette vidéo utilise la musique crée par
+        Solal.
+      - Solal va sur Framatube, une instance qui suit l’instance DominiqueTube. Donc
+        Solal peut voir depuis Framatube les vidéos publiées sur DominiqueTube.
+      - Solal aperçoit la vidéo illégale de Camille, et la signale avec le bouton
+        prévu à cet effet. Le signalement a beau être fait depuis Framatube, il est
+        envoyé directement à la personne qui héberge le contenu illicite, donc Dominique.
+      - Dès cet instant, Dominique est responsable, parce que prévenue du fait qu’elle
+        héberge une vidéo illicite. C’est donc à elle d’agir si elle ne veut pas se
+        retrouver responsable devant la loi.
+      - Ensuite, Dominique et Solal pourront se retourner contre Camille, qui a commis
+        le méfait.
+    money:
+      title: Quelle est la politique de rémunération de PeerTube ?
+      text:
+      - PeerTube est un outil que nous avons voulu neutre au niveau de la rémunération.
+      - 'Actuellement, la solution proposée est d’utiliser le bouton « Soutenir »
+        (« <i lang="en">Support</i> »). Ce bouton permet d’afficher un cadre dans
+        lequel les personnes qui mettent en ligne des vidéos peuvent afficher des
+        textes, images, et liens librement. Par exemple, il est possible d’afficher
+        un bouton Patreon, Tipeee, Paypal, Liberapay (ou toute autre solution, puisque
+        le champ de saisie est libre). Autres exemples possibles : indiquer une adresse
+        pour un remerciement par carte postale, négocier avec un sponsor l’affichage
+        du logo de son entreprise, mettre en avant un lien pour soutenir une ONG,
+        etc.'
+      - Favoriser une solution technique serait imposer, dans le code, une vision
+        politique des partages culturels et de leurs financements. Toutes les solutions
+        de rémunération sont donc possibles dans PeerTube.
+      - Par ailleurs, de nombreuses améliorations de PeerTube sont à prévoir… Dont
+        celles qui vous permettraient de créer (et choisir) vous-même les outils de
+        monétisation qui vous intéressent !
+      - 'Néanmoins, il est bon de rappeler que l’immense majorité des vidéos publiées
+        sur internet (et même sur YouTube) sont partagées dans un but non-marchand :
+        la rémunération est un outil, mais pas forcément un but principal ni essentiel.'
+    instances:
+      title: Où puis-je mettre mes vidéos ?
+      text:
+      - Il vous faut trouver une instance d’hébergement PeerTube en laquelle vous
+        avez confiance.
+      - La liste complète des instances <a href="@:data.link.instancesPT"> se trouve
+        là</a>, et nous faisons apparaître <a href="./#getting-started">ici celles
+        qui sont ouvertes aux inscriptions</a>.
+      - Ensuite, nous vous recommandons d’aller voir les instances, d’aller lire leur
+        page « about » pour découvrir leurs conditions d’utilisation (limite d’espace
+        disque par utilisateur, politique sur les contenus, etc.).
+      - Le mieux est de contacter et de discuter directement avec les hébergeurs,
+        de comprendre leur modèle économique, leur vision, etc. Car seul vous pouvez
+        déterminer ce qui fait que vous pouvez faire confiance à tel ou tel hébergeur,
+        et donc lui confier vos vidéos.
+  forum: Échanger sur notre forum
+  tech:
+    install:
+      title: Comment installer PeerTube ?
+      text:
+      - Le <a href="@:data.link.gitPT/blob/develop/support/doc/production.md">guide
+        d’installation est ici</a> (uniquement en anglais, pour l’instant).
+      - 'Nous recommandons de ne pas installer PeerTube sur un matériel peu puissant
+        ni derrière une connexion faible (par exemple, sur un RaspberryPi avec une
+        connexion ADSL) : cela pourrait ralentir l’ensemble des fédérations.'
+      - 'Ne dérangez pas le développeur pour vous aider à installer votre instance :
+        notre <a href="@:link.forumPT">forum d’entraide</a> est là pour ça.'
+    code:
+      title: Comment participer au code de PeerTube ?
+      text:
+      - Le <a href="@:data.link.gitPT">dépôt Git du code de PeerTube est ici</a>.
+      - Vous pouvez y <a href="@:data.link.gitPT/issues"> créer une issue</a>, y contribuer,
+        voire commencer à contribuer en choisissant les <a href="@:data.link.gitPT/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">
+        problèmes faciles à régler pour qui débute</a>.
+      - Si vous souhaitez apporter un autre type d’aide, ou que vous désirez une fonctionnalité
+        qui n’est pas disponible, venez en discuter sur notre <a href="@:link.forumPT">forum
+        des contributions</a>.
+    protocol:
+      title: Pourquoi PeerTube utilise-t-il le protocole de fédération ActivityPub ?
+        Pourquoi pas IPFS / d.tube / Steemit ?
+      text:
+      - PeerTube utilise ActivityPub car ce protocole de fédération est recommandé
+        par le W3C et est déjà utilisé par le réseau social fédéré Mastodon.
+      - IPFS est une super technologie, mais elle nous semble encore très (trop !)
+        fraiche pour de la diffusion de gros fichiers à large échelle en streaming.
+      - Après en avoir discuté sur notre forum, nous estimons que d.tube n’est pas
+        libre ni open source, car publier uniquement le code compilé entrave la liberté
+        de modification.
+      - D.tube est basé sur Steem pour la « rémunération », c’est un choix, mais Steem
+        est <a href="https://en.wikipedia.org/wiki/Steemit#Criticism">largement critiqué</a>
+        comme étant <a href="https://steemit.com/steemit/@docdelux/30-days-of-steemit-here-is-my-criticism">hautement
+        centralisé</a>, et surtout <a href="https://steemit.com/steemit/@thecryptonews/psa-constructive-criticism-the-ugly-truth-behind-steemit">proche
+        d’un système de Ponzi</a>.
+      - PeerTube est libre, décentralisé, distribué, et n’impose aucun modèle de rémunération.
+        C’est le choix que nous avons fait, qui est discutable, et d’autres (comme
+        d.tube) ont fait d’autres choix, qui ont leurs avantages. C’est donc à vous
+        de voir ce qui vous correspond.
+hof:
+  title: Tableau d’honneur
+  sponsors: Sponsors
+  donators: Donateurs
+  dev: Contributeurs
+  contrib: Contribuer au code
