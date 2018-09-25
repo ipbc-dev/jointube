@@ -186,7 +186,7 @@ faq:
       - 'Il n’y a rien à faire : votre navigateur web le fait automatiquement. Si
         vous êtes sur mobile ou si votre réseau ne le permet pas (routeur, pare-feu,
         etc.), cette fonction est désactivée pour repasser à une diffusion vidéo « à
-        l’ancienne » 😉.'
+        l’ancienne » @:data.emoji.wink</>.'
     admin:
       title: Pour qui sait administrer un serveur, PeerTube, c’est…
       text:
@@ -214,7 +214,7 @@ faq:
         Zaïd, Catherine, Solar et vous-même pouvez avoir vos propres règles du jeu,
         et créer vos propres Conditions Générales d’Utilisation (on peut, par exemple,
         imaginer un MiaouTube où les vidéos de chiens seraient strictement interdites
-        😉).
+        @:data.emoji.wink).
     video-maker:
       title: Pour qui veut diffuser ses vidéos en ligne PeerTube permet…
       text:

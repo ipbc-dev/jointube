@@ -175,7 +175,7 @@ faq:
       - 'There is nothing to do: your web browser does it automatically. If you are
         on a mobile phone or if your network does not allow it (router, firewall,
         etc.), this function is disabled and switches back to an "old-style" video
-        broadcast 😉.'
+        broadcast @:data.emoji.wink</>.'
     admin:
       title: For those who know how to administer a server, PeerTube is…
       text:
@@ -200,7 +200,7 @@ faq:
       - 'Federation offers another benefit: <strong>everyone becomes independent</strong>.
         Zaïd, Catherin, Solar and yourself can make your own rules, your own Terms
         of Services (for example, one can imagine a MeowTube where dogs videos are
-        strictly forbidden 😉).'
+        strictly forbidden @:data.emoji.wink).'
     video-maker:
       title: For those who wants to upload their videos, PeerTube allows…
       text:
