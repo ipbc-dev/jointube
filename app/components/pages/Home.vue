@@ -104,7 +104,7 @@
           <p v-html="$t('home.install.text[0]')"></p>
           <p v-html="$t('home.install.text[1]')"></p>
           <p>
-            <a href="https://github.com/Chocobozzz/PeerTube/#production"
+            <a href="https://github.com/Chocobozzz/PeerTube/blob/develop/support/doc/production.md"
               target="_blank"
               v-html="$t('home.install.btn')"
             ></a>
