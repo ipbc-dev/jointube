@@ -339,7 +339,7 @@ faq:
       - Il vous faut trouver une instance d’hébergement PeerTube en laquelle vous
         avez confiance.
       - La liste complète des instances <a href="@:data.link.instancesPT"> se trouve
-        là</a>, et nous faisons apparaître <a href="./#getting-started">ici celles
+        là</a>, et nous faisons apparaître <a href="../#register">ici celles
         qui sont ouvertes aux inscriptions</a>.
       - Ensuite, nous vous recommandons d’aller voir les instances, d’aller lire leur
         page « about » pour découvrir leurs conditions d’utilisation (limite d’espace
