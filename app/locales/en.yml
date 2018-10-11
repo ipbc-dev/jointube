@@ -20,6 +20,9 @@ home:
     title: A decentralized video hosting network, based on free/libre software
     getting-started: Get started
     how-it-works: How it works
+  release:
+    title: The first version of PeerTube is out! Help us to pursue its development.
+    button: Support
   why:
     power:
       title: Take back the power… and the responsibilities!

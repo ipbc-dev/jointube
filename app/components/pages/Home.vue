@@ -16,14 +16,16 @@
                 src="https://framatube.org/videos/embed/217eefeb-883d-45be-b7fc-a788ad8507d3"
               ></iframe>
             </div>
+            <p class="text-left" v-html="$t('home.release.title')"></p>
+            <a class="frama_campaign" href="https://framasoft.org" v-html="$t('home.release.button')"></a>
           </div>
           <div class="col-md-6 col-md-pull-6">
             <img :src="`${$root['/']}img/notebook.jpg`" class="img-responsive" alt="">
+            <p>
+              <a href="#getting-started" v-html="$t('home.intro.getting-started')"></a>
+              <a href="#how-it-works" v-html="$t('home.intro.how-it-works')"></a>
+            </p>
           </div>
-          <p>
-            <a href="#getting-started" v-html="$t('home.intro.getting-started')"></a>
-            <a href="#how-it-works" v-html="$t('home.intro.how-it-works')"></a>
-          </p>
         </div>
       </div>
     </section>

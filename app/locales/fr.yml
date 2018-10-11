@@ -20,6 +20,9 @@ home:
     title: L’hébergement de vidéos décentralisé, en réseau, basé sur du logiciel libre
     getting-started: Pour commencer
     how-it-works: Comment ça fonctionne
+  release:
+    title: La première version de PeerTube est sortie ! Aidez-nous à poursuivre son développement.
+    button: Soutenir
   why:
     power:
       title: Reprenez le pouvoir… et les responsabilités !
