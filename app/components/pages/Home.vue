@@ -82,7 +82,7 @@
 
           <p><a :href="$root.link.tube" v-html="$t('home.getting-started.watch.framatube')"></a></p>
 
-          <h3 v-html="$t('home.getting-started.register.title')"></h3>
+          <h3 id="register" v-html="$t('home.getting-started.register.title')"></h3>
           <p v-html="$t('home.getting-started.register.list')"></p>
 
           <div id="instances-list" class="list-group"></div>
