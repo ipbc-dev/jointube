@@ -75,12 +75,12 @@
           <div class="embed-responsive embed-responsive-16by9">
             <iframe v-if="$t('lang') === 'fr'"
               class="embed-responsive-item"
-              src="https://framatube.org/videos/embed/a8ea95b8-0396-49a6-8f30-e25e25fb2828"
+              src="https://framatube.org/videos/embed/0900bd2e-7306-4c39-b48b-2d0cd611742e"
               allowfullscreen
             ></iframe>
             <iframe v-else
               class="embed-responsive-item"
-              src="https://framatube.org/videos/embed/0900bd2e-7306-4c39-b48b-2d0cd611742e"
+              src="https://framatube.org/videos/embed/217eefeb-883d-45be-b7fc-a788ad8507d3"
               allowfullscreen
             ></iframe>
           </div>
