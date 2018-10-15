@@ -323,8 +323,14 @@ a.button {
   margin-top: 20px;
 }
 
-.intro .col-md-push-6 .button {
-  margin-bottom:10px;
+.intro .col-md-push-6 {
+  .button {
+    margin-bottom:10px;
+  }
+
+  img {
+    display: inline-block;
+  }
 }
 
 @media (min-width: 1200px) {

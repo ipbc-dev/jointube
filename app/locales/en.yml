@@ -21,6 +21,7 @@ home:
     getting-started: Get started
     how-it-works: How it works
   release:
+    announce: PeerTube v1.0 🎉
     title: The first version of PeerTube is out! Help us to pursue its development.
     button: Support
   why:
