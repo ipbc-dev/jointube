@@ -6,7 +6,7 @@
           <h1 v-html="$t('home.title')"></h1>
           <h2 v-html="$t('home.intro.title')"></h2>
           <div class="col-md-6 well col-md-push-6">
-            <div class="embed-responsive embed-responsive-16by9">
+            <!-- <div class="embed-responsive embed-responsive-16by9">
               <iframe v-if="$t('lang') === 'fr'"
                 class="embed-responsive-item" allowfullscreen
                 src="https://framatube.org/videos/embed/9db9f3f1-9b54-44ed-9e91-461d262d2205"
@@ -15,15 +15,20 @@
                 class="embed-responsive-item" allowfullscreen
                 src="https://framatube.org/videos/embed/217eefeb-883d-45be-b7fc-a788ad8507d3"
               ></iframe>
-            </div>
+            </div> -->
+            <p>
+              <img alt="PeerTube" :src="`${$root['/']}icons/favicon.png`"> <span v-html="$t('home.release.announce')"></span>
+            </p>
+            <p class="text-left" v-html="$t('home.release.title')"></p>
+            <a class="frama_campaign" href="https://framasoft.org" v-html="$t('home.release.button')"></a>
           </div>
           <div class="col-md-6 col-md-pull-6">
             <img :src="`${$root['/']}img/notebook.jpg`" class="img-responsive" alt="">
           </div>
           <p>
-            <a href="#getting-started" v-html="$t('home.intro.getting-started')"></a>
-            <a href="#how-it-works" v-html="$t('home.intro.how-it-works')"></a>
-          </p>
+              <a href="#getting-started" v-html="$t('home.intro.getting-started')"></a>
+              <a href="#how-it-works" v-html="$t('home.intro.how-it-works')"></a>
+            </p>
         </div>
       </div>
     </section>
@@ -70,12 +75,12 @@
           <div class="embed-responsive embed-responsive-16by9">
             <iframe v-if="$t('lang') === 'fr'"
               class="embed-responsive-item"
-              src="https://framatube.org/videos/embed/a8ea95b8-0396-49a6-8f30-e25e25fb2828"
+              src="https://framatube.org/videos/embed/0900bd2e-7306-4c39-b48b-2d0cd611742e"
               allowfullscreen
             ></iframe>
             <iframe v-else
               class="embed-responsive-item"
-              src="https://framatube.org/videos/embed/0900bd2e-7306-4c39-b48b-2d0cd611742e"
+              src="https://framatube.org/videos/embed/217eefeb-883d-45be-b7fc-a788ad8507d3"
               allowfullscreen
             ></iframe>
           </div>
