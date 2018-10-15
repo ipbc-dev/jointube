@@ -360,6 +360,63 @@ faq:
         connexion ADSL) : cela pourrait ralentir l’ensemble des fédérations.'
       - 'Ne dérangez pas le développeur pour vous aider à installer votre instance :
         notre <a href="@:link.forumPT">forum d’entraide</a> est là pour ça.'
+    moderation:
+      title: PeerTube v1.0 ne me semble pas contenir tous les outils nécessaires à une bonne gestion des mon instance.
+      text:
+        - '<blockquote>« C’est scandaleux et inconscient : vous sortez une version 1 de PeerTube
+          alors qu’il ne contient pas les outils nécessaire pour gérer efficacement
+          les vidéos faisant l’objet d’une réclamation par des ayant droits, ou pour gérer
+          efficacement la question du harcèlement en ligne dans les commentaires, ou
+          pour gérer efficacement la monétisation par la publicité, ou pour
+          (insérez ici votre demande vis-à-vis de PeerTube). Cela ne fonctionnera
+          jamais ! Que comptez-vous faire à ce sujet ? »</blockquote>'
+        - 'Vous avez raison. PeerTube 1.0 n’est pas l’outil parfait, loin de là.
+          Et nous n’avons jamais promis que cette version 1.0 correspondrait à un outil
+          qui inclurait toutes les fonctionnalités correspondant à tous les cas de figure.'
+        - 'PeerTube 1.0 est la concrétisation de l’engagement que nous avions pris
+          en octobre 2017 d’emmener PeerTube d’une version alpha (projet personnel
+          et preuve de concept qu’une plateforme vidéo fédérée pouvait fonctionner)
+          à une version 1.0 en octobre 2018 (ce qui ne signifie pas "version finale",
+          mais "version considérée comme stable et diffusable").'
+        - 'Rappelons que PeerTube ne dispose que d’un développeur à temps (presque)
+          plein et d’une petite poignée de <span aria-label="contributrices et contributeurs">
+          contributeur⋅ices</span> bénévoles très <span aria-label="impliquées">impliqué⋅es</span>.
+          Il ne s’agit pas d’un produit développé par une startup disposant d’une équipe
+          complète (dév, design, UX, marketing, support, etc) à temps plein et bénéficiant
+          d’un support financier important. Il s’agit d’un logiciel libre communautaire,
+          dont le développement va se poursuivre pendant les mois et, nous
+          l’espérons, les années à venir.'
+        - 'Nous sommes bien conscients des manques de PeerTube 1.0, notamment dans la palette
+          d’outils de modération (de vidéos, de commentaires, etc). Et nous avons bien
+          l’intention de travailler sur ces faiblesses.'
+        - 'Nous avons choisi de le faire de la façon suivante: d’une part nous allons travailler
+          prioritairement ces prochains mois à l’amélioration de ces outils au sein même de
+          PeerTube (dans le "<i>core</i>" du logiciel). D’autre part, nous allons axer, en parallèle,
+          une grosse partie de l’effort du développement de PeerTube durant l’année 2019 sur
+          l’intégration d’un système de plugins, qui pourront être développés par les communautés.'
+        - 'En effet, nous ne prétendons pas avoir la science infuse et savoir comment gérer
+          au mieux chacun des outils en fonction de chacun des besoins.'
+        - 'Par exemple : concernant la question des requêtes DMCA, les cas sont variables
+          selon les juridictions géographiques (le droit européen est différent du droit
+          français, lui même différent du droit canadien, lui même différent du droit
+          états-uniens, etc.). Concernant les outils de modération de commentaires, là encore,
+          nous ne pouvons nous décréter <span aria-label="expertes ou experts">expert⋅es</span> du sujet,
+          car cela n’est tout simplement pas le cas.'
+        - 'En agissant à la fois sur le <i>core</i>, mais aussi en permettant le développement de plugins,
+          nous pensons que PeerTube pourra, à terme, beaucoup mieux répondre à ces problématiques
+          et permettre aux différentes communautés d’adapter PeerTube à leurs besoins.'
+        - 'Nous travaillons aussi vite que possible à améliorer PeerTube, mais nous le faisons
+          avec les moyens qui sont les nôtres, c’est à dire <strong>très</strong> limités.'
+        - 'En attendant, en tant qu’<span aria-label="utilisatrice ou utilisateur">utilisateur⋅ice</span>
+          si vous estimez que PeerTube 1.0 ne répond pas actuellement à vos besoins, c’est simple :
+          ne l’utilisez pas pour le moment :) (nous vous rappelons que nous ne gagnons pas d’argent en
+          développant PeerTube, et que si nous espérons évidemment son succès, la survie de notre
+          association n’en dépend pas).'
+        - 'En tant qu’<span aria-label="administratrice ou administrateur">administrateur⋅ice</span>,
+          si vous craignez les requêtes DMCA, il existe une option permettant de limiter l’ouverture
+          des inscriptions aux personnes que vous connaissez.
+          Vous pourrez alors rouvrir les inscriptions sans vérification lorsque ces outils de vérification
+          auront été intégrés, ou que vous les aurez développés.'
     code:
       title: Comment participer au code de PeerTube ?
       text:
