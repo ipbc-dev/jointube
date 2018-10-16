@@ -5,7 +5,8 @@
         <div class="col-sm-12 text-center">
           <h1 v-html="$t('home.title')"></h1>
           <h2 v-html="$t('home.intro.title')"></h2>
-          <div class="col-md-6 well col-md-push-6">
+          <div class="col-md-6 col-md-push-6 release">
+            <div class="alert alert-info">
             <!-- <div class="embed-responsive embed-responsive-16by9">
               <iframe v-if="$t('lang') === 'fr'"
                 class="embed-responsive-item" allowfullscreen
@@ -21,6 +22,8 @@
             </p>
             <p class="text-left" v-html="$t('home.release.title')"></p>
             <a class="frama_campaign" href="https://framasoft.org" v-html="$t('home.release.button')"></a>
+            <a href="https://github.com/Chocobozzz/PeerTube#package-create-your-own-instance" v-html="$t('home.release.install')"></a>
+            </div>
           </div>
           <div class="col-md-6 col-md-pull-6">
             <img :src="`${$root['/']}img/notebook.jpg`" class="img-responsive" alt="">

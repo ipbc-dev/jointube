@@ -333,6 +333,16 @@ a.button {
   }
 }
 
+.release {
+  a {
+    color: #F1680D;
+  }
+
+  a.frama_campaign {
+    margin-right: 7px;
+  }
+}
+
 @media (min-width: 1200px) {
   [lang="fr"] .intro .col-md-pull-6 a {
     margin-top: 36px;

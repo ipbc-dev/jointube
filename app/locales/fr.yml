@@ -25,7 +25,7 @@ home:
     title: <a href="https://framablog.org/2018/10/15/peertube-1-0-la-plateforme-de-videos-libre-et-federee/">
       La première version de PeerTube est sortie !</a> Aidez-nous à poursuivre son développement.
     button: Soutenir
-    blog: Lire l'annonce sur le Framablog
+    install: Installer PeerTube
   why:
     power:
       title: Reprenez le pouvoir… et les responsabilités !
