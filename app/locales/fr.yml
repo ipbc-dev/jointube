@@ -386,7 +386,7 @@ faq:
       - 'Ne dérangez pas le développeur pour vous aider à installer votre instance :
         notre <a href="@:link.forumPT">forum d’entraide</a> est là pour ça.'
     moderation:
-      title: PeerTube v1.0 ne me semble pas contenir tous les outils nécessaires à une bonne gestion des mon instance.
+      title: PeerTube v1.0 ne me semble pas contenir tous les outils nécessaires à une bonne gestion de mon instance.
       text:
         - '<blockquote>« C’est scandaleux et inconscient : vous sortez une version 1 de PeerTube
           alors qu’il ne contient pas les outils nécessaire pour gérer efficacement
