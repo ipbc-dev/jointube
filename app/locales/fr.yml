@@ -354,6 +354,25 @@ faq:
         de comprendre leur modèle économique, leur vision, etc. Car seul vous pouvez
         déterminer ce qui fait que vous pouvez faire confiance à tel ou tel hébergeur,
         et donc lui confier vos vidéos.
+    pornography:
+      title: Il y a plein de vidéos porno sur PeerTube !
+      text:
+      - Non. En octobre 2018, sur une instance moyenne qui se fédère avec environ 200
+        autres instances et indexe 16000 vidéos, seules 200 vidéos sont étiquetées NSFW
+        (c'est à dire dont le contenu est sensible, pouvant d'ailleurs être autre chose que
+        de la pornographie). Elles représentent donc seulement 1% à 2% de l'ensemble des vidéos.
+      - "Ensuite, chaque administrateur décide avec quelles instances fédérer. Il a donc le contrôle
+        total du contenu qu'il affiche sur son instance. De plus, c’est lui qui choisit la politique
+        à appliquer concernant ce genre de vidéo. Il peut décider de :
+        <ul><li>Les afficher</li><li>Les flouter</li><li>Les cacher</li></ul>"
+      - Par défaut, cette configuration est "Les cacher". Si certains administrateurs décident de
+        les afficher avec flou par exemple, c'est <strong>leur</strong> choix.
+      - Enfin, chaque utilisateur peut redéfinir ce choix, et décider si il veut afficher/flouter
+        ou cacher ce type de vidéo.
+      - PeerTube n'est qu'un logiciel, ce n'est donc pas Framasoft (association qui développe PeerTube)
+        qui est responsable du contenu mis en ligne sur certaines instances.
+      - "A chacun d’être responsables : parents, visiteurs, administrateurs d’instances PeerTube pour
+        respecter la loi et éviter toute situation problématique."
   forum: Échanger sur notre forum
   tech:
     install:
