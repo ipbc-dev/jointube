@@ -328,6 +328,26 @@ faq:
       - It’s best to contact and talk directly with hosting providers, to understand
         their business model, vision, etc. Because only you can determine what makes
         you trust such or such host, and thus entrust your videos to them.
+    pornography:
+      title: There are many porn videos on PeerTube!
+      text:
+      - No. In October 2018, on an average instance federating with ~200 instances
+        and indexing ~16000 videos, only ~200 videos are tagged as NSFW
+        (i. e. the content is sensitive, which could be something else than pornography).
+        Therefore, they represent only ~1% of all the videos.
+      - "Moreover, each administrator decides with which instances he wants to federate:
+        he has the full control of the content he wants to display on his instance.
+        It's up to him to choose the policy regarding this kind of videos. He can decide to:
+        <ul><li>Display them</li><li>Blur the title and thumbnail</li><li>Hide them</li></ul>"
+      - By default, this configuration is set to "Hide them". If some administrators decide
+        to display them with a blur filter for example, it's <strong>their</strong> choice.
+      - Finally, any user can override this configuration, and decides if he want to display,
+        blur or hide these videos for himself.
+      - "PeerTube is just a software: it's not Framasoft (non-profit that develops PeerTube)
+        that's responsible for the content published on some instances."
+      - "It's up to everyone to be responsible: parents, visitors, uploaders, PeerTube administrators
+        to respect the law and avoid any problematic situations."
+
   forum: Discuss on our forum
   tech:
     install:
