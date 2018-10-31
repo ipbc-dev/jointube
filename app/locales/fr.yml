@@ -367,7 +367,7 @@ faq:
         <ul><li>Les afficher</li><li>Les flouter</li><li>Les cacher</li></ul>"
       - Par défaut, cette configuration est "Les cacher". Si certains administrateurs décident de
         les afficher avec flou par exemple, c'est <strong>leur</strong> choix.
-      - Enfin, chaque utilisateur peut redéfinir ce choix, et décider si il veut afficher/flouter
+      - Enfin, chaque utilisateur peut redéfinir ce choix, et décider si il veut afficher, flouter
         ou cacher ce type de vidéo.
       - PeerTube n'est qu'un logiciel, ce n'est donc pas Framasoft (association qui développe PeerTube)
         qui est responsable du contenu mis en ligne sur certaines instances.
