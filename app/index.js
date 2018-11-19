@@ -2,7 +2,6 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import VueI18n from 'vue-i18n';
 import vueHeadful from 'vue-headful';
-import jQuery from 'jquery';
 
 import App from './App.vue';
 import Home from './components/pages/Home.vue';
@@ -10,9 +9,6 @@ import Home from './components/pages/Home.vue';
 import './assets/scss/bootstrap.scss';
 import '../node_modules/fork-awesome/css/fork-awesome.css';
 import './assets/scss/main.scss';
-
-window.jQuery = jQuery;
-window.$ = jQuery;
 
 Vue.use(VueRouter);
 Vue.use(VueI18n);

@@ -93,12 +93,8 @@
           <h3 id="register" v-html="$t('home.getting-started.register.title')"></h3>
           <p v-html="$t('home.getting-started.register.list')"></p>
 
-          <div id="instances-list" class="list-group"></div>
-          <div id="instances-list-error"
-            class="alert alert-danger"
-            style="display: none"
-            v-html="$t('home.getting-started.register.error')"
-          ></div>
+          <InstancesComponent></InstancesComponent>
+
           <div class="alert alert-info" v-html="$t('home.getting-started.register.email')"></div>
 
         </div>
@@ -161,11 +157,11 @@
 </template>
 
 <script>
+import InstancesComponent from '../partials/Instances.vue'
+
 export default {
-  mounted() {
-    /* eslint-disable */
-    require('../../instances.js');
-    /* eslint-enable */
+  components: {
+    InstancesComponent
   }
 }
 </script>
