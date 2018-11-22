@@ -8,9 +8,9 @@ menu:
   faq: F.A.Q.
   help: Support
   docs: Documentation
-  code: Code source
+  code: Source code
   instances: Instances
-  hall-of-fame: Tableau d’honneur
+  hall-of-fame: Hall of fame
 link:
   forumPT: https://framacolibri.org/c/peertube
   wArticle: https://en.wikipedia.org/wiki
@@ -66,10 +66,21 @@ home:
     register:
       title: Register
       list: 'List of instances on which you can register:'
-      error: NousWe are sorry, but we failed to fetch the list of available instances.
+      error: We are sorry, but we failed to fetch the list of available instances.
         Please try again later.
       email: 'This is like picking an e-mail hosting provider: the domain will be
         part of your username!'
+      instances:
+        per_user: per user
+        followers: followers
+        instances: instances
+        follows: follows
+        bytes:
+          B: B
+          KB: KB
+          MB: MB
+          GB: GB
+        no_quota: No quota
   install:
     title: Install your own
     text:

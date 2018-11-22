@@ -1,8 +1,8 @@
 import Vue from 'vue';
+import VueMatomo from 'vue-matomo';
 import VueRouter from 'vue-router';
 import VueI18n from 'vue-i18n';
 import vueHeadful from 'vue-headful';
-import jQuery from 'jquery';
 
 import App from './App.vue';
 import Home from './components/pages/Home.vue';
@@ -10,9 +10,6 @@ import Home from './components/pages/Home.vue';
 import './assets/scss/bootstrap.scss';
 import '../node_modules/fork-awesome/css/fork-awesome.css';
 import './assets/scss/main.scss';
-
-window.jQuery = jQuery;
-window.$ = jQuery;
 
 Vue.use(VueRouter);
 Vue.use(VueI18n);
@@ -142,6 +139,53 @@ const router = new VueRouter({
   mode: 'history',
   base: `${__dirname}${process.env.BASE_URL}`,
 });
+
+// Stats Matomo
+if (!(navigator.doNotTrack === 'yes'
+  || navigator.doNotTrack === '1'
+  || navigator.msDoNotTrack === '1'
+  || window.doNotTrack === '1')
+) {
+  Vue.use(VueMatomo, {
+    // Configure your matomo server and site
+    host: 'https://stats.framasoft.org/',
+    siteId: 68,
+
+    // Enables automatically registering pageviews on the router
+    router,
+
+    // Require consent before sending tracking information to matomo
+    // Default: false
+    requireConsent: false,
+
+    // Whether to track the initial page view
+    // Default: true
+    trackInitialView: true,
+
+    // Changes the default .js and .php endpoint's filename
+    // Default: 'piwik'
+    trackerFileName: 'p',
+
+    enableLinkTracking: true,
+  });
+
+  const _paq = _paq || []; // eslint-disable-line
+
+  // Conformité CNIL
+  _paq.push([function piwikCNIL() {
+    const self = this;
+    function getOriginalVisitorCookieTimeout() {
+      const now = new Date();
+      const nowTs = Math.round(now.getTime() / 1000);
+      const visitorInfo = self.getVisitorInfo();
+      const createTs = parseInt(visitorInfo[2], 10);
+      const cookieTimeout = 33696000; // 13 mois en secondes
+      const originalTimeout = (createTs + cookieTimeout) - nowTs;
+      return originalTimeout;
+    }
+    this.setVisitorCookieTimeout(getOriginalVisitorCookieTimeout());
+  }]);
+}
 
 new Vue({ // eslint-disable-line no-new
   el: '#app',

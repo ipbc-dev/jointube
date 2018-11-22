@@ -73,6 +73,17 @@ home:
         instances. Merci de réessayer plus tard.
       email: 'C’est comme choisir un fournisseur d’email : le nom de domaine fera
         partie de votre identifiant !'
+      instances:
+        per_user: par utilisateur
+        followers: abonnés
+        instances: instances
+        follows: Suit
+        bytes:
+          B: octets
+          KB: Ko
+          MB: Mo
+          GB: Go
+        no_quota: Aucun quota
   install:
     title: Installez la vôtre
     text:
