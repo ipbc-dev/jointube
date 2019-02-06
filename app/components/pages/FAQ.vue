@@ -95,8 +95,8 @@ export default {
   data() {
     return {
       prez: [...Array(9).keys()].map(i => (i < 1)),
-      content: [...Array(4).keys()].map(i => false),
-      tech: [...Array(3).keys()].map(i => false),
+      content: [...Array(5).keys()].map(i => false),
+      tech: [...Array(4).keys()].map(i => false),
     }
   },
   methods: {
