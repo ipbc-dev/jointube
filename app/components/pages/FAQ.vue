@@ -33,7 +33,7 @@
                   <li v-html="$t('faq.prez.libre.list[2]')"></li>
                 </ul>
               </div>
-              <div class="panel-body" v-else>
+              <div class="panel-body" v-if="!/(pros|libre)/.test(key)">
                 <p
                   v-for="(p, index) in $t('faq.prez.' + key + '.text')"
                   v-html="$t('faq.prez.' + key + '.text[' + index + ']')"
