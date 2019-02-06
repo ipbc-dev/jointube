@@ -35,8 +35,8 @@ const lang = window.location.href
   .substr(0, 2)
   .toLowerCase() || defaultLocale;
 document.getElementsByTagName('html')[0].setAttribute('lang', lang);
-const userLang = navigator.languages ||
-  [navigator.language || navigator.userLanguage];
+const userLang = navigator.languages
+  || [navigator.language || navigator.userLanguage];
 let defaultRouteLang = '';
 
 const messages = {};
@@ -107,8 +107,8 @@ for (let j = 0; j < userLang.length; j += 1) { // check if user locales
 
 // Home redirection
 const currentURL = window.location.href.replace(/\/+$/, '');
-if ((currentURL.split('/')[3] === undefined || currentURL.split('/')[3] === process.env.BASE_URL) &&
-  (currentURL.split('/')[4] === undefined)) {
+if ((currentURL.split('/')[3] === undefined || currentURL.split('/')[3] === process.env.BASE_URL)
+  && (currentURL.split('/')[4] === undefined)) {
   if (defaultRouteLang === '') {
     defaultRouteLang = defaultLocale;
   }
@@ -124,7 +124,9 @@ const i18n = new VueI18n({
 });
 
 // Framanav
-if (!window.vuefsPrerender && document.querySelectorAll('script[src$="nav.js"]').length < 1) {
+if (!window.vuefsPrerender
+  && document.querySelectorAll('script[src$="nav.js"]').length < 1
+  && process.env.NODE_ENV !== 'development') {
   const navConfig = document.createElement('script');
   navConfig.innerHTML = 'l$ = { js: { j$: \'noConflict\' } }';
   document.getElementsByTagName('head')[0].appendChild(navConfig);
