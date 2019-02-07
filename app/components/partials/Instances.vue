@@ -1,6 +1,6 @@
 <template>
   <div >
-    <div v-if="error" id="instances-list-error" class="alert alert-danger" v-html="$t('home.getting-started.register.instances.error')"></div>
+    <div v-if="error" id="instances-list-error" class="alert alert-danger" v-html="$t('home.getting-started.register.error')"></div>
 
     <div id="instances-list" class="list-group" >
       <a v-for="instance of instances" v-bind:title="instance.host" v-bind:href="instance.url" class="list-group-item" target="_blank">
