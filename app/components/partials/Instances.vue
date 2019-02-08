@@ -1,5 +1,5 @@
 <template>
-  <div >
+  <div>
     <div v-if="error" id="instances-list-error" class="alert alert-danger" v-html="$t('home.getting-started.register.error')"></div>
 
     <div id="instances-list" class="list-group" >
@@ -21,6 +21,11 @@
           <li v-if="instance.userVideoQuota">{{ instance.userVideoQuotaBytes }} {{ $t('home.getting-started.register.instances.per_user') }}</li>
         </div>
       </a>
+
+      <!-- TODO: add link to instances list webpage -->
+      <!--<a v-bind:href="$root.link.instancesPT" class="list-group-item" target="_blank">-->
+        <!--{{ $t('home.getting-started.register.instances.see-more') }}-->
+      <!--</a>-->
     </div>
   </div>
 </template>
@@ -72,7 +77,8 @@ export default {
         start: 0,
         count: 100,
         signup: true,
-        healthy: true
+        healthy: true,
+        nsfwPolicy: [ 'do_not_list', 'blur' ]
       }
     }
     axios('https://instances.joinpeertube.org/api/v1/instances', options)
