@@ -39,7 +39,7 @@
               </a>
             </li>
             <li>
-              <a :href="$root.link.instancesPT"
+              <a href="#register"
                 v-html="$t('menu.instances')">
               </a>
             </li>

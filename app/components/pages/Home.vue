@@ -29,9 +29,9 @@
             <img :src="`${$root['/']}img/notebook.jpg`" class="img-responsive" alt="">
           </div>
           <p>
-              <a href="#getting-started" v-html="$t('home.intro.getting-started')"></a>
-              <a href="#how-it-works" v-html="$t('home.intro.how-it-works')"></a>
-            </p>
+            <a href="#getting-started" v-html="$t('home.intro.getting-started')"></a>
+            <a href="#how-it-works" v-html="$t('home.intro.how-it-works')"></a>
+          </p>
         </div>
       </div>
     </section>
