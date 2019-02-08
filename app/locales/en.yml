@@ -21,7 +21,7 @@ home:
     getting-started: Get started
     how-it-works: How it works
   release:
-    announce: PeerTube v1.0 🎉
+    announce: PeerTube v1.0
     title: <a href="https://framablog.org/2018/10/15/peertube-1-0-the-free-libre-and-federated-video-platform/">
       The first version of PeerTube is out!</a> Help us to pursue its development.
     button: Support
@@ -87,7 +87,7 @@ home:
     - If you are interested in running your own instance — for your friends, family
       or organization — you can get started by <a href="@:data.link.gitPT/blob/develop/support/doc/production.md">reading
       the installation documentation</a>.
-    - You’ll only host your own users and their own videos. Your can define the number
+    - You’ll only host your own users and their own videos. You can define the number
       of available registrations and a disk quota per user. Only videos from instances
       you <strong>have chosen</strong> to follow will show up on your homepage.
     btn: Read the docs
@@ -103,8 +103,8 @@ home:
         consisting of the local username (@chocobozzz) and the domain name of the
         server it is on (framatube.org).
       - The administrators of a PeerTube instance can follow each other. When your
-        PeerTube instance follows another PeerTube instance, you receive the videos
-        preview informations from this instance. This way, you can display the videos
+        PeerTube instance follows another PeerTube instance, you receive the videos'
+        preview information from this instance. This way, you can display the videos
         available on your instance and on the instances you decided to follow. So
         you keep control of the videos displayed on your PeerTube instance!
       btn: Questions?
@@ -343,22 +343,23 @@ faq:
       title: There are many porn videos on PeerTube!
       text:
       - No. In October 2018, on an average instance federating with ~200 instances
-        and indexing ~16000 videos, only ~200 videos are tagged as NSFW
-        (i. e. the content is sensitive, which could be something else than pornography).
-        Therefore, they represent only ~1% of all the videos.
-      - "Moreover, each administrator decides with which instances he wants to federate:
+        and indexing ~16000 videos, only ~200 videos are tagged as NSFW (i. e. the
+        content is sensitive, which could be something else than pornography). Therefore,
+        they represent only ~1% of all the videos.
+      - 'Moreover, each administrator decides with which instances he wants to federate:
         he has the full control of the content he wants to display on his instance.
-        It's up to him to choose the policy regarding this kind of videos. He can decide to:
-        <ul><li>Display them</li><li>Blur the title and thumbnail</li><li>Hide them</li></ul>"
-      - By default, this configuration is set to "Hide them". If some administrators decide
-        to display them with a blur filter for example, it's <strong>their</strong> choice.
-      - Finally, any user can override this configuration, and decides if he want to display,
-        blur or hide these videos for himself.
-      - "PeerTube is just a software: it's not Framasoft (non-profit that develops PeerTube)
-        that's responsible for the content published on some instances."
-      - "It's up to everyone to be responsible: parents, visitors, uploaders, PeerTube administrators
-        to respect the law and avoid any problematic situations."
-
+        It''s up to him to choose the policy regarding this kind of videos. He can
+        decide to: <ul><li>Display them</li><li>Blur the title and thumbnail</li><li>Hide
+        them</li></ul>'
+      - By default, this configuration is set to "Hide them". If some administrators
+        decide to display them with a blur filter for example, it's <strong>their</strong>
+        choice.
+      - Finally, any user can override this configuration, and decides if he want
+        to display, blur or hide these videos for himself.
+      - 'PeerTube is just a software: it''s not Framasoft (non-profit that develops
+        PeerTube) that''s responsible for the content published on some instances.'
+      - 'It''s up to everyone to be responsible: parents, visitors, uploaders, PeerTube
+        administrators to respect the law and avoid any problematic situations.'
   forum: Discuss on our forum
   tech:
     install:
@@ -372,53 +373,56 @@ faq:
       - 'Don’t bother the developer to help you install your instance: we have a <a
         href="@:link.forumPT">support forum</a> for that.'
     moderation:
-      title: 'PeerTube v1.0 does not seem to me to contain all the tools
-        necessary for a good management of my instance.'
+      title: PeerTube v1.0 does not seem to me to contain all the tools necessary
+        for a good management of my instance.
       text:
-        - '<blockquote>"It’s outrageous and unconscious: you’re releasing PeerTube’s version 1
-          when it doesn’t contain the necessary tools to effectively manage videos claimed
-          by rights holders, or to effectively manage the issue of online harassment in comments,
-          or to effectively manage monetization through advertising, or to (insert here your
-          request to PeerTube). It will never work! What do you intend to do about it?"</blockquote>'
-        - 'You’re right. PeerTube 1.0 is not the perfect tool, far from it. And we never promised
-          that this version 1.0 would be a tool that would include all the features corresponding
-          to all cases.'
-        - 'PeerTube 1.0 is the realization of the commitment we made in October 2017 to take
-          PeerTube from an alpha version (personal project and proof of concept that a federated
-          video platform could work) to a 1.0 version in October 2018 (which does not mean
-          "final version", but "version considered stable and distributable").'
-        - 'Remember that PeerTube has only one (almost) full time developer and a
-          small handful of very involved volunteers. It is not a product developed by a
-          start-up with a full time team (dev, design, UX, marketing, support, etc.)
-          and significant financial support. It is a Community free software, the development
-          of which will continue over the months and, we hope, in the years to come.'
-        - 'We are well aware of the shortcomings of PeerTube 1.0, especially in the moderation
-          tools area (videos, comments, etc.). And we intend to work on these weaknesses. '
-        - 'We have chosen to do so as follows: on the one hand we will work primarily in
-          the coming months to improve these tools within PeerTube itself (in the <i>core</i> of
-          the software). On the other hand, we will also focus, in parallel, a large part
-          of PeerTube’s development effort during 2019 on the integration of a plugin system,
-          which can be developed by the communities.'
-        - 'Indeed, we do not claim to have the science behind it and know how best to manage
-          each of the tools according to each of the needs.
-          For example: with regard to the question of DMCA requests, cases vary according
-          to geographical jurisdictions (European law is different from French law,
-          itself different from Canadian law, itself different from American law, etc.).
-          Concerning the tools for moderating comments, here again, we cannot decree ourselves
-          experts of the subject, because this is simply not the case.'
-        - 'By acting both on the <i>core</i>, but also by allowing the development of plugins,
-          we believe that PeerTube will, in the long term, be able to respond much better to
-          these issues and allow different communities to adapt PeerTube to their needs.'
-        - 'We are working as quickly as possible to improve PeerTube, but we are doing so with
-          the resources we have, which means <strong>very</strong> limited.'
-        - 'In the meantime, as an user if you feel that PeerTube 1.0 does not currently
-          meet your needs, it’s simple: don’t use it right now :) (we remind you that we
-          don’t make money developing PeerTube, and that if we obviously hope for its success,
-          the survival of our association doesn’t depend on it).'
-        - 'As an administrator, if you are afraid of DMCA requests, there is an option to limit
-          the opening of registrations to people you know. You will then be able to reopen
-          registrations without verification once these verification tools have been integrated,
-          or you have developed them.'
+      - '<blockquote>"It’s outrageous and unconscious: you’re releasing PeerTube’s
+        version 1 when it doesn’t contain the necessary tools to effectively manage
+        videos claimed by rights holders, or to effectively manage the issue of online
+        harassment in comments, or to effectively manage monetization through advertising,
+        or to (insert here your request to PeerTube). It will never work! What do
+        you intend to do about it?"</blockquote>'
+      - You’re right. PeerTube 1.0 is not the perfect tool, far from it. And we never
+        promised that this version 1.0 would be a tool that would include all the
+        features corresponding to all cases.
+      - PeerTube 1.0 is the realization of the commitment we made in October 2017
+        to take PeerTube from an alpha version (personal project and proof of concept
+        that a federated video platform could work) to a 1.0 version in October 2018
+        (which does not mean "final version", but "version considered stable and distributable").
+      - Remember that PeerTube has only one (almost) full time developer and a small
+        handful of very involved volunteers. It is not a product developed by a start-up
+        with a full time team (dev, design, UX, marketing, support, etc.) and significant
+        financial support. It is a Community free software, the development of which
+        will continue over the months and, we hope, in the years to come.
+      - 'We are well aware of the shortcomings of PeerTube 1.0, especially in the
+        moderation tools area (videos, comments, etc.). And we intend to work on these
+        weaknesses. '
+      - 'We have chosen to do so as follows: on the one hand we will work primarily
+        in the coming months to improve these tools within PeerTube itself (in the
+        <i>core</i> of the software). On the other hand, we will also focus, in parallel,
+        a large part of PeerTube’s development effort during 2019 on the integration
+        of a plugin system, which can be developed by the communities.'
+      - 'Indeed, we do not claim to have the science behind it and know how best to
+        manage each of the tools according to each of the needs. For example: with
+        regard to the question of DMCA requests, cases vary according to geographical
+        jurisdictions (European law is different from French law, itself different
+        from Canadian law, itself different from American law, etc.). Concerning the
+        tools for moderating comments, here again, we cannot decree ourselves experts
+        of the subject, because this is simply not the case.'
+      - By acting both on the <i>core</i>, but also by allowing the development of
+        plugins, we believe that PeerTube will, in the long term, be able to respond
+        much better to these issues and allow different communities to adapt PeerTube
+        to their needs.
+      - We are working as quickly as possible to improve PeerTube, but we are doing
+        so with the resources we have, which means <strong>very</strong> limited.
+      - 'In the meantime, as an user if you feel that PeerTube 1.0 does not currently
+        meet your needs, it’s simple: don’t use it right now :) (we remind you that
+        we don’t make money developing PeerTube, and that if we obviously hope for
+        its success, the survival of our association doesn’t depend on it).'
+      - As an administrator, if you are afraid of DMCA requests, there is an option
+        to limit the opening of registrations to people you know. You will then be
+        able to reopen registrations without verification once these verification
+        tools have been integrated, or you have developed them.
     code:
       title: How do I contribute to PeerTube’s code?
       text:
