@@ -21,8 +21,8 @@ push-locales: po
 	zanata-cli -q -B push --push-type both
 
 pull-locales: prepare-locales
-	cp zanata/zanata.xml zanata.xml
-	sed -e 's@<project></project>@<project>$(shell basename $(CURDIR))</project>@' -i zanata.xml
+	cp -n zanata/zanata.xml zanata.xml
+	sed -e 's@<project></project>@<project>join-peertube</project>@' -i zanata.xml
 	zanata-cli -q -B pull --pull-type both --min-doc-percent 75
 	make yml
 
