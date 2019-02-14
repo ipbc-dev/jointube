@@ -83,7 +83,7 @@
             ></iframe>
             <iframe v-else
               class="embed-responsive-item"
-              src="https://framatube.org/videos/embed/217eefeb-883d-45be-b7fc-a788ad8507d3"
+              src="https://framatube.org/videos/embed/9c9de5e8-0a1e-484a-b099-e80766180a6d"
               allowfullscreen
             ></iframe>
           </div>
