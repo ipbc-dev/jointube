@@ -171,7 +171,8 @@ faq:
       text:
       - 我們可以很肯定的回答：不是！
       - 在2018年3月，PeerTube 釋出了第一個可用的公開測試版本。有幾個收藏者建立了第一個實體，因此建立了聯盟的基礎。
-      - 但這指是一個開始，PeerTube 還不完美，並且缺少許多功能，而且還有許多功能尚未實作。我們打算繼續改進它，以便在2018年底前發佈第一版。
+      - But this is just the beginning, PeerTube is not (yet) perfect, and many features
+        are missing. But we intend to keep improving it day after day.
       - 因此，2018年3月代表了 PeerTube 聯盟的誕生：這個軟體的使用與支援的人愈多，就會有更多的人使用並對其貢獻，並將其更快地發展為 YouTube
         等平臺的替代品。
       - 不過，<strong>自由且去中心化的替代方案</strong>仍是我們的目標：替代方案的目標不是取代，而是提出具有不同價值的其他東西，與原本的東西並行。

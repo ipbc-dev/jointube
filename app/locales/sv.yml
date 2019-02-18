@@ -7,25 +7,25 @@ nav:
 menu:
   faq: Vanliga frågor
   help: Support
-  docs: Dokumentering
-  code: Source code
+  docs: Dokumentation
+  code: Källkod
   instances: Instanser
   hall-of-fame: Hall of fame
 link:
   forumPT: https://framacolibri.org/c/peertube
   wArticle: https://en.wikipedia.org/wiki
 home:
-  title: Ta tillbaka kontrollen över dina videor
+  title: Återta kontrollen över dina videor
   intro:
     title: En decentraliserad videoplattform byggd på fri mjukvara
     getting-started: Get started
     how-it-works: Hur det funkar
   release:
     announce: PeerTube v1.0
-    title: <a href="https://framablog.org/2018/10/15/peertube-1-0-the-free-libre-and-federated-video-platform/">
-      The first version of PeerTube is out!</a> Help us to pursue its development.
+    title: <a href="https://framablog.org/2018/10/15/peertube-1-0-the-free-libre-and-federated-video-platform/">Den
+      första versionen av PeerTube är ute nu!</a> Hjälp oss fortsätta utvecklingen.
     button: Support
-    install: Install PeerTube
+    install: Installera PeerTube
   why:
     power:
       title: Återta kontrollen … och ansvaret!
@@ -65,18 +65,18 @@ home:
     register:
       title: Registrera
       list: 'Lista över instanser du kan registrera ett konto på:'
-      error: We are sorry, but we failed to fetch the list of available instances.
-        Please try again later.
+      error: Vi kan tyvärr inte ladda listan över tillgängliga instanser. Försök gärna
+        igen senare.
       email: Det är lite som att välja en e-postleverantör, domänen blir en del av
         ditt användarnamn!
       instances:
-        per_user: per user
-        followers: followers
-        instances: instances
-        follows: follows
+        per_user: per användare
+        followers: följare
+        instances: instanser
+        follows: följer
         bytes:
           B: B
-          KB: KB
+          KB: kB
           MB: MB
           GB: GB
         no_quota: No quota
@@ -90,7 +90,7 @@ home:
       hur många användare som kan registrera sig och hur mycket lagringsutrymme varje
       användare får. Bara videor från instanser <strong>du valt att följa</strong>
       kommer synas på din hemsida.
-    btn: Läs dokumenteringen
+    btn: Läs dokumentationen
   how-it-works:
     how:
       title: How it works
@@ -265,9 +265,8 @@ faq:
       - I mars 2018 släppte PeerTube sin första publikt användbara beta-version. Ett
         flertal gemenskaper satte upp sina första instanser, vilket lade grunden för
         federationen.
-      - Men detta är bara början, PeerTube är inte perfekt (än) och många funktioner
-        saknas. Vi ämnar fortsätta att förbättra PeerTube så att vi kan släppa version
-        ett i slutet av 2018.
+      - But this is just the beginning, PeerTube is not (yet) perfect, and many features
+        are missing. But we intend to keep improving it day after day.
       - 'Mars 2018 blev alltså startskottet för PeerTube-federationen: ju mer den
         här programvaran kommer användas och stödjas, desto fler kommer använda och
         bidra till den och den kommer då utvecklas allt snabbare till att bli ett
@@ -311,7 +310,7 @@ faq:
       title: Vad är PeerTubes ersättningspolicy?
       text:
       - OrderedDict([('Det finns ingen för tillfället', 'PeerTube är ett verktyg som
-        göra naturligt i fråga om ersättningar.')])
+        vi vill göra naturligt i fråga om ersättningar.')])
       - 'För tillfället är lösningen vi ger till de som laddar upp videor att använda
         ”support”-knappen under videon. Knappen visar en ruta där de som laddar upp
         videor kan visa text, bilder och länkar helt fritt. Det är till exempel möjligt
@@ -343,7 +342,7 @@ faq:
         och vision. Detta eftersom endast du vet vad som får dig lita på en värd och
         vilken sorts värd du vill anförtro dina videor åt.
     pornography:
-      title: There are many porn videos on PeerTube!
+      title: Det finns mycket pornografi på PeerTube!
       text:
       - No. In October 2018, on an average instance federating with ~200 instances
         and indexing ~16000 videos, only ~200 videos are tagged as NSFW (i. e. the
@@ -361,8 +360,9 @@ faq:
         to display, blur or hide these videos for himself.
       - 'PeerTube is just a software: it''s not Framasoft (non-profit that develops
         PeerTube) that''s responsible for the content published on some instances.'
-      - 'It''s up to everyone to be responsible: parents, visitors, uploaders, PeerTube
-        administrators to respect the law and avoid any problematic situations.'
+      - 'Det är upp till var och en att agera ansvarsfullt: föräldrar, besökare, uppladdare
+        och PeerTube-administratörer att respektera lagar och undvika problematiska
+        situationer.'
   forum: Diskutera på vårt forum
   tech:
     install:
