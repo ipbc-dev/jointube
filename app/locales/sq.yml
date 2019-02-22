@@ -1,0 +1,484 @@
+meta:
+  title: '@:home.title ! #JoinPeerTube'
+nav:
+  langChange: Ndryshoni gjuhën
+  lang: Gjuhë
+  translate: Përktheni
+menu:
+  faq: F.A.Q.
+  help: Asistencë
+  docs: Dokumentim
+  code: Kod burim
+  instances: Instanca
+  hall-of-fame: Tabela e nderit
+link:
+  forumPT: https://framacolibri.org/c/peertube
+  wArticle: https://en.wikipedia.org/wiki
+home:
+  title: Rimerrni kontrollin e videove tuaja
+  intro:
+    title: Një rrjet i decentralizuar strehimi videosh, bazuar në software-in e lirë/libre
+    getting-started: Nisjani
+    how-it-works: Si funksionon
+  release:
+    announce: PeerTube v1.0
+    title: <a href="https://framablog.org/2018/10/15/peertube-1-0-the-free-libre-and-federated-video-platform/">
+      Doli versioni i parë i PeerTube-it!</a> Ndihmonani të vazhdojmë zhvillimin e
+      tij.
+    button: Asistencë
+    install: Instaloni PeerTube-in
+  why:
+    power:
+      title: Rimerrni pushtetin… dhe përgjegjësitë!
+      desc: 'PeerTube s’është një platformë e vetme strehimi videosh me një grup të
+        vetëm rregullash: është një rrjet dhjetëra furnizuesish të ndërlidhur strehimi,
+        dhe çdo furnizues është i ndërtuar nga njerëz dhe administratorë të ndryshëm.
+        Nuk ju pëlqejnë disa prej rregullave? Jeni i lirë të përdorni furnizuesin
+        e strehimit që doni, ose edhe më mirë, bëhuni strehues i vetes me rregullat
+        tuaja!'
+    content:
+      title: Merrni kontrollin e lëndës tuaj
+      desc: PeerTube ju lejon të ndani me të tjerët krejt videot tuaja. Qenia në kontakt
+        të drejtpërdrejt me një furnizues videosh që është një qenie njerëzore (ose
+        duke u bërë vetë një furnizues) ju lejon të zgjidhni se si kryhet transmetimi
+        i tyre. Videot tuaja do të përfitojnë prej mjetesh për plotësim përshkrimi,
+        për sistemim sipas kategorish, zgjedhjes së një figure paraparjeje dhe vënies
+        shenjë videove si NSW (Not safe for work - jo të përshtatshme për t’u parë
+        në vendin e punës). Ujdisja e gjërave për butonin <strong>Asistencë</strong>
+        do t’ju lejojë t’i shfaqni publikut tuaj se si dëshironi ta përkrahë punën
+        tuaj.
+    usersfirst:
+      title: Vendosja e përdoruesve mbi gjithçka
+      desc: 'Jeni një person, jo një produkt. PeerTube është software i lirë/libre
+        financuar nga një ent jofitimprurës frëng: @:data.html.soft</>. Krejt instancat
+        krijohen, mbahen gjallë, moderohen dhe mirëmbahen në mënyrë të pavarur. PeerTube
+        nuk i nënshtrohet ndonjë monopoli kompanie, s’varet nga reklama dhe nuk ju
+        gjurmon. Me PeerTube-in nuk jeni një produkt: PeerTube-i është në shërbimin
+        tuaj, jo anasjelltas.'
+    broadcast:
+      title: Bëhuni aktor i transmetimit të videove tuaja
+      desc: Kur shihni një video me PeerTube, teknologjia WebTorrent ju lejon të jeni
+        pjesë e transmetimit të kësaj video tok me parës që po e shohin në të njëjtën
+        kohë. Kjo ndarje me të tjerët e transmetimit të videos lejon një shpërndarje
+        më të shëndetshme të shkëmbimeve në rrjet. Për më tepër, protokolli i federimit
+        (ActivityPub) lejon të botohen videot dhe komentet në platforma të tjera që
+        e mbulojnë atë, të tilla si ajo <a href="@:data.link.mastodon">Mastodon</a>!
+        (eksperimentale)
+  getting-started:
+    title: Nisjani
+    watch:
+      title: Mbikqyre
+      framatube: Shihni video te @:data.color.tube
+    register:
+      title: Regjistrohuni
+      list: 'Listë instancash te të cilat mund të regjistroheni:'
+      error: Na ndjeni, por s’arritëm të sillnim listën e instancave të gatshme. Ju
+        lutemi, riprovoni më vonë.
+      email: 'Kjo është e ngjashme me zgjedhjen e një furnizuesi email: përkatësia
+        do të jetë pjesë e emrit tuaj të përdoruesit!'
+      instances:
+        per_user: për përdorues
+        followers: ndjekës
+        instances: instanca
+        follows: ndjekje
+        bytes:
+          B: B
+          KB: KB
+          MB: MB
+          GB: GB
+        no_quota: Pa kuota
+  install:
+    title: Instaloni tuajën
+    text:
+    - Nëse ju intereson xhirimi i instancës tuaj — për shokët tuaj, familjen apo entin
+      — mund t’ia filloni duke <a href="@:data.link.gitPT/blob/develop/support/doc/production.md">lexuar
+      dokumentimin mbi instalimet</a>.
+    - Do të strehoni vetëm përdoruesit tuaj dhe videot e tyre. Mund të përcaktoni
+      numrin e regjistrimeve të mundshme dhe kuota hapësire për përdorues. Në faqen
+      tuaj hyrëse do të shfaqen vetëm video prej instancash që ju <strong>i keni zgjedhur</strong>
+      për t’u ndjekur.
+    btn: Lexoni dokumentimin
+  how-it-works:
+    how:
+      title: Si funksionon
+      text:
+      - Gjithkush mund të strehojë një shërbyes PeerTube, që ne e quajmë <strong>instancë</strong>.
+        Çdo instancë strehon përdoruesit e vet dhe videot e tyre. Ajo mban gjithashtu
+        një listë të videove prej instancash që përgjegjësi zgjedh të ndiqen, për
+        t’ua sugjeruar ato përdoruesve të tij.
+      - Çdo llogari ka një identifikues global unik (p.sh. @chocobozzz@framatube.org),
+        që përbëhet nga emri vendor për përdoruesin (@chocobozzz) dhe emri i përkatësisë
+        së shërbyesit ku gjendet (framatube.org).
+      - Përgjegjësit e një instance PeerTube mund të ndjekin njëri-tjetrin. Kur instanca
+        juaj PeerTube ndjek një tjetër instancë PeerTube, ju merrni të dhëna paraparjeje
+        videosh nga kjo instancë. Në këtë mënyrë, mund të shfaqni videot e gatshme
+        të instancës tuaj dhe të instancave që vendosni të ndiqen. Në këtë mënyrë,
+        ruani kontrollin se ç’video shfaqen në instancën tuaj PeerTube!
+      btn: Pyetje?
+    why:
+      title: Ku është e bukura në këtë?
+      text:
+      - Shërbyesit xhirohen në mënyrë të pavarur nga persona dhe ente të ndryshëm.
+        Në ta mund të zbatohen rregulla moderimi nga më të larmishmet, ndaj mundeni
+        të gjeni ose të ndërtoni një që puqet përsosmërisht me shijet tuaja.
+      - Duke e parë një video, ju ndihmoni furnizuesin e strehimit ta transmetojë
+        atë, duke u shndërruar ju vetë në një transmetues të videos. Për të transmetuar
+        videot e përdoruesve të saj, çdo instancë nuk ka nevojë për shumë para.
+      btn: Nisjani
+footer:
+  text: Ngritur mbi
+  thanks: Faleminderit!
+faq:
+  title: Pak pyetje për të ndihmuar në zbulimin e PeerTube-it…
+  clic: (klikoni mbi pyetjen që të shihni përgjigjet)
+  section:
+    prez: Paraqitje e PeerTube-it
+    content: Krijim dhe lëndë
+    tech: Pyetje teknike
+  prez:
+    what:
+      title: Ç’është PeerTube?
+      text:
+      - PeerTube është software që e instaloni në një shërbyes. Ju lejon të krijoni
+        një sajt strehimi videosh, pra krijoni "YouTube"-in që e keni bërë vetë.
+      - Dallimi me YouTube-in është se nuk është konceptuar për të krijuar një platformë
+        të stërmadhe për centralizim të videove nga krejt bota në një fermë të vetme
+        shërbyesish (çka është tmerrësisht e kushtueshme).
+      - Përkundrazi, konceptimi i PeerTube-it është krijimi i një rrjeti furnizuesish
+        të vegjël të shumtë, të ndërlidhur, strehimi videosh.
+    pros:
+      title: Tre përparësitë kryesore të PeerTube-it.
+      text:
+      - 'PeerTube-i është unik, ngaqë (me sa dimë) është aplikacioni i vetëm web për
+        strehim videosh që ndërthur tre përparësi:'
+      - Të para së toku, këto tre veçori e bëjnë të lehtë strehimin e videove, nga
+        pikëpamja e shërbyes, teksa mbetet praktik, etik dhe zbavitës për përdoruesit
+        e internetit.
+      list:
+      - Kod të hapur (transparencë) nën licencë të lirë/libre (zhvillim i udhëhequr
+        nga etika, respekti dhe bashkësia);
+      - Federatë furnizuesish të ndërlidhur strehimi (pra më tepër mundësi zgjedhjeje
+        videosh, kurdo që shkoni t’i shihni);
+      - Transmetim <em>peer-to-peer</em> – ndaj edhe parje e tillë – (pra, pa ngadalësim
+        kur një video bëhet virale).
+    libre:
+      title: Pse është më mirë si software i lirë/libre ?
+      text:
+      - Ngaqë, që në konceptim, software-i i lirë/libre respekton liritë tonë themelore,
+        dhe i garanton ato përmes <a href="@:data.link.gitPT/blob/develop/LICENSE">një
+        licence</a>, pra përmes një kontrate të detyrueshme ligjërisht.
+      - 'Konkretisht, këtu kjo do të thotë:'
+      list:
+      - PeerTube ofrohet lirisht, pa qenë nevoja të paguani për ta instaluar në shërbyesin
+        tuaj;
+      - 'Mund të zhbirojmë nën kapakun e PeerTube-it (në kodin burim të tij): mund
+        të merret në shqyrtim, është transparent;'
+      - Zhvillimi i tij bëhet nga bashkësia, mund të zgjerohet nga kontributet e cilitdo.
+    federated:
+      title: Ç’i interes ka të jenë të federuar furnizuesit e strehimit të videove?
+      text:
+      - 'Përparësia e YouTube-it (dhe e platformave të tjera) është katalogu i tyre
+        i videove: nga mësime thurjeje me shtiza deri te ndërtime Minecraft, apo video
+        të koteleve apo pushimeve tuaja… mund të gjeni gjithçka!'
+      - Sa më i larmishëm të jetë katalogu i videove, aq më tepër persona janë të
+        interesuar, aq më tepër video ngarkohen… por strehimi i videove nga krejt
+        bota është (shumë, shumë) i kushtueshëm!
+      - Nëse furnizuesi i strehimit Thurje-Me-Shtiza-PeerTube bëhet shok me Kotele-Tube
+        dhe Shqipotube, do të shfaqë videot e të tjerëve në sajtin e tij, duke i ndarë
+        kështu kostot e strehimit, teksa mbetet praktik dhe i plotë për përdoruesit
+        e Internetit.
+      - 'Protokolli i federimit të PeerTube-it do të jetë i rrjedhshëm (gjithkush
+        mund të zgjedhë strehët e veta "shoqe"), dhe i bazuar në <a href="https://activitypub.rocks/">ActivityPub</a>:
+        kjo do të hapë mundësinë për t’u lidhur me mjete si Mastodon apo MediaGoblin.'
+    p2p:
+      title: Pse të transmetohen videot në PeerTube përmes teknikës <em>peer-to-peer</em>?
+      text:
+      - 'Kur strehoni një kartelë të madhe, fjala vjen një video, gjëja më e madhe
+        për t’iu trembur është suksesi: nëse një video bëhet virale dhe e shohin shumë
+        vetë në të njëjtën kohë, ka rrezik të madh që shërbyesi të bëhet i mbingarkuar!'
+      - Falë protokollit <a href="@:link.wArticle/WebRTC">WebRTC</a>, transmetimi
+        <em>peer-to-peer</em> lejon që përdoruesit e Internetit që shohin të njëjtën
+        video në të njëjtën kohë të shkëmbejnë mes tyre copëza, çka lehtëson shërbyesin.
+      - 'S’ka asgjë për ta bërë ju: e bën vetvetiu shfletuesi juaj. Nëse jeni në një
+        celular ose rrjeti juaj nuk e lejon (përmes rrugëzuesi, firewall-i, etj.),
+        ky funksion çaktivizohet dhe kalohet nën transmetim videosh në "stil të vjetër
+        @:data.emoji.wink</>.'
+    admin:
+      title: Për ata që dinë të administrojnë një shërbyes, PeerTube është…
+      text:
+      - '<strong>Është software që e instaloni në shërbyesin tuaj</strong> për të
+        krijuar një sajt ku strehohen dhe transmetohen video… Në thelb: krijoni "YouTube"-in
+        tuaj!'
+      - Ka tashmë software të lirë/libre që ju lejon ta bëni këtë. Por me PeerTube-in,
+        mund të lidhni instancën tuaj (sajtin tuaj të videove) me instancën PeerTube
+        të Arbenit (ku ai strehon video nga leksionet e veta për nxënësit e shkollës),
+        me atë të Vjollcës (që strehon videot e veta rreth fjalës së fundit në bërjen
+        e byrekut) apo edhe me instancën PeerTube të tifozëve të Lokomotivës (që administron
+        një kolektiv vloguesish).
+      - '<strong>Por PeerTube-i nuk centralizon: federon.</strong> Falë protokollit
+        <a href="@:data.link.activitypub">ActivityPub</a> (përdorur edhe nga <a href="@:data.link.mastodon">federata
+        Mastodon</a>, një alternativë e lirë/libre ndaj Twitter-it), PeerTube mund
+        të federojë disa strehues të vegjël, që kështu të mos u duhet të blejnë mijëra
+        disqe për të strehuar video nga krejt bota.'
+      - Si përfundim, në sajtin tuaj PeerTube, publiku do të jetë në gjendje të shohë
+        jo vetëm videot tuaja, por edhe videot e strehuara nga Arbeni, Vjollca apo
+        Lokomotiva… pa u dashur të strehoni videot e tyre në sajtin tuaj të ngritur
+        mbi PeerTube. Një larmi e tillë në katalogim videosh e bën shumë tërheqës.
+        Një zgjedhje dhe larmi e madhe videosh është ajo që i bëri të suksesshme platformat
+        e centralizuara, të tilla si YouTube.
+      - 'Federimi ofron tjetër përfitim: <strong>gjithkush bëhet i pavarur</strong>.
+        Arbeni, Vjollca, Lokomotiva dhe ju vetë mund të caktoni rregullat tuaja, Kushtet
+        tuaja të Shërbimit (për shembull, dikush mund të përfytyrojë një MiauTube,
+        ku ndalohen rreptësisht video me qen @:data.emoji.wink).'
+    video-maker:
+      title: Për ata që duan të ngarkojnë video të tyret, PeerTube lejon…
+      text:
+      - 'Ju lejon të zgjidhni strehuesin që ju përshtatet. Teprimet e YouTube-it janë
+        një shembull i mirë: strehuesi i tij, Google/Alphabet, mund të imponojë "Robocopyright"
+        e vet (sistemi i ContentID-ve) ose mjetet e veta për të indeksuar, rekomanduar
+        ose nxjerrë në pah video; dhe këto mjete duken po aq të paanshme, sa ç’janë
+        edhe të pazhbirueshme. Sido që të jetë, ju detyron tashmë <a href="@:data.link.tosdr">t’i
+        jepni të drejta të zgjeruara kopjimi mbi videot tuaja, falas</a>!'
+      - Me PeerTube-in, <strong>strehuesin e videove tuaja mund ta zgjidhni duke u
+        bazuar në kushtet e tija të shërbimit</strong>, rregullat e moderimit, zgjedhjet
+        e tija mbi federimin… Ngaqë nuk keni një përballë një gjigant teknologjik,
+        mund të jeni në gjendje të bisedoni me strehuesin tuaj, nëse ndonjëherë do
+        të keni ndonjë problem, një nevojë, a diçka që doni.
+      - Përparësia tjetër e madhe e PeerTube-it është se strehuesit tuaj nuk i duhet
+        të trembet nga suksesi i papritur i njërës prej videove tuaja. Në fakt, PeerTube-i
+        i transmeton videot përmes protokollit <a href="@:link.wArticle/BitTorrent">WebTorrent</a>.
+        Nëse videon tuaj po e shohin në të njëjtën kohë qindra persona, shfletuesit
+        e tyre vetvetiu dërgojnë copëza të videos tuaj te parësit e tjerë.
+      - Para këtij lloji transmetimi <em>peer-to-peer</em>, krijuesit e suksesshëm
+        (ose videot e tilla) qenë të dënuara të strehohen nga një gjigant web-i, infrastruktura
+        e të cilit mund të trajtojë miliona parje të njëkohshme… Ose të paguanin për
+        një strehë të pavarur videosh shumë të shtrenjtë, e cila mund të mbajë ngarkesën.
+    audience:
+      title: Për ata që duan të shohin video, PeerTube-i mund të ofrojë…
+      text:
+      - Një nga përfitimet është se <strong>bëheni pjesë e transmetimit të videove
+        që po shihni</strong>. Nëse një video PeerTube po e shohin në të njëjtën kohë
+        persona të tjerë, sa kohë që skeda e shfletuesit tuaj për të mbetet e hapur,
+        ai ndan me të tjerët copëza të videos dhe ju bëheni pjesë e një përdorimi
+        më të shëndetshëm të Internetit.
+      - 'Sigurisht, lojtësi PeerTube i videove i përshtatet gjendjes tuaj: nëse instalimi
+        juaj nuk lejon luajtje <em>peer-to-peer</em> (rrjet korporate, shfletues kokëfortë,
+        etj.) luajtja e videove do të bëhet sipas mënyrës klasike.'
+      - Por, mbi të gjitha, <strong>PeerTube-i ju trajton si një person, jo si një
+        produkt</strong> të cilin duhet ta gjurmojë, profilizojë, dhe kyçë në qerthuj
+        videosh për t’u shitur kështu më mirë të tjerëve vëmendjen tuaj. Për këtë
+        arsye, <a href="@:data.link.gitPT">kodi burim</a> (receta e gatimit) të software-it
+        PeerTube është i hapur, duke e bërë funksionimin e tij transparent.
+      - '<strong>PeerTube-i s’është vetëm me burim të hapur: është i lirë (si te fjala
+        e lirë).</strong> Licenca e tij e lirë garanton liritë tona themelore si përdorues.
+        Është ky respekt për liritë tona që e lejon Framasoft-in t’ju ftojë të jepni
+        ndihmesë te ky software, dhe mjaft zhvillime të tjera evolutive (sistem risor
+        komentesh, etj.) janë sugjeruar tashmë nga disa prej jush.'
+    remplace-yt:
+      title: Synimi i PeerTube-it është të zëvendësojë YouTube-in?
+      text:
+      - 'Mund të përgjigjemi me siguri: jo!'
+      - Në mars të 2018-s, PeerTube-i hodhi publikisht në qarkullim versionin e vet
+        të përdorshëm beta. Disa kolektiva sajuan instancat e veta të para, duke krijuar
+        kështu bazat e federimit.
+      - Po ky është vetëm fillimi, PeerTube-i (ende) s’është i përsosur, dhe mjaft
+        veçori mungojnë. Synojmë të vazhdojmë përmirësimin e tij ditë pas dite.
+      - 'Kështu që marsi i 2018-s përfaqëson lindjen e federatave PeerTube: sa më
+        shumë që përdoret dhe përkrahet ky software, aq më shumë vetë do ta përdorin
+        dhe japin ndihmesë në të, dhe aq më shpejt do të evoluohet drejt një alternative
+        konkrete ndaj platformash të tilla si YouTube.'
+      - 'Megjithatë, ambicia mbetet qenia <strong>një alternativë e lirë dhe e decentralizuar</strong>:
+        synimi i një alternative s’është zëvendësimi, pro propozimi i diçka tjetër,
+        me vlera të tjera, paralelisht me çka ekziston tashmë.'
+  content:
+    law:
+      title: Meqë është i lirë, mund të ngarkojmë në të gjëra të jashtëligjshme?
+      text:
+      - Të qenët i lirë nuk do të thotë të qenët mbi ligjin! Çdo furnizues strehimi
+        PeerTube mund të vendosë vetë për kushtet e përgjithshme të përdorimit, duke
+        iu bindur ligjeve vendore.
+      - Për shembull, në Francë, <a href="https://fr.wikipedia.org/wiki/Lois_contre_le_racisme_et_les_discours_de_haine">ndalohet</a>
+        lëndë diskriminuese dhe mund t’u <a href="http://stop-discrimination.gouv.fr/agir/ne-pas-laisser-faire-les-recours">raportohet
+        autoriteteve</a>. PeerTube-i u lejon përdoruesve të raportojnë video problematike,
+        dhe mandej çdo administrator duhet të zbatojë moderimin në përputhje me kushtet
+        e veta dhe me ligjin.
+      - Sistemi i federimit, nga ana e vet, u lejon strehuesve të vendosin se me kë
+        duan të lidhen, në varësi të llojit të lëndës apo rregullave të moderimit
+        të këtyre.
+    responsible:
+      title: Kush është përgjegjës për lëndën e botuar në PeerTube?
+      text:
+      - 'PeerTube-i s’është sajt: është software që i lejon një strehuesi web (për
+        shembull, Ilirit) të krijojë një sajt video (le ta quajmë LiroTube).'
+      - Përfytyroni tani që Mimoza ka krijuar një llogari te LiroTube dhe ngarkon
+        në të një video të paligjshme, ngaqë kjo video përdor muzikë nga Laver Bariu.
+      - Laver Bariu shkon te Përmetitube, një instancë që ndjek LiroTube-in. Kështu,
+        Laver Bariu mund të shohë, që nga Përmetitube-i, videot e publikuara te LiroTube.
+      - Laveri e sheh videon e paligjshme të Mimozës, dhe sinjalizon për këtë përmes
+        butonit të ofruar për këtë qëllim. Edhe pse raportimi u bë që nga Përmetitube-i,
+        ai i dërgohet drejtpërsëdrejti personit që strehon lëndën e paligjshme, Ilirit.
+      - Nga ky çast, Iliri është përgjegjës, ngaqë u sinjalizua se po strehon një
+        video të paligjshme. I takon atij, pra, të veprojë, nëse nuk do që të konsiderohet
+        përgjegjës para ligjit.
+      - Mandej, Iliri dhe Laveri mund t’i drejtohen Mimozës, që ngarkoi videon.
+    money:
+      title: Cilat janë rregullat e shpërblimit në PeerTube?
+      text:
+      - OrderedDict([('S’ka të tillë, të paktën në këtë çast', 'PeerTube-i është një
+        mjet që e donin asnjanës, kur vjen puna për shpërblime.')])
+      - 'Tani për tani, zgjidhja e propozuar për persona që ngarkojnë video është
+        të përdorin butonin "përkraheni" nën videon. Ky buton shfaq një kuadër në
+        të cilin njerëzit që ngarkojnë video mund të shfaqin lirisht tekst, figura
+        dhe lidhje. Për shembull, është e mundshme të vendoset aty një lidhje për
+        te Patreon, Tipeee, Paypal, Liberapay (apo çfarëdo zgjidhjeje tjetër). Shembuj
+        të tjerë: vendosni një adresë postare klasike, nëse doni të merrni një kartolinë
+        falënderimi, vendosni një logo të biznesit tuaj, një lidhje për te një ent
+        jofitimprurës…'
+      - Të favorizosh një zgjidhje teknike do të thotë të imponosh, te kodi, një vizon
+        politik mbi ndarjet me të tjerët të kulturës dhe mbi financimin e këtyre ndarjeve.
+        Kështu që, në PeerTube, janë të mundshme krejt zgjidhjet për shpërblim.
+      - Nga ana tjetër, pritet të ketë mjaft përmirësime të PeerTube-it… Përfshi ato
+        që do t’ju lejonin të krijoni (dhe zgjidhni) mjetet e monetarizimit që ju
+        interesojnë!
+      - 'Megjithatë, ia vlen të kujtohet se shumica e videove të publikuara në Internet
+        (dhe madje edhe në YouTube) jepen për qëllime jokomerciale: shpërblimi është
+        një mjet, por jo domosdo qëllim kryesor apo thelbësor.'
+    instances:
+      title: Ku mund t’i vendos videot e mia?
+      text:
+      - Lypset të gjeni një instancë strehimi PeerTube të cilës t’i zini besë.
+      - Ka një <a href="@:data.link.instancesPT">listë të tërë instancash këtu</a>,
+        dhe një listë të atyre që janë <a href="./#getting-started">të hapura për
+        regjistrime, këtu</a>.
+      - Mandej, këshillojmë të shkoni te instancat, të lexoni faqet "mbi" përkatëse,
+        për të parë kushtet e tyre të shërbimit (kufi hapësire në disk për përdorues,
+        rregulla mbi lëndën, etj.).
+      - Më e mira është të lidheni dhe të bisedoni drejtpërsëdrejti me furnizuesit
+        e strehimit, për të kuptuar modelin e tyre të biznesit, vizionin, etj. Ngaqë
+        vetëm ju mund të përcaktoni se ç’ju bën t’i zini besë atij apo këtij strehuesi,
+        dhe t’u besoni atyre videot tuaja.
+    pornography:
+      title: Ka shumë video porno në PeerTube!
+      text:
+      - Jo. Në tetor 2018, në një instancë mesatare të federuar me ~200 instanca dhe
+        me ~16000 video të indeksuara, vetëm ~200 video ishin të etiketuara si NSFW
+        (d.m.th. lëndë rezervat, e cilat mund të jetë edhe diçka tjetër nga pornografi).
+        Kështu që, ato përfaqësojnë vetëm ~1% të krejt videove.
+      - 'Për më tepër, çdo përgjegjës vendos vetë me cilat instanca dëshiron të ketë
+        federim: ka kontroll të plotë të lëndës që dëshiron të shfaqet në instancën
+        e tij. Është në dorën e tij të zgjedhë rregullat për këtë lloj videosh. Mund
+        të vendosë: <ul><li>T’i shfaqë</li><li>T’u mjegullojë titullin dhe miniaturën</li><li>T’i
+        fshehë</li></ul>'
+      - Si parazgjedhje, ky rregullim është caktuar "T’i fshehë". Nëse ndonjë përgjegjës
+        vendos t’i shfaqë me një filtër mjegullimi, për shembull, e ka <strong>vetë</strong>
+        në dorë.
+      - Dhe së fundi, cilido përdorues mund ta anashkalojë këtë formësim, dhe vendos
+        se dëshiron t’i shfaqë, t’i mjegullojë ose t’i shfaqë këto video për vetveten.
+      - 'PeerTube është thjesht një software: s’është Framasoft-i (enti jofitimprurës
+        që zhvillon PeerTube-in) ai që mban përgjegjësi për lëndën e publikuar në
+        disa instanca.'
+      - Secili e ka në dorë të jetë i përgjegjshëm, prindër, vizitorë, ngarkues videosh,
+        përgjegjës PeerTube-i, të respektojnë ligjin dhe të shmangin gjendje problematike.
+  forum: Diskutoni te forumi ynë
+  tech:
+    install:
+      title: Si ta instaloj PeerTube-in?
+      text:
+      - <a href="@:data.link.gitPT/blob/develop/support/doc/production.md">Udhërrëfyesi
+        i instalimit gjendet këtu</a> (vetëm në anglisht, hëpërhë).
+      - 'Këshillojmë të mos instalohet PeerTube-i në hardware të shkallës së ulët
+        apo pas një lidhjeje të dobët (për shembull, në një RaspberryPi me një lidhje
+        ADSL): kjo mund të ngadalësojë krejt federimet.'
+      - 'Mos i bini në qafë zhvilluesit t’ju ndihmojë të instaloni instancën tuaj:
+        kemi një <a href="@:link.forumPT">forum asistence</a> për këtë.'
+    moderation:
+      title: Nuk më duket se PeerTube v1.0 përmban krejt mjetet e nevojshme për një
+        administrim të mbarë të instancës time.
+      text:
+      - '<blockquote>"Është për të vënë duart në kokë dhe pa tru: po hidhni në qarkullim
+        versionin 1 të PeerTube-it, ndërkohë që nuk përmban mjetet e domosdoshme për
+        të administruar me efikasitet video të pretenduara nga mbajtës të drejtash,
+        ose për të administruar me efikasitet çështjen e ngacmimit në internet që
+        nga komentet, ose për të administruar me efikasitet monetarizim përmes reklamash,
+        ose për (vendosni këtu qarjen tuaj ndaj PeerTube-it). S’kemi gjë në vijë!
+        Ç’keni ndërmend të bëni për këtë?"</blockquote>'
+      - Keni të drejtë. PeerTube 1.0 s’është mjeti i përsosur, përkundrazi. Dhe ne
+        kurrë nuk premtuam se ky version 1.0 do të ishte mjeti që do të përfshinte
+        krejt veçoritë që u përgjigjen krejt rasteve.
+      - PeerTube 1.0 është arritja e premtimit që bëmë në tetor 2017 për ta kaluar
+        PeerTube-in nga një version <em>alpha</em> (projekt personal dhe demonstrim
+        i konceptit se një platformë e federuar videosh mund të funksiononte) te një
+        version 1.0 në tetor 2018 (që nuk do të thotë "version përfundimtar", por
+        "version i konsideruar i qëndrueshëm dhe i që mund t’u jepet njerëzve").
+      - Mos harroni që PeerTube ka vetëm një zhvillues (thuajse) me kohë të plotë
+        dhe një numër shumë të vogël vullnetarësh të përfshirë fort. S’është produkt
+        i zhvilluar nga ndonjë <em>start-up</em> me ekip të punësuar me kohë të plotë
+        (programues, dizajn, UX, marketing, asistencë, etj.) dhe me mbështetje të
+        fuqishme financiare. Është software i lirë Bashkësi, zhvillimi i të cilit
+        do të vazhdojë për muaj dhe, shpresojmë, vite me radhë.
+      - 'Jemi të ndërgjegjshëm për mangësitë e PeerTube 1.0, veçanërisht në fushën
+        e mjeteve të moderimit (video, komente, etj.). Dhe synojmë të merremi me këto
+        dobësi. '
+      - 'Kemi zgjedhura ta bëjmë sipas kësaj rruge: në njërën anë, në muajt e ardhshëm,
+        do të merremi kryesisht me përmirësimin e këtyre mjeteve brenda vetë PeerTube-it
+        (te <i>baza</i> e software-it). Në anën tjetër, paralelisht, do të përqendrojmë
+        një masë të madhe të energjive të zhvillimit të PeerTube-it mbi integrimin
+        e një sistemi shtojcash, të cilat mund të zhvillohen nga bashkësitë.'
+      - 'Në fakt, nuk pretendojmë se kemi gati teorinë pas kësaj dhe dimë se si të
+        administrohen në rrugën më të mirë secili prej mjeteve në përputhje me nevojat
+        e secilit. Për shembull: lidhur me çështjen e kërkesave DMCA, rastet ndryshojnë
+        sipas ligjshmërive gjeografike (ligji europian është i ndryshëm nga ai frëng,
+        dhe ky i ndryshëm nga ligji kanadez, ky i fundiy i ndryshëm nga ai amerikan,
+        etj.). Sa për mjetet për moderim komentesh, edhe këtu, s’hiqemi dot si ekspertë
+        të çështjes, ngaqë thjesht s’është kështu.'
+      - Duke u marrë si me <i>bazën</i>, ashtu edhe me krijimin e mundësisë për zhvillim
+        shtojcash, besojmë se PeerTube-i, në perspektivë do të jetë në gjendje t’u
+        përgjigjet shumë më mirë këtyre çështjeve dhe t’u lejojë bashkësive të ndryshme
+        t’ua përshtatin PeerTube-in nevojave të tyre.
+      - Po punojmë aq shpejt sa mundeni për ta përmirësuar PeerTube-in, por këtë po
+        e bëjmë me burimet që kemi, që përkthehet <strong>shumë</strong> të kufizuara.
+      - 'Ndërkohë, nëse si një përdorues jeni të mendimit se PeerTube 1.0 nuk plotëson
+        hëpërhë nevojat tuaja, është e thjeshtë: mos e përdorni një herë për një herë
+        :) (ju kujtojmë që nuk nxjerrim para nga zhvillimi i PeerTube-it dhe se, edhe
+        pse kuptohet që shpresojmë të ketë sukses, mbijetesa e shoqatës tonë nuk varet
+        nga kjo).'
+      - Si një përgjegjës, nëse jeni i frikësuar nga kërkesa DMCA, te rregullimet
+        ka një mundësi për kufizimin e hapjes së regjistrimeve ndaj personash që i
+        njihni. Do jeni mandej në gjendje të rihapni regjistrim pa verifikim sapo
+        këto mjete verifikimi të jenë integruar në platformë, ose t’i keni zhvilluar
+        ju vetë.
+    code:
+      title: Si të kontribuoj te kodi i PeerTube-it?
+      text:
+      - <a href="@:data.link.gitPT">Depoja Git për PeerTube-in gjendet këtu</a>.
+      - Mund <a href="@:data.link.gitPT/issues">të hapni një çështje</a>, të ndihmoni
+        në zgjidhjen e saj, madje edhe të zini të jepni ndihmesë duke zgjedhur <a
+        href="@:data.link.gitPT/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">problemet
+        e lehta për ata që janë fillestarë</a>.
+      - Nëse doni të ndihmoni në rrugë tjetër, ose doni të kërkoni një veçori të re,
+        ejani ta diskutojmë te <a href="@:link.forumPT">forumi ynë i kontributeve</a>.
+    protocol:
+      title: Pse përdor protokollin ActivityPub të federimeve PeerTube-i? Pse jo IPFS
+        / d.tube / Steemit?
+      text:
+      - PeerTube-i përdor ActivityPub-in ngaqë ky protokoll federimi rekomandohet
+        nga W3C dhe përdoret tashmë nga rrjeti shoqëror Mastodon.
+      - IPFS-ja është teknologji e shkëlqyer, por duket ende shumë (shumë!) e re për
+        trafik në shkallë të gjerë kartelash të mëdha.
+      - Pas diskutimesh në forumin tonë, na duke se d.tube s’është i lirë apo me burim
+        të hapët, ngaqë publikimi vetëm i kodit të përpiluar pengon lirinë e modifikimeve.
+      - D.tube bazohet në Steem për "shpërblime", këtë kanë zgjedhur, por Steem është
+        <a href="https://en.wikipedia.org/wiki/Steemit#Criticism">kritikuar gjerësisht</a>
+        si <a href="https://steemit.com/steemit/@docdelux/30-days-of-steemit-here-is-my-criticism">fort
+        i centralizuar</a>, dhe ngjall dyshime se <a href="https://steemit.com/steemit/@thecryptonews/psa-constructive-criticism-the-ugly-truth-behind-steemit">ngjan
+        me një sistem Ponzi</a>.
+      - PeerTube-i është i lirë, i decentralizuar, i shpërndarë, dhe nuk imponon ndonjë
+        model shpërblimesh. Kjo është zgjidhja që kemi bërë, që mund të diskutohet,
+        dhe të tjerë (bie fjala, d.tube) kanë bërë zgjedhje të tjera, që kanë përparësitë
+        e tyre. Pra, ju mbetet ju të shihni se ç’ju përshtatet.
+hof:
+  title: Tabela e nderit
+  sponsors: Sponsorë
+  donators: Kontribues Financiarë
+  dev: Kontribues
+  contrib: Kontribuoni te kodi
