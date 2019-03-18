@@ -11,6 +11,7 @@ menu:
   code: Code source
   instances: Instances
   hall-of-fame: Tableau d’honneur
+  news: Actus
 link:
   forumPT: https://framacolibri.org/c/qualite/peertube
   wArticle: https://fr.wikipedia.org/wiki
@@ -493,3 +494,37 @@ hof:
   donators: Donateurs
   dev: Contributeurs
   contrib: Contribuer au code
+
+news:
+  title: Quoi de neuf sur PeerTube ?
+  subtitle: Découvrez les dernières améliorations de l'outil
+  blocs:
+    -
+      id: "newsletter26-02-2019"
+      title: "PeerTube : rétrospective et nouvelles fonctionnalités : l'actu de février 2019"
+      text:
+        -  Depuis la version 1.0 sortie en novembre dernier, nous avons continué d'<b>améliorer PeerTube jour après jour</b>.
+           Ces avancées de PeerTube, bien au delà des objectifs du crowdfunding, ont été financées par
+           <a href="https://framasoft.org">l'association Framasoft</a>, qui développe le logiciel (et ne vit que par
+           <a href="https://soutenir.framasoft.org">vos dons</a>).
+        -  "<b>Voici une petite rétrospective de la fin d'année 2018/début d'année 2019 :</b>"
+        -  En décembre 2018, nous avons sorti la version 1.1 qui contenait certains outils de modération demandés par les administrateurs d'instances. 
+           Nous en avons aussi profité pour ajouter une fonctionnalité d'historique de visionnage et de reprise automatique de la lecture des vidéos.
+        -  "En janvier, nous avons sorti la version 1.2 permettant, grâce à la communauté de traducteurs et traductrices de PeerTube,
+           de proposer 3 nouvelles langues : le russe, le polonais et l'italien. PeerTube est donc désormais traduit en 16 langues différentes !"
+        -  Cette version comprend aussi un système de notifications permettant aux utilisatrices et utilisateurs de savoir (via l'interface web ou par email)
+           lorsque leur vidéo est commentée, lorsque quelqu'un les mentionne, lorsqu'un de leur abonnement a publié une nouvelle vidéo, etc.
+        -  "Par ailleurs, la fédération PeerTube s'est développée : aujourd'hui, c'est plus de 300 instances qui diffusent plus de 70 000 vidéos,
+           avec près de 2 millions de vues cumulées."
+        -   Nous vous rappelons au passage que le seul site officiel que nous maintenons autour de PeerTube
+           est <a href=\"https://joinpeertube.org/">https://joinpeertube.org/</a> et que nous n'avons aucune responsabilité autour de tout autre
+           site qui pourrait voir le jour.
+        -  Comme vous pouvez le constater, nous sommes allés bien au delà de ce que le crowdfunding avait financé. Et nous allons continuer !
+           Car il est prévu pour l'année 2019 d'ajouter un système de plugins et de thèmes (peu évolué dans un premier temps),
+           une gestion des playlists, la prise en charge de fichiers audio à l'upload et bien d'autres fonctionnalités.
+        -  "Si vous aussi vous voulez contribuer au développement de PeerTube, n'hésitez pas à participer à son financement :
+           <a href=\"https://soutenir.framasoft.org\">https://soutenir.framasoft.org</a>"
+        -  "Si vous avez la moindre question, vous pouvez utiliser le forum :
+           <a href=\"https://framacolibri.org/c/peertube\">https://framacolibri.org/c/peertube</a>"
+        -  Merci et bon début d'année,
+        -  Framasoft

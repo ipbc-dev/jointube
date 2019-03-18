@@ -19,6 +19,12 @@
           <ul class="nav navbar-nav navbar-right">
             <li>
               <router-link
+                      :to="'/' + $t('lang') + '/news'"
+                      v-html="$t('menu.news')">
+              </router-link>
+            </li>
+            <li>
+              <router-link
                 :to="'/' + $t('lang') + '/faq'"
                 v-html="$t('menu.faq')">
               </router-link>
