@@ -18,11 +18,11 @@
               ></iframe>
             </div> -->
             <p>
-              <img alt="PeerTube" :src="`${$root['/']}icons/favicon.png`"> <span v-html="$t('home.release.announce')"></span>
+              <img alt="PeerTube" :src="`${$root['/']}icons/favicon.png`"> <span v-html="$t('home.banner.title')"></span>
             </p>
-            <p class="text-left" v-html="$t('home.release.title')"></p>
-            <a class="frama_campaign" href="https://framasoft.org" v-html="$t('home.release.button')"></a>
-            <a href="https://github.com/Chocobozzz/PeerTube#package-create-your-own-instance" v-html="$t('home.release.install')"></a>
+            <p class="text-left" v-html="$t('home.banner.subtitle')"></p>
+            <a class="frama_campaign" href="https://framasoft.org" v-html="$t('home.banner.button')"></a>
+            <a href="https://github.com/Chocobozzz/PeerTube#package-create-your-own-instance" v-html="$t('home.banner.install')"></a>
             </div>
           </div>
           <div class="col-md-6 col-md-pull-6">

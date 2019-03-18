@@ -21,11 +21,9 @@ home:
     title: L’hébergement de vidéos décentralisé, en réseau, basé sur du logiciel libre
     getting-started: Pour commencer
     how-it-works: Comment ça fonctionne
-  release:
-    announce: PeerTube v1.0
-    title: <a href="https://framablog.org/2018/10/15/peertube-1-0-la-plateforme-de-videos-libre-et-federee/">
-      La première version de PeerTube est sortie !</a> Aidez-nous à poursuivre son
-      développement.
+  banner:
+    title: "<a href=\"news#newsletter26-02-2019\">Rétrospective et nouvelles fonctionnalités !</a>"
+    subtitle: Découvrez nos progrès de ces derniers mois ainsi que les fonctionnalités à venir.
     button: Soutenir
     install: Installer PeerTube
   why:
