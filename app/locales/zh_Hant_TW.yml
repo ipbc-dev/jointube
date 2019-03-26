@@ -11,6 +11,7 @@ menu:
   code: Source code
   instances: 實體
   hall-of-fame: 名人堂
+  news: News
 link:
   forumPT: https://framacolibri.org/c/peertube
   wArticle: https://zh.wikipedia.org/wiki
@@ -20,10 +21,11 @@ home:
     title: 去中心化的影片託管網路，奠基於自由開放原始碼軟體
     getting-started: Get started
     how-it-works: 它是如何運作的
-  release:
-    announce: PeerTube v1.0
-    title: <a href="https://framablog.org/2018/10/15/peertube-1-0-the-free-libre-and-federated-video-platform/">
-      The first version of PeerTube is out!</a> Help us to pursue its development.
+  banner:
+    title: <a href="news#newsletter26-02-2019">Retrospective, new features and more
+      to come!</a>
+    subtitle: We're talking about our progress these last months and what's coming
+      next.
     button: Support
     install: Install PeerTube
   why:
@@ -282,3 +284,42 @@ hof:
   donators: 財務貢獻者
   dev: 貢獻者
   contrib: 貢獻程式碼給 PeerTube
+news:
+  title: What's up on PeerTube
+  subtitle: Discover the tool's latest improvements
+  blocs:
+    newsletter26-03-2019:
+      title: 'PeerTube: retrospective, new features and more to come!'
+      text:
+      - <b>Hello everyone!</b>
+      - Since version 1.0 has been released last November, we went on improving PeerTube,
+        day after day. These improvements on PeerTube go well beyond the objectives
+        fixed during the crowdfunding. They have been funded by the <a href="https://framasoft.org/en/">Framasoft
+        non-profit</a>, which develops the software (and lives only through <a href="https://soutenir.framasoft.org/en/">your
+        donations</a>).
+      - 'Here is a small retrospective of the end of 2018/beginning of 2019:'
+      - In December 2018, we released version 1.1 which contained some moderation
+        tools requested by instance administrators.<br> We also took the opportunity
+        to add a watched videos history feature and the automatic resuming of video
+        playback.
+      - 'In January, we released version 1.2 that supports 3 new languages: Russian,
+        Polish and Italian. Thanks to PeerTube''s community of translators, PeerTube
+        is now translated into 16 different languages!'
+      - This version also includes a notification system that allows users to be informed
+        (on the web interface or through email) when their video is commented, when
+        someone mention them, when one of their subscriptions has published a new
+        video, etc.
+      - 'In the meantime, the PeerTube federation has grown: today, more than 300
+        instances broadcast more than 70,000 videos, with nearly 2 million cumulated
+        views. We remind you that the only official website we maintain around PeerTube
+        is <a href="https://joinpeertube.org/en">https://joinpeertube.org/en</a> and
+        that we bear no responsibility on any other site that may be published.'
+      - As you can see, we have gone far beyond what the crowdfunding has funded.
+        And we will continue!<br> For 2019, we plan to add a plugin and theme management
+        system (even though basic at first), playlist management, support for audio
+        files upload and many other features.
+      - 'If you also to contribute to the growing of PeerTube, you can participate
+        in its funding here: <a href="https://soutenir.framasoft.org/en">https://soutenir.framasoft.org/en</a>'
+      - 'If you have any questions, feel free to use our forum: <a href="https://framacolibri.org/c/peertube">https://framacolibri.org/c/peertube</a>'
+      - Thank you and with our best regards,
+      - Framasoft
