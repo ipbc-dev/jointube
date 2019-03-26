@@ -1,0 +1,512 @@
+meta:
+  title: '@:home.title ! #ПрисоединяйсяPeerTube'
+nav:
+  langChange: Изменить язык
+  lang: Язык
+  translate: Перевести
+menu:
+  faq: F.A.Q.
+  help: Поддержка
+  docs: Документация
+  code: Исходный код
+  instances: Примеры
+  hall-of-fame: Доска почета
+  news: News
+link:
+  forumPT: https://framacolibri.org/c/peertube
+  wArticle: https://en.wikipedia.org/wiki
+home:
+  title: Получите вновь контроль над своими видео
+  intro:
+    title: Децентрализованный видеохостинг, основанный на бесплатном и свободном ПО
+    getting-started: Начать
+    how-it-works: Как это работает
+  banner:
+    title: <a href="news#newsletter26-02-2019">Retrospective, new features and more
+      to come!</a>
+    subtitle: We're talking about our progress these last months and what's coming
+      next.
+    button: Support
+    install: Установить PeerTube
+  why:
+    power:
+      title: Верните себе власть... и ответственность!
+      desc: 'PeerTube - это не одна платформа для размещения видеороликов с единой
+        группой правил: это сеть из десятков взаимосвязанных хостинг-провайдеров,
+        и каждый провайдер состоит из разных людей и администраторов. Вам не нравятся
+        какие-то правила? Вы можете присоединиться к любому хостинг-провайдеру по
+        вашему выбору или, что еще лучше, самому стать хостинг-провайдером с вашими
+        собственными правилами!'
+    content:
+      title: Получите вновь контроль над своими контентом
+      desc: PeerTube allows you to share all your videos. Being in direct contact
+        with a human hosting provider (or becoming your own) allows you to choose
+        how their broadcasting is done. Your videos will benefit from tools to fill
+        description, categorization, choosing a preview image and marking videos as
+        not safe for work. Tweaking the <strong>Support</strong> button will allow
+        you to show your audience how you want them to support your work.
+    usersfirst:
+      title: Putting the users first
+      desc: 'Вы - личность, а не продукт. PeerTube - это бесплатное и свободное ПО,
+        которое финансируется французской некоммерческой организацией: @:data.html.soft</>.
+        Весь контент создаётся, анимируется, модерируется и поддерживается независимо
+        и самостоятельно. PeerTube не является какой-нибудь монопольной компанией,
+        не зависит от рекламы и не отслеживает ваши действия. С PeerTube вы перестаете
+        быть продуктом: PeerTube к вашим услугам, а не наоборот.'
+    broadcast:
+      title: Станьте главным лицом своих видеотрансляций
+      desc: When you watch a video with PeerTube, the WebTorrent technology allows
+        you to be part of the broadcasting of this video with the viewers who are
+        watching it at the same time. This video stream sharing allows a healthier
+        distribution of exchanges on the network. Moreover, the federation protocol
+        (ActivityPub) allows to publish the videos and comments on other platforms
+        that support it, such as <a href="@:data.link.mastodon">Mastodon</a>! (experimental)
+  getting-started:
+    title: Начать
+    watch:
+      title: Смотреть
+      framatube: Смотрите видео на @:data.color.tube
+    register:
+      title: Зарегистрироваться
+      list: 'Вы можете зарегистрироваться на следующих экземплярах:'
+      error: К сожалению, нам не удалось получить список доступных экземпляров. Повторите
+        попытку позже.
+      email: 'Это как выбор сервиса для электронной почты: домен будет частью вашего
+        логина!'
+      instances:
+        per_user: на пользователя
+        followers: подписчики
+        instances: экземпляры
+        follows: следящих
+        bytes:
+          B: Б
+          KB: КБ
+          MB: МБ
+          GB: ГБ
+        no_quota: Без квоты
+  install:
+    title: Установите свой собственный
+    text:
+    - Если вы заинтересованы в запуске своего собственного экземляра — для друзей,
+      семьи или организации — вы можете начать с <a href="@:data.link.gitPT/blob/develop/support/doc/production.md">прочтения
+      документации об установке</a>.
+    - Вы будете размещать только своих пользователей и их собственные видео. Вы можете
+      определить количество доступных попыток регистрации и дисковую квоту для каждого
+      пользователя. Только <strong>выбранные</strong> видео для отслеживания, будут
+      отображаться на вашей домашней странице.
+    btn: Читать документацию
+  how-it-works:
+    how:
+      title: Как это работает
+      text:
+      - Каждый может разместить сервер PeerTube, который мы называем <strong>экземпляром</strong>.
+        Каждый экземпляр содержит собственных пользователей и их видео. Он также содержит
+        доступные для экземпляров видео, которые были выбраны администратором для
+        того, чтобы предложить их своим пользователям.
+      - Каждый аккаунт имеет глобальный уникальный идентификатор (например @chocobozzz@framatube.org)
+        состоящий из локального имени пользователя (@chocobozzz) и доменного имени
+        сервера (framatube.org)
+      - Администраторы экземпляра PeerTube могут следить друг за другом. Когда ваш
+        экземпляр PeerTube следит за другим экземпляром PeerTube, вы получаете информацию
+        предварительного просмотра видео из этого экземпляра. Таким образом, вы можете
+        просматривать видео на вашем экземпляре и на эксземплярах, за которыми вы
+        решили следить. Так что вы сохраняете контроль над видео которое отображается
+        на вашем экземпляре PeerTube!
+      btn: Вопросы?
+    why:
+      title: Почему это круто?
+      text:
+      - Сервера работают независимо от разных людей и организаций. Они могут применять
+        разнообразные политики модерации, поэтому вы можете найти или сделать тот,
+        который будет вам по вкусу
+      - Просматривая видео, вы помогаете хостинг-провайдеру вещать его становясь вещателем
+        самостоятельно. Каждый экземпляр не требует много денег для вещания видео
+        своим пользователям.
+      btn: Начать
+footer:
+  text: Изготовлен по
+  thanks: Спасибо!
+faq:
+  title: Несколько вопросов для знакомства с PeerTube…
+  clic: (нажмите на вопросы, чтобы узнать ответы)
+  section:
+    prez: 'Демонстрация PeerTube '
+    content: Создание и содержание
+    tech: Технические вопросы
+  prez:
+    what:
+      title: Что такое PeerTube?
+      text:
+      - PeerTube это программное обеспечение, которое вы можете поставить на веб-сервер.
+        Оно позволяет вам создать видеохостинг, так создайте же свой "самодельный
+        YouTube".
+      - Отличие от YouTube в том, что PeerTube не предназначен для создания огромной
+        платформы, централизующей видео со всего мира на одной ферме серверов (что
+        ужасно дорого).
+      - В противоположность этому, концепция PeerTube заключается в создании сети
+        из нескольких небольших взаимосвязанных провайдеров видеохостинга.
+    pros:
+      title: Три главных преимущества PeerTube.
+      text:
+      - 'PeerTube уникален тем, что (насколько нам известно) это единственное веб-приложение
+        для видеохостинга, которое сочетает в себе три преимущества:'
+      - Связанные вместе, эти три функции позволяют легко размещать видео на стороне
+        сервера, оставаясь при этом практичными, этичными и интересными для пользователей
+        интернета.
+      list:
+      - Открытый код (прозрачный) под лицензией free/libre (этичный, уважаемый и развивающийся
+        сообществом);
+      - Федерация взаимосвязанных хостинг-провайдеров (по этой причине у вас больше
+        выбора источников искомого видео, которые вы можете выбрать);
+      - Одноранговое вещание и, следовательно, просмотр (по этой причине скорость
+        загрузки и воспроизведения не замедляется, когда видео становится вирусным).
+    libre:
+      title: Почему это лучше, чем бесплатное/свободное ПО?
+      text:
+      - Потому что по своей сути свободное ПО уважает наши основные свободы и гарантирует
+        их <a href="@:data.link.gitPT/blob/develop/LICENSE">своей лицензией</a> ,
+        то есть юридической силой договора.
+      - 'В данном случае это означает, что:'
+      list:
+      - PeerTube свободно предоставляется, не нужно платить, чтобы установить его
+        на вашем сервере;
+      - 'Мы можем посмотреть "под капот" PeerTube (на его исходный код): он проверяемый
+        и прозрачный;'
+      - Его развитие осуществляется на уровне сообществ и может быть ускорено  за
+        счет вклада каждого.
+    federated:
+      title: Почему хостинг интересен федеративным провайдерам видеохостинга?
+      text:
+      - 'Преимуществом YouTube (и других платформ) является его видео каталог: от
+        учебных пособий по вязанию до конструкций Minecraft, видео котят или праздников
+        ... вы можете найти все!'
+      - Чем больше видео каталог разнообразен, тем больше людей интересуются, тем
+        больше видео загружается... но хостинг видео со всего мира является (очень,
+        очень) дорогим!
+      - Если хостинг-провайдер Knitting-PeerTube подружится с Kittens-Tube и Framatube,
+        он будет отображать на своем сайте чужие видео, тем самым разбавляя расходы
+        на хостинг, оставаясь практичным и полным для интернет-пользователей.
+      - 'Протокол федерации PeerTube является текучим (каждый может выбрать своих
+        "друзей" хостов) и основан на <a href="@:data.link.activitypub">ActivityPub</a>:
+        это открывает возможность подключения к таким инструментам, как Mastodon или
+        MediaGoblin.'
+    p2p:
+      title: Зачем транслировать видео PeerTube через peer-to-peer?
+      text:
+      - 'Когда вы размещаете большой файл, такой как видео, самое большое опасение
+        - это успех: если видео становится вирусным, и многие смотрят его одновременно,
+        сервер подвергается большому риску перегрузки!'
+      - Peer-to-peer вещание позволяет, благодаря <a href="@:link.wArticle/WebRTC">WebRTC</a>
+        протоколу, интернет-пользователям, которые смотрят одно и то же видео одновременно,
+        обмениваться кусочками файлов, что облегчает сервер.
+      - 'Ничего не поделаешь: ваш веб-браузер делает это автоматически. Если вы находитесь
+        на мобильном телефоне или если ваша сеть не позволяет его (маршрутизатор,
+        firewall и т. д.), эта функция отключается и переключается обратно на "старую"
+        видеотрансляцию @:data.emoji.wink</>.'
+    admin:
+      title: Для тех, кто знает, как администрировать сервер, PeerTube это…
+      text:
+      - "<strong>Это программное обеспечение</strong>, которое вы устанавливаете на\
+        \ своем сервере, чтобы создать веб-сайт, где размещаются и транслируются видео...\
+        \ \nВ сущности: вы создаете свой собственный \"домашний YouTube\"!"
+      - Уже существует свободное программное обеспечение, которое позволяет вам сделать
+        это. Но с PeerTube, вы можете связать свой экземпляр (ваш видео-сайт) с PeerTube
+        экземпляром Заида (где он размещяет видео лекции для его народного университета),
+        с Кэтрин (размещает её webmedia видео) или даже с PeerTube экземпляром Солара
+        (который руководит влоггерским коллективом).
+      - '<strong>Но PeerTube не централизуется: он объединяется в союз.</strong> Благодаря
+        протоколу <a href="@:data.link.activitypub">ActivityPub</a> Благодаря протоколу
+        ActivityPub (также используемому федерацией <a href="@:data.link.mastodon">Mastodon</a>,
+        бесплатной/свободной альтернативой Twitter), PeerTube может объединить несколько
+        небольших хостеров, чтобы им не приходилось покупать тысячи жестких дисков
+        для размещения видео по всему миру.'
+      - В результате, на вашем веб-сайте PeerTube, аудитория сможет смотреть не только
+        ваши видео, но и видео, размещенные Заидом, Катериной или Соларом... без необходимости
+        размещать свои видео на вашем веб-сайте PeerTube. Такое разнообразие в видео-каталоге
+        делает его очень привлекательным. Такой большой выбор и разнообразие видео-это
+        то, что сделало централизованные платформы, такие как YouTube, успешными.
+      - 'Федерация предлагает еще одно преимущество: <strong>каждый становится независимым</strong>.
+        Заид, Катерина, Солар и вы сами можете создавать свои собственные правила,
+        свои условия обслуживания (например, можно представить MeowTube, где видео
+        с собаками строго запрещено @:data.emoji.wink).'
+    video-maker:
+      title: Для тех, кто хочет загрузить свои видео, PeerTube позволяет…
+      text:
+      - 'Это позволяет выбрать хостера, который подходит вам. Эксцессы YouTube являются
+        хорошим примером: его хостер, Google/Alphabet, может навязать свое "Robocopyright"
+        (система ContentID) или свои инструменты для индексирования, рекомендации
+        и освещения видео; и эти инструменты кажутся несправедливыми, поскольку они
+        неясны. Несмотря на то, что это уже заставляет вас <a href="@:data.link.tosdr">дать
+        ему расширенные авторские права на ваши видео, бесплатно</a>!'
+      - With PeerTube, <strong>you can choose the hoster of your videos according
+        to his terms of services</strong>, his moderation policy, his federation choices…
+        As you don’t have a tech giant facing you, you might be able to talk with
+        you hoster if you ever have a problem, a need, or something you want.
+      - The other big advantage of PeerTube is that your hoster doesn’t have to fear
+        the sudden success of one of your videos. Indeed, PeerTube broadcasts videos
+        with the protocol <a href="@:link.wArticle/BitTorrent">WebTorrent</a>. If
+        hundreds of people are watching your video at the same time, their browsers
+        automatically send bits of your video to other viewers.
+      - Before this peer-to-peer broadcast, successful videographers (or videos that
+        make the buzz) were doomed to be hosted by a web giant whose infrastructure
+        can handle millions of simultaneous views… Or to pay for a very expensive
+        independent video host so that it can hold the load.
+    audience:
+      title: Для тех, кто хочет посмотреть видео, PeerTube может предложить…
+      text:
+      - One of the benefits is that <strong>you become a part of the broadcasting
+        of the videos you are watching</strong>. If other people are watching a PeerTube
+        video at the same time as you, as long as your tab remains open, your browser
+        shares bits of that video and you participate in a healthier use of the Internet.
+      - 'Of course, PeerTube’s video player adapts to your situation: if your installation
+        does not allow peer-to-peer playback (corporate network, recalcitrant browser,
+        etc.) video playback will be done in the classic way.'
+      - But above all, <strong>PeerTube treats you like a person, not as a product</strong>
+        that it has to track, profile, and lock in video loops to better sell your
+        available brain time. Thus, the <a href="@:data.link.gitPT">source code</a>
+        (the recipe) of the PeerTube software is open, making its operation transparent.
+      - '<strong>PeerTube is not only open-source: it’s free (as in free speech).</strong>
+        Its free license guarantees our fundamental freedoms as users. It is this
+        respect for our freedoms that allows Framasoft to invite you to contribute
+        to this software, and many evolutions (innovative comment system, etc.) have
+        already been suggested by some of you.'
+    remplace-yt:
+      title: Цель PeerTube заменить YouTube?
+      text:
+      - 'Мы можем с уверенностью ответить: нет!'
+      - In March 2018, PeerTube released its publicly usable beta version. Several
+        collectives set up the first instances, thus creating the bases of the federation.
+      - Но это только начало, PeerTube еще не совершенен, и многие функции отсутствуют.
+        Но мы намерены продолжать совершенствовать его изо дня в день.
+      - 'March 2018 thus represents the birth of the PeerTube federations: the more
+        this software will be used and supported, the more people will use it and
+        contribute to it, and the faster it will evolve towards a concrete alternative
+        to platforms such as YouTube.'
+      - 'Nevertheless, the ambition remains to be <strong>a free and decentralized
+        alternative</strong>: the goal of an alternative is not to replace, but to
+        propose something else, with different values, in parallel to what already
+        exists.'
+  content:
+    law:
+      title: Если это бесплатно, можем ли мы загружать на него нелегальные материалы?
+      text:
+      - Быть свободным не значит быть выше закона! Каждый хостинг-провайдер PeerTube
+        может самостоятельно определять общие условия использования, соблюдая местные
+        законы.
+      - Например, во Франции дискриминационный контент <a href="https://fr.wikipedia.org/wiki/Lois_contre_le_racisme_et_les_discours_de_haine">запрещен</a>
+        и может <a href="http://stop-discrimination.gouv.fr/agir/ne-pas-laisser-faire-les-recours">доводиться
+        до сведения властей</a>. PeerTube позволяет пользователям сообщать о проблемных
+        видео, и каждый администратор должен применить свою меру в соответствии с
+        его условиями и законом.
+      - Федеративная система, со своей стороны, позволяет хостам решать, с кем они
+        хотят соединиться, в зависимости от типов контента или политики модерации
+        других.
+    responsible:
+      title: Кто несет ответственность за контент, опубликованный на PeerTube?
+      text:
+      - 'PeerTube - это не веб-сайт: это программное обеспечение, которое позволяет
+        веб-хостеру (например, Доминику) создать видео-сайт (назовем его DominiqueTube).'
+      - Теперь представьте, что Камилла создала учетную запись на DominiqueTube и
+        загружает незаконное видео, потому что это видео использует музыку, созданную
+        Солалом.
+      - Солал заходит на Framatube, инстанция которая следит за DominiqueTube. Итак,
+        Солал может заметить, из Framatube, видео опубликованные на DominiqueTube.
+      - Солал видит незаконное видео Камиллы и сигнализирует об этом с помощью кнопки,
+        предусмотренной для этой цели. Хотя отчет сделан из Framatube, он отправляется
+        непосредственно лицу, размещающему незаконный контент, Доминику.
+      - С этого момента Доминик несет ответственность, потому что его предупредили,
+        что он размещает незаконное видео. Поэтому он должен действовать, если он
+        не хочет нести ответственность перед законом.
+      - Затем Доминик и Солал могут выступить против Камиллы, которая загрузила видео.
+    money:
+      title: Что такое политика вознаграждения PeerTube?
+      text:
+      - OrderedDict([('There are none, not at the moment', 'PeerTube is a tool that
+        we wanted neutral in terms of remuneration.')])
+      - 'На данный момент решение, предложенное людям, которые загружают видео, -
+        использовать кнопку "поддержка" под видео. Эта кнопка отображает рамку, в
+        которой пользователи, загружающие видео, могут свободно отображать текст,
+        изображения и ссылки. Например, там можно разместить ссылку на Patreon, Tipeee,
+        Paypal, Liberapay (или любое другое решение). Другие примеры: укажите почтовый
+        адрес, если вы хотите получить физические благодарственные открытки, логотип
+        вашего предприятия, ссылку на поддержку некоммерческой организации…'
+      - We did not go any further because to favour one technical solution would be
+        to impose, in the code, a political vision of cultural sharing and its financing.
+        All financial solutions are possible and treated equally in PeerTube.
+      - However, many improvements of PeerTube are to be expected… Including those
+        that would allow you to create (and choose) the monetization tools that interest
+        you!
+      - 'Nevertheless, it is worth remembering that the vast majority of videos published
+        on the Internet (and even on YouTube) are shared for non-market purposes:
+        remuneration is a tool, but not necessarily a main or essential purpose.'
+    instances:
+      title: Где я могу разместить свои видео?
+      text:
+      - You need to find a PeerTube hosting instance you trust.
+      - There’s a complete <a href="@:data.link.instancesPT">list of instances here</a>,
+        and a list of those that are <a href="./#getting-started">open to registration
+        here</a>.
+      - Then, we recommend you go to the instances, read their "about" page to discover
+        their terms of use (disk space limit per user, content policy, etc.).
+      - It’s best to contact and talk directly with hosting providers, to understand
+        their business model, vision, etc. Because only you can determine what makes
+        you trust such or such host, and thus entrust your videos to them.
+    pornography:
+      title: Есть много порно видео на PeerTube!
+      text:
+      - No. In October 2018, on an average instance federating with ~200 instances
+        and indexing ~16000 videos, only ~200 videos are tagged as NSFW (i. e. the
+        content is sensitive, which could be something else than pornography). Therefore,
+        they represent only ~1% of all the videos.
+      - 'Moreover, each administrator decides with which instances he wants to federate:
+        he has the full control of the content he wants to display on his instance.
+        It''s up to him to choose the policy regarding this kind of videos. He can
+        decide to: <ul><li>Display them</li><li>Blur the title and thumbnail</li><li>Hide
+        them</li></ul>'
+      - By default, this configuration is set to "Hide them". If some administrators
+        decide to display them with a blur filter for example, it's <strong>their</strong>
+        choice.
+      - Finally, any user can override this configuration, and decides if he want
+        to display, blur or hide these videos for himself.
+      - 'PeerTube is just a software: it''s not Framasoft (non-profit that develops
+        PeerTube) that''s responsible for the content published on some instances.'
+      - 'It''s up to everyone to be responsible: parents, visitors, uploaders, PeerTube
+        administrators to respect the law and avoid any problematic situations.'
+  forum: Discuss on our forum
+  tech:
+    install:
+      title: Как установить PeerTube?
+      text:
+      - The <a href="@:data.link.gitPT/blob/develop/support/doc/production.md">installation
+        guide is here</a> (only in English, for the moment).
+      - 'We recommend not to install PeerTube on low-end hardware or behind a weak
+        connection (for example, on a RaspberryPi with an ADSL connection): this could
+        slow down all federations.'
+      - 'Don’t bother the developer to help you install your instance: we have a <a
+        href="@:link.forumPT">support forum</a> for that.'
+    moderation:
+      title: PeerTube v1.0 does not seem to me to contain all the tools necessary
+        for a good management of my instance.
+      text:
+      - '<blockquote>"It’s outrageous and unconscious: you’re releasing PeerTube’s
+        version 1 when it doesn’t contain the necessary tools to effectively manage
+        videos claimed by rights holders, or to effectively manage the issue of online
+        harassment in comments, or to effectively manage monetization through advertising,
+        or to (insert here your request to PeerTube). It will never work! What do
+        you intend to do about it?"</blockquote>'
+      - You’re right. PeerTube 1.0 is not the perfect tool, far from it. And we never
+        promised that this version 1.0 would be a tool that would include all the
+        features corresponding to all cases.
+      - PeerTube 1.0 is the realization of the commitment we made in October 2017
+        to take PeerTube from an alpha version (personal project and proof of concept
+        that a federated video platform could work) to a 1.0 version in October 2018
+        (which does not mean "final version", but "version considered stable and distributable").
+      - Remember that PeerTube has only one (almost) full time developer and a small
+        handful of very involved volunteers. It is not a product developed by a start-up
+        with a full time team (dev, design, UX, marketing, support, etc.) and significant
+        financial support. It is a Community free software, the development of which
+        will continue over the months and, we hope, in the years to come.
+      - 'We are well aware of the shortcomings of PeerTube 1.0, especially in the
+        moderation tools area (videos, comments, etc.). And we intend to work on these
+        weaknesses. '
+      - 'We have chosen to do so as follows: on the one hand we will work primarily
+        in the coming months to improve these tools within PeerTube itself (in the
+        <i>core</i> of the software). On the other hand, we will also focus, in parallel,
+        a large part of PeerTube’s development effort during 2019 on the integration
+        of a plugin system, which can be developed by the communities.'
+      - 'Indeed, we do not claim to have the science behind it and know how best to
+        manage each of the tools according to each of the needs. For example: with
+        regard to the question of DMCA requests, cases vary according to geographical
+        jurisdictions (European law is different from French law, itself different
+        from Canadian law, itself different from American law, etc.). Concerning the
+        tools for moderating comments, here again, we cannot decree ourselves experts
+        of the subject, because this is simply not the case.'
+      - By acting both on the <i>core</i>, but also by allowing the development of
+        plugins, we believe that PeerTube will, in the long term, be able to respond
+        much better to these issues and allow different communities to adapt PeerTube
+        to their needs.
+      - We are working as quickly as possible to improve PeerTube, but we are doing
+        so with the resources we have, which means <strong>very</strong> limited.
+      - 'В то же время, как пользователь если вы чувствуете, что PeerTube 1.0 в настоящее
+        время не соответствуют вашим потребностям, то все просто: не использовать
+        его прямо сейчас :) (напоминаем, что мы не зарабатываем деньги на разработке
+        PeerTube, и что если мы очевидно, надеемся на его успех, выживание нашей ассоциации
+        от этого не зависит).'
+      - As an administrator, if you are afraid of DMCA requests, there is an option
+        to limit the opening of registrations to people you know. You will then be
+        able to reopen registrations without verification once these verification
+        tools have been integrated, or you have developed them.
+    code:
+      title: Как внести свой вклад в код PeerTube?
+      text:
+      - <a href="@:data.link.gitPT">Git репозиторий PeerTube находиться здесь</a>.
+      - You can <a href="@:data.link.gitPT/issues">create an issue</a>, contribute
+        to it, or even start contributing by choosing the <a href="@:data.link.gitPT/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">easy
+        problems for those who begin</a>.
+      - Если вы хотите помочь другим способом или хотите запросить функцию, обсудите
+        ее на нашем <a href="@:link.forumPT">форуме</a>.
+    protocol:
+      title: Почему PeerTube использует протокол федерации ActivityPub? Почему не
+        IPFS / d.tube / Steemit?
+      text:
+      - PeerTube использует ActivityPub, потому что этот протокол федерации рекомендован
+        W3C и уже используется федеративной социальной сетью Mastodon.
+      - IPFS - отличная технология, но она все еще кажется очень (слишком!) молодой
+        для крупномасштабной потоковой передачи больших файлов.
+      - После обсуждения этого на нашем форуме, мы чувствуем, что d.tube не является
+        свободным или открытым исходным кодом, потому что публикация только скомпилированного
+        кода ограничивает свободу модификации.
+      - D.tube основан на Steem для "вознаграждения", это вариант, но Steem был <a
+        href="https://en.wikipedia.org/wiki/Steemit#Criticism">широко раскритикован</a>
+        за <a href="https://steemit.com/steemit/@docdelux/30-days-of-steemit-here-is-my-criticism">сильную
+        централизацию</a>, и подозрительно <a href="https://steemit.com/steemit/@thecryptonews/psa-constructive-criticism-the-ugly-truth-behind-steemit">напоминает
+        систему Понци</a>.
+      - PeerTube является свободным, децентрализованным, распределённым и не навязывает
+        какую-либо модель вознаграждения. Этот выбор, который мы сделали, является
+        дискуссионным, и другие (например, d.tube) сделали другие выборы, которые
+        имеют свои преимущества.
+hof:
+  title: Зал славы
+  sponsors: Спонсоры
+  donators: Финансовые вкладчики
+  dev: Вкладчики
+  contrib: Внести вклад в код
+news:
+  title: What's up on PeerTube
+  subtitle: Discover the tool's latest improvements
+  blocs:
+    newsletter26-03-2019:
+      title: 'PeerTube: retrospective, new features and more to come!'
+      text:
+      - <b>Hello everyone!</b>
+      - Since version 1.0 has been released last November, we went on improving PeerTube,
+        day after day. These improvements on PeerTube go well beyond the objectives
+        fixed during the crowdfunding. They have been funded by the <a href="https://framasoft.org/en/">Framasoft
+        non-profit</a>, which develops the software (and lives only through <a href="https://soutenir.framasoft.org/en/">your
+        donations</a>).
+      - 'Here is a small retrospective of the end of 2018/beginning of 2019:'
+      - In December 2018, we released version 1.1 which contained some moderation
+        tools requested by instance administrators.<br> We also took the opportunity
+        to add a watched videos history feature and the automatic resuming of video
+        playback.
+      - 'In January, we released version 1.2 that supports 3 new languages: Russian,
+        Polish and Italian. Thanks to PeerTube''s community of translators, PeerTube
+        is now translated into 16 different languages!'
+      - This version also includes a notification system that allows users to be informed
+        (on the web interface or through email) when their video is commented, when
+        someone mention them, when one of their subscriptions has published a new
+        video, etc.
+      - 'In the meantime, the PeerTube federation has grown: today, more than 300
+        instances broadcast more than 70,000 videos, with nearly 2 million cumulated
+        views. We remind you that the only official website we maintain around PeerTube
+        is <a href="https://joinpeertube.org/en">https://joinpeertube.org/en</a> and
+        that we bear no responsibility on any other site that may be published.'
+      - As you can see, we have gone far beyond what the crowdfunding has funded.
+        And we will continue!<br> For 2019, we plan to add a plugin and theme management
+        system (even though basic at first), playlist management, support for audio
+        files upload and many other features.
+      - 'If you also to contribute to the growing of PeerTube, you can participate
+        in its funding here: <a href="https://soutenir.framasoft.org/en">https://soutenir.framasoft.org/en</a>'
+      - 'If you have any questions, feel free to use our forum: <a href="https://framacolibri.org/c/peertube">https://framacolibri.org/c/peertube</a>'
+      - Thank you and with our best regards,
+      - Framasoft

@@ -11,32 +11,34 @@ menu:
   code: Källkod
   instances: Instanser
   hall-of-fame: Hall of fame
+  news: News
 link:
   forumPT: https://framacolibri.org/c/peertube
-  wArticle: https://en.wikipedia.org/wiki
+  wArticle: https://sv.wikipedia.org/wiki
 home:
   title: Återta kontrollen över dina videor
   intro:
     title: En decentraliserad videoplattform byggd på fri mjukvara
-    getting-started: Get started
+    getting-started: Kom igång
     how-it-works: Hur det funkar
-  release:
-    announce: PeerTube v1.0
-    title: <a href="https://framablog.org/2018/10/15/peertube-1-0-the-free-libre-and-federated-video-platform/">Den
-      första versionen av PeerTube är ute nu!</a> Hjälp oss fortsätta utvecklingen.
+  banner:
+    title: <a href="news#newsletter26-02-2019">Retrospective, new features and more
+      to come!</a>
+    subtitle: We're talking about our progress these last months and what's coming
+      next.
     button: Support
     install: Installera PeerTube
   why:
     power:
       title: Återta kontrollen … och ansvaret!
-      desc: 'PeerTube är inte en enskild video-plattform med en uppsättning regler:
-        det är ett nätverk av dussintals sammanlänkade instanser, alla med olika människor
-        och administratörer. Gillar du inte någon av reglerna? Du är fri att välja
-        vilken instans du vill, eller ännu bättre, starta en själv med dina egna regler!'
+      desc: 'PeerTube är inte en enskild video-plattform med en uppsättning regler
+        – det är ett nätverk av dussintals sammanlänkade instanser, alla med olika
+        människor och administratörer. Gillar du inte någon regel? Du är fri att välja
+        vilken instans du vill, eller ännu bättre: starta en själv med dina egna regler!'
     content:
       title: Återta kontrollen över ditt innehåll
       desc: PeerTube låter dig dela alla dina videor. Direktkontakten med en mänsklig
-        värd (eller att bli bli din egen) ger dig möjligheten att välja hur utsändningen
+        värd (eller att bli din egen) ger dig möjligheten att välja hur videodistributionen
         hanteras. Dina videor kommer dra nytta av verktyg för att fylla i videobeskrivningar,
         kategorisering, välja förhandsvisningsbild och markera videor som olämpliga
         att se på jobbet. Genom att justera <strong>Support</strong>-knappen kan du
@@ -45,8 +47,8 @@ home:
       title: Sätter användarna främst
       desc: 'Du är en människa, inte en produkt. PeerTube är en fri mjukvara finansierad
         av en fransk ideell förening: @:data.html.soft</>. Alla instanser skapas,
-        drivs, modereras och underhåll oberoende av varandra. PeerTube står inte under
-        ett företags monopol, är inte beroende av annonser och spårar inte heller
+        drivs, modereras och underhålls oberoende av varandra. PeerTube står inte
+        under ett företags monopol, är inte beroende av annonser och spårar inte heller
         dig. Med PeerTube är du inte en produkt: PeerTube står till din tjänst, inte
         tvärt om.'
     broadcast:
@@ -58,7 +60,7 @@ home:
         och kommentarer via andra plattformar som stöder det, som till exempel <a
         href="@:data.link.mastodon">Mastodon</a>! (experimentellt)
   getting-started:
-    title: Get started
+    title: Kom igång
     watch:
       title: Titta
       framatube: Se videor på @:data.color.tube
@@ -79,23 +81,23 @@ home:
           KB: kB
           MB: MB
           GB: GB
-        no_quota: No quota
+        no_quota: Ingen videokvot
   install:
     title: Installera din egen
     text:
     - Om du skulle vara intresserad av att driva din egen instans – för dina vänner,
       familj eller organisation – kan du komma igång genom att <a href="@:data.link.gitPT/blob/develop/support/doc/production.md">läsa
-      insallationsdokumentationen</a>.
+      installationsdokumentationen</a>.
     - Du kommer endast stå värd för dina egna användare och deras videor. Du kan välja
       hur många användare som kan registrera sig och hur mycket lagringsutrymme varje
       användare får. Bara videor från instanser <strong>du valt att följa</strong>
-      kommer synas på din hemsida.
+      kommer synas på din webbplats.
     btn: Läs dokumentationen
   how-it-works:
     how:
-      title: How it works
+      title: Hur det fungerar
       text:
-      - Vem som helst kan skaffa en PeerTube-server, vad vi kallar en <strong>instans</strong>.
+      - Vem som helst kan skaffa en PeerTube-server, det vi kallar en <strong>instans</strong>.
         Varje instans är värd för sina användare och deras videor. Den sparar också
         en lista över videor som gjorts tillgängliga på de instanser administratören
         valt att följa, så att den kan föreslå även dem till sina användare.
@@ -108,15 +110,15 @@ home:
         följa. Du har alltså full kontroll över vilka videor som visas på din PeerTube-instans!
       btn: Frågor?
     why:
-      title: Varför är det häftigt?
+      title: Vad är det häftiga med detta?
       text:
       - Servrarna drivs oberoende av varandra av olika personer och organisationer.
         De kan tillämpa vitt skilda moderationspolicyer så att du kan finna eller
         skapa en som passar dig perfekt.
-      - När du tittar på en video hjälper du servern att förmedla den, genom att själv
-        skicka den vidare. På så vis behöver varje enskild instans inte någon större
+      - När du tittar på en video hjälper du servern att förmedla den genom att själv
+        skicka videon vidare. På så vis behöver varje enskild instans inte en enorm
         budget för att kunna stå värd för och sända ut sina användares videor.
-      btn: Get started
+      btn: Kom igång
 footer:
   text: Baserat på
   thanks: Tack!
@@ -132,7 +134,7 @@ faq:
       title: Vad är PeerTube?
       text:
       - PeerTube är mjukvara som kan installeras på en webbserver för att skapa en
-        videodelnings-webbplats, ett ”hemmabyggt YouTube”.
+        webbplats för videodelning, ett ”hemmabyggt YouTube”.
       - Till skillnad från YouTube är tanken inte skapa en gigantisk plattform som
         samlar videor från hela världen på en serverfarm (vilket är fruktansvärt dyrt).
       - I stället är PeerTubes koncept att skapa ett nätverk av sammanlänkade små
@@ -140,19 +142,19 @@ faq:
     pros:
       title: De tre största fördelarna med PeerTube.
       text:
-      - 'PeerTubeär unikt eftersom (så vitt vi vet) är den enda videoplattformen som
-        kombinerar de följande tre fördelarna:'
+      - 'PeerTube är unikt eftersom det (så vitt vi vet) är den enda videoplattformen
+        som kombinerar följande tre fördelar:'
       - Tillsammans gör de tre finesserna det enkelt att driva delningsservern och
         gör det samtidigt praktiskt, etiskt och roligt för internetanvändarna.
       list:
-      - Öppen källkod (transparens) under en fri / libre-licens (etisk och respektfull
-        utveckling driven av en gemenskap);
+      - Öppen källkod (transparens) under en fri licens (etisk och respektfull utveckling
+        driven av en gemenskap);
       - En federation av sammanlänkade värdar (vilket ger fler videor att välja mellan
         var du än väljer att se dem);
       - Videodelning och -tittande med P2P (så det går inte långsammare om en video
         skulle bli väldigt populär).
     libre:
-      title: Varför är det bättre som fri / libre-mjukvara?
+      title: Varför är det bättre som fri mjukvara?
       text:
       - Eftersom genom att skapa fri mjukvara respekteras våra grundläggande friheter,
         vilket garanteras genom <a href="@:data.link.gitPT/blob/develop/LICENSE">en
@@ -160,15 +162,15 @@ faq:
       - 'Konkret betyder det att:'
       list:
       - PeerTube är gratis, du behöver inte betala för att installera det på din server;
-      - 'Vi kan se hur PeerTube fungerar bakom kulisserna (dess källkod): det går
+      - 'Vi kan se hur PeerTube fungerar bakom kulisserna (dess källkod): den går
         att granska och är transparent;'
       - Dess utveckling är baserat på en gemenskap och kan förbättras av allas bidrag.
     federated:
       title: Vad är vitsen med att federera videovärdarna?
       text:
       - 'Fördelen med YouTube (och andra plattformar) är deras videokatalog: från
-        instruktionsfilmer om stickning till Minecraft-konstruktioner och kattungar
-        eller semesterfilmer … du kan hitta precis vad som helst!'
+        instruktionsfilmer om stickning till Minecraft-byggen och kattungar eller
+        semesterfilmer … du kan hitta precis vad som helst!'
       - Ju mer variation i videokatalogen, desto fler blir intresserade och desto
         fler videor laddas upp … men att tillhandahålla all världens videor blir väldigt
         dyrt!
@@ -180,7 +182,7 @@ faq:
         detta kommer öppna för möjligheten att ansluta med verktyg som Mastodon eller
         MediaGoblin.'
     p2p:
-      title: Varför skicka PeerTube-videor över P2P?
+      title: Varför skickas PeerTube-videor över P2P?
       text:
       - 'När du tillhandahåller är en stor fil, som en video, är framgång det som
         är mest skrämmande: om en video blir väldigt populär och många ser på den
@@ -191,7 +193,7 @@ faq:
       - 'Det finns inget du behöver göra: din webbläsare gör det automatiskt. Om du
         använder en mobiltelefon eller om ditt nätverk inte tillåter det (router,
         brandvägg etc.) kommer funktionen inte avaktiveras och övergå till ”gammaldags”
-        video-sändning. @:data.emoji.wink</>'
+        videoförmedling. @:data.emoji.wink</>'
     admin:
       title: För de som vet hur man administrerar en server, är PeerTube …
       text:
@@ -240,7 +242,7 @@ faq:
         flera miljoner samtidiga visningar eller betala en väldigt dyr oberoende videotjänst
         så att den kan klara belastningen.
     audience:
-      title: För de som vill titta på videor, erbjuder PeerTube …
+      title: För dem som vill titta på videor erbjuder PeerTube …
       text:
       - En av fördelarna är att <strong>du blir en del av utsändningen av videon du
         tittar på</strong>. Om andra ser på en PeerTube-video samtidigt som du, delar
@@ -464,3 +466,42 @@ hof:
   donators: Finansiella bidragsgivare
   dev: Bidragsgivare
   contrib: Hjälp till med koden
+news:
+  title: What's up on PeerTube
+  subtitle: Discover the tool's latest improvements
+  blocs:
+    newsletter26-03-2019:
+      title: 'PeerTube: retrospective, new features and more to come!'
+      text:
+      - <b>Hello everyone!</b>
+      - Since version 1.0 has been released last November, we went on improving PeerTube,
+        day after day. These improvements on PeerTube go well beyond the objectives
+        fixed during the crowdfunding. They have been funded by the <a href="https://framasoft.org/en/">Framasoft
+        non-profit</a>, which develops the software (and lives only through <a href="https://soutenir.framasoft.org/en/">your
+        donations</a>).
+      - 'Here is a small retrospective of the end of 2018/beginning of 2019:'
+      - In December 2018, we released version 1.1 which contained some moderation
+        tools requested by instance administrators.<br> We also took the opportunity
+        to add a watched videos history feature and the automatic resuming of video
+        playback.
+      - 'In January, we released version 1.2 that supports 3 new languages: Russian,
+        Polish and Italian. Thanks to PeerTube''s community of translators, PeerTube
+        is now translated into 16 different languages!'
+      - This version also includes a notification system that allows users to be informed
+        (on the web interface or through email) when their video is commented, when
+        someone mention them, when one of their subscriptions has published a new
+        video, etc.
+      - 'In the meantime, the PeerTube federation has grown: today, more than 300
+        instances broadcast more than 70,000 videos, with nearly 2 million cumulated
+        views. We remind you that the only official website we maintain around PeerTube
+        is <a href="https://joinpeertube.org/en">https://joinpeertube.org/en</a> and
+        that we bear no responsibility on any other site that may be published.'
+      - As you can see, we have gone far beyond what the crowdfunding has funded.
+        And we will continue!<br> For 2019, we plan to add a plugin and theme management
+        system (even though basic at first), playlist management, support for audio
+        files upload and many other features.
+      - 'If you also to contribute to the growing of PeerTube, you can participate
+        in its funding here: <a href="https://soutenir.framasoft.org/en">https://soutenir.framasoft.org/en</a>'
+      - 'If you have any questions, feel free to use our forum: <a href="https://framacolibri.org/c/peertube">https://framacolibri.org/c/peertube</a>'
+      - Thank you and with our best regards,
+      - Framasoft
