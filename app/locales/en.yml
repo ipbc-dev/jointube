@@ -465,10 +465,11 @@ news:
     newsletter26-03-2019:
       title: 'PeerTube: retrospective, new features and more to come!'
       text:
-        p1: Since version 1.0 has been released last November, we went on improving PeerTube,
-          day after day. These improvements on PeerTube go well beyond the objectives
-          fixed during the crowdfunding. They have been funded by the <a href="https://framasoft.org/en/">Framasoft
-          non-profit</a>, which develops the software (and lives only through <a href="https://soutenir.framasoft.org/en/">your
+        p1: Since version 1.0 has been released last November, we went on improving
+          PeerTube, day after day. These improvements on PeerTube go well beyond the
+          objectives fixed during the crowdfunding. They have been funded by the <a
+          href="https://framasoft.org/en/">Framasoft non-profit</a>, which develops
+          the software (and lives only through <a href="https://soutenir.framasoft.org/en/">your
           donations</a>).
         p2: 'Here is a small retrospective of the end of 2018/beginning of 2019:'
         p3: In December 2018, we released version 1.1 which contained some moderation
@@ -478,15 +479,15 @@ news:
         p4: 'In January, we released version 1.2 that supports 3 new languages: Russian,
           Polish and Italian. Thanks to PeerTube''s community of translators, PeerTube
           is now translated into 16 different languages!'
-        p5: This version also includes a notification system that allows users to be informed
-          (on the web interface or through email) when their video is commented, when
-          someone mention them, when one of their subscriptions has published a new
-          video, etc.
-        p6: 'In the meantime, the PeerTube federation has grown: today, more than 300
-          instances broadcast more than 70,000 videos, with nearly 2 million cumulated
+        p5: This version also includes a notification system that allows users to
+          be informed (on the web interface or through email) when their video is
+          commented, when someone mention them, when one of their subscriptions has
+          published a new video, etc.
+        p6: 'In the meantime, the PeerTube federation has grown: today, more than
+          300 instances broadcast more than 70,000 videos, with nearly 2 million cumulated
           views. We remind you that the only official website we maintain around PeerTube
-          is <a href="https://joinpeertube.org/en">https://joinpeertube.org/en</a> and
-          that we bear no responsibility on any other site that may be published.'
+          is <a href="https://joinpeertube.org/en">https://joinpeertube.org/en</a>
+          and that we bear no responsibility on any other site that may be published.'
         p7: As you can see, we have gone far beyond what the crowdfunding has funded.
           And we will continue!<br> For 2019, we plan to add a plugin and theme management
           system (even though basic at first), playlist management, support for audio
