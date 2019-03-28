@@ -7,8 +7,8 @@
             <div class="container">
                 <h1>{{ $t('news.title') }}</h1>
                 <span>{{ $t('news.subtitle') }}</span>
-                <div v-for="bloc in $t('news.blocs')">
-                    <a :href="`#${bloc.id}`"><h2 :id="bloc.id">{{ bloc.title }}</h2></a>
+                <div v-for="(bloc, key) in $t('news.blocs')" :id="key">
+                    <a :href="`#${key}`"><h2>{{ bloc.title }}</h2></a>
                     <p v-for="p in bloc.text" v-html="p"></p>
                 </div>
             </div>

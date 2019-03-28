@@ -465,7 +465,6 @@ news:
     newsletter26-03-2019:
       title: 'PeerTube: retrospective, new features and more to come!'
       text:
-      - <b>Hello everyone!</b>
       - Since version 1.0 has been released last November, we went on improving PeerTube,
         day after day. These improvements on PeerTube go well beyond the objectives
         fixed during the crowdfunding. They have been funded by the <a href="https://framasoft.org/en/">Framasoft
