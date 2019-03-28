@@ -3,7 +3,7 @@
         <vue-headful
                 :title="$t('meta.title') + ' - ' + $t('hof.title')"
         />
-        <section class="row faq">
+        <section class="clearfix faq">
             <div class="container">
                 <h1>{{ $t('news.title') }}</h1>
                 <span>{{ $t('news.subtitle') }}</span>
