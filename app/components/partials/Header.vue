@@ -45,7 +45,7 @@
               </a>
             </li>
             <li>
-              <a href="#register"
+              <a :href="'/' + $t('lang') + '/#register'"
                 v-html="$t('menu.instances')">
               </a>
             </li>
