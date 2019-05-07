@@ -461,11 +461,12 @@ hof:
 news:
   title: What's up on PeerTube
   subtitle: Discover the tool's latest improvements
+  latest-articles: Latest articles
   blocs:
     newsletter26-02-2019:
       title: 'PeerTube: retrospective, new features and more to come!'
       date:
-        text: Tuesday 26 February 2019
+        text: 26 February 2019
         data: 2019-02-26
       text:
         p1: Since version 1.0 has been released last November, we went on improving
@@ -503,7 +504,7 @@ news:
     newsletter16-10-2018:
       title: 'PeerTube crowdfunding newsletter #4'
       date:
-        text: Tuesday 16 October 2018
+        text: 16 October 2018
         data: 2018-10-16
       text:
         p1: Hello everyone!
@@ -551,7 +552,7 @@ news:
     newsletter12-09-2018:
       title: 'PeerTube crowdfunding newsletter #3'
       date:
-        text: Wednesday, September 12, 2018
+        text: September 12, 2018
         data: 2018-09-12
       text:
         p1: Hello everyone!
@@ -589,7 +590,7 @@ news:
     newsletter20-08-2018:
       title: 'PeerTube crowdfunding newsletter #2'
       date:
-        text: Monday, August 20, 2018
+        text: August 20, 2018
         data: 2018-08-20
       text:
         p1: Hello everyone!
@@ -617,9 +618,9 @@ news:
           <a href="https://contact.framasoft.org">https://contact.framasoft.org.</a>'
         p8: 'Cheers,<br>Framasoft'
     newsletter23-07-2018:
-      title: Newsletter du crowdfunding de PeerTube n°1
+      title: 'PeerTube crowdfunding newsletter #1'
       date:
-        text: Monday 23 July 2018
+        text: 23 July 2018
         data: 2018-07-23
       text:
         p1: Hello everyone!
