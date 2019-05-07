@@ -496,12 +496,13 @@ hof:
 news:
   title: Quoi de neuf sur PeerTube ?
   subtitle: Découvrez les dernières améliorations de l'outil
+  latest-articles: Derniers articles
   blocs:
     newsletter26-02-2019:
       title: 'PeerTube : rétrospective et nouvelles fonctionnalités : l''actu de février
         2019'
       date:
-        text: Mardi 26 Février 2019
+        text: 26 Février 2019
         data: 2019-02-26
       text:
         p1: Depuis la version 1.0 sortie en novembre dernier, nous avons continué
@@ -543,7 +544,7 @@ news:
     newsletter16-10-2018:
       title: Newsletter du crowdfunding de PeerTube n°4
       date:
-        text: Mardi 16 Octobre 2018
+        text: 16 Octobre 2018
         data: 2018-10-16
       text:
         p1: Bonjour à toutes et à tous,
@@ -594,7 +595,7 @@ news:
     newsletter12-09-2018:
       title: Newsletter du crowdfunding de PeerTube n°3
       date:
-        text: Mercredi 12 Septembre 2018
+        text: 12 Septembre 2018
         data: 2018-09-12
       text:
         p1: Bonjour à toutes et à tous,
@@ -641,7 +642,7 @@ news:
     newsletter20-08-2018:
       title: Newsletter du crowdfunding de PeerTube n°2
       date:
-        text: Lundi 20 Août 2018
+        text: 20 Août 2018
         data: 2018-08-20
       text:
         p1: Bonjour à toutes et à tous,
@@ -675,7 +676,7 @@ news:
     newsletter23-07-2018:
       title: Newsletter du crowdfunding de PeerTube n°1
       date:
-        text: Lundi 23 Juillet 2018
+        text: 23 Juillet 2018
         data: 2018-07-23
       text:
         p1: Bonjour à toutes et à tous,
