@@ -503,7 +503,7 @@ news:
         2019'
       date:
         text: 26 Février 2019
-        data: 2019-02-26
+        data: '2019-02-26'
       text:
         p1: Depuis la version 1.0 sortie en novembre dernier, nous avons continué
           d'<b>améliorer PeerTube jour après jour</b>. Ces avancées de PeerTube, bien
@@ -545,167 +545,151 @@ news:
       title: Newsletter du crowdfunding de PeerTube n°4
       date:
         text: 16 Octobre 2018
-        data: 2018-10-16
+        data: '2018-10-16'
       text:
         p1: Bonjour à toutes et à tous,
-        p2: Nous voici mi-octobre ! Et comme promis, nous venons de sortir la
-          première version stable de PeerTube.
+        p2: Nous voici mi-octobre ! Et comme promis, nous venons de sortir la première
+          version stable de PeerTube.
         p3: 'Elle contient tous les buts que nous avions fixé dans notre crowdfunding:
           <ul><li>Le support de l''internationalisation (à l''heure où nous écrivons
-          ces lignes, PeerTube est déjà disponible en plus de 13 langues !)</li>
-          <li>Le support des sous-titres</li>
-          <li>La possibilité d''importer des vidéos via une URL (YouTube,
-          Dailymotion, Vimeo et bien d''autres !)</li>
-          <li>La possibilité d''importer une vidéo via un fichier torrent ou un
-          lien Magnet</li>
-          <li>La mise à disposition de flux RSS, vous permettant de suivre les
-          nouvelles vidéos mises en ligne sur l''ensemble des instances PeerTube,
-          sur une instance en particulière ou par une chaîne que appréciez. Vous
-          pouvez aussi vous abonner au flux des commentaires d''une vidéo spécifique</li>
-          <li>La recherche, beaucoup plus pertinente qu''avant et acceptant de
-          nombreux filtres avancés (durée, catégorie, tags...)</li>
-          <li>Les abonnements à travers la fédération, vous laissant la
-          possibilité de suivre vos chaînes vidéos préférées afin de retrouver
-          l''ensemble de leurs vidéos dans un onglet dédié</li>
-          <li>La redondance entre instances PeerTube, où des instances peuvent
-          aider à partager certaines vidéos d''autres instances</li>
-          </ul>'
+          ces lignes, PeerTube est déjà disponible en plus de 13 langues !)</li> <li>Le
+          support des sous-titres</li> <li>La possibilité d''importer des vidéos via
+          une URL (YouTube, Dailymotion, Vimeo et bien d''autres !)</li> <li>La possibilité
+          d''importer une vidéo via un fichier torrent ou un lien Magnet</li> <li>La
+          mise à disposition de flux RSS, vous permettant de suivre les nouvelles
+          vidéos mises en ligne sur l''ensemble des instances PeerTube, sur une instance
+          en particulière ou par une chaîne que appréciez. Vous pouvez aussi vous
+          abonner au flux des commentaires d''une vidéo spécifique</li> <li>La recherche,
+          beaucoup plus pertinente qu''avant et acceptant de nombreux filtres avancés
+          (durée, catégorie, tags...)</li> <li>Les abonnements à travers la fédération,
+          vous laissant la possibilité de suivre vos chaînes vidéos préférées afin
+          de retrouver l''ensemble de leurs vidéos dans un onglet dédié</li> <li>La
+          redondance entre instances PeerTube, où des instances peuvent aider à partager
+          certaines vidéos d''autres instances</li> </ul>'
         p4: 'Nous savons que les descriptions de fonctionnalités ne sont pas toujours
-          très fun, et c''est pour ça que nous vous avons préparé de courtes vidéos de démonstration:
-          <ul>
-          <li><a href="https://framatube.org/videos/watch/f57da309-6b92-4fe0-9267-ff8188cc050c">Flux RSS</a></li>
-          <li><a href="https://framatube.org/videos/watch/dcad56d9-9fe6-45bc-96aa-3d778f6804c1">Import de torrent</a></li>
-          <li><a href="https://framatube.org/videos/watch/59d306c0-fc5b-493a-956a-43785693346b">Import d''une vidéo YouTube</a></li>
-          <li><a href="https://framatube.org/videos/watch/edd7a468-08d5-4877-b62b-61c5f3f83ceb">Ajout de sous-titres</a></li>
-          <li><a href="https://framatube.org/videos/watch/60c4bea4-6bb2-4fce-8d9f-8a522575419d">Recherche avancée</a></li>
-          <li><a href="https://framatube.org/videos/watch/8968dbe1-a387-433b-a20f-37fe9f3ca8d5">Abonnements à des chaînes</a></li>
-          </ul>'
-        p5: 'Il s''agit donc de la dernière newsletter concernant le crowdfunding de
-          PeerTube. Nous aimerions donc vous remercier une dernière fois, pour
+          très fun, et c''est pour ça que nous vous avons préparé de courtes vidéos
+          de démonstration: <ul> <li><a href="https://framatube.org/videos/watch/f57da309-6b92-4fe0-9267-ff8188cc050c">Flux
+          RSS</a></li> <li><a href="https://framatube.org/videos/watch/dcad56d9-9fe6-45bc-96aa-3d778f6804c1">Import
+          de torrent</a></li> <li><a href="https://framatube.org/videos/watch/59d306c0-fc5b-493a-956a-43785693346b">Import
+          d''une vidéo YouTube</a></li> <li><a href="https://framatube.org/videos/watch/edd7a468-08d5-4877-b62b-61c5f3f83ceb">Ajout
+          de sous-titres</a></li> <li><a href="https://framatube.org/videos/watch/60c4bea4-6bb2-4fce-8d9f-8a522575419d">Recherche
+          avancée</a></li> <li><a href="https://framatube.org/videos/watch/8968dbe1-a387-433b-a20f-37fe9f3ca8d5">Abonnements
+          à des chaînes</a></li> </ul>'
+        p5: 'Il s''agit donc de la dernière newsletter concernant le crowdfunding
+          de PeerTube. Nous aimerions donc vous remercier une dernière fois, pour
           nous avoir permis de grandement améliorer PeerTube afin de promouvoir un
-          web plus décentralisé.<br>
-          Mais l''aventure n''est pas terminée: nous continuerons à améliorer le
-          logiciel, et il reste encore beaucoup à faire pour pleinement libérer le
-          streaming vidéo. Mais avant, nous allons prendre quelques jours de congé ;)'
-        p6: 'N''oubliez pas que si vous avez des questions
-          <a href="https://framacolibri.org/c/qualite/peertube">le forum Framacolibri</a> est à votre
-          disposition. Vous pouvez également nous contacter directement sur
-          <a href="https://contact.framasoft.org">https://contact.framasoft.org</a>.'
-        p7: 'Librement,<br>Framasoft'
+          web plus décentralisé.<br> Mais l''aventure n''est pas terminée: nous continuerons
+          à améliorer le logiciel, et il reste encore beaucoup à faire pour pleinement
+          libérer le streaming vidéo. Mais avant, nous allons prendre quelques jours
+          de congé ;)'
+        p6: N'oubliez pas que si vous avez des questions <a href="https://framacolibri.org/c/qualite/peertube">le
+          forum Framacolibri</a> est à votre disposition. Vous pouvez également nous
+          contacter directement sur <a href="https://contact.framasoft.org">https://contact.framasoft.org</a>.
+        p7: Librement,<br>Framasoft
     newsletter12-09-2018:
       title: Newsletter du crowdfunding de PeerTube n°3
       date:
         text: 12 Septembre 2018
-        data: 2018-09-12
+        data: '2018-09-12'
       text:
         p1: Bonjour à toutes et à tous,
-        p2: Nous sommes maintenant à un mois de la sortie de la version 1 de
-          PeerTube ! Nous souhaitons donc vous partager quelques (bonnes !) nouvelles.
+        p2: Nous sommes maintenant à un mois de la sortie de la version 1 de PeerTube
+          ! Nous souhaitons donc vous partager quelques (bonnes !) nouvelles.
         p3: Nous venons de sortir la <em>beta 12</em> de PeerTube, qui ajoute la possibilité
           de s'abonner à des chaînes vidéos, qu'elles soient sur votre instance ou
-          même sur des instances distantes.<br>
-          De cette manière, vous pouvez parcourir les vidéos de vos abonnements
-          dans une page dédiée. De plus, si l'administrateur de votre instance
-          PeerTube le permet, vous avez la possibilité de voir une chaîne ou une
-          vidéo distante en tapant son adresse dans la barre de recherche de PeerTube.
+          même sur des instances distantes.<br> De cette manière, vous pouvez parcourir
+          les vidéos de vos abonnements dans une page dédiée. De plus, si l'administrateur
+          de votre instance PeerTube le permet, vous avez la possibilité de voir une
+          chaîne ou une vidéo distante en tapant son adresse dans la barre de recherche
+          de PeerTube.
         p4: Ce n'était pas inclus dans le crowdfunding, mais nous avons aussi créé
-          une nouvelle page "Overview", qui affiche aléatoirement les vidéos de
-          certaines catégories, tags ou chaînes, dans le but de montrer la
-          diversité des vidéos hébergées. Vous pouvez voir ici
-          <a href="https://peertube3.cpy.re/videos/overview">une démonstration de
-          cette fonctionnalité</a>.
-        p5: 'Vous pouvez lire le changelog complet de la <em>beta 12</em> (en anglais)
-        <a href="https://github.com/Chocobozzz/PeerTube/blob/develop/CHANGELOG.md#v100-beta12">ici</a>.'
-
+          une nouvelle page "Overview", qui affiche aléatoirement les vidéos de certaines
+          catégories, tags ou chaînes, dans le but de montrer la diversité des vidéos
+          hébergées. Vous pouvez voir ici <a href="https://peertube3.cpy.re/videos/overview">une
+          démonstration de cette fonctionnalité</a>.
+        p5: Vous pouvez lire le changelog complet de la <em>beta 12</em> (en anglais)
+          <a href="https://github.com/Chocobozzz/PeerTube/blob/develop/CHANGELOG.md#v100-beta12">ici</a>.
         p6: 'Concernant le crowdfunding, la plupart des récompenses sont prêtes :
           <a href="https://github.com/Chocobozzz/PeerTube">le fichier README de PeerTube</a>
-          et <a href="https://joinpeertube.org/fr/hall-of-fame/">le
-          Hall of Fame du site JoinPeertube</a>
-          affichent fièrement les noms des personnes ayant choisi les récompenses
-          correspondantes. Nous allons bientôt pouvoir envoyer les illustrations
-          numériques personnalisées à celles et ceux qui ont donné 80 € et plus
-          (et c''est tellement beau qu''il nous tarde !).'
-
+          et <a href="https://joinpeertube.org/fr/hall-of-fame/">le Hall of Fame du
+          site JoinPeertube</a> affichent fièrement les noms des personnes ayant choisi
+          les récompenses correspondantes. Nous allons bientôt pouvoir envoyer les
+          illustrations numériques personnalisées à celles et ceux qui ont donné 80
+          € et plus (et c''est tellement beau qu''il nous tarde !).'
         p7: La dernière fonctionnalité qu'il nous reste à implémenter concerne la
           redondance des vidéos entre instances, qui permettra encore d'augmenter
           la résilience en cas de surcharge d'une instance. Si tout se passe bien,
           nous devrions la terminer dans environ deux semaines (fin septembre).
-
-        p8: 'Nous vous rappelons que vous pouvez suivre l''avancée des travaux
-          directement en consultant <a href="https://github.com/Chocobozzz/PeerTube">le dépôt Git</a>,
-          et même participer aux discussions/signalement de bugs/propositions d''améliorations dans
-          l''onglet "Issues".'
-        p9: 'Si vous avez des questions <a href="https://framacolibri.org/c/qualite/peertube">un forum</a>
-          est à votre disposition. Vous pouvez également nous contacter directement sur
-          <a href="https://contact.framasoft.org">https://contact.framasoft.org.</a>'
-        p10: 'Librement,<br>Framasoft'
+        p8: Nous vous rappelons que vous pouvez suivre l'avancée des travaux directement
+          en consultant <a href="https://github.com/Chocobozzz/PeerTube">le dépôt
+          Git</a>, et même participer aux discussions/signalement de bugs/propositions
+          d'améliorations dans l'onglet "Issues".
+        p9: Si vous avez des questions <a href="https://framacolibri.org/c/qualite/peertube">un
+          forum</a> est à votre disposition. Vous pouvez également nous contacter
+          directement sur <a href="https://contact.framasoft.org">https://contact.framasoft.org.</a>
+        p10: Librement,<br>Framasoft
     newsletter20-08-2018:
       title: Newsletter du crowdfunding de PeerTube n°2
       date:
         text: 20 Août 2018
-        data: 2018-08-20
+        data: '2018-08-20'
       text:
         p1: Bonjour à toutes et à tous,
         p2: Le développement des fonctionnalités du crowdfunding poursuit son chemin
           sans problème particulier.
         p3: Pour rappel, dans la première newsletter datée du 23 juillet 2018, nous
-          vous annoncions que le système d'internationalisation et
-          l'implémentation des flux RSS étaient terminés, et que nous avancions
-          sur le support des sous-titres puis la recherche avancée.
-        p4: Ces quatre fonctionnalités sont toutes implémentées, et peuvent être
-          directement testées sur les instances mises à jour en <em>v1.0.0-beta.10</em>
-          (par exemple <a href="https://framatube.org">https://framatube.org</a>).
-          En ce qui concerne les sous-titres, vous pouvez les activer sur
-          <a href="https://framatube.org/videos/watch/217eefeb-883d-45be-b7fc-a788ad8507d3">la
+          vous annoncions que le système d'internationalisation et l'implémentation
+          des flux RSS étaient terminés, et que nous avancions sur le support des
+          sous-titres puis la recherche avancée.
+        p4: Ces quatre fonctionnalités sont toutes implémentées, et peuvent être directement
+          testées sur les instances mises à jour en <em>v1.0.0-beta.10</em> (par exemple
+          <a href="https://framatube.org">https://framatube.org</a>). En ce qui concerne
+          les sous-titres, vous pouvez les activer sur <a href="https://framatube.org/videos/watch/217eefeb-883d-45be-b7fc-a788ad8507d3">la
           vidéo de présentation de PeerTube</a>.
         p5: Nous sommes actuellement en train de finir le système d'import de vidéos
-          via une URL (YouTube, Vimeo, Dailymotion etc) ou un fichier torrent.
-          Cette fonctionnalité devrait être disponible dans quelques jours,
-          lorsque nous sortirons une nouvelle version de PeerTube (<em>v1.0.0-beta.11</em>).
-          L'import des vidéos clôturera donc notre premier palier. La prochaine
-          fonctionnalité sur laquelle nous allons travailler sera le système
-          d'abonnements entre utilisateurs.
-        p6: 'Nous vous rappelons que vous pouvez suivre l''avancée des travaux
-          directement en consultant <a href="https://github.com/Chocobozzz/PeerTube">le dépôt Git</a>,
-          et même participer aux discussions/signalement de bugs/propositions d''améliorations dans
-          l''onglet "Issues".'
-        p7: 'Si vous avez des questions <a href="https://framacolibri.org/c/qualite/peertube">un forum</a>
-          est à votre disposition. Vous pouvez également nous contacter directement sur
-          <a href="https://contact.framasoft.org">https://contact.framasoft.org.</a>'
-        p8: 'Librement,<br>Framasoft'
+          via une URL (YouTube, Vimeo, Dailymotion etc) ou un fichier torrent. Cette
+          fonctionnalité devrait être disponible dans quelques jours, lorsque nous
+          sortirons une nouvelle version de PeerTube (<em>v1.0.0-beta.11</em>). L'import
+          des vidéos clôturera donc notre premier palier. La prochaine fonctionnalité
+          sur laquelle nous allons travailler sera le système d'abonnements entre
+          utilisateurs.
+        p6: Nous vous rappelons que vous pouvez suivre l'avancée des travaux directement
+          en consultant <a href="https://github.com/Chocobozzz/PeerTube">le dépôt
+          Git</a>, et même participer aux discussions/signalement de bugs/propositions
+          d'améliorations dans l'onglet "Issues".
+        p7: Si vous avez des questions <a href="https://framacolibri.org/c/qualite/peertube">un
+          forum</a> est à votre disposition. Vous pouvez également nous contacter
+          directement sur <a href="https://contact.framasoft.org">https://contact.framasoft.org.</a>
+        p8: Librement,<br>Framasoft
     newsletter23-07-2018:
       title: Newsletter du crowdfunding de PeerTube n°1
       date:
         text: 23 Juillet 2018
-        data: 2018-07-23
+        data: '2018-07-23'
       text:
         p1: Bonjour à toutes et à tous,
         p2: Tout d'abord, un grand merci pour avoir contribué à notre campagne. ❤️
         p3: 'Pendant le crowdfunding, nous avons continué d''avancer sur le système
           d''internationalisation. Et nous avons le plaisir d''annoncer qu''il est
-          enfin terminé: il sera disponible lors de la prochaine version beta de
-          PeerTube (<em>beta 10</em>).<br>
-          À l''heure où nous écrivons ces lignes, l''interface est disponible en
-          anglais, français, basque, catalan, tchèque et en esperanto (un énorme
-          merci <a href="https://github.com/Chocobozzz/PeerTube/blob/develop/CREDITS.md#translations">
-          aux traducteurs</a>).
-          Si vous aussi vous voulez aider à la traduction de PeerTube, n''hésitez
-          pas à jeter <a href="https://github.com/Chocobozzz/PeerTube/blob/develop/support/doc/translation.md">un coup d''oeil à la documentation</a> !'
-        p4: 'En ce qui concerne les flux RSS, ils ont été implémentés par
-          <a href="https://github.com/rigelk">Rigelk</a>
-          et sont d''ores et déjà utilisables avec la
-          <em>beta 9</em>. Vous pouvez, par exemple, avoir
-          <a href="https://framatube.org/feeds/videos.xml?sort=-publishedAt&filter=local">
-          le flux des dernières vidéos
-          locales ajoutées sur une instance</a>.'
-        p5: Le support des sous-titres avance bien et nous devrions avoir une
-          première version de prête sous peu. Une fois ce chantier terminé, nous
-          passerons à l'implémentation de la recherche avancée.
-        p6: 'Nous vous rappelons que vous pouvez suivre l''avancée des travaux
-          directement en consultant <a href="https://github.com/Chocobozzz/PeerTube">le dépôt Git</a>,
-          et même participer aux discussions/signalement de bugs/propositions d''améliorations dans
-          l''onglet "Issues".'
-        p7: 'Si vous avez des questions <a href="https://framacolibri.org/c/qualite/peertube">un forum</a>
-          est à votre disposition. Vous pouvez également nous contacter directement sur
-          <a href="https://contact.framasoft.org">https://contact.framasoft.org.</a>'
-        p8: 'Librement,<br>Framasoft'
+          enfin terminé: il sera disponible lors de la prochaine version beta de PeerTube
+          (<em>beta 10</em>).<br> À l''heure où nous écrivons ces lignes, l''interface
+          est disponible en anglais, français, basque, catalan, tchèque et en esperanto
+          (un énorme merci <a href="https://github.com/Chocobozzz/PeerTube/blob/develop/CREDITS.md#translations">
+          aux traducteurs</a>). Si vous aussi vous voulez aider à la traduction de
+          PeerTube, n''hésitez pas à jeter <a href="https://github.com/Chocobozzz/PeerTube/blob/develop/support/doc/translation.md">un
+          coup d''oeil à la documentation</a> !'
+        p4: En ce qui concerne les flux RSS, ils ont été implémentés par <a href="https://github.com/rigelk">Rigelk</a>
+          et sont d'ores et déjà utilisables avec la <em>beta 9</em>. Vous pouvez,
+          par exemple, avoir <a href="https://framatube.org/feeds/videos.xml?sort=-publishedAt&filter=local">
+          le flux des dernières vidéos locales ajoutées sur une instance</a>.
+        p5: Le support des sous-titres avance bien et nous devrions avoir une première
+          version de prête sous peu. Une fois ce chantier terminé, nous passerons
+          à l'implémentation de la recherche avancée.
+        p6: Nous vous rappelons que vous pouvez suivre l'avancée des travaux directement
+          en consultant <a href="https://github.com/Chocobozzz/PeerTube">le dépôt
+          Git</a>, et même participer aux discussions/signalement de bugs/propositions
+          d'améliorations dans l'onglet "Issues".
+        p7: Si vous avez des questions <a href="https://framacolibri.org/c/qualite/peertube">un
+          forum</a> est à votre disposition. Vous pouvez également nous contacter
+          directement sur <a href="https://contact.framasoft.org">https://contact.framasoft.org.</a>
+        p8: Librement,<br>Framasoft

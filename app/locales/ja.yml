@@ -1,0 +1,453 @@
+meta:
+  title: '@:home.title ! #JoinPeerTube'
+nav:
+  langChange: 言語を変更
+  lang: 言語
+  translate: 翻訳
+menu:
+  faq: よくあるご質問
+  help: サポート
+  docs: ドキュメント
+  code: ソースコード
+  instances: インスタンス
+  hall-of-fame: 栄誉殿堂
+  news: ニュース
+link:
+  forumPT: https://framacolibri.org/c/peertube
+  wArticle: https://ja.wikipedia.org/wiki
+home:
+  title: 動画のコントロールは自分でしよう
+  intro:
+    title: 無料/自由なソフトウェアに基づく分散動画ホスティングネットワーク
+    getting-started: 始めよう
+    how-it-works: 使い方
+  banner:
+    title: <a href="news#newsletter26-02-2019">回顧展、新機能など</a>
+    subtitle: 私たちは、先月の私たちの進歩について話しています。そして次に何が起こっていますか。
+    button: サポート
+    install: PeerTube をインストール
+  why:
+    power:
+      title: 力と責任を取り戻しなさい!
+      desc: PeerTube は、単一のグループのルールを持つ単一の動画ホスティングプラットフォームではありません。これは、相互接続された何十ものホスティングプロバイダのネットワークであり、各プロバイダはさまざまな人と管理者で構成されています。あなたはいくつかのルールが気に入らないのですか?
+        あなたはあなたが選んだホスティングプロバイダに自由に加わることができます。もっと良いのはあなた自身のルールを持ったあなた自身のホスティングプロバイダになることです!
+    content:
+      title: コンテンツを管理する
+      desc: PeerTube はあなたがすべてのあなたの動画を共有することを可能にします。人間のホスティングプロバイダと直接連絡を取っている (または自分自身になっている)
+        ことで、ブロードキャストの方法を選択できます。あなたの動画は、説明、分類、プレビュー画像の選択、閲覧注意のマークを付けるためのツールから恩恵を受けます。[<strong>支持</strong>]ボタンを設定すると、視聴者に自分の作品を支持する方法を伝えることができます。
+    usersfirst:
+      title: ユーザーファースト
+      desc: あなたは人であり、製品ではありません。PeerTube は、フランスの非営利団体である @:data.html.soft</> によって資金提供されている無料/自由なソフトウェアです。すべてのインスタンスは独立して作成、アニメーション化、モデレート、および維持されます。PeerTube
+        は、どの会社のモノポールからも送信されず、広告にも依存したり、ユーザーを追跡したりすることはありません。PeerTube では、あなたは製品ではありません。PeerTube
+        はあなたのサービスであり、その逆ではありません。
+    broadcast:
+      title: あなたの動画放送のアクターになる
+      desc: PeerTube で動画を見るとき、WebTorrent 技術はあなたが同時にそれを見ている視聴者と一緒にこの動画の放送の一部となることを可能にします。この動画ストリームの共有により、ネットワーク上でのより効率的なやり取りが可能になります。さらに、連合プロトコル
+        (ActivityPub) を使用すると、<a href="@:data.link.mastodon">Mastodon</a> など、それをサポートする他のプラットフォームで動画やコメントを公開することができます。(実験的)
+  getting-started:
+    title: はじめに
+    watch:
+      title: 再生
+      framatube: '@:data.color.tube で動画を視聴する'
+    register:
+      title: 登録
+      list: 登録が可能なインスタンスの一覧
+      error: 申し訳ありませんが、利用可能なインスタンスのリストを取得できませんでした。 後でもう一度やり直してください。
+      email: これは、Eメールホスティングプロバイダを選ぶようなものです。ドメインはあなたのユーザー名の一部になります。
+      instances:
+        per_user: / ユーザー
+        followers: フォロワー
+        instances: インスタンス
+        follows: フォロー
+        bytes:
+          B: B
+          KB: KB
+          MB: MB
+          GB: GB
+        no_quota: 無制限
+  install:
+    title: 運営する
+    text:
+    - 独自のインスタンスを運営することに興味がある場合 - 友達のため、家族あるいは組織のため - <a href="@:data.link.gitPT/blob/develop/support/doc/production.md">インストールマニュアル</a>を読んでください。
+    - 自分のユーザーと自分の動画のみをホストします。 利用可能な登録数とユーザーあたりの容量制限を定義できます。 フォローするように<strong>選択した</strong>インスタンスの動画のみがホームページに表示されます。
+    btn: ドキュメントを読む
+  how-it-works:
+    how:
+      title: 使い方
+      text:
+      - 誰もが<strong>インスタンス</strong>と呼ぶ PeerTube サーバーをホストできます。各インスタンスは、独自のユーザーとその動画をホストしています。また、管理者がユーザーに提案するためにフォローすることを選択したインスタンスの利用可能な動画のリストも保持します。
+      - 'すべてのアカウントには、ローカルのユーザー名 (例: @chocobozzz) とそれが存在するサーバーのドメイン名 (例: framatube.org)
+        で構成される、グローバルに一意の識別子 (例: @chocobozzz@framatube.org) があります。'
+      - PeerTube インスタンスの管理者は互いにフォローすることができます。PeerTube インスタンスが別の PeerTube インスタンスに従うと、このインスタンスから動画のプレビュー情報が表示されます。このようにして、あなたはあなたのインスタンスとあなたが従うことを決めたインスタンスで利用可能な動画を表示することができます。それであなたはあなたの
+        PeerTube インスタンスに表示される動画を管理し続ける!
+      btn: 質問はありますか?
+    why:
+      title: それはなぜクールなのですか?
+      text:
+      - サーバーは、さまざまな人や組織によって独立して実行されます。彼らは乱暴に異なる節度方針を適用することができるので、あなたはあなたの好みに完全に合うものを見つけるか、または作ることができます。
+      - 動画を視聴することによって、あなたはホスティングプロバイダがあなた自身で動画の放送局になることによってそれを放送するのを助けます。各インスタンスは、そのユーザーの動画を放送するために多くのお金を必要としません。
+      btn: はじめに
+footer:
+  text: の上に建てられた
+  thanks: ありがとう!
+faq:
+  title: PeerTube を発見するためのいくつかの質問…
+  clic: (答えを見つけるために質問をクリックしてください)
+  section:
+    prez: PeerTube プレゼンテーション
+    content: 作成とコンテンツ
+    tech: 技術的な質問
+  prez:
+    what:
+      title: PeerTube とは何ですか?
+      text:
+      - PeerTube は、Webサーバーにインストールするソフトウェアです。それはあなたが動画をホストするWebサイトを作成することを可能にするので、あなたの
+        ｢手作りの YouTube｣ を作成してください。
+      - YouTube との違いは、全世界からの動画を単一のサーバーファームで集中管理する巨大なプラットフォームを作成することを目的としていないことです (これは恐ろしいほど高価です)。
+      - それどころか、PeerTube のコンセプトは、相互接続された複数の小規模動画ホスティングプロバイダのネットワークを構築することです。
+    pros:
+      title: PeerTube の3つの主な利点
+      text:
+      - PeerTube は、(私たちの知る限りでは) 3つの利点を兼ね備えた唯一の動画ホスティングWebアプリケーションであるため、ユニークです。
+      - これら3つの機能を組み合わせることで、インターネットユーザーにとって実用的で倫理的で楽しいものでありながら、サーバー側で動画をホストすることが簡単になります。
+      list:
+      - 無料/自由なライセンス (倫理、尊重、およびコミュニティ主導の開発) に基づくオープンコード (透明性)。
+      - 相互接続されたホスティングプロバイダの連合 (あなたがそれらを見に行くところはどこでもそうとても動画の選択肢)。
+      - P2P放送 - そしてそれゆえ視聴 - (それで動画がバイラルになっても遅くなることはありません)。
+    libre:
+      title: なぜ無料/自由なソフトウェアとしてより良いのですか?
+      text:
+      - 設計上、無料/自由なソフトウェアは私たちの基本的な自由を尊重し、<a href="@:data.link.gitPT/blob/develop/LICENSE">ライセンス</a>によってそれらを保証するので、法的に強制力のある契約です。
+      - ここで具体的に言うと、
+      list:
+      - PeerTube は無料で提供されているので、サーバーにインストールするために料金を支払う必要はありません。
+      - PeerTube (そのソースコード) の内部を見ることができます。それは監査可能で、透明です。
+      - その開発はコミュニティベースです。それはみんなの貢献によって強化することができます。
+    federated:
+      title: 動画ホスティングプロバイダを連携させることにどのような関心がありますか。
+      text:
+      - YouTube (および他のプラットフォーム) の利点は、その動画カタログです。チュートリアルの編み物から Minecraft の構成、子猫や休日の動画まで、すべてを見つけることができます。
+      - 動画カタログが多様になればなるほど、より多くの人々が興味を持ち、より多くの動画がアップロードされます… が、世界中からの動画をホスティングすることは
+        (非常に、非常に) 高価です!
+      - ホスティングプロバイダの Knitting-PeerTube が Kittens-Tube や Framatube と友達になれば、他の人の動画がサイトに表示されるため、インターネットユーザーにとって実用的かつ完全なままでホスティングコストを削減できます。
+      - PeerTube の連携プロトコルは流動的になり (誰でも ｢友達｣ のホストを選択できます)、そして <a href="@:data.link.activitypub">ActivityPub</a>
+        に基づいています。これは Mastodon や MediaGoblin のようなツールと接続する可能性を開くでしょう。
+    p2p:
+      title: PeerTubeの動画をP2Pで放送するのはなぜですか?
+      text:
+      - 'あなたが動画のような大きなファイルをホストするとき、恐れるべき最大のものは成功です: 動画がウイルスになり、多くの人々が同時にそれを視聴するなら、サーバーは過負荷になる大きなリスクを持っています!'
+      - P2P放送では、<a href="@:link.wArticle/WebRTC">WebRTC</a> プロトコルのおかげで、同じ動画を同じ時間に見ているインターネットユーザー同士でファイルを交換できます。サーバーを解放します。
+      - 'やることは何もない: あなたのウェブブラウザは自動的にそれをする。携帯電話を使用している場合、またはネットワークでそれが許可されていない場合 (ルーター、ファイアウォールなど)、この機能は無効になり、｢旧式｣
+        の動画ブロードキャスト @:data.emoji.wink</> に戻ります。'
+    admin:
+      title: サーバーの管理方法を知っている人にとって、PeerTube は…
+      text:
+      - 'これは、動画がホストされ、放送するWebサイトを作成するために、<strong>サーバーにインストールするソフトウェア</strong>です… 基本的に:
+        あなた自身の  "自家製の YouTube" を作成します!'
+      - これを可能にする無料/自由なソフトウェアは既に存在します。しかし、PeerTube を使えば、あなたのインスタンス (あなたの動画Webサイト) を
+        Zaïd の PeerTube インスタンス (彼の大学の講義の動画をホストしている)、Catherin's (彼女のWebメディア動画をホストしている)、さらに
+        Solar の PeerTube インスタンス (誰かが vloggers 集団を管理します) にリンクすることができます。
+      - '<strong>しかし PeerTube は一元管理されていない: 連携する。</strong><a href="@:data.link.activitypub">ActivityPub</a>
+        プロトコル (無料/自由な Twitter の代替である <a href="@:data.link.mastodon">Mastodon</a> でも使用されている)
+        のおかげで PeerTube は、世界中の動画をホストするために何千ものハードディスクを購入する必要がないので、いくつかの小さなホスティング業者を連携させることができます。'
+      - その結果、あなたの PeerTube Webサイトでは、あなたの動画だけでなく、Zaïd、Catherin、または Solar がホストする動画も、視聴者が
+        PeerTube ベースのWebサイトでホストすることなく視聴できるようになります。動画カタログのそのような多様性はそれを非常に魅力的にします。YouTube
+        のような集中型プラットフォームを成功させたのは、このような幅広い動画の選択肢と多様性です。
+      - 連合にはもう1つの利点があります。<strong>全員が自立する</strong>。 Zaïd、Catherin、Solar そしてあなた自身があなた自身の規則、あなた自身の利用規約を作ることができます
+        (例えば、犬の動画が厳しく禁じられている MeowTube を想像することができます @:data.emoji.wink)。
+    video-maker:
+      title: 自分の動画をアップロードしたい人のために、PeerTube は許可します…
+      text:
+      - それはあなたが、あなたに合うホストを選ぶことを可能にします。 YouTube の超過は良い例です。その主催者である Google / Alphabet
+        は、｢Robocopyright｣ (ContentID システム) またはそのツールを使用して、動画のインデックスを作成、推薦、注目を集めることができます。そしてそれらのツールはあいまいであるほど不公平に見えます。それでも、すでに<a
+        href="@:data.link.tosdr">動画の著作権を無償で提供するよう強制されています</a>。
+      - PeerTube では、<strong>彼の利用規約に応じて動画のホストを選択することができます</strong>。彼のモデレートポリシー、連合の選択…
+        あなたに直面している技術巨人がいないので、あなたはできるかもしれません。あなたが今まで問題、必要性、またはあなたが望む何かを持っているならば、あなたと話をします。
+      - PeerTube のもう一つの大きな利点は、あなたのホストがあなたの動画のうちの1つの突然の成功を恐れる必要がないということです。確かに、PeerTube
+        は <a href="@:link.wArticle/BitTorrent">WebTorrent</a> というプロトコルで動画を放送しています。何百人もの人々があなたの動画を同時に見ている場合、彼らのブラウザは自動的にあなたの動画の一部を他の視聴者に送ります。
+      - このP2P放送の前は、成功したビデオグラファー (または話題を呼んでいる動画) は、インフラストラクチャが何百万もの同時視聴を処理できるWeb巨人によってホストされる運命にありました。負荷を握ることができます。
+    audience:
+      title: 動画を見たい人のために、PeerTube は提供することができます…
+      text:
+      - 利点の1つは、<strong>あなたが見ている動画の放送の一部になること</strong>です。他の人があなたと同時に PeerTube 動画を見ているなら、あなたのタブが開いている限り、あなたのブラウザはその動画の一部を共有し、あなたはインターネットのより健康的な使用に参加します。
+      - 'もちろん、PeerTube の動画プレーヤーはあなたの状況に適応します: あなたのインストールがP2P再生 (企業ネットワーク、難解なブラウザなど)
+        を許可しない場合、動画の再生は古典的な方法で行われます。'
+      - しかしなによりも、<strong>PeerTube はあなたを製品としてではなく、人のように扱います</strong>、頭脳時間を売り込むために動画ループを追跡、プロファイル、およびロックする必要があります。そのため、PeerTube
+        ソフトウェアの<a href="@:data.link.gitPT">ソースコード</a> (レシピ) が開かれているため、操作は透過的です。
+      - <strong>PeerTube はオープンソースだけではありません。自由です (言論の自由のように)。</strong>その自由なライセンスは、ユーザーとしての基本的な自由を保証します。Framasoft
+        があなたをこのソフトウェアに貢献するように誘うことを可能にするのは、私たちの自由に対するこの尊重であり、そしてあなたの何人かによってすでに多くの進化
+        (革新的なコメントシステムなど) が提案されています。
+    remplace-yt:
+      title: PeerTube の目的は YouTube を置き換えることですか?
+      text:
+      - '確実に答えることができます: いいえ!'
+      - 2018年3月に、PeerTube はその公に使用可能なベータ版をリリースしました。いくつかの集団が最初のインスタンスを設定し、それによって連合の基盤を作り出しました。
+      - しかし、これはほんの始まりに過ぎず、PeerTubeは (まだ) 完璧ではなく、多くの機能が欠けています。しかし、我々は日々それを改善し続けるつもりです。
+      - 2018年3月は、このように PeerTube 連合が誕生したことを表しています。このソフトウェアがより多く使用され、サポートされるほど、より多くの人々がそれを使用し、貢献するようになります。
+      - それにもかかわらず、野心は<strong>自由で分散型の代替品</strong>であることに変わりはありません。代替案の目的は、既存のものと並行して、置き換えることではなく、異なる値で何かを提案することです。
+  content:
+    law:
+      title: 自由であることは、違法なものをアップロードできますか。
+      text:
+      - 自由であることは、法律を超えることを意味するのではありません。各 PeerTube ホスティングプロバイダは、それぞれの地域の法律に従うことにより、それ自体の一般的な使用条件を決定することができます。
+      - たとえば、フランスでは、差別的なコンテンツ<a href="https://fr.wikipedia.org/wiki/Lois_contre_le_racisme_et_les_discours_de_haine">は禁止</a>
+        [French] されており、<a href="http://stop-discrimination.gouv.fr/agir/ne-pas-laisser-faire-les-recours">当局に報告</a>
+        [French] してください。PeerTube では、ユーザーが問題のある動画を報告することができます。各管理者は、その利用規約と法律に従って、モデレートを適用する必要があります。
+      - 連合システムは、その一部として、コンテンツの種類や他のユーザーのモデレートポリシーに応じて、接続する相手をホストが決定できるようにします。
+    responsible:
+      title: 誰が PeerTube で公開されたコンテンツに責任がありますか?
+      text:
+      - PeerTube は Webサイトではありません。Webホスト (Dominique など) が動画Webサイトを作成できるようにするソフトウェアです
+        (DominiqueTube と呼びましょう)。
+      - Camille が DominiqueTube でアカウントを作成し、違法な動画をアップロードしたとしましょう。この動画は Solal が作成した音楽を使用しているためです。
+      - Solal は、Framatube (DominiqueTube に続くインスタンス) を続けます。それで Solal は、Framatube から
+        DominiqueTube で公開された動画を視聴することができます。
+      - Solal は Camille の違法な動画を視聴して、その目的のために提供されたボタンでそれを知らせます。レポートはFramatube から作成されていますが、違法コンテンツをホストしている人、Dominique
+        に直接送信されます。
+      - その瞬間から、Dominique が責任を負っています。彼らは違法な動画をホストしていると警告されているからです。それゆえ、彼らが法律の前に責任を負わされたくないのであれば、行動するのは彼ら次第です。
+      - それから、Dominique と Solal は、動画をアップロードした Camille に反対することができます。
+    money:
+      title: PeerTube の報酬方針は何ですか?
+      text:
+      - OrderedDict([(｢現時点ではない、存在しない｣、｢PeerTubeは報酬に関して中立を望んでいたツールです。｣)])
+      - '今のところ、動画をアップロードする人々に提案された解決策は動画の下の ｢支持｣ ボタンを使用することです。このボタンは、動画をアップロードする人がテキスト、画像、およびリンクを自由に表示できるフレームを表示します。たとえば、そこに
+        Patreon、Tipeee、Paypal、Liberapay (または他のソリューション) へのリンクを置くことが可能です。その他の例: 物理的なお礼状を受け取りたい場合は住所を記入し、企業のロゴを記入したり、非営利団体を支援するためのリンクを記入したりします。'
+      - 1つの技術的解決策を支持することは、コードの中で、文化的共有とその資金調達という政治的ビジョンを課すことになるため、私たちはこれ以上先に進みませんでした。すべての金融ソリューションは可能であり、PeerTube
+        でも同様に扱われます。
+      - しかし、PeerTube の多くの改良が期待されています… あなたがあなたに興味を起こさせる貨幣化ツールを作成する (そして選択する) ことを可能にするものを含む!
+      - それにもかかわらず、インターネット上 (そして YouTube 上さえ) で公開されている動画の大多数は市場以外の目的で共有されていることを覚えておく価値があります。報酬はツールですが、必ずしも主な目的ではありません。
+    instances:
+      title: 私の動画はどこに置くことができますか?
+      text:
+      - あなたが信頼する PeerTube ホスティングインスタンスを見つける必要があります。
+      - 完全な <a href="@:data.link.instancesPT">こちらのインスタンスの一覧</a>、および <a href="./#getting-started">登録可能な一覧はこちらです。</a>
+      - それから、インスタンスに行き、それらについての "about" ページを読んでそれらの利用規約 (1ユーザーあたりの容量制限、コンテンツポリシーなど)
+        を見つけてください。
+      - ビジネスモデルやビジョンなどを理解するには、ホスティングプロバイダに直接連絡して話すことが最善です。自分だけが自分やそのようなホストを信頼する理由を判断し、自分の動画を提供することができるからです。
+    pornography:
+      title: PeerTube にはたくさんのポルノ動画があります!
+      text:
+      - いいえ。2018年10月、平均インスタンスが最大 200 インスタンスで、最大 16,000 動画のインデックスを作成している場合、NSFWとしてタグ付けされているのは最大
+        200 動画のみです (すなわち、センシティブなコンテンツで、ポルノ以外の何かをすることができました)。したがって、それらは全動画の1％以下にすぎません。
+      - さらに、各管理者はどのインスタンスと連携したいかを決定します。彼は自分のインスタンスに表示したいコンテンツを完全に制御できます。この種の動画に関する方針を選ぶのは彼次第です。<ul><li>表示する</li><li>タイトルとサムネイルをぼかす</li><li>隠す</li></ul>
+      - デフォルトでは、この設定は ｢非表示｣ に設定されています。たとえば、ぼかしフィルタを使用して表示することを決定した管理者がいる場合は、[<strong>彼ら</strong>]
+        を選択します。
+      - 最後に、どのユーザーもこの設定を上書きして、自分でこれらの動画を表示するか、ぼかすか、または非表示にするかを決定します。
+      - PeerTube は単なるソフトウェアです。Framasoft (PeerTube を開発している非営利団体) では、場合によっては公開されているコンテンツを担当するわけではありません。
+      - 責任を負うのは、親、訪問者、アップローダー、PeerTube 管理者の責任です。
+  forum: フォーラムで議論する
+  tech:
+    install:
+      title: PeerTubeをインストールするにはどうすればいいですか?
+      text:
+      - <a href="@:data.link.gitPT/blob/develop/support/doc/production.md">インストールガイドはこちら</a>です
+        (当面は英語版のみ)。
+      - PeerTube をローエンドのハードウェアや弱い接続の背後 (たとえば、ADSL 接続を持つ Raspberry Pi など) にインストールしないことをお勧めします。これにより、すべての連携が遅くなる可能性があります。
+      - 'あなたのインスタンスをインストール支援するために、開発者を気にしないでください: 私たちは、そのための<a href="@:link.forumPT">サポートフォーラム</a>を持っています。'
+    moderation:
+      title: PeerTube v1.0 には、私のインスタンスをうまく管理するために必要なすべてのツールが含まれているとは思われません。
+      text:
+      - <blockquote>｢それはとんでもないし無意識だ。権利保持者が主張する動画を効果的に管理したり、コメントでオンラインの嫌がらせの問題を効果的に管理したり、広告を通じて収益化を効果的に管理するのに必要なツールが含まれない
+        (または PeerTube への要求をここに挿入してください。) それは決してうまくいきません。あなたはそれについて何をするつもりですか?｣</blockquote>
+      - あなたが正しい。 PeerTube 1.0 は完璧なツールではありません。そして私たちは、この バージョン 1.0 がすべてのケースに対応するすべての機能を含むツールになるとは約束しませんでした。
+      - PeerTube 1.0 は、2017年10月に、PeerTube をアルファ版 (個人プロジェクトおよび連合動画プラットフォームで機能することができるという概念実証)
+        から 1.08 版 (2018年10月) に移行することを実現したものです。(これは ｢最終版｣ を意味するのではなく、｢安定版および頒布可能版｣
+        を意味します)。
+      - PeerTube には1人の (ほぼ) フルタイムの開発者と、ほんの一握りの非常に関与したボランティアしかいないことを忘れないでください。これは、フルタイムのチーム
+        (開発、設計、UX、マーケティング、サポートなど) と著しい経済的支援を得たスタートアップによって開発された製品ではありません。それはコミュニティフリーソフトウェアであり、その開発は数カ月間継続し、そして、今後数年間は願っています。
+      - 私たちは PeerTube 1.0 の欠点、特にモデレーションツールの分野 (動画、コメントなど) をよく知っています。そして私達はこれらの弱点に取り組むつもりです。
+      - 次のようにして選択しました。一方で、PeerTube 自体の中で (ソフトウェアの<i>コア</i>で) これらのツールを改良するために、今後数カ月間は主に作業する予定です。一方、2019年の
+        PeerTube の開発努力の大部分は、コミュニティが開発できるプラグインシステムの統合にも並行して焦点を当てます。
+      - 確かに、私たちはその背後にある科学を持っているとは主張せず、それぞれのニーズに応じてそれぞれのツールを管理するための最良の方法を知っています。例えば、DMCA
+        要求の問題に関しては、地理的管轄によって事件は異なります (ヨーロッパの法律はフランスの法律とは異なり、カナダの法律とは異なり、アメリカの法律とは異なるなど)。コメントをモデレートするためのツールに関しては、これもまたそうではないので、ここでもまた、私たち自身がその主題についての専門家を宣言することはできません。
+      - <i>コア</i>の両方に作用するだけでなく、プラグインの開発を可能にすることによって、PeerTube は、長期的には、これらの問題にはるかに良い応答し、異なるコミュニティが彼らのニーズに
+        PeerTube を適応させることができることを信じています。
+      - 私たちは PeerTube を改善するためにできるだけ早く取り組んでいますが、私たちは持っているリソースを使ってそうしています。それは<strong>非常に</strong>限られていることを意味します。
+      - それまでの間、PeerTube 1.0 が現在あなたのニーズを満たしていないと感じているならば、それは簡単です。今は使わないでください:) (明らかにその成功を願って、私たちの協会の存続はそれに依存しません)。
+      - 管理者として、あなたが DMCA 要求を恐れているならば、あなたが知っている人々に登録の開始を制限するオプションがあります。これらの検証ツールが統合された後、またはそれらを開発した後、検証なしで登録を再度開くことができます。
+    code:
+      title: PeerTube のコードに貢献するにはどうすればいいですか。
+      text:
+      - PeerTube の <a href="@:data.link.gitPT">Git リポジトリはこちら</a>です。
+      - <a href="@:data.link.gitPT/issues">課題を作成</a>したり、寄稿したり、あるいは<a href="@:data.link.gitPT/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">始める人のために簡単な問題を選ぶ</a>ことによって貢献することさえできます。
+      - 他の方法で手助けをしたい場合、または機能を要求したい場合は、<a href="@:link.forumPT">投稿フォーラム</a>で議論してください。
+    protocol:
+      title: なぜ PeerTube は ActivityPub 連合プロトコルを使用しますか? IPFS / D.tube / Steemit ではないのはなぜですか?
+      text:
+      - PeerTube は ActivityPub を使用しています。これは、この連携プロトコルが W3C によって推奨されており、すでに連携ソーシャルネットワーク
+        Mastodon によって使用されているためです。
+      - IPFS は優れたテクノロジですが、大規模ファイルの大規模ストリーミングにはまだまだ (非常に) 若いようです。
+      - 私たちのフォーラムでそれを議論した後、コンパイルされたコードだけを公開することは修正の自由を妨げるので、私たちは D.tube がフリーまたはオープンソースではないと感じます。
+      - D.tube は ｢報酬｣ について Steem に基づいていますが、これは選択ですが、Steemit は <a href="https://ja.wikipedia.org/wiki/Steemit#%E6%89%B9%E5%88%A4">広く批判</a>されています。<a
+        href="https://steemit.com/steemit/@docdelux/30-days-of-steemit-here-is-my-criticism">集中型</a>
+        [English]、そして疑わしいことに<a href="https://steemit.com/steemit/@thecryptonews/psa-constructive-criticism-the-ugly-truth-behind-steemit">Ponziシステムに似ています</a>
+        [English]。
+      - PeerTube は無料、分散型、配布型であり、いかなる報酬モデルも課されません。これが私たちが行った選択であり、議論の余地があります。他の人 (D.tubeなど)
+        が他の選択をしましたが、それらには利点があります。だからあなたに合ったものを見るのはあなた次第です。
+hof:
+  title: 栄誉殿堂
+  sponsors: スポンサー
+  donators: 財務貢献者
+  dev: 貢献者
+  contrib: コードに貢献する
+news:
+  title: PeerTube の最新情報
+  subtitle: ツールの最新の改善点を発見
+  latest-articles: Latest articles
+  blocs:
+    newsletter26-02-2019:
+      title: 'PeerTube: 回顧展、新機能など'
+      date:
+        text: 26 February 2019
+        data: '2019-02-26'
+      text:
+        p1: バージョン1.0が2017年11月にリリースされて以来、私たちはPeerTubeの改良を日々続けていました。バージョン 1.0 が昨年11月にリリースされて以来、私たちはPeerTubeの改良を日々続けていました。彼らはソフトウェアを開発する
+          <a href="https://framasoft.org/en/">Framasoft 非営利団体</a> [English] によって資金提供されています
+          (そして <a href="https://soutenir.framasoft.org/en/">あなたの寄付</a> [English] を通してのみ生きる)。
+        p2: これは、2018年末 / 2019年初頭の小さな回顧展です。
+        p3: 2018年12月に、インスタンス管理者から要求されたモデレーションツールを含むバージョン 1.1 をリリースしました。<br>また、動画再生履歴機能と動画再生の自動再開機能を追加しました。
+        p4: 2019年1月に、ロシア語、ポーランド語、イタリア語の3つの新しい言語をサポートするバージョン 1.2 をリリースしました。PeerTube
+          の翻訳者コミュニティのおかげで、PeerTube は現在 16 の異なる言語に翻訳されています!
+        p5: このバージョンには、自分の動画がコメントされたとき、誰かがそれらを言及したとき、購読の1つが新しい動画を公開したときなどに、ユーザーに通知することができる通知システムも含まれます。
+        p6: その間に、PeerTube 連合は拡大しました。今日では、300 以上のインスタンスが 7 万以上の動画を放送しており、累計で約 200 万の視聴があります。PeerTube
+          の周辺で管理している唯一の公式Webサイトは <a href="https://joinpeertube.org/ja">https://joinpeertube.org/ja</a>
+          であり、公開される可能性がある他のサイトについては一切責任を負いません。
+        p7: ご覧のとおり、クラウドファンディングが資金提供したものをはるかに超えています。<br>2019年には、プラグインおよびテーマ管理システム (最初は基本的なものであっても)、プレイリスト管理、オーディオファイルのアップロードのサポート、その他多くの機能を追加する予定です。
+        p8: 'PeerTubeの成長にも貢献するのであれば、ここでその資金に参加することができます: <a href="https://soutenir.framasoft.org/en">https://soutenir.framasoft.org/en</a>
+          [English]'
+        p9: '質問がある場合は、私たちのフォーラムを使用してください: <a href="https://framacolibri.org/c/peertube">https://framacolibri.org/c/peertube</a>
+          [French]'
+        p10: ありがとうございました。
+        p11: Framasoft
+    newsletter16-10-2018:
+      title: 'PeerTube crowdfunding newsletter #4'
+      date:
+        text: 16 October 2018
+        data: '2018-10-16'
+      text:
+        p1: Hello everyone!
+        p2: We are now in mid-October! As promised, we have just released the first
+          stable version of PeerTube.
+        p3: 'It implements all stretch goals we planned in our crowdfunding: <ul><li>Localization
+          support (as we write these lines, PeerTube is already available in 13 different
+          languages!)</li> <li>Subtitles support</li> <li>Ability to import videos
+          through an URL (YouTube, Vimeo, Dailymotion and many others!)</li> <li>Ability
+          to import a video through a torrent file or a magnet URI</li> <li>RSS feeds,
+          allowing you to track new videos published in all federated PeerTube instances,
+          in a specific PeerTube instance or in a video channel you like. You can
+          also subscribe to comment feeds!</li> <li>A more relevant search, with the
+          ability to set advanced filters (duration, category, tags...)</li> <li>Subscriptions
+          throughout the federation: you can follow your favorite video channels and
+          see all the videos on a dedicated page</li> <li>Redundancy system: a PeerTube
+          instance can help sharing some videos from another instance</li> </ul>'
+        p4: ' We know that feature descriptions are not very amusing, so we have published
+          a few demonstration videos: <ul> <li><a href="https://framatube.org/videos/watch/f57da309-6b92-4fe0-9267-ff8188cc050c">RSS
+          Feeds</a></li> <li><a href="https://framatube.org/videos/watch/dcad56d9-9fe6-45bc-96aa-3d778f6804c1">Torrent
+          import</a></li> <li><a href="https://framatube.org/videos/watch/59d306c0-fc5b-493a-956a-43785693346b">YouTube
+          video import</a></li> <li><a href="https://framatube.org/videos/watch/edd7a468-08d5-4877-b62b-61c5f3f83ceb">Adding
+          subtitles</a></li> <li><a href="https://framatube.org/videos/watch/60c4bea4-6bb2-4fce-8d9f-8a522575419d">Advanced
+          search</a></li> <li><a href="https://framatube.org/videos/watch/8968dbe1-a387-433b-a20f-37fe9f3ca8d5">Video
+          channel subscriptions</a></li> </ul>'
+        p5: 'This is the last newsletter regarding the PeerTube crowdfunding. We would
+          like to thank you one more time, for allowing us to greatly improve PeerTube,
+          and therefore to promote a more decentralized web. But the journey does
+          not end here: we will continue to work on the software, and there is still
+          a lot to do to fully free up video streaming. But before anything, we''ll
+          take a few days off ;)'
+        p6: We remind you that you can ask questions on <a href="https://framacolibri.org/c/qualite/peertube">the
+          PeerTube forum</a>. You can also contact us directly on <a href="https://contact.framasoft.org">
+          https://contact.framasoft.org</a>.
+        p7: Cheers,<br>Framasoft
+    newsletter12-09-2018:
+      title: 'PeerTube crowdfunding newsletter #3'
+      date:
+        text: September 12, 2018
+        data: '2018-09-12'
+      text:
+        p1: Hello everyone!
+        p2: A month before the version 1 of PeerTube, we would like to share some
+          (good!) news with you.
+        p3: We just released PeerTube <em>beta 12</em>, that allows to subscribe to
+          video channels, whether they are on your instance or even on remote instances.
+          This way, you can browse videos of your subscribed channels in a dedicated
+          page. Moreover, if your PeerTube administrator allows it, you can search
+          a channel or a video directly by typing their web address in the PeerTube
+          search bar.
+        p4: It was not included in the crowdfunding, but we created an "Overview"
+          page, that displays videos of some categories/tags/channels picked randomly,
+          to show the diversity of the videos uploaded on PeerTube. You can see <a
+          href="https://peertube3.cpy.re/videos/overview">a demonstration here</a>.
+        p5: You can read the complete <em>beta 12</em> changelog <a href="https://github.com/Chocobozzz/PeerTube/blob/develop/CHANGELOG.md#v100-beta12">here</a>.
+        p6: 'Regarding the crowdfunding, most of the rewards are ready: <a href="https://github.com/Chocobozzz/PeerTube">the
+          PeerTube README</a> and <a href="https://joinpeertube.org/fr/hall-of-fame/">the
+          JoinPeerTube Hall of Fame</a> show off the names of the persons who have
+          chosen the corresponding rewards. We will soon be able to send the personalized
+          thank-you digital arts to people that gave 80€ (~93 USD) and more (and it''s
+          so beautiful that we are looking forward to it!)'
+        p7: The last feature we have to implement is the videos redundancy between
+          instances, which will further increase resilience on instance overload.
+          If all goes well, we should finish it in about two weeks (end of september).
+        p8: We remind you that you can track the progress of the work directly <a
+          href="https://github.com/Chocobozzz/PeerTube"> on the git repository</a>,
+          and be part of the discussions/bug reports/feature requests in the "Issues"
+          tab.
+        p9: Moreover, you can ask questions on <a href="https://framacolibri.org/c/qualite/peertube">the
+          PeerTube forum</a>. You can also contact us directly on <a href="https://contact.framasoft.org">https://contact.framasoft.org.</a>
+        p10: Cheers,<br>Framasoft
+    newsletter20-08-2018:
+      title: 'PeerTube crowdfunding newsletter #2'
+      date:
+        text: August 20, 2018
+        data: '2018-08-20'
+      text:
+        p1: Hello everyone!
+        p2: The development of the crowdfunding features is going well.
+        p3: As a reminder, in the first newsletter (July 23rd, 2018), we announced
+          that the localization system and RSS feeds were implemented, and that we
+          were making progress on the subtitles support and the advanced search.
+        p4: These four features are all implemented, and can already be used on instances
+          updated to version <em>v1.0.0-beta.10</em> (for example <a href="https://framatube.org">https://framatube.org</a>).
+          Regarding the subtitles support, you can test them on the <a href="https://framatube.org/videos/watch/217eefeb-883d-45be-b7fc-a788ad8507d3">
+          the "What is PeerTube"</a> video.
+        p5: We are currently finishing the video import system, from a URL (YouTube,
+          Vimeo etc) or a torrent file. This feature should be available in a few
+          days, when we will release a new version (<em>v1.0.0-beta.11</em>).<br>
+          The import system will complete the first crowdfunding goal. The next feature
+          we will be working on will be the user subscriptions.
+        p6: We remind you that you can track the progress of the work directly <a
+          href="https://github.com/Chocobozzz/PeerTube"> on the git repository</a>,
+          and be part of the discussions/bug reports/feature requests in the "Issues"
+          tab.
+        p7: Moreover, you can ask questions on <a href="https://framacolibri.org/c/qualite/peertube">the
+          PeerTube forum</a>. You can also contact us directly on <a href="https://contact.framasoft.org">https://contact.framasoft.org.</a>
+        p8: Cheers,<br>Framasoft
+    newsletter23-07-2018:
+      title: 'PeerTube crowdfunding newsletter #1'
+      date:
+        text: 23 July 2018
+        data: '2018-07-23'
+      text:
+        p1: Hello everyone!
+        p2: First of all, thank you again for contributing to PeerTube! ❤️
+        p3: 'During the crowdfunding campaign, we continued to work on the localization
+          system. And we are happy to announce it''s finally completed: it will be
+          available in the next beta (<em>beta 10</em>) of PeerTube. As of this writing,
+          the web interface is already available in english, french, basque, catalan,
+          czech and esperanto (huge thank you to <a href="https://github.com/Chocobozzz/PeerTube/blob/develop/CREDITS.md#translations">
+          all of the translators</a>). If you too want to help translating PeerTube,
+          do not hesitate to check out <a href="https://github.com/Chocobozzz/PeerTube/blob/develop/support/doc/translation.md">the
+          documentation</a>!'
+        p4: Regarding the RSS feeds feature, it was already implemented by <a href="https://github.com/rigelk">Rigelk</a>
+          and you can already use it in the <em>beta 9</em>. You can, for example,
+          get <a href="https://framatube.org/feeds/videos.xml?sort=-publishedAt&filter=local">
+          the feed of the last local videos uploaded in a particular instance</a>.
+        p5: Subtitles support is well under way, and we should have a first version
+          available soon. When this work is finished, we will develop the advanced
+          search.
+        p6: We remind you that you can track the progress of the work directly <a
+          href="https://github.com/Chocobozzz/PeerTube"> on the git repository</a>,
+          and be part of the discussions/bug reports/feature requests in the "Issues"
+          tab.
+        p7: Moreover, you can ask questions on <a href="https://framacolibri.org/c/qualite/peertube">the
+          PeerTube forum</a>. You can also contact us directly on <a href="https://contact.framasoft.org">https://contact.framasoft.org.</a>
+        p8: Cheers,<br>Framasoft
