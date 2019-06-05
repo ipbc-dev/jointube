@@ -498,6 +498,63 @@ news:
   subtitle: Découvrez les dernières améliorations de l'outil
   latest-articles: Derniers articles
   blocs:
+    newsletter05-06-2019:
+      title: PeerTube 1.3 is out!
+      date:
+        text: 5 Juin 2019
+        data: '2019-06-05'
+      text:
+        p1: Bonjour à toutes et à tous,
+        p2: Nous venons tout juste de sortir la version 1.3 de PeerTube qui apporte
+          tout un tas de nouveautés.
+        p3: 'La plus importante de ces nouveautés est <strong>le système de listes
+          de lecture</strong> (ou playlists). Cette fonctionnalité permet à n’importe
+          quel utilisateur⋅ice de créer une liste de lecture, puis d’y ajouter des
+          vidéos et de les ordonner. Les vidéos ajoutées au sein d''une liste de lecture
+          peuvent être visionnées dans leur intégralité ou en partie : le créateur
+          de la liste de lecture peut décider à quel moment de la vidéo le visionnage
+          commence et/ou se termine. Ce système est vraiment pratique pour créer des
+          sortes de zappings ou du contenu pédagogique en sélectionnant les extraits
+          des vidéos qui vous intéressent. De plus, une liste de lecture "À regarder
+          plus tard" est créée par défaut pour chaque utilisateur⋅ice leur permettant
+          d''enregistrer dans cette liste de lecture les vidéos qu''ielles n''ont
+          pas le temps de regarder immédiatement.'
+        p4: 'Une autre des fonctionnalités de cette version 1.3 a été entièrement
+          développée par un contributeur externe : <a href="https://github.com/joshmorel">Josh
+          Morel</a>. Cela permet d''ajouter à PeerTube un <strong>système de quarantaine
+          pour les vidéos</strong>. Si l’administrateur de l''instance active cette
+          fonctionnalité, toute nouvelle vidéo téléversée sur son instance sera automatiquement
+          rendue non-visible en attendant qu’un modérateur l''approuve ou non.'
+        p5: 'Les traducteurs de PeerTube ont aussi fait un énorme travail car <strong>3
+          nouvelles langues</strong> sont désormais disponibles : le japonais, le
+          néerlandais et le portugais européen (l’interface supportait déjà le portugais
+          brésilien). A ce jour, PeerTube est donc disponible en 19 langues !'
+        p6: 'Les administrateurs peuvent maintenant <strong>gérer plus finement les
+          autres instances s’abonnant à leur instance</strong> : un administrateur
+          peut décider d''approuver ou non l''abonnement d''une autre instance à la
+          sienne. Il est aussi possible d''activer le refus automatique tout nouvel
+          abonnement à son instance. Enfin, une notification est créée dès que son
+          instance reçoit un nouvel abonnement. Ces fonctionnalités permettent à chaque
+          administrateur de maîtriser plus facilement la diffusion des contenus mis
+          en ligne sur leur instance.'
+        p7: Nous sommes aussi en train de retravailler le <strong>lecteur vidéo de
+          PeerTube</strong> afin que la lecture des vidéos soit plus rapide et comporte
+          moins de bugs. Ce nouveau lecteur vidéo permet aussi de rendre plus lisses
+          les changements de définition.  Enfin, la gestion de la bande passante est
+          optimisée via un système de mise en mémoire tampon plus performant. Cette
+          version 1.3 de PeerTube permet à l'administrateur d'activer ce nouveau lecteur
+          vidéo expérimental afin pour nous de récolter des retours dessus. Nous espérons
+          dans l’avenir utiliser ce nouveau lecteur vidéo par défaut.
+        p8: Enfin, nous avons fait quelques ajustements au niveau de <strong>l’interface
+          utilisateur⋅ice</strong>, pour qu’elle soit plus agréable/efficace à utiliser.
+          Par exemple, les miniatures ont changé de taille pour être davantage mises
+          en valeur. Les utilisateur⋅ices peuvent désormais accéder rapidement à partir
+          du menu à leur bibliothèque qui comprend leur listes de lecture, leurs vidéos,
+          leur historique de visionnage et leurs abonnements.
+        p9: Beaucoup d'autres améliorations ont été apportées dans cette nouvelle
+          version. Vous pouvez voir la liste complète (en anglais) sur https://github.com/Chocobozzz/PeerTube/releases/tag/v1.3.0.
+        p10: Merci à tous les contributeurs de PeerTube !
+        p11: Framasoft
     newsletter26-02-2019:
       title: 'PeerTube : rétrospective et nouvelles fonctionnalités : l''actu de février
         2019'
