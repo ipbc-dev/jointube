@@ -18,7 +18,8 @@
               ></iframe>
             </div> -->
             <p>
-              <img alt="PeerTube" :src="`${$root['/']}icons/favicon.png`"> <span v-html="$t('home.banner.title')"></span>
+              <img alt="PeerTube" :src="`${$root['/']}icons/favicon.png`">
+              <a v-if="getLatestNews" v-bind:href="getLatestNews.url">{{ getLatestNews.title }}</a>
             </p>
             <p class="text-left" v-html="$t('home.banner.subtitle')"></p>
             <a class="frama_campaign" href="https://framasoft.org" v-html="$t('home.banner.button')"></a>
@@ -162,6 +163,29 @@ import InstancesComponent from '../partials/Instances.vue'
 export default {
   components: {
     InstancesComponent
+  },
+  computed: {
+    getLatestNews: function () {
+      const blocs = this.$t('news.blocs')
+      if (typeof blocs !== 'object') return undefined
+
+      let latest
+      for (const key of Object.keys(blocs)) {
+        const bloc = blocs[key]
+        Object.assign(bloc, { url: 'news#' + key })
+
+        if (!latest) {
+          latest = bloc
+          continue
+        }
+
+        if (latest.date.data < bloc.date.data) {
+          latest = bloc
+        }
+      }
+
+      return latest
+    }
   }
 }
 </script>
