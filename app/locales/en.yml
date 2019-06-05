@@ -486,7 +486,7 @@ news:
           it.'
         p5: 'PeerTube translation community have done a huge job. <strong>3 new languages</strong>
           are now available: Japanese, Dutch and European Portuguese (PeerTube already
-          support Brazilian Portuguese). Amazing ! PeerTube is now available in 19
+          support Brazilian Portuguese). Amazing! PeerTube is now available in 19
           languages!'
         p6: Now, administrators can <strong>manage more finely how other instances
           subscribe to their own instance</strong>. The administrator can decide whether
@@ -507,7 +507,7 @@ news:
           their library from the menu that includes their playlists, videos, video
           watching history and their subscriptions.
         p9: Many other improvements have been made in this new version. You can see
-          the complete list on https://github.com/Chocobozzz/PeerTube/releases/tag/v1.3.0.
+          the complete list on <a href="https://github.com/Chocobozzz/PeerTube/releases/tag/v1.3.0">https://github.com/Chocobozzz/PeerTube/releases/tag/v1.3.0</a>.
         p10: Thanks to all PeerTube contributors!
         p11: Framasoft.
     newsletter26-02-2019:

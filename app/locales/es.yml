@@ -504,13 +504,13 @@ news:
           by default for each user. Thus, you can save videos in this playlist when
           you don''t have time to watch them immediately.'
         p4: 'Another feature of this 1.3 version has been entirely developed by an
-          external contributor: Josh Morel (https://github.com/joshmorel) who add
-          a quarantine system for videos on PeerTube. If the administrator of an instance
-          enables this feature, any new video uploaded on his instance will automatically
-          be hidden until a moderator approves it.'
+          external contributor: <a href="https://github.com/joshmorel">Josh Morel</a>
+          who add a quarantine system for videos on PeerTube. If the administrator
+          of an instance enables this feature, any new video uploaded on his instance
+          will automatically be hidden until a moderator approves it.'
         p5: 'PeerTube translation community have done a huge job. 3 new languages
           are now available: Japanese, Dutch and European Portuguese (PeerTube already
-          support Brazilian Portuguese). Amazing ! PeerTube is now available in 19
+          support Brazilian Portuguese). Amazing! PeerTube is now available in 19
           languages!'
         p6: Now, administrators can manage more finely how other instances subscribe
           to their own instance. The administrator can decide whether or not to approve
@@ -531,7 +531,7 @@ news:
           from the menu that includes their playlists, videos, video watching history
           and their subscriptions.
         p9: Many other improvements have been made in this new version. You can see
-          the complete list on https://github.com/Chocobozzz/PeerTube/releases/tag/v1.3.0.
+          the complete list on <a href="https://github.com/Chocobozzz/PeerTube/releases/tag/v1.3.0">https://github.com/Chocobozzz/PeerTube/releases/tag/v1.3.0</a>.
         p10: Thanks to all PeerTube contributors!
         p11: Framasoft.
     newsletter26-02-2019:
