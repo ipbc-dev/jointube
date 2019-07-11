@@ -345,20 +345,20 @@ faq:
         and indexing ~16000 videos, only ~200 videos are tagged as NSFW (i. e. the
         content is sensitive, which could be something else than pornography). Therefore,
         they represent only ~1% of all the videos.
-      - 'Moreover, each administrator decides with which instances he wants to federate:
-        he has the full control of the content he wants to display on his instance.
-        It''s up to him to choose the policy regarding this kind of videos. He can
-        decide to: <ul><li>Display them</li><li>Blur the title and thumbnail</li><li>Hide
-        them</li></ul>'
+      - "Moreover, each administrator decides with which instances he wants to federate:\
+        \ he has the full control of the content he wants to display on his instance.\
+        \ It's up to him to choose the policy regarding this kind of videos. He can\
+        \ decide to: <ul><li>Display them</li><li>Blur the title and thumbnail</li><li>Hide\
+        \ them</li></ul>"
       - By default, this configuration is set to "Hide them". If some administrators
         decide to display them with a blur filter for example, it's <strong>their</strong>
         choice.
       - Finally, any user can override this configuration, and decides if he want
         to display, blur or hide these videos for himself.
-      - 'PeerTube is just a software: it''s not Framasoft (non-profit that develops
-        PeerTube) that''s responsible for the content published on some instances.'
-      - 'It''s up to everyone to be responsible: parents, visitors, uploaders, PeerTube
-        administrators to respect the law and avoid any problematic situations.'
+      - "PeerTube is just a software: it's not Framasoft (non-profit that develops\
+        \ PeerTube) that's responsible for the content published on some instances."
+      - "It's up to everyone to be responsible: parents, visitors, uploaders, PeerTube\
+        \ administrators to respect the law and avoid any problematic situations."
   forum: Discuss on our forum
   tech:
     install:
@@ -469,15 +469,15 @@ news:
       text:
         p1: Hello!
         p2: We've just released PeerTube 1.3 and it brings a lot of new features.
-        p3: 'The most important of these new features is <strong>the playlist system</strong>.
-          This feature allows any user to create a playlist in which it''s possible
-          to add videos and reorder them. Videos added to a playlist can be viewed
-          entirely or partially: the creator of the playlist can decide when the video
-          playback starts and/or ends (timecode system). This system is really useful
-          to create all kinds of zappings or educational contents by selecting extracts
-          from videos which interest you. In addition, a "Watch Later" playlist is
-          created by default for each user. Thus, you can save videos in this playlist
-          when you don''t have time to watch them immediately.'
+        p3: "The most important of these new features is <strong>the playlist system</strong>.\
+          \ This feature allows any user to create a playlist in which it's possible\
+          \ to add videos and reorder them. Videos added to a playlist can be viewed\
+          \ entirely or partially: the creator of the playlist can decide when the\
+          \ video playback starts and/or ends (timecode system). This system is really\
+          \ useful to create all kinds of zappings or educational contents by selecting\
+          \ extracts from videos which interest you. In addition, a \"Watch Later\"\
+          \ playlist is created by default for each user. Thus, you can save videos\
+          \ in this playlist when you don't have time to watch them immediately."
         p4: 'Another feature of this 1.3 version has been entirely developed by an
           external contributor: <a href="https://github.com/joshmorel">Josh Morel</a>
           who add <strong>a quarantine system</strong> for videos on PeerTube. If
@@ -527,9 +527,9 @@ news:
           tools requested by instance administrators.<br> We also took the opportunity
           to add a watched videos history feature and the automatic resuming of video
           playback.
-        p4: 'In January, we released version 1.2 that supports 3 new languages: Russian,
-          Polish and Italian. Thanks to PeerTube''s community of translators, PeerTube
-          is now translated into 16 different languages!'
+        p4: "In January, we released version 1.2 that supports 3 new languages: Russian,\
+          \ Polish and Italian. Thanks to PeerTube's community of translators, PeerTube\
+          \ is now translated into 16 different languages!"
         p5: This version also includes a notification system that allows users to
           be informed (on the web interface or through email) when their video is
           commented, when someone mention them, when one of their subscriptions has
@@ -577,12 +577,12 @@ news:
           subtitles</a></li> <li><a href="https://framatube.org/videos/watch/60c4bea4-6bb2-4fce-8d9f-8a522575419d">Advanced
           search</a></li> <li><a href="https://framatube.org/videos/watch/8968dbe1-a387-433b-a20f-37fe9f3ca8d5">Video
           channel subscriptions</a></li> </ul>'
-        p5: 'This is the last newsletter regarding the PeerTube crowdfunding. We would
-          like to thank you one more time, for allowing us to greatly improve PeerTube,
-          and therefore to promote a more decentralized web. But the journey does
-          not end here: we will continue to work on the software, and there is still
-          a lot to do to fully free up video streaming. But before anything, we''ll
-          take a few days off ;)'
+        p5: "This is the last newsletter regarding the PeerTube crowdfunding. We would\
+          \ like to thank you one more time, for allowing us to greatly improve PeerTube,\
+          \ and therefore to promote a more decentralized web. But the journey does\
+          \ not end here: we will continue to work on the software, and there is still\
+          \ a lot to do to fully free up video streaming. But before anything, we'll\
+          \ take a few days off ;)"
         p6: We remind you that you can ask questions on <a href="https://framacolibri.org/c/qualite/peertube">the
           PeerTube forum</a>. You can also contact us directly on <a href="https://contact.framasoft.org">
           https://contact.framasoft.org</a>.
@@ -607,12 +607,13 @@ news:
           to show the diversity of the videos uploaded on PeerTube. You can see <a
           href="https://peertube3.cpy.re/videos/overview">a demonstration here</a>.
         p5: You can read the complete <em>beta 12</em> changelog <a href="https://github.com/Chocobozzz/PeerTube/blob/develop/CHANGELOG.md#v100-beta12">here</a>.
-        p6: 'Regarding the crowdfunding, most of the rewards are ready: <a href="https://github.com/Chocobozzz/PeerTube">the
-          PeerTube README</a> and <a href="https://joinpeertube.org/fr/hall-of-fame/">the
-          JoinPeerTube Hall of Fame</a> show off the names of the persons who have
-          chosen the corresponding rewards. We will soon be able to send the personalized
-          thank-you digital arts to people that gave 80€ (~93 USD) and more (and it''s
-          so beautiful that we are looking forward to it!)'
+        p6: "Regarding the crowdfunding, most of the rewards are ready: <a href=\"\
+          https://github.com/Chocobozzz/PeerTube\">the PeerTube README</a> and <a\
+          \ href=\"https://joinpeertube.org/fr/hall-of-fame/\">the JoinPeerTube Hall\
+          \ of Fame</a> show off the names of the persons who have chosen the corresponding\
+          \ rewards. We will soon be able to send the personalized thank-you digital\
+          \ arts to people that gave 80€ (~93 USD) and more (and it's so beautiful\
+          \ that we are looking forward to it!)"
         p7: The last feature we have to implement is the videos redundancy between
           instances, which will further increase resilience on instance overload.
           If all goes well, we should finish it in about two weeks (end of september).
@@ -658,14 +659,14 @@ news:
       text:
         p1: Hello everyone!
         p2: First of all, thank you again for contributing to PeerTube! ❤️
-        p3: 'During the crowdfunding campaign, we continued to work on the localization
-          system. And we are happy to announce it''s finally completed: it will be
-          available in the next beta (<em>beta 10</em>) of PeerTube. As of this writing,
-          the web interface is already available in english, french, basque, catalan,
-          czech and esperanto (huge thank you to <a href="https://github.com/Chocobozzz/PeerTube/blob/develop/CREDITS.md#translations">
-          all of the translators</a>). If you too want to help translating PeerTube,
-          do not hesitate to check out <a href="https://github.com/Chocobozzz/PeerTube/blob/develop/support/doc/translation.md">the
-          documentation</a>!'
+        p3: "During the crowdfunding campaign, we continued to work on the localization\
+          \ system. And we are happy to announce it's finally completed: it will be\
+          \ available in the next beta (<em>beta 10</em>) of PeerTube. As of this\
+          \ writing, the web interface is already available in english, french, basque,\
+          \ catalan, czech and esperanto (huge thank you to <a href=\"https://github.com/Chocobozzz/PeerTube/blob/develop/CREDITS.md#translations\"\
+          > all of the translators</a>). If you too want to help translating PeerTube,\
+          \ do not hesitate to check out <a href=\"https://github.com/Chocobozzz/PeerTube/blob/develop/support/doc/translation.md\"\
+          >the documentation</a>!"
         p4: Regarding the RSS feeds feature, it was already implemented by <a href="https://github.com/rigelk">Rigelk</a>
           and you can already use it in the <em>beta 9</em>. You can, for example,
           get <a href="https://framatube.org/feeds/videos.xml?sort=-publishedAt&filter=local">

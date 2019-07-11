@@ -29,57 +29,38 @@ home:
   why:
     power:
       title: Übernehmen Sie wieder die Kontrolle ... und die Verantwortung!
-      desc: 'PeerTube ist keine einzelne Video-Hosting-Plattform mit einem einzelnen
-        Regelwerk:
-
-        Es ist ein Netzwerk aus Dutzenden miteinander verbundener Anbieter, die sich
-        aus verschiedenen Personen und Administratoren zusammensetzen.
-
-        Einige Regeln gefallen Ihnen nicht?
-
-        Dann suchen Sie sich einen passenderen Anbieter oder noch besser: Seien Sie
-        Ihr eigener Hoster mit Ihren eigenen Regeln!'
+      desc: "PeerTube ist keine einzelne Video-Hosting-Plattform mit einem einzelnen\
+        \ Regelwerk:\nEs ist ein Netzwerk aus Dutzenden miteinander verbundener Anbieter,\
+        \ die sich aus verschiedenen Personen und Administratoren zusammensetzen.\n\
+        Einige Regeln gefallen Ihnen nicht?\nDann suchen Sie sich einen passenderen\
+        \ Anbieter oder noch besser: Seien Sie Ihr eigener Hoster mit Ihren eigenen\
+        \ Regeln!"
     content:
       title: Übernehmen Sie die Kontrolle über Ihre Inhalte
-      desc: 'Mit PeerTube können Sie alle Ihre Videos teilen. Der direkte Kontakt
-        mit dem Anbieter  (oder wenn Sie selber einer werden) erlaubt Ihnen zu entscheiden,
-        wie die Videoverteilung gemacht werden soll.
-
-        Werten Sie Ihre Videos mit Hilfe leicht zu bedienender Werkzeuge zur Beschreibung,
-        Kategorisierung, Auswahl von Vorschaubildern, Markierung von NSFW-Inhalten
-        auf.
-
-        Mit dem anpassbaren <strong> Support </strong>-Button können Sie Ihrem Publikum
-        mitteilen, wie Sie Ihr Angebot unterstützen können.'
+      desc: "Mit PeerTube können Sie alle Ihre Videos teilen. Der direkte Kontakt\
+        \ mit dem Anbieter  (oder wenn Sie selber einer werden) erlaubt Ihnen zu entscheiden,\
+        \ wie die Videoverteilung gemacht werden soll.\nWerten Sie Ihre Videos mit\
+        \ Hilfe leicht zu bedienender Werkzeuge zur Beschreibung, Kategorisierung,\
+        \ Auswahl von Vorschaubildern, Markierung von NSFW-Inhalten auf.\nMit dem\
+        \ anpassbaren <strong> Support </strong>-Button können Sie Ihrem Publikum\
+        \ mitteilen, wie Sie Ihr Angebot unterstützen können."
     usersfirst:
       title: Die Benutzer sind im Vordergrund
-      desc: 'Sie sind eine Person, kein Produkt.
-
-        PeerTube ist eine freie Software, die von einem französischen gemeinnützigen
-        Verein finanziert wird: @:data.html.soft</>
-
-        Alle Instanzen werden eigenständig erstellt, animiert, moderiert und gepflegt.
-
-        PeerTube wird von keinem Unternehmen monopolisiert, ist nicht auf Werbung
-        angewiesen und trackt Sie nicht.
-
-        Mit PeerTube sind Sie kein Produkt:
-
-        PeerTube ist das Produkt, nicht umgekehrt.'
+      desc: "Sie sind eine Person, kein Produkt.\nPeerTube ist eine freie Software,\
+        \ die von einem französischen gemeinnützigen Verein finanziert wird: @:data.html.soft</>\n\
+        Alle Instanzen werden eigenständig erstellt, animiert, moderiert und gepflegt.\n\
+        PeerTube wird von keinem Unternehmen monopolisiert, ist nicht auf Werbung\
+        \ angewiesen und trackt Sie nicht.\nMit PeerTube sind Sie kein Produkt:\n\
+        PeerTube ist das Produkt, nicht umgekehrt."
     broadcast:
       title: Werde ein Schauspieler deiner eigenen, ausgestrahlten Videos
-      desc: 'Wenn Sie ein Video über Peertube anschauen, erlaubt Ihnen die Webtorrent-Technologie
-        das Video an andere auszustrahlen, die das Video zu gleichen Zeit schauen
-        in der Sie es tun.
-
-        Diese Art der Streamverteilung erlaubt eine effizientere Verteilung des Videosharings
-        im Netzwerk.
-
-        Außerdem erlaubt das Föderalisierungs-protokoll (ActivityPub) die Videos und
-        Kommentare auf anderen Plattformen zu veröffentlichen, die dies unterstützen
-        wie:
-
-        <a href="@:data.link.mastodon">Mastodon</a>! (experimental)  '
+      desc: "Wenn Sie ein Video über Peertube anschauen, erlaubt Ihnen die Webtorrent-Technologie\
+        \ das Video an andere auszustrahlen, die das Video zu gleichen Zeit schauen\
+        \ in der Sie es tun.\nDiese Art der Streamverteilung erlaubt eine effizientere\
+        \ Verteilung des Videosharings im Netzwerk.\nAußerdem erlaubt das Föderalisierungs-protokoll\
+        \ (ActivityPub) die Videos und Kommentare auf anderen Plattformen zu veröffentlichen,\
+        \ die dies unterstützen wie:\n<a href=\"@:data.link.mastodon\">Mastodon</a>!\
+        \ (experimental)  "
   getting-started:
     title: loslegen
     watch:
@@ -106,43 +87,33 @@ home:
   install:
     title: Installieren Sie Ihre eigenes Instanz
     text:
-    - 'Sind Sie daran interessiert, Ihre eigene Instanz für Ihre Freunde, Familie
-      oder Organisation zu hosten?
-
-      Sie können mit der Installationsdokumentation <a href="@:data.link.gitPT/blob/develop/support/doc/production.md"></a>  beginnen.'
-    - 'Sie werden nur Ihre eigenen Benutzer und deren eigene Videos hosten.
-
-      Sie können die Anzahl der verfügbaren Registrierungen und ein Plattenplatz-Kontingent
-      pro Benutzer festlegen.
-
-      Auf Ihrer Homepage erscheinen nur die Videos der Instanzen, die Sie <strong>
-      ausgewählt </strong>  haben.'
+    - "Sind Sie daran interessiert, Ihre eigene Instanz für Ihre Freunde, Familie\
+      \ oder Organisation zu hosten?\nSie können mit der Installationsdokumentation\
+      \ <a href=\"@:data.link.gitPT/blob/develop/support/doc/production.md\"></a>\
+      \  beginnen."
+    - "Sie werden nur Ihre eigenen Benutzer und deren eigene Videos hosten.\nSie können\
+      \ die Anzahl der verfügbaren Registrierungen und ein Plattenplatz-Kontingent\
+      \ pro Benutzer festlegen.\nAuf Ihrer Homepage erscheinen nur die Videos der\
+      \ Instanzen, die Sie <strong> ausgewählt </strong>  haben."
     btn: Lies die Dokumentation
   how-it-works:
     how:
       title: Wie es funktioniert
       text:
-      - 'Jeder kann einen PeerTube-Server, welche wir <strong> Instanz </strong> nennen,
-        hosten.
-
-        Jede Instanz hostet ihre eigenen Benutzer und deren Videos.
-
-        Es behält auch eine Liste der Videos, die auf den Instanzen vorhanden sind,
-        die vom Administrator gefolgt werden, um sie seinen Benutzern vorschlagen
-        zu können.'
+      - "Jeder kann einen PeerTube-Server, welche wir <strong> Instanz </strong> nennen,\
+        \ hosten.\nJede Instanz hostet ihre eigenen Benutzer und deren Videos.\nEs\
+        \ behält auch eine Liste der Videos, die auf den Instanzen vorhanden sind,\
+        \ die vom Administrator gefolgt werden, um sie seinen Benutzern vorschlagen\
+        \ zu können."
       - Jedes Konto hat eine eindeutige globale Kennung (z.B. @chocobozzz@framatube.org),
         die sich aus einem Nicknamen (@chocobozzz) und dem Domänennamen des Servers
         (framatube.org), auf dem es sich befindet, zusammensetzt.
-      - 'Die Administratoren einer PeerTube-Instanz können einander folgen.
-
-        Wenn Ihre PeerTube-Instanz einer anderen PeerTube-Instanz folgt, erhalten
-        Sie Videoanzeigeinformationen von dieser Instanz.
-
-        Auf diese Weise können Sie die Videos anzeigen, die auf Ihrer Instanz vorhanden
-        sind und auf der Instanz, der Sie folgen möchten.
-
-        So behalten Sie die Kontrolle über die auf Ihrem PeerTube-Server angezeigten
-        Videos!'
+      - "Die Administratoren einer PeerTube-Instanz können einander folgen.\nWenn\
+        \ Ihre PeerTube-Instanz einer anderen PeerTube-Instanz folgt, erhalten Sie\
+        \ Videoanzeigeinformationen von dieser Instanz.\nAuf diese Weise können Sie\
+        \ die Videos anzeigen, die auf Ihrer Instanz vorhanden sind und auf der Instanz,\
+        \ der Sie folgen möchten.\nSo behalten Sie die Kontrolle über die auf Ihrem\
+        \ PeerTube-Server angezeigten Videos!"
       btn: Fragen?
     why:
       title: Warum ist es so toll?
@@ -150,10 +121,9 @@ home:
       - Die Server werden unabhängig von einer Person oder von Organisationen verwaltet,
         diese können Ihre eigenen Regeln haben, sodass Sie eine Instanz aussuchen
         können, welche Ihnen am meisten gefällt.
-      - 'Indem Sie ein Video ansehen, helfen Sie dem Betreiber der Instanz, es zu
-        senden, indem Sie selbst ein Sender dieses Videos werden.
-
-        So braucht jede Instanz nicht viel Geld, um die Videos ihrer Nutzer zu übertragen!'
+      - "Indem Sie ein Video ansehen, helfen Sie dem Betreiber der Instanz, es zu\
+        \ senden, indem Sie selbst ein Sender dieses Videos werden.\nSo braucht jede\
+        \ Instanz nicht viel Geld, um die Videos ihrer Nutzer zu übertragen!"
       btn: Loslegen
 footer:
   text: 'Diese Website wurde aufgebaut auf der Basis von '
@@ -169,10 +139,9 @@ faq:
     what:
       title: Was ist Peertube?
       text:
-      - 'Peertube ist eine Software, die Sie auf Ihrem Webserver installieren.
-
-        Es erlaubt Ihnen eine Video-hosting-website zu erstellen, also erstellen Sie
-        Ihr "Selbst gemachtes Youtube"'
+      - "Peertube ist eine Software, die Sie auf Ihrem Webserver installieren.\nEs\
+        \ erlaubt Ihnen eine Video-hosting-website zu erstellen, also erstellen Sie\
+        \ Ihr \"Selbst gemachtes Youtube\""
       - Der Unterschied zu YouTube ist, dass es nicht darauf ausgelegt ist, eine riesige
         Plattform zu schaffen, die Videos aus der ganzen Welt auf einer Serverfarm
         zentralisiert (was schrecklich teuer ist).
@@ -253,13 +222,11 @@ faq:
         Twitter Alternative), kann Peertube über viele kleine Hoster föderieren, sodass
         sie nicht tausende Festplatten kaufen müssen, um die Videos für die ganze
         Welt zu hosten
-      - 'Auf Ihrer PeerTube-Website kann die Internet-Publikums Ihre Videos sehen,
-        aber auch die von Zaïd, Catherine oder Solar&hellip;, ohne dass Ihre Website
-        die Videos von anderen hosten muss.
-
-        Solch eine Vielfalt des Video-Katalogs macht es sehr attraktiv. Solch eine
-        Große Auswahl und Vielfalt von Videos ist das, was zentralisierte Plattformen
-        wie Youtube erfolgreich macht.'
+      - "Auf Ihrer PeerTube-Website kann die Internet-Publikums Ihre Videos sehen,\
+        \ aber auch die von Zaïd, Catherine oder Solar&hellip;, ohne dass Ihre Website\
+        \ die Videos von anderen hosten muss.\nSolch eine Vielfalt des Video-Katalogs\
+        \ macht es sehr attraktiv. Solch eine Große Auswahl und Vielfalt von Videos\
+        \ ist das, was zentralisierte Plattformen wie Youtube erfolgreich macht."
       - 'Föderation bietet einen anderen Vorteil: <strong> jeder wird unabhängig </strong>.  Zaïd,
         Catherin, Solar und Sie können Ihre eigenen Regeln bestimmen, Ihre eigenen
         AGBs (zum Beispiel kann man sich ein MeowTube vorstellen, auf welchem Hundevideos
@@ -267,14 +234,13 @@ faq:
     video-maker:
       title: Für diejenigen, die Ihre Videos hochladen möchten erlaubt PeerTube...
       text:
-      - 'Es erlaubt Ihnen, einen Hosting-Provider zu finden, der Ihren Ansprüchen
-        entspricht.
-
-        Youtube''s Exzesse sind ein gutes Beispiel: Der Hoster Google/Alphabet kann
-        sein "Robocopyright" (Das Content-ID-System) oder seine Indexierungstools
-        verwenden, um Videos zu empfehlen und hervorzuheben; und diese Tools wirken
-        so unfair wie sie obskur sind. Obwohl es Sie schon dazu zwingt <a href="@:data.link.tosdr">
-        ihm kostenlos erweiterte Urheberrechte an deinen Videos zu geben. </a>'
+      - "Es erlaubt Ihnen, einen Hosting-Provider zu finden, der Ihren Ansprüchen\
+        \ entspricht.\nYoutube's Exzesse sind ein gutes Beispiel: Der Hoster Google/Alphabet\
+        \ kann sein \"Robocopyright\" (Das Content-ID-System) oder seine Indexierungstools\
+        \ verwenden, um Videos zu empfehlen und hervorzuheben; und diese Tools wirken\
+        \ so unfair wie sie obskur sind. Obwohl es Sie schon dazu zwingt <a href=\"\
+        @:data.link.tosdr\"> ihm kostenlos erweiterte Urheberrechte an deinen Videos\
+        \ zu geben. </a>"
       - Mit Peertube kannst du <strong> den Host deiner Videos nach den AGBs auswählen
         </strong>, auch nach seinen Moderationsregelungen und seinen Föderations-Entscheidungen...
         Da Sie keinen Technologie-Giganten vor sich haben, sind Sie möglicherweise
@@ -285,12 +251,11 @@ faq:
         Videos mit dem Protokoll  <a href="@:link.wArticle/BitTorrent">WebTorrent</a>.
         Wenn hundert Leute ein Video zur gleichen Zeit anschauen, senden Ihre Browser
         automatisch Bits von Ihrem Video zu anderen Zuschauern.
-      - 'Vor dieser Peer-to-Peer Übertragung waren Videoersteller (oder Videos, die
-        viral wurden) dazu verdammt von einem Internet-Giganten gehostet zu werden,
-        dessen Infrastruktur Millionen gleichzeitige Übertragungen zuließen...
-
-        Oder man musste für einen sehr teuren, unabhängigen Video Host bezahlen, der
-        die Last ertragen konnte.'
+      - "Vor dieser Peer-to-Peer Übertragung waren Videoersteller (oder Videos, die\
+        \ viral wurden) dazu verdammt von einem Internet-Giganten gehostet zu werden,\
+        \ dessen Infrastruktur Millionen gleichzeitige Übertragungen zuließen...\n\
+        Oder man musste für einen sehr teuren, unabhängigen Video Host bezahlen, der\
+        \ die Last ertragen konnte."
     audience:
       title: Für diejenigen, die Videos anschauen möchten, bietet PeerTube...
       text:
@@ -401,12 +366,10 @@ faq:
     pornography:
       title: Es sind so viele pornografische Videos auf Peertube!
       text:
-      - 'Nein. Im Oktober 2018 sind auf einer durchschnittlichen  Instanz die sich
-        mit ~200 Instanzen austauscht und ~16000 indexiert nur 200 video als NSFW
-        gekennzeichnet. (Das heißt der Inhalt ist sensible, was auch anderes als Pornografie
-        sein kann).
-
-        Daher repräsentieren sie nur ~1% aller Videos.'
+      - "Nein. Im Oktober 2018 sind auf einer durchschnittlichen  Instanz die sich\
+        \ mit ~200 Instanzen austauscht und ~16000 indexiert nur 200 video als NSFW\
+        \ gekennzeichnet. (Das heißt der Inhalt ist sensible, was auch anderes als\
+        \ Pornografie sein kann).\nDaher repräsentieren sie nur ~1% aller Videos."
       - 'Darüber hinaus entscheidet jeder Administrator mit welchen Instanzen er sich
         austauschen will: er hat die volle Kontrolle darüber, welche Inhalte auf seiner
         Instanz angezeigt werden. Es ist seine Angelegenheit die Nutzungsbedingungen
@@ -538,15 +501,15 @@ news:
       text:
         p1: Hello!
         p2: We've just released PeerTube 1.3 and it brings a lot of new features.
-        p3: 'The most important of these new features is the playlist system. This
-          feature allows any user to create a playlist in which it''s possible to
-          add videos and reorder them. Videos added to a playlist can be viewed entirely
-          or partially: the creator of the playlist can decide when the video playback
-          starts and/or ends (timecode system). This system is really useful to create
-          all kinds of zappings or educational contents by selecting extracts from
-          videos which interest you. In addition, a "Watch Later" playlist is created
-          by default for each user. Thus, you can save videos in this playlist when
-          you don''t have time to watch them immediately.'
+        p3: "The most important of these new features is the playlist system. This\
+          \ feature allows any user to create a playlist in which it's possible to\
+          \ add videos and reorder them. Videos added to a playlist can be viewed\
+          \ entirely or partially: the creator of the playlist can decide when the\
+          \ video playback starts and/or ends (timecode system). This system is really\
+          \ useful to create all kinds of zappings or educational contents by selecting\
+          \ extracts from videos which interest you. In addition, a \"Watch Later\"\
+          \ playlist is created by default for each user. Thus, you can save videos\
+          \ in this playlist when you don't have time to watch them immediately."
         p4: 'Another feature of this 1.3 version has been entirely developed by an
           external contributor: <a href="https://github.com/joshmorel">Josh Morel</a>
           who add a quarantine system for videos on PeerTube. If the administrator
@@ -596,9 +559,9 @@ news:
           tools requested by instance administrators.<br> We also took the opportunity
           to add a watched videos history feature and the automatic resuming of video
           playback.
-        p5: 'In January, we released version 1.2 that supports 3 new languages: Russian,
-          Polish and Italian. Thanks to PeerTube''s community of translators, PeerTube
-          is now translated into 16 different languages!'
+        p5: "In January, we released version 1.2 that supports 3 new languages: Russian,\
+          \ Polish and Italian. Thanks to PeerTube's community of translators, PeerTube\
+          \ is now translated into 16 different languages!"
         p6: This version also includes a notification system that allows users to
           be informed (on the web interface or through email) when their video is
           commented, when someone mention them, when one of their subscriptions has
@@ -645,12 +608,12 @@ news:
           subtitles</a></li> <li><a href="https://framatube.org/videos/watch/60c4bea4-6bb2-4fce-8d9f-8a522575419d">Advanced
           search</a></li> <li><a href="https://framatube.org/videos/watch/8968dbe1-a387-433b-a20f-37fe9f3ca8d5">Video
           channel subscriptions</a></li> </ul>'
-        p5: 'This is the last newsletter regarding the PeerTube crowdfunding. We would
-          like to thank you one more time, for allowing us to greatly improve PeerTube,
-          and therefore to promote a more decentralized web. But the journey does
-          not end here: we will continue to work on the software, and there is still
-          a lot to do to fully free up video streaming. But before anything, we''ll
-          take a few days off ;)'
+        p5: "This is the last newsletter regarding the PeerTube crowdfunding. We would\
+          \ like to thank you one more time, for allowing us to greatly improve PeerTube,\
+          \ and therefore to promote a more decentralized web. But the journey does\
+          \ not end here: we will continue to work on the software, and there is still\
+          \ a lot to do to fully free up video streaming. But before anything, we'll\
+          \ take a few days off ;)"
         p6: We remind you that you can ask questions on <a href="https://framacolibri.org/c/qualite/peertube">the
           PeerTube forum</a>. You can also contact us directly on <a href="https://contact.framasoft.org">
           https://contact.framasoft.org</a>.
@@ -675,12 +638,13 @@ news:
           to show the diversity of the videos uploaded on PeerTube. You can see <a
           href="https://peertube3.cpy.re/videos/overview">a demonstration here</a>.
         p5: You can read the complete <em>beta 12</em> changelog <a href="https://github.com/Chocobozzz/PeerTube/blob/develop/CHANGELOG.md#v100-beta12">here</a>.
-        p6: 'Regarding the crowdfunding, most of the rewards are ready: <a href="https://github.com/Chocobozzz/PeerTube">the
-          PeerTube README</a> and <a href="https://joinpeertube.org/fr/hall-of-fame/">the
-          JoinPeerTube Hall of Fame</a> show off the names of the persons who have
-          chosen the corresponding rewards. We will soon be able to send the personalized
-          thank-you digital arts to people that gave 80€ (~93 USD) and more (and it''s
-          so beautiful that we are looking forward to it!)'
+        p6: "Regarding the crowdfunding, most of the rewards are ready: <a href=\"\
+          https://github.com/Chocobozzz/PeerTube\">the PeerTube README</a> and <a\
+          \ href=\"https://joinpeertube.org/fr/hall-of-fame/\">the JoinPeerTube Hall\
+          \ of Fame</a> show off the names of the persons who have chosen the corresponding\
+          \ rewards. We will soon be able to send the personalized thank-you digital\
+          \ arts to people that gave 80€ (~93 USD) and more (and it's so beautiful\
+          \ that we are looking forward to it!)"
         p7: The last feature we have to implement is the videos redundancy between
           instances, which will further increase resilience on instance overload.
           If all goes well, we should finish it in about two weeks (end of september).
@@ -726,14 +690,14 @@ news:
       text:
         p1: Hello everyone!
         p2: First of all, thank you again for contributing to PeerTube! ❤️
-        p3: 'During the crowdfunding campaign, we continued to work on the localization
-          system. And we are happy to announce it''s finally completed: it will be
-          available in the next beta (<em>beta 10</em>) of PeerTube. As of this writing,
-          the web interface is already available in english, french, basque, catalan,
-          czech and esperanto (huge thank you to <a href="https://github.com/Chocobozzz/PeerTube/blob/develop/CREDITS.md#translations">
-          all of the translators</a>). If you too want to help translating PeerTube,
-          do not hesitate to check out <a href="https://github.com/Chocobozzz/PeerTube/blob/develop/support/doc/translation.md">the
-          documentation</a>!'
+        p3: "During the crowdfunding campaign, we continued to work on the localization\
+          \ system. And we are happy to announce it's finally completed: it will be\
+          \ available in the next beta (<em>beta 10</em>) of PeerTube. As of this\
+          \ writing, the web interface is already available in english, french, basque,\
+          \ catalan, czech and esperanto (huge thank you to <a href=\"https://github.com/Chocobozzz/PeerTube/blob/develop/CREDITS.md#translations\"\
+          > all of the translators</a>). If you too want to help translating PeerTube,\
+          \ do not hesitate to check out <a href=\"https://github.com/Chocobozzz/PeerTube/blob/develop/support/doc/translation.md\"\
+          >the documentation</a>!"
         p4: Regarding the RSS feeds feature, it was already implemented by <a href="https://github.com/rigelk">Rigelk</a>
           and you can already use it in the <em>beta 9</em>. You can, for example,
           get <a href="https://framatube.org/feeds/videos.xml?sort=-publishedAt&filter=local">
