@@ -1,4 +1,5 @@
 @import "_variables";
+@import "_mixins";
 
 @font-face {
   font-family: 'Proza Libre';
@@ -7,7 +8,7 @@
   font-weight: 400;
   src: local('Proza Libre Regular '),
   local('Proza Libre-Regular'),
-  url('/assets/fonts/proza-libre-v4-latin-regular.woff2') format('woff2')
+  url('../fonts/proza-libre-v4-latin-regular.woff2') format('woff2')
 }
 
 @font-face {
@@ -17,7 +18,7 @@
   font-weight: 600;
   src: local('Proza Libre SemiBold '),
   local('Proza Libre-SemiBold'),
-  url('/assets/fonts/proza-libre-v4-latin-600.woff2') format('woff2')
+  url('../fonts/proza-libre-v4-latin-600.woff2') format('woff2')
 }
 
 /* Default */
@@ -80,5 +81,52 @@ main {
     height: 3px;
     background-color: $orange;
     flex-grow: 1;
+  }
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: $font-semibold;
+}
+
+.one-column {
+  width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    margin: 30px 0;
+  }
+}
+
+.bottom-link-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.bottom-link {
+  @include disable-default-a-behaviour;
+
+  font-weight: $font-semibold;
+  color: #000;
+
+  .text {
+    border-bottom: 3px solid $orange;
+    padding: 0 5px;
+    margin-right: 5px;
+  }
+}
+
+.citation {
+  display: flex;
+  font-size: 24px;
+
+  .left-bar {
+    margin-right: 10px;
+    min-width: 8px;
+    background-color: $orange;
   }
 }

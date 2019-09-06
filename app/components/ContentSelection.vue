@@ -17,7 +17,6 @@
 
         <span v-if="type === 'instance'">
           <icon-instance></icon-instance>
-
           Go on the instance
         </span>
       </button>
@@ -25,9 +24,11 @@
 
     <div class="right">
       <div class="title">
-        <icon-video v-if="type === 'video'"></icon-video>
-        <icon-channel v-if="type === 'channel'"></icon-channel>
-        <icon-instance v-if="type === 'instance'"></icon-instance>
+        <div class="icon">
+          <icon-video v-if="type === 'video'"></icon-video>
+          <icon-channel v-if="type === 'channel'"></icon-channel>
+          <icon-instance v-if="type === 'instance'"></icon-instance>
+        </div>
 
         {{ title }}
       </div>
@@ -48,7 +49,13 @@
 <style lang="scss" scoped>
   @import '../assets/scss/_variables';
 
+  .root {
+    display: flex;
+  }
+
   .left {
+    margin-right: 20px;
+
     img {
       display: block;
       width: 250px;
@@ -67,10 +74,19 @@
     .title {
       font-size: 24px;
       font-weight: $font-semibold;
+      display: flex;
+      align-items: center;
+
+      .icon {
+        margin-right: 10px;
+        position: relative;
+        top: -2px;
+      }
     }
 
     .description {
       font-size: 16px;
+      min-height: 170px;
     }
 
     .tags {
@@ -78,7 +94,14 @@
 
       .tag {
         border: 1px solid $orange;
+        border-radius: 10px;
         margin-right: 20px;
+        font-size: 14px;
+        min-width: 140px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
     }
   }
