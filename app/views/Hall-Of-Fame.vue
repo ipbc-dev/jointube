@@ -117,7 +117,7 @@
           <li>David-Dormoy</li>
           <li>David-Velasco</li>
           <li>David-Wagner</li>
-          <li>de Folleville -Matthieu </li>
+          <li>de Folleville -Matthieu</li>
           <li>DeBugs</li>
           <li>Didier-Bove</li>
           <li>Diego-Crespo</li>
@@ -458,8 +458,8 @@
         </ul>
         <p>
           <a class="button"
-            :href="$root.link.gitPT"
-            v-html="$t('hof.contrib')"
+             :href="$root.link.gitPT"
+             v-html="$t('hof.contrib')"
           ></a>
         </p>
       </div>

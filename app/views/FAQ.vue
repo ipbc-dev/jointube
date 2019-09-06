@@ -10,11 +10,11 @@
         <h3 v-html="$t('faq.section.prez')"></h3>
         <div id="accordion-presentation" class="panel-group">
           <div class="panel panel-default"
-            v-for="(question, key, index) in $t('faq.prez')">
+               v-for="(question, key, index) in $t('faq.prez')">
             <div class="panel-heading" role="button" @click="toggleAccordion('prez', index)">
               <h3 class="panel-title" v-html="$t('faq.prez.' + key + '.title')"></h3>
             </div>
-            <collapse v-model="prez[index]">
+            <b-collapse v-model="prez[index]">
               <div class="panel-body" v-if="key === 'pros'">
                 <p v-html="$t('faq.prez.pros.text[0]')"></p>
                 <ol>
@@ -39,45 +39,45 @@
                   v-html="$t('faq.prez.' + key + '.text[' + index + ']')"
                 ></p>
               </div>
-            </collapse>
+            </b-collapse>
           </div>
         </div>
 
         <h3 v-html="$t('faq.section.content')"></h3>
         <div id="accordion-creation" class="panel-group">
           <div class="panel panel-default"
-            v-for="(question, key, index) in $t('faq.content')">
+               v-for="(question, key, index) in $t('faq.content')">
             <div class="panel-heading" role="button" @click="toggleAccordion('content', index)">
               <h3 class="panel-title" v-html="$t('faq.content.' + key + '.title')"></h3>
             </div>
-            <collapse v-model="content[index]">
+            <b-collapse v-model="content[index]">
               <div class="panel-body">
                 <p
                   v-for="(p, index) in $t('faq.content.' + key + '.text')"
                   v-html="$t('faq.content.' + key + '.text[' + index + ']')"
                 ></p>
               </div>
-            </collapse>
+            </b-collapse>
           </div>
         </div>
 
         <p><a :href="$t('link.forumPT')" class="button" v-html="$t('faq.forum')"></a></p>
 
         <h3 v-html="$t('faq.section.tech')"></h3>
-        <div  id="accordion-tech" class="panel-group">
+        <div id="accordion-tech" class="panel-group">
           <div class="panel panel-default"
-            v-for="(question, key, index) in $t('faq.tech')">
+               v-for="(question, key, index) in $t('faq.tech')">
             <div class="panel-heading" role="button" @click="toggleAccordion('tech', index)">
               <h3 class="panel-title" v-html="$t('faq.tech.' + key + '.title')"></h3>
             </div>
-            <collapse v-model="tech[index]">
+            <b-collapse v-model="tech[index]">
               <div class="panel-body">
                 <p
                   v-for="(p, index) in $t('faq.tech.' + key + '.text')"
                   v-html="$t('faq.tech.' + key + '.text[' + index + ']')"
                 ></p>
               </div>
-            </collapse>
+            </b-collapse>
           </div>
         </div>
       </div>
@@ -86,28 +86,28 @@
 </template>
 
 <script>
-import { Collapse } from 'uiv';
+  import { BCollapse } from 'bootstrap-vue'
 
-export default {
-  components: {
-    Collapse,
-  },
-  data() {
-    return {
-      prez: [...Array(9).keys()].map(i => (i < 1)),
-      content: [...Array(5).keys()].map(i => false),
-      tech: [...Array(4).keys()].map(i => false),
-    }
-  },
-  methods: {
-    toggleAccordion (section, index) {
-      if (this[section][index]) {
-        this.$set(this[section], index, false)
-      } else {
-        this[section] = this[section].map((v, i) => i === index)
+  export default {
+    components: {
+      BCollapse,
+    },
+    data () {
+      return {
+        prez: [...Array(9).keys()].map(i => (i < 1)),
+        content: [...Array(5).keys()].map(i => false),
+        tech: [...Array(4).keys()].map(i => false),
+      }
+    },
+    methods: {
+      toggleAccordion (section, index) {
+        if (this[section][index]) {
+          this.$set(this[section], index, false)
+        } else {
+          this[section] = this[section].map((v, i) => i === index)
+        }
       }
     }
   }
-}
 </script>
 

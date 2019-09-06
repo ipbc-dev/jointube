@@ -5,7 +5,7 @@ import VueI18n from 'vue-i18n';
 import vueHeadful from 'vue-headful';
 
 import App from './App.vue';
-import Home from './components/pages/Home.vue';
+import Home from './views/Home.vue';
 
 import './assets/scss/bootstrap.scss';
 import '../node_modules/fork-awesome/css/fork-awesome.css';
@@ -25,7 +25,7 @@ req.keys().forEach((key) => {
   locales.push(key.replace(/\.\/(.*)\.yml/, '$1'));
 });
 // Import pages list
-req = require.context('./components/pages', false, /\.vue$/);
+req = require.context('./views', false, /\.vue$/);
 req.keys().forEach((key) => {
   pages.push(key.replace(/\.\/(.*)\.vue/, '$1'));
 });
@@ -87,7 +87,7 @@ for (let i = 0; i < locales.length; i += 1) {
 
   // Localized routes
   for (let j = 0; j < pages.length; j += 1) {
-    const component = require(`./components/pages/${pages[j]}.vue`); // eslint-disable-line
+    const component = require(`./views/${pages[j]}.vue`); // eslint-disable-line
     routes.push({
       path: `/${locales[i]}${pages[j].toLowerCase().replace(/^/, '/').replace('/home', '')}`,
       component: component.default,
