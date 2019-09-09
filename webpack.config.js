@@ -136,7 +136,7 @@ if (process.env.NODE_ENV === 'development') {
   const routes = [root];
   const pages = [];
   // Import pages list
-  fs.readdirSync('./app/components/pages').forEach(file => {
+  fs.readdirSync('./app/views').forEach(file => {
     pages.push(file.replace(/(.*)\.vue/, '$1'));
   });
   // Localized routes
