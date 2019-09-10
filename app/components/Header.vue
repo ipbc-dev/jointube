@@ -3,7 +3,7 @@
 
     <nav class="navbar navbar-expand-lg">
       <router-link :to="'/' + $t('lang') + '/'" class="navbar-brand">
-        <img alt="PeerTube" :src="`${$root['/']}img/brand.png`">
+        <img alt="PeerTube" :src="`${$root['/']}img/brand-small.png`">
       </router-link>
 
       <button class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
