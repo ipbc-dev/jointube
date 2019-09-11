@@ -6,11 +6,10 @@ pages:
   stage: deploy
   script:
   - yarn install --pure-lockfile
-  - npm run preview
-  - mv -f public/$CI_PROJECT_NAME/* public
+  - npm run build
   artifacts:
     paths:
-    - public
+    - dist
   cache:
     paths:
       - node_modules/
@@ -30,16 +29,3 @@ pages:
   #- if [ ! -z ${DEPLOYEMENT_KEY+x} ]; then cd public && echo "put -r ." | sftp ${DEPLOYEMENT_USER}@${DEPLOYEMENT_HOST}:../../web; fi
   #only:
     #- master
-
-# Push new translations strings to https://trad.framasoft.org
-#trads:
-#  stage: deploy
-#  image: framasoft/push-trad:latest
-#  script:
-#  - sed -e "s@<project-version>.*</project-version>@<project-version>$CI_COMMIT_REF_SLUG</project-version>@" -i zanata/zanata.xml
-#  - sed -e "s@<project>.*</project>@<project>join-peertube</project>@" -i zanata/zanata.xml
-#  - cp zanata/zanata.xml zanata.xml
-#  - if [ ! -z ${ZANATA_CONFIG_FRAMABOT+x} ]; then mkdir -p ${HOME}/.config; echo -e "${ZANATA_CONFIG_FRAMABOT}" > ${HOME}/.config/zanata.ini; fi
-#  - if [ ! -z ${ZANATA_CONFIG_FRAMABOT+x} ]; then make push-locales; fi
-#  only:
-#    - master
