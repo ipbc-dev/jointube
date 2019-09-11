@@ -6,7 +6,7 @@
         <img alt="PeerTube" :src="buildImgUrl('brand-small.png')">
 
         <div class="support">
-          soutenu par
+          developed by
 
           <img alt="Framasoft text logo" :src="buildImgUrl('framasoft-logo-text-small.png')">
         </div>
@@ -22,27 +22,27 @@
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <router-link class="nav-link" :to="getPath('/')">Home</router-link>
+            <router-link class="nav-link" to="/">Home</router-link>
           </li>
 
           <li class="nav-item ">
-            <router-link class="nav-link create-account" :to="getPath('/')">Create an account</router-link>
+            <router-link class="nav-link create-account" to="/">Create an account</router-link>
           </li>
 
           <li class="nav-item">
-            <router-link class="nav-link" :to="getPath('/news')">News</router-link>
+            <router-link class="nav-link" to="/news">News</router-link>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link">Help</a>
+            <router-link class="nav-link" to="/help">Help</router-link>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link">Contribute</a>
+            <a class="nav-link" href="https://docs.joinpeertube.org/#/contribute-getting-started" target="_blank" rel="noopener noreferrer">Contribute</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link">Git</a>
+            <a class="nav-link" href="https://github.com/Chocobozzz/PeerTube" target="_blank" rel="noopener noreferrer">Git</a>
           </li>
 
           <div class="pull-right">

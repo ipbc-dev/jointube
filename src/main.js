@@ -6,6 +6,7 @@ import GetTextPlugin from 'vue-gettext'
 
 import App from './App.vue'
 import Home from './views/Home.vue'
+import Help from './views/Help'
 
 import './scss/bootstrap.scss'
 import './scss/main.scss'
@@ -56,6 +57,10 @@ const routes = [
   {
     path: '/',
     component: Home
+  },
+  {
+    path: '/help',
+    component: Help
   }
 ]
 
