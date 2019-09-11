@@ -2,12 +2,11 @@
   <header id="main-header">
 
     <nav class="navbar navbar-expand-lg">
-      <router-link :to="'/' + $t('lang') + '/'" class="navbar-brand">
+      <router-link :to="getPath('/')" class="navbar-brand">
         <img alt="PeerTube" :src="`${$root['/']}img/brand-small.png`">
 
         <div>
           soutenu par
-
 
         </div>
       </router-link>
@@ -22,15 +21,15 @@
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <router-link class="nav-link" :to="'/' + $t('lang') + '/'">Home</router-link>
+            <router-link class="nav-link" :to="getPath('/')">Home</router-link>
           </li>
 
           <li class="nav-item ">
-            <router-link class="nav-link create-account" :to="'/' + $t('lang') + '/'">Create an account</router-link>
+            <router-link class="nav-link create-account" :to="getPath('/')">Create an account</router-link>
           </li>
 
           <li class="nav-item">
-            <router-link class="nav-link" :to="'/' + $t('lang') + '/news'" v-html="$t('menu.faq')">News</router-link>
+            <router-link class="nav-link" :to="getPath('/news')">News</router-link>
           </li>
 
           <li class="nav-item">
@@ -42,7 +41,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" :href="$root.link.gitPT">Git</a>
+            <a class="nav-link">Git</a>
           </li>
 
           <div class="pull-right">
@@ -55,7 +54,7 @@
 </template>
 
 <style lang="scss" scoped>
-  @import '../assets/scss/_variables.scss';
+  @import '../scss/_variables.scss';
 
   header {
     margin-bottom: 30px;
@@ -88,12 +87,16 @@
 </style>
 
 <script>
-  import I18n from './I18n.vue'
+import I18n from './I18n.vue'
 
-  export default {
-    components: {
-      I18n,
-    },
+export default {
+  components: {
+    I18n
+  },
+  methods: {
+    getPath (path) {
+      return path
+    }
   }
+}
 </script>
-

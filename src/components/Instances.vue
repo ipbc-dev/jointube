@@ -36,7 +36,7 @@ import axios from 'axios'
 export default {
   name: 'peertube-instances',
 
-  data() {
+  data () {
     return {
       error: false,
       instances: []
@@ -70,7 +70,7 @@ export default {
       return calc + format.type
     }
   },
-  mounted() {
+  mounted () {
     const options = {
       method: 'GET',
       params: {
@@ -100,6 +100,4 @@ export default {
   }
 }
 
-
 </script>
-

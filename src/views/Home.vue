@@ -5,7 +5,7 @@
       <div class="first-row">
         <img class="brand" :src="buildImgUrl('brand.png')" alt="PeerTube logo" />
 
-        <div class="description">A free software to take back control of your videos</div>
+        <div class="description" v-translate>A free software to take back control of your videos</div>
       </div>
 
       <div class="marketing">
@@ -277,7 +277,7 @@
           Créée en 2004, l'association se consacre désormais à <strong>l’éducation populaire aux enjeux du numérique.</strong>
           Notre petite structure (moins de 40 membres, moins de 10 salarié·e·s) est connue pour avoir réalisé le projet Dégooglisons Internet,
           proposant 34 outils en ligne éthiques et alternatifs. Reconnue d’intérêt général, notre association est
-          <strong>financée à plus de 90 % par vos dons</strong>, déductibles des impôts pour les contribuables français·es.
+          <strong>financée à plus de 90% par vos dons</strong>, déductibles des impôts pour les contribuables français·es.
         </p>
 
         <p>
@@ -420,8 +420,8 @@ export default {
         title: 'Nothing to hide',
         thumbnailUrl: 'https://peertube2.cpy.re/static/thumbnails/d2a5ec78-5f85-4090-8ec5-dc1102e022ea.jpg',
         url: 'https://peertube2.cpy.re/videos/watch/d2a5ec78-5f85-4090-8ec5-dc1102e022ea',
-        tags: [ 'tag', 'tag2', 'tag3 '],
-        description: 'Nothing to Hide (2017) est un film documentaire franco-allemand de Marc Meillassoux et Mihaela Gladovic, qui s\'intéresse aux effets de la surveillance de masse sur les individus et la société. Proposant un regard critique à propos des lois sur le renseignement mises en place par de nombreux États ces dernières années, le film nous rappelle à quel point le débat sur l’usage des données personnelles est actuel et questionne les fondements de nos démocraties.',
+        tags: [ 'tag', 'tag2', 'tag3' ],
+        description: 'Nothing to Hide (2017) est un film documentaire franco-allemand de Marc Meillassoux et Mihaela Gladovic, qui s\'intéresse aux effets de la surveillance de masse sur les individus et la société. Proposant un regard critique à propos des lois sur le renseignement mises en place par de nombreux États ces dernières années, le film nous rappelle à quel point le débat sur l’usage des données personnelles est actuel et questionne les fondements de nos démocraties.'
       }
     ]
   })

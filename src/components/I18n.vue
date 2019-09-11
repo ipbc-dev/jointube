@@ -11,16 +11,16 @@
       </template>
 
       <template slot="dropdown">
-        <b-dropdown-item v-for="lang in locales.avalaible" @click="changeLanguage(lang)">
+        <b-dropdown-item v-for="lang in $language.availableLanguages" @click="changeLanguage(lang)">
           <router-link :to="'/' + lang + '/' + ($route.path.split('/')[2] || '')">{{ locales[lang] }}</router-link>
         </b-dropdown-item>
 
-        <b-dropdown-divider v-if="$root.meta.i18n"></b-dropdown-divider>
+        <b-dropdown-divider></b-dropdown-divider>
 
-        <b-dropdown-item v-if="$root.meta.i18n">
-          <a :href="$root.meta.i18n">
+        <b-dropdown-item>
+          <a>
             <i class="fa fa-fw fa-plus" aria-hidden="true"></i>
-            <span v-html="$t('nav.translate')"></span>
+            <span v-translate>Translate</span>
           </a>
         </b-dropdown-item>
       </template>
@@ -50,25 +50,24 @@
 </style>
 
 <script>
-  import { BDropdown, BDropdownDivider, BDropdownItem } from 'bootstrap-vue'
+import { BDropdown, BDropdownDivider, BDropdownItem } from 'bootstrap-vue'
 
-  export default {
-    components: {
-      BDropdown, BDropdownDivider, BDropdownItem
-    },
-    data () {
-      return {
-        currentComponent: '',
-        switchLanguage: 'en',
-        locales: this.$i18n.messages.locales,
-      }
-    },
-    methods: {
-      changeLanguage (lang) {
-        this.switchLanguage = lang
-        this.$i18n.locale = lang
-        this.currentComponent = this.$route.path.split('/')[2] // eslint-disable-line prefer-destructuring
-      },
-    },
+export default {
+  components: {
+    BDropdown, BDropdownDivider, BDropdownItem
+  },
+  data () {
+    return {
+      currentComponent: '',
+      switchLanguage: 'en'
+    }
+  },
+  methods: {
+    changeLanguage (lang) {
+      this.switchLanguage = lang
+      this.$i18n.locale = lang
+      this.currentComponent = this.$route.path.split('/')[2] // eslint-disable-line prefer-destructuring
+    }
   }
+}
 </script>

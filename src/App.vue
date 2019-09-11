@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="container">
     <vue-headful
-      :title="$t('meta.title')"
+      title="JoinPeerTube"
       :html="{ body: {id: $route.meta.id } }"
       :lang="$route.meta.lang"
     />
@@ -21,12 +21,12 @@
 </style>
 
 <script>
-  import HeaderComponent from './components/Header.vue'
+import HeaderComponent from './components/Header.vue'
 
-  export default {
-    name: 'app',
-    components: {
-      HeaderComponent,
-    },
+export default {
+  name: 'app',
+  components: {
+    HeaderComponent
   }
+}
 </script>

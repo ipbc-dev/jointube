@@ -43,11 +43,10 @@
     </div>
   </div>
 
-
 </template>
 
 <style lang="scss" scoped>
-  @import '../assets/scss/_variables';
+  @import '../scss/_variables';
 
   .root {
     display: flex;
@@ -109,23 +108,23 @@
 </style>
 
 <script>
-  import IconVideo from './icons/IconVideo.vue'
-  import IconInstance from './icons/IconInstance.vue'
-  import IconChannel from './icons/IconChannel.vue'
+import IconVideo from './icons/IconVideo.vue'
+import IconInstance from './icons/IconInstance.vue'
+import IconChannel from './icons/IconChannel.vue'
 
-  export default {
-    props: {
-      type: String,
-      title: String,
-      thumbnailUrl: String,
-      url: String,
-      tags: Array,
-      description: String,
-    },
-    components: {
-      IconVideo,
-      IconInstance,
-      IconChannel
-    }
+export default {
+  props: {
+    type: String,
+    title: String,
+    thumbnailUrl: String,
+    url: String,
+    tags: Array,
+    description: String
+  },
+  components: {
+    IconVideo,
+    IconInstance,
+    IconChannel
   }
+}
 </script>
