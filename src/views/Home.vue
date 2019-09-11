@@ -14,13 +14,13 @@
       </div>
 
       <div class="buttons-row">
-        <button class="jpt-button what-is-peertube">
+        <button class="jpt-button jpt-big-button-icon what-is-peertube">
           <icon-instance></icon-instance>
 
           <span v-translate>What is PeerTube?</span>
         </button>
 
-        <button class="jpt-button instances-list">
+        <button class="jpt-button jpt-big-button-icon instances-list">
           <icon-instance></icon-instance>
 
           <translate>See the instances list</translate>
@@ -325,7 +325,10 @@
   }
 
   .jpt-button-legend {
+    margin-top: 5px;
     max-width: 330px;
+    font-size: 13px;
+    text-align: center;
   }
 
   .presentation {

@@ -78,13 +78,17 @@ main {
   background-color: transparent;
   align-items: center;
 
-  .icon {
+  svg {
     width: 18px;
     height: 18px;
   }
 }
 
-.jpt-button-light {
+.jpt-big-button-icon svg {
+  margin-right: 30px;
+}
+
+.jpt-button-medium {
   border-width: 2px;
 }
 

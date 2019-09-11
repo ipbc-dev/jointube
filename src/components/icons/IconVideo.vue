@@ -1,5 +1,5 @@
 <template>
-  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
     <rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/>
 
     <g class="currentLayer" style=""><title>Layer 1</title>

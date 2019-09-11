@@ -4,18 +4,18 @@
     <div class="left">
       <img :src="thumbnailUrl" alt="thumbnail"/>
 
-      <button class="jpt-button jpt-button-light">
-        <span v-if="type === 'video'">
+      <button class="jpt-button jpt-button-medium">
+        <span class="span-wrapper" v-if="type === 'video'">
           <icon-video></icon-video>
           Watch the video
         </span>
 
-        <span v-if="type === 'channel'">
+        <span class="span-wrapper" v-if="type === 'channel'">
           <icon-channel></icon-channel>
           Discover the channel
         </span>
 
-        <span v-if="type === 'instance'">
+        <span class="span-wrapper" v-if="type === 'instance'">
           <icon-instance></icon-instance>
           Go on the instance
         </span>
@@ -66,6 +66,22 @@
       margin-top: 30px;
       width: 250px;
       height: 35px;
+
+      .span-wrapper {
+        display: block;
+        width: 100%;
+        position: relative;
+      }
+
+      svg {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 24px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+      }
     }
   }
 
