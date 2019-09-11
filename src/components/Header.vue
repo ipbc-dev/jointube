@@ -3,7 +3,7 @@
 
     <nav class="navbar navbar-expand-lg">
       <router-link :to="getPath('/')" class="navbar-brand">
-        <img alt="PeerTube" :src="`${$root['/']}img/brand-small.png`">
+        <img alt="PeerTube" :src="buildImgUrl('brand-small.png')">
 
         <div>
           soutenu par
@@ -93,6 +93,7 @@ export default {
   components: {
     I18n
   },
+
   methods: {
     getPath (path) {
       return path

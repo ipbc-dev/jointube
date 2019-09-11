@@ -9,20 +9,67 @@ import Home from './views/Home.vue'
 
 import './scss/bootstrap.scss'
 import './scss/main.scss'
+import CommonMixins from './mixins/Common-Mixins'
+
+const translations = require('./translations.json')
 
 Vue.use(VueRouter)
-Vue.use(GetTextPlugin, { translations: {} })
+
+// ############# I18N ##############
+
+const availableLanguages = {
+  'en_US': 'English',
+  'fr_FR': 'Français'
+}
+const aliasesLanguages = {
+  'en': 'en_US',
+  'fr': 'fr_FR'
+}
+const allLocales = Object.keys(availableLanguages).concat(Object.keys(aliasesLanguages))
+
+Vue.use(GetTextPlugin, {
+  translations,
+  availableLanguages,
+  defaultLanguage: 'en_US',
+  silent: true
+})
+
+const localePath = window.location.pathname
+  .replace(/^\//, '')
+  .replace(/\/$/, '')
+
+if (allLocales.includes(localePath)) {
+  Vue.config.language = aliasesLanguages[localePath] ? aliasesLanguages[localePath] : localePath
+} else {
+  const navigatorLanguage = window.navigator.userLanguage || window.navigator.language
+  const snakeCaseLanguage = navigatorLanguage.replace('-', '_')
+  Vue.config.language = aliasesLanguages[snakeCaseLanguage] ? aliasesLanguages[snakeCaseLanguage] : snakeCaseLanguage
+}
+
+// ###########################
+
 Vue.component('vue-headful', vueHeadful)
+
+Vue.mixin(CommonMixins)
+
+const routes = [
+  {
+    path: '/',
+    component: Home
+  }
+]
+
+for (const locale of allLocales) {
+  routes.push({
+    path: '/' + locale,
+    component: Home
+  })
+}
 
 const router = new VueRouter({
   mode: 'history',
   base: `${__dirname}${process.env.BASE_URL}`,
-  routes: [
-    {
-      path: '/',
-      component: Home
-    }
-  ]
+  routes
 })
 
 // Framanav

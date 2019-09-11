@@ -1,0 +1,23 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: easygettext\n"
+"Project-Id-Version: \n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/views/Home.vue:7
+msgid "A free software to take back control of your videos"
+msgstr "A free software to take back control of your videos"
+
+#: src/components/I18n.vue:7
+msgid "Languages"
+msgstr "Languages"
+
+#: src/components/I18n.vue:21
+msgid "Translate"
+msgstr "Translate"

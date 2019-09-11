@@ -2,28 +2,26 @@
   <div class="i18n">
     <b-dropdown>
       <template slot="button-content">
-        <i class="fa fa-lg fa-language" aria-hidden="true"></i>
+        <img :src="buildImgUrl('language.png')" alt="Change languages logo" />
 
         <div class="text">
-          Language
+          <translate>Languages</translate>
           <span class="caret"></span>
         </div>
       </template>
 
-      <template slot="dropdown">
-        <b-dropdown-item v-for="lang in $language.availableLanguages" @click="changeLanguage(lang)">
-          <router-link :to="'/' + lang + '/' + ($route.path.split('/')[2] || '')">{{ locales[lang] }}</router-link>
-        </b-dropdown-item>
+      <b-dropdown-item v-for="(lang, locale) in $language.available" :href="buildLocaleLink(locale)">
+        {{ lang }}
+      </b-dropdown-item>
 
-        <b-dropdown-divider></b-dropdown-divider>
+      <b-dropdown-divider></b-dropdown-divider>
 
-        <b-dropdown-item>
-          <a>
-            <i class="fa fa-fw fa-plus" aria-hidden="true"></i>
-            <span v-translate>Translate</span>
-          </a>
-        </b-dropdown-item>
-      </template>
+      <b-dropdown-item>
+        <a class="translate">
+          <icon-add></icon-add>
+          <span v-translate>Translate</span>
+        </a>
+      </b-dropdown-item>
     </b-dropdown>
   </div>
 </template>
@@ -40,6 +38,12 @@
     .dropdown-toggle::after {
       display: none;
     }
+
+    .translate svg {
+      width: 20px;
+      margin-right: 5px;
+      vertical-align: top;
+    }
   }
 </style>
 
@@ -51,22 +55,20 @@
 
 <script>
 import { BDropdown, BDropdownDivider, BDropdownItem } from 'bootstrap-vue'
+import IconAdd from './icons/IconAdd'
 
 export default {
   components: {
-    BDropdown, BDropdownDivider, BDropdownItem
+    BDropdown,
+    BDropdownDivider,
+    BDropdownItem,
+
+    IconAdd
   },
-  data () {
-    return {
-      currentComponent: '',
-      switchLanguage: 'en'
-    }
-  },
+
   methods: {
-    changeLanguage (lang) {
-      this.switchLanguage = lang
-      this.$i18n.locale = lang
-      this.currentComponent = this.$route.path.split('/')[2] // eslint-disable-line prefer-destructuring
+    buildLocaleLink (locale) {
+      return window.location.origin + `/${locale}/`
     }
   }
 }
