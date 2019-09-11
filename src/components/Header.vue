@@ -5,9 +5,10 @@
       <router-link :to="getPath('/')" class="navbar-brand">
         <img alt="PeerTube" :src="buildImgUrl('brand-small.png')">
 
-        <div>
+        <div class="support">
           soutenu par
 
+          <img alt="Framasoft text logo" :src="buildImgUrl('framasoft-logo-text-small.png')">
         </div>
       </router-link>
 
@@ -45,7 +46,7 @@
           </li>
 
           <div class="pull-right">
-            <I18n />
+            <I18n/>
           </div>
         </ul>
       </div>
@@ -55,9 +56,23 @@
 
 <style lang="scss" scoped>
   @import '../scss/_variables.scss';
+  @import '../scss/_mixins.scss';
 
   header {
     margin-bottom: 30px;
+  }
+
+  .navbar-brand {
+    @include disable-default-a-behaviour;
+
+    color: #000;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 10px;
+
+    .support img {
+      vertical-align: initial;
+      margin-left: 1px;
+    }
   }
 
   nav {
@@ -87,17 +102,17 @@
 </style>
 
 <script>
-import I18n from './I18n.vue'
+  import I18n from './I18n.vue'
 
-export default {
-  components: {
-    I18n
-  },
+  export default {
+    components: {
+      I18n
+    },
 
-  methods: {
-    getPath (path) {
-      return path
+    methods: {
+      getPath (path) {
+        return path
+      }
     }
   }
-}
 </script>

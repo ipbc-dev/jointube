@@ -2,7 +2,7 @@
   <div class="i18n">
     <b-dropdown>
       <template slot="button-content">
-        <img :src="buildImgUrl('language.png')" alt="Change languages logo" />
+        <img :src="buildImgUrl('language.png')" alt="Change languages logo"/>
 
         <div class="text">
           <translate>Languages</translate>
@@ -54,22 +54,22 @@
 </style>
 
 <script>
-import { BDropdown, BDropdownDivider, BDropdownItem } from 'bootstrap-vue'
-import IconAdd from './icons/IconAdd'
+  import { BDropdown, BDropdownDivider, BDropdownItem } from 'bootstrap-vue'
+  import IconAdd from './icons/IconAdd'
 
-export default {
-  components: {
-    BDropdown,
-    BDropdownDivider,
-    BDropdownItem,
+  export default {
+    components: {
+      BDropdown,
+      BDropdownDivider,
+      BDropdownItem,
 
-    IconAdd
-  },
+      IconAdd
+    },
 
-  methods: {
-    buildLocaleLink (locale) {
-      return window.location.origin + `/${locale}/`
+    methods: {
+      buildLocaleLink (locale) {
+        return window.location.origin + `/${locale}/`
+      }
     }
   }
-}
 </script>
