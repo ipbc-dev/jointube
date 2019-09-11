@@ -76,6 +76,7 @@ main {
   border: 3px solid $orange;
   border-radius: 4px;
   background-color: transparent;
+  align-items: center;
 
   .icon {
     width: 18px;
@@ -93,6 +94,7 @@ main {
   margin: 100px 0;
   display: flex;
   align-items: center;
+  font-family: 'Proza Libre', sans-serif;
 
   .border-title {
     margin-left: 40px;
@@ -105,11 +107,12 @@ main {
   .brand-title {
     margin-left: 10px;
     height: 40px;
-    vertical-align: text-bottom;
+    vertical-align: sub;
   }
 }
 
 .subtitle {
+  font-family: 'Proza Libre', sans-serif;
   font-size: 24px;
   font-weight: $font-semibold;
   margin-top: 100px;

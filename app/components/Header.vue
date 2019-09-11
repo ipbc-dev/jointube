@@ -4,6 +4,12 @@
     <nav class="navbar navbar-expand-lg">
       <router-link :to="'/' + $t('lang') + '/'" class="navbar-brand">
         <img alt="PeerTube" :src="`${$root['/']}img/brand-small.png`">
+
+        <div>
+          soutenu par
+
+
+        </div>
       </router-link>
 
       <button class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -19,8 +25,8 @@
             <router-link class="nav-link" :to="'/' + $t('lang') + '/'">Home</router-link>
           </li>
 
-          <li class="nav-item">
-            <router-link class="nav-link" :to="'/' + $t('lang') + '/'">Create an account</router-link>
+          <li class="nav-item ">
+            <router-link class="nav-link create-account" :to="'/' + $t('lang') + '/'">Create an account</router-link>
           </li>
 
           <li class="nav-item">
@@ -48,7 +54,9 @@
   </header>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+  @import '../assets/scss/_variables.scss';
+
   header {
     margin-bottom: 30px;
   }
@@ -71,6 +79,11 @@
     padding-right: 0 !important;
     padding-left: 0 !important;
     color: #000;
+    font-family: 'Proza Libre', sans-serif;
+
+    &.create-account {
+      font-weight: $font-semibold;
+    }
   }
 </style>
 

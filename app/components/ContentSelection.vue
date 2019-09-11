@@ -76,6 +76,7 @@
       font-weight: $font-semibold;
       display: flex;
       align-items: center;
+      font-family: 'Proza Libre', sans-serif;
 
       .icon {
         margin-right: 10px;
