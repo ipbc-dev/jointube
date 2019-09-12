@@ -111,7 +111,7 @@
 
     methods: {
       getPath (path) {
-        return path
+        return process.env.BASE_URL + path
       }
     }
   }

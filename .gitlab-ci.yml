@@ -7,9 +7,10 @@ pages:
   script:
   - yarn install --pure-lockfile
   - npm run build
+  - rm -r public/ && mv dist/ public/
   artifacts:
     paths:
-    - dist
+    - public
   cache:
     paths:
       - node_modules/

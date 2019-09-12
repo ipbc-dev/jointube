@@ -55,6 +55,10 @@ Vue.mixin(CommonMixins)
 
 const routes = [
   {
+    path: '',
+    component: Home
+  },
+  {
     path: '/',
     component: Home
   },
@@ -73,7 +77,7 @@ for (const locale of allLocales) {
 
 const router = new VueRouter({
   mode: 'history',
-  base: `${__dirname}${process.env.BASE_URL}`,
+  base: process.env.BASE_URL,
   routes
 })
 

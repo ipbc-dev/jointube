@@ -68,7 +68,7 @@
 
     methods: {
       buildLocaleLink (locale) {
-        return window.location.origin + `/${locale}/`
+        return process.env.BASE_URL + `${locale}/`
       }
     }
   }

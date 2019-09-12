@@ -1,3 +1,5 @@
 module.exports = {
-  // options...
+  publicPath: process.env.GITLAB_CI
+    ? '/joinpeertube/'
+    : '/'
 }
