@@ -7,6 +7,7 @@ import GetTextPlugin from 'vue-gettext'
 import App from './App.vue'
 import Home from './views/Home.vue'
 import Help from './views/Help'
+import News from './views/News'
 
 import './scss/bootstrap.scss'
 import './scss/main.scss'
@@ -55,16 +56,16 @@ Vue.mixin(CommonMixins)
 
 const routes = [
   {
-    path: '',
-    component: Home
-  },
-  {
     path: '/',
     component: Home
   },
   {
     path: '/help',
     component: Help
+  },
+  {
+    path: '/news',
+    component: News
   }
 ]
 

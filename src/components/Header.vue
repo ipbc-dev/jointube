@@ -90,14 +90,17 @@
   }
 
   .nav-link {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
+    padding: 0 !important;
     color: #000;
     font-family: 'Proza Libre', sans-serif;
 
     &.create-account {
       font-weight: $font-semibold;
     }
+  }
+
+  .router-link-active {
+    border-bottom: 3px solid $orange;
   }
 </style>
 

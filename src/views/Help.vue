@@ -113,32 +113,6 @@
     width: 500px;
   }
 
-  .title {
-    font-family: 'Proza Libre', sans-serif;
-    font-weight: $font-semibold;
-  }
-
-  .title-block {
-    text-align: center;
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    .title {
-      margin-bottom: 10px;
-      font-size: 34px;
-      font-weight: $font-semibold;
-    }
-
-    .separator {
-      margin-top: 30px;
-      background-color: $orange;
-      height: 3px;
-      width: 200px;
-    }
-  }
-
   .block-with-image {
     display: flex;
     justify-content: space-between;
