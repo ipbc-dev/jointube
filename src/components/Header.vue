@@ -22,11 +22,11 @@
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <router-link class="nav-link" to="/">Home</router-link>
+            <router-link class="nav-link" to="/" exact>Home</router-link>
           </li>
 
           <li class="nav-item ">
-            <router-link class="nav-link create-account" to="/">Create an account</router-link>
+            <router-link class="nav-link create-account" to="/instances">Create an account</router-link>
           </li>
 
           <li class="nav-item">
