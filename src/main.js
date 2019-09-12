@@ -8,10 +8,10 @@ import App from './App.vue'
 import Home from './views/Home.vue'
 import Help from './views/Help'
 import News from './views/News'
+import Instances from './views/Instances'
 
-import './scss/bootstrap.scss'
 import './scss/main.scss'
-import CommonMixins from './mixins/Common-Mixins'
+import CommonMixins from './mixins/CommonMixins'
 
 const translations = require('./translations.json')
 
@@ -66,6 +66,10 @@ const routes = [
   {
     path: '/news',
     component: News
+  },
+  {
+    path: '/instances',
+    component: Instances
   }
 ]
 

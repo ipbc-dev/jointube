@@ -253,7 +253,7 @@
         <div class="one-column">
           <div class="subtitle" v-translate>À vous de jouer !</div>
 
-          <img :src="buildImgUrl('peertube-you-play.png')" alt="PeerTube you play illustration"/>
+          <img :src="buildImgUrl('peertube-federation-multiplicity.png')" alt="PeerTube you play illustration"/>
         </div>
 
         <div class="buttons-row">
