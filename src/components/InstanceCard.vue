@@ -1,0 +1,224 @@
+<template>
+  <div class="root">
+
+    <div class="left">
+      <div class="name-host">
+        <div class="name">{{ instance.name }}</div>
+        <div class="host">{{ instance.host }}</div>
+      </div>
+
+      <div class="description">
+        {{ instance.shortDescription }}
+      </div>
+
+      <div class="upload-limits" v-if="isVideoMaker">
+        <div class="quota">
+          <div v-if="instance.userVideoQuota">
+            <div class="icon"></div>
+            {{ bytes(instance.userVideoQuota) }}
+            <translate>per user</translate>
+          </div>
+
+          <div v-else v-translate>
+            No video quota per user
+          </div>
+        </div>
+
+        <div class="auto-blacklist" v-if="instance.autoBlacklistUserVideosEnabled">
+          <div class="label">Videos publication</div>
+          <div class="value">After moderation</div>
+        </div>
+      </div>
+
+      <div class="tags">
+        <div class="tag" v-for="category in instance.categories" :key="category">
+          {{ translatedThemes[category] }}
+        </div>
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="follow">
+        <template v-if="isVideoMaker">
+          <div class="icon">
+            <icon-followers></icon-followers>
+          </div>
+          <div>
+            <translate :translate-n="instance.totalInstanceFollowers"
+                       translate-plural="%{ instance.totalInstanceFollowers } followers instances">
+              %{ instance.totalInstanceFollowers } follower instance
+            </translate>
+          </div>
+        </template>
+
+        <template v-else>
+          <div class="icon">
+            <icon-following></icon-following>
+          </div>
+          <div>
+            <translate :translate-n="instance.totalInstanceFollowing"
+                       translate-plural="Follows %{ instance.totalInstanceFollowing } instances">
+              Follows %{ instance.totalInstanceFollowing } instance
+            </translate>
+          </div>
+        </template>
+      </div>
+
+      <div class="languages" v-if="Array.isArray(instance.languages) && instance.languages.length !== 0">
+        <div class="icon">
+          <icon-languages></icon-languages>
+        </div>
+
+        <div>{{ getLanguages(instance.languages) }}</div>
+      </div>
+
+      <div class="nsfw">
+        <span v-translate class="label">Sensitive content</span>
+        <div v-translate v-if="instance.defaultNSFWPolicy === 'do_not_list'">Hidden</div>
+        <div v-translate v-if="instance.defaultNSFWPolicy === 'blur'">Blurred</div>
+        <div v-translate v-if="instance.defaultNSFWPolicy === 'display'">Displayed</div>
+      </div>
+
+      <div class="link">
+        <a :href="getUrl(instance)" class="bottom-link" target="_blank" rel="noopener noreferrer">
+          <span class="text" v-translate>See the instance</span>
+          <icon-right></icon-right>
+        </a>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style scoped lang="scss">
+  @import '../scss/_variables.scss';
+
+  .root {
+    height: 185px;
+    width: 770px;
+    margin: auto;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.35);
+    border: solid 1px #d9d9d9;
+    padding: 20px 25px;
+    display: flex;
+  }
+
+  .left,
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .left {
+    margin-right: 40px;
+    width: 480px;
+
+    .name-host {
+      display: flex;
+      margin-bottom: 3px;
+    }
+
+    .name {
+      font-family: "Proza Libre", sans-serif;
+      font-weight: $font-semibold;
+      margin-right: 10px;
+    }
+
+    .host {
+      color: $grey;
+    }
+
+    .description {
+      margin-bottom: 12px;
+    }
+
+    .tags {
+      margin-top: auto;
+    }
+  }
+
+  .right {
+    .icon,
+    .label {
+      margin-right: 5px;
+    }
+
+    .follow,
+    .languages {
+      margin-bottom: 10px;
+      display: flex;
+    }
+
+    .nsfw {
+      display: flex;
+
+      .label {
+        color: $grey;
+      }
+    }
+
+    .link {
+      margin-top: auto;
+      margin-bottom: 2px;
+      align-self: flex-end;
+    }
+  }
+</style>
+
+<script>
+  import IconRight from './icons/IconRight'
+  import IconFollowers from './icons/IconFollowers'
+  import IconFollowing from './icons/IconFollowing'
+  import IconLanguages from './icons/IconLanguages'
+
+  export default {
+    components: {
+      IconRight,
+      IconFollowers,
+      IconFollowing,
+      IconLanguages
+    },
+
+    props: {
+      instance: Object,
+      translatedThemes: Object,
+      translatedLanguages: Object,
+      isVideoMaker: Boolean
+    },
+
+    data () {
+      return {}
+    },
+
+    methods: {
+      bytes (value) {
+        if (value === -1) return this.$gettext('Unlimited space for users')
+
+        // https://github.com/danrevah/ngx-pipes/blob/master/src/pipes/math/bytes.ts
+        const dictionaryBytes = [
+          { max: 1024, type: this.$gettext('B') },
+          { max: 1048576, type: this.$gettext('KB') },
+          { max: 1073741824, type: this.$gettext('MB') },
+          { max: 1.0995116e12, type: this.$gettext('GB') }
+        ]
+
+        const format = dictionaryBytes.find(function (d) { return value < d.max }) || dictionaryBytes[dictionaryBytes.length - 1]
+        const calc = Math.floor(value / (format.max / 1024)).toString()
+
+        return calc + format.type
+      },
+
+      getLanguages (languages) {
+        return languages.map(l => this.translatedLanguages[l]).join(', ')
+      },
+
+      getUrl (instance) {
+        return `https://${instance.host}`
+      }
+    },
+
+    mounted () {
+
+    }
+  }
+</script>

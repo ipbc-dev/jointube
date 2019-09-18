@@ -3,7 +3,7 @@
     <div class="filters">
       <div v-translate class="title">Filter according to your preferences</div>
 
-      <form>
+      <form @change="onFormChange()">
         <div class="group">
           <label for="profile" v-translate>Your profile</label>
 
@@ -47,7 +47,7 @@
         <div class="group">
           <label for="profile" v-translate>Sensitive videos</label>
 
-          <b-form-radio-group id="nsfw" buttons name="nsfw" v-model="wantTo">
+          <b-form-radio-group id="nsfw" buttons name="nsfw" v-model="nsfw">
             <b-form-radio value="hide">
               <translate>Hide</translate>
             </b-form-radio>
@@ -78,7 +78,7 @@
           ></b-form-checkbox-group>
         </div>
 
-        <div class="group">
+        <div class="group" v-if="isVideoMaker() && wantToRegister()">
           <label for="quota" v-translate>Allowed video space</label>
 
           <b-form-select v-model="quota" id="quota" name="quota">
@@ -102,9 +102,23 @@
       </form>
     </div>
 
-    <div>
-      <div v-if="error" id="instances-list-error" class="alert alert-danger">
-        Sorry, but we cannot fetch the instances list. Please retry later.
+    <div class="instances-list">
+      <div v-translate class="title">Instances list</div>
+
+      <div class="list">
+        <div v-for="instance of instances" class="instance">
+          <instance-card
+            :instance="instance" :isVideoMaker="isVideoMaker()"
+            :translatedLanguages="translatedLanguages" :translatedThemes="translatedThemes"
+          >
+          </instance-card>
+        </div>
+      </div>
+
+      <div>
+        <div v-if="error" id="instances-list-error" class="alert alert-danger">
+          Sorry, but we cannot fetch the instances list. Please retry later.
+        </div>
       </div>
     </div>
   </div>
@@ -113,11 +127,14 @@
 <style scoped lang="scss">
   @import '../scss/_variables.scss';
 
+  .title {
+    font-size: 24px;
+  }
+
   .filters {
     margin-bottom: 100px;
 
     .title {
-      font-size: 24px;
       margin-bottom: 25px;
     }
 
@@ -167,6 +184,10 @@
       }
     }
   }
+
+  .instances-list {
+    margin-bottom: 50px;
+  }
 </style>
 
 <style lang="scss">
@@ -190,30 +211,42 @@
       }
 
       &:nth-child(4n-1) {
-        width: 110px;
+        width: 190px;
       }
 
       &:nth-child(4n-2) {
-        width: 110px;
+        width: 130px;
       }
 
       &:nth-child(4n-3) {
-        width: 200px;
+        width: 100px;
       }
+    }
+  }
+
+  .instances-list {
+    .title {
+      margin-bottom: 50px;
+    }
+
+    .instance {
+      margin-bottom: 40px;
     }
   }
 </style>
 
 <script>
-  import { BFormRadio, BFormRadioGroup, BFormCheckboxGroup, BFormSelect } from 'bootstrap-vue'
+  import { BFormCheckboxGroup, BFormRadio, BFormRadioGroup, BFormSelect } from 'bootstrap-vue'
   import axios from 'axios'
+  import InstanceCard from './InstanceCard'
 
   export default {
     components: {
       'b-form-radio-group': BFormRadioGroup,
       'b-form-radio': BFormRadio,
       'b-form-checkbox-group': BFormCheckboxGroup,
-      'b-form-select': BFormSelect
+      'b-form-select': BFormSelect,
+      InstanceCard
     },
 
     data () {
@@ -221,50 +254,28 @@
         error: false,
 
         instances: [],
-        availableThemes: [
-          { value: '11', text: this.$gettext('News & Politics') },
-          { value: '1', text: this.$gettext('Music') },
-          { value: '2', text: this.$gettext('Films') },
-          { value: '3', text: this.$gettext('Vehicles') },
-
-          { value: '10', text: this.$gettext('Entertainment') },
-          { value: '4', text: this.$gettext('Art') },
-          { value: '5', text: this.$gettext('Sports') },
-          { value: '6', text: this.$gettext('Travels') },
-
-          { value: '15', text: this.$gettext('Science & Technology') },
-          { value: '8', text: this.$gettext('People') },
-          { value: '9', text: this.$gettext('Comedy') },
-          { value: '12', text: this.$gettext('How To') },
-
-          { value: '7', text: this.$gettext('Gaming') },
-          { value: '13', text: this.$gettext('Education') },
-          { value: '14', text: this.$gettext('Activism') },
-          { value: '16', text: this.$gettext('Animals') },
-
-          { value: '17', text: this.$gettext('Kids') },
-          { value: '18', text: this.$gettext('Food') },
-        ],
-
-        profile: 'viewer',
-        wantTo: 'create-account',
-        themes: [],
-        nsfw: 'no-opinion',
-        languages: [],
-        quota: '5'
-      }
-    },
-
-    computed: {
-      availableLanguages: function () {
-        const available = [
-          {
-            value: 'en',
-            text: this.$gettext('English')
-          }
-        ]
-
-        const all = {
+        translatedThemes: {
+          '1': this.$gettext('Music'),
+          '2': this.$gettext('Films'),
+          '3': this.$gettext('Vehicles'),
+          '4': this.$gettext('Art'),
+          '5': this.$gettext('Sports'),
+          '6': this.$gettext('Travels'),
+          '7': this.$gettext('Gaming'),
+          '8': this.$gettext('People'),
+          '9': this.$gettext('Comedy'),
+          '10': this.$gettext('Entertainment'),
+          '11': this.$gettext('News & Politics'),
+          '12': this.$gettext('How To'),
+          '13': this.$gettext('Education'),
+          '14': this.$gettext('Activism'),
+          '15': this.$gettext('Science & Technology'),
+          '16': this.$gettext('Animals'),
+          '17': this.$gettext('Kids'),
+          '18': this.$gettext('Food')
+        },
+        translatedLanguages: {
+          'en': this.$gettext('English'),
           'fr': this.$gettext('Français'),
           'ja': this.$gettext('日本語'),
           'eu': this.$gettext('Euskara'),
@@ -284,12 +295,43 @@
           'pl': this.$gettext('Polski'),
           'fi': this.$gettext('suomi'),
           'ru': this.$gettext('русский')
+        },
+
+        profile: 'viewer',
+        wantTo: 'create-account',
+        themes: [],
+        nsfw: 'no-opinion',
+        languages: [],
+        quota: '5'
+      }
+    },
+
+    computed: {
+      availableThemes: function () {
+        const result = []
+
+        for (const key of Object.keys(this.translatedThemes)) {
+          result.push({
+            value: key,
+            text: this.translatedThemes[key]
+          })
         }
+
+        return result
+      },
+
+      availableLanguages: function () {
+        const available = [
+          {
+            value: 'en',
+            text: this.translatedLanguages['en']
+          }
+        ]
 
         const navigatorLanguage = window.navigator.userLanguage || window.navigator.language
         const smallLanguage = navigatorLanguage.split('-')[0]
 
-        const found = all[smallLanguage]
+        const found = this.translatedLanguages[smallLanguage]
         if (found && found !== 'en') {
           available.push({
             value: smallLanguage,
@@ -302,6 +344,18 @@
     },
 
     methods: {
+      isViewer () {
+        return this.profile === 'viewer'
+      },
+
+      isVideoMaker () {
+        return this.profile === 'video-maker'
+      },
+
+      wantToRegister () {
+        return this.wantTo === 'discover-instances'
+      },
+
       // Thanks https://stackoverflow.com/a/6274381
       shuffle (a) {
         for (let i = a.length - 1; i > 0; i--) {
@@ -312,51 +366,36 @@
         return a
       },
 
-      bytes (value) {
-        // https://github.com/danrevah/ngx-pipes/blob/master/src/pipes/math/bytes.ts
-        const dictionaryBytes = [
-          {max: 1024, type: 'B'},
-          {max: 1048576, type: 'KB'},
-          {max: 1073741824, type: 'MB'},
-          {max: 1.0995116e12, type: 'GB'}
-        ]
+      onFormChange () {
+        this.fetchInstances()
+      },
 
-        if (value === -1) return 'No quota'
+      fetchInstances () {
+        const options = {
+          method: 'GET',
+          params: {
+            start: 0,
+            count: 250,
+            // signup: true,
+            healthy: true,
+            nsfwPolicy: ['do_not_list', 'blur'],
+            search: 'peertube2'
+          }
+        }
 
-        const format = dictionaryBytes.find(function (d) { return value < d.max }) || dictionaryBytes[dictionaryBytes.length - 1]
-        const calc = Math.floor(value / (format.max / 1024)).toString()
-
-        return calc + format.type
+        axios('https://instances.joinpeertube.org/api/v1/instances', options)
+          .then(response => {
+            this.instances = this.shuffle(response.data.data)
+          })
+          .catch(err => {
+            console.error(err)
+            this.error = true
+          })
       }
     },
 
     mounted () {
-      const options = {
-        method: 'GET',
-        params: {
-          start: 0,
-          count: 100,
-          signup: true,
-          healthy: true,
-          nsfwPolicy: ['do_not_list', 'blur']
-        }
-      }
-      axios('https://instances.joinpeertube.org/api/v1/instances', options)
-        .then(response => {
-          this.instances = this.shuffle(response.data.data)
-
-          this.instances.forEach(i => {
-            i.url = 'https://' + i.host
-
-            if (i.userVideoQuota) {
-              i.userVideoQuotaBytes = this.bytes(i.userVideoQuota)
-            }
-          })
-        })
-        .catch(err => {
-          console.error(err)
-          this.error = true
-        })
+      this.fetchInstances()
     }
   }
 </script>
