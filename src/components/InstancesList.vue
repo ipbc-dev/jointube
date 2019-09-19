@@ -115,10 +115,12 @@
         </div>
       </div>
 
-      <div>
-        <div v-if="error" id="instances-list-error" class="alert alert-danger">
-          Sorry, but we cannot fetch the instances list. Please retry later.
-        </div>
+      <div v-if="error" class="alert alert-danger">
+        Sorry, but we cannot fetch the instances list. Please retry later.
+      </div>
+
+      <div v-if="noResults" class="alert alert-info">
+        Sorry, but we did not find any instance matching your filters.
       </div>
     </div>
   </div>
@@ -252,6 +254,7 @@
     data () {
       return {
         error: false,
+        noResults: false,
 
         instances: [],
         translatedThemes: {
@@ -373,6 +376,8 @@
       },
 
       fetchInstances () {
+        this.noResults = false
+
         const params = {
           start: 0,
           count: 250,
@@ -394,6 +399,8 @@
         axios('https://instances.joinpeertube.org/api/v1/instances', options)
           .then(response => {
             this.instances = this.shuffle(response.data.data)
+
+            if (this.instances.length === 0) this.noResults = true
           })
           .catch(err => {
             console.error(err)
