@@ -381,8 +381,7 @@
         const params = {
           start: 0,
           count: 250,
-          healthy: true,
-          search: 'peertube2'
+          healthy: true
         }
 
         if (this.wantTo === 'create-account') params.signup = true

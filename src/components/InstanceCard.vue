@@ -7,8 +7,8 @@
         <div class="host">{{ instance.host }}</div>
       </div>
 
-      <div class="description">
-        {{ instance.shortDescription }}
+      <div class="description" :title="instance.shortDescription">
+        {{ truncatedDescription }}
       </div>
 
       <div class="upload-limits" v-if="isVideoMaker">
@@ -72,7 +72,7 @@
           <icon-languages></icon-languages>
         </div>
 
-        <div>{{ getLanguages(instance.languages) }}</div>
+        <div>{{ languages }}</div>
       </div>
 
       <div class="nsfw">
@@ -119,11 +119,12 @@
 
   .label {
     color: $grey;
+    letter-spacing: -0.5px;
   }
 
   .left {
     margin-right: 40px;
-    width: 490px;
+    width: 480px;
 
     .name-host {
       display: flex;
@@ -155,6 +156,7 @@
     }
 
     .tags {
+      display: flex;
       margin-top: auto;
     }
   }
@@ -168,10 +170,6 @@
 
     .nsfw {
       display: flex;
-
-      .label {
-        color: $grey;
-      }
     }
 
     .link {
@@ -188,6 +186,7 @@
   import IconFollowing from './icons/IconFollowing'
   import IconLanguages from './icons/IconLanguages'
   import IconQuota from './icons/IconQuota'
+  import truncate from 'lodash/truncate'
 
   export default {
     components: {
@@ -205,8 +204,19 @@
       isVideoMaker: Boolean
     },
 
-    data () {
-      return {}
+    computed: {
+      truncatedDescription () {
+        const t = this.instance.shortDescription
+
+        return truncate(t, { separator: /,? /, length: 200 })
+      },
+
+      languages () {
+        return this.instance.languages
+          .map(l => this.translatedLanguages[l])
+          .filter(l => !!l)
+          .join(', ')
+      }
     },
 
     methods: {
@@ -225,10 +235,6 @@
         const calc = Math.floor(value / (format.max / 1024)).toString()
 
         return calc + format.type
-      },
-
-      getLanguages (languages) {
-        return languages.map(l => this.translatedLanguages[l]).join(', ')
       },
 
       getUrl (instance) {
