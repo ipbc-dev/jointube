@@ -48,7 +48,7 @@
           <label for="profile" v-translate>Sensitive videos</label>
 
           <b-form-radio-group id="nsfw" buttons name="nsfw" v-model="nsfw">
-            <b-form-radio value="hide">
+            <b-form-radio value="do_not_list">
               <translate>Hide</translate>
             </b-form-radio>
 
@@ -78,7 +78,7 @@
           ></b-form-checkbox-group>
         </div>
 
-        <div class="group" v-if="isVideoMaker() && wantToRegister()">
+        <div class="group" v-if="isQuotaEnabled()">
           <label for="quota" v-translate>Allowed video space</label>
 
           <b-form-select v-model="quota" id="quota" name="quota">
@@ -106,7 +106,7 @@
       <div v-translate class="title">Instances list</div>
 
       <div class="list">
-        <div v-for="instance of instances" class="instance">
+        <div v-for="instance of instances" class="instance" :key="instance.host">
           <instance-card
             :instance="instance" :isVideoMaker="isVideoMaker()"
             :translatedLanguages="translatedLanguages" :translatedThemes="translatedThemes"
@@ -332,7 +332,7 @@
         const smallLanguage = navigatorLanguage.split('-')[0]
 
         const found = this.translatedLanguages[smallLanguage]
-        if (found && found !== 'en') {
+        if (found && smallLanguage !== 'en') {
           available.push({
             value: smallLanguage,
             text: found
@@ -344,16 +344,12 @@
     },
 
     methods: {
-      isViewer () {
-        return this.profile === 'viewer'
-      },
-
       isVideoMaker () {
         return this.profile === 'video-maker'
       },
 
       wantToRegister () {
-        return this.wantTo === 'discover-instances'
+        return this.wantTo === 'create-account'
       },
 
       // Thanks https://stackoverflow.com/a/6274381
@@ -367,20 +363,32 @@
       },
 
       onFormChange () {
+        console.log('Updating instances list.')
+
         this.fetchInstances()
       },
 
+      isQuotaEnabled () {
+        return this.isVideoMaker() && this.wantToRegister()
+      },
+
       fetchInstances () {
+        const params = {
+          start: 0,
+          count: 250,
+          healthy: true,
+          search: 'peertube2'
+        }
+
+        if (this.wantTo === 'create-account') params.signup = true
+        if (this.themes.length !== 0) params.categoriesOr = this.themes
+        if (this.nsfw !== 'no-opinion') params.nsfwPolicy = [ this.nsfw ]
+        if (this.languages.length !== 0) params.languagesOr = this.languages
+        if (this.isQuotaEnabled()) params.minUserQuota = this.quota
+
         const options = {
           method: 'GET',
-          params: {
-            start: 0,
-            count: 250,
-            // signup: true,
-            healthy: true,
-            nsfwPolicy: ['do_not_list', 'blur'],
-            search: 'peertube2'
-          }
+          params
         }
 
         axios('https://instances.joinpeertube.org/api/v1/instances', options)

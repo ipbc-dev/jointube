@@ -13,8 +13,11 @@
 
       <div class="upload-limits" v-if="isVideoMaker">
         <div class="quota">
+          <div class="icon">
+            <icon-quota></icon-quota>
+          </div>
+
           <div v-if="instance.userVideoQuota">
-            <div class="icon"></div>
             {{ bytes(instance.userVideoQuota) }}
             <translate>per user</translate>
           </div>
@@ -98,7 +101,7 @@
     margin: auto;
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.35);
     border: solid 1px #d9d9d9;
-    padding: 20px 25px;
+    padding: 20px 25px 15px 25px;
     display: flex;
   }
 
@@ -109,9 +112,18 @@
     justify-content: space-between;
   }
 
+  .icon,
+  .label {
+    margin-right: 5px;
+  }
+
+  .label {
+    color: $grey;
+  }
+
   .left {
     margin-right: 40px;
-    width: 480px;
+    width: 490px;
 
     .name-host {
       display: flex;
@@ -129,7 +141,17 @@
     }
 
     .description {
-      margin-bottom: 12px;
+      margin-bottom: 8px;
+      line-height: normal;
+    }
+
+    .upload-limits {
+      display: flex;
+
+      .quota {
+        display: flex;
+        margin-right: 80px;
+      }
     }
 
     .tags {
@@ -138,11 +160,6 @@
   }
 
   .right {
-    .icon,
-    .label {
-      margin-right: 5px;
-    }
-
     .follow,
     .languages {
       margin-bottom: 10px;
@@ -170,13 +187,15 @@
   import IconFollowers from './icons/IconFollowers'
   import IconFollowing from './icons/IconFollowing'
   import IconLanguages from './icons/IconLanguages'
+  import IconQuota from './icons/IconQuota'
 
   export default {
     components: {
       IconRight,
       IconFollowers,
       IconFollowing,
-      IconLanguages
+      IconLanguages,
+      IconQuota
     },
 
     props: {

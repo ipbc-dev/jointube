@@ -1,5 +1,6 @@
 <template>
-  <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+       xmlns:xlink="http://www.w3.org/1999/xlink">
     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
       <g transform="translate(-92.000000, -115.000000)">
         <g id="2" transform="translate(92.000000, 115.000000)">
@@ -10,9 +11,8 @@
       </g>
     </g>
   </svg>
-
 </template>
 
 <script>
-export default {}
+  export default {}
 </script>
