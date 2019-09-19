@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-09-19 14:51+0000\n"
-"Last-Translator: Framasoft <tech-sys@framalistes.org>\n"
+"PO-Revision-Date: 2019-09-19 14:52+0000\n"
+"Last-Translator: chocobozzz <chocobozzz@framasoft.org>\n"
 "Language-Team: French <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/fr/>\n"
 "Language: fr_FR\n"
@@ -19,7 +19,7 @@ msgstr "Un logiciel libre pour reprendre le contrôle de vos vidéos"
 
 #: src/components/I18n.vue:7
 msgid "Languages"
-msgstr "Lagues"
+msgstr "Langues"
 
 #: src/components/I18n.vue:21
 msgid "Translate"
