@@ -347,7 +347,7 @@ faq:
       text:
       - Lypset të gjeni një instancë strehimi PeerTube të cilës t’i zini besë.
       - Ka një <a href="@:data.link.instancesPT">listë të tërë instancash këtu</a>,
-        dhe një listë të atyre që janë <a href="./#getting-started">të hapura për
+        dhe një listë të atyre që janë <a href="./#register">të hapura për
         regjistrime, këtu</a>.
       - Mandej, këshillojmë të shkoni te instancat, të lexoni faqet "mbi" përkatëse,
         për të parë kushtet e tyre të shërbimit (kufi hapësire në disk për përdorues,

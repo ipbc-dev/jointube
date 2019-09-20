@@ -348,7 +348,7 @@ faq:
       text:
       - Necesitas encontrar una instancia de alojamiento de PeerTube en la que confíes.
       - Hay una lista completa <a href="@:data.link.instancesPT">lista de instancias
-        aquí </a>, y una lista de las que están <a href="./#getting-started">abrir
+        aquí </a>, y una lista de las que están <a href="./#register">abrir
         el registro aquí </a>.
       - A continuación, te recomendamos que vayas a las instancias, leas su página
         "Acerca de" para descubrir sus condiciones de uso (límite de espacio en disco

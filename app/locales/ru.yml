@@ -342,7 +342,7 @@ faq:
       text:
       - You need to find a PeerTube hosting instance you trust.
       - There’s a complete <a href="@:data.link.instancesPT">list of instances here</a>,
-        and a list of those that are <a href="./#getting-started">open to registration
+        and a list of those that are <a href="./#register">open to registration
         here</a>.
       - Then, we recommend you go to the instances, read their "about" page to discover
         their terms of use (disk space limit per user, content policy, etc.).

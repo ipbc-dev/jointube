@@ -354,7 +354,7 @@ faq:
       text:
       - Du musst eine PeerTube Hosting-Instanz finden, der du vertraust.
       - Es gibt eine vollständige <a href="@:data.link.instancesPT">Liste der Instanzen
-        hier</a>, und eine Liste derjenigen, die <a href="./#getting-started">  für
+        hier</a>, und eine Liste derjenigen, die <a href="./#register">  für
         die Registrierung hier</a> geöffnet sind.
       - Dann empfehlen wir Ihnen, zu den Instanzen zu gehen und deren "Über"-Seite
         zu lesen, um ihre Nutzungsbedingungen zu erfahren (Festplattenspeicherbegrenzung

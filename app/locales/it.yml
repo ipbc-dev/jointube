@@ -351,7 +351,7 @@ faq:
       text:
       - Devi trovare un'istanza di hosting PeerTube di cui ti fidi.
       - C'è un <a href="@:data.link.instancesPT">elenco di istanze completo qui</a>
-        e un elenco di quelli che sono <a href="./#getting-started">aperti alla registrazione
+        e un elenco di quelli che sono <a href="./#register">aperti alla registrazione
         qui</a>.
       - Quindi, ti consigliamo di andare alle istanze, leggere la loro pagina "about"
         per scoprire le loro condizioni d'uso (limite di spazio del disco per utente,
