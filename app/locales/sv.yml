@@ -332,7 +332,7 @@ faq:
       text:
       - Du måste hitta en PeerTube-instans du kan lita på.
       - Det finns en komplett <a href="@:data.link.instancesPT">lista över instanser
-        här</a> och en lista över de som <a href="./#getting-started">tillåter registrering
+        här</a> och en lista över de som <a href="./#register">tillåter registrering
         här</a>.
       - Därefter rekommenderar vi att du går till instansen och läser deras informationssida
         för att se instansens användarvillkor (begränsningar rörande diskutrymme,
