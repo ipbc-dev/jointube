@@ -1,5 +1,5 @@
 <template>
-  <div class="root">
+  <div id="instances-list" class="root">
     <div class="filters">
       <div v-translate class="title">Filter according to your preferences</div>
 

@@ -14,17 +14,17 @@
       </div>
 
       <div class="buttons-row">
-        <button class="jpt-button jpt-big-button-icon what-is-peertube">
+        <a href="#what-is-peertube" class="jpt-button jpt-big-button-icon">
           <icon-instance></icon-instance>
 
           <span v-translate>What is PeerTube?</span>
-        </button>
+        </a>
 
-        <button class="jpt-button jpt-big-button-icon instances-list">
+        <router-link to="/instances" hash="instances-list" class="jpt-button jpt-big-button-icon instances-list">
           <icon-instance></icon-instance>
 
           <translate>See the instances list</translate>
-        </button>
+        </router-link>
       </div>
     </section>
 
@@ -43,14 +43,14 @@
       </div>
 
       <div class="bottom-link-wrapper">
-        <a href="#" class="bottom-link">
+        <router-link to="/instances" hash="instances-list" class="bottom-link">
           <span class="text" v-translate>Discover PeerTube instances</span>
           <icon-right></icon-right>
-        </a>
+        </router-link>
       </div>
     </section>
 
-    <section class="what-is-peertube">
+    <section id="what-is-peertube">
       <div class="section-title">
         <div v-translate>
           What is
@@ -100,10 +100,10 @@
         </p>
 
         <div class="bottom-link-wrapper">
-          <a href="#" class="bottom-link">
+          <router-link to="/instances" hash="instances-list" class="bottom-link">
             <span class="text" v-translate>Discover PeerTube instances</span>
             <icon-right></icon-right>
-          </a>
+          </router-link>
         </div>
 
         <img :src="buildImgUrl('peertube-federation-2-instances.png')" alt="Funny 2 instances communication schema"/>
@@ -179,7 +179,7 @@
         </div>
       </div>
 
-      <div class="you-are-a-video-maker one-column">
+      <div id="you-are-a-video-maker" class="one-column">
         <div class="subtitle" v-translate>Vous êtes vidéaste ?</div>
 
         <img :src="buildImgUrl('peertube-upload.png')" alt="PeerTube upload illustration"/>
@@ -215,11 +215,9 @@
           besoin, une envie...
         </div>
 
-        <button class="jpt-button discover-instances">
-          <icon-instance></icon-instance>
-
+        <router-link to="/instances" hash="instances-list" class="jpt-button discover-instances">
           <translate>Découvrir les instances PeerTube</translate>
-        </button>
+        </router-link>
       </div>
 
       <div class="p2p one-column">
@@ -249,7 +247,7 @@
         </p>
       </div>
 
-      <div class="you-play">
+      <div id="you-play">
         <div class="one-column">
           <div class="subtitle" v-translate>À vous de jouer !</div>
 
@@ -262,9 +260,9 @@
           </button>
 
           <div>
-            <button class="jpt-button">
+            <router-link to="/instances" class="jpt-button">
               <span v-translate>Créer un compte</span>
-            </button>
+            </router-link>
             <div class="jpt-button-legend" v-translate>
               Pour profiter de toutes les fonctionnalités : historique, abonnements, listes de lectures, notifications...
             </div>
@@ -273,7 +271,7 @@
         </div>
       </div>
 
-      <div class="behind-peertube one-column">
+      <div id="behind-peertube" class="one-column">
         <div class="subtitle" v-translate>Qui est derrière PeerTube ?</div>
 
         <img class="framasoft-logo" :src="buildImgUrl('framasoft-big-logo.png')" alt="Framasoft logo"/>
@@ -304,9 +302,9 @@
           </strong>
         </p>
 
-        <button class="jpt-button">
+        <a href="https://framasoft.org/#soutenir" target="_blank" rel="noopener noreferrer" class="jpt-button">
           <span v-translate>Soutenir Framasoft</span>
-        </button>
+        </a>
       </div>
     </section>
   </main>
@@ -318,7 +316,7 @@
     justify-content: space-between;
     padding: 0 20px;
 
-    button {
+    .jpt-button {
       width: 330px;
       height: 50px;
     }
@@ -371,7 +369,7 @@
     }
   }
 
-  .what-is-peertube {
+  #what-is-peertube {
     .ambition {
       display: flex;
 
@@ -386,21 +384,26 @@
     }
   }
 
-  .you-are-a-video-maker {
+  #you-are-a-video-maker {
     .discover-instances {
       min-width: 420px;
       height: 50px;
       margin: 50px 0;
+      font-size: 20px;
     }
   }
 
-  .you-play {
+  #you-play {
     .buttons-row {
       margin-top: 60px;
+
+      .jpt-button {
+        font-size: 20px;
+      }
     }
   }
 
-  .behind-peertube {
+  #behind-peertube {
     .framasoft-logo {
       margin: 100px 0;
     }
@@ -409,7 +412,7 @@
       height: 50px;
       min-width: 420px;
       margin: 60px 0;
-      font-size: 22px;
+      font-size: 20px;
     }
   }
 </style>

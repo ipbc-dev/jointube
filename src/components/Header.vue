@@ -2,7 +2,7 @@
   <header id="main-header">
 
     <nav class="navbar navbar-expand-lg">
-      <router-link :to="getPath('/')" class="navbar-brand">
+      <router-link to="/" class="navbar-brand">
         <img alt="PeerTube" :src="buildImgUrl('brand-small.png')">
 
         <div class="support">
@@ -99,7 +99,7 @@
     }
   }
 
-  .router-link-active {
+  .router-link-active:not(.navbar-brand) {
     border-bottom: 3px solid $orange;
   }
 </style>
