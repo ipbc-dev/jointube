@@ -3,7 +3,7 @@
     <div class="blocks">
 
       <div class="title-block">
-        <div class="title">Help</div>
+        <div class="title" v-translate>Help</div>
 
         <p>Questions on PeerTube? Need help? You've come to the right place!</p>
 
@@ -16,9 +16,9 @@
         </div>
 
         <div class="text-block">
-          <div class="title">Better understand and use PeerTube</div>
+          <div v-translate class="title">Better understand and use PeerTube</div>
 
-          <p>You have a question?</p>
+          <p v-translate>You have a question?</p>
           <div class="bottom-link-wrapper">
             <router-link to="/faq" class="bottom-link">
               <span class="text" v-translate>Discover our FAQ</span>

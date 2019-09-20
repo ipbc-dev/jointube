@@ -9,6 +9,7 @@ import Home from './views/Home.vue'
 import Help from './views/Help'
 import News from './views/News'
 import Instances from './views/Instances'
+import HallOfFame from './views/Hall-Of-Fame'
 
 import './scss/main.scss'
 import CommonMixins from './mixins/CommonMixins'
@@ -70,6 +71,10 @@ const routes = [
   {
     path: '/instances',
     component: Instances
+  },
+  {
+    path: '/hall-of-fame',
+    component: HallOfFame
   }
 ]
 

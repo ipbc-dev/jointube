@@ -1,26 +1,27 @@
 <template>
   <main>
-    <section class="row hof">
-      <div class="container">
-        <h2 class="text-center" v-html="$t('hof.title')"></h2>
-        <h3 v-html="$t('hof.sponsors')"></h3>
-        <div class="row">
-          <div class="col-sm-3 col-xs-6">
-            <a href="https://qonfucius.com/">
-              <div class="thumbnail">
-                <img :src="`${$root['/']}img/qonfucius.png`" alt="Qonfucius">
-              </div>
-            </a>
-          </div>
-          <div class="col-sm-3 col-xs-6">
-            <a href="https://www.ipsolution.fr/">
-              <div class="thumbnail">
-                <img :src="`${$root['/']}img/ipsolution.png`" alt="IP Solution">
-              </div>
-            </a>
-          </div>
-        </div>
-        <h3 v-html="$t('hof.donators')"></h3>
+    <div class="blocks">
+
+      <div class="title-block">
+        <div v-translate class="title">Hall of Fame</div>
+
+        <div class="separator"></div>
+      </div>
+
+      <div class="block sponsors">
+        <div class="subtitle" v-translate>Sponsors</div>
+
+        <a href="https://qonfucius.com" target="_blank" rel="noopener noreferrer">
+          <img :src="buildImgUrl('sponsors/qonfucius.png')" alt="Qonfucius" />
+        </a>
+
+        <a href="https://www.ipsolution.fr" target="_blank" rel="noopener noreferrer">
+          <img :src="buildImgUrl('sponsors/ipsolution.png')" alt="IP Solution" />
+        </a>
+      </div>
+
+      <div class="block">
+        <div class="subtitle" v-translate>Financial Contributors</div>
         <ul>
           <li>0x010C</li>
           <li>3dsman</li>
@@ -420,49 +421,196 @@
           <li>ZeBlackPearl</li>
           <li>ZeGreg</li>
         </ul>
-        <h3 v-html="$t('hof.dev')"></h3>
-        <ul>
-          <li>Chocobozzz</li>
-          <li>gegeweb</li>
-          <li>rigelk</li>
-          <li>bnjbvr</li>
-          <li>DimitriGilbert</li>
-          <li>Green-Star</li>
-          <li>jankeromnes</li>
-          <li>Angristan</li>
-          <li>okhin</li>
-          <li>svnet-libre</li>
-          <li>dedesite</li>
-          <li>floSoX</li>
-          <li>dadall</li>
-          <li>jonathanraes</li>
-          <li>ldidry</li>
-          <li>DavidLibeau</li>
-          <li>mrflos</li>
-          <li>LecygneNoir</li>
-          <li>lucaspontoexe</li>
-          <li>flyingrub</li>
-          <li>tcitworld</li>
-          <li>valvin1</li>
-          <li>kaiyou</li>
-          <li>taziden</li>
-          <li>sticmac</li>
-          <li>luzpaz</li>
-          <li>qsypoq</li>
-          <li>noplanman</li>
-          <li>Nautigsam</li>
-          <li>ewft</li>
-        </ul>
-        <p>
-          <a class="button"
-             :href="$root.link.gitPT"
-             v-html="$t('hof.contrib')"
-          ></a>
-        </p>
       </div>
-    </section>
+
+      <div class="block">
+        <div class="subtitle" v-translate>Contributors</div>
+        <ul>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Chocobozzz">Chocobozzz</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/rigelk">rigelk</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Nutomic">Nutomic</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/gegeweb">gegeweb</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/joshmorel">joshmorel</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Jorropo">Jorropo</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/buoyantair">buoyantair</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/bnjbvr">bnjbvr</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/frankstrater">frankstrater</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/jankeromnes">jankeromnes</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/lucas-dclrcq">lucas-dclrcq</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/JohnXLivingston">JohnXLivingston</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/DavidLibeau">DavidLibeau</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/fflorent">fflorent</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/kaiyou">kaiyou</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/ldidry">ldidry</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/McFlat">McFlat</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/DimitriGilbert">DimitriGilbert</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/floSoX">floSoX</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Green-Star">Green-Star</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/NassimBounouas">NassimBounouas</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/thomaskuntzz">thomaskuntzz</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/rezonant">rezonant</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Wirebrass">Wirebrass</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/clementbrizard">clementbrizard</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/LecygneNoir">LecygneNoir</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/okhin">okhin</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/daftaupe">daftaupe</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/tcitworld">tcitworld</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/dedesite">dedesite</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Nautigsam">Nautigsam</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/scanlime">scanlime</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/am97">am97</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/dadall">dadall</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/jonathanraes">jonathanraes</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/yohanboniface">yohanboniface</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/anoadragon453">anoadragon453</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/auberanger">auberanger</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/darnuria">darnuria</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/rhaamo">rhaamo</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/mrflos">mrflos</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Yetangitu">Yetangitu</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/jocelynj">jocelynj</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/lucaspontoexe">lucaspontoexe</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/flyingrub">flyingrub</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/valvin1">valvin1</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/taziden">taziden</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/sticmac">sticmac</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/barbeque">barbeque</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/luzpaz">luzpaz</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/acid-chicken">acid-chicken</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/louistio">louistio</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/qsypoq">qsypoq</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/daker">daker</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/xyproto">xyproto</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/NaPs">NaPs</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Anton-Latukha">Anton-Latukha</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/noplanman">noplanman</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/austinheap">austinheap</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/BO41">BO41</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/benabbottnz">benabbottnz</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/ewft">ewft</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/bradsk88">bradsk88</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Ealhad">Ealhad</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/DeeJayBro">DeeJayBro</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/dirkkelly">dirkkelly</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Edznux">Edznux</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/ebrehault">ebrehault</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/DatBewar">DatBewar</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/ReK2Fernandez">ReK2Fernandez</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/grizio">grizio</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Glandos">Glandos</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/lanodan">lanodan</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/HesioZ">HesioZ</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/jacen92">jacen92</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/realityfabric">realityfabric</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/jlebras">jlebras</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/alcalyn">alcalyn</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/mkody">mkody</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/pichouk">pichouk</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/LeoMouyna">LeoMouyna</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/LiPeK">LiPeK</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Findus23">Findus23</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/zapashcanon">zapashcanon</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/mart-e">mart-e</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/0mp">0mp</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/magopian">magopian</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/mkoppmann">mkoppmann</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/1000i100">1000i100</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/roipoussiere">roipoussiere</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/zallek">zallek</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/zeograd">zeograd</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/gbip">gbip</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/PhieF">PhieF</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/pdurbin">pdurbin</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/quentinDupont">quentinDupont</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Quenty31">Quenty31</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/sundowndev">sundowndev</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/robinkooli">robinkooli</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/sesn">sesn</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/ALSai">ALSai</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Simounet">Simounet</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/sschueller">sschueller</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/TrashMacNugget">TrashMacNugget</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/FrozenDroid">FrozenDroid</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/fallen">fallen</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/melongbob">melongbob</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/anmol26s">anmol26s</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/imbsky">imbsky</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/ctlaltdefeat">ctlaltdefeat</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/jomo">jomo</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/libertysoft3">libertysoft3</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/lsde">lsde</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/brain-zhang">brain-zhang</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/norrist">norrist</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/osauzet">osauzet</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/SansPseudoFix">SansPseudoFix</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/tomamplius">tomamplius</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/tuxayo">tuxayo</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/victor-long">victor-long</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/zacharystenger">zacharystenger</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/ewasion">ewasion</a></li>
+        </ul>
+      </div>
+
+    </div>
   </main>
 </template>
+
+<style scoped lang="scss">
+  @import '../scss/_variables.scss';
+  @import '../scss/_mixins.scss';
+
+  .blocks {
+    margin: 60px auto;
+  }
+
+  .subtitle {
+    margin-bottom: 10px;
+  }
+
+  .sponsors {
+    a {
+      @include disable-default-a-behaviour;
+
+      display: inline-block;
+      margin-right: 10px;
+
+      img {
+        width: 270px;
+        height: 135px;
+      }
+    }
+  }
+
+  ul {
+    padding: 0;
+
+    li {
+      display: inline-block;
+      padding: 0 5px;
+
+      &:before {
+        content: "\25B6";
+        margin-right: 12px;
+      }
+
+      &:nth-of-type(3n):before {
+        color: #f1680d
+      }
+
+      &:nth-of-type(3n+1):before {
+        color: #211f20
+      }
+
+      &:nth-of-type(3n+2):before {
+        color: #737373
+      }
+
+      a {
+        color: #000;
+      }
+    }
+  }
+</style>
 
 <script>
   export default {
