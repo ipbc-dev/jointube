@@ -376,6 +376,12 @@
 
 <script>
   export default {
-    components: { }
+    components: { },
+
+    metaInfo: function () {
+      return {
+        title: this.$gettext('News')
+      }
+    }
   }
 </script>

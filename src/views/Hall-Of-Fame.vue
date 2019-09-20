@@ -1,8 +1,5 @@
 <template>
   <main>
-    <vue-headful
-      :title="$t('meta.title') + ' - ' + $t('hof.title')"
-    />
     <section class="row hof">
       <div class="container">
         <h2 class="text-center" v-html="$t('hof.title')"></h2>
@@ -466,3 +463,13 @@
     </section>
   </main>
 </template>
+
+<script>
+  export default {
+    metaInfo: function () {
+      return {
+        title: this.$gettext('Hall of Fame')
+      }
+    }
+  }
+</script>

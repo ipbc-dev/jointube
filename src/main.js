@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import VueMatomo from 'vue-matomo'
 import VueRouter from 'vue-router'
-import vueHeadful from 'vue-headful'
 import GetTextPlugin from 'vue-gettext'
+import VueMeta from 'vue-meta'
 
 import App from './App.vue'
 import Home from './views/Home.vue'
@@ -50,7 +50,7 @@ if (allLocales.includes(localePath)) {
 
 // ###########################
 
-Vue.component('vue-headful', vueHeadful)
+Vue.use(VueMeta)
 
 Vue.mixin(CommonMixins)
 
@@ -85,21 +85,6 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes
 })
-
-// Framanav
-if (
-  !window.vuefsPrerender &&
-  document.querySelectorAll('script[src$="nav.js"]').length < 1 &&
-  process.env.NODE_ENV !== 'development'
-) {
-  const navConfig = document.createElement('script')
-  navConfig.innerHTML = 'l$ = { js: { j$: \'noConflict\' } }'
-  document.getElementsByTagName('head')[0].appendChild(navConfig)
-
-  const nav = document.createElement('script')
-  nav.src = 'https://framasoft.org/nav/nav.js'
-// document.getElementsByTagName('head')[0].appendChild(nav);
-}
 
 // Stats Matomo
 if (!(navigator.doNotTrack === 'yes' ||

@@ -101,6 +101,12 @@
   export default {
     components: {
       InstancesList
+    },
+
+    metaInfo: function () {
+      return {
+        title: this.$gettext('PeerTube instances')
+      }
     }
   }
 </script>

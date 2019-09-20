@@ -1,8 +1,5 @@
 <template>
   <main>
-    <vue-headful
-      :title="$t('meta.title') + ' - ' + $t('faq.title')"
-    />
     <section class="row faq">
       <div class="container">
         <h2 class="text-center" v-html="$t('faq.title')"></h2>
@@ -92,6 +89,7 @@ export default {
   components: {
     BCollapse
   },
+
   data () {
     return {
       prez: [...Array(9).keys()].map(i => (i < 1)),
@@ -99,6 +97,7 @@ export default {
       tech: [...Array(4).keys()].map(i => false)
     }
   },
+
   methods: {
     toggleAccordion (section, index) {
       if (this[section][index]) {
@@ -106,6 +105,12 @@ export default {
       } else {
         this[section] = this[section].map((v, i) => i === index)
       }
+    }
+  },
+
+  metaInfo: function () {
+    return {
+      title: this.$gettext('FAQ')
     }
   }
 }

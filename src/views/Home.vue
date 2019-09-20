@@ -440,6 +440,11 @@
           description: 'Nothing to Hide (2017) est un film documentaire franco-allemand de Marc Meillassoux et Mihaela Gladovic, qui s\'intéresse aux effets de la surveillance de masse sur les individus et la société. Proposant un regard critique à propos des lois sur le renseignement mises en place par de nombreux États ces dernières années, le film nous rappelle à quel point le débat sur l’usage des données personnelles est actuel et questionne les fondements de nos démocraties.'
         }
       ]
-    })
+    }),
+
+    metaInfo: {
+      title: 'JoinPeerTube',
+      titleTemplate: null
+    }
   }
 </script>

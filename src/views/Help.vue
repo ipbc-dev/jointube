@@ -159,6 +159,12 @@
   export default {
     components: {
       IconRight
+    },
+
+    metaInfo: function () {
+      return {
+        title: this.$gettext('Help')
+      }
     }
   }
 </script>
