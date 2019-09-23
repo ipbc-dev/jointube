@@ -10,9 +10,9 @@
           then all you have to do is <strong>create an account on the PeerTube instance of your choice.</strong>
         </p>
 
-        <button class="jpt-button">
+        <a href="#instances-list" class="jpt-button">
           <span v-translate>See the instances list</span>
-        </button>
+        </a>
       </div>
 
       <div class="block-with-image">
@@ -81,6 +81,7 @@
 
       img {
         width: 370px;
+        height: 210px;
       }
     }
 

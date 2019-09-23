@@ -105,7 +105,7 @@
     <div class="instances-list">
       <div v-translate class="title">Instances list</div>
 
-      <div class="list">
+      <div class="list" v-bind:class="{ unloaded: instances.length === 0 && noResults === false }">
         <div v-for="instance of instances" class="instance" :key="instance.host">
           <instance-card
             :instance="instance" :isVideoMaker="isVideoMaker()"
@@ -233,6 +233,10 @@
 
     .instance {
       margin-bottom: 40px;
+    }
+
+    .list.unloaded {
+      min-height: 400px;
     }
   }
 </style>

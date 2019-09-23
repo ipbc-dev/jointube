@@ -20,7 +20,7 @@
           <span v-translate>What is PeerTube?</span>
         </a>
 
-        <router-link to="/instances" hash="instances-list" class="jpt-button jpt-big-button-icon instances-list">
+        <router-link :to="{ path: '/instances', hash: 'instances-list' }" class="jpt-button jpt-big-button-icon instances-list">
           <icon-instance></icon-instance>
 
           <translate>See the instances list</translate>
@@ -43,7 +43,7 @@
       </div>
 
       <div class="bottom-link-wrapper">
-        <router-link to="/instances" hash="instances-list" class="bottom-link">
+        <router-link :to="{ path: '/instances', hash: 'instances-list' }" class="bottom-link">
           <span class="text" v-translate>Discover PeerTube instances</span>
           <icon-right></icon-right>
         </router-link>
@@ -100,7 +100,7 @@
         </p>
 
         <div class="bottom-link-wrapper">
-          <router-link to="/instances" hash="instances-list" class="bottom-link">
+          <router-link :to="{ path: '/instances', hash: 'instances-list' }" class="bottom-link">
             <span class="text" v-translate>Discover PeerTube instances</span>
             <icon-right></icon-right>
           </router-link>
@@ -131,12 +131,13 @@
           <strong>ou même de commenter une vidéo hébergée sur PeerTube directement depuis Mastodon.</strong>
         </p>
 
-        <div class="bottom-link-wrapper">
-          <a href="#" class="bottom-link">
-            <span class="text" v-translate>En savoir plus sur la fédération</span>
-            <icon-right></icon-right>
-          </a>
-        </div>
+<!--        TODO: find interesting resource regarding federation-->
+<!--        <div class="bottom-link-wrapper">-->
+<!--          <a href="#" class="bottom-link">-->
+<!--            <span class="text" v-translate>En savoir plus sur la fédération</span>-->
+<!--            <icon-right></icon-right>-->
+<!--          </a>-->
+<!--        </div>-->
       </div>
 
       <div class="free-software one-column">
@@ -171,12 +172,13 @@
           permet à de nombreux contributeur⋅ices de proposer des évolutions et de nouvelles fonctionnalités.</strong>
         </p>
 
-        <div class="bottom-link-wrapper">
-          <a href="#" class="bottom-link">
-            <span class="text" v-translate>En savoir plus sur les logiciels libres</span>
-            <icon-right></icon-right>
-          </a>
-        </div>
+<!--        TODO: find interesting resource regarding free softwares -->
+<!--        <div class="bottom-link-wrapper">-->
+<!--          <a href="#" class="bottom-link">-->
+<!--            <span class="text" v-translate>En savoir plus sur les logiciels libres</span>-->
+<!--            <icon-right></icon-right>-->
+<!--          </a>-->
+<!--        </div>-->
       </div>
 
       <div id="you-are-a-video-maker" class="one-column">
@@ -215,7 +217,7 @@
           besoin, une envie...
         </div>
 
-        <router-link to="/instances" hash="instances-list" class="jpt-button discover-instances">
+        <router-link :to="{ path: '/instances', hash: 'instances-list' }" class="jpt-button discover-instances">
           <translate>Découvrir les instances PeerTube</translate>
         </router-link>
       </div>
