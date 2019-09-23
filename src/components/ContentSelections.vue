@@ -1,6 +1,6 @@
 <template>
   <div class="root">
-    <div class="content-selection" v-for="contentSelection in contentSelections">
+    <div class="content-selection" v-for="contentSelection in getContentSelections()">
       <content-selection :type="contentSelection.type" :title="contentSelection.title"
                          :thumbnail-url="contentSelection.thumbnailUrl" :url="contentSelection.url" :tags="contentSelection.tags"
                          :description="contentSelection.description"
@@ -27,26 +27,49 @@
 
 <script>
   import ContentSelection from './ContentSelection'
+  import ContentSelectionsEN from '../mixins/ContentSelectionsEN'
+  import ContentSelectionsFR from '../mixins/ContentSelectionsFR'
+  import sampleSize from 'lodash/sampleSize'
 
   export default {
+    mixins: [
+      ContentSelectionsEN,
+      ContentSelectionsFR
+    ],
+
     props: {
+      sampleSizeEach: Number
     },
 
     components: {
       ContentSelection
     },
 
-    data: () => ({
-      contentSelections: [
-        {
-          type: 'video',
-          title: 'Nothing to hide',
-          thumbnailUrl: 'https://peertube2.cpy.re/static/thumbnails/d2a5ec78-5f85-4090-8ec5-dc1102e022ea.jpg',
-          url: 'https://peertube2.cpy.re/videos/watch/d2a5ec78-5f85-4090-8ec5-dc1102e022ea',
-          tags: ['tag', 'tag2', 'tag3'],
-          description: 'Nothing to Hide (2017) est un film documentaire franco-allemand de Marc Meillassoux et Mihaela Gladovic, qui s\'intéresse aux effets de la surveillance de masse sur les individus et la société. Proposant un regard critique à propos des lois sur le renseignement mises en place par de nombreux États ces dernières années, le film nous rappelle à quel point le débat sur l’usage des données personnelles est actuel et questionne les fondements de nos démocraties.'
+    methods: {
+      getContentSelections () {
+        if (this.$language.current.startsWith('fr_')) {
+          return this.sampleIfNeeded(this.contentSelectionsFR)
         }
-      ]
-    }),
+
+        return this.sampleIfNeeded(this.contentSelectionsEN)
+      },
+
+      sampleIfNeeded (objects) {
+        const videos = []
+        const channels = []
+        const instances = []
+
+        for (const o of objects) {
+          if (o.type === 'video') videos.push(o)
+          else if (o.type === 'channel') channels.push(o)
+          else if (o.type === 'instance') instances.push(o)
+          else console.error('Unknown content selection type %s.', o.type)
+        }
+
+        return sampleSize(videos, this.sampleSizeEach || videos.length)
+          .concat(sampleSize(channels, this.sampleSizeEach || channels.length))
+          .concat(sampleSize(instances, this.sampleSizeEach || instances.length))
+      }
+    }
   }
 </script>
