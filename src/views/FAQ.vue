@@ -5,6 +5,8 @@
       <div class="title-block">
         <div class="title" v-translate>FAQ</div>
 
+        <p>A few questions to discover PeerTube</p>
+
         <div class="separator"></div>
       </div>
 
@@ -407,7 +409,7 @@
 <style scoped lang="scss">
   @import '../scss/_variables.scss';
 
-  .title {
+  .block .title {
     font-size: 22px;
     margin-top: 30px;
     margin-bottom: 15px;
