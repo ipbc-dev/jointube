@@ -50,6 +50,17 @@
 
   .root {
     display: flex;
+
+    @media screen and (max-width: $small-screen) {
+      flex-direction: column;
+
+      .left {
+        align-items: center !important;
+        display: flex !important;
+        flex-direction: column !important;
+        margin-bottom: 20px !important;
+      }
+    }
   }
 
   .left {
@@ -107,6 +118,16 @@
 
     .tags {
       display: flex;
+      flex-wrap: wrap;
+
+
+      @media screen and (max-width: $responsive-screen) {
+        justify-content: center;
+      }
+
+      .tag {
+        margin-top: 10px;
+      }
     }
   }
 </style>

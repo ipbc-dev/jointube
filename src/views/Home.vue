@@ -250,12 +250,12 @@
           <img :src="buildImgUrl('peertube-federation-multiplicity.png')" alt="PeerTube you play illustration"/>
         </div>
 
-        <div class="buttons-row">
+        <div class="buttons-row explore-create-account">
           <router-link to="/content-selections" class="jpt-button">
             <span v-translate>Explorer les contenus</span>
           </router-link>
 
-          <div>
+          <div class="create-account-block">
             <router-link to="/instances" class="jpt-button">
               <span v-translate>Créer un compte</span>
             </router-link>
@@ -307,6 +307,9 @@
 </template>
 
 <style scoped lang="scss">
+  @import '../scss/_variables.scss';
+  @import '../scss/_mixins.scss';
+
   .buttons-row {
     display: flex;
     justify-content: space-between;
@@ -314,7 +317,23 @@
 
     .jpt-button {
       width: 330px;
-      height: 50px;
+      min-height: 50px;
+    }
+
+    @media screen and (max-width: $responsive-screen) {
+      padding: 0;
+
+      .jpt-button {
+        margin: 0 3px 0 0;
+      }
+
+      &.explore-create-account {
+        flex-direction: column;
+
+        .create-account-block {
+          margin-top: 50px;
+        }
+      }
     }
   }
 
@@ -345,6 +364,19 @@
         font-size: 24px;
         font-weight: 600;
       }
+
+      @media screen and (max-width: $small-screen) {
+        padding: 15px 0;
+
+        .brand {
+          height: 25px !important
+        }
+
+        .description {
+          font-size: 20px;
+          margin-left: 20px;
+        }
+      }
     }
 
     .marketing {
@@ -358,6 +390,10 @@
     .ambition {
       display: flex;
 
+      @media screen and (max-width: $responsive-screen) {
+        @include one-column;
+      }
+
       & > img,
       & > div {
         flex-basis: 100%;
@@ -365,6 +401,8 @@
 
       img {
         margin-right: 30px;
+        height: 231px;
+        width: 416px;
       }
     }
   }

@@ -59,6 +59,14 @@ main {
   background-color: #fff;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.35);
   border: solid 1px #d9d9d9;
+
+  @media screen and (max-width: $responsive-screen) {
+    padding: 0 15px;
+  }
+
+  @media screen and (max-width: $small-screen) {
+    padding: 0 10px;
+  }
 }
 
 .caret::after {
@@ -89,10 +97,26 @@ main {
     width: 18px;
     height: 18px;
   }
+
+  @media screen and (max-width: $responsive-screen) {
+    width: auto;
+    font-size: 14px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  @media screen and (max-width: $small-screen) {
+    min-width: auto !important;
+    padding: 0 5px !important;
+  }
 }
 
 .jpt-big-button-icon svg {
   margin-right: 30px;
+
+  @media screen and (max-width: $responsive-screen) {
+    margin-right: 0;
+  }
 }
 
 .jpt-button-medium {
@@ -120,6 +144,10 @@ main {
     height: 40px;
     vertical-align: sub;
   }
+
+  @media screen and (max-width: $small-screen) {
+    margin: 50px 0 30px 0;
+  }
 }
 
 .subtitle {
@@ -128,22 +156,14 @@ main {
   font-weight: $font-semibold;
   margin-top: 100px;
   white-space: nowrap;
+
+  @media screen and (max-width: $responsive-screen) {
+    white-space: normal;
+  }
 }
 
 .one-column {
-  width: 600px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  img {
-    margin: 30px 0;
-
-    & + .citation {
-      margin-top: 0 !important;
-    }
-  }
+  @include one-column;
 }
 
 .bottom-link-wrapper {
