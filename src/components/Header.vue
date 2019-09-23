@@ -55,12 +55,15 @@
     margin-bottom: 30px;
   }
 
-  .navbar-collapse.collapse.show {
-    background-color: #fff;
+  .navbar-collapse {
+    &.collapsing,
+    &.show {
+      padding-top: 20px;
 
-    .nav-item {
-      margin-right: 0;
-      margin-top: 5px;
+      .nav-item {
+        margin-right: 0;
+        margin-top: 5px;
+      }
     }
   }
 
@@ -78,7 +81,7 @@
   }
 
   nav {
-    height: 60px;
+    min-height: 60px;
     background-color: #fff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   }

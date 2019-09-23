@@ -371,6 +371,14 @@
     .body {
       margin-top: 40px;
     }
+
+    a {
+      word-break: break-word;
+    }
+
+    @media screen and (max-width: $small-screen) {
+      padding: 10px;
+    }
   }
 </style>
 
