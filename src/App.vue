@@ -6,22 +6,6 @@
   </div>
 </template>
 
-<style lang="scss" scoped>
-  @import './scss/_variables.scss';
-
-  .container {
-    padding-top: 0;
-    margin-top: 0;
-    width: 1024px;
-
-    @media screen and (max-width: $responsive-screen) {
-      width: 100%;
-      max-width: unset;
-      padding: 0;
-    }
-  }
-</style>
-
 <script>
   import HeaderComponent from './components/Header.vue'
 

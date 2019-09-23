@@ -5,20 +5,26 @@
       <img :src="thumbnailUrl" alt="thumbnail"/>
 
       <button class="jpt-button jpt-button-medium">
-        <span class="span-wrapper" v-if="type === 'video'">
-          <icon-video></icon-video>
-          Watch the video
-        </span>
+        <template v-if="type === 'video'">
+          <div class="icon">
+            <icon-video></icon-video>
+          </div>
+          <div>Watch the video</div>
+        </template>
 
-        <span class="span-wrapper" v-if="type === 'channel'">
-          <icon-channel></icon-channel>
-          Discover the channel
-        </span>
+        <template v-if="type === 'channel'">
+          <div class="icon">
+            <icon-channel></icon-channel>
+          </div>
+          <div>Discover the channel</div>
+        </template>
 
-        <span class="span-wrapper" v-if="type === 'instance'">
-          <icon-instance></icon-instance>
-          Go on the instance
-        </span>
+        <template v-if="type === 'instance'">
+          <div class="icon">
+            <icon-instance></icon-instance>
+          </div>
+          <div>Go on the instance</div>
+        </template>
       </button>
     </div>
 
@@ -74,24 +80,20 @@
     }
 
     button {
+      display: flex;
+      flex-direction: row !important;
       margin-top: 30px;
       width: 250px;
       height: 35px;
 
-      .span-wrapper {
-        display: block;
-        width: 100%;
-        position: relative;
-      }
+      .icon {
+        margin-right: 10px;
 
-      svg {
-        width: 20px;
-        height: 20px;
-        position: absolute;
-        left: 24px;
-        top: 0;
-        bottom: 0;
-        margin: auto;
+        svg {
+          vertical-align: sub;
+          width: 20px;
+          height: 20px;
+        }
       }
     }
   }

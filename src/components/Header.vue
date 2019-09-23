@@ -1,8 +1,8 @@
 <template>
   <header id="main-header">
 
-    <nav class="navbar navbar-expand-lg">
-      <router-link to="/" class="navbar-brand">
+    <b-navbar toggleable="lg">
+      <b-navbar-brand to="/">
         <img alt="PeerTube" :src="buildImgUrl('brand-small.png')">
 
         <div class="support">
@@ -10,47 +10,40 @@
 
           <img alt="Framasoft text logo" :src="buildImgUrl('framasoft-logo-text-small.png')">
         </div>
-      </router-link>
+      </b-navbar-brand>
 
-      <button class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-      <div id="navbar" class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <router-link class="nav-link" to="/" exact>Home</router-link>
-          </li>
+      <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav class="ml-auto">
+          <b-nav-item to="/" exact>
+            <translate>Home</translate>
+          </b-nav-item>
 
-          <li class="nav-item ">
-            <router-link class="nav-link create-account" to="/instances">Create an account</router-link>
-          </li>
+          <b-nav-item class="create-account" to="/instances">
+            <translate>Create an account</translate>
+           </b-nav-item>
 
-          <li class="nav-item">
-            <router-link class="nav-link" to="/news">News</router-link>
-          </li>
+          <b-nav-item to="/news">
+            <translate>News</translate>
+          </b-nav-item>
 
-          <li class="nav-item">
-            <router-link class="nav-link" to="/help">Help</router-link>
-          </li>
+          <b-nav-item to="/help">
+            <translate>Help</translate>
+          </b-nav-item>
 
-          <li class="nav-item">
-            <a class="nav-link" href="https://docs.joinpeertube.org/#/contribute-getting-started" target="_blank" rel="noopener noreferrer">Contribute</a>
-          </li>
+          <b-nav-item href="https://docs.joinpeertube.org/#/contribute-getting-started" target="_blank" rel="noopener noreferrer">
+            <translate>Contribute</translate>
+          </b-nav-item>
 
-          <li class="nav-item">
-            <a class="nav-link" href="https://github.com/Chocobozzz/PeerTube" target="_blank" rel="noopener noreferrer">Git</a>
-          </li>
+          <b-nav-item href="https://github.com/Chocobozzz/PeerTube" target="_blank" rel="noopener noreferrer">
+            <translate>Git</translate>
+          </b-nav-item>
 
-          <div class="pull-right">
-            <I18n/>
-          </div>
-        </ul>
-      </div>
-    </nav>
+          <I18n/>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
   </header>
 </template>
 
@@ -60,6 +53,15 @@
 
   header {
     margin-bottom: 30px;
+  }
+
+  .navbar-collapse.collapse.show {
+    background-color: #fff;
+
+    .nav-item {
+      margin-right: 0;
+      margin-top: 5px;
+    }
   }
 
   .navbar-brand {
@@ -90,13 +92,13 @@
   }
 
   .nav-link {
+    color: #000 !important;
     padding: 0 !important;
-    color: #000;
     font-family: 'Proza Libre', sans-serif;
+  }
 
-    &.create-account {
-      font-weight: $font-semibold;
-    }
+  .create-account {
+    font-weight: $font-semibold;
   }
 
   .router-link-active:not(.navbar-brand) {
@@ -106,16 +108,17 @@
 
 <script>
   import I18n from './I18n.vue'
+  import { BCollapse, BNavbar, BNavbarNav, BNavbarBrand, BNavItem, BNavbarToggle } from 'bootstrap-vue'
 
   export default {
     components: {
-      I18n
-    },
-
-    methods: {
-      getPath (path) {
-        return process.env.BASE_URL + path
-      }
+      I18n,
+      BCollapse,
+      BNavbar,
+      BNavbarBrand,
+      BNavItem,
+      BNavbarNav,
+      BNavbarToggle
     }
   }
 </script>

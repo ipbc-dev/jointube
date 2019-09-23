@@ -335,6 +335,12 @@
         }
       }
     }
+
+    @media screen and (max-width: $small-screen) {
+      .jpt-button {
+        width: 100%;
+      }
+    }
   }
 
   .jpt-button-legend {
@@ -383,6 +389,10 @@
       font-size: 16px;
       margin: 50px auto;
       width: 500px;
+
+      @media screen and (max-width: $small-screen) {
+        width: 100%;
+      }
     }
   }
 

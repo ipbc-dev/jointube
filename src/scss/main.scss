@@ -54,6 +54,21 @@ body {
   background-color: #ffad5c;
 }
 
+.container {
+  padding-top: 0;
+  margin-top: 0;
+  width: 1024px;
+
+  @media screen and (max-width: $responsive-screen) {
+    width: 100%;
+    max-width: unset;
+  }
+
+  @media screen and (max-width: $small-screen) {
+    padding: 0;
+  }
+}
+
 main {
   padding: 0 70px;
   background-color: #fff;
@@ -106,7 +121,8 @@ main {
   }
 
   @media screen and (max-width: $small-screen) {
-    min-width: auto !important;
+    width: 100% !important;
+    min-width: unset !important;
     padding: 0 5px !important;
   }
 }
