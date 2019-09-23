@@ -11,6 +11,7 @@ import News from './views/News'
 import Instances from './views/Instances'
 import HallOfFame from './views/Hall-Of-Fame'
 import FAQ from './views/FAQ'
+import AllContentSelections from './views/All-Content-Selections'
 
 import './scss/main.scss'
 import CommonMixins from './mixins/CommonMixins'
@@ -80,6 +81,10 @@ const routes = [
   {
     path: '/faq',
     component: FAQ
+  },
+  {
+    path: '/content-selections',
+    component: AllContentSelections
   }
 ]
 

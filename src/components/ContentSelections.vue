@@ -13,15 +13,13 @@
 <style lang="scss" scoped>
   @import '../scss/_variables';
 
-  .content-selections {
-    .content-selection {
-      margin-bottom: 80px;
-    }
+  .content-selection {
+    margin-bottom: 80px;
+  }
 
-    .discover-instances {
-      display: flex;
-      justify-content: flex-end;
-    }
+  .discover-instances {
+    display: flex;
+    justify-content: flex-end;
   }
 </style>
 

@@ -251,9 +251,9 @@
         </div>
 
         <div class="buttons-row">
-          <button class="jpt-button">
+          <router-link to="/content-selections" class="jpt-button">
             <span v-translate>Explorer les contenus</span>
-          </button>
+          </router-link>
 
           <div>
             <router-link to="/instances" class="jpt-button">
