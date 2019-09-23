@@ -10,6 +10,7 @@ import Help from './views/Help'
 import News from './views/News'
 import Instances from './views/Instances'
 import HallOfFame from './views/Hall-Of-Fame'
+import FAQ from './views/FAQ'
 
 import './scss/main.scss'
 import CommonMixins from './mixins/CommonMixins'
@@ -75,6 +76,10 @@ const routes = [
   {
     path: '/hall-of-fame',
     component: HallOfFame
+  },
+  {
+    path: '/faq',
+    component: FAQ
   }
 ]
 
@@ -131,7 +136,7 @@ if (!(navigator.doNotTrack === 'yes' ||
       const nowTs = Math.round(now.getTime() / 1000)
       const visitorInfo = self.getVisitorInfo()
       const createTs = parseInt(visitorInfo[2], 10)
-      const cookieTimeout = 33696000 // 13 mois en secondes
+      const cookieTimeout = 33696000 // 13 months in seconds
       return (createTs + cookieTimeout) - nowTs
     }
 
