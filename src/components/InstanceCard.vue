@@ -96,7 +96,7 @@
   @import '../scss/_variables.scss';
 
   .root {
-    height: 185px;
+    min-height: 185px;
     width: 770px;
     margin: auto;
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.35);
@@ -129,6 +129,7 @@
     .name-host {
       display: flex;
       margin-bottom: 3px;
+      flex-wrap: wrap;
     }
 
     .name {
@@ -176,6 +177,32 @@
       margin-top: auto;
       margin-bottom: 2px;
       align-self: flex-end;
+    }
+  }
+
+  @media screen and (max-width: $responsive-screen) {
+    .root {
+      width: auto;
+      flex-direction: column;
+      padding: 15px 10px;
+
+      .left {
+        width: auto;
+        margin-right: 0;
+      }
+
+      .right {
+        margin-top: 20px;
+
+        .follow,
+        .languages {
+          margin-bottom: 5px;
+        }
+
+        .link {
+          margin-top: 20px;
+        }
+      }
     }
   }
 </style>

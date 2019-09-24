@@ -94,6 +94,20 @@
       margin-bottom: 20px;
     }
   }
+
+  @media screen and (max-width: $small-screen) {
+    .blocks {
+      width: auto;
+    }
+
+    .block-with-image {
+      flex-direction: column;
+
+      img {
+        margin-bottom: 20px;
+      }
+    }
+  }
 </style>
 
 <script>

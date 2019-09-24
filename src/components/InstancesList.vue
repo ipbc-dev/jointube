@@ -173,7 +173,7 @@
           color: #000;
           background-color: #fff;
           border-color: $orange;
-          height: 30px;
+          min-height: 30px;
           padding: 0 15px;
           cursor: pointer;
 
@@ -189,6 +189,26 @@
 
   .instances-list {
     margin-bottom: 50px;
+  }
+
+  @media screen and (max-width: $responsive-screen) {
+    .filters {
+      margin-bottom: 100px;
+
+      form {
+        padding-left: 15px;
+
+        .group {
+          flex-direction: column;
+          align-items: flex-start;
+
+          label {
+            margin-bottom: 5px;
+            font-size: 15px;
+          }
+        }
+      }
+    }
   }
 </style>
 
@@ -237,6 +257,21 @@
 
     .list.unloaded {
       min-height: 400px;
+    }
+  }
+
+  @media screen and (max-width: $responsive-screen) {
+    .custom-checkbox {
+      .custom-control-label > span {
+        font-size: 15px;
+      }
+    }
+
+    #themes {
+      .custom-control {
+        margin-right: 10px;
+        width: calc(50% - 10px) !important;
+      }
     }
   }
 </style>
