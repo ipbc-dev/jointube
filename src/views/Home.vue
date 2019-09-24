@@ -285,10 +285,10 @@
         </p>
 
         <p v-translate>
-          Suite au financement participatif lancé entre mars et juillet 2018, <strong>Framasoft a pu financer l'emploi du développeur
-          principal de PeerTube.</strong> Ainsi, après une version bêta en mars 2018, la version 1 est sortie en novembre 2018.
-          Depuis, plusieurs versions intermédiaires ont apporté de nombreuses fonctionnalités. Plusieurs collectifs ont déjà monté
-          des hébergements PeerTube, créant ainsi les bases de la fédération.
+          Suite au <a href="/hall-of-fame" target="_blank">financement participatif lancé entre mars et juillet 2018</a>,
+          <strong>Framasoft a pu financer l'emploi du développeur principal de PeerTube.</strong> Ainsi, après une version bêta en mars 2018,
+          la version 1 est sortie en novembre 2018. Depuis, plusieurs versions intermédiaires ont apporté de nombreuses fonctionnalités.
+          Plusieurs collectifs ont déjà monté des hébergements PeerTube, créant ainsi les bases de la fédération.
         </p>
 
         <p>
@@ -318,6 +318,7 @@
     .jpt-button {
       width: 330px;
       min-height: 50px;
+      height: fit-content;
     }
 
     @media screen and (max-width: $responsive-screen) {
