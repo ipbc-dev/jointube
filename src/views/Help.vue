@@ -151,6 +151,28 @@
     }
   }
 
+  @media screen and (max-width: $small-screen) {
+    .blocks {
+      width: auto;
+    }
+
+    .block-with-image {
+      flex-direction: column;
+
+      .text-block {
+        margin-left: 0 !important;
+      }
+
+      .text-block {
+        text-align: left;
+      }
+
+      .image-block {
+        margin: 40px 0;
+      }
+    }
+  }
+
 </style>
 
 <script>

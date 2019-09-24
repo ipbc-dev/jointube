@@ -78,10 +78,6 @@ main {
   @media screen and (max-width: $responsive-screen) {
     padding: 0 15px;
   }
-
-  @media screen and (max-width: $small-screen) {
-    padding: 0 10px;
-  }
 }
 
 .caret::after {
