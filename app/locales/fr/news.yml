@@ -134,7 +134,7 @@ blocs:
         c’est plus de 300 instances qui diffusent plus de 70 000 vidéos, avec
         près de 2 millions de vues cumulées. Nous vous rappelons au passage que
         le seul site officiel que nous maintenons autour de PeerTube est <a href="
-        @:data.baseurl">@:data.baseurl</a> et que nous n’avons
+        @:data.link.joinpeertube">@:data.link.joinpeertube</a> et que nous n’avons
         aucune responsabilité autour de tout autre site qui pourrait voir le jour.'
       - Comme vous pouvez le constater, nous sommes allés bien au delà de ce que
         le crowdfunding avait financé. Et nous allons continuer !<br> Car il est

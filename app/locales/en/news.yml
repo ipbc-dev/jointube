@@ -119,7 +119,7 @@ blocs:
       - 'In the meantime, the PeerTube federation has grown: today, more than
         300 instances broadcast more than 70,000 videos, with nearly 2 million cumulated
         views. We remind you that the only official website we maintain around PeerTube
-        is <a href="@:data.baseurl">@:data.baseurl</a>
+        is <a href="@:data.link.joinpeertube">@:data.link.joinpeertube</a>
         and that we bear no responsibility on any other site that may be published.'
       - As you can see, we have gone far beyond what the crowdfunding has funded.
         And we will continue!<br> For 2019, we plan to add a plugin and theme management
