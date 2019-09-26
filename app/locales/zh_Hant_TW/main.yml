@@ -1,5 +1,6 @@
 meta:
   title: '@:home.title ! #JoinPeerTube'
+  description: 去中心化的影片託管網路，奠基於自由開放原始碼軟體
 nav:
   langChange: 變更語言
   lang: 語言

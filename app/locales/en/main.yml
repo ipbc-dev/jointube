@@ -1,5 +1,6 @@
 meta:
   title: '@:home.title ! #JoinPeerTube'
+  description: A decentralized video hosting network, based on free/libre software
 menu:
   faq: F.A.Q.
   help: Support

@@ -1,5 +1,6 @@
 meta:
   title: '@:home.title ! #JoinPeerTube'
+  description: L’hébergement de vidéos décentralisé, en réseau, basé sur du logiciel libre
 nav:
   langChange: Changer la langue
   lang: Langue

@@ -1,5 +1,6 @@
 meta:
   title: '@:home.title ! #ПрисоединяйсяPeerTube'
+  description: Децентрализованный видеохостинг, основанный на бесплатном и свободном ПО
 nav:
   langChange: Изменить язык
   lang: Язык

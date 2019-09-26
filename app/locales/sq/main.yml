@@ -1,5 +1,6 @@
 meta:
   title: '@:home.title ! #JoinPeerTube'
+  description: Një rrjet i decentralizuar strehimi videosh, bazuar në software-in e lirë/libre
 nav:
   langChange: Ndryshoni gjuhën
   lang: Gjuhë
