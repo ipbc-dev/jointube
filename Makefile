@@ -8,8 +8,8 @@ prepare-locales:
 	rm -f zanata/yml/*.yml zanata/po/*.po zanata/po/*.pot zanata/po/*.err
 
 clean-locales: backup-locales prepare-locales
-	zanata/scripts/yml2po.sh
-	zanata/scripts/po2yml.sh
+	zanata/scripts/selfyml2po.sh
+	zanata/scripts/selfpo2yml.sh
 
 po:
 	zanata/scripts/yml2po.sh
@@ -21,7 +21,7 @@ push-locales: po
 	zanata-cli -q -B push --push-type both
 
 pull-locales: prepare-locales
-	cp -n zanata/zanata.xml zanata.xml
+	cp zanata/zanata.xml zanata.xml
 	sed -e 's@<project></project>@<project>join-peertube</project>@' -i zanata.xml
 	zanata-cli -q -B pull --pull-type both --min-doc-percent 75
 	make yml

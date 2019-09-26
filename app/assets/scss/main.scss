@@ -63,6 +63,18 @@ main .intro .col-md-6 {
   margin: 0;
 }
 
+figure {
+  border: 10px solid rgb(255, 243, 234);
+}
+
+figcaption {
+  display: block;
+  background: rgb(255, 243, 234);
+  text-align: center;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
 /* Sections background */
 body {
   background: #211F20 url('../img/network.png') bottom center repeat-y;
