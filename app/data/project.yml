@@ -1,0 +1,17 @@
+meta:
+  title: Join PeerTube
+  author: Framasoft
+  canonical: https://joinpeertube.org
+  i18n: https://trad.framasoft.org/project/view/join-peertube/master
+
+hlink:
+  contact: <a href="https://contact.framasoft.org">https://contact.framasoft.org</a>
+  soutenir: <a href="https://soutenir.framasoft.org">https://soutenir.framasoft.org</a>
+
+video:
+  rss: https://framatube.org/videos/watch/f57da309-6b92-4fe0-9267-ff8188cc050c
+  torrent: https://framatube.org/videos/watch/dcad56d9-9fe6-45bc-96aa-3d778f6804c1
+  yt-import: https://framatube.org/videos/watch/59d306c0-fc5b-493a-956a-43785693346b
+  subtitle: https://framatube.org/videos/watch/edd7a468-08d5-4877-b62b-61c5f3f83ceb
+  search: https://framatube.org/videos/watch/60c4bea4-6bb2-4fce-8d9f-8a522575419d
+  subscription: https://framatube.org/videos/watch/8968dbe1-a387-433b-a20f-37fe9f3ca8d5

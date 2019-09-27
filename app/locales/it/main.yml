@@ -1,5 +1,6 @@
 meta:
   title: '@:home.title ! #JoinPeerTube'
+  description: Una rete di piattaforme video decentralizzata, basata su software libero
 nav:
   langChange: Cambia la lingua
   lang: Lingua

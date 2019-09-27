@@ -1,5 +1,6 @@
 meta:
   title: '@:home.title ! #JoinPeerTube'
+  description: 無料/自由なソフトウェアに基づく分散動画ホスティングネットワーク
 nav:
   langChange: 言語を変更
   lang: 言語

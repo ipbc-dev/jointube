@@ -19,8 +19,9 @@
           <ul class="nav navbar-nav navbar-right">
             <li>
               <router-link
-                      :to="'/' + $t('lang') + '/news'"
-                      v-html="$t('menu.news')">
+                :to="'/' + $t('lang') + '/news'">
+                <span v-html="$t('menu.news')"></span>
+                <span class="badge" v-text="Object.keys($t('news.blocs')).length"></span>
               </router-link>
             </li>
             <li>
@@ -50,7 +51,7 @@
               </a>
             </li>
             <li>
-            <router-link
+              <router-link
                 :to="'/' + $t('lang') + '/hall-of-fame'"
                 v-html="$t('menu.hall-of-fame')">
               </router-link>

@@ -1,5 +1,6 @@
 meta:
   title: '@:home.title ! #JoinPeerTube'
+  description: En decentraliserad videoplattform byggd på fri mjukvara
 nav:
   langChange: Byt språk
   lang: Språk

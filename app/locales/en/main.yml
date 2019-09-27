@@ -1,9 +1,6 @@
 meta:
   title: '@:home.title ! #JoinPeerTube'
-nav:
-  langChange: Change the language
-  lang: Language
-  translate: Translate
+  description: A decentralized video hosting network, based on free/libre software
 menu:
   faq: F.A.Q.
   help: Support
@@ -22,7 +19,7 @@ home:
     getting-started: Get started
     how-it-works: How it works
   banner:
-    subtitle: We're talking about our progress these last months and what's coming
+    subtitle: We’re talking about our progress these last months and what’s coming
       next.
     button: Support
     install: Install PeerTube
@@ -103,7 +100,7 @@ home:
         consisting of the local username (@chocobozzz) and the domain name of the
         server it is on (framatube.org).
       - The administrators of a PeerTube instance can follow each other. When your
-        PeerTube instance follows another PeerTube instance, you receive the videos'
+        PeerTube instance follows another PeerTube instance, you receive the videos’
         preview information from this instance. This way, you can display the videos
         available on your instance and on the instances you decided to follow. So
         you keep control of the videos displayed on your PeerTube instance!
@@ -133,7 +130,7 @@ faq:
       title: What is PeerTube?
       text:
       - PeerTube is software that you install on a web server. It allows you to create
-        a video hosting website, so create your "homemade YouTube".
+        a video hosting website, so create your “homemade YouTube”.
       - The difference to YouTube is that it’s not intended to create a huge platform
         centralizing videos from the whole world on a single server farm (which is
         horribly expensive).
@@ -177,7 +174,7 @@ faq:
       - If the hosting provider Knitting-PeerTube becomes friends with Kittens-Tube
         and Framatube, it will display the videos of others on its site, thus diluting
         hosting costs while remaining practical and complete for Internet users.
-      - 'PeerTube’s federation protocol will be fluid (everyone can choose their "friends"
+      - 'PeerTube’s federation protocol will be fluid (everyone can choose their “friends”
         hosts), and based on <a href="@:data.link.activitypub">ActivityPub</a>: this
         will open the possibility to connect with tools like Mastodon or MediaGoblin.'
     p2p:
@@ -191,14 +188,14 @@ faq:
         bits of files, which relieves the server.
       - 'There is nothing to do: your web browser does it automatically. If you are
         on a mobile phone or if your network does not allow it (router, firewall,
-        etc.), this function is disabled and switches back to an "old-style" video
+        etc.), this function is disabled and switches back to an “old-style” video
         broadcast @:data.emoji.wink</>.'
     admin:
       title: For those who know how to administer a server, PeerTube is…
       text:
       - '<strong>It’s software you install on your server</strong> to create a website
-        where videos are hosted and broadcast… Basically: you create your own "homemade
-        YouTube"!'
+        where videos are hosted and broadcast… Basically: you create your own “homemade
+        YouTube”!'
       - There already exists free/libre software that enables you to do this. But
         with PeerTube, you can link your instance (your video website) to Zaïd’s PeerTube
         instance (where he hosts videos of the lectures for his people’s university),
@@ -222,7 +219,7 @@ faq:
       title: For those who wants to upload their videos, PeerTube allows…
       text:
       - 'It allows you to choose a hoster that fits you. YouTube’s excesses are a
-        good exemple: its hoster, Google/Alphabet, can impose its "Robocopyright"
+        good exemple: its hoster, Google/Alphabet, can impose its “Robocopyright”
         (the ContentID system) or its tools to index, recommend and spotlight videos;
         and those tools seem as unfair as they are obscure. Even though, it already
         forces you <a href="@:data.link.tosdr">to give it extended copyrights on your
@@ -311,7 +308,7 @@ faq:
       - OrderedDict([('There are none, not at the moment', 'PeerTube is a tool that
         we wanted neutral in terms of remuneration.')])
       - 'For now, the solution proposed to people who upload videos is to use the
-        "support" button under the video. This button displays a frame in which people
+        “support” button under the video. This button displays a frame in which people
         who upload videos can display text, images, and links freely. For example,
         it’s possible to put a link to Patreon, Tipeee, Paypal, Liberapay (or any
         other solution) there. Other examples: put a postal address if you’d like
@@ -333,7 +330,7 @@ faq:
       - There’s a complete <a href="@:data.link.instancesPT">list of instances here</a>,
         and a list of those that are <a href="./#register">open to registration
         here</a>.
-      - Then, we recommend you go to the instances, read their "about" page to discover
+      - Then, we recommend you go to the instances, read their “about” page to discover
         their terms of use (disk space limit per user, content policy, etc.).
       - It’s best to contact and talk directly with hosting providers, to understand
         their business model, vision, etc. Because only you can determine what makes
@@ -345,20 +342,20 @@ faq:
         and indexing ~16000 videos, only ~200 videos are tagged as NSFW (i. e. the
         content is sensitive, which could be something else than pornography). Therefore,
         they represent only ~1% of all the videos.
-      - "Moreover, each administrator decides with which instances he wants to federate:\
-        \ he has the full control of the content he wants to display on his instance.\
-        \ It's up to him to choose the policy regarding this kind of videos. He can\
-        \ decide to: <ul><li>Display them</li><li>Blur the title and thumbnail</li><li>Hide\
-        \ them</li></ul>"
-      - By default, this configuration is set to "Hide them". If some administrators
-        decide to display them with a blur filter for example, it's <strong>their</strong>
+      - 'Moreover, each administrator decides with which instances he wants to federate:
+        he has the full control of the content he wants to display on his instance.
+        It’s up to him to choose the policy regarding this kind of videos. He can
+        decide to: <ul><li>Display them</li><li>Blur the title and thumbnail</li><li>Hide
+        them</li></ul>'
+      - By default, this configuration is set to “Hide them”. If some administrators
+        decide to display them with a blur filter for example, it’s <strong>their</strong>
         choice.
       - Finally, any user can override this configuration, and decides if he want
         to display, blur or hide these videos for himself.
-      - "PeerTube is just a software: it's not Framasoft (non-profit that develops\
-        \ PeerTube) that's responsible for the content published on some instances."
-      - "It's up to everyone to be responsible: parents, visitors, uploaders, PeerTube\
-        \ administrators to respect the law and avoid any problematic situations."
+      - 'PeerTube is just a software: it’s not Framasoft (non-profit that develops
+        PeerTube) that’s responsible for the content published on some instances.'
+      - 'It’s up to everyone to be responsible: parents, visitors, uploaders, PeerTube
+        administrators to respect the law and avoid any problematic situations.'
   forum: Discuss on our forum
   tech:
     install:
@@ -375,19 +372,19 @@ faq:
       title: PeerTube v1.0 does not seem to me to contain all the tools necessary
         for a good management of my instance.
       text:
-      - '<blockquote>"It’s outrageous and unconscious: you’re releasing PeerTube’s
+      - '<blockquote>“It’s outrageous and unconscious: you’re releasing PeerTube’s
         version 1 when it doesn’t contain the necessary tools to effectively manage
         videos claimed by rights holders, or to effectively manage the issue of online
         harassment in comments, or to effectively manage monetization through advertising,
         or to (insert here your request to PeerTube). It will never work! What do
-        you intend to do about it?"</blockquote>'
+        you intend to do about it?”</blockquote>'
       - You’re right. PeerTube 1.0 is not the perfect tool, far from it. And we never
         promised that this version 1.0 would be a tool that would include all the
         features corresponding to all cases.
       - PeerTube 1.0 is the realization of the commitment we made in October 2017
         to take PeerTube from an alpha version (personal project and proof of concept
         that a federated video platform could work) to a 1.0 version in October 2018
-        (which does not mean "final version", but "version considered stable and distributable").
+        (which does not mean “final version”, but “version considered stable and distributable”).
       - Remember that PeerTube has only one (almost) full time developer and a small
         handful of very involved volunteers. It is not a product developed by a start-up
         with a full time team (dev, design, UX, marketing, support, etc.) and significant
@@ -395,7 +392,7 @@ faq:
         will continue over the months and, we hope, in the years to come.
       - 'We are well aware of the shortcomings of PeerTube 1.0, especially in the
         moderation tools area (videos, comments, etc.). And we intend to work on these
-        weaknesses. '
+        weaknesses.'
       - 'We have chosen to do so as follows: on the one hand we will work primarily
         in the coming months to improve these tools within PeerTube itself (in the
         <i>core</i> of the software). On the other hand, we will also focus, in parallel,
@@ -441,7 +438,7 @@ faq:
         scale streaming of large files.
       - After discussing it on our forum, we feel that d.tube is not free or open
         source, because publishing only compiled code hinders freedom of modification.
-      - D.tube is based on Steem for "remuneration", it is a choice, but Steem is
+      - D.tube is based on Steem for “remuneration”, it is a choice, but Steem is
         <a href="https://en.wikipedia.org/wiki/Steemit#Criticism">widely criticized</a>
         as <a href="https://steemit.com/steemit/@docdelux/30-days-of-steemit-here-is-my-criticism">highly
         centralized</a>, and suspiciously <a href="https://steemit.com/steemit/@thecryptonews/psa-constructive-criticism-the-ugly-truth-behind-steemit">resembles
@@ -456,228 +453,3 @@ hof:
   donators: Financial Contributors
   dev: Contributors
   contrib: Contribute to the code
-news:
-  title: What's up on PeerTube
-  subtitle: Discover the tool's latest improvements
-  latest-articles: Latest articles
-  blocs:
-    newsletter05-06-2019:
-      title: PeerTube 1.3 is out!
-      date:
-        text: June 5, 2019
-        data: '2019-06-05'
-      text:
-        p1: Hello!
-        p2: We've just released PeerTube 1.3 and it brings a lot of new features.
-        p3: "The most important of these new features is <strong>the playlist system</strong>.\
-          \ This feature allows any user to create a playlist in which it's possible\
-          \ to add videos and reorder them. Videos added to a playlist can be viewed\
-          \ entirely or partially: the creator of the playlist can decide when the\
-          \ video playback starts and/or ends (timecode system). This system is really\
-          \ useful to create all kinds of zappings or educational contents by selecting\
-          \ extracts from videos which interest you. In addition, a \"Watch Later\"\
-          \ playlist is created by default for each user. Thus, you can save videos\
-          \ in this playlist when you don't have time to watch them immediately."
-        p4: 'Another feature of this 1.3 version has been entirely developed by an
-          external contributor: <a href="https://github.com/joshmorel">Josh Morel</a>
-          who add <strong>a quarantine system</strong> for videos on PeerTube. If
-          the administrator of an instance enables this feature, any new video uploaded
-          on his instance will automatically be hidden until a moderator approves
-          it.'
-        p5: 'PeerTube translation community have done a huge job. <strong>3 new languages</strong>
-          are now available: Japanese, Dutch and European Portuguese (PeerTube already
-          support Brazilian Portuguese). Amazing! PeerTube is now available in 19
-          languages!'
-        p6: Now, administrators can <strong>manage more finely how other instances
-          subscribe to their own instance</strong>. The administrator can decide whether
-          or not to approve the subscription of another instance to its own. It is
-          also possible to activate automatic rejection for any new subscription to
-          its instance. Finally, a notification is created as soon as the administrator's
-          instance receives a new subscription. These features help administrators
-          control on which instances their content is displayed.
-        p7: We're also redesigning the <strong>PeerTube video player</strong> to offer
-          better video playback and to correct a few bugs. With this new player, resolution
-          changes should be smoother and the bandwidth management is optimized with
-          a more efficient buffering system. Version 1.3 of PeerTube also adds ability
-          for administrators to enable this new experimental player so we can get
-          feedback on it. We hope to use this new player by default in the future.
-        p8: Finally, we have made some adjustments to the <strong>user interface</strong>
-          so it easier and nicer to use. For instance, video thumbnails are becoming
-          bigger so that they're more highlighted. Users now have a quick access to
-          their library from the menu that includes their playlists, videos, video
-          watching history and their subscriptions.
-        p9: Many other improvements have been made in this new version. You can see
-          the complete list on <a href="https://github.com/Chocobozzz/PeerTube/releases/tag/v1.3.0">https://github.com/Chocobozzz/PeerTube/releases/tag/v1.3.0</a>.
-        p10: Thanks to all PeerTube contributors!
-        p11: Framasoft.
-    newsletter26-02-2019:
-      title: 'PeerTube: retrospective, new features and more to come!'
-      date:
-        text: February 26, 2019
-        data: '2019-02-26'
-      text:
-        p1: Since version 1.0 has been released last November, we went on improving
-          PeerTube, day after day. These improvements on PeerTube go well beyond the
-          objectives fixed during the crowdfunding. They have been funded by the <a
-          href="https://framasoft.org/en/">Framasoft non-profit</a>, which develops
-          the software (and lives only through <a href="https://soutenir.framasoft.org/en/">your
-          donations</a>).
-        p2: 'Here is a small retrospective of the end of 2018/beginning of 2019:'
-        p3: In December 2018, we released version 1.1 which contained some moderation
-          tools requested by instance administrators.<br> We also took the opportunity
-          to add a watched videos history feature and the automatic resuming of video
-          playback.
-        p4: "In January, we released version 1.2 that supports 3 new languages: Russian,\
-          \ Polish and Italian. Thanks to PeerTube's community of translators, PeerTube\
-          \ is now translated into 16 different languages!"
-        p5: This version also includes a notification system that allows users to
-          be informed (on the web interface or through email) when their video is
-          commented, when someone mention them, when one of their subscriptions has
-          published a new video, etc.
-        p6: 'In the meantime, the PeerTube federation has grown: today, more than
-          300 instances broadcast more than 70,000 videos, with nearly 2 million cumulated
-          views. We remind you that the only official website we maintain around PeerTube
-          is <a href="https://joinpeertube.org/en">https://joinpeertube.org/en</a>
-          and that we bear no responsibility on any other site that may be published.'
-        p7: As you can see, we have gone far beyond what the crowdfunding has funded.
-          And we will continue!<br> For 2019, we plan to add a plugin and theme management
-          system (even though basic at first), playlist management, support for audio
-          files upload and many other features.
-        p8: 'If you also to contribute to the growing of PeerTube, you can participate
-          in its funding here: <a href="https://soutenir.framasoft.org/en">https://soutenir.framasoft.org/en</a>'
-        p9: 'If you have any questions, feel free to use our forum: <a href="https://framacolibri.org/c/peertube">https://framacolibri.org/c/peertube</a>'
-        p10: Thank you and with our best regards,
-        p11: Framasoft
-    newsletter16-10-2018:
-      title: 'PeerTube crowdfunding newsletter #4'
-      date:
-        text: October 16, 2018
-        data: '2018-10-16'
-      text:
-        p1: Hello everyone!
-        p2: We are now in mid-October! As promised, we have just released the first
-          stable version of PeerTube.
-        p3: 'It implements all stretch goals we planned in our crowdfunding: <ul><li>Localization
-          support (as we write these lines, PeerTube is already available in 13 different
-          languages!)</li> <li>Subtitles support</li> <li>Ability to import videos
-          through an URL (YouTube, Vimeo, Dailymotion and many others!)</li> <li>Ability
-          to import a video through a torrent file or a magnet URI</li> <li>RSS feeds,
-          allowing you to track new videos published in all federated PeerTube instances,
-          in a specific PeerTube instance or in a video channel you like. You can
-          also subscribe to comment feeds!</li> <li>A more relevant search, with the
-          ability to set advanced filters (duration, category, tags...)</li> <li>Subscriptions
-          throughout the federation: you can follow your favorite video channels and
-          see all the videos on a dedicated page</li> <li>Redundancy system: a PeerTube
-          instance can help sharing some videos from another instance</li> </ul>'
-        p4: ' We know that feature descriptions are not very amusing, so we have published
-          a few demonstration videos: <ul> <li><a href="https://framatube.org/videos/watch/f57da309-6b92-4fe0-9267-ff8188cc050c">RSS
-          Feeds</a></li> <li><a href="https://framatube.org/videos/watch/dcad56d9-9fe6-45bc-96aa-3d778f6804c1">Torrent
-          import</a></li> <li><a href="https://framatube.org/videos/watch/59d306c0-fc5b-493a-956a-43785693346b">YouTube
-          video import</a></li> <li><a href="https://framatube.org/videos/watch/edd7a468-08d5-4877-b62b-61c5f3f83ceb">Adding
-          subtitles</a></li> <li><a href="https://framatube.org/videos/watch/60c4bea4-6bb2-4fce-8d9f-8a522575419d">Advanced
-          search</a></li> <li><a href="https://framatube.org/videos/watch/8968dbe1-a387-433b-a20f-37fe9f3ca8d5">Video
-          channel subscriptions</a></li> </ul>'
-        p5: "This is the last newsletter regarding the PeerTube crowdfunding. We would\
-          \ like to thank you one more time, for allowing us to greatly improve PeerTube,\
-          \ and therefore to promote a more decentralized web. But the journey does\
-          \ not end here: we will continue to work on the software, and there is still\
-          \ a lot to do to fully free up video streaming. But before anything, we'll\
-          \ take a few days off ;)"
-        p6: We remind you that you can ask questions on <a href="https://framacolibri.org/c/qualite/peertube">the
-          PeerTube forum</a>. You can also contact us directly on <a href="https://contact.framasoft.org">
-          https://contact.framasoft.org</a>.
-        p7: Cheers,<br>Framasoft
-    newsletter12-09-2018:
-      title: 'PeerTube crowdfunding newsletter #3'
-      date:
-        text: September 12, 2018
-        data: '2018-09-12'
-      text:
-        p1: Hello everyone!
-        p2: A month before the version 1 of PeerTube, we would like to share some
-          (good!) news with you.
-        p3: We just released PeerTube <em>beta 12</em>, that allows to subscribe to
-          video channels, whether they are on your instance or even on remote instances.
-          This way, you can browse videos of your subscribed channels in a dedicated
-          page. Moreover, if your PeerTube administrator allows it, you can search
-          a channel or a video directly by typing their web address in the PeerTube
-          search bar.
-        p4: It was not included in the crowdfunding, but we created an "Overview"
-          page, that displays videos of some categories/tags/channels picked randomly,
-          to show the diversity of the videos uploaded on PeerTube. You can see <a
-          href="https://peertube3.cpy.re/videos/overview">a demonstration here</a>.
-        p5: You can read the complete <em>beta 12</em> changelog <a href="https://github.com/Chocobozzz/PeerTube/blob/develop/CHANGELOG.md#v100-beta12">here</a>.
-        p6: "Regarding the crowdfunding, most of the rewards are ready: <a href=\"\
-          https://github.com/Chocobozzz/PeerTube\">the PeerTube README</a> and <a\
-          \ href=\"https://joinpeertube.org/fr/hall-of-fame/\">the JoinPeerTube Hall\
-          \ of Fame</a> show off the names of the persons who have chosen the corresponding\
-          \ rewards. We will soon be able to send the personalized thank-you digital\
-          \ arts to people that gave 80€ (~93 USD) and more (and it's so beautiful\
-          \ that we are looking forward to it!)"
-        p7: The last feature we have to implement is the videos redundancy between
-          instances, which will further increase resilience on instance overload.
-          If all goes well, we should finish it in about two weeks (end of september).
-        p8: We remind you that you can track the progress of the work directly <a
-          href="https://github.com/Chocobozzz/PeerTube"> on the git repository</a>,
-          and be part of the discussions/bug reports/feature requests in the "Issues"
-          tab.
-        p9: Moreover, you can ask questions on <a href="https://framacolibri.org/c/qualite/peertube">the
-          PeerTube forum</a>. You can also contact us directly on <a href="https://contact.framasoft.org">https://contact.framasoft.org.</a>
-        p10: Cheers,<br>Framasoft
-    newsletter20-08-2018:
-      title: 'PeerTube crowdfunding newsletter #2'
-      date:
-        text: August 20, 2018
-        data: '2018-08-20'
-      text:
-        p1: Hello everyone!
-        p2: The development of the crowdfunding features is going well.
-        p3: As a reminder, in the first newsletter (July 23rd, 2018), we announced
-          that the localization system and RSS feeds were implemented, and that we
-          were making progress on the subtitles support and the advanced search.
-        p4: These four features are all implemented, and can already be used on instances
-          updated to version <em>v1.0.0-beta.10</em> (for example <a href="https://framatube.org">https://framatube.org</a>).
-          Regarding the subtitles support, you can test them on the <a href="https://framatube.org/videos/watch/217eefeb-883d-45be-b7fc-a788ad8507d3">
-          the "What is PeerTube"</a> video.
-        p5: We are currently finishing the video import system, from a URL (YouTube,
-          Vimeo etc) or a torrent file. This feature should be available in a few
-          days, when we will release a new version (<em>v1.0.0-beta.11</em>).<br>
-          The import system will complete the first crowdfunding goal. The next feature
-          we will be working on will be the user subscriptions.
-        p6: We remind you that you can track the progress of the work directly <a
-          href="https://github.com/Chocobozzz/PeerTube"> on the git repository</a>,
-          and be part of the discussions/bug reports/feature requests in the "Issues"
-          tab.
-        p7: Moreover, you can ask questions on <a href="https://framacolibri.org/c/qualite/peertube">the
-          PeerTube forum</a>. You can also contact us directly on <a href="https://contact.framasoft.org">https://contact.framasoft.org.</a>
-        p8: Cheers,<br>Framasoft
-    newsletter23-07-2018:
-      title: 'PeerTube crowdfunding newsletter #1'
-      date:
-        text: July 23, 2018
-        data: '2018-07-23'
-      text:
-        p1: Hello everyone!
-        p2: First of all, thank you again for contributing to PeerTube! ❤️
-        p3: "During the crowdfunding campaign, we continued to work on the localization\
-          \ system. And we are happy to announce it's finally completed: it will be\
-          \ available in the next beta (<em>beta 10</em>) of PeerTube. As of this\
-          \ writing, the web interface is already available in english, french, basque,\
-          \ catalan, czech and esperanto (huge thank you to <a href=\"https://github.com/Chocobozzz/PeerTube/blob/develop/CREDITS.md#translations\"\
-          > all of the translators</a>). If you too want to help translating PeerTube,\
-          \ do not hesitate to check out <a href=\"https://github.com/Chocobozzz/PeerTube/blob/develop/support/doc/translation.md\"\
-          >the documentation</a>!"
-        p4: Regarding the RSS feeds feature, it was already implemented by <a href="https://github.com/rigelk">Rigelk</a>
-          and you can already use it in the <em>beta 9</em>. You can, for example,
-          get <a href="https://framatube.org/feeds/videos.xml?sort=-publishedAt&filter=local">
-          the feed of the last local videos uploaded in a particular instance</a>.
-        p5: Subtitles support is well under way, and we should have a first version
-          available soon. When this work is finished, we will develop the advanced
-          search.
-        p6: We remind you that you can track the progress of the work directly <a
-          href="https://github.com/Chocobozzz/PeerTube"> on the git repository</a>,
-          and be part of the discussions/bug reports/feature requests in the "Issues"
-          tab.
-        p7: Moreover, you can ask questions on <a href="https://framacolibri.org/c/qualite/peertube">the
-          PeerTube forum</a>. You can also contact us directly on <a href="https://contact.framasoft.org">https://contact.framasoft.org.</a>
-        p8: Cheers,<br>Framasoft

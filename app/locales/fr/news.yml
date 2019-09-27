@@ -1,0 +1,305 @@
+title: Quoi de neuf sur PeerTube ?
+subtitle: Découvrez les dernières améliorations de l’outil
+latest-articles: Derniers articles
+blocs:
+  19-09-25:
+    title: La version 1.4 de PeerTube vient tout juste de sortir !
+    date: 25 Septembre 2019
+    text:
+      p1:
+      - Bonjour à toutes et à tous,
+      - La dernière version de PeerTube est sortie ! Petit tour d’horizon de ce qu’elle apporte…
+      h4a: Un système de plugins
+      p3:
+      - 'Depuis le lancement de PeerTube, nous sommes conscient⋅es que chaque administrateur⋅ice et utilisateur⋅ice de PeerTube souhaite que le logiciel soit le plus adapté à ses besoins. Parce que Framasoft ne peut et ne souhaite pas développer toutes les fonctionnalités souhaitées par les un⋅es et les autres, nous avons, dès l’origine du projet, prévu la création d’un système de plugins.'
+      - 'Nous avons donc le plaisir de vous annoncer que les premières pierres de ce système ont été posées dans cette version 1.4 ! Celui-ci est pour l’instant très basique mais nous prévoyons de l’améliorer petit à petit dans les futures versions de PeerTube.'
+      - 'Avec ce système, chaque administrateur⋅ice peut dorénavant <b>créer des plugins spécifiques</b> en fonction de ses besoins. Mais iel peut aussi installer des extensions créées par d’autres personnes sur son instance. Par exemple, il est possible d’installer des thèmes graphiques créés par la communauté pour changer l’interface visuelle d’une instance.'
+      h4b: Des améliorations de l’interface
+      p4:
+      - 'Nous essayons continuellement d’améliorer l’interface de PeerTube en récoltant les avis des utilisateur⋅ices afin de savoir ce qui leur pose des problèmes (de compréhension ou d’utilisabilité par exemple). C’est un chantier qui prend du temps, mais cette nouvelle version vous propose déjà quelques modifications.'
+      - 'Tout d’abord, nous avons constaté que la plupart des personnes qui découvrent PeerTube ont du mal à comprendre <b>la différence entre une chaîne et un compte</b>. En effet, sur les autres services de diffusion de vidéos (YouTube par exemple) ces deux éléments sont globalement les mêmes.'
+      - 'Or sur PeerTube, chaque compte possède une ou plusieurs chaînes que l’on peut nommer comme on le souhaite. Il y a d’ailleurs une obligation de créer au minimum une chaîne lors de la création d’un compte. Une fois les chaînes créées, les utilisateur⋅ices peuvent <i>uploader</i> des vidéos sur chacune d’entre elles afin d’organiser leurs contenus (on peut donc avoir une chaîne où on diffuse des vidéos de cuisine et une autre où parle de vélo par exemple).'
+      - <figure>
+          <img src="@:data.baseurl/img/@:lang/channel.png" alt="">
+          <figcaption>Sur le compte Framasoft de l’instance Framatube, 2 chaînes sont accessibles</figcaption>
+        </figure>
+      - 'Pour rendre plus compréhensible ce concept de chaîne, nous avons modifié le formulaire d’inscription en y proposant dorénavant 2 étapes :'
+      ul:
+      - 'À l’étape 1, on crée son compte (on spécifie son nom d’utilisateur⋅ice, son mot de passe, son email, etc.)'
+      - 'À l’étape 2, on spécifie le nom de sa chaîne par défaut via un nouveau formulaire'
+      p-img-sign:
+      - <figure>
+          <img src="@:data.baseurl/img/@:lang/account-creation.png" alt="" />
+          <figcaption>Les 2 étapes du nouveau formulaire d’inscription</figcaption>
+        </figure>
+      ul2:
+      - 'Nous avons aussi essayé de différencier la page d’accueil d’une chaîne de celle d’un compte. Avant, ces deux pages listaient des vidéos alors que maintenant la page d’accueil du compte liste toutes les chaînes de celui-ci en présentant sous chaque nom de chaîne les miniatures des dernières vidéos <i>uploadées</i>.'
+      - 'Un autre élément peu clair était <b>la fenêtre (pop-up) qui s’ouvrait lorsqu’on souhaitait partager une vidéo</b>. Nous l’avons améliorée et il est ainsi possible de partager ou d’intégrer une vidéo en la faisant commencer et/ou terminer à un moment précis (système de time-code), de spécifier des sous-titres par défaut ou de jouer la vidéo en boucle. Ces nouvelles options devraient être très appréciées.'
+      p-img-share:
+      - <figure>
+          <img src="@:data.baseurl/img/@:lang/share-popup.png" alt="">
+          <figcaption>options de personnalisation lors du partage d’une vidéo</figcaption>
+        </figure>
+      h4c: Et aussi
+      p5:
+      - 'Toujours grâce à notre formidable communauté de traducteur⋅ices, cette nouvelle version de PeerTube se voit augmentée de <b>3 nouvelles langues</b> : le finlandais, le grec et le gaélique écossais. PeerTube est donc dorénavant accessible en 22 langues.'
+      - 'Nous avons ajouté la possibilité d’<b><i>uploader</i> un fichier audio</b> directement sur PeerTube : le logiciel s’occupe de créer automatiquement une vidéo à partir du fichier audio. Cette fonctionnalité demandée depuis longtemps devrait faciliter la vie des créatrices et créateurs de musique :)'
+      - Beaucoup d’autres améliorations ont été apportées dans cette nouvelle version. Vous pouvez voir la liste complète (en anglais) sur <a href="@:data.link.gitPT/releases/tag/v1.4.0">@:data.link.gitPT/releases/tag/v1.4.0</a>.
+      - Merci à tou⋅tes les contributeur⋅ices de PeerTube !<br>Framasoft
+  19-06-05:
+    title: PeerTube 1.3 est là !
+    date: 5 Juin 2019
+    text:
+      p:
+      - Bonjour à toutes et à tous,
+      - Nous venons tout juste de sortir la version 1.3 de PeerTube qui apporte
+        tout un tas de nouveautés.
+      - 'La plus importante de ces nouveautés est <strong>le système de listes
+        de lecture</strong> (ou playlists). Cette fonctionnalité permet à n’importe
+        quel⋅le utilisateur⋅ice de créer une liste de lecture, puis d’y ajouter
+        des vidéos et de les ordonner. Les vidéos ajoutées au sein d’une liste
+        de lecture peuvent être visionnées dans leur intégralité ou en partie :
+        le créateur de la liste de lecture peut décider à quel moment de la
+        vidéo le visionnage commence et/ou se termine. Ce système est vraiment
+        pratique pour créer des sortes de zappings ou du contenu pédagogique en
+        sélectionnant les extraits des vidéos qui vous intéressent. De plus, une
+        liste de lecture "À regarder plus tard" est créée par défaut pour chaque
+        utilisateur⋅ice leur permettant d’enregistrer dans cette liste de lecture
+        les vidéos qu’ielles n’ont pas le temps de regarder immédiatement.'
+      - 'Une autre des fonctionnalités de cette version 1.3 a été entièrement
+        développée par un contributeur externe :
+        <a href="https://github.com/joshmorel">Josh Morel</a>.
+        Cela permet d’ajouter à PeerTube un <strong>système de
+        quarantaine pour les vidéos</strong>. Si l’administrateur de l’instance
+        active cette fonctionnalité, toute nouvelle vidéo téléversée sur son instance
+        sera automatiquement rendue non-visible en attendant qu’un modérateur
+        l’approuve ou non.'
+      - 'Les traducteurs de PeerTube ont aussi fait un énorme travail car <strong>3
+        nouvelles langues</strong> sont désormais disponibles : le japonais, le
+        néerlandais et le portugais européen (l’interface supportait déjà le portugais
+        brésilien). A ce jour, PeerTube est donc disponible en 19 langues !'
+      - 'Les administrateurs peuvent maintenant <strong>gérer plus finement les
+        autres instances s’abonnant à leur instance</strong> : un administrateur
+        peut décider d’approuver ou non l’abonnement d’une autre instance à la
+        sienne. Il est aussi possible d’activer le refus automatique tout nouvel
+        abonnement à son instance. Enfin, une notification est créée dès que son
+        instance reçoit un nouvel abonnement. Ces fonctionnalités permettent à
+        chaque administrateur de maîtriser plus facilement la diffusion des contenus
+        mis en ligne sur leur instance.'
+      - Nous sommes aussi en train de retravailler le <strong>lecteur vidéo de
+        PeerTube</strong> afin que la lecture des vidéos soit plus rapide et comporte
+        moins de bugs. Ce nouveau lecteur vidéo permet aussi de rendre plus lisses
+        les changements de définition.  Enfin, la gestion de la bande passante est
+        optimisée via un système de mise en mémoire tampon plus performant. Cette
+        version 1.3 de PeerTube permet à l’administrateur d’activer ce nouveau lecteur
+        vidéo expérimental afin pour nous de récolter des retours dessus. Nous espérons
+        dans l’avenir utiliser ce nouveau lecteur vidéo par défaut.
+      - Enfin, nous avons fait quelques ajustements au niveau de <strong>l’interface
+        utilisateur⋅ice</strong>, pour qu’elle soit plus agréable/efficace à utiliser.
+        Par exemple, les miniatures ont changé de taille pour être davantage mises
+        en valeur. Les utilisateur⋅ices peuvent désormais accéder rapidement à partir
+        du menu à leur bibliothèque qui comprend leur listes de lecture, leurs vidéos,
+        leur historique de visionnage et leurs abonnements.
+      - Beaucoup d’autres améliorations ont été apportées dans cette nouvelle
+        version. Vous pouvez voir la liste complète (en anglais) sur
+        <a href="@:data.link.gitPT/releases/tag/v1.3.0">
+        @:data.link.gitPT/releases/tag/v1.3.0</a>.
+      - Merci à tous les contributeurs de PeerTube !<br>Framasoft
+  19-02-26:
+    title: 'PeerTube : rétrospective et nouvelles fonctionnalités : l’actu de février
+      2019'
+    date: 26 Février 2019
+    text:
+      p:
+      - Depuis la version 1.0 sortie en novembre dernier, nous avons continué
+        d’<b>améliorer PeerTube jour après jour</b>. Ces avancées de PeerTube, bien
+        au delà des objectifs du crowdfunding, ont été financées par <a href="@:data.link.soft">l’association
+        Framasoft</a>, qui développe le logiciel (et ne vit que par <a href="@:data.link.soutenir">vos
+        dons</a>).
+      - <b>Voici une petite rétrospective de la fin d’année 2018/début d’année
+        2019 :</b>
+      - En décembre 2018, nous avons sorti la version 1.1 qui contenait certains
+        outils de modération demandés par les administrateurs d’instances.<br> Nous
+        en avons aussi profité pour ajouter une fonctionnalité d’historique de visionnage
+        et de reprise automatique de la lecture des vidéos.
+      - 'En janvier, nous avons sorti la version 1.2 permettant, grâce à la communauté
+        de traducteurs et traductrices de PeerTube, de proposer 3 nouvelles langues :
+        le russe, le polonais et l’italien. PeerTube est donc désormais traduit
+        en 16 langues différentes !'
+      - Cette version comprend aussi un système de notifications permettant aux
+        utilisatrices et utilisateurs de savoir (via l’interface web ou par email)
+        lorsque leur vidéo est commentée, lorsque quelqu’un les mentionne, lorsqu’un
+        de leur abonnement a publié une nouvelle vidéo, etc.
+      - 'Par ailleurs, la fédération PeerTube s’est développée : aujourd’hui,
+        c’est plus de 300 instances qui diffusent plus de 70 000 vidéos, avec
+        près de 2 millions de vues cumulées. Nous vous rappelons au passage que
+        le seul site officiel que nous maintenons autour de PeerTube est <a href="
+        @:data.link.joinpeertube">@:data.link.joinpeertube</a> et que nous n’avons
+        aucune responsabilité autour de tout autre site qui pourrait voir le jour.'
+      - Comme vous pouvez le constater, nous sommes allés bien au delà de ce que
+        le crowdfunding avait financé. Et nous allons continuer !<br> Car il est
+        prévu pour l’année 2019 d’ajouter un système de plugins et de thèmes (peu
+        évolué dans un premier temps), une gestion des playlists, la prise en charge
+        de fichiers audio à l’upload et bien d’autres fonctionnalités.
+      - 'Si vous aussi vous voulez contribuer au développement de PeerTube, n’hésitez
+        pas à participer à son financement : @:data.html.soutenir'
+      - 'Si vous avez la moindre question, vous pouvez utiliser <a
+        href="@:link.forumPT">le forum</a>.'
+      - Merci et bon début d’année,<br>Framasoft
+  18-10-16:
+    title: Newsletter du crowdfunding de PeerTube n°4
+    date: 16 Octobre 2018
+    text:
+      p1:
+      - Bonjour à toutes et à tous,
+      - Nous voici mi-octobre ! Et comme promis, nous venons de sortir la première
+        version stable de PeerTube.
+      - 'Elle contient tous les buts que nous avions fixé dans notre crowdfunding :'
+      ul1:
+      - Le support de l’internationalisation (à l’heure où nous écrivons
+        ces lignes, PeerTube est déjà disponible en plus de 13 langues !)
+      - Le support des sous-titres
+      - La possibilité d’importer des
+        vidéos via une URL (YouTube, Dailymotion, Vimeo et bien d’autres !)
+      - La possibilité d’importer une vidéo via un fichier torrent ou un lien
+        Magnet
+      - La mise à disposition de flux RSS, vous permettant de
+        suivre les nouvelles vidéos mises en ligne sur l’ensemble des instances
+        PeerTube, sur une instance en particulière ou par une chaîne que appréciez.
+        Vous pouvez aussi vous abonner au flux des commentaires d’une vidéo spécifique
+      - La recherche, beaucoup plus pertinente qu’avant et acceptant de nombreux
+        filtres avancés (durée, catégorie, tags…)
+      - Les abonnements à
+        travers la fédération, vous laissant la possibilité de suivre vos chaînes
+        vidéos préférées afin de retrouver l’ensemble de leurs vidéos dans un
+        onglet dédié
+      - La redondance entre instances PeerTube, où des instances
+        peuvent aider à partager certaines vidéos d’autres instances
+      p2:
+      - 'Nous savons que les descriptions de fonctionnalités ne sont pas toujours
+        très fun, et c’est pour ça que nous vous avons préparé de courtes vidéos
+        de démonstration:'
+      ul2:
+      - <a href="@:data.video.rss">Flux RSS</a>
+      - <a href="@:data.video.torrent">Import de torrent</a>
+      - <a href="@:data.video.yt-import">Import d’une vidéo YouTube</a>
+      - <a href="@:data.video.subtitle">Ajout de sous-titres</a>
+      - <a href="@:data.video.search">Recherche avancée</a>
+      - <a href="@:data.video.subscription">Abonnements à des chaînes</a>
+      p3:
+      - 'Il s’agit donc de la dernière newsletter concernant le crowdfunding de
+        PeerTube. Nous aimerions donc vous remercier une dernière fois, pour nous
+        avoir permis de grandement améliorer PeerTube afin de promouvoir un web
+        plus décentralisé.<br> Mais l’aventure n’est pas terminée: nous continuerons
+        à améliorer le logiciel, et il reste encore beaucoup à faire pour pleinement
+        libérer le streaming vidéo. Mais avant, nous allons prendre quelques jours
+        de congé ;)'
+      - N’oubliez pas que si vous avez des questions <a href="@:link.forumPT">le
+        forum Framacolibri</a> est à votre disposition. Vous pouvez également nous
+        contacter directement sur @:data.hlink.contact</>.
+      - Librement,<br>Framasoft
+  18-09-12:
+    title: Newsletter du crowdfunding de PeerTube n°3
+    date: 12 Septembre 2018
+    text:
+      p:
+      - Bonjour à toutes et à tous,
+      - Nous sommes maintenant à un mois de la sortie de la version 1 de PeerTube !
+        Nous souhaitons donc vous partager quelques (bonnes !) nouvelles.
+      - Nous venons de sortir la <em>beta 12</em> de PeerTube, qui ajoute la possibilité
+        de s’abonner à des chaînes vidéos, qu’elles soient sur votre instance ou
+        même sur des instances distantes.<br> De cette manière, vous pouvez parcourir
+        les vidéos de vos abonnements dans une page dédiée. De plus, si l’administrateur
+        de votre instance PeerTube le permet, vous avez la possibilité de voir une
+        chaîne ou une vidéo distante en tapant son adresse dans la barre de recherche
+        de PeerTube.
+      - Ce n’était pas inclus dans le crowdfunding, mais nous avons aussi créé
+        une nouvelle page "Overview", qui affiche aléatoirement les vidéos de certaines
+        catégories, tags ou chaînes, dans le but de montrer la diversité des vidéos
+        hébergées. Vous pouvez voir ici <a href="https://peertube3.cpy.re/videos/overview">une
+        démonstration de cette fonctionnalité</a>.
+      - Vous pouvez lire le changelog complet de la <em>beta 12</em> (en anglais)
+        <a href="@:data.link.gitPT/blob/develop/CHANGELOG.md#v100-beta12">ici</a>.
+      - 'Concernant le crowdfunding, la plupart des récompenses sont prêtes :
+        <a href="@:data.link.gitPT">le fichier README de
+        PeerTube</a> et <a href="@:data.baseurl/hall-of-fame"
+        >le Hall of Fame du site JoinPeertube</a> affichent fièrement les noms des
+        personnes ayant choisi les récompenses correspondantes. Nous allons bientôt
+        pouvoir envoyer les illustrations numériques personnalisées à celles et
+        ceux qui ont donné 80 € et plus (et c’est tellement beau qu’il nous tarde
+        !).'
+      - La dernière fonctionnalité qu’il nous reste à implémenter concerne la
+        redondance des vidéos entre instances, qui permettra encore d’augmenter
+        la résilience en cas de surcharge d’une instance. Si tout se passe bien,
+        nous devrions la terminer dans environ deux semaines (fin septembre).
+      - Nous vous rappelons que vous pouvez suivre l’avancée des travaux directement
+        en consultant <a href="@:data.link.gitPT">le dépôt
+        Git</a>, et même participer aux discussions/signalement de bugs/propositions
+        d’améliorations dans l’onglet « Issues ».
+      - Si vous avez des questions <a href="@:link.forumPT">un
+        forum</a> est à votre disposition. Vous pouvez également nous contacter
+        directement sur @:data.hlink.contact</>.
+      - Librement,<br>Framasoft
+  18-08-20:
+    title: Newsletter du crowdfunding de PeerTube n°2
+    date: 20 Août 2018
+    text:
+      p:
+      - Bonjour à toutes et à tous,
+      - Le développement des fonctionnalités du crowdfunding poursuit son chemin
+        sans problème particulier.
+      - Pour rappel, dans la première newsletter datée du 23 juillet 2018, nous
+        vous annoncions que le système d’internationalisation et l’implémentation
+        des flux RSS étaient terminés, et que nous avancions sur le support des
+        sous-titres puis la recherche avancée.
+      - Ces quatre fonctionnalités sont toutes implémentées, et peuvent être directement
+        testées sur les instances mises à jour en <em>v1.0.0-beta.10</em> (par exemple
+        @:data.html.tube). En ce qui concerne
+        les sous-titres, vous pouvez les activer sur <a href="https://framatube.org/videos/watch/217eefeb-883d-45be-b7fc-a788ad8507d3">la
+        vidéo de présentation de PeerTube</a>.
+      - Nous sommes actuellement en train de finir le système d’import de vidéos
+        via une URL (YouTube, Vimeo, Dailymotion etc) ou un fichier torrent. Cette
+        fonctionnalité devrait être disponible dans quelques jours, lorsque nous
+        sortirons une nouvelle version de PeerTube (<em>v1.0.0-beta.11</em>). L’import
+        des vidéos clôturera donc notre premier palier. La prochaine fonctionnalité
+        sur laquelle nous allons travailler sera le système d’abonnements entre
+        utilisateurs.
+      - Nous vous rappelons que vous pouvez suivre l’avancée des travaux directement
+        en consultant <a href="@:data.link.gitPT">le dépôt
+        Git</a>, et même participer aux discussions/signalement de bugs/propositions
+        d’améliorations dans l’onglet « Issues ».
+      - Si vous avez des questions <a href="@:link.forumPT">un
+        forum</a> est à votre disposition. Vous pouvez également nous contacter
+        directement sur @:data.hlink.contact</>.
+      - Librement,<br>Framasoft
+  18-07-23:
+    title: Newsletter du crowdfunding de PeerTube n°1
+    date: 23 Juillet 2018
+    text:
+      p:
+      - Bonjour à toutes et à tous,
+      - Tout d’abord, un grand merci pour avoir contribué à notre campagne. ❤️
+      - 'Pendant le crowdfunding, nous avons continué d’avancer sur le système
+        d’internationalisation. Et nous avons le plaisir d’annoncer qu’il est
+        enfin terminé: il sera disponible lors de la prochaine version beta de
+        PeerTube (<em>beta 10</em>).<br> À l’heure où nous écrivons ces lignes,
+        l’interface est disponible en anglais, français, basque, catalan, tchèque
+        et en esperanto (un énorme merci <a href="@:data.link.gitPT/blob/develop/CREDITS.md#translations"
+        > aux traducteurs</a>). Si vous aussi vous voulez aider à la traduction
+        de PeerTube, n’hésitez pas à jeter <a href="@:data.link.gitPT/blob/develop/support/doc/translation.md"
+        >un coup d’oeil à la documentation</a> !'
+      - En ce qui concerne les flux RSS, ils ont été implémentés par <a href="https://github.com/rigelk">Rigelk</a>
+        et sont d’ores et déjà utilisables avec la <em>beta 9</em>. Vous pouvez,
+        par exemple, avoir <a href="https://framatube.org/feeds/videos.xml?sort=-publishedAt&filter=local">
+        le flux des dernières vidéos locales ajoutées sur une instance</a>.
+      - Le support des sous-titres avance bien et nous devrions avoir une première
+        version de prête sous peu. Une fois ce chantier terminé, nous passerons
+        à l’implémentation de la recherche avancée.
+      - Nous vous rappelons que vous pouvez suivre l’avancée des travaux directement
+        en consultant <a href="@:data.link.gitPT">le dépôt
+        Git</a>, et même participer aux discussions/signalement de bugs/propositions
+        d’améliorations dans l’onglet « Issues ».
+      - Si vous avez des questions <a href="@:link.forumPT">un
+        forum</a> est à votre disposition. Vous pouvez également nous contacter
+        directement sur @:data.hlink.contact</>.
+      - Librement,<br>Framasoft
