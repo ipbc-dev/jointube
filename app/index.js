@@ -24,7 +24,7 @@ Vue.use(is);
 Vue.use(cookie);
 Vue.use(merge);
 
-const defaultLocale = 'fr';
+const defaultLocale = 'en';
 const locales = {};
 const pages = [];
 const commons = [];
