@@ -6,18 +6,18 @@
       :html="{ body: {id: $route.meta.id } }"
       :lang="$route.meta.lang"
       :head="{
-        'link[rel^=shortcut]': {href: `${$root.baseurl}icons/favicon.png`},
-        'link[rel=apple-touch-icon]': {href: `${$root.baseurl}icons/apple-touch-icon.png`},
+        'link[rel^=shortcut]': {href: `${$root.baseurl}/icons/favicon.png`},
+        'link[rel=apple-touch-icon]': {href: `${$root.baseurl}/icons/apple-touch-icon.png`},
 
         'link[rel=canonical]': {href: `${$root.canonical}${$route.path}`},
 
         'meta[property^=og][property$=title]': {content: `${$t('meta.title')}`},
-        'meta[property^=og][property$=image]': {content: `${$root.baseurl}icons/apple-touch-icon.png`},
+        'meta[property^=og][property$=image]': {content: `${$root.baseurl}/icons/apple-touch-icon.png`},
         'meta[property^=og][property$=url]': {content: $root.baseurl},
         'meta[property^=og][property$=description]': {content: `${$t('meta.description')}`},
 
         'meta[name^=twitter][name$=title]': {content: `${$t('meta.title')}`},
-        'meta[name^=twitter][name$=image]': {content: `${$root.baseurl}icons/apple-touch-icon.png`},
+        'meta[name^=twitter][name$=image]': {content: `${$root.baseurl}/icons/apple-touch-icon.png`},
         'meta[name^=twitter][name$=description]': {content: `${$t('meta.description')}`},
       }"
     />
