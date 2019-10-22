@@ -60,20 +60,18 @@
         <div>
           <div class="citation">
             <div class="text" v-translate>
-              L’ambition de PeerTube, c'est d’être <strong>une alternative libre et décentralisée</strong> aux services de diffusion de
-              vidéos.
+              PeerTube aspire to be a <strong>decentralized and free/libre alternative</strong> to video broadcasting services.
             </div>
           </div>
 
           <p v-translate>
-            Le but n’est pas de remplacer, mais de proposer quelque chose d’autre, avec des valeurs différentes, en parallèle de ce qui
-            existe déjà.
+            Our aim is not to replace them, but rather to simultaneously offer something else, with different values.
           </p>
         </div>
       </div>
 
       <div class="federation one-column">
-        <div class="subtitle" v-translate>Une fédération d'hébergements interconnectés</div>
+        <div class="subtitle" v-translate>A federation of interconnected hosting services</div>
 
         <img :src="buildImgUrl('peertube-federation-multiplicity.png')" alt="Funny federation schema"/>
 
@@ -81,16 +79,15 @@
           <div class="left-bar"></div>
 
           <div class="text" v-translate>
-            PeerTube n’est pas pensé pour créer une énorme plateforme centralisant les vidéos du monde entier. Il s’agit plutôt
-            <strong>d'un réseau de nombreux petits hébergeurs de vidéos, connectés les uns aux autres.</strong>
+            PeerTube is not meant to become a huge platform that would centralize videos from all around the world.
+            Rather, it is <strong>a network of inter-connected small videos hosters</strong>.
           </div>
         </div>
 
         <p v-translate>
-          N’importe qui ayant un minimum de compétences techniques peut héberger un serveur PeerTube qu’on nomme instance.
-          Chaque instance héberge ses propres utilisateur⋅ices et leurs vidéos.
-          Ainsi, <strong>toutes les instances sont créées, animées, modérées et maintenues de façon indépendante par des administrateur⋅ices
-          différent⋅e⋅s.</strong>
+          Anyone with a modicum of technical skills can host a PeerTube server, aka an instance.
+          Each instance hosts its users and their videos.
+          In this way, <strong>every instance is created, moderated and maintained independently by various administrators.</strong>
         </p>
 
         <div class="bottom-link-wrapper">
@@ -103,80 +100,75 @@
         <img :src="buildImgUrl('peertube-federation-2-instances.png')" alt="Funny 2 instances communication schema"/>
 
         <p v-translate>
-          Mais vous avez tout de même la possibilité de regarder depuis l'instance sur laquelle vous êtes inscrit·e des vidéos qui se
-          trouvent ailleurs ;
-          il suffit que l'administrateur·ice l'ai autorisé !
+          You can still watch from your account videos hosted by other instances though
+          if the administrator of your instance had previously connected it with other instances.
         </p>
 
         <div class="citation">
           <div class="left-bar"></div>
 
-          <div class="text v-translate">C'est le principe de<strong> la fédération !</strong></div>
+          <div class="text v-translate">This is just how a <strong>federation</strong> works!</div>
         </div>
 
         <img :src="buildImgUrl('peertube-mastodon-federation.png')" alt="Federation with Mastodon funny schema"/>
 
         <p v-translate>
-          Mais ce n’est pas tout ! Le protocole de fédération ActivityPub (qu’utilise PeerTube)
-          <strong>permet aussi d’interagir avec d’autres logiciels</strong> utilisant ce même protocole. Par exemple, PeerTube et le
-          réseau social Mastodon, alternative à Twitter, sont liés : <strong>il est possible de « suivre » un utilisateur PeerTube depuis
-          Mastodon</strong>
-          (en affichant dans son fil d'actualités les dernières vidéos postées par le compte suivi),
-          <strong>ou même de commenter une vidéo hébergée sur PeerTube directement depuis Mastodon.</strong>
+          And there's more! PeerTube uses Activity Pub, a federating protocol that <strong>allows you to interact with other software</strong>,
+          provided they also use this protocol. For example, PeerTube and Mastodon -a Twitter alternative- are connected:
+          <strong>you can follow a PeerTube user from Mastodon</strong> (the latest videos from the PeerTube account you follow will appear in your feed),
+          <strong>and even comment on a PeerTube-hosted video directly from your Mastodon's account.</strong>
         </p>
 
 <!--        TODO: find interesting resource regarding federation-->
 <!--        <div class="bottom-link-wrapper">-->
 <!--          <a href="#" class="bottom-link">-->
-<!--            <span class="text" v-translate>En savoir plus sur la fédération</span>-->
+<!--            <span class="text" v-translate>Learn more about the federation</span>-->
 <!--            <icon-right></icon-right>-->
 <!--          </a>-->
 <!--        </div>-->
       </div>
 
       <div class="free-software one-column">
-        <div class="subtitle" v-translate>Un code ouvert sous licence libre</div>
+        <div class="subtitle" v-translate>An open-source, free/libre licence code</div>
 
         <img :src="buildImgUrl('peertube-free-software.png')" alt="PeerTube is a free software funny schema"/>
 
         <p v-translate>
-          Les principaux services de diffusion de vidéo en ligne utilisent vos données pour gagner
-          de l'argent en analysant vos interactions et en utilisant ces informations pour vous matraquer en publicités ciblées.
+          Mainstream online video broadcasting services make money off of your data by analyzing your interactions
+          so that they can then bombard your with targeted advertising.
         </p>
 
         <div class="citation">
           <div class="left-bar"></div>
 
           <div class="text" v-translate>
-            PeerTube n’est soumis au monopole d’aucune entreprise, ne dépend d’aucune publicité
-            <strong>et ne vous piste pas.</strong>
+            Peertube is not subject to any corporate monopoly, does not rely on ads and <strong>does not track you.</strong>
           </div>
         </div>
 
         <p v-translate>
-          Mais surtout, PeerTube <strong>vous considère comme une personne, et non pas comme un produit qu’il faut
-          profiler et enfermer dans des boucles vidéos.</strong> PeerTube n’utilise par exemple aucun algorithme de recommandation biaisé
-          pour vous faire rester indéfiniment en ligne.
+          Most importantly, <strong>you are a person to PeerTube, not a product in need of profiling so as to be stuck in video loops.</strong>
+          For example, PeerTube doesn't use any biased recommendation algorithms to keep you online for hours on end.
         </p>
 
         <p v-translate>
-          Tout cela est possible car PeerTube est un logiciel libre (licence GNU-AGPL pour les connaisseur⋅euses).
-          Son code est un « commun » numérique, partagé avec tous et toutes, et non une recette secrète appartenant à Google (pour YouTube)
-          ou à Vivendi/Bolloré (pour Dailymotion). Cette licence libre <strong>garantit nos libertés fondamentales d’utilisateur⋅ices et
-          permet à de nombreux contributeur⋅ices de proposer des évolutions et de nouvelles fonctionnalités.</strong>
+          All of this is made possible by Peertube's free/libre license (GNU-AGPL).
+          Its code is a digital "common", that belongs to everybody, instead of a secret formula that belongs to Google
+          (in the case of Youtube) or to Vivendi/Bolloré (Dailymotion).
+          This free/libre license <strong>guarantees our fundamental freedoms as users and allows many contributors to offer evolutions and new features.</strong>
         </p>
 
 <!--        TODO: find interesting resource regarding free softwares -->
 <!--        <div class="bottom-link-wrapper">-->
 <!--          <a href="#" class="bottom-link">-->
-<!--            <span class="text" v-translate>En savoir plus sur les logiciels libres</span>-->
+<!--            <span class="text" v-translate>Learn more about free/libre software </span>-->
 <!--            <icon-right></icon-right>-->
 <!--          </a>-->
 <!--        </div>-->
       </div>
 
       <div id="you-are-a-video-maker" class="one-column">
-        <div class="subtitle" v-translate>Vous êtes vidéaste ?</div>
+        <div class="subtitle" v-translate>Are you a video maker?</div>
 
         <img :src="buildImgUrl('peertube-upload.png')" alt="PeerTube upload illustration"/>
 
@@ -184,40 +176,37 @@
           <div class="left-bar"></div>
 
           <div class="text" v-translate>
-            PeerTube vous permet de choisir <strong>un hébergement et des règles qui vous correspondent.</strong>
+            With PeerTube, chose <strong>your hosting company and the rules you believe in.</strong>
           </div>
         </div>
 
         <div v-translate>
-          On l’a vu avec les dérives de YouTube : son hébergeur, Google-Alphabet, peut imposer son système ContentID
-          (le fameux « Robocopyright ») ou ses outils de mise en valeur des vidéos, qui semblent aussi obscurs qu’injustes.
+          YouTube has clearly gone astray: its hoster, Google-Alphabet, can enforce its ContentID system (the infamous "Robocopyright")
+          or its videos recommendation system, all of which appear to be as obscure as unfair.
         </div>
 
         <div class="citation">
           <div class="left-bar"></div>
 
           <div class="text" v-translate>
-            Être en contact direct avec un hébergeur à taille humaine vous permet, non seulement de ne plus être le client d'une grande
-            entreprise du numérique, mais surtout <strong>d'avoir des rapports privilégiés avec les personnes qui hébergent et diffusent vos
-            données.</strong>
+            Direct contact with a human-scale hoster allows for two things: you no longer are the client of a huge tech company,
+            and <strong>you can nurture a special relationship with your hoster, who distributes your data.</strong>
           </div>
         </div>
 
         <div v-translate>
-          Avec PeerTube, vous choisissez l’hébergeur de vos vidéos selon ses conditions d’utilisation, telles que la limite d’espace disque
-          par utilisateur⋅ice,
-          la politique de modération, les choix de fédération...
-          Comme vous n’avez pas un géant du web en face de vous, vous pourrez probablement discuter ensemble si vous avez un souci, un
-          besoin, une envie...
+          With PeerTube, you get to choose your hosting provider according to their terms of use, such as their disk space limit per user,
+          their moderation policy, who they chose to federate with... You are not speaking with a huge tech company, so you can
+          talk it out in case of any issue, need, desire...
         </div>
 
         <router-link :to="{ path: '/instances', hash: 'instances-list' }" class="jpt-button discover-instances">
-          <translate>Découvrir les instances PeerTube</translate>
+          <translate>Browse/discover PeerTube instances</translate>
         </router-link>
       </div>
 
       <div class="p2p one-column">
-        <div class="subtitle" v-translate>De la diffusion – et donc du visionnage – en pair-à-pair</div>
+        <div class="subtitle" v-translate>About peer-to-peer broadcasting and watching</div>
 
         <img :src="buildImgUrl('peertube-p2p.png')" alt="PeerTube P2P illustration"/>
 
@@ -225,42 +214,43 @@
           <div class="left-bar"></div>
 
           <div class="text" v-translate>
-            Le logiciel PeerTube peut au besoin utiliser un protocole pair-à-pair (P2P) pour diffuser des vidéos très regardées par
-            les internautes (vidéos virales), ce qui permet d'<strong>alléger la charge des sites web qui les hébergent.</strong>
+            The PeerTube software can, whenever necessary, use a peer-to-peer protocol (P2P) to broadcast viral videos,
+            <strong>lowering the load of their hosts.</strong>
           </div>
         </div>
 
         <p v-translate>
-          Ainsi, quand vous visionnez une vidéo, votre ordinateur participe à sa diffusion. Si beaucoup de personnes regardent la même vidéo
-          au même moment, leur navigateur envoie automatiquement des bouts de la vidéo aux autres spectateur⋅ices.
-          Cela permet de <strong>ne pas surexploiter les ressources du serveur</strong> : les flux se répartissent, le réseau est optimisé.
+          In this way, when you watch a video, your computer contributes to its broadcast.
+          If a lot of people are watching the same video at the same time, their browser automatically send smalls pieces of the
+          video to the other viewers.
+          <strong>The server resources are not over-exploited</strong>: the stream is split, the network optimized.
         </p>
 
         <p v-translate>
-          Mine de rien, avant cette diffusion en pair-à-pair, les vidéastes à succès (ou les vidéos qui font le buzz) étaient condamnés
-          à s’héberger chez un géant du web dont l’infrastructure peut encaisser des milliers de vues simultanées… Ou à payer très cher un
-          hébergement de vidéo indépendant afin qu’il tienne la charge.
+          It might not look like it, but thanks to peer-to-peer broadcasting, popular video makers and their videos are no longer
+          forced to be hosted by big companies, whose infrastructure can stand thousands of views at the same time... or to pay for a
+          robust but extremely expensive independent video host.
         </p>
       </div>
 
       <div id="you-play">
         <div class="one-column">
-          <div class="subtitle" v-translate>À vous de jouer !</div>
+          <div class="subtitle" v-translate>Your move!</div>
 
           <img :src="buildImgUrl('peertube-federation-multiplicity.png')" alt="PeerTube you play illustration"/>
         </div>
 
         <div class="buttons-row explore-create-account">
           <router-link to="/content-selections" class="jpt-button">
-            <span v-translate>Explorer les contenus</span>
+            <span v-translate>Browse contents</span>
           </router-link>
 
           <div class="create-account-block">
             <router-link to="/instances" class="jpt-button">
-              <span v-translate>Créer un compte</span>
+              <span v-translate>Sign up</span>
             </router-link>
             <div class="jpt-button-legend" v-translate>
-              Pour profiter de toutes les fonctionnalités : historique, abonnements, listes de lectures, notifications...
+              Enjoy every feature: history, subscriptions, playlists, notifications...
             </div>
           </div>
 
@@ -268,38 +258,37 @@
       </div>
 
       <div id="behind-peertube" class="one-column">
-        <div class="subtitle" v-translate>Qui est derrière PeerTube ?</div>
+        <div class="subtitle" v-translate>Who is behind PeerTube?</div>
 
         <img class="framasoft-logo" :src="buildImgUrl('framasoft-big-logo.png')" alt="Framasoft logo"/>
 
         <p v-translate>
-          PeerTube est <strong>un logiciel libre gratuit financé par une association</strong> française à but non lucratif : Framasoft.
+          Peertube is a <strong>free/libre software funded by a French non-profit organization</strong>: Framasoft
         </p>
 
         <p v-translate>
-          Créée en 2004, l'association se consacre désormais à <strong>l’éducation populaire aux enjeux du numérique.</strong>
-          Notre petite structure (moins de 40 membres, moins de 10 salarié·e·s) est connue pour avoir réalisé le projet Dégooglisons
-          Internet,
-          proposant 34 outils en ligne éthiques et alternatifs. Reconnue d’intérêt général, notre association est
-          <strong>financée à plus de 90% par vos dons</strong>, déductibles des impôts pour les contribuables français·es.
+          Our organization started in 2004, and now devotes itself <strong>to popular education about digital technology issues.</strong>
+          We are a small structure of less than 40 members and under 10 employees, well-known for the De-google-ify Internet project,
+          when we offered 34 ethical and alternative online tools. As a public interest organization, <strong>over 90% of our funding
+          comes from donations</strong> (tax deductible for French taxpayers).
         </p>
 
         <p v-translate>
-          Suite au <a href="/hall-of-fame" target="_blank">financement participatif lancé entre mars et juillet 2018</a>,
-          <strong>Framasoft a pu financer l'emploi du développeur principal de PeerTube.</strong> Ainsi, après une version bêta en mars 2018,
-          la version 1 est sortie en novembre 2018. Depuis, plusieurs versions intermédiaires ont apporté de nombreuses fonctionnalités.
-          Plusieurs collectifs ont déjà monté des hébergements PeerTube, créant ainsi les bases de la fédération.
+          Thanks to our <a href="/hall-of-fame" target="_blank">crowdfunding (from March to July 2018)</a>,
+          <strong>Framasoft were able to employ PeerTube's main developer.</strong>
+          After a beta release in March 2018, release 1 came out in November 2018.
+          Since then, several intermediary releases have brought many features along.
+          Several collectives have already created PeerTube hosts, laying the foundation for the federation.
         </p>
 
         <p>
           <strong v-translate>
-            Plus ce logiciel sera utilisé et soutenu, plus des personnes l’utiliseront et y contribueront, et plus vite il évoluera
-            vers une alternative concrète aux plateformes telles que YouTube.
+            The more people use, support, and contribute to PeerTube, the quicker it will become a concrete alternative to platforms like YouTube.
           </strong>
         </p>
 
         <a href="https://framasoft.org/#soutenir" target="_blank" rel="noopener noreferrer" class="jpt-button">
-          <span v-translate>Soutenir Framasoft</span>
+          <span v-translate>Donate to Framasoft</span>
         </a>
       </div>
     </section>
