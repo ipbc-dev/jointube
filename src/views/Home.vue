@@ -343,12 +343,15 @@
   .presentation {
     .first-row {
       display: flex;
+      flex-direction: column;
       align-items: center;
-      padding: 70px;
+      padding-top: 70px;
       margin: auto;
 
       .brand {
         height: 47px;
+        margin-bottom: 20px;
+        margin-left: -30px;
       }
 
       div {
@@ -356,7 +359,6 @@
       }
 
       .description {
-        margin-left: 60px;
         font-size: 24px;
         font-weight: 600;
       }
@@ -379,6 +381,7 @@
       font-size: 16px;
       margin: 50px auto;
       width: 500px;
+      text-align: center;
 
       @media screen and (max-width: $small-screen) {
         width: 100%;
