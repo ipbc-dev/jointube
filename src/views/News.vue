@@ -70,7 +70,7 @@
           </ul>
 
           <figure>
-            <img :src="buildNewsImgUrl('release-1.4', 'account-creation.png')" alt="the new sign-up form in 2 steps">
+            <img @click="openModal" :src="buildNewsImgUrl('release-1.4', 'account-creation.png')" alt="the new sign-up form in 2 steps">
             <figcaption>the new sign-up form in 2 steps</figcaption>
           </figure>
 
@@ -86,7 +86,7 @@
           </ul>
 
           <figure>
-            <img :src="buildNewsImgUrl('release-1.4', 'share-popup.png')" alt="customization options when video sharing">
+            <img @click="openModal" :src="buildNewsImgUrl('release-1.4', 'share-popup.png')" alt="customization options when video sharing">
             <figcaption>customization options when video sharing</figcaption>
           </figure>
 
