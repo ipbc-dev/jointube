@@ -58,10 +58,6 @@
   }
 
   .title-block {
-    p {
-      text-align: left;
-    }
-
     .jpt-button {
       margin-top: 25px;
       border: 2px solid $orange;
