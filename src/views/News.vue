@@ -14,41 +14,41 @@
         <div class="date" v-translate>September 25, 2019</div>
 
         <div class="body">
-          <p>Hi everybody,</p>
-          <p>Peertube 1.4 just came out! Here's a quick overview of what's new…</p>
+          <p v-translate>Hi everybody,</p>
+          <p v-translate>Peertube 1.4 just came out! Here's a quick overview of what's new…</p>
 
-          <h4>Plug-in system</h4>
-          <p>
+          <h4 v-translate>Plug-in system</h4>
+          <p v-translate>
             Since PeerTube's launch, we have been aware that every administrator and user wishes to see the software fulfill their needs.
             As Framasoft cannot and will not develop every feature that could be hoped for, we have from the start of the project planned
             on creating a plug-in system.
           </p>
 
-          <p>
+          <p v-translate>
             We are pleased to announce that the foundation stones of this system have been laid in this 1.4 release! It might be very basic
             for now, but we plan on improving it bit by bit in Peertube's future releases.
           </p>
 
-          <p>
+          <p v-translate>
             Now, this system allows each administrator to <b>create specific plug-ins</b> depending on their needs. They may install
             extensions created by other people on their instance as well. For example, it is now possible to install community created
             graphical themes to change the instance visual interface.
           </p>
 
-          <h4>A better interface</h4>
-          <p>
+          <h4 v-translate>A better interface</h4>
+          <p v-translate>
             We strive to improve PeerTube's interface by collecting users' opinions so that we know what is causing them trouble
             (in terms of understanding and usability for example). Even though this is a time-consuming undertaking,
             this new release already offers you a few modifications.
           </p>
 
-          <p>
+          <p v-translate>
             First of all, we realized that most people who discover PeerTube have a hard time understanding
             <b>the difference between a channel and an account</b>.
             Indeed, on others video broadcasting services (such as YouTube) these two things are pretty much the same.
           </p>
 
-          <p>
+          <p v-translate>
             However, on PeerTube each account is linked to one or multiple channels that can be named as the users sees fit. You also have
             to create at least one channel when creating an account. Once the channels have been created, users can upload videos to each
             channel to organize their contents (for example, you could have a channel about cooking and another one about biking).
@@ -56,30 +56,32 @@
 
           <figure>
             <img @click="openModal" :src="buildNewsImgUrl('release-1.4', 'channel.png')" alt="2 channels on Framasoft's account on FramaTube instance">
-            <figcaption>2 channels on Framasoft's account on FramaTube instance</figcaption>
+            <figcaption v-translate>2 channels on Framasoft's account on FramaTube instance</figcaption>
           </figure>
 
-          <p>
+          <p v-translate>
             In order to make this channel idea more understandable, we have changed the sign-up form, which from now on consists of two
             steps:
           </p>
 
           <ul>
-            <li>Step 1: account creation (choosing your username, password, email, etc.)</li>
-            <li>Step 2: choosing your default channel name via a new form</li>
+            <li v-translate>Step 1: account creation (choosing your username, password, email, etc.)</li>
+            <li v-translate>Step 2: choosing your default channel name via a new form</li>
           </ul>
 
           <figure>
             <img @click="openModal" :src="buildNewsImgUrl('release-1.4', 'account-creation.png')" alt="the new sign-up form in 2 steps">
-            <figcaption>the new sign-up form in 2 steps</figcaption>
+            <figcaption v-translate>the new sign-up form in 2 steps</figcaption>
           </figure>
 
           <ul>
-            <li>We also aimed to differentiate a channel homepage from that of an account. These two pages used to list videos, whereas now
+            <li v-translate>
+              We also aimed to differentiate a channel homepage from that of an account. These two pages used to list videos, whereas now
               the account homepage lists all the channel linked to the account by showing under each channel name the thumbnail from the
               last videos uploaded on it.
             </li>
-            <li>Another unclear element was the <b>video sharing pop-up</b>. We have improved it, and it is now possible to share or embed a
+            <li v-translate>
+              Another unclear element was the <b>video sharing pop-up</b>. We have improved it, and it is now possible to share or embed a
               video by making it start and/or finish at a precise moment (time-code feature), to decide which subtitles will appear by
               default, and to loop the video. These new options will surely be greatly enjoyed.
             </li>
@@ -87,27 +89,29 @@
 
           <figure>
             <img @click="openModal" :src="buildNewsImgUrl('release-1.4', 'share-popup.png')" alt="customization options when video sharing">
-            <figcaption>customization options when video sharing</figcaption>
+            <figcaption v-translate>customization options when video sharing</figcaption>
           </figure>
 
-          <h4>More features</h4>
+          <h4 v-translate>More features</h4>
 
-          <p>
+          <p v-translate>
             Our wonderful community of translators is once again to thank for their work, after they enriched PeerTube with
             <b>3 new languages</b>: Finnish, Greek and Scottish Gaelic, making PeerTube now available in 22 languages.
           </p>
 
-          <p>
+          <p v-translate>
             We also added a new feature allowing you to <b>upload an audio file</b> directly to PeerTube: the software will automatically
             create a video from the audio file. This much awaited for feature should make life easier for music makers :)
           </p>
 
-          <p>
+          <p v-translate>
             This new release includes many other improvements. You can see the complete list on
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Chocobozzz/PeerTube/releases/tag/v1.4.0">https://github.com/Chocobozzz/PeerTube/releases/tag/v1.4.0</a>.
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Chocobozzz/PeerTube/releases/tag/v1.4.0">
+              https://github.com/Chocobozzz/PeerTube/releases/tag/v1.4.0
+            </a>.
           </p>
 
-          <p>Thanks to all PeerTube contributors!<br>Framasoft</p>
+          <p v-translate>Thanks to all PeerTube contributors!<br>Framasoft</p>
         </div>
       </article>
 
@@ -244,30 +248,47 @@
 
           <p v-translate>It implements all stretch goals we planned in our crowdfunding:</p>
           <ul>
-            <li>Localization support (as we write these lines, PeerTube is already available in 13 different languages!)</li>
-            <li>Subtitles support</li>
-            <li>Ability to import videos through an URL (YouTube, Vimeo, Dailymotion and many others!)</li>
-            <li>Ability to import a video through a torrent file or a magnet URI</li>
-            <li>
+            <li v-translate>Localization support (as we write these lines, PeerTube is already available in 13 different languages!)</li>
+            <li v-translate>Subtitles support</li>
+            <li v-translate>Ability to import videos through an URL (YouTube, Vimeo, Dailymotion and many others!)</li>
+            <li v-translate>Ability to import a video through a torrent file or a magnet URI</li>
+            <li v-translate>
               RSS feeds, allowing you to track new videos published in all federated PeerTube instances, in a specific PeerTube instance
               or in a video channel you like. You can also subscribe to comment feeds!
             </li>
-            <li>A more relevant search, with the ability to set advanced filters (duration, category, tags...)</li>
-            <li>
+            <li v-translate>A more relevant search, with the ability to set advanced filters (duration, category, tags...)</li>
+            <li v-translate>
               Subscriptions throughout the federation: you can follow your favorite video channels and see all the videos on a dedicated
               page
             </li>
-            <li>Redundancy system: a PeerTube instance can help sharing some videos from another instance</li>
+            <li v-translate>Redundancy system: a PeerTube instance can help sharing some videos from another instance</li>
           </ul>
 
           <p v-translate>We know that feature descriptions are not very amusing, so we have published a few demonstration videos:</p>
           <ul>
-            <li><a target="_blank" rel="noopener noreferrer" href="https://framatube.org/videos/watch/f57da309-6b92-4fe0-9267-ff8188cc050c">RSS Feeds</a></li>
-            <li><a target="_blank" rel="noopener noreferrer" href="https://framatube.org/videos/watch/dcad56d9-9fe6-45bc-96aa-3d778f6804c1">Torrent import</a></li>
-            <li><a target="_blank" rel="noopener noreferrer" href="https://framatube.org/videos/watch/59d306c0-fc5b-493a-956a-43785693346b">YouTube video import</a></li>
-            <li><a target="_blank" rel="noopener noreferrer" href="https://framatube.org/videos/watch/edd7a468-08d5-4877-b62b-61c5f3f83ceb">Adding subtitles</a></li>
-            <li><a target="_blank" rel="noopener noreferrer" href="https://framatube.org/videos/watch/60c4bea4-6bb2-4fce-8d9f-8a522575419d">Advanced search</a></li>
-            <li><a target="_blank" rel="noopener noreferrer" href="https://framatube.org/videos/watch/8968dbe1-a387-433b-a20f-37fe9f3ca8d5">Video channel subscriptions</a></li>
+            <li>
+              <a v-translate target="_blank" rel="noopener noreferrer" href="https://framatube.org/videos/watch/f57da309-6b92-4fe0-9267-ff8188cc050c">RSS Feeds</a>
+            </li>
+
+            <li>
+              <a v-translate target="_blank" rel="noopener noreferrer" href="https://framatube.org/videos/watch/dcad56d9-9fe6-45bc-96aa-3d778f6804c1">Torrent import</a>
+            </li>
+
+            <li>
+              <a v-translate target="_blank" rel="noopener noreferrer" href="https://framatube.org/videos/watch/59d306c0-fc5b-493a-956a-43785693346b">YouTube video import</a>
+            </li>
+
+            <li>
+              <a v-translate target="_blank" rel="noopener noreferrer" href="https://framatube.org/videos/watch/edd7a468-08d5-4877-b62b-61c5f3f83ceb">Adding subtitles</a>
+            </li>
+
+            <li>
+              <a v-translate target="_blank" rel="noopener noreferrer" href="https://framatube.org/videos/watch/60c4bea4-6bb2-4fce-8d9f-8a522575419d">Advanced search</a>
+            </li>
+
+            <li>
+              <a v-translate target="_blank" rel="noopener noreferrer" href="https://framatube.org/videos/watch/8968dbe1-a387-433b-a20f-37fe9f3ca8d5">Video channel subscriptions</a>
+            </li>
           </ul>
 
           <p v-translate>
