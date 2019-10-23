@@ -10,605 +10,57 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: src/views/FAQ.vue:381
+msgid ""
+"\"It's outrageous and unconscious: you're releasing PeerTube's version 1 when it doesn't contain the necessary tools\n"
+"            to effectively manage videos claimed by rights holders, or to effectively manage the issue of online harassment in comments,\n"
+"            or to effectively manage monetization through advertising, or to (insert here your request to PeerTube). It will never work!\n"
+"            What do you intend to do about it?\""
+msgstr ""
+"\"It's outrageous and unconscious: you're releasing PeerTube's version 1 when it doesn't contain the necessary tools\n"
+"            to effectively manage videos claimed by rights holders, or to effectively manage the issue of online harassment in comments,\n"
+"            or to effectively manage monetization through advertising, or to (insert here your request to PeerTube). It will never work!\n"
+"            What do you intend to do about it?\""
+
 #: src/components/InstanceCard.vue:49
 msgid "%{ instance.totalInstanceFollowers } follower instance"
 msgid_plural "%{ instance.totalInstanceFollowers } followers instances"
 msgstr[0] "%{ instance.totalInstanceFollowers } follower instance"
 msgstr[1] "%{ instance.totalInstanceFollowers } followers instances"
 
-#: src/views/FAQ.vue:305
+#: src/views/FAQ.vue:124
 msgid ""
-"<blockquote>\n"
-"            \"It's outrageous and unconscious: you're releasing PeerTube's version 1 when it doesn't contain the necessary tools\n"
-"            to effectively manage videos claimed by rights holders, or to effectively manage the issue of online harassment in comments,\n"
-"            or to effectively manage monetization through advertising, or to (insert here your request to PeerTube). It will never work!\n"
-"            What do you intend to do about it?\"\n"
-"          </blockquote>\n"
-"\n"
-"          <p>You're right. PeerTube 1.0 is not the perfect tool, far from it. And we never promised that this version 1.0 would be a\n"
-"            tool that would include all the features corresponding to all cases.</p>\n"
-"          <p>PeerTube 1.0 is the realization of the commitment we made in October 2017 to take PeerTube from an alpha version (personal\n"
-"            project and proof of concept that a federated video platform could work) to a 1.0 version in October 2018 (which does not mean\n"
-"            \"final version\", but \"version considered stable and distributable\").</p>\n"
-"          <p>Remember that PeerTube has only one (almost) full time developer and a small handful of very involved volunteers. It is not a\n"
-"            product developed by a start-up with a full time team (dev, design, UX, marketing, support, etc.) and significant financial\n"
-"            support. It is a Community free software, the development of which will continue over the months and, we hope, in the years to\n"
-"            come.</p>\n"
-"          <p>We are well aware of the shortcomings of PeerTube 1.0, especially in the moderation tools area (videos, comments, etc.). And\n"
-"            we intend to work on these weaknesses. </p>\n"
-"          <p>We have chosen to do so as follows: on the one hand we will work primarily in the coming months to improve these tools within\n"
-"            PeerTube itself (in the <i>core</i> of the software). On the other hand, we will also focus, in parallel, a large part of\n"
-"            PeerTube's development effort during 2019 on the integration of a plugin system, which can be developed by the communities.\n"
-"          </p>\n"
-"          <p>Indeed, we do not claim to have the science behind it and know how best to manage each of the tools according to each of the\n"
-"            needs. For example: with regard to the question of DMCA requests, cases vary according to geographical jurisdictions (European\n"
-"            law is different from French law, itself different from Canadian law, itself different from American law, etc.). Concerning\n"
-"            the tools for moderating comments, here again, we cannot decree ourselves experts of the subject, because this is simply not\n"
-"            the case.</p>\n"
-"          <p>By acting both on the <i>core</i>, but also by allowing the development of plugins, we believe that PeerTube will, in the\n"
-"            long term, be able to respond much better to these issues and allow different communities to adapt PeerTube to their needs.\n"
-"          </p>\n"
-"          <p>We are working as quickly as possible to improve PeerTube, but we are doing so with the resources we have, which means\n"
-"            <strong>very</strong> limited.</p>\n"
-"          <p>In the meantime, as an user if you feel that PeerTube 1.0 does not currently meet your needs, it's simple: don't use it right\n"
-"            now :) (we remind you that we don't make money developing PeerTube, and that if we obviously hope for its success, the\n"
-"            survival of our association doesn't depend on it).</p>\n"
-"          <p>As an administrator, if you are afraid of DMCA requests, there is an option to limit the opening of registrations to people\n"
-"            you know. You will then be able to reopen registrations without verification once these verification tools have been\n"
-"            integrated, or you have developed them.</p>"
-msgstr ""
-"<blockquote>\n"
-"            \"It's outrageous and unconscious: you're releasing PeerTube's version 1 when it doesn't contain the necessary tools\n"
-"            to effectively manage videos claimed by rights holders, or to effectively manage the issue of online harassment in comments,\n"
-"            or to effectively manage monetization through advertising, or to (insert here your request to PeerTube). It will never work!\n"
-"            What do you intend to do about it?\"\n"
-"          </blockquote>\n"
-"\n"
-"          <p>You're right. PeerTube 1.0 is not the perfect tool, far from it. And we never promised that this version 1.0 would be a\n"
-"            tool that would include all the features corresponding to all cases.</p>\n"
-"          <p>PeerTube 1.0 is the realization of the commitment we made in October 2017 to take PeerTube from an alpha version (personal\n"
-"            project and proof of concept that a federated video platform could work) to a 1.0 version in October 2018 (which does not mean\n"
-"            \"final version\", but \"version considered stable and distributable\").</p>\n"
-"          <p>Remember that PeerTube has only one (almost) full time developer and a small handful of very involved volunteers. It is not a\n"
-"            product developed by a start-up with a full time team (dev, design, UX, marketing, support, etc.) and significant financial\n"
-"            support. It is a Community free software, the development of which will continue over the months and, we hope, in the years to\n"
-"            come.</p>\n"
-"          <p>We are well aware of the shortcomings of PeerTube 1.0, especially in the moderation tools area (videos, comments, etc.). And\n"
-"            we intend to work on these weaknesses. </p>\n"
-"          <p>We have chosen to do so as follows: on the one hand we will work primarily in the coming months to improve these tools within\n"
-"            PeerTube itself (in the <i>core</i> of the software). On the other hand, we will also focus, in parallel, a large part of\n"
-"            PeerTube's development effort during 2019 on the integration of a plugin system, which can be developed by the communities.\n"
-"          </p>\n"
-"          <p>Indeed, we do not claim to have the science behind it and know how best to manage each of the tools according to each of the\n"
-"            needs. For example: with regard to the question of DMCA requests, cases vary according to geographical jurisdictions (European\n"
-"            law is different from French law, itself different from Canadian law, itself different from American law, etc.). Concerning\n"
-"            the tools for moderating comments, here again, we cannot decree ourselves experts of the subject, because this is simply not\n"
-"            the case.</p>\n"
-"          <p>By acting both on the <i>core</i>, but also by allowing the development of plugins, we believe that PeerTube will, in the\n"
-"            long term, be able to respond much better to these issues and allow different communities to adapt PeerTube to their needs.\n"
-"          </p>\n"
-"          <p>We are working as quickly as possible to improve PeerTube, but we are doing so with the resources we have, which means\n"
-"            <strong>very</strong> limited.</p>\n"
-"          <p>In the meantime, as an user if you feel that PeerTube 1.0 does not currently meet your needs, it's simple: don't use it right\n"
-"            now :) (we remind you that we don't make money developing PeerTube, and that if we obviously hope for its success, the\n"
-"            survival of our association doesn't depend on it).</p>\n"
-"          <p>As an administrator, if you are afraid of DMCA requests, there is an option to limit the opening of registrations to people\n"
-"            you know. You will then be able to reopen registrations without verification once these verification tools have been\n"
-"            integrated, or you have developed them.</p>"
-
-#: src/views/FAQ.vue:100
-msgid ""
-"<p>\n"
-"            <strong>It's software you install on your server</strong> to create a website where videos are hosted and broadcast...\n"
-"            Basically: you create your own \"homemade YouTube\"!\n"
-"          </p>\n"
-"          <p>There already exists free/libre software that enables you to do this. But with PeerTube, you can link your instance (your\n"
-"            video website) to Zaïd's PeerTube instance (where he hosts videos of the lectures for his people's university), to Catherin's\n"
-"            (who hosts her webmedia videos) or even to Solar's PeerTube instance (who manages a vloggers collective).</p>\n"
-"          <p>\n"
-"            <strong>But PeerTube doesn't centralize: it federates.</strong> Thanks to the\n"
+"<strong>But PeerTube doesn't centralize: it federates.</strong> Thanks to the\n"
 "            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://activitypub.rocks\">ActivityPub</a>\n"
 "            protocol (also used by\n"
 "            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://joinmastodon.org\">the Mastodon federation</a>,\n"
 "            a free/libre Twitter alternative), PeerTube can federate several small hosters so they don't have to buy thousands of hard\n"
-"            disks to host videos for the whole world.\n"
-"          </p>\n"
-"          <p>As a result, on your PeerTube website, the audience will be able to watch not only your videos, but also videos hosted by\n"
-"            Zaïd, Catherin or Solar... without having to host their videos on your PeerTube-powered website. Such diversity in a\n"
-"            video-catalog makes it very attractive. Such a large choice and diversity of videos is what made centralized platforms such as\n"
-"            YouTube succesful.\n"
-"          </p>\n"
-"          <p>\n"
-"            Federation offers another benefit: <strong>everyone becomes independent</strong>. Zaïd, Catherin, Solar and yourself can make\n"
-"            your own rules, your own Terms of Services (for example, one can imagine a MeowTube where dogs videos are strictly forbidden\n"
-"            😉).\n"
-"          </p>"
+"            disks to host videos for the whole world."
 msgstr ""
-"<p>\n"
-"            <strong>It's software you install on your server</strong> to create a website where videos are hosted and broadcast...\n"
-"            Basically: you create your own \"homemade YouTube\"!\n"
-"          </p>\n"
-"          <p>There already exists free/libre software that enables you to do this. But with PeerTube, you can link your instance (your\n"
-"            video website) to Zaïd's PeerTube instance (where he hosts videos of the lectures for his people's university), to Catherin's\n"
-"            (who hosts her webmedia videos) or even to Solar's PeerTube instance (who manages a vloggers collective).</p>\n"
-"          <p>\n"
-"            <strong>But PeerTube doesn't centralize: it federates.</strong> Thanks to the\n"
+"<strong>But PeerTube doesn't centralize: it federates.</strong> Thanks to the\n"
 "            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://activitypub.rocks\">ActivityPub</a>\n"
 "            protocol (also used by\n"
 "            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://joinmastodon.org\">the Mastodon federation</a>,\n"
 "            a free/libre Twitter alternative), PeerTube can federate several small hosters so they don't have to buy thousands of hard\n"
-"            disks to host videos for the whole world.\n"
-"          </p>\n"
-"          <p>As a result, on your PeerTube website, the audience will be able to watch not only your videos, but also videos hosted by\n"
-"            Zaïd, Catherin or Solar... without having to host their videos on your PeerTube-powered website. Such diversity in a\n"
-"            video-catalog makes it very attractive. Such a large choice and diversity of videos is what made centralized platforms such as\n"
-"            YouTube succesful.\n"
-"          </p>\n"
-"          <p>\n"
-"            Federation offers another benefit: <strong>everyone becomes independent</strong>. Zaïd, Catherin, Solar and yourself can make\n"
-"            your own rules, your own Terms of Services (for example, one can imagine a MeowTube where dogs videos are strictly forbidden\n"
-"            😉).\n"
-"          </p>"
+"            disks to host videos for the whole world."
 
-#: src/views/FAQ.vue:44
+#: src/views/FAQ.vue:115
 msgid ""
-"<p>\n"
-"            Because by design free/libre software respects our fundamental freedoms, and guarantees them by\n"
-"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube/blob/develop/LICENSE\">a license</a>,\n"
-"            so a legally enforceable contract.\n"
-"          </p>\n"
-"\n"
-"          <p>Concretely here, it means that:</p>\n"
-"          <ul>\n"
-"            <li>PeerTube is freely provided, no need to pay to install it on your server;</li>\n"
-"            <li>We can look under the hood of PeerTube (its source code): it's auditable, transparent;</li>\n"
-"            <li>Its development is community-based, it can be enhanced by everyone's contributions.</li>\n"
-"          </ul>"
+"<strong>It's software you install on your server</strong> to create a website where videos are hosted and broadcast...\n"
+"            Basically: you create your own \"homemade YouTube\"!"
 msgstr ""
-"<p>\n"
-"            Because by design free/libre software respects our fundamental freedoms, and guarantees them by\n"
-"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube/blob/develop/LICENSE\">a license</a>,\n"
-"            so a legally enforceable contract.\n"
-"          </p>\n"
-"\n"
-"          <p>Concretely here, it means that:</p>\n"
-"          <ul>\n"
-"            <li>PeerTube is freely provided, no need to pay to install it on your server;</li>\n"
-"            <li>We can look under the hood of PeerTube (its source code): it's auditable, transparent;</li>\n"
-"            <li>Its development is community-based, it can be enhanced by everyone's contributions.</li>\n"
-"          </ul>"
+"<strong>It's software you install on your server</strong> to create a website where videos are hosted and broadcast...\n"
+"            Basically: you create your own \"homemade YouTube\"!"
 
-#: src/views/FAQ.vue:131
+#: src/views/FAQ.vue:193
 msgid ""
-"<p>\n"
-"            It allows you to choose a hoster that fits you. YouTube's excesses are a good exemple: its hoster, Google/Alphabet, can\n"
-"            impose its \"Robocopyright\" (the ContentID system) or its tools to index, recommend and spotlight videos; and those tools seem\n"
-"            as unfair as they are obscure. Even though, it already forces you\n"
-"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://tosdr.org/#youtube\"> to give it extended copyrights on your videos,\n"
-"              for free</a>!\n"
-"          </p>\n"
-"          <p>With PeerTube, <strong>you can choose the hoster of your videos according to his terms of services</strong>, his moderation\n"
-"            policy, his federation choices... As you don't have a tech giant facing you, you might be able to talk with you hoster if you\n"
-"            ever have a problem, a need, or something you want.</p>\n"
-"          <p>\n"
-"            The other big advantage of PeerTube is that your hoster doesn't have to fear the sudden success of one of your videos.\n"
-"            Indeed, PeerTube broadcasts videos with the protocol\n"
-"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/BitTorrent\">WebTorrent</a>.\n"
-"            If hundreds of people are watching your video at the same time, their browsers automatically send bits of your video to other\n"
-"            viewers.\n"
-"          </p>\n"
-"          <p>Before this peer-to-peer broadcast, successful videographers (or videos that make the buzz) were doomed to be hosted by a web\n"
-"            giant whose infrastructure can handle millions of simultaneous views... Or to pay for a very expensive independent video host so\n"
-"            that it can hold the load.</p>"
-msgstr ""
-"<p>\n"
-"            It allows you to choose a hoster that fits you. YouTube's excesses are a good exemple: its hoster, Google/Alphabet, can\n"
-"            impose its \"Robocopyright\" (the ContentID system) or its tools to index, recommend and spotlight videos; and those tools seem\n"
-"            as unfair as they are obscure. Even though, it already forces you\n"
-"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://tosdr.org/#youtube\"> to give it extended copyrights on your videos,\n"
-"              for free</a>!\n"
-"          </p>\n"
-"          <p>With PeerTube, <strong>you can choose the hoster of your videos according to his terms of services</strong>, his moderation\n"
-"            policy, his federation choices... As you don't have a tech giant facing you, you might be able to talk with you hoster if you\n"
-"            ever have a problem, a need, or something you want.</p>\n"
-"          <p>\n"
-"            The other big advantage of PeerTube is that your hoster doesn't have to fear the sudden success of one of your videos.\n"
-"            Indeed, PeerTube broadcasts videos with the protocol\n"
-"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/BitTorrent\">WebTorrent</a>.\n"
-"            If hundreds of people are watching your video at the same time, their browsers automatically send bits of your video to other\n"
-"            viewers.\n"
-"          </p>\n"
-"          <p>Before this peer-to-peer broadcast, successful videographers (or videos that make the buzz) were doomed to be hosted by a web\n"
-"            giant whose infrastructure can handle millions of simultaneous views... Or to pay for a very expensive independent video host so\n"
-"            that it can hold the load.</p>"
-
-#: src/views/FAQ.vue:349
-msgid ""
-"<p>\n"
-"            The <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube\">Git repository of PeerTube is\n"
-"            here</a>.\n"
-"          </p>\n"
-"\n"
-"          <p>\n"
-"            You can <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube/issues\">create an issue</a>,\n"
-"            contribute to it, or even start contributing by choosing the\n"
-"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue+%3Abeginner%3A%22\">\n"
-"              easy problems for those who begin\n"
-"            </a>.\n"
-"            See <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.joinpeertube.org/#/contribute-getting-started\">contributing guide</a>\n"
-"            for more information.\n"
-"          </p>\n"
-"\n"
-"          <p>\n"
-"            If you want to help out in another way, or if you want to request a feature, come discuss it on our\n"
-"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framacolibri.org/c/peertube\">contribution forum</a>.\n"
-"          </p>"
-msgstr ""
-"<p>\n"
-"            The <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube\">Git repository of PeerTube is\n"
-"            here</a>.\n"
-"          </p>\n"
-"\n"
-"          <p>\n"
-"            You can <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube/issues\">create an issue</a>,\n"
-"            contribute to it, or even start contributing by choosing the\n"
-"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue+%3Abeginner%3A%22\">\n"
-"              easy problems for those who begin\n"
-"            </a>.\n"
-"            See <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.joinpeertube.org/#/contribute-getting-started\">contributing guide</a>\n"
-"            for more information.\n"
-"          </p>\n"
-"\n"
-"          <p>\n"
-"            If you want to help out in another way, or if you want to request a feature, come discuss it on our\n"
-"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framacolibri.org/c/peertube\">contribution forum</a>.\n"
-"          </p>"
-
-#: src/views/FAQ.vue:62
-msgid ""
-"<p>\n"
-"            The advantage of YouTube (and other platforms) is its video catalog: from knitting tutorials to Minecraft constructions\n"
-"            through videos of kittens or holidays... you can find everything!\n"
-"          </p>\n"
-"          <p>\n"
-"            The more the video catalogue is varied, the more people are interested, the more videos are uploaded... but hosting videos from\n"
-"            all over the world is (very, very) expensive!\n"
-"          </p>\n"
-"          <p>\n"
-"            If the hosting provider Knitting-PeerTube becomes friends with Kittens-Tube and Framatube, it will display the videos of\n"
-"            others on its site, thus diluting hosting costs while remaining practical and complete for Internet users.\n"
-"          </p>\n"
-"          <p>\n"
-"            PeerTube's federation protocol is fluid (everyone can choose who they want to follow), and based on\n"
-"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://activitypub.rocks\">ActivityPub</a>: this opens the possibility\n"
-"            to connect with tools like Mastodon for example.\n"
-"          </p>"
-msgstr ""
-"<p>\n"
-"            The advantage of YouTube (and other platforms) is its video catalog: from knitting tutorials to Minecraft constructions\n"
-"            through videos of kittens or holidays... you can find everything!\n"
-"          </p>\n"
-"          <p>\n"
-"            The more the video catalogue is varied, the more people are interested, the more videos are uploaded... but hosting videos from\n"
-"            all over the world is (very, very) expensive!\n"
-"          </p>\n"
-"          <p>\n"
-"            If the hosting provider Knitting-PeerTube becomes friends with Kittens-Tube and Framatube, it will display the videos of\n"
-"            others on its site, thus diluting hosting costs while remaining practical and complete for Internet users.\n"
-"          </p>\n"
-"          <p>\n"
-"            PeerTube's federation protocol is fluid (everyone can choose who they want to follow), and based on\n"
-"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://activitypub.rocks\">ActivityPub</a>: this opens the possibility\n"
-"            to connect with tools like Mastodon for example.\n"
-"          </p>"
-
-#: src/views/FAQ.vue:197
-msgid ""
-"<p>Being free doesn't mean being above the law! Each PeerTube hosting provider can decide on its own general conditions of use,\n"
-"            abiding by their local laws.</p>\n"
-"          <p>\n"
-"            For example, in France, discriminatory content\n"
-"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://fr.wikipedia.org/wiki/Lois_contre_le_racisme_et_les_discours_de_haine\">is prohibited</a>\n"
-"            and may be reported to the authorities. PeerTube allows users to report problematic videos, and each administrator must then\n"
-"            apply its moderation in accordance with its terms and conditions and the law.\n"
-"          </p>\n"
-"          <p>The federation system, for its part, allows hosts to decide with whom they want to connect, depending on the types of content\n"
-"            or the moderation policies of others.</p>"
-msgstr ""
-"<p>Being free doesn't mean being above the law! Each PeerTube hosting provider can decide on its own general conditions of use,\n"
-"            abiding by their local laws.</p>\n"
-"          <p>\n"
-"            For example, in France, discriminatory content\n"
-"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://fr.wikipedia.org/wiki/Lois_contre_le_racisme_et_les_discours_de_haine\">is prohibited</a>\n"
-"            and may be reported to the authorities. PeerTube allows users to report problematic videos, and each administrator must then\n"
-"            apply its moderation in accordance with its terms and conditions and the law.\n"
-"          </p>\n"
-"          <p>The federation system, for its part, allows hosts to decide with whom they want to connect, depending on the types of content\n"
-"            or the moderation policies of others.</p>"
-
-#: src/views/FAQ.vue:262
-msgid ""
-"<p>No. In October 2018, on an average instance federating with ~200 instances and indexing ~16000 videos, only ~200 videos are\n"
-"            tagged as NSFW (i. e. the content is sensitive, which could be something else than pornography). Therefore, they represent\n"
-"            only ~1% of all the videos.</p>\n"
-"          <p>Moreover, each administrator decides with which instances he wants to federate: he has the full control of the content he\n"
-"            wants to display on his instance. It's up to him to choose the policy regarding this kind of videos. He can decide to:\n"
-"          <ul>\n"
-"            <li>Display them</li>\n"
-"            <li>Blur the title and thumbnail</li>\n"
-"            <li>Hide them</li>\n"
-"          </ul>\n"
-"          <p>By default, this configuration is set to \"Hide them\". If some administrators decide to display them with a blur filter\n"
-"            for example, it's <strong>their</strong> choice.</p>\n"
-"          <p>Finally, any user can override this configuration, and decides if he want to display, blur or hide these videos for\n"
-"            himself.</p>\n"
-"          <p>PeerTube is just a software: it's not Framasoft (non-profit that develops PeerTube) that's responsible for the content\n"
-"            published on some instances.</p>\n"
-"          <p>It's up to everyone to be responsible: parents, visitors, uploaders, PeerTube administrators to respect the law and avoid any\n"
-"            problematic situations.</p>\n"
-"        </p>"
-msgstr ""
-"<p>No. In October 2018, on an average instance federating with ~200 instances and indexing ~16000 videos, only ~200 videos are\n"
-"            tagged as NSFW (i. e. the content is sensitive, which could be something else than pornography). Therefore, they represent\n"
-"            only ~1% of all the videos.</p>\n"
-"          <p>Moreover, each administrator decides with which instances he wants to federate: he has the full control of the content he\n"
-"            wants to display on his instance. It's up to him to choose the policy regarding this kind of videos. He can decide to:\n"
-"          <ul>\n"
-"            <li>Display them</li>\n"
-"            <li>Blur the title and thumbnail</li>\n"
-"            <li>Hide them</li>\n"
-"          </ul>\n"
-"          <p>By default, this configuration is set to \"Hide them\". If some administrators decide to display them with a blur filter\n"
-"            for example, it's <strong>their</strong> choice.</p>\n"
-"          <p>Finally, any user can override this configuration, and decides if he want to display, blur or hide these videos for\n"
-"            himself.</p>\n"
-"          <p>PeerTube is just a software: it's not Framasoft (non-profit that develops PeerTube) that's responsible for the content\n"
-"            published on some instances.</p>\n"
-"          <p>It's up to everyone to be responsible: parents, visitors, uploaders, PeerTube administrators to respect the law and avoid any\n"
-"            problematic situations.</p>\n"
-"        </p>"
-
-#: src/views/FAQ.vue:157
-msgid ""
-"<p>One of the benefits is that <strong>you become a part of the broadcasting of the videos you are watching</strong>. If other\n"
-"            people are watching a PeerTube video at the same time as you, as long as your tab remains open, your browser shares bits of\n"
-"            that video and you participate in a healthier use of the Internet.</p>\n"
-"          <p>Of course, PeerTube's video player adapts to your situation: if your installation does not allow peer-to-peer playback\n"
-"            (corporate network, recalcitrant browser, etc.) video playback will be done in the classic way.</p>\n"
-"          <p>\n"
-"            But above all, <strong>PeerTube treats you like a person, not as a product</strong> that it has to track, profile, and lock\n"
-"            in video loops to better sell your available brain time. Thus, the\n"
-"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube\">source code</a>\n"
-"            (the recipe) of the PeerTube software is open, making its operation transparent.\n"
-"          </p>\n"
-"          <p><strong>PeerTube is not only open-source: it's free (as in free speech).</strong> Its free license guarantees our fundamental\n"
+"<strong>PeerTube is not only open-source: it's free (as in free speech).</strong> Its free license guarantees our fundamental\n"
 "            freedoms as users. It is this respect for our freedoms that allows Framasoft to invite you to contribute to this software, and\n"
-"            many evolutions (innovative comment system, etc.) have already been suggested by some of you.</p>"
+"            many evolutions (innovative comment system, etc.) have already been suggested by some of you."
 msgstr ""
-"<p>One of the benefits is that <strong>you become a part of the broadcasting of the videos you are watching</strong>. If other\n"
-"            people are watching a PeerTube video at the same time as you, as long as your tab remains open, your browser shares bits of\n"
-"            that video and you participate in a healthier use of the Internet.</p>\n"
-"          <p>Of course, PeerTube's video player adapts to your situation: if your installation does not allow peer-to-peer playback\n"
-"            (corporate network, recalcitrant browser, etc.) video playback will be done in the classic way.</p>\n"
-"          <p>\n"
-"            But above all, <strong>PeerTube treats you like a person, not as a product</strong> that it has to track, profile, and lock\n"
-"            in video loops to better sell your available brain time. Thus, the\n"
-"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube\">source code</a>\n"
-"            (the recipe) of the PeerTube software is open, making its operation transparent.\n"
-"          </p>\n"
-"          <p><strong>PeerTube is not only open-source: it's free (as in free speech).</strong> Its free license guarantees our fundamental\n"
+"<strong>PeerTube is not only open-source: it's free (as in free speech).</strong> Its free license guarantees our fundamental\n"
 "            freedoms as users. It is this respect for our freedoms that allows Framasoft to invite you to contribute to this software, and\n"
-"            many evolutions (innovative comment system, etc.) have already been suggested by some of you.</p>"
-
-#: src/views/FAQ.vue:213
-msgid ""
-"<p>PeerTube is not a website: it is software that allows a web hoster (for example, Dominique) to create a video website (let's\n"
-"            call it DominiqueTube).</p>\n"
-"          <p>Now imagine that Camille has created an account on DominiqueTube and uploads an illegal video, because this video uses music\n"
-"            created by Solal.</p>\n"
-"          <p>Solal goes on Framatube, an instance which follows DominiqueTube. So, Solal can see, from Framatube, the videos published on\n"
-"            DominiqueTube.</p>\n"
-"          <p>Solal sees Camille's illegal video, and signals it with the button provided for that purpose. Although the report is made\n"
-"            from Framatube, it is sent directly to the person hosting the illegal content, Dominique.</p>\n"
-"          <p>From that moment on, Dominique is responsible, because they are warned that they're hosting an illegal video. It is therefore\n"
-"            up to them to act if they don't want to be held accountable before the law.</p>\n"
-"          <p>Then Dominique and Solal can turn against Camille, who uploaded the video.</p>"
-msgstr ""
-"<p>PeerTube is not a website: it is software that allows a web hoster (for example, Dominique) to create a video website (let's\n"
-"            call it DominiqueTube).</p>\n"
-"          <p>Now imagine that Camille has created an account on DominiqueTube and uploads an illegal video, because this video uses music\n"
-"            created by Solal.</p>\n"
-"          <p>Solal goes on Framatube, an instance which follows DominiqueTube. So, Solal can see, from Framatube, the videos published on\n"
-"            DominiqueTube.</p>\n"
-"          <p>Solal sees Camille's illegal video, and signals it with the button provided for that purpose. Although the report is made\n"
-"            from Framatube, it is sent directly to the person hosting the illegal content, Dominique.</p>\n"
-"          <p>From that moment on, Dominique is responsible, because they are warned that they're hosting an illegal video. It is therefore\n"
-"            up to them to act if they don't want to be held accountable before the law.</p>\n"
-"          <p>Then Dominique and Solal can turn against Camille, who uploaded the video.</p>"
-
-#: src/views/FAQ.vue:16
-msgid ""
-"<p>PeerTube is software that you install on a web server. It allows you to create a video hosting website, so create your\n"
-"            \"homemade YouTube\".</p>\n"
-"          <p>The difference to YouTube is that it's not intended to create a huge platform centralizing videos from the whole world on a\n"
-"            single server farm (which is horribly expensive).</p>\n"
-"          <p>On the contrary, PeerTube's concept is to create a network of multiple small interconnected video hosting providers.</p>"
-msgstr ""
-"<p>PeerTube is software that you install on a web server. It allows you to create a video hosting website, so create your\n"
-"            \"homemade YouTube\".</p>\n"
-"          <p>The difference to YouTube is that it's not intended to create a huge platform centralizing videos from the whole world on a\n"
-"            single server farm (which is horribly expensive).</p>\n"
-"          <p>On the contrary, PeerTube's concept is to create a network of multiple small interconnected video hosting providers.</p>"
-
-#: src/views/FAQ.vue:27
-msgid ""
-"<p>PeerTube is unique because (as far as we know) it's the only video hosting web application which combines three\n"
-"            advantages:</p>\n"
-"\n"
-"          <ol>\n"
-"            <li>An open code (transparency) under a free/libre license (ethic, respect and community-driven development);</li>\n"
-"            <li>A federation of interconnected hosting providers (so more video choices wherever you go to see them);</li>\n"
-"            <li>Peer-to-peer broadcasting – and therefore viewing – (so no slowing down when a video becomes viral).</li>\n"
-"          </ol>\n"
-"\n"
-"          <p>Linked together, these three features makes it easy to host videos on the server side, while remaining practical, ethical and\n"
-"            fun for the internet users.</p>"
-msgstr ""
-"<p>PeerTube is unique because (as far as we know) it's the only video hosting web application which combines three\n"
-"            advantages:</p>\n"
-"\n"
-"          <ol>\n"
-"            <li>An open code (transparency) under a free/libre license (ethic, respect and community-driven development);</li>\n"
-"            <li>A federation of interconnected hosting providers (so more video choices wherever you go to see them);</li>\n"
-"            <li>Peer-to-peer broadcasting – and therefore viewing – (so no slowing down when a video becomes viral).</li>\n"
-"          </ol>\n"
-"\n"
-"          <p>Linked together, these three features makes it easy to host videos on the server side, while remaining practical, ethical and\n"
-"            fun for the internet users.</p>"
-
-#: src/views/FAQ.vue:374
-msgid ""
-"<p>PeerTube uses ActivityPub because this federation protocol is recommended by the W3C and is already used by the federated\n"
-"            social network Mastodon.</p>\n"
-"\n"
-"          <p>IPFS is a great technology, but it still seems very (too!) young for large scale streaming of large files.</p>\n"
-"\n"
-"          <p>After discussing it on our forum, we feel that d.tube is not free or open source, because publishing only compiled code\n"
-"            hinders freedom of modification.</p>\n"
-"\n"
-"          <p>PeerTube is free, decentralized, distributed, and does not impose any remuneration model. This is the choice we have made,\n"
-"            which is debatable, and others (like d.tube) have made other choices, which have their advantages. So it’s up to you to see\n"
-"            what suits you.</p>"
-msgstr ""
-"<p>PeerTube uses ActivityPub because this federation protocol is recommended by the W3C and is already used by the federated\n"
-"            social network Mastodon.</p>\n"
-"\n"
-"          <p>IPFS is a great technology, but it still seems very (too!) young for large scale streaming of large files.</p>\n"
-"\n"
-"          <p>After discussing it on our forum, we feel that d.tube is not free or open source, because publishing only compiled code\n"
-"            hinders freedom of modification.</p>\n"
-"\n"
-"          <p>PeerTube is free, decentralized, distributed, and does not impose any remuneration model. This is the choice we have made,\n"
-"            which is debatable, and others (like d.tube) have made other choices, which have their advantages. So it’s up to you to see\n"
-"            what suits you.</p>"
-
-#: src/views/FAQ.vue:289
-msgid ""
-"<p>The <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.joinpeertube.org/#/install-any-os\">installation guide is\n"
-"            here</a>\n"
-"            (only in English).</p>\n"
-"          <p>We recommend not to install PeerTube on low-end hardware or behind a weak connection (for example, on a RaspberryPi with an\n"
-"            ADSL connection): this could slow down all federations.</p>\n"
-"          <p>\n"
-"            Don't bother the developer to help you install your instance: we have a\n"
-"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framacolibri.org/c/peertube\">support forum</a> for that.\n"
-"          </p>"
-msgstr ""
-"<p>The <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.joinpeertube.org/#/install-any-os\">installation guide is\n"
-"            here</a>\n"
-"            (only in English).</p>\n"
-"          <p>We recommend not to install PeerTube on low-end hardware or behind a weak connection (for example, on a RaspberryPi with an\n"
-"            ADSL connection): this could slow down all federations.</p>\n"
-"          <p>\n"
-"            Don't bother the developer to help you install your instance: we have a\n"
-"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framacolibri.org/c/peertube\">support forum</a> for that.\n"
-"          </p>"
-
-#: src/views/FAQ.vue:230
-msgid ""
-"<p>There are none, not at the moment', 'PeerTube is a tool that we wanted neutral in terms of remuneration.</p>\n"
-"          <p>For now, the solution proposed to people who upload videos is to use the \"support\" button under the video. This button\n"
-"            displays a frame in which people who upload videos can display text, images, and links freely. For example, it's possible to\n"
-"            put a link to Patreon, Tipeee, Paypal, Liberapay (or any other solution) there. Other examples: put a postal address if you'd\n"
-"            like to receive physical thank-you cards, put a logo of your enterprise, a link to support a non-profit organisation...</p>\n"
-"          <p>We did not go any further because to favour one technical solution would be to impose, in the code, a political vision of\n"
-"            cultural sharing and its financing. All financial solutions are possible and treated equally in PeerTube.</p>\n"
-"          <p>However, many improvements of PeerTube are to be expected... Including those that would allow you to create (and choose) the\n"
-"            monetization tools that interest you!</p>\n"
-"          <p>Nevertheless, it is worth remembering that the vast majority of videos published on the Internet (and even on YouTube) are\n"
-"            shared for non-market purposes: remuneration is a tool, but not necessarily a main or essential purpose.</p>"
-msgstr ""
-"<p>There are none, not at the moment', 'PeerTube is a tool that we wanted neutral in terms of remuneration.</p>\n"
-"          <p>For now, the solution proposed to people who upload videos is to use the \"support\" button under the video. This button\n"
-"            displays a frame in which people who upload videos can display text, images, and links freely. For example, it's possible to\n"
-"            put a link to Patreon, Tipeee, Paypal, Liberapay (or any other solution) there. Other examples: put a postal address if you'd\n"
-"            like to receive physical thank-you cards, put a logo of your enterprise, a link to support a non-profit organisation...</p>\n"
-"          <p>We did not go any further because to favour one technical solution would be to impose, in the code, a political vision of\n"
-"            cultural sharing and its financing. All financial solutions are possible and treated equally in PeerTube.</p>\n"
-"          <p>However, many improvements of PeerTube are to be expected... Including those that would allow you to create (and choose) the\n"
-"            monetization tools that interest you!</p>\n"
-"          <p>Nevertheless, it is worth remembering that the vast majority of videos published on the Internet (and even on YouTube) are\n"
-"            shared for non-market purposes: remuneration is a tool, but not necessarily a main or essential purpose.</p>"
-
-#: src/views/FAQ.vue:177
-msgid ""
-"<p>We can answer with certainty: no!</p>\n"
-"          <p>In March 2018, PeerTube released its publicly usable beta version. Several collectives set up the first instances, thus\n"
-"            creating the bases of the federation.</p>\n"
-"          <p>But this is just the beginning, PeerTube is not (yet) perfect, and many features are missing. But we intend to keep improving\n"
-"            it day after day.</p>\n"
-"          <p>March 2018 thus represents the birth of the PeerTube federations: the more this software will be used and supported, the more\n"
-"            people will use it and contribute to it, and the faster it will evolve towards a concrete alternative to platforms such as\n"
-"            YouTube.</p>\n"
-"          <p>Nevertheless, the ambition remains to be <strong>a free and decentralized alternative</strong>: the goal of an alternative is\n"
-"            not to replace, but to propose something else, with different values, in parallel to what already exists.</p>"
-msgstr ""
-"<p>We can answer with certainty: no!</p>\n"
-"          <p>In March 2018, PeerTube released its publicly usable beta version. Several collectives set up the first instances, thus\n"
-"            creating the bases of the federation.</p>\n"
-"          <p>But this is just the beginning, PeerTube is not (yet) perfect, and many features are missing. But we intend to keep improving\n"
-"            it day after day.</p>\n"
-"          <p>March 2018 thus represents the birth of the PeerTube federations: the more this software will be used and supported, the more\n"
-"            people will use it and contribute to it, and the faster it will evolve towards a concrete alternative to platforms such as\n"
-"            YouTube.</p>\n"
-"          <p>Nevertheless, the ambition remains to be <strong>a free and decentralized alternative</strong>: the goal of an alternative is\n"
-"            not to replace, but to propose something else, with different values, in parallel to what already exists.</p>"
-
-#: src/views/FAQ.vue:85
-msgid ""
-"<p>When you host a large file like a video, the biggest thing to fear is success: if a video becomes viral and many people watch\n"
-"            it at the same time, the server has a big risk of getting overloaded!</p>\n"
-"          <p>\n"
-"            Peer-to-peer broadcasting allows, thanks to the\n"
-"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/WebRTC\">WebRTC</a>\n"
-"            protocol, that Internet users who watch the same video at the same time exchange bits of files, which relieves the server.\n"
-"          </p>\n"
-"          <p>There is nothing to do: your web browser does it automatically. If you are on a mobile phone or if your network does not\n"
-"            allow it (router, firewall, etc.), this function is disabled and switches back to an \"old-style\" video broadcast 😉.</p>"
-msgstr ""
-"<p>When you host a large file like a video, the biggest thing to fear is success: if a video becomes viral and many people watch\n"
-"            it at the same time, the server has a big risk of getting overloaded!</p>\n"
-"          <p>\n"
-"            Peer-to-peer broadcasting allows, thanks to the\n"
-"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/WebRTC\">WebRTC</a>\n"
-"            protocol, that Internet users who watch the same video at the same time exchange bits of files, which relieves the server.\n"
-"          </p>\n"
-"          <p>There is nothing to do: your web browser does it automatically. If you are on a mobile phone or if your network does not\n"
-"            allow it (router, firewall, etc.), this function is disabled and switches back to an \"old-style\" video broadcast 😉.</p>"
-
-#: src/views/FAQ.vue:246
-msgid ""
-"<p>You need to find a PeerTube hosting instance you trust.</p>\n"
-"          <p>\n"
-"            There's a complete <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://instances.joinpeertube.org\">list of instances\n"
-"            here</a>,\n"
-"            and a list of those that are <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"/instances\">open to registration here</a>.\n"
-"          </p>\n"
-"          <p>Then, we recommend you go to the instances, read their \"about\" page to discover their terms of use (disk space limit per\n"
-"            user, content policy, etc.).</p>\n"
-"          <p>It's best to contact and talk directly with hosting providers, to understand their business model, vision, etc. Because only\n"
-"            you can determine what makes you trust such or such host, and thus entrust your videos to them.</p>"
-msgstr ""
-"<p>You need to find a PeerTube hosting instance you trust.</p>\n"
-"          <p>\n"
-"            There's a complete <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://instances.joinpeertube.org\">list of instances\n"
-"            here</a>,\n"
-"            and a list of those that are <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"/instances\">open to registration here</a>.\n"
-"          </p>\n"
-"          <p>Then, we recommend you go to the instances, read their \"about\" page to discover their terms of use (disk space limit per\n"
-"            user, content policy, etc.).</p>\n"
-"          <p>It's best to contact and talk directly with hosting providers, to understand their business model, vision, etc. Because only\n"
-"            you can determine what makes you trust such or such host, and thus entrust your videos to them.</p>"
+"            many evolutions (innovative comment system, etc.) have already been suggested by some of you."
 
 #: src/views/Instances.vue:23
 msgid "1. Find the instance that suits you best"
@@ -626,6 +78,10 @@ msgstr "2. Create your account and enjoy PeerTube"
 msgid "A better interface"
 msgstr "A better interface"
 
+#: src/views/FAQ.vue:43
+msgid "A federation of interconnected hosting providers (so more video choices wherever you go to see them);"
+msgstr "A federation of interconnected hosting providers (so more video choices wherever you go to see them);"
+
 #: src/views/Home.vue:73
 msgid ""
 "A federation of interconnected hosting services\n"
@@ -633,6 +89,10 @@ msgid ""
 msgstr ""
 "A federation of interconnected hosting services\n"
 "          <div class=\"border-title\"/>"
+
+#: src/views/FAQ.vue:7
+msgid "A few questions to discover PeerTube"
+msgstr "A few questions to discover PeerTube"
 
 #: src/views/Home.vue:7
 msgid "A free software to take back control of your videos"
@@ -686,6 +146,14 @@ msgstr "Administer PeerTube"
 msgid "Advanced search"
 msgstr "Advanced search"
 
+#: src/views/FAQ.vue:476
+msgid ""
+"After discussing it on our forum, we feel that d.tube is not free or open source, because publishing only compiled code\n"
+"            hinders freedom of modification."
+msgstr ""
+"After discussing it on our forum, we feel that d.tube is not free or open source, because publishing only compiled code\n"
+"            hinders freedom of modification."
+
 #: src/views/Home.vue:168
 msgid ""
 "All of this is made possible by Peertube's free/libre license (GNU-AGPL).\n"
@@ -703,6 +171,10 @@ msgstr ""
 #: src/components/InstancesList.vue:81
 msgid "Allowed video space"
 msgstr "Allowed video space"
+
+#: src/views/FAQ.vue:42
+msgid "An open code (transparency) under a free/libre license (ethic, respect and community-driven development);"
+msgstr "An open code (transparency) under a free/libre license (ethic, respect and community-driven development);"
 
 #: src/views/Home.vue:140
 msgid ""
@@ -780,6 +252,28 @@ msgstr ""
 "As a reminder, in the first newsletter (July 23rd, 2018), we announced that the localization system and RSS feeds were\n"
 "          implemented, and that we were making progress on the subtitles support and the advanced search."
 
+#: src/views/FAQ.vue:132
+msgid ""
+"As a result, on your PeerTube website, the audience will be able to watch not only your videos, but also videos hosted by\n"
+"            Zaïd, Catherin or Solar... without having to host their videos on your PeerTube-powered website. Such diversity in a\n"
+"            video-catalog makes it very attractive. Such a large choice and diversity of videos is what made centralized platforms such as\n"
+"            YouTube succesful."
+msgstr ""
+"As a result, on your PeerTube website, the audience will be able to watch not only your videos, but also videos hosted by\n"
+"            Zaïd, Catherin or Solar... without having to host their videos on your PeerTube-powered website. Such diversity in a\n"
+"            video-catalog makes it very attractive. Such a large choice and diversity of videos is what made centralized platforms such as\n"
+"            YouTube succesful."
+
+#: src/views/FAQ.vue:433
+msgid ""
+"As an administrator, if you are afraid of DMCA requests, there is an option to limit the opening of registrations to people\n"
+"            you know. You will then be able to reopen registrations without verification once these verification tools have been\n"
+"            integrated, or you have developed them."
+msgstr ""
+"As an administrator, if you are afraid of DMCA requests, there is an option to limit the opening of registrations to people\n"
+"            you know. You will then be able to reopen registrations without verification once these verification tools have been\n"
+"            integrated, or you have developed them."
+
 #: src/views/News.vue:215
 msgid ""
 "As you can see, we have gone far beyond what the crowdfunding has funded. And we will continue!<br> For 2019, we plan to add a\n"
@@ -816,6 +310,34 @@ msgstr "August 20, 2018"
 msgid "B"
 msgstr "B"
 
+#: src/views/FAQ.vue:57
+msgid ""
+"Because by design free/libre software respects our fundamental freedoms, and guarantees them by\n"
+"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube/blob/develop/LICENSE\">a license</a>,\n"
+"            so a legally enforceable contract."
+msgstr ""
+"Because by design free/libre software respects our fundamental freedoms, and guarantees them by\n"
+"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube/blob/develop/LICENSE\">a license</a>,\n"
+"            so a legally enforceable contract."
+
+#: src/views/FAQ.vue:168
+msgid ""
+"Before this peer-to-peer broadcast, successful videographers (or videos that make the buzz) were doomed to be hosted by a web\n"
+"            giant whose infrastructure can handle millions of simultaneous views... Or to pay for a very expensive independent video host so\n"
+"            that it can hold the load."
+msgstr ""
+"Before this peer-to-peer broadcast, successful videographers (or videos that make the buzz) were doomed to be hosted by a web\n"
+"            giant whose infrastructure can handle millions of simultaneous views... Or to pay for a very expensive independent video host so\n"
+"            that it can hold the load."
+
+#: src/views/FAQ.vue:232
+msgid ""
+"Being free doesn't mean being above the law! Each PeerTube hosting provider can decide on its own general conditions of use,\n"
+"            abiding by their local laws."
+msgstr ""
+"Being free doesn't mean being above the law! Each PeerTube hosting provider can decide on its own general conditions of use,\n"
+"            abiding by their local laws."
+
 #: src/views/Help.vue:18
 msgid "Better understand and use PeerTube"
 msgstr "Better understand and use PeerTube"
@@ -823,6 +345,10 @@ msgstr "Better understand and use PeerTube"
 #: src/components/InstancesList.vue:55
 msgid "Blur"
 msgstr "Blur"
+
+#: src/views/FAQ.vue:334
+msgid "Blur the title and thumbnail"
+msgstr "Blur the title and thumbnail"
 
 #: src/components/InstanceCard.vue:80
 msgid "Blurred"
@@ -836,6 +362,26 @@ msgstr "Browse contents"
 msgid "Browse/discover PeerTube instances"
 msgstr "Browse/discover PeerTube instances"
 
+#: src/views/FAQ.vue:187
+msgid ""
+"But above all, <strong>PeerTube treats you like a person, not as a product</strong> that it has to track, profile, and lock\n"
+"            in video loops to better sell your available brain time. Thus, the\n"
+"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube\">source code</a>\n"
+"            (the recipe) of the PeerTube software is open, making its operation transparent."
+msgstr ""
+"But above all, <strong>PeerTube treats you like a person, not as a product</strong> that it has to track, profile, and lock\n"
+"            in video loops to better sell your available brain time. Thus, the\n"
+"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube\">source code</a>\n"
+"            (the recipe) of the PeerTube software is open, making its operation transparent."
+
+#: src/views/FAQ.vue:209
+msgid ""
+"But this is just the beginning, PeerTube is not (yet) perfect, and many features are missing. But we intend to keep improving\n"
+"            it day after day."
+msgstr ""
+"But this is just the beginning, PeerTube is not (yet) perfect, and many features are missing. But we intend to keep improving\n"
+"            it day after day."
+
 #: src/views/Instances.vue:25
 msgid ""
 "By <strong>filtering according to your profile</strong> (video maker or viewer), <strong>themes</strong> that you are\n"
@@ -843,6 +389,22 @@ msgid ""
 msgstr ""
 "By <strong>filtering according to your profile</strong> (video maker or viewer), <strong>themes</strong> that you are\n"
 "          looking for or <strong>languages</strong> you speak, <strong>find an instance whose rules match your needs!</strong>"
+
+#: src/views/FAQ.vue:419
+msgid ""
+"By acting both on the <i>core</i>, but also by allowing the development of plugins, we believe that PeerTube will, in the\n"
+"            long term, be able to respond much better to these issues and allow different communities to adapt PeerTube to their needs."
+msgstr ""
+"By acting both on the <i>core</i>, but also by allowing the development of plugins, we believe that PeerTube will, in the\n"
+"            long term, be able to respond much better to these issues and allow different communities to adapt PeerTube to their needs."
+
+#: src/views/FAQ.vue:337
+msgid ""
+"By default, this configuration is set to \"Hide them\". If some administrators decide to display them with a blur filter\n"
+"            for example, it's <strong>their</strong> choice."
+msgstr ""
+"By default, this configuration is set to \"Hide them\". If some administrators decide to display them with a blur filter\n"
+"            for example, it's <strong>their</strong> choice."
 
 #: src/components/InstancesList.vue:324
 msgid "Català"
@@ -874,6 +436,10 @@ msgstr ""
 msgid "Comedy"
 msgstr "Comedy"
 
+#: src/views/FAQ.vue:63
+msgid "Concretely here, it means that:"
+msgstr "Concretely here, it means that:"
+
 #: src/components/Footer.vue:5
 msgid "Contact"
 msgstr "Contact"
@@ -891,7 +457,7 @@ msgstr "Contributors"
 msgid "Create an account"
 msgstr "Create an account"
 
-#: src/views/FAQ.vue:193
+#: src/views/FAQ.vue:227
 msgid "Creation and content"
 msgstr "Creation and content"
 
@@ -931,9 +497,21 @@ msgstr "Discover PeerTube instances"
 msgid "Display"
 msgstr "Display"
 
+#: src/views/FAQ.vue:333
+msgid "Display them"
+msgstr "Display them"
+
 #: src/components/InstanceCard.vue:81
 msgid "Displayed"
 msgstr "Displayed"
+
+#: src/views/FAQ.vue:370
+msgid ""
+"Don't bother the developer to help you install your instance: we have a\n"
+"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framacolibri.org/c/peertube\">support forum</a> for that."
+msgstr ""
+"Don't bother the developer to help you install your instance: we have a\n"
+"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framacolibri.org/c/peertube\">support forum</a> for that."
 
 #: src/views/Home.vue:338
 msgid "Donate to Framasoft"
@@ -979,13 +557,23 @@ msgstr "Esperanto"
 msgid "Euskara"
 msgstr "Euskara"
 
-#: src/views/FAQ.vue:5 src/views/FAQ.vue:446
+#: src/views/FAQ.vue:5 src/views/FAQ.vue:546
 msgid "FAQ"
 msgstr "FAQ"
 
 #: src/views/News.vue:181
 msgid "February 26, 2019"
 msgstr "February 26, 2019"
+
+#: src/views/FAQ.vue:138
+msgid ""
+"Federation offers another benefit: <strong>everyone becomes independent</strong>. Zaïd, Catherin, Solar and yourself can make\n"
+"            your own rules, your own Terms of Services (for example, one can imagine a MeowTube where dogs videos are strictly forbidden\n"
+"            😉)."
+msgstr ""
+"Federation offers another benefit: <strong>everyone becomes independent</strong>. Zaïd, Catherin, Solar and yourself can make\n"
+"            your own rules, your own Terms of Services (for example, one can imagine a MeowTube where dogs videos are strictly forbidden\n"
+"            😉)."
 
 #: src/components/InstancesList.vue:301
 msgid "Films"
@@ -994,6 +582,14 @@ msgstr "Films"
 #: src/components/InstancesList.vue:3
 msgid "Filter according to your preferences"
 msgstr "Filter according to your preferences"
+
+#: src/views/FAQ.vue:341
+msgid ""
+"Finally, any user can override this configuration, and decides if he want to display, blur or hide these videos for\n"
+"            himself."
+msgstr ""
+"Finally, any user can override this configuration, and decides if he want to display, blur or hide these videos for\n"
+"            himself."
 
 #: src/views/News.vue:162
 msgid ""
@@ -1033,6 +629,30 @@ msgstr[1] "Follows %{ instance.totalInstanceFollowing } instances"
 msgid "Food"
 msgstr "Food"
 
+#: src/views/FAQ.vue:236
+msgid ""
+"For example, in France, discriminatory content\n"
+"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://fr.wikipedia.org/wiki/Lois_contre_le_racisme_et_les_discours_de_haine\">is prohibited</a>\n"
+"            and may be reported to the authorities. PeerTube allows users to report problematic videos, and each administrator must then\n"
+"            apply its moderation in accordance with its terms and conditions and the law."
+msgstr ""
+"For example, in France, discriminatory content\n"
+"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://fr.wikipedia.org/wiki/Lois_contre_le_racisme_et_les_discours_de_haine\">is prohibited</a>\n"
+"            and may be reported to the authorities. PeerTube allows users to report problematic videos, and each administrator must then\n"
+"            apply its moderation in accordance with its terms and conditions and the law."
+
+#: src/views/FAQ.vue:280
+msgid ""
+"For now, the solution proposed to people who upload videos is to use the \"support\" button under the video. This button\n"
+"            displays a frame in which people who upload videos can display text, images, and links freely. For example, it's possible to\n"
+"            put a link to Patreon, Tipeee, Paypal, Liberapay (or any other solution) there. Other examples: put a postal address if you'd\n"
+"            like to receive physical thank-you cards, put a logo of your enterprise, a link to support a non-profit organisation..."
+msgstr ""
+"For now, the solution proposed to people who upload videos is to use the \"support\" button under the video. This button\n"
+"            displays a frame in which people who upload videos can display text, images, and links freely. For example, it's possible to\n"
+"            put a link to Patreon, Tipeee, Paypal, Liberapay (or any other solution) there. Other examples: put a postal address if you'd\n"
+"            like to receive physical thank-you cards, put a logo of your enterprise, a link to support a non-profit organisation..."
+
 #: src/components/Footer.vue:9
 msgid "Forum"
 msgstr "Forum"
@@ -1044,6 +664,14 @@ msgstr "Framasoft."
 #: src/components/InstancesList.vue:321
 msgid "Français"
 msgstr "Français"
+
+#: src/views/FAQ.vue:268
+msgid ""
+"From that moment on, Dominique is responsible, because they are warned that they're hosting an illegal video. It is therefore\n"
+"            up to them to act if they don't want to be held accountable before the law."
+msgstr ""
+"From that moment on, Dominique is responsible, because they are warned that they're hosting an illegal video. It is therefore\n"
+"            up to them to act if they don't want to be held accountable before the law."
 
 #: src/components/InstancesList.vue:333
 msgid "Gàidhlig"
@@ -1098,6 +726,10 @@ msgstr "Hidden"
 msgid "Hide"
 msgstr "Hide"
 
+#: src/views/FAQ.vue:335
+msgid "Hide them"
+msgstr "Hide them"
+
 #: src/components/Header.vue:19
 msgid "Home"
 msgstr "Home"
@@ -1110,6 +742,14 @@ msgstr "How To"
 msgid "How to contribute?"
 msgstr "How to contribute?"
 
+#: src/views/FAQ.vue:290
+msgid ""
+"However, many improvements of PeerTube are to be expected... Including those that would allow you to create (and choose) the\n"
+"            monetization tools that interest you!"
+msgstr ""
+"However, many improvements of PeerTube are to be expected... Including those that would allow you to create (and choose) the\n"
+"            monetization tools that interest you!"
+
 #: src/views/News.vue:50
 msgid ""
 "However, on PeerTube each account is linked to one or multiple channels that can be named as the users sees fit. You also have\n"
@@ -1119,6 +759,14 @@ msgstr ""
 "However, on PeerTube each account is linked to one or multiple channels that can be named as the users sees fit. You also have\n"
 "          to create at least one channel when creating an account. Once the channels have been created, users can upload videos to each\n"
 "          channel to organize their contents (for example, you could have a channel about cooking and another one about biking)."
+
+#: src/views/FAQ.vue:83
+msgid ""
+"If the hosting provider Knitting-PeerTube becomes friends with Kittens-Tube and Framatube, it will display the videos of\n"
+"            others on its site, thus diluting hosting costs while remaining practical and complete for Internet users."
+msgstr ""
+"If the hosting provider Knitting-PeerTube becomes friends with Kittens-Tube and Framatube, it will display the videos of\n"
+"            others on its site, thus diluting hosting costs while remaining practical and complete for Internet users."
 
 #: src/views/News.vue:221
 msgid ""
@@ -1135,6 +783,14 @@ msgid ""
 msgstr ""
 "If you have any questions, feel free to use our forum:\n"
 "          <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framacolibri.org/c/peertube\">https://framacolibri.org/c/peertube</a>"
+
+#: src/views/FAQ.vue:459
+msgid ""
+"If you want to help out in another way, or if you want to request a feature, come discuss it on our\n"
+"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framacolibri.org/c/peertube\">contribution forum</a>."
+msgstr ""
+"If you want to help out in another way, or if you want to request a feature, come discuss it on our\n"
+"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framacolibri.org/c/peertube\">contribution forum</a>."
 
 #: src/views/Instances.vue:7
 msgid ""
@@ -1162,6 +818,14 @@ msgstr ""
 "In January, we released version 1.2 that supports 3 new languages: Russian, Polish and Italian. Thanks to PeerTube's community\n"
 "          of translators, PeerTube is now translated into 16 different languages!"
 
+#: src/views/FAQ.vue:205
+msgid ""
+"In March 2018, PeerTube released its publicly usable beta version. Several collectives set up the first instances, thus\n"
+"            creating the bases of the federation."
+msgstr ""
+"In March 2018, PeerTube released its publicly usable beta version. Several collectives set up the first instances, thus\n"
+"            creating the bases of the federation."
+
 #: src/views/News.vue:61
 msgid ""
 "In order to make this channel idea more understandable, we have changed the sign-up form, which from now on consists of two\n"
@@ -1169,6 +833,16 @@ msgid ""
 msgstr ""
 "In order to make this channel idea more understandable, we have changed the sign-up form, which from now on consists of two\n"
 "          steps:"
+
+#: src/views/FAQ.vue:428
+msgid ""
+"In the meantime, as an user if you feel that PeerTube 1.0 does not currently meet your needs, it's simple: don't use it right\n"
+"            now :) (we remind you that we don't make money developing PeerTube, and that if we obviously hope for its success, the\n"
+"            survival of our association doesn't depend on it)."
+msgstr ""
+"In the meantime, as an user if you feel that PeerTube 1.0 does not currently meet your needs, it's simple: don't use it right\n"
+"            now :) (we remind you that we don't make money developing PeerTube, and that if we obviously hope for its success, the\n"
+"            survival of our association doesn't depend on it)."
 
 #: src/views/News.vue:208
 msgid ""
@@ -1194,6 +868,20 @@ msgstr ""
 "              video to the other viewers.\n"
 "              <strong>The server resources are not over-exploited</strong>: the stream is split, the network optimized."
 
+#: src/views/FAQ.vue:412
+msgid ""
+"Indeed, we do not claim to have the science behind it and know how best to manage each of the tools according to each of the\n"
+"            needs. For example: with regard to the question of DMCA requests, cases vary according to geographical jurisdictions (European\n"
+"            law is different from French law, itself different from Canadian law, itself different from American law, etc.). Concerning\n"
+"            the tools for moderating comments, here again, we cannot decree ourselves experts of the subject, because this is simply not\n"
+"            the case."
+msgstr ""
+"Indeed, we do not claim to have the science behind it and know how best to manage each of the tools according to each of the\n"
+"            needs. For example: with regard to the question of DMCA requests, cases vary according to geographical jurisdictions (European\n"
+"            law is different from French law, itself different from Canadian law, itself different from American law, etc.). Concerning\n"
+"            the tools for moderating comments, here again, we cannot decree ourselves experts of the subject, because this is simply not\n"
+"            the case."
+
 #: src/views/Help.vue:65
 msgid "Install PeerTube"
 msgstr "Install PeerTube"
@@ -1205,6 +893,24 @@ msgstr "Instance languages"
 #: src/components/InstancesList.vue:105
 msgid "Instances list"
 msgstr "Instances list"
+
+#: src/views/FAQ.vue:474
+msgid "IPFS is a great technology, but it still seems very (too!) young for large scale streaming of large files."
+msgstr "IPFS is a great technology, but it still seems very (too!) young for large scale streaming of large files."
+
+#: src/views/FAQ.vue:149
+msgid ""
+"It allows you to choose a hoster that fits you. YouTube's excesses are a good exemple: its hoster, Google/Alphabet, can\n"
+"            impose its \"Robocopyright\" (the ContentID system) or its tools to index, recommend and spotlight videos; and those tools seem\n"
+"            as unfair as they are obscure. Even though, it already forces you\n"
+"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://tosdr.org/#youtube\"> to give it extended copyrights on your videos,\n"
+"              for free</a>!"
+msgstr ""
+"It allows you to choose a hoster that fits you. YouTube's excesses are a good exemple: its hoster, Google/Alphabet, can\n"
+"            impose its \"Robocopyright\" (the ContentID system) or its tools to index, recommend and spotlight videos; and those tools seem\n"
+"            as unfair as they are obscure. Even though, it already forces you\n"
+"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://tosdr.org/#youtube\"> to give it extended copyrights on your videos,\n"
+"              for free</a>!"
 
 #: src/views/News.vue:248
 msgid "It implements all stretch goals we planned in our crowdfunding:"
@@ -1230,9 +936,29 @@ msgstr ""
 "          categories/tags/channels picked randomly, to show the diversity of the videos uploaded on PeerTube. You can see\n"
 "          <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://peertube3.cpy.re/videos/overview\">a demonstration here</a>."
 
+#: src/views/FAQ.vue:313
+msgid ""
+"It's best to contact and talk directly with hosting providers, to understand their business model, vision, etc. Because only\n"
+"            you can determine what makes you trust such or such host, and thus entrust your videos to them."
+msgstr ""
+"It's best to contact and talk directly with hosting providers, to understand their business model, vision, etc. Because only\n"
+"            you can determine what makes you trust such or such host, and thus entrust your videos to them."
+
+#: src/views/FAQ.vue:349
+msgid ""
+"It's up to everyone to be responsible: parents, visitors, uploaders, PeerTube administrators to respect the law and avoid any\n"
+"            problematic situations."
+msgstr ""
+"It's up to everyone to be responsible: parents, visitors, uploaders, PeerTube administrators to respect the law and avoid any\n"
+"            problematic situations."
+
 #: src/components/InstancesList.vue:329
 msgid "Italiano"
 msgstr "Italiano"
+
+#: src/views/FAQ.vue:67
+msgid "Its development is community-based, it can be enhanced by everyone's contributions."
+msgstr "Its development is community-based, it can be enhanced by everyone's contributions."
 
 #: src/components/Footer.vue:13
 msgid "JoinPeerTube Git"
@@ -1270,6 +996,14 @@ msgstr "Learn more about the federation"
 msgid "Legal notices"
 msgstr "Legal notices"
 
+#: src/views/FAQ.vue:47
+msgid ""
+"Linked together, these three features makes it easy to host videos on the server side, while remaining practical, ethical and\n"
+"            fun for the internet users."
+msgstr ""
+"Linked together, these three features makes it easy to host videos on the server side, while remaining practical, ethical and\n"
+"            fun for the internet users."
+
 #: src/views/News.vue:250
 msgid "Localization support (as we write these lines, PeerTube is already available in 13 different languages!)"
 msgstr "Localization support (as we write these lines, PeerTube is already available in 13 different languages!)"
@@ -1290,6 +1024,16 @@ msgstr ""
 "Many other improvements have been made in this new version. You can see the complete list on\n"
 "          <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube/releases/tag/v1.3.0\">https://github.com/Chocobozzz/PeerTube/releases/tag/v1.3.0</a>."
 
+#: src/views/FAQ.vue:213
+msgid ""
+"March 2018 thus represents the birth of the PeerTube federations: the more this software will be used and supported, the more\n"
+"            people will use it and contribute to it, and the faster it will evolve towards a concrete alternative to platforms such as\n"
+"            YouTube."
+msgstr ""
+"March 2018 thus represents the birth of the PeerTube federations: the more this software will be used and supported, the more\n"
+"            people will use it and contribute to it, and the faster it will evolve towards a concrete alternative to platforms such as\n"
+"            YouTube."
+
 #: src/components/InstanceCard.vue:257
 msgid "MB"
 msgstr "MB"
@@ -1298,9 +1042,17 @@ msgstr "MB"
 msgid "More features"
 msgstr "More features"
 
-#: src/views/FAQ.vue:392
+#: src/views/FAQ.vue:492
 msgid "More technical questions"
 msgstr "More technical questions"
+
+#: src/views/FAQ.vue:328
+msgid ""
+"Moreover, each administrator decides with which instances he wants to federate: he has the full control of the content he\n"
+"            wants to display on his instance. It's up to him to choose the policy regarding this kind of videos. He can decide to:"
+msgstr ""
+"Moreover, each administrator decides with which instances he wants to federate: he has the full control of the content he\n"
+"            wants to display on his instance. It's up to him to choose the policy regarding this kind of videos. He can decide to:"
 
 #: src/views/News.vue:356 src/views/News.vue:399
 msgid ""
@@ -1332,6 +1084,22 @@ msgstr "Music"
 msgid "Nederlands"
 msgstr "Nederlands"
 
+#: src/views/FAQ.vue:294
+msgid ""
+"Nevertheless, it is worth remembering that the vast majority of videos published on the Internet (and even on YouTube) are\n"
+"            shared for non-market purposes: remuneration is a tool, but not necessarily a main or essential purpose."
+msgstr ""
+"Nevertheless, it is worth remembering that the vast majority of videos published on the Internet (and even on YouTube) are\n"
+"            shared for non-market purposes: remuneration is a tool, but not necessarily a main or essential purpose."
+
+#: src/views/FAQ.vue:218
+msgid ""
+"Nevertheless, the ambition remains to be <strong>a free and decentralized alternative</strong>: the goal of an alternative is\n"
+"            not to replace, but to propose something else, with different values, in parallel to what already exists."
+msgstr ""
+"Nevertheless, the ambition remains to be <strong>a free and decentralized alternative</strong>: the goal of an alternative is\n"
+"            not to replace, but to propose something else, with different values, in parallel to what already exists."
+
 #: src/components/Header.vue:27 src/views/News.vue:624
 msgid "News"
 msgstr "News"
@@ -1352,6 +1120,16 @@ msgstr "No opinion"
 msgid "No video quota per user"
 msgstr "No video quota per user"
 
+#: src/views/FAQ.vue:323
+msgid ""
+"No. In October 2018, on an average instance federating with ~200 instances and indexing ~16000 videos, only ~200 videos are\n"
+"            tagged as NSFW (i. e. the content is sensitive, which could be something else than pornography). Therefore, they represent\n"
+"            only ~1% of all the videos."
+msgstr ""
+"No. In October 2018, on an average instance federating with ~200 instances and indexing ~16000 videos, only ~200 videos are\n"
+"            tagged as NSFW (i. e. the content is sensitive, which could be something else than pornography). Therefore, they represent\n"
+"            only ~1% of all the videos."
+
 #: src/mixins/ContentSelectionsEN.js:7 src/mixins/ContentSelectionsEN.js:20
 #: src/mixins/ContentSelectionsEN.js:33 src/mixins/ContentSelectionsEN.js:46
 msgid "Nothing to hide"
@@ -1361,6 +1139,14 @@ msgstr "Nothing to hide"
 #: src/mixins/ContentSelectionsEN.js:41 src/mixins/ContentSelectionsEN.js:54
 msgid "Nothing to Hide (2017) is a documentary franco-allemand de Marc Meillassoux et Mihaela Gladovic, qui s'intéresse aux effets de la surveillance de masse sur les individus et la société. Proposant un regard critique à propos des lois sur le renseignement mises en place par de nombreux États ces dernières années, le film nous rappelle à quel point le débat sur l’usage des données personnelles est actuel et questionne les fondements de nos démocraties."
 msgstr "Nothing to Hide (2017) is a documentary franco-allemand de Marc Meillassoux et Mihaela Gladovic, qui s'intéresse aux effets de la surveillance de masse sur les individus et la société. Proposant un regard critique à propos des lois sur le renseignement mises en place par de nombreux États ces dernières années, le film nous rappelle à quel point le débat sur l’usage des données personnelles est actuel et questionne les fondements de nos démocraties."
+
+#: src/views/FAQ.vue:256
+msgid ""
+"Now imagine that Camille has created an account on DominiqueTube and uploads an illegal video, because this video uses music\n"
+"            created by Solal."
+msgstr ""
+"Now imagine that Camille has created an account on DominiqueTube and uploads an illegal video, because this video uses music\n"
+"            created by Solal."
 
 #: src/views/News.vue:147
 msgid ""
@@ -1394,6 +1180,28 @@ msgstr "Occitan"
 msgid "October 16, 2018"
 msgstr "October 16, 2018"
 
+#: src/views/FAQ.vue:184
+msgid ""
+"Of course, PeerTube's video player adapts to your situation: if your installation does not allow peer-to-peer playback\n"
+"            (corporate network, recalcitrant browser, etc.) video playback will be done in the classic way."
+msgstr ""
+"Of course, PeerTube's video player adapts to your situation: if your installation does not allow peer-to-peer playback\n"
+"            (corporate network, recalcitrant browser, etc.) video playback will be done in the classic way."
+
+#: src/views/FAQ.vue:27
+msgid "On the contrary, PeerTube's concept is to create a network of multiple small interconnected video hosting providers."
+msgstr "On the contrary, PeerTube's concept is to create a network of multiple small interconnected video hosting providers."
+
+#: src/views/FAQ.vue:179
+msgid ""
+"One of the benefits is that <strong>you become a part of the broadcasting of the videos you are watching</strong>. If other\n"
+"            people are watching a PeerTube video at the same time as you, as long as your tab remains open, your browser shares bits of\n"
+"            that video and you participate in a healthier use of the Internet."
+msgstr ""
+"One of the benefits is that <strong>you become a part of the broadcasting of the videos you are watching</strong>. If other\n"
+"            people are watching a PeerTube video at the same time as you, as long as your tab remains open, your browser shares bits of\n"
+"            that video and you participate in a healthier use of the Internet."
+
 #: src/views/Home.vue:66
 msgid "Our aim is not to replace them, but rather to simultaneously offer something else, with different values."
 msgstr "Our aim is not to replace them, but rather to simultaneously offer something else, with different values."
@@ -1422,6 +1230,30 @@ msgid ""
 msgstr ""
 "Our wonderful community of translators is once again to thank for their work, after they enriched PeerTube with\n"
 "          <b>3 new languages</b>: Finnish, Greek and Scottish Gaelic, making PeerTube now available in 22 languages."
+
+#: src/views/FAQ.vue:44
+msgid "Peer-to-peer broadcasting – and therefore viewing – (so no slowing down when a video becomes viral)."
+msgstr "Peer-to-peer broadcasting – and therefore viewing – (so no slowing down when a video becomes viral)."
+
+#: src/views/FAQ.vue:100
+msgid ""
+"Peer-to-peer broadcasting allows, thanks to the\n"
+"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/WebRTC\">WebRTC</a>\n"
+"            protocol, that Internet users who watch the same video at the same time exchange bits of files, which relieves the server."
+msgstr ""
+"Peer-to-peer broadcasting allows, thanks to the\n"
+"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/WebRTC\">WebRTC</a>\n"
+"            protocol, that Internet users who watch the same video at the same time exchange bits of files, which relieves the server."
+
+#: src/views/FAQ.vue:392
+msgid ""
+"PeerTube 1.0 is the realization of the commitment we made in October 2017 to take PeerTube from an alpha version (personal\n"
+"            project and proof of concept that a federated video platform could work) to a 1.0 version in October 2018 (which does not mean\n"
+"            \"final version\", but \"version considered stable and distributable\")."
+msgstr ""
+"PeerTube 1.0 is the realization of the commitment we made in October 2017 to take PeerTube from an alpha version (personal\n"
+"            project and proof of concept that a federated video platform could work) to a 1.0 version in October 2018 (which does not mean\n"
+"            \"final version\", but \"version considered stable and distributable\")."
 
 #: src/views/News.vue:118
 msgid "PeerTube 1.3 is out!"
@@ -1467,6 +1299,36 @@ msgstr "PeerTube instances"
 msgid "Peertube is a <strong>free/libre software funded by a French non-profit organization</strong>: Framasoft"
 msgstr "Peertube is a <strong>free/libre software funded by a French non-profit organization</strong>: Framasoft"
 
+#: src/views/FAQ.vue:481
+msgid ""
+"PeerTube is free, decentralized, distributed, and does not impose any remuneration model. This is the choice we have made,\n"
+"            which is debatable, and others (like d.tube) have made other choices, which have their advantages. So it’s up to you to see\n"
+"            what suits you."
+msgstr ""
+"PeerTube is free, decentralized, distributed, and does not impose any remuneration model. This is the choice we have made,\n"
+"            which is debatable, and others (like d.tube) have made other choices, which have their advantages. So it’s up to you to see\n"
+"            what suits you."
+
+#: src/views/FAQ.vue:65
+msgid "PeerTube is freely provided, no need to pay to install it on your server;"
+msgstr "PeerTube is freely provided, no need to pay to install it on your server;"
+
+#: src/views/FAQ.vue:345
+msgid ""
+"PeerTube is just a software: it's not Framasoft (non-profit that develops PeerTube) that's responsible for the content\n"
+"            published on some instances."
+msgstr ""
+"PeerTube is just a software: it's not Framasoft (non-profit that develops PeerTube) that's responsible for the content\n"
+"            published on some instances."
+
+#: src/views/FAQ.vue:252
+msgid ""
+"PeerTube is not a website: it is software that allows a web hoster (for example, Dominique) to create a video website (let's\n"
+"            call it DominiqueTube)."
+msgstr ""
+"PeerTube is not a website: it is software that allows a web hoster (for example, Dominique) to create a video website (let's\n"
+"            call it DominiqueTube)."
+
 #: src/views/Home.vue:85
 msgid ""
 "PeerTube is not meant to become a huge platform that would centralize videos from all around the world.\n"
@@ -1478,6 +1340,22 @@ msgstr ""
 #: src/views/Home.vue:157
 msgid "Peertube is not subject to any corporate monopoly, does not rely on ads and <strong>does not track you.</strong>"
 msgstr "Peertube is not subject to any corporate monopoly, does not rely on ads and <strong>does not track you.</strong>"
+
+#: src/views/FAQ.vue:17
+msgid ""
+"PeerTube is software that you install on a web server. It allows you to create a video hosting website, so create your\n"
+"            \"homemade YouTube\"."
+msgstr ""
+"PeerTube is software that you install on a web server. It allows you to create a video hosting website, so create your\n"
+"            \"homemade YouTube\"."
+
+#: src/views/FAQ.vue:36
+msgid ""
+"PeerTube is unique because (as far as we know) it's the only video hosting web application which combines three\n"
+"            advantages:"
+msgstr ""
+"PeerTube is unique because (as far as we know) it's the only video hosting web application which combines three\n"
+"            advantages:"
 
 #: src/views/News.vue:4
 msgid "PeerTube news!"
@@ -1495,9 +1373,27 @@ msgstr ""
 "PeerTube translation community have done a huge job. <strong>3 new languages</strong> are now available: Japanese, Dutch and\n"
 "          European Portuguese (PeerTube already support Brazilian Portuguese). Amazing! PeerTube is now available in 19 languages!"
 
+#: src/views/FAQ.vue:469
+msgid ""
+"PeerTube uses ActivityPub because this federation protocol is recommended by the W3C and is already used by the federated\n"
+"            social network Mastodon."
+msgstr ""
+"PeerTube uses ActivityPub because this federation protocol is recommended by the W3C and is already used by the federated\n"
+"            social network Mastodon."
+
 #: src/views/News.vue:180
 msgid "PeerTube: retrospective, new features and more to come!"
 msgstr "PeerTube: retrospective, new features and more to come!"
+
+#: src/views/FAQ.vue:87
+msgid ""
+"PeerTube's federation protocol is fluid (everyone can choose who they want to follow), and based on\n"
+"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://activitypub.rocks\">ActivityPub</a>: this opens the possibility\n"
+"            to connect with tools like Mastodon for example."
+msgstr ""
+"PeerTube's federation protocol is fluid (everyone can choose who they want to follow), and based on\n"
+"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://activitypub.rocks\">ActivityPub</a>: this opens the possibility\n"
+"            to connect with tools like Mastodon for example."
 
 #: src/components/InstancesList.vue:307
 msgid "People"
@@ -1546,6 +1442,18 @@ msgid ""
 msgstr ""
 "Regarding the RSS feeds feature, it was already implemented by Rigelk and you can already use it in the beta 9.\n"
 "          You can, for example, get the feed of the last local videos uploaded in a particular instance."
+
+#: src/views/FAQ.vue:397
+msgid ""
+"Remember that PeerTube has only one (almost) full time developer and a small handful of very involved volunteers. It is not a\n"
+"            product developed by a start-up with a full time team (dev, design, UX, marketing, support, etc.) and significant financial\n"
+"            support. It is a Community free software, the development of which will continue over the months and, we hope, in the years to\n"
+"            come."
+msgstr ""
+"Remember that PeerTube has only one (almost) full time developer and a small handful of very involved volunteers. It is not a\n"
+"            product developed by a start-up with a full time team (dev, design, UX, marketing, support, etc.) and significant financial\n"
+"            support. It is a Community free software, the development of which will continue over the months and, we hope, in the years to\n"
+"            come."
 
 #: src/views/News.vue:269
 msgid "RSS Feeds"
@@ -1613,6 +1521,22 @@ msgstr ""
 "          <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framasoft.org/en/\">Framasoft non-profit</a>, which develops the software (and lives only\n"
 "          through <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://soutenir.framasoft.org/en/\">your donations</a>)."
 
+#: src/views/FAQ.vue:260
+msgid ""
+"Solal goes on Framatube, an instance which follows DominiqueTube. So, Solal can see, from Framatube, the videos published on\n"
+"            DominiqueTube."
+msgstr ""
+"Solal goes on Framatube, an instance which follows DominiqueTube. So, Solal can see, from Framatube, the videos published on\n"
+"            DominiqueTube."
+
+#: src/views/FAQ.vue:264
+msgid ""
+"Solal sees Camille's illegal video, and signals it with the button provided for that purpose. Although the report is made\n"
+"            from Framatube, it is sent directly to the person hosting the illegal content, Dominique."
+msgstr ""
+"Solal sees Camille's illegal video, and signals it with the button provided for that purpose. Although the report is made\n"
+"            from Framatube, it is sent directly to the person hosting the illegal content, Dominique."
+
 #: src/views/Hall-Of-Fame.vue:11
 msgid "Sponsors"
 msgstr "Sponsors"
@@ -1672,7 +1596,7 @@ msgstr "tag2"
 msgid "tag3"
 msgstr "tag3"
 
-#: src/views/FAQ.vue:286
+#: src/views/FAQ.vue:358
 msgid "Technical questions"
 msgstr "Technical questions"
 
@@ -1706,9 +1630,49 @@ msgstr ""
 "            Since then, several intermediary releases have brought many features along.\n"
 "            Several collectives have already created PeerTube hosts, laying the foundation for the federation."
 
+#: src/views/FAQ.vue:362
+msgid ""
+"The <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.joinpeertube.org/#/install-any-os\">installation guide is here</a>\n"
+"            (only in English)."
+msgstr ""
+"The <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.joinpeertube.org/#/install-any-os\">installation guide is here</a>\n"
+"            (only in English)."
+
+#: src/views/FAQ.vue:444
+msgid ""
+"The <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube\">Git repository of PeerTube is\n"
+"            here</a>."
+msgstr ""
+"The <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube\">Git repository of PeerTube is\n"
+"            here</a>."
+
+#: src/views/FAQ.vue:75
+msgid ""
+"The advantage of YouTube (and other platforms) is its video catalog: from knitting tutorials to Minecraft constructions\n"
+"            through videos of kittens or holidays... you can find everything!"
+msgstr ""
+"The advantage of YouTube (and other platforms) is its video catalog: from knitting tutorials to Minecraft constructions\n"
+"            through videos of kittens or holidays... you can find everything!"
+
 #: src/views/News.vue:375
 msgid "The development of the crowdfunding features is going well."
 msgstr "The development of the crowdfunding features is going well."
+
+#: src/views/FAQ.vue:22
+msgid ""
+"The difference to YouTube is that it's not intended to create a huge platform centralizing videos from the whole world on a\n"
+"            single server farm (which is horribly expensive)."
+msgstr ""
+"The difference to YouTube is that it's not intended to create a huge platform centralizing videos from the whole world on a\n"
+"            single server farm (which is horribly expensive)."
+
+#: src/views/FAQ.vue:242
+msgid ""
+"The federation system, for its part, allows hosts to decide with whom they want to connect, depending on the types of content\n"
+"            or the moderation policies of others."
+msgstr ""
+"The federation system, for its part, allows hosts to decide with whom they want to connect, depending on the types of content\n"
+"            or the moderation policies of others."
 
 #: src/views/News.vue:346
 msgid ""
@@ -1721,6 +1685,14 @@ msgstr ""
 #: src/views/Home.vue:330
 msgid "The more people use, support, and contribute to PeerTube, the quicker it will become a concrete alternative to platforms like YouTube."
 msgstr "The more people use, support, and contribute to PeerTube, the quicker it will become a concrete alternative to platforms like YouTube."
+
+#: src/views/FAQ.vue:79
+msgid ""
+"The more the video catalogue is varied, the more people are interested, the more videos are uploaded... but hosting videos from\n"
+"            all over the world is (very, very) expensive!"
+msgstr ""
+"The more the video catalogue is varied, the more people are interested, the more videos are uploaded... but hosting videos from\n"
+"            all over the world is (very, very) expensive!"
 
 #: src/views/News.vue:126
 msgid ""
@@ -1742,6 +1714,20 @@ msgstr ""
 msgid "the new sign-up form in 2 steps"
 msgstr "the new sign-up form in 2 steps"
 
+#: src/views/FAQ.vue:161
+msgid ""
+"The other big advantage of PeerTube is that your hoster doesn't have to fear the sudden success of one of your videos.\n"
+"            Indeed, PeerTube broadcasts videos with the protocol\n"
+"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/BitTorrent\">WebTorrent</a>.\n"
+"            If hundreds of people are watching your video at the same time, their browsers automatically send bits of your video to other\n"
+"            viewers."
+msgstr ""
+"The other big advantage of PeerTube is that your hoster doesn't have to fear the sudden success of one of your videos.\n"
+"            Indeed, PeerTube broadcasts videos with the protocol\n"
+"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/BitTorrent\">WebTorrent</a>.\n"
+"            If hundreds of people are watching your video at the same time, their browsers automatically send bits of your video to other\n"
+"            viewers."
+
 #: src/views/Home.vue:245
 msgid ""
 "The PeerTube software can, whenever necessary, use a peer-to-peer protocol (P2P) to broadcast viral videos,\n"
@@ -1753,6 +1739,50 @@ msgstr ""
 #: src/components/InstancesList.vue:35
 msgid "Themes"
 msgstr "Themes"
+
+#: src/views/FAQ.vue:272
+msgid "Then Dominique and Solal can turn against Camille, who uploaded the video."
+msgstr "Then Dominique and Solal can turn against Camille, who uploaded the video."
+
+#: src/views/FAQ.vue:309
+msgid ""
+"Then, we recommend you go to the instances, read their \"about\" page to discover their terms of use (disk space limit per\n"
+"            user, content policy, etc.)."
+msgstr ""
+"Then, we recommend you go to the instances, read their \"about\" page to discover their terms of use (disk space limit per\n"
+"            user, content policy, etc.)."
+
+#: src/views/FAQ.vue:119
+msgid ""
+"There already exists free/libre software that enables you to do this. But with PeerTube, you can link your instance (your\n"
+"            video website) to Zaïd's PeerTube instance (where he hosts videos of the lectures for his people's university), to Catherin's\n"
+"            (who hosts her webmedia videos) or even to Solar's PeerTube instance (who manages a vloggers collective)."
+msgstr ""
+"There already exists free/libre software that enables you to do this. But with PeerTube, you can link your instance (your\n"
+"            video website) to Zaïd's PeerTube instance (where he hosts videos of the lectures for his people's university), to Catherin's\n"
+"            (who hosts her webmedia videos) or even to Solar's PeerTube instance (who manages a vloggers collective)."
+
+#: src/views/FAQ.vue:279
+msgid "There are none, not at the moment', 'PeerTube is a tool that we wanted neutral in terms of remuneration."
+msgstr "There are none, not at the moment', 'PeerTube is a tool that we wanted neutral in terms of remuneration."
+
+#: src/views/FAQ.vue:105
+msgid ""
+"There is nothing to do: your web browser does it automatically. If you are on a mobile phone or if your network does not\n"
+"            allow it (router, firewall, etc.), this function is disabled and switches back to an \"old-style\" video broadcast 😉."
+msgstr ""
+"There is nothing to do: your web browser does it automatically. If you are on a mobile phone or if your network does not\n"
+"            allow it (router, firewall, etc.), this function is disabled and switches back to an \"old-style\" video broadcast 😉."
+
+#: src/views/FAQ.vue:304
+msgid ""
+"There's a complete <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://instances.joinpeertube.org\">list of instances\n"
+"            here</a>,\n"
+"            and a list of those that are <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"/instances\">open to registration here</a>."
+msgstr ""
+"There's a complete <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://instances.joinpeertube.org\">list of instances\n"
+"            here</a>,\n"
+"            and a list of those that are <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"/instances\">open to registration here</a>."
 
 #: src/views/News.vue:382
 msgid ""
@@ -1874,6 +1904,48 @@ msgstr ""
 "We are pleased to announce that the foundation stones of this system have been laid in this 1.4 release! It might be very basic\n"
 "          for now, but we plan on improving it bit by bit in Peertube's future releases."
 
+#: src/views/FAQ.vue:403
+msgid ""
+"We are well aware of the shortcomings of PeerTube 1.0, especially in the moderation tools area (videos, comments, etc.). And\n"
+"            we intend to work on these weaknesses."
+msgstr ""
+"We are well aware of the shortcomings of PeerTube 1.0, especially in the moderation tools area (videos, comments, etc.). And\n"
+"            we intend to work on these weaknesses."
+
+#: src/views/FAQ.vue:424
+msgid ""
+"We are working as quickly as possible to improve PeerTube, but we are doing so with the resources we have, which means\n"
+"            <strong>very</strong> limited."
+msgstr ""
+"We are working as quickly as possible to improve PeerTube, but we are doing so with the resources we have, which means\n"
+"            <strong>very</strong> limited."
+
+#: src/views/FAQ.vue:204
+msgid "We can answer with certainty: no!"
+msgstr "We can answer with certainty: no!"
+
+#: src/views/FAQ.vue:66
+msgid "We can look under the hood of PeerTube (its source code): it's auditable, transparent;"
+msgstr "We can look under the hood of PeerTube (its source code): it's auditable, transparent;"
+
+#: src/views/FAQ.vue:286
+msgid ""
+"We did not go any further because to favour one technical solution would be to impose, in the code, a political vision of\n"
+"            cultural sharing and its financing. All financial solutions are possible and treated equally in PeerTube."
+msgstr ""
+"We did not go any further because to favour one technical solution would be to impose, in the code, a political vision of\n"
+"            cultural sharing and its financing. All financial solutions are possible and treated equally in PeerTube."
+
+#: src/views/FAQ.vue:407
+msgid ""
+"We have chosen to do so as follows: on the one hand we will work primarily in the coming months to improve these tools within\n"
+"            PeerTube itself (in the <i>core</i> of the software). On the other hand, we will also focus, in parallel, a large part of\n"
+"            PeerTube's development effort during 2019 on the integration of a plugin system, which can be developed by the communities."
+msgstr ""
+"We have chosen to do so as follows: on the one hand we will work primarily in the coming months to improve these tools within\n"
+"            PeerTube itself (in the <i>core</i> of the software). On the other hand, we will also focus, in parallel, a large part of\n"
+"            PeerTube's development effort during 2019 on the integration of a plugin system, which can be developed by the communities."
+
 #: src/views/News.vue:321
 msgid ""
 "We just released PeerTube <em>beta 12</em>, that allows to subscribe to video channels, whether they are on your instance or\n"
@@ -1889,6 +1961,14 @@ msgstr ""
 #: src/views/News.vue:266
 msgid "We know that feature descriptions are not very amusing, so we have published a few demonstration videos:"
 msgstr "We know that feature descriptions are not very amusing, so we have published a few demonstration videos:"
+
+#: src/views/FAQ.vue:366
+msgid ""
+"We recommend not to install PeerTube on low-end hardware or behind a weak connection (for example, on a RaspberryPi with an\n"
+"            ADSL connection): this could slow down all federations."
+msgstr ""
+"We recommend not to install PeerTube on low-end hardware or behind a weak connection (for example, on a RaspberryPi with an\n"
+"            ADSL connection): this could slow down all federations."
 
 #: src/views/News.vue:300
 msgid ""
@@ -1954,6 +2034,14 @@ msgstr ""
 msgid "What is PeerTube?"
 msgstr "What is PeerTube?"
 
+#: src/views/FAQ.vue:98
+msgid ""
+"When you host a large file like a video, the biggest thing to fear is success: if a video becomes viral and many people watch\n"
+"            it at the same time, the server has a big risk of getting overloaded!"
+msgstr ""
+"When you host a large file like a video, the biggest thing to fear is success: if a video becomes viral and many people watch\n"
+"            it at the same time, the server has a big risk of getting overloaded!"
+
 #: src/views/Home.vue:297
 msgid ""
 "Who is behind\n"
@@ -1972,6 +2060,16 @@ msgstr ""
 "With more than 100 000 hosted videos, viewed more than 6 millions times and 20 000 users,\n"
 "        PeerTube is the decentralized free software alternative to videos platforms developed by Framasoft"
 
+#: src/views/FAQ.vue:156
+msgid ""
+"With PeerTube, <strong>you can choose the hoster of your videos according to his terms of services</strong>, his moderation\n"
+"            policy, his federation choices... As you don't have a tech giant facing you, you might be able to talk with you hoster if you\n"
+"            ever have a problem, a need, or something you want."
+msgstr ""
+"With PeerTube, <strong>you can choose the hoster of your videos according to his terms of services</strong>, his moderation\n"
+"            policy, his federation choices... As you don't have a tech giant facing you, you might be able to talk with you hoster if you\n"
+"            ever have a problem, a need, or something you want."
+
 #: src/views/Home.vue:200
 msgid "With PeerTube, chose <strong>your hosting company and the rules you believe in.</strong>"
 msgstr "With PeerTube, chose <strong>your hosting company and the rules you believe in.</strong>"
@@ -1985,6 +2083,24 @@ msgstr ""
 "With PeerTube, you get to choose your hosting provider according to their terms of use, such as their disk space limit per user,\n"
 "              their moderation policy, who they chose to federate with... You are not speaking with a huge tech company, so you can\n"
 "              talk it out in case of any issue, need, desire..."
+
+#: src/views/FAQ.vue:449
+msgid ""
+"You can <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube/issues\">create an issue</a>,\n"
+"            contribute to it, or even start contributing by choosing the\n"
+"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue+%3Abeginner%3A%22\">\n"
+"              easy problems for those who begin\n"
+"            </a>.\n"
+"            See <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.joinpeertube.org/#/contribute-getting-started\">contributing guide</a>\n"
+"            for more information."
+msgstr ""
+"You can <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube/issues\">create an issue</a>,\n"
+"            contribute to it, or even start contributing by choosing the\n"
+"            <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue+%3Abeginner%3A%22\">\n"
+"              easy problems for those who begin\n"
+"            </a>.\n"
+"            See <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.joinpeertube.org/#/contribute-getting-started\">contributing guide</a>\n"
+"            for more information."
 
 #: src/views/News.vue:334
 msgid "You can read the complete <em>beta 12</em> changelog <a href=\"https://github.com/Chocobozzz/PeerTube/blob/develop/CHANGELOG.md#v100-beta12\">here</a>."
@@ -2002,9 +2118,21 @@ msgstr ""
 msgid "You have a question?"
 msgstr "You have a question?"
 
+#: src/views/FAQ.vue:303
+msgid "You need to find a PeerTube hosting instance you trust."
+msgstr "You need to find a PeerTube hosting instance you trust."
+
 #: src/components/InstancesList.vue:21
 msgid "You want to"
 msgstr "You want to"
+
+#: src/views/FAQ.vue:388
+msgid ""
+"You're right. PeerTube 1.0 is not the perfect tool, far from it. And we never promised that this version 1.0 would be a\n"
+"            tool that would include all the features corresponding to all cases."
+msgstr ""
+"You're right. PeerTube 1.0 is not the perfect tool, far from it. And we never promised that this version 1.0 would be a\n"
+"            tool that would include all the features corresponding to all cases."
 
 #: src/views/Home.vue:268
 msgid ""
