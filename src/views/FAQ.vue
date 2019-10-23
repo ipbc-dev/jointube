@@ -420,7 +420,6 @@
             <p v-translate>
               By acting both on the <i>core</i>, but also by allowing the development of plugins, we believe that PeerTube will, in the
               long term, be able to respond much better to these issues and allow different communities to adapt PeerTube to their needs.
-
             </p>
             <p v-translate>
               We are working as quickly as possible to improve PeerTube, but we are doing so with the resources we have, which means
@@ -430,11 +429,6 @@
               In the meantime, as an user if you feel that PeerTube 1.0 does not currently meet your needs, it's simple: don't use it right
               now :) (we remind you that we don't make money developing PeerTube, and that if we obviously hope for its success, the
               survival of our association doesn't depend on it).
-            </p>
-            <p v-translate>
-              As an administrator, if you are afraid of DMCA requests, there is an option to limit the opening of registrations to people
-              you know. You will then be able to reopen registrations without verification once these verification tools have been
-              integrated, or you have developed them.
             </p>
           </div>
         </accordion-element>

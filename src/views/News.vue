@@ -111,7 +111,7 @@
             </a>.
           </p>
 
-          <p v-translate>Thanks to all PeerTube contributors!<br>Framasoft</p>
+          <p v-translate>Thanks to all PeerTube contributors!<br />Framasoft</p>
         </div>
       </article>
 
@@ -192,7 +192,7 @@
           <p v-translate>Here is a small retrospective of the end of 2018/beginning of 2019:</p>
 
           <p v-translate>
-            In December 2018, we released version 1.1 which contained some moderation tools requested by instance administrators.<br> We
+            In December 2018, we released version 1.1 which contained some moderation tools requested by instance administrators.<br /> We
             also took the opportunity to add a watched videos history feature and the automatic resuming of video playback.
           </p>
 
@@ -214,9 +214,9 @@
           </p>
 
           <p v-translate>
-            As you can see, we have gone far beyond what the crowdfunding has funded. And we will continue!<br> For 2019, we plan to add a
-            plugin and theme management system (even though basic at first), playlist management, support for audio files upload and many
-            other features.
+            As you can see, we have gone far beyond what the crowdfunding has funded. And we will continue!<br />
+            For 2019, we plan to add a  plugin and theme management system (even though basic at first), playlist management,
+            support for audio files upload and many other features.
           </p>
 
           <p v-translate>
@@ -304,7 +304,7 @@
           </p>
 
           <p v-translate>
-            Cheers,<br>
+            Cheers,<br />
             Framasoft
           </p>
         </div>
@@ -360,7 +360,7 @@
           </p>
 
           <p v-translate>
-            Cheers,<br>
+            Cheers,<br />
             Framasoft
           </p>
         </div>
@@ -388,8 +388,8 @@
 
           <p v-translate>
             We are currently finishing the video import system, from a URL (YouTube, Vimeo etc) or a torrent file. This feature should be
-            available in a few days, when we will release a new version (<em>v1.0.0-beta.11</em>).<br> The import system will complete the
-            first crowdfunding goal. The next feature we will be working on will be the user subscriptions.
+            available in a few days, when we will release a new version (<em>v1.0.0-beta.11</em>).<br />
+            The import system will complete the first crowdfunding goal. The next feature we will be working on will be the user subscriptions.
           </p>
 
           <p v-translate>
@@ -403,7 +403,7 @@
           </p>
 
           <p v-translate>
-            Cheers,<br>
+            Cheers,<br />
             Framasoft
           </p>
         </div>
