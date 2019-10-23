@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "analyze-bundle": "npm run build -- --report-json && webpack-bundle-analyzer ./dist/report.json",
-    "i18n:generate": "rm src/locale/en_US/LC_MESSAGES/app.po && make clean && make makemessages && make translations"
+    "i18n:generate": "rm -f src/locale/en_US/LC_MESSAGES/app.po && make clean && make makemessages && make translations"
   },
   "dependencies": {
     "axios": "^0.19.0",
