@@ -135,20 +135,27 @@ main {
   border-width: 2px;
 }
 
-.section-title {
-  font-size: 34px;
-  font-weight: $font-semibold;
-  margin: 100px 0;
+.section-title,
+.subtitle {
   display: flex;
   align-items: center;
-  font-family: 'Proza Libre', sans-serif;
 
   .border-title {
     margin-left: 40px;
     height: 3px;
     background-color: $orange;
     flex-grow: 1;
-    margin-top: 6px;
+  }
+}
+
+.section-title {
+  font-size: 34px;
+  font-weight: $font-semibold;
+  margin: 100px 0;
+  font-family: 'Proza Libre', sans-serif;
+
+  .border-title {
+    margin-top: 4px;
   }
 
   .brand-title {
@@ -176,6 +183,30 @@ main {
 
 .one-column {
   @include one-column;
+}
+
+.two-columns {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+
+  & > img,
+  & > div {
+    flex-basis: 100%;
+  }
+
+  & > *:first-child {
+    margin-right: 30px;
+  }
+
+  img {
+    height: 231px;
+    width: 416px;
+  }
+
+  @media screen and (max-width: $responsive-screen) {
+    @include one-column;
+  }
 }
 
 .bottom-link-wrapper {
