@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-10-24 11:48+0000\n"
+"PO-Revision-Date: 2019-10-24 11:51+0000\n"
 "Last-Translator: chocobozzz <chocobozzz@framasoft.org>\n"
 "Language-Team: French <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/fr/>\n"
@@ -2304,7 +2304,6 @@ msgstr ""
 "visionnage et de reprise automatique de la lecture des vidéos."
 
 #: src/views/News.vue:402
-#, fuzzy
 msgid ""
 "We are currently finishing the video import system, from a URL (YouTube, "
 "Vimeo etc) or a torrent file. This feature should be available in a few "
@@ -2313,7 +2312,7 @@ msgstr ""
 "Nous sommes actuellement en train de finir le système d'import de vidéos via "
 "une URL (YouTube, Vimeo, Dailymotion etc) ou un fichier torrent. Cette "
 "fonctionnalité devrait être disponible dans quelques jours, lorsque nous "
-"sortirons une nouvelle version de PeerTube (<em>v1.0.0-beta.11</em>)."
+"sortirons une nouvelle version de PeerTube (v1.0.0-beta.11)."
 
 #: src/views/News.vue:257
 msgid ""
