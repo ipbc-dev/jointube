@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-10-24 12:44+0000\n"
+"PO-Revision-Date: 2019-10-24 13:04+0000\n"
 "Last-Translator: chocobozzz <chocobozzz@framasoft.org>\n"
 "Language-Team: French <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/fr/>\n"
@@ -787,15 +787,15 @@ msgstr "Pour les administrateurs de PeerTube"
 
 #: src/views/FAQ.vue:129
 msgid "For those who know how to administer a server, PeerTube is..."
-msgstr ""
+msgstr "Pour qui sait administrer un serveur, PeerTube, c’est…"
 
 #: src/views/FAQ.vue:199
 msgid "For those who want to watch videos, PeerTube can offer..."
-msgstr ""
+msgstr "Pour qui veut voir des vidéos, PeerTube a pour avantages…"
 
 #: src/views/FAQ.vue:166
 msgid "For those who wants to upload their videos, PeerTube allows..."
-msgstr ""
+msgstr "Pour qui veut diffuser ses vidéos en ligne PeerTube permet…"
 
 #: src/components/Footer.vue:9
 msgid "Forum"
@@ -878,14 +878,12 @@ msgid "Home"
 msgstr "Accueil"
 
 #: src/views/FAQ.vue:486
-#, fuzzy
 msgid "How do I contribute to PeerTube’s code?"
-msgstr "Contribuer à PeerTube"
+msgstr "Comment participer au code de PeerTube ?"
 
 #: src/views/FAQ.vue:405
-#, fuzzy
 msgid "How do I install PeerTube?"
-msgstr "Installer PeerTube"
+msgstr "Comment installer PeerTube&nbsp;?"
 
 #: src/components/InstancesList.vue:313
 msgid "How To"
@@ -922,7 +920,7 @@ msgstr ""
 
 #: src/views/FAQ.vue:258
 msgid "If it's free, can we upload illegal stuff on it?"
-msgstr ""
+msgstr "Si c’est libre, on peut y mettre des contenus illicites&nbsp;?"
 
 #: src/views/FAQ.vue:96
 msgid ""
@@ -1101,7 +1099,7 @@ msgstr ""
 
 #: src/views/FAQ.vue:227
 msgid "Is PeerTube's purpose to replace YouTube?"
-msgstr ""
+msgstr "Le but de PeerTube, c’est de remplacer YouTube&nbsp;?"
 
 #: src/views/FAQ.vue:171
 msgid ""
@@ -1712,6 +1710,8 @@ msgid ""
 "PeerTube v1.0 does not seem to me to contain all the tools necessary for a "
 "good management of my instance."
 msgstr ""
+"PeerTube v1.0 ne me semble pas contenir tous les outils nécessaires à une "
+"bonne gestion de mon instance."
 
 #: src/views/News.vue:186
 msgid "PeerTube: retrospective, new features and more to come!"
@@ -2176,7 +2176,7 @@ msgstr ""
 
 #: src/views/FAQ.vue:362
 msgid "There are many porn videos on PeerTube!"
-msgstr ""
+msgstr "Il y a plein de vidéos porno sur PeerTube !"
 
 #: src/views/FAQ.vue:316
 msgid ""
@@ -2296,7 +2296,7 @@ msgstr "Mettre à jour PeerTube"
 
 #: src/main.js:60
 msgid "value"
-msgstr ""
+msgstr "valeur"
 
 #: src/components/InstancesList.vue:304
 msgid "Vehicles"
@@ -2548,7 +2548,7 @@ msgstr ""
 
 #: src/views/FAQ.vue:38
 msgid "What are the main advantages of PeerTube?"
-msgstr ""
+msgstr "Quels sont les avantages principaux de PeerTube ?"
 
 #: src/views/Home.vue:50
 msgid "What is"
@@ -2559,13 +2559,12 @@ msgid "What is PeerTube?"
 msgstr "C'est quoi PeerTube ?"
 
 #: src/views/FAQ.vue:311
-#, fuzzy
 msgid "What is PeerTube's remuneration policy?"
-msgstr "C'est quoi PeerTube ?"
+msgstr "Quelle est la politique de rémunération de PeerTube&nbsp;?"
 
 #: src/views/FAQ.vue:83
 msgid "What's the interest to federate the video hosting providers?"
-msgstr ""
+msgstr "Quel est l’intérêt de fédérer les hébergements de vidéos&nbsp;?"
 
 #: src/views/FAQ.vue:114
 msgid ""
@@ -2580,7 +2579,7 @@ msgstr ""
 
 #: src/views/FAQ.vue:339
 msgid "Where can I put my videos?"
-msgstr ""
+msgstr "Où puis-je mettre mes vidéos&nbsp;?"
 
 #: src/views/Home.vue:300
 msgid "Who is behind"
@@ -2588,11 +2587,11 @@ msgstr "Qui est derrière"
 
 #: src/views/FAQ.vue:281
 msgid "Who is responsible for content published on PeerTube?"
-msgstr ""
+msgstr "Qui est responsable du contenu publié sur PeerTube&nbsp;?"
 
 #: src/views/FAQ.vue:109
 msgid "Why broadcast PeerTube videos through peer-to-peer?"
-msgstr ""
+msgstr "Pourquoi diffuser les vidéos en pair-à-pair&nbsp;?"
 
 #: src/views/FAQ.vue:514
 msgid ""
@@ -2603,9 +2602,8 @@ msgstr ""
 "Pourquoi pas IPFS / d.tube / Steemit ?"
 
 #: src/views/FAQ.vue:62
-#, fuzzy
 msgid "Why is it better as free/libre software?"
-msgstr "En savoir plus sur les logiciels libres"
+msgstr "Pourquoi c’est mieux que ce soit un logiciel libre&nbsp;?"
 
 #: src/views/Home.vue:10
 msgid ""
