@@ -491,8 +491,8 @@ msgstr "Catalan"
 msgid "Čeština"
 msgstr "Tchèque"
 
-#: src/views/News.vue:317 src/views/News.vue:374 src/views/News.vue:418
-#: src/views/News.vue:462
+#: src/views/News.vue:317 src/views/News.vue:374 src/views/News.vue:423
+#: src/views/News.vue:467
 msgid "Cheers,"
 msgstr "Librement,"
 
@@ -598,7 +598,7 @@ msgstr ""
 msgid "Donate to Framasoft"
 msgstr "Soutenir Framasoft"
 
-#: src/views/News.vue:434
+#: src/views/News.vue:439
 msgid ""
 "During the crowdfunding campaign, we continued to work on the localization "
 "system. And we are happy to announce it's finally completed: it will be "
@@ -703,7 +703,7 @@ msgstr ""
 msgid "Financial Contributors"
 msgstr "Donateurs"
 
-#: src/views/News.vue:432
+#: src/views/News.vue:437
 msgid "First of all, thank you again for contributing to PeerTube! ❤️"
 msgstr "Tout d'abord, un grand merci pour avoir contribué à notre campagne. ❤️"
 
@@ -822,7 +822,7 @@ msgid "Hall of Fame"
 msgstr "Tableau d’honneur"
 
 #: src/views/News.vue:255 src/views/News.vue:329 src/views/News.vue:386
-#: src/views/News.vue:430
+#: src/views/News.vue:435
 msgid "Hello everyone!"
 msgstr "Bonjour à toutes et à tous !"
 
@@ -1157,7 +1157,7 @@ msgstr ""
 msgid "JoinPeerTube Git"
 msgstr "Git de JoinPeerTube"
 
-#: src/views/News.vue:427
+#: src/views/News.vue:432
 msgid "July 23, 2018"
 msgstr "23 Juillet 2018"
 
@@ -1266,7 +1266,7 @@ msgstr ""
 "c’est lui qui choisit la politique à appliquer concernant ce genre de vidéo. "
 "Il peut décider de :"
 
-#: src/views/News.vue:368 src/views/News.vue:412 src/views/News.vue:456
+#: src/views/News.vue:368 src/views/News.vue:417 src/views/News.vue:461
 msgid ""
 "Moreover, you can ask questions on <a target=\"_blank\" rel=\"noopener "
 "noreferrer\" href=\"https://framacolibri.org/c/qualite/peertube\">the "
@@ -1328,7 +1328,7 @@ msgstr ""
 "remplacer, mais de proposer quelque chose d’autre, avec des valeurs "
 "différentes, en parallèle de ce qui existe déjà."
 
-#: src/components/Header.vue:27 src/views/News.vue:646
+#: src/components/Header.vue:27 src/views/News.vue:651
 msgid "News"
 msgstr "Actus"
 
@@ -1540,7 +1540,7 @@ msgstr ""
 "L’ambition de PeerTube, c'est d’être <strong>une alternative libre et "
 "décentralisée</strong>  aux services de diffusion de vidéos."
 
-#: src/views/News.vue:426
+#: src/views/News.vue:431
 msgid "PeerTube crowdfunding newsletter #1"
 msgstr "Newsletter du crowdfunding de PeerTube n°1"
 
@@ -1745,7 +1745,7 @@ msgstr ""
 "pouvoir envoyer les illustrations numériques personnalisées à celles et ceux "
 "qui ont donné 80 € et plus (et c'est tellement beau qu'il nous tarde !)."
 
-#: src/views/News.vue:441
+#: src/views/News.vue:446
 msgid ""
 "Regarding the RSS feeds feature, it was already implemented by Rigelk and "
 "you can already use it in the beta 9. You can, for example, get the feed of "
@@ -1905,7 +1905,7 @@ msgstr ""
 msgid "Subtitles support"
 msgstr "Le support des sous-titres"
 
-#: src/views/News.vue:446
+#: src/views/News.vue:451
 msgid ""
 "Subtitles support is well under way, and we should have a first version "
 "available soon. When this work is finished, we will develop the advanced "
@@ -2001,6 +2001,12 @@ msgstr ""
 "Le système de fédération, quant à lui, permet aux hébergeurs de décider avec "
 "qui ils veulent se mettre en réseau, ou pas, selon les types de contenus ou "
 "les politiques de modération des autres."
+
+#: src/views/News.vue:407
+msgid ""
+"The import system will complete the first crowdfunding goal. The next "
+"feature we will be working on will be the user subscriptions."
+msgstr ""
 
 #: src/views/News.vue:358
 msgid ""
@@ -2289,13 +2295,12 @@ msgstr ""
 "Nous en avons aussi profité pour ajouter une fonctionnalité d'historique de "
 "visionnage et de reprise automatique de la lecture des vidéos."
 
-#: src/views/News.vue:401
+#: src/views/News.vue:402
+#, fuzzy
 msgid ""
 "We are currently finishing the video import system, from a URL (YouTube, "
 "Vimeo etc) or a torrent file. This feature should be available in a few "
-"days, when we will release a new version (<em>v1.0.0-beta.11</em>).<br/> The "
-"import system will complete the first crowdfunding goal. The next feature we "
-"will be working on will be the user subscriptions."
+"days, when we will release a new version (<em>v1.0.0-beta.11</em>)."
 msgstr ""
 "Nous sommes actuellement en train de finir le système d'import de vidéos via "
 "une URL (YouTube, Vimeo, Dailymotion etc) ou un fichier torrent. Cette "
@@ -2431,7 +2436,7 @@ msgstr ""
 "target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://contact."
 "framasoft.org\">https://contact.framasoft.org.</a>."
 
-#: src/views/News.vue:363 src/views/News.vue:407
+#: src/views/News.vue:363 src/views/News.vue:412
 msgid ""
 "We remind you that you can track the progress of the work directly <a target="
 "\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/"
@@ -2444,7 +2449,7 @@ msgstr ""
 "participer aux discussions/signalement de bugs/propositions d'améliorations "
 "dans l'onglet \"Issues\"."
 
-#: src/views/News.vue:451
+#: src/views/News.vue:456
 msgid ""
 "We remind you that you can track the progress of the work directly on the "
 "git repository, and be part of the discussions/bug reports/feature requests "

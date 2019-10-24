@@ -399,10 +399,15 @@
             <a target="_blank" rel="noopener noreferrer" href="https://framatube.org/videos/watch/217eefeb-883d-45be-b7fc-a788ad8507d3"> the "What is PeerTube"</a> video.
           </p>
 
-          <p v-translate>
-            We are currently finishing the video import system, from a URL (YouTube, Vimeo etc) or a torrent file. This feature should be
-            available in a few days, when we will release a new version (<em>v1.0.0-beta.11</em>).<br />
-            The import system will complete the first crowdfunding goal. The next feature we will be working on will be the user subscriptions.
+          <p>
+            <translate>
+              We are currently finishing the video import system, from a URL (YouTube, Vimeo etc) or a torrent file. This feature should be
+              available in a few days, when we will release a new version (<em>v1.0.0-beta.11</em>).
+            </translate>
+            <br />
+            <translate>
+              The import system will complete the first crowdfunding goal. The next feature we will be working on will be the user subscriptions.
+            </translate>
           </p>
 
           <p v-translate>
@@ -621,7 +626,7 @@
         let locale = 'en'
 
         const current = this.$language.current.toLowerCase().split('_')[0]
-        if (this.imageLocales[current]) locale = current
+        if (this.imageLocales[newsId][current]) locale = current
 
         return this.buildImgUrl(`news/${newsId}/${locale}/${img}`)
       },
