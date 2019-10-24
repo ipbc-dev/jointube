@@ -122,9 +122,17 @@ msgstr "Quelques questions pour découvrir PeerTube"
 msgid "A free software to take back control of your videos"
 msgstr "Un logiciel libre pour reprendre le contrôle de vos vidéos"
 
-#: src/App.vue:27
-msgid "A free software to take back control of your videos! "
-msgstr "Un logiciel libre pour reprendre le contrôle de vos vidéos ! "
+#: src/App.vue:28
+#, fuzzy
+msgid ""
+"A free software to take back control of your videos! With more than 100 000 "
+"hosted videos, viewed more than 6 millions times and 20 000 users, PeerTube "
+"is the decentralized free software alternative to videos platforms developed "
+"by Framasoft"
+msgstr ""
+"Avec plus de 100 000 vidéos hébergées, visionnées plus de 6 millions de fois "
+"et 20 000 utilisateur⋅ices, PeerTube est l'alternative libre et "
+"décentralisée aux plateformes vidéos proposée par Framasoft"
 
 #: src/views/News.vue:331
 msgid ""
@@ -2008,8 +2016,8 @@ msgid ""
 "feature we will be working on will be the user subscriptions."
 msgstr ""
 "L’import des vidéos clôturera donc notre premier palier. La prochaine "
-"fonctionnalité sur laquelle nous allons travailler sera le système d’"
-"abonnements entre utilisateurs."
+"fonctionnalité sur laquelle nous allons travailler sera le système "
+"d’abonnements entre utilisateurs."
 
 #: src/views/News.vue:358
 msgid ""
@@ -2669,6 +2677,9 @@ msgstr "Japonais"
 #: src/components/InstancesList.vue:336
 msgid "简体中文（中国）"
 msgstr "Chinois simplifié"
+
+#~ msgid "A free software to take back control of your videos! "
+#~ msgstr "Un logiciel libre pour reprendre le contrôle de vos vidéos ! "
 
 #, fuzzy
 #~ msgid ""

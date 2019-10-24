@@ -68,9 +68,9 @@ msgstr "A few questions to discover PeerTube"
 msgid "A free software to take back control of your videos"
 msgstr "A free software to take back control of your videos"
 
-#: src/App.vue:27
-msgid "A free software to take back control of your videos! "
-msgstr "A free software to take back control of your videos! "
+#: src/App.vue:28
+msgid "A free software to take back control of your videos! With more than 100 000 hosted videos, viewed more than 6 millions times and 20 000 users, PeerTube is the decentralized free software alternative to videos platforms developed by Framasoft"
+msgstr "A free software to take back control of your videos! With more than 100 000 hosted videos, viewed more than 6 millions times and 20 000 users, PeerTube is the decentralized free software alternative to videos platforms developed by Framasoft"
 
 #: src/views/News.vue:331
 msgid "A month before the version 1 of PeerTube, we would like to share some (good!) news with you."

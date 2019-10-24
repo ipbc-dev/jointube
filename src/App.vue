@@ -24,11 +24,8 @@
         titleTemplate: '%s | JoinPeerTube',
         meta: [
           {
-            description: this.$gettext(
-              'A free software to take back control of your videos! ' +
-                'With more than 100 000 hosted videos, viewed more than 6 millions times and 20 000 users, ' +
-                'PeerTube is the decentralized free software alternative to videos platforms developed by Framasoft'
-            )
+            // Don't wrap the line to correctly extract this line
+            description: this.$gettext('A free software to take back control of your videos! With more than 100 000 hosted videos, viewed more than 6 millions times and 20 000 users, PeerTube is the decentralized free software alternative to videos platforms developed by Framasoft')
           }
         ]
       }
