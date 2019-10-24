@@ -43,8 +43,13 @@ const localePath = window.location.pathname
   .replace(/^\//, '')
   .replace(/\/$/, '')
 
+const languageFromLocalStorage = localStorage.getItem('language')
+
 if (allLocales.includes(localePath)) {
   Vue.config.language = aliasesLanguages[localePath] ? aliasesLanguages[localePath] : localePath
+  localStorage.setItem('language', Vue.config.language)
+} else if (languageFromLocalStorage) {
+  Vue.config.language = languageFromLocalStorage
 } else {
   const navigatorLanguage = window.navigator.userLanguage || window.navigator.language
   const snakeCaseLanguage = navigatorLanguage.replace('-', '_')
