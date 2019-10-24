@@ -90,6 +90,16 @@ main {
   border-left: 0.3em solid transparent;
 }
 
+a {
+  color: #000;
+  font-weight: $font-semibold;
+  border-bottom: 3px solid $orange;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 .jpt-button {
   @include disable-default-a-behaviour;
 
