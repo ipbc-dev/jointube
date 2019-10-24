@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-10-24 11:51+0000\n"
+"PO-Revision-Date: 2019-10-24 12:44+0000\n"
 "Last-Translator: chocobozzz <chocobozzz@framasoft.org>\n"
 "Language-Team: French <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/fr/>\n"
@@ -2530,6 +2530,8 @@ msgid ""
 "Why does PeerTube use the ActivityPub federation protocol? Why not IPFS / d."
 "tube / Steemit?"
 msgstr ""
+"Pourquoi PeerTube utilise-t-il le protocole de fédération ActivityPub ? "
+"Pourquoi pas IPFS / d.tube / Steemit ?"
 
 #: src/views/Home.vue:10
 msgid ""
