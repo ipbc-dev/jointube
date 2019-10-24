@@ -34,7 +34,7 @@
         <div class="border-title"></div>
       </div>
 
-      <content-selections :sample-size-each="2"></content-selections>
+      <content-selections :sample-size-each="1"></content-selections>
 
       <div class="bottom-link-wrapper">
         <router-link :to="{ path: '/instances', hash: 'instances-list' }" class="bottom-link">
