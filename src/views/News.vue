@@ -185,8 +185,8 @@
           <p v-translate>
             Since version 1.0 has been released last November, we went on improving PeerTube, day after day. These improvements on PeerTube
             go well beyond the objectives fixed during the crowdfunding. They have been funded by the
-            <a target="_blank" rel="noopener noreferrer" href="https://framasoft.org/en/">Framasoft non-profit</a>, which develops the software (and lives only
-            through <a target="_blank" rel="noopener noreferrer" href="https://soutenir.framasoft.org/en/">your donations</a>).
+            <a target="_blank" rel="noopener noreferrer" href="https://framasoft.org">Framasoft non-profit</a>, which develops the software (and lives only
+            through <a target="_blank" rel="noopener noreferrer" href="https://soutenir.framasoft.org">your donations</a>).
           </p>
 
           <p v-translate>Here is a small retrospective of the end of 2018/beginning of 2019:</p>
@@ -339,9 +339,9 @@
 
           <p v-translate>
             Regarding the crowdfunding, most of the rewards are ready: <a target="_blank" rel="noopener noreferrer" href="https://github.com/Chocobozzz/PeerTube">the PeerTube
-            README</a> and <a target="_blank" rel="noopener noreferrer" href="https://joinpeertube.org/fr/hall-of-fame/">the JoinPeerTube Hall of Fame</a> show off the names of the
+            README</a> and <a target="_blank" rel="noopener noreferrer" href="https://joinpeertube.org/hall-of-fame">the JoinPeerTube Hall of Fame</a> show off the names of the
             persons who have chosen the corresponding rewards. We will soon be able to send the personalized thank-you digital arts to
-            people that gave 80€ (~93 USD) and more (and it's so beautiful that we are looking forward to it!)
+            people that gave 80€ (~93 USD) and more (and it's so beautiful that we are looking forward to it!).
           </p>
 
           <p v-translate>
