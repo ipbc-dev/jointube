@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-10-24 07:50+0000\n"
+"PO-Revision-Date: 2019-10-24 11:30+0000\n"
 "Last-Translator: chocobozzz <chocobozzz@framasoft.org>\n"
 "Language-Team: French <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/fr/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #: src/views/Home.vue:52 src/views/Home.vue:302
 msgid "?"
-msgstr ""
+msgstr "?"
 
 #: src/views/FAQ.vue:381
 msgid ""
@@ -179,11 +179,8 @@ msgstr ""
 "Vimeo et bien d’autres !)"
 
 #: src/views/Home.vue:235
-#, fuzzy
 msgid "About peer-to-peer broadcasting and watching"
-msgstr ""
-"De la diffusion – et donc du visionnage – en pair-à-pair <div class=\"border-"
-"title\"/>"
+msgstr "De la diffusion – et donc du visionnage – en pair-à-pair"
 
 #: src/components/InstancesList.vue:315
 msgid "Activism"
@@ -241,9 +238,8 @@ msgstr ""
 "développement communautaire)  ;"
 
 #: src/views/Home.vue:142
-#, fuzzy
 msgid "An open-source, free/libre licence code"
-msgstr "Un code ouvert sous licence libre <div class=\"border-title\"/>"
+msgstr "Un code ouvert sous licence libre"
 
 #: src/views/Home.vue:120
 msgid ""
@@ -315,9 +311,8 @@ msgstr ""
 "administrateur⋅ices différent⋅e⋅s.</strong>"
 
 #: src/views/Home.vue:190
-#, fuzzy
 msgid "Are you a video maker?"
-msgstr "Vous êtes vidéaste ? <div class=\"border-title\"/>"
+msgstr "Vous êtes vidéaste ?"
 
 #: src/components/InstancesList.vue:305
 msgid "Art"
@@ -355,10 +350,12 @@ msgid ""
 "As you can see, we have gone far beyond what the crowdfunding has funded. "
 "And we will continue!"
 msgstr ""
+"Comme vous pouvez le constater, nous sommes allés bien au delà de ce que le "
+"crowdfunding avait financé. Et nous allons continuer !"
 
 #: src/views/Help.vue:40
 msgid "Ask questions to the community"
-msgstr ""
+msgstr "Poser des questions à la communauté"
 
 #: src/components/InstancesList.vue:85
 msgid "At least 1GB"
@@ -512,7 +509,7 @@ msgstr "Tchèque"
 #: src/views/News.vue:317 src/views/News.vue:374 src/views/News.vue:418
 #: src/views/News.vue:462
 msgid "Cheers,"
-msgstr ""
+msgstr "Librement,"
 
 #: src/components/InstancesList.vue:310
 msgid "Comedy"
@@ -531,9 +528,8 @@ msgid "Contribute"
 msgstr "Contribuer"
 
 #: src/views/Help.vue:88
-#, fuzzy
 msgid "Contribute to PeerTube"
-msgstr "Contributeurs"
+msgstr "Contribuer à PeerTube"
 
 #: src/views/Hall-Of-Fame.vue:426
 msgid "Contributors"
@@ -558,7 +554,7 @@ msgstr "Allemand"
 
 #: src/components/Header.vue:8
 msgid "developed by"
-msgstr ""
+msgstr "développé par"
 
 #: src/views/Home.vue:214
 msgid ""
@@ -588,9 +584,8 @@ msgid "Discover PeerTube instances"
 msgstr "Découvrir les instances PeerTube"
 
 #: src/views/News.vue:6
-#, fuzzy
 msgid "Discover the latest PeerTube improvements"
-msgstr "Découvrir les instances PeerTube"
+msgstr "Découvrir les dernières avancées de PeerTube"
 
 #: src/components/InstancesList.vue:59
 msgid "Display"
@@ -750,17 +745,14 @@ msgid "Food"
 msgstr "Cuisine"
 
 #: src/views/News.vue:225
-#, fuzzy
 msgid ""
 "For 2019, we plan to add a plugin and theme management system (even though "
 "basic at first), playlist management, support for audio files upload and "
 "many other features."
 msgstr ""
-"Comme vous pouvez le constater, nous sommes allés bien au delà de ce que le "
-"crowdfunding avait financé. Et nous allons continuer !<br/> Car il est prévu "
-"pour l'année 2019 d'ajouter un système de plugins et de thèmes (peu évolué "
-"dans un premier temps), une gestion des playlists, la prise en charge de "
-"fichiers audio à l'upload et bien d'autres fonctionnalités."
+"Il est prévu pour l'année 2019 d'ajouter un système de plugins et de thèmes ("
+"peu évolué dans un premier temps), une gestion des playlists, la prise en "
+"charge de fichiers audio à l'upload et bien d'autres fonctionnalités."
 
 #: src/views/FAQ.vue:236
 msgid ""
@@ -799,9 +791,8 @@ msgstr ""
 "avant un lien pour soutenir une ONG, etc."
 
 #: src/views/Help.vue:61
-#, fuzzy
 msgid "For PeerTube admins"
-msgstr "Les actualités de PeerTube !"
+msgstr "Pour les administrateurs de PeerTube"
 
 #: src/components/Footer.vue:9
 msgid "Forum"
@@ -972,15 +963,12 @@ msgstr ""
 "l’instance PeerTube de votre choix.</strong>"
 
 #: src/views/News.vue:200
-#, fuzzy
 msgid ""
 "In December 2018, we released version 1.1 which contained some moderation "
 "tools requested by instance administrators."
 msgstr ""
 "En décembre 2018, nous avons sorti la version 1.1 qui contenait certains "
-"outils de modération demandés par les administrateurs d'instances.<br/> Nous "
-"en avons aussi profité pour ajouter une fonctionnalité d'historique de "
-"visionnage et de reprise automatique de la lecture des vidéos."
+"outils de modération demandés par les administrateurs d'instances."
 
 #: src/views/News.vue:205
 msgid ""
@@ -1329,7 +1317,7 @@ msgstr "Néerlandais"
 
 #: src/views/Help.vue:28
 msgid "Need a detailed guide?"
-msgstr ""
+msgstr "Besoin d'un guide détaillé ?"
 
 #: src/views/FAQ.vue:294
 msgid ""
@@ -1737,7 +1725,7 @@ msgstr "Portugais (Portugal)"
 
 #: src/views/Help.vue:7
 msgid "Questions on PeerTube? Need help? You've come to the right place!"
-msgstr ""
+msgstr "Des questions sur PeerTube ? Besoin d'aide ? Vous êtes au bon endroit !"
 
 #: src/views/Help.vue:31
 msgid "Read the documentation"
@@ -1752,7 +1740,6 @@ msgstr ""
 "partager certaines vidéos d’autres instances"
 
 #: src/views/News.vue:351
-#, fuzzy
 msgid ""
 "Regarding the crowdfunding, most of the rewards are ready: <a target=\"_blank"
 "\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube"
@@ -1765,12 +1752,13 @@ msgid ""
 msgstr ""
 "Concernant le crowdfunding, la plupart des récompenses sont prêtes : <a "
 "target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/"
-"Chocobozzz/PeerTube\">le fichier README de PeerTube</a> et <a target=\"_blank"
-"\" rel=\"noopener noreferrer\" href=\"https://joinpeertube.org/hall-of-fame"
-"\">le Hall of Fame du site JoinPeertube</a> affichent fièrement les noms des "
-"personnes ayant choisi les récompenses correspondantes. Nous allons bientôt "
-"pouvoir envoyer les illustrations numériques personnalisées à celles et ceux "
-"qui ont donné 80 € et plus (et c'est tellement beau qu'il nous tarde !)."
+"Chocobozzz/PeerTube\">le fichier README de PeerTube</a> et <a target=\""
+"_blank\" rel=\"noopener noreferrer\" href=\"https://joinpeertube.org/hall-of-"
+"fame\">le Hall of Fame du site JoinPeertube</a> affichent fièrement les noms "
+"des personnes ayant choisi les récompenses correspondantes. Nous allons "
+"bientôt pouvoir envoyer les illustrations numériques personnalisées à celles "
+"et ceux qui ont donné 80 € et plus (et c'est tellement beau qu'il nous tarde "
+"!)."
 
 #: src/views/News.vue:441
 msgid ""
@@ -1862,7 +1850,6 @@ msgstr ""
 "système de plugins."
 
 #: src/views/News.vue:190
-#, fuzzy
 msgid ""
 "Since version 1.0 has been released last November, we went on improving "
 "PeerTube, day after day. These improvements on PeerTube go well beyond the "
@@ -1876,9 +1863,9 @@ msgstr ""
 "d'améliorer PeerTube jour après jour. Ces avancées de PeerTube, bien au delà "
 "des objectifs du crowdfunding, ont été financées par <a target=\"_blank\" "
 "rel=\"noopener noreferrer\" href=\"https://framasoft.org\">l'association "
-"Framasoft</a>, qui développe le logiciel (et ne vit que par <a target="
-"\"_blank\" rel=\"noopener noreferrer\" href=\"https://soutenir.framasoft.org"
-"\">vos dons</a>)."
+"Framasoft</a>, qui développe le logiciel (et ne vit que par <a target=\""
+"_blank\" rel=\"noopener noreferrer\" href=\"https://soutenir.framasoft.org\">"
+"vos dons</a>)."
 
 #: src/views/FAQ.vue:260
 msgid ""
@@ -2153,7 +2140,6 @@ msgstr ""
 "PeerTube de Solar (qui gère le serveur de son collectif de vidéastes)."
 
 #: src/views/FAQ.vue:279
-#, fuzzy
 msgid ""
 "There are none, not at the moment, PeerTube is a tool that we wanted neutral "
 "in terms of remuneration."
@@ -2205,7 +2191,7 @@ msgstr ""
 
 #: src/views/Home.vue:117
 msgid "This is just how a <strong>federation</strong> works!"
-msgstr ""
+msgstr "C'est le principe de <strong>la fédération !</strong>"
 
 #: src/views/News.vue:304
 msgid ""
@@ -2262,9 +2248,8 @@ msgid "Travels"
 msgstr "Voyages"
 
 #: src/components/InstanceCard.vue:261
-#, fuzzy
 msgid "Unlimited space"
-msgstr "Espace illimité pour les utilisateurs"
+msgstr "Espace illimité"
 
 #: src/views/Help.vue:72
 msgid "Upgrade PeerTube"
@@ -2312,14 +2297,11 @@ msgstr ""
 "uploadées."
 
 #: src/views/News.vue:202
-#, fuzzy
 msgid ""
 "We also took the opportunity to add a watched videos history feature and the "
 "automatic resuming of video playback."
 msgstr ""
-"En décembre 2018, nous avons sorti la version 1.1 qui contenait certains "
-"outils de modération demandés par les administrateurs d'instances.<br/> Nous "
-"en avons aussi profité pour ajouter une fonctionnalité d'historique de "
+"Nous en avons aussi profité pour ajouter une fonctionnalité d'historique de "
 "visionnage et de reprise automatique de la lecture des vidéos."
 
 #: src/views/News.vue:401
@@ -2528,7 +2510,7 @@ msgstr ""
 
 #: src/views/Home.vue:50
 msgid "What is"
-msgstr ""
+msgstr "C'est quoi"
 
 #: src/views/Home.vue:19
 msgid "What is PeerTube?"
@@ -2547,7 +2529,7 @@ msgstr ""
 
 #: src/views/Home.vue:300
 msgid "Who is behind"
-msgstr ""
+msgstr "Qui est derrière"
 
 #: src/views/Home.vue:10
 msgid ""
@@ -2661,9 +2643,8 @@ msgstr ""
 "figure."
 
 #: src/views/Home.vue:270
-#, fuzzy
 msgid "Your move!"
-msgstr "Votre profil"
+msgstr "À vous de jouer !"
 
 #: src/components/InstancesList.vue:7
 msgid "Your profile"
