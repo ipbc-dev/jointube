@@ -4,7 +4,7 @@
     <div class="left">
       <img :src="thumbnailUrl" alt="thumbnail"/>
 
-      <button class="jpt-button jpt-button-medium">
+      <a target="_blank" rel="noopener noreferrer" :href="url" class="jpt-button jpt-button-medium">
         <template v-if="type === 'video'">
           <div class="icon">
             <icon-video></icon-video>
@@ -25,7 +25,7 @@
           </div>
           <div>Go on the instance</div>
         </template>
-      </button>
+      </a>
     </div>
 
     <div class="right">
@@ -78,7 +78,7 @@
         border-radius: 3px;
       }
 
-      button {
+      a.jpt-button {
         display: flex;
         flex-direction: row !important;
         margin-top: 30px;
