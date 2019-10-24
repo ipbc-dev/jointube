@@ -83,21 +83,6 @@ msgstr ""
 "(système de commentaires innovant, etc.) nous ont déjà été soufflées par "
 "certain·e·s d’entre vous."
 
-#: src/views/News.vue:222
-#, fuzzy
-msgid ""
-"<translate>As you can see, we have gone far beyond what the crowdfunding has "
-"funded. And we will continue!</translate> <br/> <translate> For 2019, we "
-"plan to add a plugin and theme management system (even though basic at "
-"first), playlist management, support for audio files upload and many other "
-"features. </translate>"
-msgstr ""
-"Comme vous pouvez le constater, nous sommes allés bien au delà de ce que le "
-"crowdfunding avait financé. Et nous allons continuer !<br/> Car il est prévu "
-"pour l'année 2019 d'ajouter un système de plugins et de thèmes (peu évolué "
-"dans un premier temps), une gestion des playlists, la prise en charge de "
-"fichiers audio à l'upload et bien d'autres fonctionnalités."
-
 #: src/views/Instances.vue:23
 msgid "1. Find the instance that suits you best"
 msgstr "1. Trouvez l’instance qui vous correspond"
@@ -750,8 +735,8 @@ msgid ""
 "basic at first), playlist management, support for audio files upload and "
 "many other features."
 msgstr ""
-"Il est prévu pour l'année 2019 d'ajouter un système de plugins et de thèmes ("
-"peu évolué dans un premier temps), une gestion des playlists, la prise en "
+"Il est prévu pour l'année 2019 d'ajouter un système de plugins et de thèmes "
+"(peu évolué dans un premier temps), une gestion des playlists, la prise en "
 "charge de fichiers audio à l'upload et bien d'autres fonctionnalités."
 
 #: src/views/FAQ.vue:236
@@ -1725,7 +1710,8 @@ msgstr "Portugais (Portugal)"
 
 #: src/views/Help.vue:7
 msgid "Questions on PeerTube? Need help? You've come to the right place!"
-msgstr "Des questions sur PeerTube ? Besoin d'aide ? Vous êtes au bon endroit !"
+msgstr ""
+"Des questions sur PeerTube ? Besoin d'aide ? Vous êtes au bon endroit !"
 
 #: src/views/Help.vue:31
 msgid "Read the documentation"
@@ -1752,13 +1738,12 @@ msgid ""
 msgstr ""
 "Concernant le crowdfunding, la plupart des récompenses sont prêtes : <a "
 "target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/"
-"Chocobozzz/PeerTube\">le fichier README de PeerTube</a> et <a target=\""
-"_blank\" rel=\"noopener noreferrer\" href=\"https://joinpeertube.org/hall-of-"
-"fame\">le Hall of Fame du site JoinPeertube</a> affichent fièrement les noms "
-"des personnes ayant choisi les récompenses correspondantes. Nous allons "
-"bientôt pouvoir envoyer les illustrations numériques personnalisées à celles "
-"et ceux qui ont donné 80 € et plus (et c'est tellement beau qu'il nous tarde "
-"!)."
+"Chocobozzz/PeerTube\">le fichier README de PeerTube</a> et <a target=\"_blank"
+"\" rel=\"noopener noreferrer\" href=\"https://joinpeertube.org/hall-of-fame"
+"\">le Hall of Fame du site JoinPeertube</a> affichent fièrement les noms des "
+"personnes ayant choisi les récompenses correspondantes. Nous allons bientôt "
+"pouvoir envoyer les illustrations numériques personnalisées à celles et ceux "
+"qui ont donné 80 € et plus (et c'est tellement beau qu'il nous tarde !)."
 
 #: src/views/News.vue:441
 msgid ""
@@ -1863,9 +1848,9 @@ msgstr ""
 "d'améliorer PeerTube jour après jour. Ces avancées de PeerTube, bien au delà "
 "des objectifs du crowdfunding, ont été financées par <a target=\"_blank\" "
 "rel=\"noopener noreferrer\" href=\"https://framasoft.org\">l'association "
-"Framasoft</a>, qui développe le logiciel (et ne vit que par <a target=\""
-"_blank\" rel=\"noopener noreferrer\" href=\"https://soutenir.framasoft.org\">"
-"vos dons</a>)."
+"Framasoft</a>, qui développe le logiciel (et ne vit que par <a target="
+"\"_blank\" rel=\"noopener noreferrer\" href=\"https://soutenir.framasoft.org"
+"\">vos dons</a>)."
 
 #: src/views/FAQ.vue:260
 msgid ""
@@ -2680,6 +2665,20 @@ msgstr "Japonais"
 #: src/components/InstancesList.vue:336
 msgid "简体中文（中国）"
 msgstr "Chinois simplifié"
+
+#, fuzzy
+#~ msgid ""
+#~ "<translate>As you can see, we have gone far beyond what the crowdfunding "
+#~ "has funded. And we will continue!</translate> <br/> <translate> For 2019, "
+#~ "we plan to add a plugin and theme management system (even though basic at "
+#~ "first), playlist management, support for audio files upload and many "
+#~ "other features. </translate>"
+#~ msgstr ""
+#~ "Comme vous pouvez le constater, nous sommes allés bien au delà de ce que "
+#~ "le crowdfunding avait financé. Et nous allons continuer !<br/> Car il est "
+#~ "prévu pour l'année 2019 d'ajouter un système de plugins et de thèmes (peu "
+#~ "évolué dans un premier temps), une gestion des playlists, la prise en "
+#~ "charge de fichiers audio à l'upload et bien d'autres fonctionnalités."
 
 #~ msgid "Cheers,<br/> Framasoft"
 #~ msgstr "Librement,<br/> Framasoft"

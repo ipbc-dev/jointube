@@ -36,10 +36,6 @@ msgstr "<strong>It's software you install on your server</strong> to create a we
 msgid "<strong>PeerTube is not only open-source: it's free (as in free speech).</strong> Its free license guarantees our fundamental freedoms as users. It is this respect for our freedoms that allows Framasoft to invite you to contribute to this software, and many evolutions (innovative comment system, etc.) have already been suggested by some of you."
 msgstr "<strong>PeerTube is not only open-source: it's free (as in free speech).</strong> Its free license guarantees our fundamental freedoms as users. It is this respect for our freedoms that allows Framasoft to invite you to contribute to this software, and many evolutions (innovative comment system, etc.) have already been suggested by some of you."
 
-#: src/views/News.vue:222
-msgid "<translate>As you can see, we have gone far beyond what the crowdfunding has funded. And we will continue!</translate> <br/> <translate> For 2019, we plan to add a plugin and theme management system (even though basic at first), playlist management, support for audio files upload and many other features. </translate>"
-msgstr "<translate>As you can see, we have gone far beyond what the crowdfunding has funded. And we will continue!</translate> <br/> <translate> For 2019, we plan to add a plugin and theme management system (even though basic at first), playlist management, support for audio files upload and many other features. </translate>"
-
 #: src/views/Instances.vue:23
 msgid "1. Find the instance that suits you best"
 msgstr "1. Find the instance that suits you best"
