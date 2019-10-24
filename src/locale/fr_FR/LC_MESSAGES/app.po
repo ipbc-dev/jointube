@@ -108,9 +108,9 @@ msgstr ""
 "Une fédération d’hébergements interconnectés (donc plus de choix de vidéos "
 "où qu’on aille les voir) ;"
 
-#: src/views/Home.vue:74
-msgid ""
-"A federation of interconnected hosting services <div class=\"border-title\"/>"
+#: src/views/Home.vue:75
+#, fuzzy
+msgid "A federation of interconnected hosting services"
 msgstr ""
 "Une fédération d’hébergements interconnectés <div class=\"border-title\"/>"
 

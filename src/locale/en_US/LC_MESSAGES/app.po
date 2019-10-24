@@ -56,9 +56,9 @@ msgstr "A better interface"
 msgid "A federation of interconnected hosting providers (so more video choices wherever you go to see them);"
 msgstr "A federation of interconnected hosting providers (so more video choices wherever you go to see them);"
 
-#: src/views/Home.vue:74
-msgid "A federation of interconnected hosting services <div class=\"border-title\"/>"
-msgstr "A federation of interconnected hosting services <div class=\"border-title\"/>"
+#: src/views/Home.vue:75
+msgid "A federation of interconnected hosting services"
+msgstr "A federation of interconnected hosting services"
 
 #: src/views/FAQ.vue:7
 msgid "A few questions to discover PeerTube"

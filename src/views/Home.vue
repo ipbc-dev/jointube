@@ -72,8 +72,8 @@
       </div>
 
       <div class="federation">
-        <div class="subtitle" v-translate>
-          A federation of interconnected hosting services
+        <div class="subtitle">
+          <translate>A federation of interconnected hosting services</translate>
           <div class="border-title"></div>
         </div>
 
