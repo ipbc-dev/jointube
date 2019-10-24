@@ -16,11 +16,9 @@
 
       <b-dropdown-divider></b-dropdown-divider>
 
-      <b-dropdown-item>
-        <a class="translate" target="_blank" rel="noopener noreferrer" href="https://weblate.framasoft.org/projects/joinpeertube/main/">
-          <icon-add></icon-add>
-          <span v-translate>Translate</span>
-        </a>
+      <b-dropdown-item class="translate" target="_blank" rel="noopener noreferrer" href="https://weblate.framasoft.org/projects/joinpeertube/main/">
+        <icon-add></icon-add>
+        <span v-translate>Translate</span>
       </b-dropdown-item>
     </b-dropdown>
   </div>
