@@ -189,7 +189,7 @@ msgstr "Administrer PeerTube"
 msgid "Advanced search"
 msgstr "Recherche avancée"
 
-#: src/views/FAQ.vue:470
+#: src/views/FAQ.vue:473
 msgid ""
 "After discussing it on our forum, we feel that d.tube is not free or open "
 "source, because publishing only compiled code hinders freedom of "
@@ -653,7 +653,7 @@ msgstr "Espéranto"
 msgid "Euskara"
 msgstr "Basque"
 
-#: src/views/FAQ.vue:5 src/views/FAQ.vue:540
+#: src/views/FAQ.vue:5 src/views/FAQ.vue:543
 msgid "FAQ"
 msgstr "FAQ"
 
@@ -1065,7 +1065,7 @@ msgstr "Langues de l'instance"
 msgid "Instances list"
 msgstr "Liste des instances"
 
-#: src/views/FAQ.vue:468
+#: src/views/FAQ.vue:471
 msgid ""
 "IPFS is a great technology, but it still seems very (too!) young for large "
 "scale streaming of large files."
@@ -1255,7 +1255,7 @@ msgstr "Mo"
 msgid "More features"
 msgstr "Et aussi"
 
-#: src/views/FAQ.vue:486
+#: src/views/FAQ.vue:489
 msgid "More technical questions"
 msgstr "Autres questions techniques"
 
@@ -1577,7 +1577,7 @@ msgstr ""
 "PeerTube est <strong>un logiciel libre gratuit financé par une association</"
 "strong> française à but non lucratif : Framasoft"
 
-#: src/views/FAQ.vue:475
+#: src/views/FAQ.vue:478
 msgid ""
 "PeerTube is free, decentralized, distributed, and does not impose any "
 "remuneration model. This is the choice we have made, which is debatable, and "
@@ -1669,7 +1669,7 @@ msgstr ""
 "néerlandais et le portugais européen (l’interface supportait déjà le "
 "portugais brésilien). A ce jour, PeerTube est donc disponible en 19 langues !"
 
-#: src/views/FAQ.vue:463
+#: src/views/FAQ.vue:466
 msgid ""
 "PeerTube uses ActivityPub because this federation protocol is recommended by "
 "the W3C and is already used by the federated social network Mastodon."
@@ -2238,7 +2238,7 @@ msgstr ""
 msgid "Torrent import"
 msgstr "Importation de Torrent"
 
-#: src/components/I18n.vue:21
+#: src/components/I18n.vue:20
 msgid "Translate"
 msgstr "Traduire"
 
@@ -2524,6 +2524,12 @@ msgstr ""
 #: src/views/Home.vue:300
 msgid "Who is behind"
 msgstr "Qui est derrière"
+
+#: src/views/FAQ.vue:462
+msgid ""
+"Why does PeerTube use the ActivityPub federation protocol? Why not IPFS / d."
+"tube / Steemit?"
+msgstr ""
 
 #: src/views/Home.vue:10
 msgid ""

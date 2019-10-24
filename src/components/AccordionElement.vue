@@ -3,7 +3,7 @@
 
     <b-card-header header-tag="header" role="tab">
       <a :href="href" v-b-toggle="accordionBodyId">
-        {{ title }}
+        <slot name="title"></slot>
       </a>
     </b-card-header>
 

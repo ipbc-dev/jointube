@@ -458,8 +458,11 @@
           </div>
         </accordion-element>
 
-        <accordion-element accordion="a" id="Why does PeerTube use the ActivityPub federation protocol? Why not IPFS / d.tube / Steemit?"
-                           :title="$gettext('Why does PeerTube use the ActivityPub federation protocol? Why not IPFS / d.tube / Steemit?')">
+        <accordion-element accordion="a" id="Why does PeerTube use the ActivityPub federation protocol? Why not IPFS / d.tube / Steemit?">
+          <template v-slot:title>
+            <translate>Why does PeerTube use the ActivityPub federation protocol? Why not IPFS / d.tube / Steemit?</translate>
+          </template>
+
           <div>
             <p v-translate>
               PeerTube uses ActivityPub because this federation protocol is recommended by the W3C and is already used by the federated

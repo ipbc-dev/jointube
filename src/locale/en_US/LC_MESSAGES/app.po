@@ -112,7 +112,7 @@ msgstr "Administer PeerTube"
 msgid "Advanced search"
 msgstr "Advanced search"
 
-#: src/views/FAQ.vue:470
+#: src/views/FAQ.vue:473
 msgid "After discussing it on our forum, we feel that d.tube is not free or open source, because publishing only compiled code hinders freedom of modification."
 msgstr "After discussing it on our forum, we feel that d.tube is not free or open source, because publishing only compiled code hinders freedom of modification."
 
@@ -390,7 +390,7 @@ msgstr "Esperanto"
 msgid "Euskara"
 msgstr "Euskara"
 
-#: src/views/FAQ.vue:5 src/views/FAQ.vue:540
+#: src/views/FAQ.vue:5 src/views/FAQ.vue:543
 msgid "FAQ"
 msgstr "FAQ"
 
@@ -609,7 +609,7 @@ msgstr "Instance languages"
 msgid "Instances list"
 msgstr "Instances list"
 
-#: src/views/FAQ.vue:468
+#: src/views/FAQ.vue:471
 msgid "IPFS is a great technology, but it still seems very (too!) young for large scale streaming of large files."
 msgstr "IPFS is a great technology, but it still seems very (too!) young for large scale streaming of large files."
 
@@ -709,7 +709,7 @@ msgstr "MB"
 msgid "More features"
 msgstr "More features"
 
-#: src/views/FAQ.vue:486
+#: src/views/FAQ.vue:489
 msgid "More technical questions"
 msgstr "More technical questions"
 
@@ -874,7 +874,7 @@ msgstr "PeerTube instances"
 msgid "Peertube is a <strong>free/libre software funded by a French non-profit organization</strong>: Framasoft"
 msgstr "Peertube is a <strong>free/libre software funded by a French non-profit organization</strong>: Framasoft"
 
-#: src/views/FAQ.vue:475
+#: src/views/FAQ.vue:478
 msgid "PeerTube is free, decentralized, distributed, and does not impose any remuneration model. This is the choice we have made, which is debatable, and others (like d.tube) have made other choices, which have their advantages. So it’s up to you to see what suits you."
 msgstr "PeerTube is free, decentralized, distributed, and does not impose any remuneration model. This is the choice we have made, which is debatable, and others (like d.tube) have made other choices, which have their advantages. So it’s up to you to see what suits you."
 
@@ -918,7 +918,7 @@ msgstr "PeerTube Presentation"
 msgid "PeerTube translation community have done a huge job. <strong>3 new languages</strong> are now available: Japanese, Dutch and European Portuguese (PeerTube already support Brazilian Portuguese). Amazing! PeerTube is now available in 19 languages!"
 msgstr "PeerTube translation community have done a huge job. <strong>3 new languages</strong> are now available: Japanese, Dutch and European Portuguese (PeerTube already support Brazilian Portuguese). Amazing! PeerTube is now available in 19 languages!"
 
-#: src/views/FAQ.vue:463
+#: src/views/FAQ.vue:466
 msgid "PeerTube uses ActivityPub because this federation protocol is recommended by the W3C and is already used by the federated social network Mastodon."
 msgstr "PeerTube uses ActivityPub because this federation protocol is recommended by the W3C and is already used by the federated social network Mastodon."
 
@@ -1186,7 +1186,7 @@ msgstr "This version also includes a notification system that allows users to be
 msgid "Torrent import"
 msgstr "Torrent import"
 
-#: src/components/I18n.vue:21
+#: src/components/I18n.vue:20
 msgid "Translate"
 msgstr "Translate"
 
@@ -1317,6 +1317,10 @@ msgstr "When you host a large file like a video, the biggest thing to fear is su
 #: src/views/Home.vue:300
 msgid "Who is behind"
 msgstr "Who is behind"
+
+#: src/views/FAQ.vue:462
+msgid "Why does PeerTube use the ActivityPub federation protocol? Why not IPFS / d.tube / Steemit?"
+msgstr "Why does PeerTube use the ActivityPub federation protocol? Why not IPFS / d.tube / Steemit?"
 
 #: src/views/Home.vue:10
 msgid "With more than 100 000 hosted videos, viewed more than 6 millions times and 20 000 users, PeerTube is the decentralized free software alternative to videos platforms developed by Framasoft"
