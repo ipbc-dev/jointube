@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main id="home">
 
     <section class="presentation">
       <div class="first-row">
@@ -46,10 +46,11 @@
 
     <section id="what-is-peertube">
       <div class="section-title">
-        <div v-translate>
-          What is
+        <div>
+          <!-- FIXME: add v-translate to the div, but it does not work with vue-gettext because of the bind src attribute -->
+          <translate>What is</translate>
           <img class="brand-title" :src="buildImgUrl('brand.png')" alt="PeerTube"/>
-          ?
+          <translate>?</translate>
         </div>
         <div class="border-title"></div>
       </div>
@@ -114,7 +115,7 @@
             <div class="citation">
               <div class="left-bar"></div>
 
-              <div class="text v-translate">This is just how a <strong>federation</strong> works!</div>
+              <div class="text" v-translate>This is just how a <strong>federation</strong> works!</div>
             </div>
 
             <p v-translate>
@@ -138,8 +139,8 @@
       </div>
 
       <div class="free-software">
-        <div class="subtitle" v-translate>
-          An open-source, free/libre licence code
+        <div class="subtitle">
+          <translate>An open-source, free/libre licence code</translate>
           <div class="border-title"></div>
         </div>
 
@@ -186,8 +187,8 @@
       </div>
 
       <div id="you-are-a-video-maker">
-        <div class="subtitle" v-translate>
-          Are you a video maker?
+        <div class="subtitle">
+          <translate>Are you a video maker?</translate>
           <div class="border-title"></div>
         </div>
 
@@ -231,8 +232,8 @@
       </div>
 
       <div class="p2p">
-        <div class="subtitle" v-translate>
-          About peer-to-peer broadcasting and watching
+        <div class="subtitle">
+          <translate>About peer-to-peer broadcasting and watching</translate>
           <div class="border-title"></div>
         </div>
 
@@ -266,8 +267,8 @@
       </div>
 
       <div id="your-move">
-        <div class="subtitle" v-translate>
-          Your move!
+        <div class="subtitle">
+          <translate>Your move!</translate>
           <div class="border-title"></div>
         </div>
 
@@ -295,10 +296,11 @@
 
     <section id="behind-peertube">
       <div class="section-title">
-        <div v-translate>
-          Who is behind
+        <div>
+          <!-- FIXME: add v-translate to the div, but it does not work with vue-gettext because of the bind src attribute -->
+          <translate>Who is behind</translate>
           <img class="brand-title" :src="buildImgUrl('brand.png')" alt="PeerTube"/>
-          ?
+          <translate>?</translate>
         </div>
 
         <div class="border-title"></div>
@@ -342,137 +344,139 @@
   </main>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
   @import '../scss/_variables.scss';
   @import '../scss/_mixins.scss';
 
-  .buttons-row {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-
-    .jpt-button {
-      width: 330px;
-      min-height: 50px;
-      height: fit-content;
-    }
-
-    @media screen and (max-width: $responsive-screen) {
-      padding: 0;
+  #home {
+    .buttons-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 20px;
 
       .jpt-button {
-        margin: 0 3px 0 0;
+        width: 330px;
+        min-height: 50px;
+        height: fit-content;
       }
 
-      &.explore-create-account {
-        flex-direction: column;
+      @media screen and (max-width: $responsive-screen) {
+        padding: 0;
 
-        .create-account-block {
-          margin-top: 50px;
+        .jpt-button {
+          margin: 0 3px 0 0;
+        }
+
+        &.explore-create-account {
+          flex-direction: column;
+
+          .create-account-block {
+            margin-top: 50px;
+          }
+        }
+      }
+
+      @media screen and (max-width: $small-screen) {
+        .jpt-button {
+          width: 100%;
         }
       }
     }
 
-    @media screen and (max-width: $small-screen) {
-      .jpt-button {
-        width: 100%;
-      }
+    .jpt-button-legend {
+      margin-top: 5px;
+      max-width: 330px;
+      font-size: 13px;
+      text-align: center;
     }
-  }
 
-  .jpt-button-legend {
-    margin-top: 5px;
-    max-width: 330px;
-    font-size: 13px;
-    text-align: center;
-  }
-
-  .presentation {
-    .first-row {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-top: 70px;
-      margin: auto;
-
-      .brand {
-        height: 47px;
-        margin-bottom: 20px;
-        margin-left: -30px;
-      }
-
-      div {
-        flex-basis: 100%;
-      }
-
-      .description {
-        font-size: 24px;
-        font-weight: 600;
-      }
-
-      @media screen and (max-width: $small-screen) {
-        padding: 15px 0;
+    .presentation {
+      .first-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 70px;
+        margin: auto;
 
         .brand {
-          height: 25px !important
+          height: 47px;
+          margin-bottom: 20px;
+          margin-left: -30px;
+        }
+
+        div {
+          flex-basis: 100%;
         }
 
         .description {
-          font-size: 20px;
-          margin-left: 20px;
+          font-size: 24px;
+          font-weight: 600;
+        }
+
+        @media screen and (max-width: $small-screen) {
+          padding: 15px 0;
+
+          .brand {
+            height: 25px !important
+          }
+
+          .description {
+            font-size: 20px;
+            margin-left: 20px;
+          }
+        }
+      }
+
+      .marketing {
+        font-size: 16px;
+        margin: 50px auto;
+        width: 500px;
+        text-align: center;
+
+        @media screen and (max-width: $small-screen) {
+          width: 100%;
         }
       }
     }
 
-    .marketing {
-      font-size: 16px;
-      margin: 50px auto;
-      width: 500px;
-      text-align: center;
-
-      @media screen and (max-width: $small-screen) {
-        width: 100%;
-      }
-    }
-  }
-
-  #you-are-a-video-maker {
-    .discover-instances {
-      min-width: 420px;
-      width: fit-content;
-      height: 50px;
-      margin: 50px auto;
-      font-size: 20px;
-    }
-  }
-
-  #your-move {
-    .one-column {
-      margin-top: 50px;
-    }
-
-    .buttons-row {
-      margin-top: 60px;
-
-      .jpt-button {
+    #you-are-a-video-maker {
+      .discover-instances {
+        min-width: 420px;
+        width: fit-content;
+        height: 50px;
+        margin: 50px auto;
         font-size: 20px;
       }
     }
-  }
 
-  #behind-peertube {
-    .framasoft-logo {
-      flex-basis: auto;
-      width: 264px;
-      height: 241px;
+    #your-move {
+      .one-column {
+        margin-top: 50px;
+      }
+
+      .buttons-row {
+        margin-top: 60px;
+
+        .jpt-button {
+          font-size: 20px;
+        }
+      }
     }
 
-    .jpt-button {
-      height: 50px;
-      min-width: 420px;
-      width: fit-content;
-      margin: 60px auto;
-      font-size: 20px;
+    #behind-peertube {
+      .framasoft-logo {
+        flex-basis: auto;
+        width: 264px;
+        height: 241px;
+      }
+
+      .jpt-button {
+        height: 50px;
+        min-width: 420px;
+        width: fit-content;
+        margin: 60px auto;
+        font-size: 20px;
+      }
     }
   }
 </style>

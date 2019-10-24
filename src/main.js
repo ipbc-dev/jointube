@@ -36,7 +36,7 @@ Vue.use(GetTextPlugin, {
   translations,
   availableLanguages,
   defaultLanguage: 'en_US',
-  silent: true
+  silent: false
 })
 
 const localePath = window.location.pathname

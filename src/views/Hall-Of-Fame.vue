@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main id="hall-of-fame">
     <div class="blocks">
 
       <div class="title-block">
@@ -555,58 +555,60 @@
   </main>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
   @import '../scss/_variables.scss';
   @import '../scss/_mixins.scss';
 
-  .blocks {
-    margin: 60px auto;
-  }
+  #hall-of-fame {
+    .blocks {
+      margin: 60px auto;
+    }
 
-  .subtitle {
-    margin-bottom: 10px;
-  }
+    .subtitle {
+      margin-bottom: 10px;
+    }
 
-  .sponsors {
-    a {
-      @include disable-default-a-behaviour;
+    .sponsors {
+      a {
+        @include disable-default-a-behaviour;
 
-      display: inline-block;
-      margin-right: 10px;
+        display: inline-block;
+        margin-right: 10px;
 
-      img {
-        width: 270px;
-        height: 135px;
+        img {
+          width: 270px;
+          height: 135px;
+        }
       }
     }
-  }
 
-  ul {
-    padding: 0;
+    ul {
+      padding: 0;
 
-    li {
-      display: inline-block;
-      padding: 0 5px;
+      li {
+        display: inline-block;
+        padding: 0 5px;
 
-      &:before {
-        content: "\25B6";
-        margin-right: 12px;
-      }
+        &:before {
+          content: "\25B6";
+          margin-right: 12px;
+        }
 
-      &:nth-of-type(3n):before {
-        color: #f1680d
-      }
+        &:nth-of-type(3n):before {
+          color: #f1680d
+        }
 
-      &:nth-of-type(3n+1):before {
-        color: #211f20
-      }
+        &:nth-of-type(3n+1):before {
+          color: #211f20
+        }
 
-      &:nth-of-type(3n+2):before {
-        color: #737373
-      }
+        &:nth-of-type(3n+2):before {
+          color: #737373
+        }
 
-      a {
-        color: #000;
+        a {
+          color: #000;
+        }
       }
     }
   }

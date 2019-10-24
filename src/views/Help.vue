@@ -1,11 +1,11 @@
 <template>
-  <main>
+  <main id="help">
     <div class="blocks">
 
       <div class="title-block">
         <div class="title" v-translate>Help</div>
 
-        <p>Questions on PeerTube? Need help? You've come to the right place!</p>
+        <p v-translate>Questions on PeerTube? Need help? You've come to the right place!</p>
 
         <div class="separator"></div>
       </div>
@@ -26,7 +26,7 @@
             </router-link>
           </div>
 
-          <p>Need a detailed guide?</p>
+          <p v-translate>Need a detailed guide?</p>
           <div class="bottom-link-wrapper">
             <a class="bottom-link" href="https://docs.joinpeertube.org" target="_blank" rel="noopener noreferrer">
               <span class="text" v-translate>Read the documentation</span>
@@ -38,7 +38,7 @@
 
       <div class="block-with-image community">
         <div class="text-block">
-          <div class="title">Ask questions to the community</div>
+          <div class="title" v-translate>Ask questions to the community</div>
 
           <div class="bottom-link-wrapper">
             <a href="https://framacolibri.org/c/peertube" class="bottom-link" target="_blank" rel="noopener noreferrer">
@@ -59,7 +59,7 @@
         </div>
 
         <div class="text-block">
-          <div class="title">For PeerTube admins</div>
+          <div class="title" v-translate>For PeerTube admins</div>
 
           <div class="bottom-link-wrapper">
             <a class="bottom-link" href="https://docs.joinpeertube.org/#/install-any-os" target="_blank" rel="noopener noreferrer">
@@ -86,7 +86,7 @@
 
       <div class="block-with-image contribute">
         <div class="text-block">
-          <div class="title">Contribute to PeerTube</div>
+          <div class="title" v-translate>Contribute to PeerTube</div>
 
           <div class="bottom-link-wrapper">
             <a class="bottom-link" href="https://docs.joinpeertube.org/#/contribute-getting-started" target="_blank" rel="noopener noreferrer">
@@ -105,74 +105,75 @@
   </main>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
   @import '../scss/_variables.scss';
 
-  .blocks {
-    margin: 60px auto;
-    width: 500px;
-  }
-
-  .block-with-image {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 100px;
-
-    .image-block + .text-block,
-    .text-block + .image-block {
-      margin-left: 40px;
-    }
-
-    .text-block {
-      text-align: right;
-
-      p {
-        margin-bottom: 0;
-      }
-
-      .title {
-        font-size: 24px;
-        margin-bottom: 25px;
-      }
-
-      .bottom-link-wrapper {
-        margin-top: 5px;
-        margin-bottom: 0;
-      }
-
-      .bottom-link-wrapper + * {
-        margin-top: 40px;
-      }
-    }
-
-    .image-block + .text-block {
-      text-align: left;
-    }
-  }
-
-  @media screen and (max-width: $small-screen) {
+  #help {
     .blocks {
-      width: auto;
+      margin: 60px auto;
+      width: 500px;
     }
 
     .block-with-image {
-      flex-direction: column;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 100px;
 
-      .text-block {
-        margin-left: 0 !important;
+      .image-block + .text-block,
+      .text-block + .image-block {
+        margin-left: 40px;
       }
 
       .text-block {
+        text-align: right;
+
+        p {
+          margin-bottom: 0;
+        }
+
+        .title {
+          font-size: 24px;
+          margin-bottom: 25px;
+        }
+
+        .bottom-link-wrapper {
+          margin-top: 5px;
+          margin-bottom: 0;
+        }
+
+        .bottom-link-wrapper + * {
+          margin-top: 40px;
+        }
+      }
+
+      .image-block + .text-block {
         text-align: left;
       }
+    }
 
-      .image-block {
-        margin: 40px 0;
+    @media screen and (max-width: $small-screen) {
+      .blocks {
+        width: auto;
+      }
+
+      .block-with-image {
+        flex-direction: column;
+
+        .text-block {
+          margin-left: 0 !important;
+        }
+
+        .text-block {
+          text-align: left;
+        }
+
+        .image-block {
+          margin: 40px 0;
+        }
       }
     }
   }
-
 </style>
 
 <script>

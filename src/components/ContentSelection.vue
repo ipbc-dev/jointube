@@ -1,5 +1,5 @@
 <template>
-  <div class="root">
+  <div id="content-selection">
 
     <div class="left">
       <img :src="thumbnailUrl" alt="thumbnail"/>
@@ -51,10 +51,10 @@
 
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
   @import '../scss/_variables';
 
-  .root {
+  #content-selection {
     display: flex;
 
     @media screen and (max-width: $small-screen) {
@@ -67,68 +67,68 @@
         margin-bottom: 20px !important;
       }
     }
-  }
 
-  .left {
-    margin-right: 20px;
+    .left {
+      margin-right: 20px;
 
-    img {
-      display: block;
-      width: 250px;
-      height: 137px;
-      border-radius: 3px;
-    }
+      img {
+        display: block;
+        width: 250px;
+        height: 137px;
+        border-radius: 3px;
+      }
 
-    button {
-      display: flex;
-      flex-direction: row !important;
-      margin-top: 30px;
-      width: 250px;
-      height: 35px;
+      button {
+        display: flex;
+        flex-direction: row !important;
+        margin-top: 30px;
+        width: 250px;
+        height: 35px;
 
-      .icon {
-        margin-right: 10px;
+        .icon {
+          margin-right: 10px;
 
-        svg {
-          vertical-align: sub;
-          width: 20px;
-          height: 20px;
+          svg {
+            vertical-align: sub;
+            width: 20px;
+            height: 20px;
+          }
         }
       }
     }
-  }
 
-  .right {
-    .title {
-      font-size: 24px;
-      font-weight: $font-semibold;
-      display: flex;
-      align-items: center;
-      font-family: 'Proza Libre', sans-serif;
+    .right {
+      .title {
+        font-size: 24px;
+        font-weight: $font-semibold;
+        display: flex;
+        align-items: center;
+        font-family: 'Proza Libre', sans-serif;
 
-      .icon {
-        margin-right: 10px;
-        position: relative;
-        top: -2px;
-      }
-    }
-
-    .description {
-      font-size: 16px;
-      min-height: 170px;
-    }
-
-    .tags {
-      display: flex;
-      flex-wrap: wrap;
-
-
-      @media screen and (max-width: $responsive-screen) {
-        justify-content: center;
+        .icon {
+          margin-right: 10px;
+          position: relative;
+          top: -2px;
+        }
       }
 
-      .tag {
-        margin-top: 10px;
+      .description {
+        font-size: 16px;
+        min-height: 170px;
+      }
+
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+
+
+        @media screen and (max-width: $responsive-screen) {
+          justify-content: center;
+        }
+
+        .tag {
+          margin-top: 10px;
+        }
       }
     }
   }

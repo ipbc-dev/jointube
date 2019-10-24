@@ -1,10 +1,10 @@
 <template>
-  <main>
+  <main id="news">
     <div class="blocks">
       <div class="title-block">
         <div class="title" v-translate>PeerTube news!</div>
 
-        <p>Discover the latest PeerTube improvements</p>
+        <p v-translate>Discover the latest PeerTube improvements</p>
 
         <div class="separator"></div>
       </div>
@@ -111,7 +111,11 @@
             </a>.
           </p>
 
-          <p v-translate>Thanks to all PeerTube contributors!<br />Framasoft</p>
+          <p>
+            <translate>Thanks to all PeerTube contributors!</translate>
+            <br />
+            Framasoft
+          </p>
         </div>
       </article>
 
@@ -171,9 +175,11 @@
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/Chocobozzz/PeerTube/releases/tag/v1.3.0">https://github.com/Chocobozzz/PeerTube/releases/tag/v1.3.0</a>.
           </p>
 
-          <p v-translate>Thanks to all PeerTube contributors!</p>
-
-          <p v-translate>Framasoft.</p>
+          <p>
+            <translate>Thanks to all PeerTube contributors!</translate>
+            <br />
+            Framasoft
+          </p>
         </div>
       </article>
 
@@ -191,9 +197,10 @@
 
           <p v-translate>Here is a small retrospective of the end of 2018/beginning of 2019:</p>
 
-          <p v-translate>
-            In December 2018, we released version 1.1 which contained some moderation tools requested by instance administrators.<br /> We
-            also took the opportunity to add a watched videos history feature and the automatic resuming of video playback.
+          <p>
+            <translate>In December 2018, we released version 1.1 which contained some moderation tools requested by instance administrators.</translate>
+            <br />
+            <translate>We also took the opportunity to add a watched videos history feature and the automatic resuming of video playback.</translate>
           </p>
 
           <p v-translate>
@@ -214,9 +221,12 @@
           </p>
 
           <p v-translate>
-            As you can see, we have gone far beyond what the crowdfunding has funded. And we will continue!<br />
-            For 2019, we plan to add a  plugin and theme management system (even though basic at first), playlist management,
-            support for audio files upload and many other features.
+            <translate>As you can see, we have gone far beyond what the crowdfunding has funded. And we will continue!</translate>
+            <br />
+            <translate>
+              For 2019, we plan to add a  plugin and theme management system (even though basic at first), playlist management,
+              support for audio files upload and many other features.
+            </translate>
           </p>
 
           <p v-translate>
@@ -229,8 +239,9 @@
             <a target="_blank" rel="noopener noreferrer" href="https://framacolibri.org/c/peertube">https://framacolibri.org/c/peertube</a>
           </p>
 
-          <p v-translate>
-            Thank you and with our best regards,<br />
+          <p>
+            <translate>Thanks to all PeerTube contributors!</translate>
+            <br />
             Framasoft
           </p>
         </div>
@@ -303,8 +314,9 @@
             can also contact us directly on <a target="_blank" rel="noopener noreferrer" href="https://contact.framasoft.org"> https://contact.framasoft.org</a>.
           </p>
 
-          <p v-translate>
-            Cheers,<br />
+          <p>
+            <translate>Cheers,</translate>
+            <br />
             Framasoft
           </p>
         </div>
@@ -359,8 +371,9 @@
             contact us directly on <a target="_blank" rel="noopener noreferrer" href="https://contact.framasoft.org">https://contact.framasoft.org.</a>
           </p>
 
-          <p v-translate>
-            Cheers,<br />
+          <p>
+            <translate>Cheers,</translate>
+            <br />
             Framasoft
           </p>
         </div>
@@ -402,8 +415,9 @@
             contact us directly on <a target="_blank" rel="noopener noreferrer" href="https://contact.framasoft.org">https://contact.framasoft.org.</a>
           </p>
 
-          <p v-translate>
-            Cheers,<br />
+          <p>
+            <translate>Cheers,</translate>
+            <br />
             Framasoft
           </p>
         </div>
@@ -441,11 +455,13 @@
           </p>
 
           <p v-translate>
-            Moreover, you can ask questions on the PeerTube forum. You can also contact us directly on https://contact.framasoft.org.
+            Moreover, you can ask questions on <a target="_blank" rel="noopener noreferrer" href="https://framacolibri.org/c/qualite/peertube">the PeerTube forum</a>. You can also
+            contact us directly on <a target="_blank" rel="noopener noreferrer" href="https://contact.framasoft.org">https://contact.framasoft.org.</a>
           </p>
 
-          <p v-translate>
-            Cheers,<br />
+          <p>
+            <translate>Cheers,</translate>
+            <br />
             Framasoft
           </p>
         </div>
@@ -461,117 +477,123 @@
   </main>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
   @import '../scss/_variables.scss';
 
-  p {
-    margin-bottom: 10px;
-  }
-
-  p + *:not(ul) {
-    margin-top: 1em;
-  }
-
-  .blocks {
-    margin: 60px auto;
-  }
-
-  .title-block {
-    margin-bottom: 60px;
-  }
-
-  .news {
-    max-width: 800px;
-    padding: 40px 50px;
-    border: solid 1px #d9d9d9;
-    border-left: 6px solid $orange;
-    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.35);
-    margin-bottom: 60px;
-
-    .title {
-      font-size: 24px;
+  #news {
+    p {
+      margin-bottom: 10px;
     }
 
-    .date {
-      font-size: 16px;
+    p + *:not(ul) {
+      margin-top: 1em;
     }
 
-    .body {
-      margin-top: 40px;
+    .blocks {
+      margin: 60px auto;
     }
 
-    a {
-      word-break: break-word;
+    .title-block {
+      margin-bottom: 60px;
     }
 
-    figure {
-      margin: 30px 0;
-      border: 10px solid #fff3ea;
-      border-bottom: 0;
+    .news {
+      max-width: 800px;
+      padding: 40px 50px;
+      border: solid 1px #d9d9d9;
+      border-left: 6px solid $orange;
+      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.35);
+      margin-bottom: 60px;
+
+      .title {
+        font-size: 24px;
+      }
+
+      .date {
+        font-size: 16px;
+      }
+
+      .body {
+        margin-top: 40px;
+      }
+
+      a {
+        word-break: break-word;
+      }
+
+      figure {
+        margin: 30px 0;
+        border: 10px solid #fff3ea;
+        border-bottom: 0;
+
+        img {
+          cursor: pointer;
+          max-width: 100%;
+          height: auto;
+          margin-bottom: 5px;
+        }
+
+        figcaption {
+          font-size: 14px;
+          background: #fff3ea;
+          text-align: center;
+          padding: 10px 0;
+        }
+      }
+
+      @media screen and (max-width: $small-screen) {
+        padding: 10px;
+      }
+    }
+
+    #modal {
+      &.hide-modal {
+        display: none;
+      }
+
+      position: fixed;
+      z-index: 1;
+      padding-top: 5vh;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgb(0, 0, 0);
+      background-color: rgba(0, 0, 0, 0.9);
 
       img {
-        cursor: pointer;
-        max-width: 100%;
-        height: auto;
-        margin-bottom: 5px;
+        margin: auto;
+        display: block;
+        height: 90%;
+        width: auto;
       }
 
-      figcaption {
-        font-size: 14px;
-        background: #fff3ea;
+      .caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
         text-align: center;
-        padding: 10px 0;
+        color: #ccc;
+        padding: 10px;
+      }
+
+      img,
+      .caption {
+        animation-name: zoom;
+        animation-duration: 0.6s;
       }
     }
 
-    @media screen and (max-width: $small-screen) {
-      padding: 10px;
+    @keyframes zoom {
+      from {
+        transform: scale(0)
+      }
+      to {
+        transform: scale(1)
+      }
     }
-  }
-
-  #modal {
-    &.hide-modal {
-      display: none;
-    }
-
-    position: fixed;
-    z-index: 1;
-    padding-top: 5vh;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.9);
-
-    img {
-      margin: auto;
-      display: block;
-      height: 90%;
-      width: auto;
-    }
-
-    .caption {
-      margin: auto;
-      display: block;
-      width: 80%;
-      max-width: 700px;
-      text-align: center;
-      color: #ccc;
-      padding: 10px;
-    }
-
-    img,
-    .caption {
-      animation-name: zoom;
-      animation-duration: 0.6s;
-    }
-  }
-
-  @keyframes zoom {
-    from { transform:scale(0) }
-    to { transform:scale(1) }
   }
 </style>
 

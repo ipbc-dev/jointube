@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main id="instances">
     <div class="blocks">
 
       <div class="title-block">
@@ -49,58 +49,60 @@
   </main>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
   @import '../scss/_variables.scss';
 
-  .blocks {
-    margin: 60px auto;
-    width: 770px;
-  }
-
-  .title-block {
-    .jpt-button {
-      margin-top: 25px;
-      border: 2px solid $orange;
-      min-width: 225px;
-      height: 35px;
+  #instances {
+    .blocks {
+      margin: 60px auto;
+      width: 770px;
     }
-  }
 
-  .block-with-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 100px;
-
-    & > div {
-      flex-basis: 100%;
-
-      img {
-        width: 370px;
-        height: 210px;
+    .title-block {
+      .jpt-button {
+        margin-top: 25px;
+        border: 2px solid $orange;
+        min-width: 225px;
+        height: 35px;
       }
     }
 
-    & > * {
-      margin-right: 20px;
-    }
-
-    .title {
-      font-size: 24px;
-      margin-bottom: 20px;
-    }
-  }
-
-  @media screen and (max-width: $small-screen) {
-    .blocks {
-      width: auto;
-    }
-
     .block-with-image {
-      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 100px;
 
-      img {
+      & > div {
+        flex-basis: 100%;
+
+        img {
+          width: 370px;
+          height: 210px;
+        }
+      }
+
+      & > * {
+        margin-right: 20px;
+      }
+
+      .title {
+        font-size: 24px;
         margin-bottom: 20px;
+      }
+    }
+
+    @media screen and (max-width: $small-screen) {
+      .blocks {
+        width: auto;
+      }
+
+      .block-with-image {
+        flex-direction: column;
+
+        img {
+          margin-bottom: 20px;
+        }
       }
     }
   }

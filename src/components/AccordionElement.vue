@@ -19,10 +19,6 @@
   </b-card>
 </template>
 
-<style scoped>
-
-</style>
-
 <script>
   import { BCollapse, BCard, BCardHeader, BCardBody, BCardText, VBToggle } from 'bootstrap-vue'
 

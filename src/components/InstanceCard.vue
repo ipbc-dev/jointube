@@ -1,5 +1,5 @@
 <template>
-  <div class="root">
+  <div id="instance-card">
 
     <div class="left">
       <div class="name-host">
@@ -92,10 +92,10 @@
   </div>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
   @import '../scss/_variables.scss';
 
-  .root {
+  #instance-card {
     min-height: 185px;
     width: 770px;
     margin: auto;
@@ -103,104 +103,114 @@
     border: solid 1px #d9d9d9;
     padding: 20px 25px 15px 25px;
     display: flex;
-  }
 
-  .left,
-  .right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .icon,
-  .label {
-    margin-right: 5px;
-  }
-
-  .label {
-    color: $grey;
-    letter-spacing: -0.5px;
-  }
-
-  .left {
-    margin-right: 40px;
-    width: 480px;
-
-    .name-host {
+    .left,
+    .right {
       display: flex;
-      margin-bottom: 3px;
-      flex-wrap: wrap;
-    }
-
-    .name {
-      font-family: "Proza Libre", sans-serif;
-      font-weight: $font-semibold;
-      margin-right: 10px;
-    }
-
-    .host {
-      color: $grey;
-    }
-
-    .description {
-      margin-bottom: 8px;
-      line-height: normal;
-    }
-
-    .upload-limits {
-      display: flex;
-
-      .quota {
-        display: flex;
-        margin-right: 80px;
-      }
-    }
-
-    .tags {
-      display: flex;
-      margin-top: auto;
-    }
-  }
-
-  .right {
-    .follow,
-    .languages {
-      margin-bottom: 10px;
-      display: flex;
-    }
-
-    .nsfw {
-      display: flex;
-    }
-
-    .link {
-      margin-top: auto;
-      margin-bottom: 2px;
-      align-self: flex-end;
-    }
-  }
-
-  @media screen and (max-width: $responsive-screen) {
-    .root {
-      width: auto;
       flex-direction: column;
-      padding: 15px 10px;
+      justify-content: space-between;
+    }
 
-      .left {
-        width: auto;
-        margin-right: 0;
+    .icon,
+    .label {
+      margin-right: 5px;
+    }
+
+    .label {
+      color: $grey;
+      letter-spacing: -0.5px;
+    }
+
+    .left {
+      margin-right: 20px;
+      width: 500px;
+
+      .name-host {
+        display: flex;
+        margin-bottom: 3px;
+        flex-wrap: wrap;
       }
 
-      .right {
-        margin-top: 20px;
+      .name {
+        font-family: "Proza Libre", sans-serif;
+        font-weight: $font-semibold;
+        margin-right: 10px;
+      }
 
-        .follow,
-        .languages {
-          margin-bottom: 5px;
+      .host {
+        color: $grey;
+      }
+
+      .description {
+        margin-bottom: 8px;
+        line-height: normal;
+      }
+
+      .upload-limits {
+        display: flex;
+
+        .quota {
+          display: flex;
+          margin-right: 80px;
+
+          .icon {
+            position: relative;
+            top: -2px;
+          }
+        }
+      }
+
+      .auto-blacklist {
+        display: flex;
+        margin-top: auto;
+      }
+
+      .tags {
+        display: flex;
+        margin-top: auto;
+      }
+    }
+
+    .right {
+      .follow,
+      .languages {
+        margin-bottom: 10px;
+        display: flex;
+      }
+
+      .nsfw {
+        display: flex;
+      }
+
+      .link {
+        margin-top: auto;
+        margin-bottom: 2px;
+        align-self: flex-end;
+      }
+    }
+
+    @media screen and (max-width: $responsive-screen) {
+      .root {
+        width: auto;
+        flex-direction: column;
+        padding: 15px 10px;
+
+        .left {
+          width: auto;
+          margin-right: 0;
         }
 
-        .link {
+        .right {
           margin-top: 20px;
+
+          .follow,
+          .languages {
+            margin-bottom: 5px;
+          }
+
+          .link {
+            margin-top: 20px;
+          }
         }
       }
     }
@@ -248,7 +258,7 @@
 
     methods: {
       bytes (value) {
-        if (value === -1) return this.$gettext('Unlimited space for users')
+        if (value === -1) return this.$gettext('Unlimited space')
 
         // https://github.com/danrevah/ngx-pipes/blob/master/src/pipes/math/bytes.ts
         const dictionaryBytes = [

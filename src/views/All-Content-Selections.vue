@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main id="all-content-selections">
     <div class="blocks">
 
       <div class="title-block">
@@ -13,13 +13,14 @@
   </main>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
   @import '../scss/_variables.scss';
 
-  .blocks {
-    margin: 60px auto;
+  #all-content-selections {
+    .blocks {
+      margin: 60px auto;
+    }
   }
-
 </style>
 
 <script>

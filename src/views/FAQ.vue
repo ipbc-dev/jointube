@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main id="faq">
     <div class="blocks">
 
       <div class="title-block">
@@ -495,33 +495,33 @@
 </template>
 
 <style lang="scss">
-  header a {
-    color: #000;
-  }
-</style>
-
-<style scoped lang="scss">
   @import '../scss/_variables.scss';
 
-  .block .title {
-    font-size: 22px;
-    margin-top: 30px;
-    margin-bottom: 15px;
-  }
+  #faq {
+    header a {
+      color: #000;
+    }
 
-  .card {
-    margin: 5px 0;
-  }
+    .block .title {
+      font-size: 22px;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
 
-  .blocks {
-    margin: 60px auto;
-  }
+    .card {
+      margin: 5px 0;
+    }
 
-  blockquote {
-    padding: 10px 20px;
-    margin: 0 0 20px;
-    font-size: 17.5px;
-    border-left: 5px solid #eee;
+    .blocks {
+      margin: 60px auto;
+    }
+
+    blockquote {
+      padding: 10px 20px;
+      margin: 0 0 20px;
+      font-size: 17.5px;
+      border-left: 5px solid #eee;
+    }
   }
 </style>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="i18n">
+  <div id="i18n">
     <b-dropdown>
       <template slot="button-content">
         <img :src="buildImgUrl('language.png')" alt="Change languages logo"/>
@@ -27,29 +27,29 @@
 </template>
 
 <style lang="scss">
-  .i18n .dropdown {
-    button {
-      height: 60px;
-      color: #000;
-      background-color: #fff;
-      border: none;
+  #i18n {
+    .text {
+      font-size: 11px;
     }
 
-    .dropdown-toggle::after {
-      display: none;
-    }
+    .dropdown {
+      button {
+        height: 60px;
+        color: #000;
+        background-color: #fff;
+        border: none;
+      }
 
-    .translate svg {
-      width: 20px;
-      margin-right: 5px;
-      vertical-align: top;
-    }
-  }
-</style>
+      .dropdown-toggle::after {
+        display: none;
+      }
 
-<style scoped>
-  .text {
-    font-size: 11px;
+      .translate svg {
+        width: 20px;
+        margin-right: 5px;
+        vertical-align: top;
+      }
+    }
   }
 </style>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="root">
+  <div id="content-selections">
     <div class="content-selection" v-for="contentSelection in getContentSelections()">
       <content-selection :type="contentSelection.type" :title="contentSelection.title"
                          :thumbnail-url="contentSelection.thumbnailUrl" :url="contentSelection.url" :tags="contentSelection.tags"
@@ -10,16 +10,18 @@
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
   @import '../scss/_variables';
 
-  .content-selection {
-    margin-bottom: 80px;
-  }
+  #content-selections {
+    .content-selection {
+      margin-bottom: 80px;
+    }
 
-  .discover-instances {
-    display: flex;
-    justify-content: flex-end;
+    .discover-instances {
+      display: flex;
+      justify-content: flex-end;
+    }
   }
 </style>
 

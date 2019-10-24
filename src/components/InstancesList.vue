@@ -1,5 +1,5 @@
 <template>
-  <div id="instances-list" class="root">
+  <div id="instances-list">
     <div class="filters">
       <div v-translate class="title">Filter according to your preferences</div>
 
@@ -102,7 +102,7 @@
       </form>
     </div>
 
-    <div class="instances-list">
+    <div class="list">
       <div v-translate class="title">Instances list</div>
 
       <div class="list" v-bind:class="{ unloaded: instances.length === 0 && noResults === false }">
@@ -126,85 +126,87 @@
   </div>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
   @import '../scss/_variables.scss';
 
-  .title {
-    font-size: 24px;
-  }
-
-  .filters {
-    margin-bottom: 100px;
-
+  #instances-list {
     .title {
-      margin-bottom: 25px;
+      font-size: 24px;
     }
 
-    form {
-      border-left: 6px solid $orange;
-      padding-left: 24px;
-
-      .group {
-        margin-bottom: 30px;
-        display: flex;
-        align-items: center;
-
-        & > label {
-          min-width: 140px;
-          margin: 0 10px 0 0;
-
-          &.label-checkbox {
-            align-self: flex-start;
-          }
-        }
-      }
-
-      select {
-        width: 280px;
-        height: 35px;
-        line-height: 21px;
-        border-radius: 0;
-      }
-
-      .btn-group-toggle {
-        .btn {
-          display: flex;
-          align-items: center;
-          color: #000;
-          background-color: #fff;
-          border-color: $orange;
-          min-height: 30px;
-          padding: 0 15px;
-          cursor: pointer;
-
-          &.active {
-            color: #fff;
-            font-weight: $font-semibold;
-            background-color: $orange;
-          }
-        }
-      }
-    }
-  }
-
-  .instances-list {
-    margin-bottom: 50px;
-  }
-
-  @media screen and (max-width: $responsive-screen) {
     .filters {
       margin-bottom: 100px;
 
+      .title {
+        margin-bottom: 25px;
+      }
+
       form {
-        padding-left: 15px;
+        border-left: 6px solid $orange;
+        padding-left: 24px;
 
         .group {
-          flex-direction: column;
-          align-items: flex-start;
+          margin-bottom: 30px;
+          display: flex;
+          align-items: center;
 
-          label {
-            margin-bottom: 5px;
-            font-size: 15px;
+          & > label {
+            min-width: 140px;
+            margin: 0 10px 0 0;
+
+            &.label-checkbox {
+              align-self: flex-start;
+            }
+          }
+        }
+
+        select {
+          width: 280px;
+          height: 35px;
+          line-height: 21px;
+          border-radius: 0;
+        }
+
+        .btn-group-toggle {
+          .btn {
+            display: flex;
+            align-items: center;
+            color: #000;
+            background-color: #fff;
+            border-color: $orange;
+            min-height: 30px;
+            padding: 0 15px;
+            cursor: pointer;
+
+            &.active {
+              color: #fff;
+              font-weight: $font-semibold;
+              background-color: $orange;
+            }
+          }
+        }
+      }
+    }
+
+    .list {
+      margin-bottom: 50px;
+    }
+
+    @media screen and (max-width: $responsive-screen) {
+      .filters {
+        margin-bottom: 100px;
+
+        form {
+          padding-left: 15px;
+
+          .group {
+            flex-direction: column;
+            align-items: flex-start;
+
+            label {
+              margin-bottom: 5px;
+              font-size: 15px;
+            }
           }
         }
       }
@@ -246,7 +248,7 @@
     }
   }
 
-  .instances-list {
+  .list {
     .title {
       margin-bottom: 50px;
     }

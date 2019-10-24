@@ -6,7 +6,7 @@
         <img alt="PeerTube" :src="buildImgUrl('brand-small.png')">
 
         <div class="support">
-          developed by
+          <translate>developed by</translate>
 
           <img alt="Framasoft text logo" :src="buildImgUrl('framasoft-logo-text-small.png')">
         </div>
@@ -47,65 +47,68 @@
   </header>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
   @import '../scss/_variables.scss';
   @import '../scss/_mixins.scss';
 
-  header {
-    margin-bottom: 30px;
-  }
+  #main-header {
 
-  .navbar-collapse {
-    &.collapsing,
-    &.show {
-      padding-top: 20px;
+    header {
+      margin-bottom: 30px;
+    }
 
-      .nav-item {
-        margin-right: 0;
-        margin-top: 5px;
+    .navbar-collapse {
+      &.collapsing,
+      &.show {
+        padding-top: 20px;
+
+        .nav-item {
+          margin-right: 0;
+          margin-top: 5px;
+        }
       }
     }
-  }
 
-  .navbar-brand {
-    @include disable-default-a-behaviour;
+    .navbar-brand {
+      @include disable-default-a-behaviour;
 
-    color: #000;
-    font-family: 'Proza Libre', sans-serif;
-    font-size: 10px;
+      color: #000;
+      font-family: 'Proza Libre', sans-serif;
+      font-size: 10px;
 
-    .support img {
-      vertical-align: initial;
-      margin-left: 1px;
+      .support img {
+        vertical-align: initial;
+        margin-left: 3px;
+      }
     }
-  }
 
-  nav {
-    min-height: 60px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-  }
+    nav {
+      min-height: 60px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    }
 
-  .navbar-nav {
-    align-items: center;
-  }
+    .navbar-nav {
+      align-items: center;
+    }
 
-  .nav-item {
-    margin-right: 40px;
-  }
+    .nav-item {
+      margin-right: 40px;
+    }
 
-  .nav-link {
-    color: #000 !important;
-    padding: 0 !important;
-    font-family: 'Proza Libre', sans-serif;
-  }
+    .nav-link {
+      color: #000 !important;
+      padding: 0 !important;
+      font-family: 'Proza Libre', sans-serif;
+    }
 
-  .create-account {
-    font-weight: $font-semibold;
-  }
+    .create-account {
+      font-weight: $font-semibold;
+    }
 
-  .router-link-active:not(.navbar-brand) {
-    border-bottom: 3px solid $orange;
+    .router-link-active:not(.navbar-brand) {
+      border-bottom: 3px solid $orange;
+    }
   }
 </style>
 

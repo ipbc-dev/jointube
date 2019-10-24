@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer id="main-footer">
     <div>
       <a target="_blank" rel="noopener noreferrer" href="https://framasoft.org/en/legals/" v-translate>Legal notices</a>
 
@@ -18,11 +18,11 @@
   </footer>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
   @import '../scss/_variables.scss';
   @import '../scss/_mixins.scss';
 
-  footer {
+  #main-footer {
     margin-top: 30px;
     background-color: #fff;
     padding: 30px 200px;
@@ -37,10 +37,8 @@
         margin-bottom: 10px;
       }
     }
-  }
 
-  @media screen and (max-width: $responsive-screen) {
-    footer {
+    @media screen and (max-width: $responsive-screen) {
       padding: 30px;
     }
   }
