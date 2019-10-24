@@ -402,7 +402,7 @@
           <p>
             <translate>
               We are currently finishing the video import system, from a URL (YouTube, Vimeo etc) or a torrent file. This feature should be
-              available in a few days, when we will release a new version (<em>v1.0.0-beta.11</em>).
+              available in a few days, when we will release a new version (v1.0.0-beta.11).
             </translate>
             <br />
             <translate>
