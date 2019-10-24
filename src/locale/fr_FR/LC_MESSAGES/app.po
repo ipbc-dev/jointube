@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-10-24 11:39+0000\n"
+"PO-Revision-Date: 2019-10-24 11:46+0000\n"
 "Last-Translator: chocobozzz <chocobozzz@framasoft.org>\n"
 "Language-Team: French <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/fr/>\n"
@@ -123,16 +123,16 @@ msgid "A free software to take back control of your videos"
 msgstr "Un logiciel libre pour reprendre le contrôle de vos vidéos"
 
 #: src/App.vue:28
-#, fuzzy
 msgid ""
 "A free software to take back control of your videos! With more than 100 000 "
 "hosted videos, viewed more than 6 millions times and 20 000 users, PeerTube "
 "is the decentralized free software alternative to videos platforms developed "
 "by Framasoft"
 msgstr ""
-"Avec plus de 100 000 vidéos hébergées, visionnées plus de 6 millions de fois "
-"et 20 000 utilisateur⋅ices, PeerTube est l'alternative libre et "
-"décentralisée aux plateformes vidéos proposée par Framasoft"
+"Un logiciel libre pour reprendre le contrôle de vos vidéos ! Avec plus de "
+"100 000 vidéos hébergées, visionnées plus de 6 millions de fois et 20 000 "
+"utilisateur⋅ices, PeerTube est l'alternative libre et décentralisée aux "
+"plateformes vidéos proposée par Framasoft"
 
 #: src/views/News.vue:331
 msgid ""
