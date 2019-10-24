@@ -220,7 +220,7 @@
             may be published.
           </p>
 
-          <p v-translate>
+          <p>
             <translate>As you can see, we have gone far beyond what the crowdfunding has funded. And we will continue!</translate>
             <br />
             <translate>
