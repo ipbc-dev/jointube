@@ -745,16 +745,6 @@ msgstr "No video quota per user"
 msgid "No. In October 2018, on an average instance federating with ~200 instances and indexing ~16000 videos, only ~200 videos are tagged as NSFW (i. e. the content is sensitive, which could be something else than pornography). Therefore, they represent only ~1% of all the videos."
 msgstr "No. In October 2018, on an average instance federating with ~200 instances and indexing ~16000 videos, only ~200 videos are tagged as NSFW (i. e. the content is sensitive, which could be something else than pornography). Therefore, they represent only ~1% of all the videos."
 
-#: src/mixins/ContentSelectionsEN.js:7 src/mixins/ContentSelectionsEN.js:20
-#: src/mixins/ContentSelectionsEN.js:33 src/mixins/ContentSelectionsEN.js:46
-msgid "Nothing to hide"
-msgstr "Nothing to hide"
-
-#: src/mixins/ContentSelectionsEN.js:15 src/mixins/ContentSelectionsEN.js:28
-#: src/mixins/ContentSelectionsEN.js:41 src/mixins/ContentSelectionsEN.js:54
-msgid "Nothing to Hide (2017) is a documentary franco-allemand de Marc Meillassoux et Mihaela Gladovic, qui s'intéresse aux effets de la surveillance de masse sur les individus et la société. Proposant un regard critique à propos des lois sur le renseignement mises en place par de nombreux États ces dernières années, le film nous rappelle à quel point le débat sur l’usage des données personnelles est actuel et questionne les fondements de nos démocraties."
-msgstr "Nothing to Hide (2017) is a documentary franco-allemand de Marc Meillassoux et Mihaela Gladovic, qui s'intéresse aux effets de la surveillance de masse sur les individus et la société. Proposant un regard critique à propos des lois sur le renseignement mises en place par de nombreux États ces dernières années, le film nous rappelle à quel point le débat sur l’usage des données personnelles est actuel et questionne les fondements de nos démocraties."
-
 #: src/views/FAQ.vue:256
 msgid "Now imagine that Camille has created an account on DominiqueTube and uploads an illegal video, because this video uses music created by Solal."
 msgstr "Now imagine that Camille has created an account on DominiqueTube and uploads an illegal video, because this video uses music created by Solal."
@@ -945,8 +935,8 @@ msgid "Redundancy system: a PeerTube instance can help sharing some videos from 
 msgstr "Redundancy system: a PeerTube instance can help sharing some videos from another instance"
 
 #: src/views/News.vue:339
-msgid "Regarding the crowdfunding, most of the rewards are ready: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube\">the PeerTube README</a> and <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://joinpeertube.org/fr/hall-of-fame/\">the JoinPeerTube Hall of Fame</a> show off the names of the persons who have chosen the corresponding rewards. We will soon be able to send the personalized thank-you digital arts to people that gave 80€ (~93 USD) and more (and it's so beautiful that we are looking forward to it!)"
-msgstr "Regarding the crowdfunding, most of the rewards are ready: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube\">the PeerTube README</a> and <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://joinpeertube.org/fr/hall-of-fame/\">the JoinPeerTube Hall of Fame</a> show off the names of the persons who have chosen the corresponding rewards. We will soon be able to send the personalized thank-you digital arts to people that gave 80€ (~93 USD) and more (and it's so beautiful that we are looking forward to it!)"
+msgid "Regarding the crowdfunding, most of the rewards are ready: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube\">the PeerTube README</a> and <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://joinpeertube.org/hall-of-fame\">the JoinPeerTube Hall of Fame</a> show off the names of the persons who have chosen the corresponding rewards. We will soon be able to send the personalized thank-you digital arts to people that gave 80€ (~93 USD) and more (and it's so beautiful that we are looking forward to it!)."
+msgstr "Regarding the crowdfunding, most of the rewards are ready: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube\">the PeerTube README</a> and <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://joinpeertube.org/hall-of-fame\">the JoinPeerTube Hall of Fame</a> show off the names of the persons who have chosen the corresponding rewards. We will soon be able to send the personalized thank-you digital arts to people that gave 80€ (~93 USD) and more (and it's so beautiful that we are looking forward to it!)."
 
 #: src/views/News.vue:427
 msgid "Regarding the RSS feeds feature, it was already implemented by Rigelk and you can already use it in the beta 9. You can, for example, get the feed of the last local videos uploaded in a particular instance."
@@ -1001,8 +991,8 @@ msgid "Since PeerTube's launch, we have been aware that every administrator and 
 msgstr "Since PeerTube's launch, we have been aware that every administrator and user wishes to see the software fulfill their needs. As Framasoft cannot and will not develop every feature that could be hoped for, we have from the start of the project planned on creating a plug-in system."
 
 #: src/views/News.vue:184
-msgid "Since version 1.0 has been released last November, we went on improving PeerTube, day after day. These improvements on PeerTube go well beyond the objectives fixed during the crowdfunding. They have been funded by the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framasoft.org/en/\">Framasoft non-profit</a>, which develops the software (and lives only through <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://soutenir.framasoft.org/en/\">your donations</a>)."
-msgstr "Since version 1.0 has been released last November, we went on improving PeerTube, day after day. These improvements on PeerTube go well beyond the objectives fixed during the crowdfunding. They have been funded by the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framasoft.org/en/\">Framasoft non-profit</a>, which develops the software (and lives only through <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://soutenir.framasoft.org/en/\">your donations</a>)."
+msgid "Since version 1.0 has been released last November, we went on improving PeerTube, day after day. These improvements on PeerTube go well beyond the objectives fixed during the crowdfunding. They have been funded by the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framasoft.org\">Framasoft non-profit</a>, which develops the software (and lives only through <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://soutenir.framasoft.org\">your donations</a>)."
+msgstr "Since version 1.0 has been released last November, we went on improving PeerTube, day after day. These improvements on PeerTube go well beyond the objectives fixed during the crowdfunding. They have been funded by the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framasoft.org\">Framasoft non-profit</a>, which develops the software (and lives only through <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://soutenir.framasoft.org\">your donations</a>)."
 
 #: src/views/FAQ.vue:260
 msgid "Solal goes on Framatube, an instance which follows DominiqueTube. So, Solal can see, from Framatube, the videos published on DominiqueTube."
@@ -1047,21 +1037,6 @@ msgstr "suomi"
 #: src/components/InstancesList.vue:336
 msgid "svenska"
 msgstr "svenska"
-
-#: src/mixins/ContentSelectionsEN.js:11 src/mixins/ContentSelectionsEN.js:24
-#: src/mixins/ContentSelectionsEN.js:37 src/mixins/ContentSelectionsEN.js:50
-msgid "tag"
-msgstr "tag"
-
-#: src/mixins/ContentSelectionsEN.js:12 src/mixins/ContentSelectionsEN.js:25
-#: src/mixins/ContentSelectionsEN.js:38 src/mixins/ContentSelectionsEN.js:51
-msgid "tag2"
-msgstr "tag2"
-
-#: src/mixins/ContentSelectionsEN.js:13 src/mixins/ContentSelectionsEN.js:26
-#: src/mixins/ContentSelectionsEN.js:39 src/mixins/ContentSelectionsEN.js:52
-msgid "tag3"
-msgstr "tag3"
 
 #: src/views/FAQ.vue:358
 msgid "Technical questions"
@@ -1152,8 +1127,8 @@ msgid "There already exists free/libre software that enables you to do this. But
 msgstr "There already exists free/libre software that enables you to do this. But with PeerTube, you can link your instance (your video website) to Zaïd's PeerTube instance (where he hosts videos of the lectures for his people's university), to Catherin's (who hosts her webmedia videos) or even to Solar's PeerTube instance (who manages a vloggers collective)."
 
 #: src/views/FAQ.vue:279
-msgid "There are none, not at the moment', 'PeerTube is a tool that we wanted neutral in terms of remuneration."
-msgstr "There are none, not at the moment', 'PeerTube is a tool that we wanted neutral in terms of remuneration."
+msgid "There are none, not at the moment, PeerTube is a tool that we wanted neutral in terms of remuneration."
+msgstr "There are none, not at the moment, PeerTube is a tool that we wanted neutral in terms of remuneration."
 
 #: src/views/FAQ.vue:105
 msgid "There is nothing to do: your web browser does it automatically. If you are on a mobile phone or if your network does not allow it (router, firewall, etc.), this function is disabled and switches back to an \"old-style\" video broadcast 😉."
