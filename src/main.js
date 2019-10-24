@@ -56,6 +56,10 @@ if (allLocales.includes(localePath)) {
   Vue.config.language = aliasesLanguages[snakeCaseLanguage] ? aliasesLanguages[snakeCaseLanguage] : snakeCaseLanguage
 }
 
+Vue.filter('translate', value => {
+  return value ? Vue.prototype.$gettext(value.toString()) : ''
+})
+
 // ###########################
 
 Vue.use(VueMeta)

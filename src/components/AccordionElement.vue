@@ -44,7 +44,7 @@
     computed: {
       accordionId: function () {
         return this.id.toLowerCase()
-          .replace(/[ /']/g, '-')
+          .replace(/[ /'’]/g, '-')
           .replace(/[?!.,]/g, '')
       },
 

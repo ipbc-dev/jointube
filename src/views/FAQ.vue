@@ -13,7 +13,11 @@
       <div class="block" role="tablist">
         <div class="title" v-translate>PeerTube Presentation</div>
 
-        <accordion-element accordion="a" id="What is PeerTube?" :title="$gettext('What is PeerTube')">
+        <accordion-element accordion="a" id="What is PeerTube?">
+          <template v-slot:title>
+            {{ 'What is PeerTube?' | translate }}
+          </template>
+
           <div>
             <p v-translate>
               PeerTube is software that you install on a web server. It allows you to create a video hosting website, so create your
@@ -31,8 +35,11 @@
           </div>
         </accordion-element>
 
-        <accordion-element accordion="a" id="The three main advantages of PeerTube."
-                           :title="$gettext('The three main advantages of PeerTube.')">
+        <accordion-element accordion="a" id="What are the main advantages of PeerTube?">
+          <template v-slot:title>
+            {{ 'What are the main advantages of PeerTube?' | translate }}
+          </template>
+
           <div>
             <p v-translate>
               PeerTube is unique because (as far as we know) it's the only video hosting web application which combines three
@@ -52,8 +59,11 @@
           </div>
         </accordion-element>
 
-        <accordion-element accordion="a" id="Why is it better as free/libre software?"
-                           :title="$gettext('Why is it better as free/libre software?')">
+        <accordion-element accordion="a" id="Why is it better as free/libre software?">
+          <template v-slot:title>
+            {{ 'Why is it better as free/libre software?' | translate }}
+          </template>
+
           <div>
             <p v-translate>
               Because by design free/libre software respects our fundamental freedoms, and guarantees them by
@@ -70,8 +80,11 @@
           </div>
         </accordion-element>
 
-        <accordion-element accordion="a" id="What's the interest to federate the video hosting providers?"
-                           :title="$gettext('What\'s the interest to federate the video hosting providers?')">
+        <accordion-element accordion="a" id="What's the interest to federate the video hosting providers?">
+          <template v-slot:title>
+            {{ 'What\'s the interest to federate the video hosting providers?' | translate }}
+          </template>
+
           <div>
             <p v-translate>
               The advantage of YouTube (and other platforms) is its video catalog: from knitting tutorials to Minecraft constructions
@@ -93,8 +106,11 @@
           </div>
         </accordion-element>
 
-        <accordion-element accordion="a" id="Why broadcast PeerTube videos through peer-to-peer?"
-                           :title="$gettext('Why broadcast PeerTube videos through peer-to-peer?')">
+        <accordion-element accordion="a" id="Why broadcast PeerTube videos through peer-to-peer?">
+          <template v-slot:title>
+            {{ 'Why broadcast PeerTube videos through peer-to-peer?' | translate }}
+          </template>
+
           <div>
             <p v-translate>When you host a large file like a video, the biggest thing to fear is success: if a video becomes viral and many people watch
               it at the same time, the server has a big risk of getting overloaded!</p>
@@ -110,8 +126,11 @@
           </div>
         </accordion-element>
 
-        <accordion-element accordion="a" id="For those who know how to administer a server, PeerTube is..."
-                           :title="$gettext('For those who know how to administer a server, PeerTube is...')">
+        <accordion-element accordion="a" id="For those who know how to administer a server, PeerTube is...">
+          <template v-slot:title>
+            {{ 'For those who know how to administer a server, PeerTube is...' | translate }}
+          </template>
+
           <div>
             <p v-translate>
               <strong>It's software you install on your server</strong> to create a website where videos are hosted and broadcast...
@@ -144,8 +163,11 @@
           </div>
         </accordion-element>
 
-        <accordion-element accordion="a" id="For those who wants to upload their videos, PeerTube allows..."
-                           :title="$gettext('For those who wants to upload their videos, PeerTube allows...')">
+        <accordion-element accordion="a" id="For those who wants to upload their videos, PeerTube allows...">
+          <template v-slot:title>
+            {{ 'For those who wants to upload their videos, PeerTube allows...' | translate }}
+          </template>
+
           <div>
             <p v-translate>
               It allows you to choose a hoster that fits you. YouTube's excesses are a good exemple: its hoster, Google/Alphabet, can
@@ -174,8 +196,11 @@
           </div>
         </accordion-element>
 
-        <accordion-element accordion="a" id="For those who want to watch videos, PeerTube can offer..."
-                           :title="$gettext('For those who want to watch videos, PeerTube can offer...')">
+        <accordion-element accordion="a" id="For those who want to watch videos, PeerTube can offer...">
+          <template v-slot:title>
+            {{ 'For those who want to watch videos, PeerTube can offer...' | translate }}
+          </template>
+
           <div>
             <p v-translate>
               One of the benefits is that <strong>you become a part of the broadcasting of the videos you are watching</strong>. If other
@@ -199,8 +224,11 @@
           </div>
         </accordion-element>
 
-        <accordion-element accordion="a" id="Is PeerTube's purpose to replace YouTube?"
-                           :title="$gettext('Is PeerTube\'s purpose to replace YouTube?')">
+        <accordion-element accordion="a" id="Is PeerTube's purpose to replace YouTube?">
+          <template v-slot:title>
+            {{ 'Is PeerTube\'s purpose to replace YouTube?' | translate }}
+          </template>
+
           <div>
             <p v-translate>We can answer with certainty: no!</p>
             <p v-translate>
@@ -227,8 +255,11 @@
       <div class="block" role="tablist">
         <div class="title" v-translate>Creation and content</div>
 
-        <accordion-element accordion="a" id="If it's free, can we upload illegal stuff on it?"
-                           :title="$gettext('If it\'s free, can we upload illegal stuff on it?')">
+        <accordion-element accordion="a" id="If it's free, can we upload illegal stuff on it?">
+          <template v-slot:title>
+            {{ 'If it\'s free, can we upload illegal stuff on it?' | translate }}
+          </template>
+
           <div>
             <p v-translate>
               Being free doesn't mean being above the law! Each PeerTube hosting provider can decide on its own general conditions of use,
@@ -247,8 +278,11 @@
           </div>
         </accordion-element>
 
-        <accordion-element accordion="a" id="Who is responsible for content published on PeerTube?"
-                           :title="$gettext('Who is responsible for content published on PeerTube?')">
+        <accordion-element accordion="a" id="Who is responsible for content published on PeerTube?">
+          <template v-slot:title>
+            {{ 'Who is responsible for content published on PeerTube?' | translate }}
+          </template>
+
           <div>
             <p v-translate>
               PeerTube is not a website: it is software that allows a web hoster (for example, Dominique) to create a video website (let's
@@ -274,8 +308,11 @@
           </div>
         </accordion-element>
 
-        <accordion-element accordion="a" id="What is PeerTube's remuneration policy?"
-                           :title="$gettext('What is PeerTube\'s remuneration policy?')">
+        <accordion-element accordion="a" id="What is PeerTube's remuneration policy?">
+          <template v-slot:title>
+            {{ 'What is PeerTube\'s remuneration policy?' | translate }}
+          </template>
+
           <div>
             <p v-translate>There are none, not at the moment, PeerTube is a tool that we wanted neutral in terms of remuneration.</p>
             <p v-translate>
@@ -299,7 +336,11 @@
           </div>
         </accordion-element>
 
-        <accordion-element accordion="a" id="Where can I put my videos?" :title="$gettext('Where can I put my videos?')">
+        <accordion-element accordion="a" id="Where can I put my videos?">
+          <template v-slot:title>
+            {{ 'Where can I put my videos?' | translate }}
+          </template>
+
           <div>
             <p v-translate>You need to find a PeerTube hosting instance you trust.</p>
             <p v-translate>
@@ -318,8 +359,11 @@
           </div>
         </accordion-element>
 
-        <accordion-element accordion="a" id="There are many porn videos on PeerTube!"
-                           :title="$gettext('There are many porn videos on PeerTube!')">
+        <accordion-element accordion="a" id="There are many porn videos on PeerTube!">
+          <template v-slot:title>
+            {{ 'There are many porn videos on PeerTube!' | translate }}
+          </template>
+
           <div>
             <p v-translate>
               No. In October 2018, on an average instance federating with ~200 instances and indexing ~16000 videos, only ~200 videos are
@@ -358,7 +402,11 @@
       <div class="block" role="tablist">
         <div class="title" v-translate>Technical questions</div>
 
-        <accordion-element accordion="a" id="How do I install PeerTube?" :title="$gettext('How do I install PeerTube?')">
+        <accordion-element accordion="a" id="How do I install PeerTube?">
+          <template v-slot:title>
+            {{ 'How do I install PeerTube?' | translate }}
+          </template>
+
           <div>
             <p v-translate>
               The <a target="_blank" rel="noopener noreferrer" href="https://docs.joinpeertube.org/#/install-any-os">installation guide is here</a>
@@ -375,9 +423,11 @@
           </div>
         </accordion-element>
 
-        <accordion-element accordion="a"
-                           id="PeerTube v1.0 does not seem to me to contain all the tools necessary for a good management of my instance."
-                           :title="$gettext('PeerTube v1.0 does not seem to me to contain all the tools necessary for a good management of my instance.')">
+        <accordion-element accordion="a" id="PeerTube v1.0 does not seem to me to contain all the tools necessary for a good management of my instance.">
+          <template v-slot:title>
+            {{ 'PeerTube v1.0 does not seem to me to contain all the tools necessary for a good management of my instance.' | translate }}
+          </template>
+
           <div>
             <blockquote v-translate>
               "It's outrageous and unconscious: you're releasing PeerTube's version 1 when it doesn't contain the necessary tools
@@ -433,8 +483,11 @@
           </div>
         </accordion-element>
 
-        <accordion-element accordion="a" id="How do I contribute to PeerTube’s code?"
-                           :title="$gettext('How do I contribute to PeerTube’s code?')">
+        <accordion-element accordion="a" id="How do I contribute to PeerTube’s code?">
+          <template v-slot:title>
+            {{ 'How do I contribute to PeerTube’s code?' | translate }}
+          </template>
+
           <div>
             <p v-translate>
               The <a target="_blank" rel="noopener noreferrer" href="https://github.com/Chocobozzz/PeerTube">Git repository of PeerTube is
@@ -460,7 +513,7 @@
 
         <accordion-element accordion="a" id="Why does PeerTube use the ActivityPub federation protocol? Why not IPFS / d.tube / Steemit?">
           <template v-slot:title>
-            <translate>Why does PeerTube use the ActivityPub federation protocol? Why not IPFS / d.tube / Steemit?</translate>
+            {{ 'Why does PeerTube use the ActivityPub federation protocol? Why not IPFS / d.tube / Steemit?' | translate }}
           </template>
 
           <div>
