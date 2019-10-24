@@ -10,7 +10,7 @@
         </div>
       </template>
 
-      <b-dropdown-item v-for="(lang, locale) in $language.available" :href="buildLocaleLink(locale)">
+      <b-dropdown-item v-for="(lang, locale) in $language.available" :key="locale" :href="buildLocaleLink(locale)">
         {{ lang }}
       </b-dropdown-item>
 

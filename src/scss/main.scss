@@ -90,7 +90,7 @@ main {
   border-left: 0.3em solid transparent;
 }
 
-a {
+p > a {
   color: #000;
   font-weight: $font-semibold;
   border-bottom: 3px solid $orange;

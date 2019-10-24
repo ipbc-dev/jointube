@@ -44,7 +44,7 @@
       </div>
 
       <div class="tags">
-        <div class="tag" v-for="tag in tags">{{ tag }}</div>
+        <div class="tag" v-for="tag in tags" :key="tag">{{ tag }}</div>
       </div>
     </div>
   </div>
@@ -120,7 +120,6 @@
       .tags {
         display: flex;
         flex-wrap: wrap;
-
 
         @media screen and (max-width: $responsive-screen) {
           justify-content: center;
