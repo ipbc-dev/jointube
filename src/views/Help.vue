@@ -127,6 +127,7 @@
 
       .text-block {
         text-align: right;
+        width: 100%;
 
         p {
           margin-bottom: 0;
@@ -153,12 +154,21 @@
     }
 
     @media screen and (max-width: $small-screen) {
+      .title-block {
+        margin-bottom: 60px;
+      }
+
       .blocks {
         width: auto;
       }
 
       .block-with-image {
         flex-direction: column;
+
+        &.community,
+        &.contribute {
+          flex-direction: column-reverse;
+        }
 
         .text-block {
           margin-left: 0 !important;

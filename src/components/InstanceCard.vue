@@ -190,27 +190,25 @@
     }
 
     @media screen and (max-width: $responsive-screen) {
-      .root {
-        width: auto;
-        flex-direction: column;
-        padding: 15px 10px;
+      width: auto;
+      flex-direction: column;
+      padding: 15px;
 
-        .left {
-          width: auto;
-          margin-right: 0;
+      .left {
+        width: auto;
+        margin-right: 0;
+      }
+
+      .right {
+        margin-top: 20px;
+
+        .follow,
+        .languages {
+          margin-bottom: 5px;
         }
 
-        .right {
+        .link {
           margin-top: 20px;
-
-          .follow,
-          .languages {
-            margin-bottom: 5px;
-          }
-
-          .link {
-            margin-top: 20px;
-          }
         }
       }
     }

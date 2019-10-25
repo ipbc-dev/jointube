@@ -15,7 +15,7 @@
         </a>
       </div>
 
-      <div class="block-with-image">
+      <div class="block-with-image step-1">
         <div>
           <img :src="buildImgUrl('peertube-federation-multiplicity.png')" alt="Multiple instances illustration">
         </div>
@@ -30,7 +30,7 @@
         </div>
       </div>
 
-      <div class="block-with-image">
+      <div class="block-with-image step-2">
         <div>
           <div class="title" v-translate>2. Create your account and enjoy PeerTube</div>
 
@@ -99,6 +99,10 @@
 
       .block-with-image {
         flex-direction: column;
+
+        &.step-2 {
+          flex-direction: column-reverse;
+        }
 
         img {
           margin-bottom: 20px;

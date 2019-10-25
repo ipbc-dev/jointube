@@ -401,7 +401,7 @@
         .brand {
           height: 47px;
           margin-bottom: 20px;
-          margin-left: -30px;
+          margin-left: -10px;
         }
 
         div {
@@ -411,18 +411,18 @@
         .description {
           font-size: 24px;
           font-weight: 600;
+          text-align: center;
         }
 
         @media screen and (max-width: $small-screen) {
-          padding: 15px 0;
+          padding: 40px 0 0 0;
 
           .brand {
-            height: 25px !important
+            height: 50px !important
           }
 
           .description {
             font-size: 20px;
-            margin-left: 20px;
           }
         }
       }

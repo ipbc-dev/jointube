@@ -611,6 +611,17 @@
         }
       }
     }
+
+    @media screen and (max-width: $small-screen) {
+      .sponsors a img {
+        width: 100%;
+        height: auto;
+      }
+
+      ul li {
+        display: block;
+      }
+    }
   }
 </style>
 
