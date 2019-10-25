@@ -54,7 +54,7 @@ Vue.filter('translate', value => {
 
 const p = currentLanguage === defaultLanguage
   ? Promise.resolve({ default: {} })
-  : import('../public/translations/' + currentLanguage + '.json')
+  : import('./translations/' + currentLanguage + '.json')
 
 p.catch(err => {
   console.error('Cannot load translations.', err)
