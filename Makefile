@@ -31,11 +31,15 @@ all:
 	@echo choose a target from: clean makemessages translations
 
 clean:
-	rm -f $(TEMPLATE_POT) $(OUTPUT_DIR)/translations.json
+	rm -rf $(TEMPLATE_POT)
 
 makemessages: $(TEMPLATE_POT)
 
-translations: ./$(OUTPUT_DIR)/translations.json
+translations: $(LOCALE_FILES)
+	mkdir -p $(OUTPUT_DIR)/translations
+	@for lang in $(LOCALES); do \
+		gettext-compile --output $(OUTPUT_DIR)/translations/$$lang.json $(OUTPUT_DIR)/locale/$$lang/LC_MESSAGES/app.po; \
+	done;
 
 # Create a main .pot template, then generate .po files for each available language.
 # Thanx to Systematic: https://github.com/Polyconseil/systematic/blob/866d5a/mk/main.mk#L167-L183
@@ -58,7 +62,3 @@ $(TEMPLATE_POT): $(GETTEXT_SOURCES)
 			msgattrib --no-wrap --no-obsolete -o $$PO_FILE $$PO_FILE || break; \
 		fi; \
 	done;
-
-$(OUTPUT_DIR)/translations.json: $(LOCALE_FILES)
-	mkdir -p $(OUTPUT_DIR)
-	gettext-compile --output $@ $(LOCALE_FILES)
