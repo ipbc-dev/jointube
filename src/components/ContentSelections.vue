@@ -1,6 +1,6 @@
 <template>
   <div id="content-selections">
-    <div class="content-selection" v-for="contentSelection in getContentSelections()">
+    <div class="content-selection" v-for="contentSelection in getContentSelections()" :key="contentSelection.url">
       <content-selection :type="contentSelection.type" :title="contentSelection.title"
                          :thumbnail-url="contentSelection.thumbnailUrl" :url="contentSelection.url" :tags="contentSelection.tags"
                          :description="contentSelection.description"

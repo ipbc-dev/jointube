@@ -13,6 +13,7 @@ import AllContentSelections from './views/All-Content-Selections'
 
 import './scss/main.scss'
 import CommonMixins from './mixins/CommonMixins'
+import { from } from 'bootstrap-vue/esm/utils/array'
 
 Vue.use(VueRouter)
 
@@ -52,16 +53,14 @@ Vue.filter('translate', value => {
   return value ? Vue.prototype.$gettext(value.toString()) : ''
 })
 
-const p = currentLanguage === defaultLanguage
-  ? Promise.resolve({ default: {} })
-  : import('./translations/' + currentLanguage + '.json')
+const p = buildTranslationsPromise(defaultLanguage, currentLanguage)
 
 p.catch(err => {
   console.error('Cannot load translations.', err)
   return { default: {} }
-}).then(module => {
+}).then(translations => {
   Vue.use(GetTextPlugin, {
-    translations: module.default,
+    translations,
     availableLanguages,
     defaultLanguage: 'en_US',
     silent: process.env.NODE_ENV === 'development'
@@ -187,3 +186,37 @@ p.catch(err => {
     render: h => h(App)
   })
 })
+
+function buildTranslationsPromise (defaultLanguage, currentLanguage) {
+  const translations = {}
+
+  // No need to translate anything
+  if (currentLanguage === defaultLanguage) return Promise.resolve(translations)
+
+  // Fetch translations from server
+  const fromRemote = import('./translations/' + currentLanguage + '.json')
+    .then(module => {
+      const remoteTranslations = module.default
+      try {
+        localStorage.setItem('translations-' + currentLanguage, JSON.stringify(remoteTranslations))
+      } catch (err)  {
+        console.error('Cannot save translations in local storage.', err)
+      }
+
+      return Object.assign(translations, remoteTranslations)
+    })
+
+  // If we have a cache, try to
+  const fromLocalStorage = localStorage.getItem('translations-' + currentLanguage)
+  if (fromLocalStorage) {
+    try {
+      Object.assign(translations, JSON.parse(fromLocalStorage))
+
+      return Promise.resolve(translations)
+    } catch (err) {
+      console.error('Cannot parse translations from local storage.', err)
+    }
+  }
+
+  return fromRemote
+}
