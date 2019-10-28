@@ -196,7 +196,7 @@ msgstr "At least 5GB"
 msgid "August 20, 2018"
 msgstr "August 20, 2018"
 
-#: src/components/InstanceCard.vue:265
+#: src/components/InstanceCard.vue:263
 msgid "B"
 msgstr "B"
 
@@ -488,7 +488,7 @@ msgstr "Gàidhlig"
 msgid "Gaming"
 msgstr "Gaming"
 
-#: src/components/InstanceCard.vue:268
+#: src/components/InstanceCard.vue:266
 msgid "GB"
 msgstr "GB"
 
@@ -500,7 +500,7 @@ msgstr "Git"
 msgid "Go to the forum"
 msgstr "Go to the forum"
 
-#: src/views/Hall-Of-Fame.vue:5 src/views/Hall-Of-Fame.vue:621
+#: src/views/Hall-Of-Fame.vue:5 src/views/Hall-Of-Fame.vue:632
 msgid "Hall of Fame"
 msgstr "Hall of Fame"
 
@@ -513,7 +513,7 @@ msgstr "Hello everyone!"
 msgid "Hello!"
 msgstr "Hello!"
 
-#: src/components/Header.vue:31 src/views/Help.vue:5 src/views/Help.vue:189
+#: src/components/Header.vue:31 src/views/Help.vue:5 src/views/Help.vue:199
 msgid "Help"
 msgstr "Help"
 
@@ -685,7 +685,7 @@ msgstr "July 23, 2018"
 msgid "June 5, 2019"
 msgstr "June 5, 2019"
 
-#: src/components/InstanceCard.vue:266
+#: src/components/InstanceCard.vue:264
 msgid "KB"
 msgstr "KB"
 
@@ -729,7 +729,7 @@ msgstr "Many other improvements have been made in this new version. You can see 
 msgid "March 2018 thus represents the birth of the PeerTube federations: the more this software will be used and supported, the more people will use it and contribute to it, and the faster it will evolve towards a concrete alternative to platforms such as YouTube."
 msgstr "March 2018 thus represents the birth of the PeerTube federations: the more this software will be used and supported, the more people will use it and contribute to it, and the faster it will evolve towards a concrete alternative to platforms such as YouTube."
 
-#: src/components/InstanceCard.vue:267
+#: src/components/InstanceCard.vue:265
 msgid "MB"
 msgstr "MB"
 
@@ -894,7 +894,7 @@ msgstr "PeerTube crowdfunding newsletter #4"
 msgid "PeerTube Git"
 msgstr "PeerTube Git"
 
-#: src/views/Instances.vue:121
+#: src/views/Instances.vue:125
 msgid "PeerTube instances"
 msgstr "PeerTube instances"
 
@@ -1230,7 +1230,7 @@ msgstr "Translate"
 msgid "Travels"
 msgstr "Travels"
 
-#: src/components/InstanceCard.vue:261
+#: src/components/InstanceCard.vue:259
 msgid "Unlimited space"
 msgstr "Unlimited space"
 
@@ -1238,7 +1238,7 @@ msgstr "Unlimited space"
 msgid "Upgrade PeerTube"
 msgstr "Upgrade PeerTube"
 
-#: src/main.js:60
+#: src/main.js:53
 msgid "value"
 msgstr "value"
 

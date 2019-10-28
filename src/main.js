@@ -13,7 +13,6 @@ import AllContentSelections from './views/All-Content-Selections'
 
 import './scss/main.scss'
 import CommonMixins from './mixins/CommonMixins'
-import { from } from 'bootstrap-vue/esm/utils/array'
 
 Vue.use(VueRouter)
 
@@ -199,7 +198,7 @@ function buildTranslationsPromise (defaultLanguage, currentLanguage) {
       const remoteTranslations = module.default
       try {
         localStorage.setItem('translations-' + currentLanguage, JSON.stringify(remoteTranslations))
-      } catch (err)  {
+      } catch (err) {
         console.error('Cannot save translations in local storage.', err)
       }
 

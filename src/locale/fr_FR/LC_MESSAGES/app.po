@@ -368,7 +368,7 @@ msgstr "Au moins 5 Go"
 msgid "August 20, 2018"
 msgstr "20 Août 2018"
 
-#: src/components/InstanceCard.vue:265
+#: src/components/InstanceCard.vue:263
 msgid "B"
 msgstr "o"
 
@@ -597,8 +597,8 @@ msgid ""
 "org/c/peertube\">support forum</a> for that."
 msgstr ""
 "Ne dérangez pas le développeur pour vous aider à installer votre instance : "
-"notre <a target=\"_blank\" rel=\"noopener noreferrer\" href=\""
-"https://framacolibri.org/c/peertube\">forum d’entraide</a> est là pour ça."
+"notre <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://"
+"framacolibri.org/c/peertube\">forum d’entraide</a> est là pour ça."
 
 #: src/views/Home.vue:340
 msgid "Donate to Framasoft"
@@ -771,8 +771,8 @@ msgid ""
 "like to receive physical thank-you cards, put a logo of your enterprise, a "
 "link to support a non-profit organisation..."
 msgstr ""
-"Actuellement, la solution proposée est d'utiliser le bouton « Soutenir » (« <"
-"i lang=\"en\">Support</i> »). Ce bouton permet d'afficher un cadre dans "
+"Actuellement, la solution proposée est d'utiliser le bouton « Soutenir » (« "
+"<i lang=\"en\">Support</i> »). Ce bouton permet d'afficher un cadre dans "
 "lequel les personnes qui mettent en ligne des vidéos peuvent afficher des "
 "textes, images, et liens librement. Par exemple, il est possible d'afficher "
 "un bouton Patreon, Tipeee, Paypal, Liberapay (ou toute autre solution, "
@@ -823,7 +823,7 @@ msgstr "Gaélique écossais"
 msgid "Gaming"
 msgstr "Jeux vidéos"
 
-#: src/components/InstanceCard.vue:268
+#: src/components/InstanceCard.vue:266
 msgid "GB"
 msgstr "Go"
 
@@ -835,7 +835,7 @@ msgstr "Git"
 msgid "Go to the forum"
 msgstr "Aller sur le forum"
 
-#: src/views/Hall-Of-Fame.vue:5 src/views/Hall-Of-Fame.vue:621
+#: src/views/Hall-Of-Fame.vue:5 src/views/Hall-Of-Fame.vue:632
 msgid "Hall of Fame"
 msgstr "Tableau d’honneur"
 
@@ -848,7 +848,7 @@ msgstr "Bonjour à toutes et à tous !"
 msgid "Hello!"
 msgstr "Bonjour !"
 
-#: src/components/Header.vue:31 src/views/Help.vue:5 src/views/Help.vue:189
+#: src/components/Header.vue:31 src/views/Help.vue:5 src/views/Help.vue:199
 msgid "Help"
 msgstr "Aide"
 
@@ -930,8 +930,8 @@ msgid ""
 "users."
 msgstr ""
 "Si l’hébergeur Tricot-PeerTube devient ami avec Chatons-Tube et Framatube, "
-"il affichera les vidéos des autres sur son site : on dilue ainsi les coûts d’"
-"hébergement tout en restant pratique et complet pour les internautes."
+"il affichera les vidéos des autres sur son site : on dilue ainsi les coûts "
+"d’hébergement tout en restant pratique et complet pour les internautes."
 
 #: src/views/News.vue:231
 msgid ""
@@ -1198,7 +1198,7 @@ msgstr "23 Juillet 2018"
 msgid "June 5, 2019"
 msgstr "5 Juin 2019"
 
-#: src/components/InstanceCard.vue:266
+#: src/components/InstanceCard.vue:264
 msgid "KB"
 msgstr "Ko"
 
@@ -1275,7 +1275,7 @@ msgstr ""
 "contribueront, et plus vite il évoluera vers une alternative concrète aux "
 "plateformes telles que YouTube."
 
-#: src/components/InstanceCard.vue:267
+#: src/components/InstanceCard.vue:265
 msgid "MB"
 msgstr "Mo"
 
@@ -1593,7 +1593,7 @@ msgstr "Newsletter du crowdfunding de PeerTube n°4"
 msgid "PeerTube Git"
 msgstr "Git de PeerTube"
 
-#: src/views/Instances.vue:121
+#: src/views/Instances.vue:125
 msgid "PeerTube instances"
 msgstr "Instances PeerTube"
 
@@ -2156,8 +2156,8 @@ msgid ""
 "etc.)."
 msgstr ""
 "Ensuite, nous vous recommandons d’aller voir les instances, d’aller lire "
-"leur page « about » pour découvrir leurs conditions d’utilisation (limite d’"
-"espace disque par utilisateur, politique sur les contenus, etc.)."
+"leur page « about » pour découvrir leurs conditions d’utilisation (limite "
+"d’espace disque par utilisateur, politique sur les contenus, etc.)."
 
 #: src/views/FAQ.vue:138
 msgid ""
@@ -2286,7 +2286,7 @@ msgstr "Traduire"
 msgid "Travels"
 msgstr "Voyages"
 
-#: src/components/InstanceCard.vue:261
+#: src/components/InstanceCard.vue:259
 msgid "Unlimited space"
 msgstr "Espace illimité"
 
@@ -2294,7 +2294,7 @@ msgstr "Espace illimité"
 msgid "Upgrade PeerTube"
 msgstr "Mettre à jour PeerTube"
 
-#: src/main.js:60
+#: src/main.js:53
 msgid "value"
 msgstr "valeur"
 
@@ -2574,8 +2574,8 @@ msgid ""
 msgstr ""
 "Lorsque l’on héberge un fichier lourd comme une vidéo, la plus grosse chose "
 "à craindre, c’est le succès : si une vidéo devient virale et que plein de "
-"personnes la regardent en même temps, le serveur a de gros risques de tomber "
-"!"
+"personnes la regardent en même temps, le serveur a de gros risques de "
+"tomber !"
 
 #: src/views/FAQ.vue:339
 msgid "Where can I put my videos?"
