@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-10-24 13:04+0000\n"
+"PO-Revision-Date: 2019-10-28 11:23+0000\n"
 "Last-Translator: chocobozzz <chocobozzz@framasoft.org>\n"
 "Language-Team: French <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/fr/>\n"
@@ -508,7 +508,7 @@ msgstr "Humour"
 
 #: src/views/FAQ.vue:73
 msgid "Concretely here, it means that:"
-msgstr "Concrètement, ici, cela signifie que&nbsp;:"
+msgstr "Concrètement, ici, cela signifie que :"
 
 #: src/components/Footer.vue:5
 msgid "Contact"
@@ -596,9 +596,9 @@ msgid ""
 "target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framacolibri."
 "org/c/peertube\">support forum</a> for that."
 msgstr ""
-"Ne dérangez pas le développeur pour vous aider à installer votre "
-"instance&nbsp;: notre <a target=\"_blank\" rel=\"noopener noreferrer\" href="
-"\"https://framacolibri.org/c/peertube\">forum d’entraide</a> est là pour ça."
+"Ne dérangez pas le développeur pour vous aider à installer votre instance : "
+"notre <a target=\"_blank\" rel=\"noopener noreferrer\" href=\""
+"https://framacolibri.org/c/peertube\">forum d’entraide</a> est là pour ça."
 
 #: src/views/Home.vue:340
 msgid "Donate to Framasoft"
@@ -771,15 +771,15 @@ msgid ""
 "like to receive physical thank-you cards, put a logo of your enterprise, a "
 "link to support a non-profit organisation..."
 msgstr ""
-"Actuellement, la solution proposée est d'utiliser le bouton «&nbsp;"
-"Soutenir&nbsp;» («&nbsp;<i lang=\"en\">Support</i>&nbsp;»). Ce bouton permet "
-"d'afficher un cadre dans lequel les personnes qui mettent en ligne des "
-"vidéos peuvent afficher des textes, images, et liens librement. Par exemple, "
-"il est possible d'afficher un bouton Patreon, Tipeee, Paypal, Liberapay (ou "
-"toute autre solution, puisque le champ de saisie est libre). Autres exemples "
-"possibles : indiquer une adresse pour un remerciement par carte postale, "
-"négocier avec un sponsor l'affichage du logo de son entreprise, mettre en "
-"avant un lien pour soutenir une ONG, etc."
+"Actuellement, la solution proposée est d'utiliser le bouton « Soutenir » (« <"
+"i lang=\"en\">Support</i> »). Ce bouton permet d'afficher un cadre dans "
+"lequel les personnes qui mettent en ligne des vidéos peuvent afficher des "
+"textes, images, et liens librement. Par exemple, il est possible d'afficher "
+"un bouton Patreon, Tipeee, Paypal, Liberapay (ou toute autre solution, "
+"puisque le champ de saisie est libre). Autres exemples possibles : indiquer "
+"une adresse pour un remerciement par carte postale, négocier avec un sponsor "
+"l'affichage du logo de son entreprise, mettre en avant un lien pour soutenir "
+"une ONG, etc."
 
 #: src/views/Help.vue:61
 msgid "For PeerTube admins"
@@ -883,7 +883,7 @@ msgstr "Comment participer au code de PeerTube ?"
 
 #: src/views/FAQ.vue:405
 msgid "How do I install PeerTube?"
-msgstr "Comment installer PeerTube&nbsp;?"
+msgstr "Comment installer PeerTube ?"
 
 #: src/components/InstancesList.vue:313
 msgid "How To"
@@ -920,7 +920,7 @@ msgstr ""
 
 #: src/views/FAQ.vue:258
 msgid "If it's free, can we upload illegal stuff on it?"
-msgstr "Si c’est libre, on peut y mettre des contenus illicites&nbsp;?"
+msgstr "Si c’est libre, on peut y mettre des contenus illicites ?"
 
 #: src/views/FAQ.vue:96
 msgid ""
@@ -930,8 +930,8 @@ msgid ""
 "users."
 msgstr ""
 "Si l’hébergeur Tricot-PeerTube devient ami avec Chatons-Tube et Framatube, "
-"il affichera les vidéos des autres sur son site&nbsp;: on dilue ainsi les "
-"coûts d’hébergement tout en restant pratique et complet pour les internautes."
+"il affichera les vidéos des autres sur son site : on dilue ainsi les coûts d’"
+"hébergement tout en restant pratique et complet pour les internautes."
 
 #: src/views/News.vue:231
 msgid ""
@@ -1099,7 +1099,7 @@ msgstr ""
 
 #: src/views/FAQ.vue:227
 msgid "Is PeerTube's purpose to replace YouTube?"
-msgstr "Le but de PeerTube, c’est de remplacer YouTube&nbsp;?"
+msgstr "Le but de PeerTube, c’est de remplacer YouTube ?"
 
 #: src/views/FAQ.vue:171
 msgid ""
@@ -1270,9 +1270,9 @@ msgid ""
 "contribute to it, and the faster it will evolve towards a concrete "
 "alternative to platforms such as YouTube."
 msgstr ""
-"Mars 2018 représente donc la naissance des fédérations PeerTube&nbsp;: plus "
-"ce logiciel sera utilisé et soutenu, plus des personnes l’utiliseront et y "
-"contribueront, et plus vite il évolura vers une alternative concrète aux "
+"Mars 2018 représente donc la naissance des fédérations PeerTube : plus ce "
+"logiciel sera utilisé et soutenu, plus des personnes l’utiliseront et y "
+"contribueront, et plus vite il évoluera vers une alternative concrète aux "
 "plateformes telles que YouTube."
 
 #: src/components/InstanceCard.vue:267
@@ -1345,9 +1345,9 @@ msgid ""
 "purpose."
 msgstr ""
 "Néanmoins, il est bon de rappeler que l’immense majorité des vidéos publiées "
-"sur internet (et même sur YouTube) sont partagées dans un but non-"
-"marchand&nbsp;: la rémunération est un outil, mais pas forcément un but "
-"principal ni essentiel."
+"sur internet (et même sur YouTube) sont partagées dans un but non-marchand : "
+"la rémunération est un outil, mais pas forcément un but principal ni "
+"essentiel."
 
 #: src/views/FAQ.vue:246
 msgid ""
@@ -1357,9 +1357,9 @@ msgid ""
 "exists."
 msgstr ""
 "Néanmoins, l’ambition reste d’être <strong>une alternative libre et "
-"décentralisée</strong>&nbsp;: le but d’une alternative n’est pas de "
-"remplacer, mais de proposer quelque chose d’autre, avec des valeurs "
-"différentes, en parallèle de ce qui existe déjà."
+"décentralisée</strong> : le but d’une alternative n’est pas de remplacer, "
+"mais de proposer quelque chose d’autre, avec des valeurs différentes, en "
+"parallèle de ce qui existe déjà."
 
 #: src/components/Header.vue:27 src/views/News.vue:651
 msgid "News"
@@ -1449,10 +1449,10 @@ msgid ""
 "installation does not allow peer-to-peer playback (corporate network, "
 "recalcitrant browser, etc.) video playback will be done in the classic way."
 msgstr ""
-"Bien sûr, le lecteur vidéo de PeerTube s’adapte à votre situation&nbsp;: si "
-"votre installation ne permet pas la diffusion en pair-à-pair (réseau "
-"d’entreprise, navigateur récalcitrant, etc.) la lecture de la vidéo se fera "
-"de manière classique."
+"Bien sûr, le lecteur vidéo de PeerTube s’adapte à votre situation : si votre "
+"installation ne permet pas la diffusion en pair-à-pair (réseau d’entreprise, "
+"navigateur récalcitrant, etc.) la lecture de la vidéo se fera de manière "
+"classique."
 
 #: src/views/FAQ.vue:31
 msgid ""
@@ -1622,7 +1622,7 @@ msgid ""
 "PeerTube is freely provided, no need to pay to install it on your server;"
 msgstr ""
 "PeerTube est diffusé gratuitement, pas besoin de payer pour l’installer sur "
-"son serveur&nbsp;;"
+"son serveur ;"
 
 #: src/views/FAQ.vue:389
 msgid ""
@@ -1638,9 +1638,9 @@ msgid ""
 "PeerTube is not a website: it is software that allows a web hoster (for "
 "example, Dominique) to create a video website (let's call it DominiqueTube)."
 msgstr ""
-"PeerTube n’est pas un site web&nbsp;: c’est un logiciel qui permet à un "
-"hébergeur (par exemple, Dominique) de créer un site web de vidéos (appelons-"
-"le DominiqueTube)."
+"PeerTube n’est pas un site web : c’est un logiciel qui permet à un hébergeur "
+"(par exemple, Dominique) de créer un site web de vidéos (appelons-le "
+"DominiqueTube)."
 
 #: src/views/Home.vue:86
 msgid ""
@@ -1675,7 +1675,7 @@ msgid ""
 "web application which combines three advantages:"
 msgstr ""
 "PeerTube est unique car (à notre connaissance), c’est la seule application "
-"web d’hébergement vidéo qui allie trois avantages&nbsp;:"
+"web d’hébergement vidéo qui allie trois avantages :"
 
 #: src/views/News.vue:4
 msgid "PeerTube news!"
@@ -2156,8 +2156,8 @@ msgid ""
 "etc.)."
 msgstr ""
 "Ensuite, nous vous recommandons d’aller voir les instances, d’aller lire "
-"leur page «&nbsp;about&nbsp;» pour découvrir leurs conditions d’utilisation "
-"(limite d’espace disque par utilisateur, politique sur les contenus, etc.)."
+"leur page « about » pour découvrir leurs conditions d’utilisation (limite d’"
+"espace disque par utilisateur, politique sur les contenus, etc.)."
 
 #: src/views/FAQ.vue:138
 msgid ""
@@ -2398,15 +2398,15 @@ msgstr ""
 
 #: src/views/FAQ.vue:232
 msgid "We can answer with certainty: no!"
-msgstr "On peut répondre avec certitude&nbsp;: non&nbsp;!"
+msgstr "On peut répondre avec certitude : non !"
 
 #: src/views/FAQ.vue:76
 msgid ""
 "We can look under the hood of PeerTube (its source code): it's auditable, "
 "transparent;"
 msgstr ""
-"On peut regarder sous le capot de PeerTube (son code source)&nbsp;: il est "
-"auditable, transparent&nbsp;;"
+"On peut regarder sous le capot de PeerTube (son code source) : il est "
+"auditable, transparent ;"
 
 #: src/views/FAQ.vue:323
 msgid ""
@@ -2468,7 +2468,7 @@ msgid ""
 msgstr ""
 "Nous recommandons de ne pas installer PeerTube sur un matériel peu puissant "
 "ni derrière une connexion faible (par exemple, sur un RaspberryPi avec une "
-"connexion ADSL)&nbsp;: cela pourrait ralentir l’ensemble des fédérations."
+"connexion ADSL) : cela pourrait ralentir l’ensemble des fédérations."
 
 #: src/views/News.vue:311
 msgid ""
@@ -2560,11 +2560,11 @@ msgstr "C'est quoi PeerTube ?"
 
 #: src/views/FAQ.vue:311
 msgid "What is PeerTube's remuneration policy?"
-msgstr "Quelle est la politique de rémunération de PeerTube&nbsp;?"
+msgstr "Quelle est la politique de rémunération de PeerTube ?"
 
 #: src/views/FAQ.vue:83
 msgid "What's the interest to federate the video hosting providers?"
-msgstr "Quel est l’intérêt de fédérer les hébergements de vidéos&nbsp;?"
+msgstr "Quel est l’intérêt de fédérer les hébergements de vidéos ?"
 
 #: src/views/FAQ.vue:114
 msgid ""
@@ -2573,13 +2573,13 @@ msgid ""
 "the server has a big risk of getting overloaded!"
 msgstr ""
 "Lorsque l’on héberge un fichier lourd comme une vidéo, la plus grosse chose "
-"à craindre, c’est le succès&nbsp;: si une vidéo devient virale et que plein "
-"de personnes la regardent en même temps, le serveur a de gros risques de "
-"tomber&nbsp;!"
+"à craindre, c’est le succès : si une vidéo devient virale et que plein de "
+"personnes la regardent en même temps, le serveur a de gros risques de tomber "
+"!"
 
 #: src/views/FAQ.vue:339
 msgid "Where can I put my videos?"
-msgstr "Où puis-je mettre mes vidéos&nbsp;?"
+msgstr "Où puis-je mettre mes vidéos ?"
 
 #: src/views/Home.vue:300
 msgid "Who is behind"
@@ -2587,11 +2587,11 @@ msgstr "Qui est derrière"
 
 #: src/views/FAQ.vue:281
 msgid "Who is responsible for content published on PeerTube?"
-msgstr "Qui est responsable du contenu publié sur PeerTube&nbsp;?"
+msgstr "Qui est responsable du contenu publié sur PeerTube ?"
 
 #: src/views/FAQ.vue:109
 msgid "Why broadcast PeerTube videos through peer-to-peer?"
-msgstr "Pourquoi diffuser les vidéos en pair-à-pair&nbsp;?"
+msgstr "Pourquoi diffuser les vidéos en pair-à-pair ?"
 
 #: src/views/FAQ.vue:514
 msgid ""
@@ -2603,7 +2603,7 @@ msgstr ""
 
 #: src/views/FAQ.vue:62
 msgid "Why is it better as free/libre software?"
-msgstr "Pourquoi c’est mieux que ce soit un logiciel libre&nbsp;?"
+msgstr "Pourquoi c’est mieux que ce soit un logiciel libre ?"
 
 #: src/views/Home.vue:10
 msgid ""
@@ -2730,10 +2730,9 @@ msgid ""
 "its ContentID system (the infamous \"Robocopyright\") or its videos "
 "recommendation system, all of which appear to be as obscure as unfair."
 msgstr ""
-"On l’a vu avec les dérives de YouTube&nbsp;: son hébergeur, Google-Alphabet, "
-"peut imposer son système ContentID (le fameux «&nbsp;Robocopyright&nbsp;») "
-"ou ses outils de mise en valeur des vidéos, qui semblent aussi obscurs "
-"qu’injustes."
+"On l’a vu avec les dérives de YouTube : son hébergeur, Google-Alphabet, peut "
+"imposer son système ContentID (le fameux « Robocopyright ») ou ses outils de "
+"mise en valeur des vidéos, qui semblent aussi obscurs qu’injustes."
 
 #: src/views/News.vue:288
 msgid "YouTube video import"
