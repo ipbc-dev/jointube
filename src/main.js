@@ -62,7 +62,7 @@ p.catch(err => {
     translations,
     availableLanguages,
     defaultLanguage: 'en_US',
-    silent: process.env.NODE_ENV === 'development'
+    silent: process.env.NODE_ENV === 'production'
   })
 
   Vue.config.language = currentLanguage
