@@ -34,7 +34,7 @@
       </div>
 
       <div class="tags">
-        <div class="tag" v-for="category in instance.categories" :key="category">
+        <div class="tag" v-for="category in limitedCategories" :key="category">
           {{ translatedThemes[category] }}
         </div>
       </div>
@@ -251,6 +251,12 @@
           .map(l => this.translatedLanguages[l])
           .filter(l => !!l)
           .join(', ')
+      },
+
+      limitedCategories () {
+        if (Array.isArray(this.instance.categories) === false) return []
+
+        return this.instance.categories.slice(0, 3)
       }
     },
 
