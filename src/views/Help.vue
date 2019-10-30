@@ -12,7 +12,7 @@
 
       <div class="block-with-image understand">
         <div class="image-block">
-          <img width="167px" height="252px" :src="buildImgUrl('help/rabbit.png')" alt="Rabbit image">
+          <img width="183px" height="200px" :src="buildImgUrl('mascot/pointing.svg')" alt="PeerTube mascot">
         </div>
 
         <div class="text-block">
