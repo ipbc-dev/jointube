@@ -103,7 +103,13 @@
     </div>
 
     <div class="list">
-      <div v-translate class="title">Instances list</div>
+      <div class="title">
+        <translate>Instances list</translate>
+
+        <transition name="mascot-loading">
+          <img v-bind:class="{ animate: loadingAnimation }" v-on:animationend="loadingAnimation = false" class="mascot-loading" :src="buildImgUrl('mascot/happy.png')" alt="PeerTube mascot">
+        </transition>
+      </div>
 
       <div class="list" v-bind:class="{ unloaded: instances.length === 0 && noResults === false }">
         <div v-for="instance of instances" class="instance" :key="instance.host">
@@ -250,7 +256,9 @@
 
   .list {
     .title {
-      margin-bottom: 50px;
+      height: 150px;
+      display: flex;
+      align-items: center;
     }
 
     .instance {
@@ -259,6 +267,32 @@
 
     .list.unloaded {
       min-height: 400px;
+    }
+  }
+
+  .mascot-loading {
+    display: none;
+
+    @media screen and (min-width: $responsive-screen) {
+      &.animate {
+        display: block;
+        animation: mascotLoadingAnimation 1s normal ease-out;
+
+        @keyframes mascotLoadingAnimation {
+          0% {
+            margin-left: 0;
+          }
+
+          50% {
+            opacity: 1;
+          }
+
+          100% {
+            margin-left: calc(100% - 300px);
+            opacity: 0;
+          }
+        }
+      }
     }
   }
 
@@ -296,6 +330,7 @@
       return {
         error: false,
         noResults: false,
+        loadingAnimation: false,
 
         instances: [],
         translatedThemes: {
@@ -418,6 +453,7 @@
 
       fetchInstances () {
         this.noResults = false
+        this.loadingAnimation = true
 
         const params = {
           start: 0,
@@ -427,7 +463,7 @@
 
         if (this.wantTo === 'create-account') params.signup = true
         if (this.themes.length !== 0) params.categoriesOr = this.themes
-        if (this.nsfw !== 'no-opinion') params.nsfwPolicy = [ this.nsfw ]
+        if (this.nsfw !== 'no-opinion') params.nsfwPolicy = [this.nsfw]
         if (this.languages.length !== 0) params.languagesOr = this.languages
         if (this.isQuotaEnabled()) params.minUserQuota = this.quota
 
