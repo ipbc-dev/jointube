@@ -8,6 +8,8 @@
         <div class="description" v-translate>A free software to take back control of your videos</div>
       </div>
 
+      <img class="peertube-mascot" :src="buildImgUrl(mascotPaths[currentMascot])" @click="switchMascot()" alt="PeerTube mascot">
+
       <div class="marketing" v-translate>
         With more than 100 000 hosted videos, viewed more than 6 millions times and 20 000 users,
         PeerTube is the decentralized free software alternative to videos platforms developed by Framasoft
@@ -15,7 +17,7 @@
 
       <div class="buttons-row">
         <a href="#what-is-peertube" class="jpt-button jpt-big-button-icon">
-          <icon-instance></icon-instance>
+          <icon-logo></icon-logo>
 
           <span v-translate>What is PeerTube?</span>
         </a>
@@ -427,9 +429,14 @@
         }
       }
 
+      .peertube-mascot {
+        display: block;
+        margin: 30px auto 0;
+      }
+
       .marketing {
         font-size: 16px;
-        margin: 50px auto;
+        margin: 30px auto;
         width: 500px;
         text-align: center;
 
@@ -485,17 +492,39 @@
   import IconInstance from '../components/icons/IconInstance.vue'
   import IconRight from '../components/icons/IconRight.vue'
   import ContentSelections from '../components/ContentSelections'
+  import IconLogo from '../components/icons/IconLogo'
 
   export default {
     components: {
       ContentSelections,
       IconInstance,
-      IconRight
+      IconRight,
+      IconLogo
     },
 
     metaInfo: {
       title: 'JoinPeerTube',
       titleTemplate: null
+    },
+
+    data () {
+      return {
+        mascotPaths: [
+          'mascot/default.png',
+          'mascot/arguing.png',
+          'mascot/oh.png',
+          'mascot/defeated.png',
+          'mascot/happy.png'
+        ],
+        currentMascot: 0
+      }
+    },
+
+    methods: {
+      switchMascot () {
+        this.currentMascot++
+        this.currentMascot %= this.mascotPaths.length
+      }
     }
   }
 </script>
