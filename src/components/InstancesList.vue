@@ -111,7 +111,7 @@
         </transition>
       </div>
 
-      <div class="list" v-bind:class="{ unloaded: instances.length === 0 && noResults === false }">
+      <div class="list" v-bind:class="{ unloaded: !error && !noResults && instances.length === 0 }">
         <div v-for="instance of instances" class="instance" :key="instance.host">
           <instance-card
             :instance="instance" :isVideoMaker="isVideoMaker()"
@@ -121,104 +121,20 @@
         </div>
       </div>
 
-      <div v-if="error" class="alert alert-danger">
-        Sorry, but we cannot fetch the instances list. Please retry later.
+      <div v-if="error" class="message">
+        <img :src="buildImgUrl('mascot/defeated.png')" alt="PeerTube mascot">
+
+        <div class="alert alert-danger">Sorry, but we cannot fetch the instances list. Please retry later.</div>
       </div>
 
-      <div v-if="noResults" class="alert alert-info">
-        Sorry, but we did not find any instance matching your filters.
+      <div v-if="noResults" class="message">
+        <img :src="buildImgUrl('mascot/oh.png')" alt="PeerTube mascot">
+
+        <div class="alert alert-info">Sorry, but we did not find any instance matching your filters.</div>
       </div>
     </div>
   </div>
 </template>
-
-<style lang="scss">
-  @import '../scss/_variables.scss';
-
-  #instances-list {
-    .title {
-      font-size: 24px;
-    }
-
-    .filters {
-      margin-bottom: 100px;
-
-      .title {
-        margin-bottom: 25px;
-      }
-
-      form {
-        border-left: 6px solid $orange;
-        padding-left: 24px;
-
-        .group {
-          margin-bottom: 30px;
-          display: flex;
-          align-items: center;
-
-          & > label {
-            min-width: 140px;
-            margin: 0 10px 0 0;
-
-            &.label-checkbox {
-              align-self: flex-start;
-            }
-          }
-        }
-
-        select {
-          width: 280px;
-          height: 35px;
-          line-height: 21px;
-          border-radius: 0;
-        }
-
-        .btn-group-toggle {
-          .btn {
-            display: flex;
-            align-items: center;
-            color: #000;
-            background-color: #fff;
-            border-color: $orange;
-            min-height: 30px;
-            padding: 0 15px;
-            cursor: pointer;
-
-            &.active {
-              color: #fff;
-              font-weight: $font-semibold;
-              background-color: $orange;
-            }
-          }
-        }
-      }
-    }
-
-    .list {
-      margin-bottom: 50px;
-    }
-
-    @media screen and (max-width: $responsive-screen) {
-      .filters {
-        margin-bottom: 100px;
-
-        form {
-          padding-left: 15px;
-
-          .group {
-            flex-direction: column;
-            align-items: flex-start;
-
-            label {
-              margin-bottom: 5px;
-              font-size: 15px;
-            }
-          }
-        }
-      }
-    }
-  }
-</style>
 
 <style lang="scss">
   @import '../scss/_variables.scss';
@@ -307,6 +223,91 @@
       .custom-control {
         margin-right: 10px;
         width: calc(50% - 10px) !important;
+      }
+    }
+  }
+
+  #instances-list {
+    .title {
+      font-size: 24px;
+    }
+
+    .filters {
+      margin-bottom: 100px;
+
+      .title {
+        margin-bottom: 25px;
+      }
+
+      form {
+        border-left: 6px solid $orange;
+        padding-left: 24px;
+
+        .group {
+          margin-bottom: 30px;
+          display: flex;
+          align-items: center;
+
+          & > label {
+            min-width: 140px;
+            margin: 0 10px 0 0;
+
+            &.label-checkbox {
+              align-self: flex-start;
+            }
+          }
+        }
+
+        select {
+          width: 280px;
+          height: 35px;
+          line-height: 21px;
+          border-radius: 0;
+        }
+
+        .btn-group-toggle {
+          .btn {
+            display: flex;
+            align-items: center;
+            color: #000;
+            background-color: #fff;
+            border-color: $orange;
+            min-height: 30px;
+            padding: 0 15px;
+            cursor: pointer;
+
+            &.active {
+              color: #fff;
+              font-weight: $font-semibold;
+              background-color: $orange;
+            }
+          }
+        }
+      }
+    }
+
+    .message img {
+      display: block;
+      margin: 0 auto 50px;
+    }
+
+    @media screen and (max-width: $responsive-screen) {
+      .filters {
+        margin-bottom: 100px;
+
+        form {
+          padding-left: 15px;
+
+          .group {
+            flex-direction: column;
+            align-items: flex-start;
+
+            label {
+              margin-bottom: 5px;
+              font-size: 15px;
+            }
+          }
+        }
       }
     }
   }
@@ -463,7 +464,7 @@
 
         if (this.wantTo === 'create-account') params.signup = true
         if (this.themes.length !== 0) params.categoriesOr = this.themes
-        if (this.nsfw !== 'no-opinion') params.nsfwPolicy = [this.nsfw]
+        if (this.nsfw !== 'no-opinion') params.nsfwPolicy = [ this.nsfw ]
         if (this.languages.length !== 0) params.languagesOr = this.languages
         if (this.isQuotaEnabled()) params.minUserQuota = this.quota
 
