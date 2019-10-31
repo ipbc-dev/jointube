@@ -15,7 +15,7 @@ export default {
           type: 'video',
           title: 'Démocratie(s)',
           thumbnailName: 'democraties.jpg',
-          tags: [ '#democratie', '#DataGueule', '#politique', '#France', '#elections' ],
+          tags: [ '#democratie', '#politique', '#elections' ],
           description: 'Ce film d\'Henri Poulain, Julien Goetz et Sylvain Lapoix (les créateurs de la série DataGueule) met en évidence les travers de notre démocratie représentative et propose des  alternatives qui fonctionnent et dont nous pourrions nous inspirer. Objectif : explorer son passé pour mieux comprendre cette "crise démocratique" qui est sur toutes les lèvres.',
           url: 'https://peertube.datagueule.tv/videos/watch/0b04f13d-1e18-4f1d-814e-4979aa7c9c44'
         },
