@@ -113,10 +113,15 @@ p > a {
   border-radius: 4px;
   background-color: transparent;
   align-items: center;
+  transition: background-color 0.2s;
 
   svg {
     width: 18px;
     height: 18px;
+  }
+
+  &:hover {
+    background-color: rgba($orange, 0.1);
   }
 
   @media screen and (max-width: $responsive-screen) {
