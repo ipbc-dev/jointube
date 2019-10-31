@@ -167,7 +167,12 @@
 
       .tags {
         display: flex;
+        flex-wrap: wrap;
         margin-top: auto;
+
+        .tag {
+          margin-bottom: 5px;
+        }
       }
     }
 

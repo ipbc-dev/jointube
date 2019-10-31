@@ -179,7 +179,7 @@
         }
 
         .image-block {
-          margin: 40px 0;
+          margin: 40px 0 !important;
         }
       }
     }

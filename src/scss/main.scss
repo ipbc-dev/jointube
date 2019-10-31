@@ -129,7 +129,7 @@ p > a {
   @media screen and (max-width: $small-screen) {
     width: 100% !important;
     min-width: unset !important;
-    padding: 0 5px !important;
+    padding: 5px !important;
   }
 }
 
@@ -240,6 +240,15 @@ p > a {
   & + .bottom-two-columns {
     margin-top: 10px;
   }
+
+  @media screen and (max-width: $small-screen) {
+    width: 100%;
+    margin: 20px auto 0;
+
+    &.citation {
+      margin: 20px auto;
+    }
+  }
 }
 
 .bottom-link-wrapper {
@@ -320,9 +329,10 @@ p > a {
   font-size: 14px;
   min-width: 140px;
   padding: 0 10px;
-  height: 25px;
+  min-height: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   width: fit-content;
 }

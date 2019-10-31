@@ -449,7 +449,7 @@
       .discover-instances {
         min-width: 420px;
         width: fit-content;
-        height: 50px;
+        min-height: 50px;
         margin: 50px auto;
         font-size: 20px;
       }
