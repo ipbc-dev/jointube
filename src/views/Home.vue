@@ -82,14 +82,17 @@
         <div class="two-columns">
           <img :src="buildImgUrl('peertube-federation-multiplicity.png')" alt="Funny federation schema"/>
 
-            <div class="citation">
+          <div>
+          <div>PeerTube is not meant to become a huge platform that would centralize videos from all around the world.</div>
+
+          <div class="citation">
               <div class="left-bar"></div>
 
               <div class="text" v-translate>
-                PeerTube is not meant to become a huge platform that would centralize videos from all around the world.
                 Rather, it is <strong>a network of inter-connected small videos hosters</strong>.
               </div>
             </div>
+          </div>
         </div>
 
         <p v-translate class="bottom-two-columns">

@@ -233,6 +233,10 @@ p > a {
   margin: 50px auto 0;
   width: 600px;
 
+  &.citation {
+    margin: 50px auto;
+  }
+
   & + .bottom-two-columns {
     margin-top: 10px;
   }
@@ -243,6 +247,10 @@ p > a {
   justify-content: flex-end;
   width: 100%;
   margin: 30px 0;
+
+  + .two-columns {
+    margin-top: 100px;
+  }
 }
 
 .bottom-link {
