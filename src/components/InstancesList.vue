@@ -106,9 +106,9 @@
       <div class="title">
         <translate>Instances list</translate>
 
-        <transition name="mascot-loading">
+        <div class="mascot-loading-block">
           <img v-bind:class="{ animate: loadingAnimation }" v-on:animationend="loadingAnimation = false" class="mascot-loading" :src="buildImgUrl('mascot/happy.png')" alt="PeerTube mascot">
-        </transition>
+        </div>
       </div>
 
       <div class="list" v-bind:class="{ unloaded: !error && !noResults && instances.length === 0 }">
@@ -186,26 +186,30 @@
     }
   }
 
-  .mascot-loading {
-    display: none;
+  .mascot-loading-block {
+    width: 100%;
 
-    @media screen and (min-width: $responsive-screen) {
-      &.animate {
-        display: block;
-        animation: mascotLoadingAnimation 1s normal ease-out;
+    .mascot-loading {
+      display: none;
 
-        @keyframes mascotLoadingAnimation {
-          0% {
-            margin-left: 0;
-          }
+      @media screen and (min-width: $responsive-screen) {
+        &.animate {
+          display: block;
+          animation: mascotLoadingAnimation 1s normal ease-out;
 
-          50% {
-            opacity: 1;
-          }
+          @keyframes mascotLoadingAnimation {
+            0% {
+              margin-left: 0;
+            }
 
-          100% {
-            margin-left: calc(100% - 300px);
-            opacity: 0;
+            50% {
+              opacity: 1;
+            }
+
+            100% {
+              margin-left: calc(100% - 150px);
+              opacity: 0;
+            }
           }
         }
       }
