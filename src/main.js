@@ -8,7 +8,7 @@ import App from './App.vue'
 import Home from './views/Home.vue'
 import Help from './views/Help'
 import Instances from './views/Instances'
-import FAQ from './views/FAQ'
+import NotFound from './views/NotFound'
 import AllContentSelections from './views/All-Content-Selections'
 
 import './scss/main.scss'
@@ -75,6 +75,7 @@ p.catch(err => {
 
   const HallOfFame = () => import('./views/Hall-Of-Fame')
   const News = () => import('./views/News')
+  const FAQ = () => import('./views/FAQ')
 
   const routes = [
     {
@@ -104,6 +105,14 @@ p.catch(err => {
     {
       path: '/content-selections',
       component: AllContentSelections
+    },
+    {
+      path: '/404',
+      component: NotFound
+    },
+    {
+      path: '*',
+      redirect: '/404'
     }
   ]
 
