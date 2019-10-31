@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-10-31 13:55+0000\n"
+"PO-Revision-Date: 2019-10-31 16:19+0000\n"
 "Last-Translator: chocobozzz <chocobozzz@framasoft.org>\n"
 "Language-Team: French (France) <https://weblate.framasoft.org/projects/"
 "joinpeertube/main/fr_FR/>\n"
@@ -575,9 +575,8 @@ msgid "Discover PeerTube instances"
 msgstr "Découvrir les instances PeerTube"
 
 #: src/components/ContentSelection.vue:18
-#, fuzzy
 msgid "Discover the channel"
-msgstr "Voir la liste des instances"
+msgstr "Découvrir la chaîne"
 
 #: src/views/News.vue:6
 msgid "Discover the latest PeerTube improvements"
@@ -2340,7 +2339,7 @@ msgstr "Spectateur"
 
 #: src/components/ContentSelection.vue:11
 msgid "Watch the video"
-msgstr ""
+msgstr "Regarder la vidéo"
 
 #: src/views/News.vue:101
 msgid ""
