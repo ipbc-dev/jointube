@@ -79,7 +79,7 @@
           <div class="border-title"></div>
         </div>
 
-        <div class="two-columns">
+        <div class="one-column">
           <img :src="buildImgUrl('peertube-federation-multiplicity.png')" alt="Funny federation schema"/>
 
           <div>
@@ -93,52 +93,52 @@
               </div>
             </div>
           </div>
-        </div>
 
-        <p v-translate class="bottom-two-columns">
-          Anyone with a modicum of technical skills can host a PeerTube server, aka an instance.
-          Each instance hosts its users and their videos.
-          In this way, <strong>every instance is created, moderated and maintained independently by various administrators.</strong>
-        </p>
+          <p v-translate>
+            Anyone with a modicum of technical skills can host a PeerTube server, aka an instance.
+            Each instance hosts its users and their videos.
+            In this way, <strong>every instance is created, moderated and maintained independently by various administrators.</strong>
+          </p>
 
-        <div class="bottom-link-wrapper">
-          <router-link :to="{ path: '/instances', hash: 'instances-list' }" class="bottom-link">
-            <span class="text" v-translate>Discover PeerTube instances</span>
-            <icon-right></icon-right>
-          </router-link>
-        </div>
-
-        <div class="two-columns">
-          <div>
-            <p v-translate>
-              You can still watch from your account videos hosted by other instances though
-              if the administrator of your instance had previously connected it with other instances.
-            </p>
-
-            <div class="citation">
-              <div class="left-bar"></div>
-
-              <div class="text" v-translate>This is just how a <strong>federation</strong> works!</div>
-            </div>
+          <div class="bottom-link-wrapper">
+            <router-link :to="{ path: '/instances', hash: 'instances-list' }" class="bottom-link">
+              <span class="text" v-translate>Discover PeerTube instances</span>
+              <icon-right></icon-right>
+            </router-link>
           </div>
-
-          <img :src="buildImgUrl('peertube-federation-2-instances.png')" alt="Funny 2 instances communication schema"/>
         </div>
 
-        <p v-translate class="bottom-two-columns">
-          And there's more! PeerTube uses Activity Pub, a federating protocol that <strong>allows you to interact with other software</strong>,
-          provided they also use this protocol. For example, PeerTube and Mastodon -a Twitter alternative- are connected:
-          <strong>you can follow a PeerTube user from Mastodon</strong> (the latest videos from the PeerTube account you follow will appear in your feed),
-          <strong>and even comment on a PeerTube-hosted video directly from your Mastodon's account.</strong>
-        </p>
+        <div class="one-column">
+          <p v-translate>
+            You can still watch from your account videos hosted by other instances though
+            if the administrator of your instance had previously connected it with other instances.
+          </p>
 
-<!--        TODO: find interesting resource regarding federation-->
-<!--        <div class="bottom-link-wrapper">-->
-<!--          <a href="#" class="bottom-link">-->
-<!--            <span class="text" v-translate>Learn more about the federation</span>-->
-<!--            <icon-right></icon-right>-->
-<!--          </a>-->
-<!--        </div>-->
+          <div class="citation">
+            <div class="left-bar"></div>
+
+            <div class="text" v-translate>This is just how a <strong>federation</strong> works!</div>
+          </div>
+        </div>
+
+        <div class="one-column">
+          <img :src="buildImgUrl('peertube-federation-2-instances.png')" alt="Funny 2 instances communication schema"/>
+
+          <p v-translate>
+            And there's more! PeerTube uses Activity Pub, a federating protocol that <strong>allows you to interact with other
+            software</strong>, provided they also use this protocol. For example, PeerTube and Mastodon -a Twitter alternative- are connected:
+            <strong>you can follow a PeerTube user from Mastodon</strong> (the latest videos from the PeerTube account you follow will appear
+            in your feed), <strong>and even comment on a PeerTube-hosted video directly from your Mastodon's account.</strong>
+          </p>
+        </div>
+
+        <!--        TODO: find interesting resource regarding federation-->
+        <!--        <div class="bottom-link-wrapper">-->
+        <!--          <a href="#" class="bottom-link">-->
+        <!--            <span class="text" v-translate>Learn more about the federation</span>-->
+        <!--            <icon-right></icon-right>-->
+        <!--          </a>-->
+        <!--        </div>-->
       </div>
 
       <div class="free-software">
@@ -147,46 +147,44 @@
           <div class="border-title"></div>
         </div>
 
-        <div class="two-columns">
+        <div class="one-column">
           <img :src="buildImgUrl('peertube-free-software.png')" alt="PeerTube is a free software funny schema"/>
 
-          <div>
-            <p v-translate>
-              Mainstream online video broadcasting services make money off of your data by analyzing your interactions
-              so that they can then bombard your with targeted advertising.
-            </p>
+          <p v-translate>
+            Mainstream online video broadcasting services make money off of your data by analyzing your interactions
+            so that they can then bombard your with targeted advertising.
+          </p>
 
-            <div class="citation">
-              <div class="left-bar"></div>
+          <div class="citation">
+            <div class="left-bar"></div>
 
-              <div class="text" v-translate>
-                Peertube is not subject to any corporate monopoly, does not rely on ads and <strong>does not track you.</strong>
-              </div>
+            <div class="text" v-translate>
+              Peertube is not subject to any corporate monopoly, does not rely on ads and <strong>does not track you.</strong>
             </div>
           </div>
+
+          <p v-translate>
+            Most importantly, <strong>you are a person to PeerTube, not a product in need of profiling so as to be stuck in video
+            loops.</strong>
+            For example, PeerTube doesn't use any biased recommendation algorithms to keep you online for hours on end.
+          </p>
+
+          <p v-translate>
+            All of this is made possible by Peertube's free/libre license (GNU-AGPL).
+            Its code is a digital "common", that belongs to everybody, instead of a secret formula that belongs to Google
+            (in the case of Youtube) or to Vivendi/Bolloré (Dailymotion).
+            This free/libre license <strong>guarantees our fundamental freedoms as users and allows many contributors to offer evolutions
+            and new features.</strong>
+          </p>
         </div>
 
-        <p class="bottom-two-columns" v-translate>
-          Most importantly, <strong>you are a person to PeerTube, not a product in need of profiling so as to be stuck in video
-          loops.</strong>
-          For example, PeerTube doesn't use any biased recommendation algorithms to keep you online for hours on end.
-        </p>
-
-        <p class="bottom-two-columns" v-translate>
-          All of this is made possible by Peertube's free/libre license (GNU-AGPL).
-          Its code is a digital "common", that belongs to everybody, instead of a secret formula that belongs to Google
-          (in the case of Youtube) or to Vivendi/Bolloré (Dailymotion).
-          This free/libre license <strong>guarantees our fundamental freedoms as users and allows many contributors to offer evolutions
-          and new features.</strong>
-        </p>
-
-<!--        TODO: find interesting resource regarding free softwares -->
-<!--        <div class="bottom-link-wrapper">-->
-<!--          <a href="#" class="bottom-link">-->
-<!--            <span class="text" v-translate>Learn more about free/libre software </span>-->
-<!--            <icon-right></icon-right>-->
-<!--          </a>-->
-<!--        </div>-->
+        <!--        TODO: find interesting resource regarding free softwares -->
+        <!--        <div class="bottom-link-wrapper">-->
+        <!--          <a href="#" class="bottom-link">-->
+        <!--            <span class="text" v-translate>Learn more about free/libre software </span>-->
+        <!--            <icon-right></icon-right>-->
+        <!--          </a>-->
+        <!--        </div>-->
       </div>
 
       <div id="you-are-a-video-maker">
@@ -195,38 +193,36 @@
           <div class="border-title"></div>
         </div>
 
-        <div class="two-columns">
+        <div class="one-column">
           <img :src="buildImgUrl('peertube-upload.png')" alt="PeerTube upload illustration"/>
 
-          <div>
-            <div class="citation">
-              <div class="left-bar"></div>
+          <div class="citation">
+            <div class="left-bar"></div>
 
-              <div class="text" v-translate>
-                With PeerTube, chose <strong>your hosting company and the rules you believe in.</strong>
-              </div>
-            </div>
-
-            <div v-translate>
-              YouTube has clearly gone astray: its hoster, Google-Alphabet, can enforce its ContentID system (the infamous "Robocopyright")
-              or its videos recommendation system, all of which appear to be as obscure as unfair.
+            <div class="text" v-translate>
+              With PeerTube, chose <strong>your hosting company and the rules you believe in.</strong>
             </div>
           </div>
-        </div>
 
-        <div class="citation bottom-two-columns">
-          <div class="left-bar"></div>
-
-          <div class="text" v-translate>
-            Direct contact with a human-scale hoster allows for two things: you no longer are the client of a huge tech company,
-            and <strong>you can nurture a special relationship with your hoster, who distributes your data.</strong>
+          <div v-translate>
+            YouTube has clearly gone astray: its hoster, Google-Alphabet, can enforce its ContentID system (the infamous "Robocopyright")
+            or its videos recommendation system, all of which appear to be as obscure as unfair.
           </div>
-        </div>
 
-        <div class="bottom-two-columns" v-translate>
-          With PeerTube, you get to choose your hosting provider according to their terms of use, such as their disk space limit per user,
-          their moderation policy, who they chose to federate with... You are not speaking with a huge tech company, so you can
-          talk it out in case of any issue, need, desire...
+          <div class="citation">
+            <div class="left-bar"></div>
+
+            <div class="text" v-translate>
+              Direct contact with a human-scale hoster allows for two things: you no longer are the client of a huge tech company,
+              and <strong>you can nurture a special relationship with your hoster, who distributes your data.</strong>
+            </div>
+          </div>
+
+          <div v-translate>
+            With PeerTube, you get to choose your hosting provider according to their terms of use, such as their disk space limit per user,
+            their moderation policy, who they chose to federate with... You are not speaking with a huge tech company, so you can
+            talk it out in case of any issue, need, desire...
+          </div>
         </div>
 
         <router-link :to="{ path: '/instances', hash: 'instances-list' }" class="jpt-button discover-instances">
@@ -240,7 +236,7 @@
           <div class="border-title"></div>
         </div>
 
-        <div class="two-columns">
+        <div class="one-column">
           <img :src="buildImgUrl('peertube-p2p.png')" alt="PeerTube P2P illustration"/>
 
           <div class="citation">
@@ -251,20 +247,20 @@
               <strong>lowering the load of their hosts.</strong>
             </div>
           </div>
+
+          <p v-translate>
+            In this way, when you watch a video, your computer contributes to its broadcast.
+            If a lot of people are watching the same video at the same time, their browser automatically send smalls pieces of the
+            video to the other viewers.
+            <strong>The server resources are not over-exploited</strong>: the stream is split, the network optimized.
+          </p>
+
+          <p v-translate>
+            It might not look like it, but thanks to peer-to-peer broadcasting, popular video makers and their videos are no longer
+            forced to be hosted by big companies, whose infrastructure can stand thousands of views at the same time... or to pay for a
+            robust but extremely expensive independent video host.
+          </p>
         </div>
-
-        <p class="bottom-two-columns" v-translate>
-          In this way, when you watch a video, your computer contributes to its broadcast.
-          If a lot of people are watching the same video at the same time, their browser automatically send smalls pieces of the
-          video to the other viewers.
-          <strong>The server resources are not over-exploited</strong>: the stream is split, the network optimized.
-        </p>
-
-        <p class="bottom-two-columns" v-translate>
-          It might not look like it, but thanks to peer-to-peer broadcasting, popular video makers and their videos are no longer
-          forced to be hosted by big companies, whose infrastructure can stand thousands of views at the same time... or to pay for a
-          robust but extremely expensive independent video host.
-        </p>
       </div>
 
       <div id="your-move">
@@ -332,7 +328,8 @@
 
           <p>
             <strong v-translate>
-              The more people use, support, and contribute to PeerTube, the quicker it will become a concrete alternative to platforms like YouTube.
+              The more people use, support, and contribute to PeerTube, the quicker it will become a concrete alternative to platforms like
+              YouTube.
             </strong>
           </p>
         </div>

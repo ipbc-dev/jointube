@@ -192,12 +192,14 @@ p > a {
   font-family: 'Proza Libre', sans-serif;
   font-size: 24px;
   font-weight: $font-semibold;
-  margin-top: 100px;
   white-space: nowrap;
+  margin: 100px auto 0;
+  width: 600px;
 
   @media screen and (max-width: $responsive-screen) {
     white-space: normal;
     margin-top: 50px;
+    width: 100%;
   }
 }
 
