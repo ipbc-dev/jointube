@@ -469,7 +469,7 @@
     #behind-peertube {
       .framasoft-logo {
         flex-basis: 264px;
-        width: 264px;
+        min-width: 264px;
         height: 241px;
       }
 
