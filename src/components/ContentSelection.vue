@@ -9,21 +9,21 @@
           <div class="icon">
             <icon-video></icon-video>
           </div>
-          <div>Watch the video</div>
+          <div v-translate>Watch the video</div>
         </template>
 
         <template v-if="type === 'channel'">
           <div class="icon">
             <icon-channel></icon-channel>
           </div>
-          <div>Discover the channel</div>
+          <div v-translate>Discover the channel</div>
         </template>
 
         <template v-if="type === 'instance'">
           <div class="icon">
             <icon-instance></icon-instance>
           </div>
-          <div>Go on the instance</div>
+          <div v-translate>Go on the instance</div>
         </template>
       </a>
     </div>

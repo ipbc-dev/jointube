@@ -198,8 +198,15 @@ p > a {
   font-size: 24px;
   font-weight: $font-semibold;
   white-space: nowrap;
-  margin: 100px auto 0;
-  width: 600px;
+  margin: 100px 130px 0;
+  width: fit-content;
+  flex-direction: column;
+
+  .border-title {
+    width: 98%;
+    align-self: flex-start;
+    margin-left: 0;
+  }
 
   @media screen and (max-width: $responsive-screen) {
     white-space: normal;
