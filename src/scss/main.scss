@@ -229,6 +229,15 @@ p > a {
   }
 }
 
+.bottom-two-columns {
+  margin: 50px auto 0;
+  width: 600px;
+
+  & + .bottom-two-columns {
+    margin-top: 10px;
+  }
+}
+
 .bottom-link-wrapper {
   display: flex;
   justify-content: flex-end;

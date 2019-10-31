@@ -187,7 +187,7 @@
   }
 
   .mascot-loading-block {
-    width: 100%;
+    flex-grow: 1;
 
     .mascot-loading {
       display: none;
