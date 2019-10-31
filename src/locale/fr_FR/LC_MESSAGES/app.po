@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-10-28 11:23+0000\n"
+"PO-Revision-Date: 2019-10-31 13:54+0000\n"
 "Last-Translator: chocobozzz <chocobozzz@framasoft.org>\n"
-"Language-Team: French <https://weblate.framasoft.org/projects/joinpeertube/"
-"main/fr/>\n"
+"Language-Team: French (France) <https://weblate.framasoft.org/projects/"
+"joinpeertube/main/fr_FR/>\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -832,9 +832,8 @@ msgid "Git"
 msgstr "Git"
 
 #: src/views/NotFound.vue:10
-#, fuzzy
 msgid "Go back to the homepage"
-msgstr "Aller sur le forum"
+msgstr "Revenir à la page d'accueil"
 
 #: src/views/Help.vue:44
 msgid "Go to the forum"
@@ -1524,7 +1523,7 @@ msgstr ""
 
 #: src/views/NotFound.vue:5 src/views/NotFound.vue:48
 msgid "Page not found"
-msgstr ""
+msgstr "Page non trouvée"
 
 #: src/views/FAQ.vue:51
 msgid ""
@@ -1575,7 +1574,6 @@ msgstr ""
 "qu’elle apporte…"
 
 #: src/views/Home.vue:64
-#, fuzzy
 msgid ""
 "PeerTube aspires to be a <strong>decentralized and free/libre alternative</"
 "strong> to video broadcasting services."
@@ -1657,6 +1655,8 @@ msgid ""
 "PeerTube is not meant to become a huge platform that would centralize videos "
 "from all around the world."
 msgstr ""
+"PeerTube n’est pas pensé pour créer une énorme plateforme centralisant les "
+"vidéos du monde entier."
 
 #: src/views/Home.vue:161
 msgid ""
@@ -1761,14 +1761,12 @@ msgstr ""
 "Des questions sur PeerTube ? Besoin d'aide ? Vous êtes au bon endroit !"
 
 #: src/views/Home.vue:90
-#, fuzzy
 msgid ""
 "Rather, it is <strong>a network of inter-connected small videos hosters</"
 "strong>."
 msgstr ""
-"PeerTube n’est pas pensé pour créer une énorme plateforme centralisant les "
-"vidéos du monde entier. Il s’agit plutôt d'<strong>un réseau de nombreux "
-"petits hébergeurs de vidéos, connectés les uns aux autres</strong>."
+"Il s’agit plutôt d'<strong>un réseau de nombreux petits hébergeurs de "
+"vidéos, connectés les uns aux autres</strong>."
 
 #: src/views/Help.vue:31
 msgid "Read the documentation"
