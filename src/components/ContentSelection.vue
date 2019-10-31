@@ -2,7 +2,7 @@
   <div id="content-selection">
 
     <div class="left">
-      <img :src="thumbnailUrl" alt="thumbnail"/>
+      <img :src="buildImgUrl('content-selection-thumbnails/' + thumbnailName)" alt="thumbnail"/>
 
       <a target="_blank" rel="noopener noreferrer" :href="url" class="jpt-button jpt-button-medium">
         <template v-if="type === 'video'">
@@ -98,6 +98,8 @@
     }
 
     .right {
+      min-height: 170px;
+
       .title {
         font-size: 24px;
         font-weight: $font-semibold;
@@ -114,7 +116,6 @@
 
       .description {
         font-size: 16px;
-        min-height: 170px;
       }
 
       .tags {
@@ -142,7 +143,7 @@
     props: {
       type: String,
       title: String,
-      thumbnailUrl: String,
+      thumbnailName: String,
       url: String,
       tags: Array,
       description: String
