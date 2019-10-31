@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-10-31 13:54+0000\n"
+"PO-Revision-Date: 2019-10-31 13:55+0000\n"
 "Last-Translator: chocobozzz <chocobozzz@framasoft.org>\n"
 "Language-Team: French (France) <https://weblate.framasoft.org/projects/"
 "joinpeertube/main/fr_FR/>\n"
@@ -2244,7 +2244,7 @@ msgstr ""
 
 #: src/views/Home.vue:120
 msgid "This is just how a <strong>federation</strong> works!"
-msgstr "C'est le principe de <strong>la fédération !</strong>"
+msgstr "C'est le principe de <strong>la fédération</strong> !"
 
 #: src/views/News.vue:304
 msgid ""
