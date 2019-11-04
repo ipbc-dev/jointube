@@ -94,9 +94,12 @@ p > a {
   color: #000;
   font-weight: $font-semibold;
   border-bottom: 3px solid $orange;
+  transition: border-bottom-width 0.2s ease;
 
   &:hover {
     text-decoration: none;
+    color: #000;
+    border-bottom-width: 1px;
   }
 }
 
@@ -113,7 +116,7 @@ p > a {
   border-radius: 4px;
   background-color: transparent;
   align-items: center;
-  transition: background-color 0.2s;
+  transition: background-color 0.2s ease;
 
   svg {
     width: 18px;
@@ -286,9 +289,11 @@ p > a {
     border-bottom: 3px solid $orange;
     padding: 3px 5px;
     margin-right: 10px;
+    transition: border-bottom-width 0.2s ease;
 
     &:hover {
-      color: #ac5806;
+      color: #000;
+      border-bottom-width: 1px;
     }
   }
 }
