@@ -3,6 +3,8 @@ import VueMatomo from 'vue-matomo';
 import VueRouter from 'vue-router';
 import VueI18n from 'vue-i18n';
 import vueHeadful from 'vue-headful';
+import 'jquery/src/jquery';
+import '../node_modules/bootstrap-sass/assets/javascripts/bootstrap.min';
 
 import App from './App.vue';
 
