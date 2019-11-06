@@ -270,7 +270,7 @@
         </div>
 
         <div class="one-column">
-          <img :src="buildImgUrl('peertube-federation-multiplicity.jpg')" alt="PeerTube you play illustration"/>
+          <img :src="buildImgUrl('your-move.jpg')" alt="PeerTube you play illustration"/>
         </div>
 
         <div class="buttons-row explore-create-account">
