@@ -58,7 +58,7 @@
       </div>
 
       <div class="two-columns">
-        <img :src="buildImgUrl('peertube-interface.png')" alt="PeerTube screen"/>
+        <img :src="buildImgUrl('peertube-interface.jpg')" alt="PeerTube screen"/>
 
         <div>
           <div class="citation">
