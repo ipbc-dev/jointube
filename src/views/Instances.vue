@@ -17,7 +17,7 @@
 
       <div class="block-with-image step-1">
         <div>
-          <img :src="buildImgUrl('peertube-federation-multiplicity.png')" alt="Multiple instances illustration">
+          <img :src="buildImgUrl('peertube-federation-multiplicity.jpg')" alt="Multiple instances illustration">
         </div>
 
         <div>
@@ -40,7 +40,7 @@
         </div>
 
         <div>
-          <img :src="buildImgUrl('peertube-upload.png')" alt="PeerTube upload illustration">
+          <img :src="buildImgUrl('peertube-upload.jpg')" alt="PeerTube upload illustration">
         </div>
       </div>
 

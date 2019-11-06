@@ -2,6 +2,16 @@
   <div id="content-selection">
 
     <div class="left">
+      <div class="title title-small-screens">
+        <div class="icon">
+          <icon-video v-if="type === 'video'"></icon-video>
+          <icon-channel v-if="type === 'channel'"></icon-channel>
+          <icon-instance v-if="type === 'instance'"></icon-instance>
+        </div>
+
+        {{ title }}
+      </div>
+
       <img :src="buildImgUrl('content-selection-thumbnails/' + thumbnailName)" alt="thumbnail"/>
 
       <a target="_blank" rel="noopener noreferrer" :href="url" class="jpt-button jpt-button-medium">
@@ -29,7 +39,7 @@
     </div>
 
     <div class="right">
-      <div class="title">
+      <div class="title title-normal-screens">
         <div class="icon">
           <icon-video v-if="type === 'video'"></icon-video>
           <icon-channel v-if="type === 'channel'"></icon-channel>
@@ -57,14 +67,21 @@
   #content-selection {
     display: flex;
 
-    @media screen and (max-width: $small-screen) {
-      flex-direction: column;
+    .title-small-screens {
+      display: none;
+    }
 
-      .left {
-        align-items: center !important;
-        display: flex !important;
-        flex-direction: column !important;
-        margin-bottom: 20px !important;
+    .title {
+      font-size: 24px;
+      font-weight: $font-semibold;
+      display: flex;
+      align-items: center;
+      font-family: 'Proza Libre', sans-serif;
+
+      .icon {
+        margin-right: 10px;
+        position: relative;
+        top: -2px;
       }
     }
 
@@ -100,20 +117,6 @@
     .right {
       min-height: 170px;
 
-      .title {
-        font-size: 24px;
-        font-weight: $font-semibold;
-        display: flex;
-        align-items: center;
-        font-family: 'Proza Libre', sans-serif;
-
-        .icon {
-          margin-right: 10px;
-          position: relative;
-          top: -2px;
-        }
-      }
-
       .description {
         font-size: 16px;
       }
@@ -129,6 +132,26 @@
         .tag {
           margin: 10px;
         }
+      }
+    }
+
+    @media screen and (max-width: $small-screen) {
+      flex-direction: column;
+
+      .title-small-screens {
+        display: inherit;
+        margin-bottom: 5px;
+      }
+
+      .title-normal-screens {
+        display: none;
+      }
+
+      .left {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
       }
     }
   }
