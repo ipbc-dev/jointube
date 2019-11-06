@@ -270,6 +270,7 @@
         }
 
         .btn-group-toggle {
+
           .btn {
             display: flex;
             align-items: center;
@@ -309,6 +310,12 @@
             label {
               margin-bottom: 5px;
               font-size: 15px;
+            }
+          }
+
+          .btn-group-toggle {
+            .btn {
+              padding: 0 8px;
             }
           }
         }

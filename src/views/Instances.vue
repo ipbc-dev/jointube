@@ -100,12 +100,20 @@
       .block-with-image {
         flex-direction: column;
 
+        & > * {
+          margin-right: 0;
+        }
+
         &.step-2 {
           flex-direction: column-reverse;
         }
 
-        img {
-          margin-bottom: 20px;
+        & > div {
+          img {
+            margin-bottom: 20px;
+            width: 100%;
+            height: auto;
+          }
         }
       }
     }
