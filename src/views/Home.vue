@@ -80,7 +80,7 @@
         </div>
 
         <div class="one-column">
-          <img :src="buildImgUrl('peertube-federation-multiplicity.png')" alt="Funny federation schema"/>
+          <img :src="buildImgUrl('peertube-federation-multiplicity.jpg')" alt="Funny federation schema"/>
 
           <div>
             <div v-translate>PeerTube is not meant to become a huge platform that would centralize videos from all around the world.</div>
@@ -122,7 +122,7 @@
         </div>
 
         <div class="one-column">
-          <img :src="buildImgUrl('peertube-federation-2-instances.png')" alt="Funny 2 instances communication schema"/>
+          <img :src="buildImgUrl('peertube-federation-2-instances.jpg')" alt="Funny 2 instances communication schema"/>
 
           <p v-translate>
             And there's more! PeerTube uses Activity Pub, a federating protocol that <strong>allows you to interact with other
@@ -148,7 +148,7 @@
         </div>
 
         <div class="one-column">
-          <img :src="buildImgUrl('peertube-free-software.png')" alt="PeerTube is a free software funny schema"/>
+          <img :src="buildImgUrl('peertube-free-software.jpg')" alt="PeerTube is a free software funny schema"/>
 
           <p v-translate>
             Mainstream online video broadcasting services make money off of your data by analyzing your interactions
@@ -194,7 +194,7 @@
         </div>
 
         <div class="one-column">
-          <img :src="buildImgUrl('peertube-upload.png')" alt="PeerTube upload illustration"/>
+          <img :src="buildImgUrl('peertube-upload.jpg')" alt="PeerTube upload illustration"/>
 
           <div class="citation">
             <div class="left-bar"></div>
@@ -237,7 +237,7 @@
         </div>
 
         <div class="one-column">
-          <img :src="buildImgUrl('peertube-p2p.png')" alt="PeerTube P2P illustration"/>
+          <img :src="buildImgUrl('peertube-p2p.jpg')" alt="PeerTube P2P illustration"/>
 
           <div class="citation">
             <div class="left-bar"></div>
@@ -270,7 +270,7 @@
         </div>
 
         <div class="one-column">
-          <img :src="buildImgUrl('peertube-federation-multiplicity.png')" alt="PeerTube you play illustration"/>
+          <img :src="buildImgUrl('peertube-federation-multiplicity.jpg')" alt="PeerTube you play illustration"/>
         </div>
 
         <div class="buttons-row explore-create-account">
