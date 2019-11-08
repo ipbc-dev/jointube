@@ -1,46 +1,37 @@
 image: framasoft/vuefs:latest
 stages:
-  - test
   - deploy
-
-test:
-  stage: test
-  script:
-    - npm install -g yaml-lint
-    - for f in $(find ./app/ -name "*.yml" -type f);do yamllint $f;done;
 
 pages:
   stage: deploy
   script:
-  - yarn install --pure-lockfile
-  - npm run build
-  - rm -r public/ && mv dist/ public/
+    - yarn install --pure-lockfile
+    - npm run build
+    - rm -r public/ && mv dist/ public/
   artifacts:
     paths:
-    - public
+      - public
   cache:
     paths:
       - node_modules/
 
-#production:
-  #stage: deploy
-  #script:
-  #- npm install
-  #- npm run prod
-  #- cp ./public/fr/index.html ./public/index.html
-  #- for f in $(find -type l);do cp --remove-destination $(readlink -f $f) $f;done;
-  #- mkdir "${HOME}/.ssh"
-  #- chmod 700 "${HOME}/.ssh"
-  #- echo -e "${DEPLOYEMENT_KNOWN_HOSTS}" > ${HOME}/.ssh/known_hosts;
-  #- eval `ssh-agent -s`
-  #- ssh-add <(echo "${DEPLOYEMENT_KEY}" | base64 --decode -i);
-  #- cd public && echo "put -r ." | sftp ${DEPLOYEMENT_USER}@${DEPLOYEMENT_HOST}:../../web;
-  #only:
-    #refs:
-    #- master
-    #variables:
-    #- $DEPLOYEMENT_KEY
-    #- $DEPLOYEMENT_KNOWN_HOSTS
-    #- $DEPLOYEMENT_USER
-    #- $DEPLOYEMENT_HOST
-
+production:
+  stage: deploy
+  script:
+    - yarn install --pure-lockfile
+    - npm run build
+    - rm -r public/ && mv dist/ public/
+    - mkdir "${HOME}/.ssh"
+    - chmod 700 "${HOME}/.ssh"
+    - echo -e "${DEPLOYEMENT_KNOWN_HOSTS}" > ${HOME}/.ssh/known_hosts;
+    - eval `ssh-agent -s`
+    - ssh-add <(echo "${DEPLOYEMENT_KEY}" | base64 --decode -i);
+    - cd public && echo "put -r ." | sftp ${DEPLOYEMENT_USER}@${DEPLOYEMENT_HOST}:../../web;
+  only:
+    refs:
+      - master
+    variables:
+      - $DEPLOYEMENT_KEY
+      - $DEPLOYEMENT_KNOWN_HOSTS
+      - $DEPLOYEMENT_USER
+      - $DEPLOYEMENT_HOST
