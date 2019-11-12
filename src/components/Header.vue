@@ -1,0 +1,130 @@
+<template>
+  <header id="main-header">
+
+    <b-navbar toggleable="lg">
+      <b-navbar-brand to="/">
+        <img alt="PeerTube" :src="buildImgUrl('brand-small.png')">
+
+        <div class="support">
+          <translate>developed by</translate>
+
+          <img alt="Framasoft text logo" :src="buildImgUrl('framasoft-logo-text-small.png')">
+        </div>
+      </b-navbar-brand>
+
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+      <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav class="ml-auto">
+          <b-nav-item to="/" exact>
+            <translate>Home</translate>
+          </b-nav-item>
+
+          <b-nav-item class="create-account" to="/instances">
+            <translate>Create an account</translate>
+           </b-nav-item>
+
+          <b-nav-item to="/news">
+            <translate>News</translate>
+          </b-nav-item>
+
+          <b-nav-item to="/help">
+            <translate>Help</translate>
+          </b-nav-item>
+
+          <b-nav-item href="https://docs.joinpeertube.org/#/contribute-getting-started" target="_blank" rel="noopener noreferrer">
+            <translate>Contribute</translate>
+          </b-nav-item>
+
+          <b-nav-item href="https://github.com/Chocobozzz/PeerTube" target="_blank" rel="noopener noreferrer">
+            <translate>Git</translate>
+          </b-nav-item>
+
+          <I18n/>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
+  </header>
+</template>
+
+<style lang="scss">
+  @import '../scss/_variables.scss';
+  @import '../scss/_mixins.scss';
+
+  #main-header {
+
+    header {
+      margin-bottom: 30px;
+    }
+
+    .navbar-collapse {
+      &.collapsing,
+      &.show {
+        padding-top: 20px;
+
+        .nav-item {
+          margin-right: 0;
+          margin-top: 5px;
+        }
+      }
+    }
+
+    .navbar-brand {
+      @include disable-default-a-behaviour;
+
+      color: #000;
+      font-family: 'Proza Libre', sans-serif;
+      font-size: 10px;
+
+      .support img {
+        vertical-align: initial;
+        margin-left: 3px;
+      }
+    }
+
+    nav {
+      min-height: 60px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar-nav {
+      align-items: center;
+    }
+
+    .nav-item {
+      margin-right: 40px;
+    }
+
+    .nav-link {
+      color: #000 !important;
+      padding: 0 !important;
+      font-family: 'Proza Libre', sans-serif;
+    }
+
+    .create-account {
+      font-weight: $font-semibold;
+    }
+
+    .router-link-active:not(.navbar-brand) {
+      border-bottom: 3px solid $orange;
+    }
+  }
+</style>
+
+<script>
+  import I18n from './I18n.vue'
+  import { BCollapse, BNavbar, BNavbarNav, BNavbarBrand, BNavItem, BNavbarToggle } from 'bootstrap-vue'
+
+  export default {
+    components: {
+      I18n,
+      BCollapse,
+      BNavbar,
+      BNavbarBrand,
+      BNavItem,
+      BNavbarNav,
+      BNavbarToggle
+    }
+  }
+</script>

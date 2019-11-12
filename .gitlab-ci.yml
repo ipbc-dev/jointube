@@ -1,24 +1,16 @@
 image: framasoft/vuefs:latest
 stages:
-  - test
   - deploy
-
-test:
-  stage: test
-  script:
-    - npm install -g yaml-lint
-    - for f in $(find ./app/ -name "*.yml" -type f);do yamllint $f;done;
 
 pages:
   stage: deploy
   script:
-  - npm install
-  - npm run preview
-  - mv -f public/$CI_PROJECT_NAME/* public
-  - find public -type f -iregex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -execdir gzip -f --keep {} \;
+    - yarn install --pure-lockfile
+    - npm run build
+    - rm -r public/ && mv dist/ public/
   artifacts:
     paths:
-    - public
+      - public
   cache:
     paths:
       - node_modules/
@@ -26,37 +18,20 @@ pages:
 production:
   stage: deploy
   script:
-  - npm install
-  - npm run prod
-  - cp ./public/fr/index.html ./public/index.html
-  - for f in $(find -type l);do cp --remove-destination $(readlink -f $f) $f;done;
-  - mkdir "${HOME}/.ssh"
-  - chmod 700 "${HOME}/.ssh"
-  - echo -e "${DEPLOYEMENT_KNOWN_HOSTS}" > ${HOME}/.ssh/known_hosts;
-  - eval `ssh-agent -s`
-  - ssh-add <(echo "${DEPLOYEMENT_KEY}" | base64 --decode -i);
-  - cd public && echo "put -r ." | sftp ${DEPLOYEMENT_USER}@${DEPLOYEMENT_HOST}:../../web;
+    - yarn install --pure-lockfile
+    - npm run build
+    - rm -r public/ && mv dist/ public/
+    - mkdir "${HOME}/.ssh"
+    - chmod 700 "${HOME}/.ssh"
+    - echo -e "${DEPLOYEMENT_KNOWN_HOSTS}" > ${HOME}/.ssh/known_hosts;
+    - eval `ssh-agent -s`
+    - ssh-add <(echo "${DEPLOYEMENT_KEY}" | base64 --decode -i);
+    - cd public && echo "put -r ." | sftp ${DEPLOYEMENT_USER}@${DEPLOYEMENT_HOST}:../../web;
   only:
     refs:
-    - master
+      - master
     variables:
-    - $DEPLOYEMENT_KEY
-    - $DEPLOYEMENT_KNOWN_HOSTS
-    - $DEPLOYEMENT_USER
-    - $DEPLOYEMENT_HOST
-
-# Push new translations strings to https://trad.framasoft.org
-trads:
-  stage: deploy
-  image: framasoft/push-trad:latest
-  script:
-  - sed -e "s@<project-version>.*</project-version>@<project-version>$CI_COMMIT_REF_SLUG</project-version>@" -i zanata/zanata.xml
-  - sed -e "s@<project>.*</project>@<project>join-peertube</project>@" -i zanata/zanata.xml
-  - cp -n zanata/zanata.xml zanata.xml
-  - mkdir -p ${HOME}/.config; echo -e "${ZANATA_CONFIG_FRAMABOT}" > ${HOME}/.config/zanata.ini;
-  - make push-locales;
-  only:
-    refs:
-    - master
-    variables:
-    - $ZANATA_CONFIG_FRAMABOT
+      - $DEPLOYEMENT_KEY
+      - $DEPLOYEMENT_KNOWN_HOSTS
+      - $DEPLOYEMENT_USER
+      - $DEPLOYEMENT_HOST
