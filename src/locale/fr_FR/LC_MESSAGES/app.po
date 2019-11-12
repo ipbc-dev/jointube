@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-11-06 09:07+0000\n"
+"PO-Revision-Date: 2019-11-12 09:55+0000\n"
 "Last-Translator: chocobozzz <chocobozzz@framasoft.org>\n"
 "Language-Team: French (France) <https://weblate.framasoft.org/projects/"
 "joinpeertube/main/fr_FR/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.9\n"
+"X-Generator: Weblate 3.9.1\n"
 "Generated-By: easygettext\n"
 
 #: src/views/Home.vue:54 src/views/Home.vue:299
@@ -41,15 +41,14 @@ msgstr[0] "%{ instance.totalInstanceFollowers } instance abonnée"
 msgstr[1] "%{ instance.totalInstanceFollowers } instances abonnées"
 
 #: src/views/News.vue:30
-#, fuzzy
 msgid ""
 "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs."
 "joinpeertube.org\">PeerTube's official documentation site</a> "
 "(administration and use);"
 msgstr ""
-"Le <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs."
-"joinpeertube.org/#/install-any-os\">guide d’installation est ici</a> "
-"(uniquement en anglais, pour l’instant)."
+"<a target=\"_blank\" rel=\"noopener noreferrer\" href=\""
+"https://docs.joinpeertube.org\">le site de la documentation officielle de "
+"PeerTube</a> (d'administration et d'utilisation) ;"
 
 #: src/views/FAQ.vue:143
 msgid ""
@@ -208,6 +207,11 @@ msgid ""
 "worked-twice-as-hard-to-free-your-videos-from-youtube/\">Framablog article</"
 "a> that we invite you to read."
 msgstr ""
+"Après un an de travail et d'améliorations, nous venons de publier la version "
+"2 de PeerTube ! Tout est expliqué en détail dans <a target=\"_blank\" rel=\""
+"noopener noreferrer\" href=\"https://framablog.org/2019/11/12/"
+"peertube-met-les-bouchees-doubles-pour-emanciper-vos-videos-de-youtube/\">"
+"l'article du Framablog</a> que nous vous invitons à lire."
 
 #: src/views/FAQ.vue:526
 msgid ""
@@ -683,7 +687,7 @@ msgstr "FAQ"
 
 #: src/views/News.vue:27
 msgid "features and improvements since v1 of November 2018;"
-msgstr ""
+msgstr "les fonctionnalités et améliorations depuis la v1 de novembre 2018 ;"
 
 #: src/views/News.vue:225
 msgid "February 26, 2019"
@@ -835,7 +839,7 @@ msgstr "Français"
 
 #: src/views/News.vue:42
 msgid "Freely,"
-msgstr ""
+msgstr "Librement,"
 
 #: src/views/FAQ.vue:302
 msgid ""
@@ -885,9 +889,8 @@ msgid "Hello everyone!"
 msgstr "Bonjour à toutes et à tous !"
 
 #: src/views/News.vue:16
-#, fuzzy
 msgid "Hello,"
-msgstr "Bonjour !"
+msgstr "Bonjour,"
 
 #: src/views/News.vue:164
 msgid "Hello!"
@@ -1440,9 +1443,8 @@ msgstr ""
 "seulement 1% à 2% de l'ensemble des vidéos."
 
 #: src/views/News.vue:13
-#, fuzzy
 msgid "November 12, 2019"
-msgstr "12 Septembre 2018"
+msgstr "12 Novembre 2019"
 
 #: src/views/FAQ.vue:290
 msgid ""
@@ -1544,6 +1546,8 @@ msgid ""
 "our desires and projects for the future of PeerTube (we are considering a "
 "new crowdfunding, and dreaming of a video-remix tool and of live streaming!)."
 msgstr ""
+"nos envies et projets pour le futur de PeerTube (nous envisageons un nouveau "
+"crowdfunding, et rêvons d'un outil de vidéo-remix et de streaming live !)."
 
 #: src/views/Home.vue:313
 msgid ""
@@ -1864,7 +1868,7 @@ msgstr ""
 
 #: src/views/News.vue:12
 msgid "Release of PeerTube v2, and redesign of JoinPeertube"
-msgstr ""
+msgstr "Sortie de la v2 de PeerTube, et refonte de JoinPeertube"
 
 #: src/views/FAQ.vue:447
 msgid ""
@@ -2182,15 +2186,13 @@ msgid "the new sign-up form in 2 steps"
 msgstr "les 2 étapes du nouveau formulaire d’inscription"
 
 #: src/views/News.vue:29
-#, fuzzy
 msgid ""
 "the new version of <a target=\"_blank\" rel=\"noopener noreferrer\" href="
 "\"https://joinpeertube.org\">JoinPeertube</a>, which is enriched by this "
 "work;"
 msgstr ""
-"Le <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs."
-"joinpeertube.org/#/install-any-os\">guide d’installation est ici</a> "
-"(uniquement en anglais, pour l’instant)."
+"la nouvelle version de <a target=\"_blank\" rel=\"noopener noreferrer\" href="
+"\"https://joinpeertube.org\">JoinPeertube</a>, qui s'enrichit de ce travail ;"
 
 #: src/views/FAQ.vue:183
 msgid ""
@@ -2319,6 +2321,13 @@ msgid ""
 "\"noopener noreferrer\" href=\"https://contributopia.org/journal\">donation "
 "campaign</a>."
 msgstr ""
+"Ces améliorations sont le fruit des nombreuses contributions des membres de "
+"la communauté PeerTube (merci !), mais aussi d'une année de travail que nous "
+"avons financé par <a target=\"_blank\" rel=\"noopener noreferrer\" href=\""
+"https://soutenir.framasoft.org\">les dons qui font vivre l'ensemble des "
+"projets de notre association</a>, actuellement en <a target=\"_blank\" rel=\""
+"noopener noreferrer\" href=\"https://contributopia.org/journal\">campagne de "
+"dons</a>."
 
 #: src/views/Home.vue:119
 msgid "This is just how a <strong>federation</strong> works!"
@@ -2558,7 +2567,7 @@ msgstr ""
 
 #: src/views/News.vue:24
 msgid "We present, among other things:"
-msgstr ""
+msgstr "Nous présentons, entre autres :"
 
 #: src/views/FAQ.vue:414
 msgid ""
@@ -2753,6 +2762,7 @@ msgstr ""
 #: src/views/News.vue:28
 msgid "work to facilitate the federation and presentation of proceedings;"
 msgstr ""
+"le travail pour faciliter la fédération et la présentation des instances ;"
 
 #: src/views/FAQ.vue:496
 msgid ""
