@@ -90,7 +90,8 @@ main {
   border-left: 0.3em solid transparent;
 }
 
-p > a {
+p > a,
+article li > a {
   color: #000;
   font-weight: $font-semibold;
   border-bottom: 3px solid $orange;

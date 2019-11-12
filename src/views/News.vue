@@ -10,6 +10,44 @@
       </div>
 
       <article class="news">
+        <div class="title" v-translate>Release of PeerTube v2, and redesign of JoinPeertube</div>
+        <div class="date" v-translate>November 12, 2019</div>
+
+        <div class="body">
+          <p v-translate>Hello,</p>
+
+          <p v-translate>
+            After a year of work and improvements, we have just released version 2 of PeerTube! Everything is explained in detail in the
+            <a target="_blank" rel="noopener noreferrer" href="https://framablog.org/2019/11/12/peertube-has-worked-twice-as-hard-to-free-your-videos-from-youtube/">Framablog article</a>
+            that we invite you to read.
+          </p>
+
+          <p v-translate>We present, among other things:</p>
+
+          <ul>
+            <li v-translate>features and improvements since v1 of November 2018;</li>
+            <li v-translate>work to facilitate the federation and presentation of proceedings;</li>
+            <li v-translate>the new version of <a target="_blank" rel="noopener noreferrer" href="https://joinpeertube.org">JoinPeertube</a>, which is enriched by this work;</li>
+            <li v-translate><a target="_blank" rel="noopener noreferrer" href="https://docs.joinpeertube.org">PeerTube's official documentation site</a> (administration and use);</li>
+            <li v-translate>our desires and projects for the future of PeerTube (we are considering a new crowdfunding, and dreaming of a video-remix tool and of live streaming!).</li>
+          </ul>
+
+          <p v-translate>
+            These improvements are the result of the many contributions of the members of the PeerTube community (thank you!),
+            but also of a year of work that we have financed through
+            <a target="_blank" rel="noopener noreferrer" href="https://soutenir.framasoft.org">donations that support all of our association's projects</a>,
+            currently in a <a target="_blank" rel="noopener noreferrer" href="https://contributopia.org/journal">donation campaign</a>.
+          </p>
+
+          <p>
+            <translate>Freely,</translate>
+            <br />
+            Framasoft.
+          </p>
+        </div>
+      </article>
+
+      <article class="news">
         <div class="title" v-translate>PeerTube 1.4 is out!</div>
         <div class="date" v-translate>September 25, 2019</div>
 
