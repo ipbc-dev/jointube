@@ -1254,7 +1254,7 @@ msgstr "Ko"
 msgid "Kids"
 msgstr "Enfants"
 
-#: src/components/I18n.vue:7
+#: src/components/I18n.vue:8
 msgid "Languages"
 msgstr "Langues"
 
@@ -2379,7 +2379,7 @@ msgstr ""
 msgid "Torrent import"
 msgstr "Importation de Torrent"
 
-#: src/components/I18n.vue:20
+#: src/components/I18n.vue:22
 msgid "Translate"
 msgstr "Traduire"
 

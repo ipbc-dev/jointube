@@ -2,11 +2,13 @@
   <div id="i18n">
     <b-dropdown>
       <template slot="button-content">
-        <img :src="buildImgUrl('language.png')" alt="Change languages logo"/>
+        <div :title="getButtonTitle()">
+          <img :src="buildImgUrl('language.png')" alt=""/>
 
-        <div class="text">
-          <translate>Languages</translate>
-          <span class="caret"></span>
+          <div class="text">
+            <translate>Languages</translate>
+            <span class="caret"></span>
+          </div>
         </div>
       </template>
 
@@ -67,6 +69,10 @@
     methods: {
       buildLocaleLink (locale) {
         return process.env.BASE_URL + `${locale}/`
+      },
+
+      getButtonTitle () {
+        return this.$gettext('Change interface language')
       }
     }
   }

@@ -725,7 +725,7 @@ msgstr "KB"
 msgid "Kids"
 msgstr "Kids"
 
-#: src/components/I18n.vue:7
+#: src/components/I18n.vue:8
 msgid "Languages"
 msgstr "Languages"
 
@@ -1282,7 +1282,7 @@ msgstr "This version also includes a notification system that allows users to be
 msgid "Torrent import"
 msgstr "Torrent import"
 
-#: src/components/I18n.vue:20
+#: src/components/I18n.vue:22
 msgid "Translate"
 msgstr "Translate"
 
