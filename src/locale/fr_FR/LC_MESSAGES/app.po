@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-11-12 09:55+0000\n"
+"PO-Revision-Date: 2019-11-13 14:50+0000\n"
 "Last-Translator: chocobozzz <chocobozzz@framasoft.org>\n"
 "Language-Team: French (France) <https://weblate.framasoft.org/projects/"
 "joinpeertube/main/fr_FR/>\n"
@@ -522,9 +522,8 @@ msgid "Čeština"
 msgstr "Tchèque"
 
 #: src/components/I18n.vue:75
-#, fuzzy
 msgid "Change interface language"
-msgstr "Langues de l'instance"
+msgstr "Changer la langue de l'interface"
 
 #: src/views/News.vue:355 src/views/News.vue:412 src/views/News.vue:461
 #: src/views/News.vue:505
