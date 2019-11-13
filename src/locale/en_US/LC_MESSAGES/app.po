@@ -272,6 +272,10 @@ msgstr "Català"
 msgid "Čeština"
 msgstr "Čeština"
 
+#: src/components/I18n.vue:75
+msgid "Change interface language"
+msgstr "Change interface language"
+
 #: src/views/News.vue:355 src/views/News.vue:412 src/views/News.vue:461
 #: src/views/News.vue:505
 msgid "Cheers,"

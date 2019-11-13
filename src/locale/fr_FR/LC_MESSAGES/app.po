@@ -521,6 +521,11 @@ msgstr "Catalan"
 msgid "Čeština"
 msgstr "Tchèque"
 
+#: src/components/I18n.vue:75
+#, fuzzy
+msgid "Change interface language"
+msgstr "Langues de l'instance"
+
 #: src/views/News.vue:355 src/views/News.vue:412 src/views/News.vue:461
 #: src/views/News.vue:505
 msgid "Cheers,"
