@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-11-13 14:49+0000\n"
+"PO-Revision-Date: 2019-11-14 11:01+0000\n"
 "Last-Translator: sajad mousavi <s.sajad.mousavi@gmail.com>\n"
 "Language-Team: Persian <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/fa/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #: src/views/Home.vue:54 src/views/Home.vue:299
 msgid "?"
-msgstr ""
+msgstr "؟"
 
 #: src/views/FAQ.vue:431
 msgid "\"It's outrageous and unconscious: you're releasing PeerTube's version 1 when it doesn't contain the necessary tools to effectively manage videos claimed by rights holders, or to effectively manage the issue of online harassment in comments, or to effectively manage monetization through advertising, or to (insert here your request to PeerTube). It will never work! What do you intend to do about it?\""
@@ -165,7 +165,7 @@ msgstr ""
 
 #: src/views/Home.vue:191
 msgid "Are you a video maker?"
-msgstr ""
+msgstr "آیا شما سازنده فیلم هستید؟"
 
 #: src/components/InstancesList.vue:352
 msgid "Art"
@@ -1523,7 +1523,7 @@ msgstr ""
 
 #: src/views/News.vue:326
 msgid "YouTube video import"
-msgstr ""
+msgstr "وارد کردن ویدیو از YouTube"
 
 #: src/components/InstancesList.vue:376
 msgid "ελληνικά"
