@@ -1,13 +1,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-11-13 14:49+0000\n"
+"Last-Translator: sajad mousavi <s.sajad.mousavi@gmail.com>\n"
+"Language-Team: Persian <https://weblate.framasoft.org/projects/joinpeertube/"
+"main/fa/>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
 "Generated-By: easygettext\n"
 
 #: src/views/Home.vue:54 src/views/Home.vue:299
@@ -146,7 +149,7 @@ msgstr ""
 
 #: src/components/InstancesList.vue:364
 msgid "Animals"
-msgstr ""
+msgstr "حبوانات"
 
 #: src/views/News.vue:177
 msgid "Another feature of this 1.3 version has been entirely developed by an external contributor: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/joshmorel\">Josh Morel</a> who add <strong>a quarantine system</strong> for videos on PeerTube. If the administrator of an instance enables this feature, any new video uploaded on his instance will automatically be hidden until a moderator approves it."
@@ -166,7 +169,7 @@ msgstr ""
 
 #: src/components/InstancesList.vue:352
 msgid "Art"
-msgstr ""
+msgstr "هنر"
 
 #: src/views/News.vue:428
 msgid "As a reminder, in the first newsletter (July 23rd, 2018), we announced that the localization system and RSS feeds were implemented, and that we were making progress on the subtitles support and the advanced search."
@@ -186,15 +189,15 @@ msgstr ""
 
 #: src/components/InstancesList.vue:85
 msgid "At least 1GB"
-msgstr ""
+msgstr "حداقل 1 گیگابایت"
 
 #: src/components/InstancesList.vue:93
 msgid "At least 20GB"
-msgstr ""
+msgstr "حداقل 20 گیگابایت"
 
 #: src/components/InstancesList.vue:97
 msgid "At least 50GB"
-msgstr ""
+msgstr "حداقل 50 گبگابایت"
 
 #: src/components/InstancesList.vue:89
 msgid "At least 5GB"
@@ -226,7 +229,7 @@ msgstr ""
 
 #: src/components/InstancesList.vue:55
 msgid "Blur"
-msgstr ""
+msgstr "محو"
 
 #: src/views/FAQ.vue:378
 msgid "Blur the title and thumbnail"
@@ -234,7 +237,7 @@ msgstr ""
 
 #: src/components/InstanceCard.vue:80
 msgid "Blurred"
-msgstr ""
+msgstr "محو شده"
 
 #: src/views/Home.vue:277
 msgid "Browse contents"
@@ -279,7 +282,7 @@ msgstr ""
 
 #: src/components/InstancesList.vue:357
 msgid "Comedy"
-msgstr ""
+msgstr "کمدی"
 
 #: src/views/FAQ.vue:73
 msgid "Concretely here, it means that:"
@@ -304,7 +307,7 @@ msgstr ""
 #: src/components/Header.vue:23 src/components/InstancesList.vue:25
 #: src/views/Instances.vue:5
 msgid "Create an account"
-msgstr ""
+msgstr "ایجاد حساب کاربری"
 
 #: src/views/FAQ.vue:255
 msgid "Creation and content"
@@ -352,7 +355,7 @@ msgstr ""
 
 #: src/components/InstancesList.vue:59
 msgid "Display"
-msgstr ""
+msgstr "نمایش"
 
 #: src/views/FAQ.vue:377
 msgid "Display them"
@@ -376,7 +379,7 @@ msgstr ""
 
 #: src/components/InstancesList.vue:361
 msgid "Education"
-msgstr ""
+msgstr "تحصیلات"
 
 #: src/components/InstancesList.vue:369
 msgid "English"
@@ -454,7 +457,7 @@ msgstr[1] ""
 
 #: src/components/InstancesList.vue:366
 msgid "Food"
-msgstr ""
+msgstr "خوراکی"
 
 #: src/views/News.vue:263
 msgid "For 2019, we plan to add a plugin and theme management system (even though basic at first), playlist management, support for audio files upload and many other features."
@@ -514,7 +517,7 @@ msgstr ""
 
 #: src/components/Header.vue:39
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #: src/views/NotFound.vue:10
 msgid "Go back to the homepage"
@@ -539,7 +542,7 @@ msgstr ""
 
 #: src/views/News.vue:16
 msgid "Hello,"
-msgstr ""
+msgstr "سلام،"
 
 #: src/views/News.vue:164
 msgid "Hello!"
