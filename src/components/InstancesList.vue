@@ -107,7 +107,7 @@
         <translate>Instances list</translate>
 
         <div class="mascot-loading-block">
-          <img v-bind:class="{ animate: loadingAnimation }" v-on:animationend="loadingAnimation = false" class="mascot-loading" :src="buildImgUrl('mascot/happy.png')" alt="PeerTube mascot">
+          <img v-bind:class="{ animate: loadingAnimation }" v-on:animationend="loadingAnimation = false" class="mascot-loading" :src="buildImgUrl('mascot/happy.png')" alt="Loading...">
         </div>
       </div>
 
@@ -122,13 +122,13 @@
       </div>
 
       <div v-if="error" class="message">
-        <img :src="buildImgUrl('mascot/defeated.png')" alt="PeerTube mascot">
+        <img :src="buildImgUrl('mascot/defeated.png')" alt="">
 
         <div class="alert alert-danger">Sorry, but we cannot fetch the instances list. Please retry later.</div>
       </div>
 
       <div v-if="noResults" class="message">
-        <img :src="buildImgUrl('mascot/oh.png')" alt="PeerTube mascot">
+        <img :src="buildImgUrl('mascot/oh.png')" alt="">
 
         <div class="alert alert-info">Sorry, but we did not find any instance matching your filters.</div>
       </div>

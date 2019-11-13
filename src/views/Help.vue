@@ -12,7 +12,7 @@
 
       <div class="block-with-image understand">
         <div class="image-block">
-          <img width="183px" height="200px" :src="buildImgUrl('mascot/pointing.svg')" alt="PeerTube mascot">
+          <img width="183px" height="200px" :src="buildImgUrl('mascot/pointing.svg')" alt="">
         </div>
 
         <div class="text-block">
@@ -49,13 +49,13 @@
         </div>
 
         <div class="image-block">
-          <img width="189px" height="205px" :src="buildImgUrl('help/cat.png')" alt="Cat image">
+          <img width="189px" height="205px" :src="buildImgUrl('help/cat.png')" alt="">
         </div>
       </div>
 
       <div class="block-with-image administrators">
         <div class="image-block">
-          <img width="158px" height="219px" :src="buildImgUrl('help/panda.png')" alt="Panda image">
+          <img width="158px" height="219px" :src="buildImgUrl('help/panda.png')" alt="">
         </div>
 
         <div class="text-block">
@@ -97,7 +97,7 @@
         </div>
 
         <div class="image-block">
-          <img width="242px" height="221px" :src="buildImgUrl('help/dog.png')" alt="Dog image">
+          <img width="242px" height="221px" :src="buildImgUrl('help/dog.png')" alt="">
         </div>
       </div>
 

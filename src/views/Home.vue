@@ -3,12 +3,12 @@
 
     <section class="presentation">
       <div class="first-row">
-        <img class="brand" :src="buildImgUrl('brand.png')" alt="PeerTube logo"/>
+        <img class="brand" :src="buildImgUrl('brand.png')" alt="PeerTube"/>
 
         <div class="description" v-translate>A free software to take back control of your videos</div>
       </div>
 
-      <img class="peertube-mascot" :src="buildImgUrl(mascotPaths[currentMascot])" @click="switchMascot()" alt="PeerTube mascot">
+      <img class="peertube-mascot" :src="buildImgUrl(mascotPaths[currentMascot])" @click="switchMascot()" alt="">
 
       <div class="marketing" v-translate>
         With more than 100 000 hosted videos, viewed more than 6 millions times and 20 000 users,
@@ -58,7 +58,7 @@
       </div>
 
       <div class="two-columns">
-        <img :src="buildImgUrl('peertube-interface.jpg')" alt="PeerTube screen"/>
+        <img :src="buildImgUrl('peertube-interface.jpg')" alt=""/>
 
         <div>
           <div class="citation">
@@ -80,7 +80,7 @@
         </div>
 
         <div class="one-column">
-          <img :src="buildImgUrl('peertube-federation-multiplicity.jpg')" alt="Funny federation schema"/>
+          <img :src="buildImgUrl('peertube-federation-multiplicity.jpg')" alt=""/>
 
           <div>
             <div v-translate>PeerTube is not meant to become a huge platform that would centralize videos from all around the world.</div>
@@ -122,7 +122,7 @@
         </div>
 
         <div class="one-column">
-          <img :src="buildImgUrl('peertube-federation-2-instances.jpg')" alt="Funny 2 instances communication schema"/>
+          <img :src="buildImgUrl('peertube-federation-2-instances.jpg')" alt=""/>
 
           <p v-translate>
             And there's more! PeerTube uses Activity Pub, a federating protocol that <strong>allows you to interact with other
@@ -148,7 +148,7 @@
         </div>
 
         <div class="one-column">
-          <img :src="buildImgUrl('peertube-free-software.jpg')" alt="PeerTube is a free software funny schema"/>
+          <img :src="buildImgUrl('peertube-free-software.jpg')" alt=""/>
 
           <p v-translate>
             Mainstream online video broadcasting services make money off of your data by analyzing your interactions
@@ -194,7 +194,7 @@
         </div>
 
         <div class="one-column">
-          <img :src="buildImgUrl('peertube-upload.jpg')" alt="PeerTube upload illustration"/>
+          <img :src="buildImgUrl('peertube-upload.jpg')" alt=""/>
 
           <div class="citation">
             <div class="left-bar"></div>
@@ -237,7 +237,7 @@
         </div>
 
         <div class="one-column">
-          <img :src="buildImgUrl('peertube-p2p.jpg')" alt="PeerTube P2P illustration"/>
+          <img :src="buildImgUrl('peertube-p2p.jpg')" alt=""/>
 
           <div class="citation">
             <div class="left-bar"></div>
@@ -270,7 +270,7 @@
         </div>
 
         <div class="one-column">
-          <img :src="buildImgUrl('your-move.jpg')" alt="PeerTube you play illustration"/>
+          <img :src="buildImgUrl('your-move.jpg')" alt=""/>
         </div>
 
         <div class="buttons-row explore-create-account">
@@ -304,7 +304,7 @@
       </div>
 
       <div class="two-columns">
-        <img class="framasoft-logo" :src="buildImgUrl('framasoft-big-logo.png')" alt="Framasoft logo"/>
+        <img class="framasoft-logo" :src="buildImgUrl('framasoft-big-logo.png')" alt=""/>
 
         <div>
           <p v-translate>
@@ -509,7 +509,6 @@
           'mascot/default.png',
           'mascot/arguing.png',
           'mascot/oh.png',
-          'mascot/defeated.png',
           'mascot/happy.png'
         ],
         currentMascot: 0

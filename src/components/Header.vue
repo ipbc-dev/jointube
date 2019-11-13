@@ -8,7 +8,7 @@
         <div class="support">
           <translate>developed by</translate>
 
-          <img alt="Framasoft text logo" :src="buildImgUrl('framasoft-logo-text-small.png')">
+          <img alt="Framasoft" :src="buildImgUrl('framasoft-logo-text-small.png')">
         </div>
       </b-navbar-brand>
 
