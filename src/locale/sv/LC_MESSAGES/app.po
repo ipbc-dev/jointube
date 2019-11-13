@@ -1,18 +1,21 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-11-14 11:01+0000\n"
+"Last-Translator: Filip Bengtsson <filipbengtsson@live.se>\n"
+"Language-Team: Swedish <https://weblate.framasoft.org/projects/joinpeertube/"
+"main/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
 "Generated-By: easygettext\n"
 
 #: src/views/Home.vue:54 src/views/Home.vue:299
 msgid "?"
-msgstr ""
+msgstr "?"
 
 #: src/views/FAQ.vue:431
 msgid "\"It's outrageous and unconscious: you're releasing PeerTube's version 1 when it doesn't contain the necessary tools to effectively manage videos claimed by rights holders, or to effectively manage the issue of online harassment in comments, or to effectively manage monetization through advertising, or to (insert here your request to PeerTube). It will never work! What do you intend to do about it?\""
@@ -21,12 +24,15 @@ msgstr ""
 #: src/components/InstanceCard.vue:49
 msgid "%{ instance.totalInstanceFollowers } follower instance"
 msgid_plural "%{ instance.totalInstanceFollowers } followers instances"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%{ instance.totalInstanceFollowers } följande instans"
+msgstr[1] "%{ instance.totalInstanceFollowers } följande instanser"
 
 #: src/views/News.vue:30
 msgid "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.joinpeertube.org\">PeerTube's official documentation site</a> (administration and use);"
 msgstr ""
+"<a target=\"_blank\" rel=\"noopener noreferrer\" href=\""
+"https://docs.joinpeertube.org\">PeerTubes officiella webbplats för "
+"dokumentation</a> (administration och användning);"
 
 #: src/views/FAQ.vue:143
 msgid "<strong>But PeerTube doesn't centralize: it federates.</strong> Thanks to the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://activitypub.rocks\">ActivityPub</a> protocol (also used by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://joinmastodon.org\">the Mastodon federation</a>, a free/libre Twitter alternative), PeerTube can federate several small hosters so they don't have to buy thousands of hard disks to host videos for the whole world."
@@ -70,11 +76,15 @@ msgstr ""
 
 #: src/views/Home.vue:7
 msgid "A free software to take back control of your videos"
-msgstr ""
+msgstr "En fri mjukvara för att ta tillbaka kontrollen över dina videor"
 
 #: src/App.vue:28
 msgid "A free software to take back control of your videos! With more than 100 000 hosted videos, viewed more than 6 millions times and 20 000 users, PeerTube is the decentralized free software alternative to videos platforms developed by Framasoft"
 msgstr ""
+"En fri mjukvara för att ta tillbaka kontrollen över dina videor! Med fler än "
+"100&nbsp;000 videor, visade fler än sex miljoner gånger och 20&nbsp;000 "
+"användare, är PeerTube ett decentraliserad fritt alternativ till "
+"videoplattformar, utvecklat av Framasoft"
 
 #: src/views/News.vue:369
 msgid "A month before the version 1 of PeerTube, we would like to share some (good!) news with you."
@@ -416,7 +426,7 @@ msgstr ""
 
 #: src/views/News.vue:225
 msgid "February 26, 2019"
-msgstr ""
+msgstr "26 februari 2019"
 
 #: src/views/FAQ.vue:157
 msgid "Federation offers another benefit: <strong>everyone becomes independent</strong>. Zaïd, Catherin, Solar and yourself can make your own rules, your own Terms of Services (for example, one can imagine a MeowTube where dogs videos are strictly forbidden 😉)."
@@ -811,23 +821,23 @@ msgstr ""
 
 #: src/components/Header.vue:27 src/views/News.vue:689
 msgid "News"
-msgstr ""
+msgstr "Nyheter"
 
 #: src/components/InstancesList.vue:359
 msgid "News & Politics"
-msgstr ""
+msgstr "Nyheter och politik"
 
 #: src/components/Footer.vue:7
 msgid "Newsletter"
-msgstr ""
+msgstr "Nyhetsbrev"
 
 #: src/components/InstancesList.vue:63
 msgid "No opinion"
-msgstr ""
+msgstr "Ingen åsikt"
 
 #: src/components/InstanceCard.vue:24
 msgid "No video quota per user"
-msgstr ""
+msgstr "Ingen videokvot per användare"
 
 #: src/views/FAQ.vue:367
 msgid "No. In October 2018, on an average instance federating with ~200 instances and indexing ~16000 videos, only ~200 videos are tagged as NSFW (i. e. the content is sensitive, which could be something else than pornography). Therefore, they represent only ~1% of all the videos."
@@ -835,7 +845,7 @@ msgstr ""
 
 #: src/views/News.vue:13
 msgid "November 12, 2019"
-msgstr ""
+msgstr "12 november 2019"
 
 #: src/views/FAQ.vue:290
 msgid "Now imagine that Camille has created an account on DominiqueTube and uploads an illegal video, because this video uses music created by Solal."
@@ -855,7 +865,7 @@ msgstr ""
 
 #: src/views/News.vue:290
 msgid "October 16, 2018"
-msgstr ""
+msgstr "16 oktober 2018"
 
 #: src/views/FAQ.vue:209
 msgid "Of course, PeerTube's video player adapts to your situation: if your installation does not allow peer-to-peer playback (corporate network, recalcitrant browser, etc.) video playback will be done in the classic way."
@@ -892,7 +902,7 @@ msgstr ""
 
 #: src/views/NotFound.vue:5 src/views/NotFound.vue:48
 msgid "Page not found"
-msgstr ""
+msgstr "Sidan existerar inte"
 
 #: src/views/FAQ.vue:51
 msgid "Peer-to-peer broadcasting – and therefore viewing – (so no slowing down when a video becomes viral)."
@@ -939,12 +949,13 @@ msgid "PeerTube crowdfunding newsletter #4"
 msgstr ""
 
 #: src/components/Footer.vue:15
+#, fuzzy
 msgid "PeerTube Git"
-msgstr ""
+msgstr "PeerTube Git"
 
 #: src/views/Instances.vue:133
 msgid "PeerTube instances"
-msgstr ""
+msgstr "PeerTube-instanser"
 
 #: src/views/Home.vue:309
 msgid "Peertube is a <strong>free/libre software funded by a French non-profit organization</strong>: Framasoft"
@@ -1465,6 +1476,9 @@ msgstr ""
 #: src/views/Home.vue:12
 msgid "With more than 100 000 hosted videos, viewed more than 6 millions times and 20 000 users, PeerTube is the decentralized free software alternative to videos platforms developed by Framasoft"
 msgstr ""
+"Med fler än 100&nbsp;000 videor, visade fler än sex miljoner gånger och "
+"20&nbsp;000 användare, är PeerTube ett decentraliserad fritt alternativ till "
+"videoplattformar, utvecklat av Framasoft"
 
 #: src/views/FAQ.vue:178
 msgid "With PeerTube, <strong>you can choose the hoster of your videos according to his terms of services</strong>, his moderation policy, his federation choices... As you don't have a tech giant facing you, you might be able to talk with you hoster if you ever have a problem, a need, or something you want."
