@@ -68,7 +68,7 @@
     display: flex;
 
     .title-small-screens {
-      display: none;
+      display: none !important;
     }
 
     .title {
@@ -139,7 +139,7 @@
       flex-direction: column;
 
       .title-small-screens {
-        display: inherit;
+        display: inherit !important;
         margin-bottom: 5px;
       }
 
