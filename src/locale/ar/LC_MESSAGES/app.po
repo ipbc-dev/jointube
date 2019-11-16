@@ -1,19 +1,22 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-11-18 08:23+0000\n"
+"Last-Translator: dz zero one <d959983@urhen.com>\n"
+"Language-Team: Arabic <https://weblate.framasoft.org/projects/joinpeertube/"
+"main/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 3.9.1\n"
 "Generated-By: easygettext\n"
 
 #: src/views/Home.vue:54 src/views/Home.vue:299
 msgid "?"
-msgstr ""
+msgstr "?"
 
 #: src/views/FAQ.vue:431
 msgid "\"It's outrageous and unconscious: you're releasing PeerTube's version 1 when it doesn't contain the necessary tools to effectively manage videos claimed by rights holders, or to effectively manage the issue of online harassment in comments, or to effectively manage monetization through advertising, or to (insert here your request to PeerTube). It will never work! What do you intend to do about it?\""
@@ -22,16 +25,19 @@ msgstr ""
 #: src/components/InstanceCard.vue:49
 msgid "%{ instance.totalInstanceFollowers } follower instance"
 msgid_plural "%{ instance.totalInstanceFollowers } followers instances"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "صفر"
+msgstr[1] "واحد"
+msgstr[2] "إثنان"
+msgstr[3] "قليل"
+msgstr[4] "كثير"
+msgstr[5] "آخرى"
 
 #: src/views/News.vue:30
 msgid "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.joinpeertube.org\">PeerTube's official documentation site</a> (administration and use);"
 msgstr ""
+"<a target=\"_blank\" rel=\"noopener noreferrer\" href=\""
+"https://docs.joinpeertube.org\">موقع بييرتيوب الرسمي لصفحة الدعم</a> ("
+"الإدارة والاستخدام);"
 
 #: src/views/FAQ.vue:143
 msgid "<strong>But PeerTube doesn't centralize: it federates.</strong> Thanks to the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://activitypub.rocks\">ActivityPub</a> protocol (also used by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://joinmastodon.org\">the Mastodon federation</a>, a free/libre Twitter alternative), PeerTube can federate several small hosters so they don't have to buy thousands of hard disks to host videos for the whole world."
