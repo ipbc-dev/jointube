@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-11-18 08:23+0000\n"
-"Last-Translator: dz zero one <d959983@urhen.com>\n"
+"PO-Revision-Date: 2019-11-19 08:29+0000\n"
+"Last-Translator: ButterflyOfFire <butterflyoffire@protonmail.com>\n"
 "Language-Team: Arabic <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/ar/>\n"
 "Language: ar\n"
@@ -65,7 +65,7 @@ msgstr ""
 
 #: src/views/News.vue:75
 msgid "A better interface"
-msgstr ""
+msgstr "واجهة أحسن"
 
 #: src/views/FAQ.vue:50
 msgid "A federation of interconnected hosting providers (so more video choices wherever you go to see them);"
@@ -81,7 +81,7 @@ msgstr ""
 
 #: src/views/Home.vue:7
 msgid "A free software to take back control of your videos"
-msgstr ""
+msgstr "برنامج حر لاستعادة التحكم في فيديوهاتكم"
 
 #: src/App.vue:28
 msgid "A free software to take back control of your videos! With more than 100 000 hosted videos, viewed more than 6 millions times and 20 000 users, PeerTube is the decentralized free software alternative to videos platforms developed by Framasoft"
@@ -121,11 +121,11 @@ msgstr ""
 
 #: src/views/Help.vue:79
 msgid "Administer PeerTube"
-msgstr ""
+msgstr "إدارة PeerTube"
 
 #: src/views/News.vue:334
 msgid "Advanced search"
-msgstr ""
+msgstr "بحث متقدّم"
 
 #: src/views/News.vue:18
 msgid "After a year of work and improvements, we have just released version 2 of PeerTube! Everything is explained in detail in the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framablog.org/2019/11/12/peertube-has-worked-twice-as-hard-to-free-your-videos-from-youtube/\">Framablog article</a> that we invite you to read."
@@ -157,7 +157,7 @@ msgstr ""
 
 #: src/components/InstancesList.vue:364
 msgid "Animals"
-msgstr ""
+msgstr "الحيوانات"
 
 #: src/views/News.vue:177
 msgid "Another feature of this 1.3 version has been entirely developed by an external contributor: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/joshmorel\">Josh Morel</a> who add <strong>a quarantine system</strong> for videos on PeerTube. If the administrator of an instance enables this feature, any new video uploaded on his instance will automatically be hidden until a moderator approves it."
@@ -177,7 +177,7 @@ msgstr ""
 
 #: src/components/InstancesList.vue:352
 msgid "Art"
-msgstr ""
+msgstr "فنّ"
 
 #: src/views/News.vue:428
 msgid "As a reminder, in the first newsletter (July 23rd, 2018), we announced that the localization system and RSS feeds were implemented, and that we were making progress on the subtitles support and the advanced search."
@@ -193,7 +193,7 @@ msgstr ""
 
 #: src/views/Help.vue:40
 msgid "Ask questions to the community"
-msgstr ""
+msgstr "اطرح تساؤلاتك على المجتمع"
 
 #: src/components/InstancesList.vue:85
 msgid "At least 1GB"
@@ -213,7 +213,7 @@ msgstr ""
 
 #: src/views/News.vue:421
 msgid "August 20, 2018"
-msgstr ""
+msgstr "20 أوت 2018"
 
 #: src/components/InstanceCard.vue:274
 msgid "B"
@@ -249,7 +249,7 @@ msgstr ""
 
 #: src/views/Home.vue:277
 msgid "Browse contents"
-msgstr ""
+msgstr "تصفح المحتويات"
 
 #: src/views/Home.vue:228
 msgid "Browse/discover PeerTube instances"
@@ -277,7 +277,7 @@ msgstr ""
 
 #: src/components/InstancesList.vue:373
 msgid "Català"
-msgstr ""
+msgstr "القسطانية"
 
 #: src/components/InstancesList.vue:374
 msgid "Čeština"
@@ -285,7 +285,7 @@ msgstr ""
 
 #: src/components/I18n.vue:75
 msgid "Change interface language"
-msgstr ""
+msgstr "تغيير لغة الواجهة"
 
 #: src/views/News.vue:355 src/views/News.vue:412 src/views/News.vue:461
 #: src/views/News.vue:505
@@ -294,7 +294,7 @@ msgstr ""
 
 #: src/components/InstancesList.vue:357
 msgid "Comedy"
-msgstr ""
+msgstr "كوميديا"
 
 #: src/views/FAQ.vue:73
 msgid "Concretely here, it means that:"
@@ -302,24 +302,24 @@ msgstr ""
 
 #: src/components/Footer.vue:5
 msgid "Contact"
-msgstr ""
+msgstr "للإتصال"
 
 #: src/components/Header.vue:35
 msgid "Contribute"
-msgstr ""
+msgstr "المساهمة"
 
 #: src/views/Help.vue:88
 msgid "Contribute to PeerTube"
-msgstr ""
+msgstr "ساهم في PeerTube"
 
 #: src/views/Hall-Of-Fame.vue:426
 msgid "Contributors"
-msgstr ""
+msgstr "المساهمون"
 
 #: src/components/Header.vue:23 src/components/InstancesList.vue:25
 #: src/views/Instances.vue:5
 msgid "Create an account"
-msgstr ""
+msgstr "انشئ حسابًا"
 
 #: src/views/FAQ.vue:255
 msgid "Creation and content"
@@ -331,11 +331,11 @@ msgstr ""
 
 #: src/components/InstancesList.vue:377
 msgid "Deutsch"
-msgstr ""
+msgstr "الهولندية"
 
 #: src/components/Header.vue:8
 msgid "developed by"
-msgstr ""
+msgstr "طُوّ مِن طرف"
 
 #: src/views/Home.vue:214
 msgid "Direct contact with a human-scale hoster allows for two things: you no longer are the client of a huge tech company, and <strong>you can nurture a special relationship with your hoster, who distributes your data.</strong>"
@@ -343,7 +343,7 @@ msgstr ""
 
 #: src/components/InstancesList.vue:29
 msgid "Discover instances"
-msgstr ""
+msgstr "اكتشف خوادمًا"
 
 #: src/views/Home.vue:34
 msgid "Discover our content selection"
@@ -359,7 +359,7 @@ msgstr ""
 
 #: src/components/ContentSelection.vue:28
 msgid "Discover the channel"
-msgstr ""
+msgstr "اكتشف القناة"
 
 #: src/views/News.vue:6
 msgid "Discover the latest PeerTube improvements"
@@ -383,7 +383,7 @@ msgstr ""
 
 #: src/views/Home.vue:338
 msgid "Donate to Framasoft"
-msgstr ""
+msgstr "تبرّع لِـ Framasoft"
 
 #: src/views/News.vue:477
 msgid "During the crowdfunding campaign, we continued to work on the localization system. And we are happy to announce it's finally completed: it will be available in the next beta (beta 10) of PeerTube. As of this writing, the web interface is already available in english, french, basque, catalan, czech and esperanto (huge thank you to all of the translators). If you too want to help translating PeerTube, do not hesitate to check out the documentation!"
@@ -391,11 +391,11 @@ msgstr ""
 
 #: src/components/InstancesList.vue:361
 msgid "Education"
-msgstr ""
+msgstr "التربية"
 
 #: src/components/InstancesList.vue:369
 msgid "English"
-msgstr ""
+msgstr "الإنجليزية"
 
 #: src/views/Home.vue:284
 msgid "Enjoy every feature: history, subscriptions, playlists, notifications..."
@@ -407,11 +407,11 @@ msgstr ""
 
 #: src/components/InstancesList.vue:380
 msgid "Español"
-msgstr ""
+msgstr "الإسبانية"
 
 #: src/components/InstancesList.vue:375
 msgid "Esperanto"
-msgstr ""
+msgstr "الإسبيرنتو"
 
 #: src/components/InstancesList.vue:372
 msgid "Euskara"
@@ -419,7 +419,7 @@ msgstr ""
 
 #: src/views/FAQ.vue:5 src/views/FAQ.vue:596
 msgid "FAQ"
-msgstr ""
+msgstr "الأسئلة المتداوَلة"
 
 #: src/views/News.vue:27
 msgid "features and improvements since v1 of November 2018;"
@@ -427,7 +427,7 @@ msgstr ""
 
 #: src/views/News.vue:225
 msgid "February 26, 2019"
-msgstr ""
+msgstr "26 فيفري 2019"
 
 #: src/views/FAQ.vue:157
 msgid "Federation offers another benefit: <strong>everyone becomes independent</strong>. Zaïd, Catherin, Solar and yourself can make your own rules, your own Terms of Services (for example, one can imagine a MeowTube where dogs videos are strictly forbidden 😉)."
@@ -435,7 +435,7 @@ msgstr ""
 
 #: src/components/InstancesList.vue:350
 msgid "Films"
-msgstr ""
+msgstr "أفلام"
 
 #: src/components/InstancesList.vue:3
 msgid "Filter according to your preferences"
@@ -473,7 +473,7 @@ msgstr[5] ""
 
 #: src/components/InstancesList.vue:366
 msgid "Food"
-msgstr ""
+msgstr "أطعمة"
 
 #: src/views/News.vue:263
 msgid "For 2019, we plan to add a plugin and theme management system (even though basic at first), playlist management, support for audio files upload and many other features."
@@ -505,11 +505,11 @@ msgstr ""
 
 #: src/components/Footer.vue:9
 msgid "Forum"
-msgstr ""
+msgstr "المنتدى"
 
 #: src/components/InstancesList.vue:370
 msgid "Français"
-msgstr ""
+msgstr "الفرنسية"
 
 #: src/views/News.vue:42
 msgid "Freely,"
@@ -525,7 +525,7 @@ msgstr ""
 
 #: src/components/InstancesList.vue:355
 msgid "Gaming"
-msgstr ""
+msgstr "ألعاب"
 
 #: src/components/InstanceCard.vue:277
 msgid "GB"
@@ -545,7 +545,7 @@ msgstr ""
 
 #: src/views/Help.vue:44
 msgid "Go to the forum"
-msgstr ""
+msgstr "الإنتقال إلى المنتدى"
 
 #: src/views/Hall-Of-Fame.vue:5 src/views/Hall-Of-Fame.vue:632
 msgid "Hall of Fame"
@@ -566,7 +566,7 @@ msgstr ""
 
 #: src/components/Header.vue:31 src/views/Help.vue:5 src/views/Help.vue:199
 msgid "Help"
-msgstr ""
+msgstr "المساعدة"
 
 #: src/views/News.vue:235
 msgid "Here is a small retrospective of the end of 2018/beginning of 2019:"
@@ -590,7 +590,7 @@ msgstr ""
 
 #: src/components/Header.vue:19
 msgid "Home"
-msgstr ""
+msgstr "الرئيسية"
 
 #: src/views/FAQ.vue:486
 msgid "How do I contribute to PeerTube’s code?"
@@ -606,7 +606,7 @@ msgstr ""
 
 #: src/views/Help.vue:92
 msgid "How to contribute?"
-msgstr ""
+msgstr "كيف يمكنكم المساهمة؟"
 
 #: src/views/FAQ.vue:327
 msgid "However, many improvements of PeerTube are to be expected... Including those that would allow you to create (and choose) the monetization tools that interest you!"
@@ -674,15 +674,15 @@ msgstr ""
 
 #: src/views/Help.vue:65
 msgid "Install PeerTube"
-msgstr ""
+msgstr "تنصيب PeerTube"
 
 #: src/components/InstancesList.vue:69
 msgid "Instance languages"
-msgstr ""
+msgstr "لغات الخوادم"
 
 #: src/components/InstancesList.vue:106
 msgid "Instances list"
-msgstr ""
+msgstr "قائمة الخوادم"
 
 #: src/views/FAQ.vue:524
 msgid "IPFS is a great technology, but it still seems very (too!) young for large scale streaming of large files."
@@ -718,7 +718,7 @@ msgstr ""
 
 #: src/components/InstancesList.vue:378
 msgid "Italiano"
-msgstr ""
+msgstr "الإيطالية"
 
 #: src/views/FAQ.vue:77
 msgid "Its development is community-based, it can be enhanced by everyone's contributions."
@@ -730,11 +730,11 @@ msgstr ""
 
 #: src/views/News.vue:470
 msgid "July 23, 2018"
-msgstr ""
+msgstr "23 جويلية 2018"
 
 #: src/views/News.vue:161
 msgid "June 5, 2019"
-msgstr ""
+msgstr "5 جوان 2019"
 
 #: src/components/InstanceCard.vue:275
 msgid "KB"
@@ -746,7 +746,7 @@ msgstr ""
 
 #: src/components/I18n.vue:8
 msgid "Languages"
-msgstr ""
+msgstr "اللغات"
 
 #: src/views/Home.vue:1
 msgid "Learn more about free/libre software"
@@ -758,7 +758,7 @@ msgstr ""
 
 #: src/components/Footer.vue:3
 msgid "Legal notices"
-msgstr ""
+msgstr "الإشعارات القانونية"
 
 #: src/views/FAQ.vue:54
 msgid "Linked together, these three features makes it easy to host videos on the server side, while remaining practical, ethical and fun for the internet users."
@@ -806,7 +806,7 @@ msgstr ""
 
 #: src/components/InstancesList.vue:349
 msgid "Music"
-msgstr ""
+msgstr "موسيقى"
 
 #: src/components/InstancesList.vue:379
 msgid "Nederlands"
@@ -826,11 +826,11 @@ msgstr ""
 
 #: src/components/Header.vue:27 src/views/News.vue:689
 msgid "News"
-msgstr ""
+msgstr "أخبار"
 
 #: src/components/InstancesList.vue:359
 msgid "News & Politics"
-msgstr ""
+msgstr "أخبار وسياسة"
 
 #: src/components/Footer.vue:7
 msgid "Newsletter"
