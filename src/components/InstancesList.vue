@@ -82,19 +82,19 @@
           <label for="quota" v-translate>Allowed video space</label>
 
           <b-form-select v-model="quota" id="quota" name="quota">
-            <option value="1">
+            <option value="1000000000">
               <translate>At least 1GB</translate>
             </option>
 
-            <option value="5">
+            <option value="5000000000">
               <translate>At least 5GB</translate>
             </option>
 
-            <option value="20">
+            <option value="20000000000">
               <translate>At least 20GB</translate>
             </option>
 
-            <option value="50">
+            <option value="50000000000">
               <translate>At least 50GB</translate>
             </option>
           </b-form-select>
@@ -393,7 +393,7 @@
         themes: [],
         nsfw: 'no-opinion',
         languages: [],
-        quota: '5'
+        quota: '5000000000'
       }
     },
 
@@ -454,9 +454,13 @@
       },
 
       onFormChange () {
-        console.log('Updating instances list.')
+        // Wait for v-model to be updated
+        // https://github.com/vuejs/vue/issues/293#issuecomment-265716984
+        setTimeout(() => {
+          console.log('Updating instances list.')
 
-        this.fetchInstances()
+          this.fetchInstances()
+        })
       },
 
       isQuotaEnabled () {
