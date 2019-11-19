@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-11-18 08:23+0000\n"
-"Last-Translator: Filip Bengtsson <filipbengtsson@live.se>\n"
+"PO-Revision-Date: 2019-11-19 08:29+0000\n"
+"Last-Translator: Filip Bengtsson <filip@libreradio.org>\n"
 "Language-Team: Swedish <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/sv/>\n"
 "Language: sv\n"
@@ -936,26 +936,30 @@ msgstr "PeerTube 1.4 är ute!"
 #: src/views/News.vue:55
 msgid "Peertube 1.4 just came out! Here's a quick overview of what's new…"
 msgstr ""
+"PeerTube 1.4 släpptes nyss! Här är en snabb sammanställning över vad som "
+"ändrats …"
 
 #: src/views/Home.vue:64
 msgid "PeerTube aspires to be a <strong>decentralized and free/libre alternative</strong> to video broadcasting services."
 msgstr ""
+"PeerTube strävar efter att vara ett <strong>decentraliserat och fritt "
+"alternativ</strong> till videotjänster."
 
 #: src/views/News.vue:469
 msgid "PeerTube crowdfunding newsletter #1"
-msgstr ""
+msgstr "PeerTubes nyhetsbrev för gräsrotsfinansiering #1"
 
 #: src/views/News.vue:420
 msgid "PeerTube crowdfunding newsletter #2"
-msgstr ""
+msgstr "PeerTubes nyhetsbrev för gräsrotsfinansiering #2"
 
 #: src/views/News.vue:363
 msgid "PeerTube crowdfunding newsletter #3"
-msgstr ""
+msgstr "PeerTubes nyhetsbrev för gräsrotsfinansiering #3"
 
 #: src/views/News.vue:289
 msgid "PeerTube crowdfunding newsletter #4"
-msgstr ""
+msgstr "PeerTubes nyhetsbrev för gräsrotsfinansiering #4"
 
 #: src/components/Footer.vue:15
 msgid "PeerTube Git"
@@ -968,6 +972,8 @@ msgstr "PeerTube-instanser"
 #: src/views/Home.vue:309
 msgid "Peertube is a <strong>free/libre software funded by a French non-profit organization</strong>: Framasoft"
 msgstr ""
+"PeerTube är en <strong>fri mjukvara finansierad av en fransk ideell "
+"organisation</strong>: Framasoft"
 
 #: src/views/FAQ.vue:531
 msgid "PeerTube is free, decentralized, distributed, and does not impose any remuneration model. This is the choice we have made, which is debatable, and others (like d.tube) have made other choices, which have their advantages. So it’s up to you to see what suits you."
