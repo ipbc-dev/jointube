@@ -538,7 +538,7 @@ msgstr "Humour"
 msgid "Concretely here, it means that:"
 msgstr "Concrètement, ici, cela signifie que :"
 
-#: src/components/Footer.vue:5
+#: src/components/Footer.vue:7
 msgid "Contact"
 msgstr "Contact"
 
@@ -833,7 +833,7 @@ msgstr "Pour qui veut voir des vidéos, PeerTube a pour avantages…"
 msgid "For those who wants to upload their videos, PeerTube allows..."
 msgstr "Pour qui veut diffuser ses vidéos en ligne PeerTube permet…"
 
-#: src/components/Footer.vue:9
+#: src/components/Footer.vue:11
 msgid "Forum"
 msgstr "Forum"
 
@@ -1028,6 +1028,22 @@ msgstr ""
 "télécharger…), vous abonner à des chaînes, créer des listes de lecture ou "
 "diffuser des vidéos, alors il ne vous reste qu’à <strong>créer un compte sur "
 "l’instance PeerTube de votre choix.</strong>"
+
+#: src/components/Footer.vue:26
+#, fuzzy
+msgid ""
+"Illustrations from <a target=\"_blank\" rel=\"noopener noreferrer\" href="
+"\"https://framatube.org/videos/watch/9c9de5e8-0a1e-484a-b099-e80766180a6d"
+"\">What is PeerTube video</a>, created by <a target=\"_blank\" rel="
+"\"noopener noreferrer\" href=\"https://libreart.info/\">LILA</a> - <a target="
+"\"_blank\" rel=\"noopener noreferrer\" href=\"https://film.zemarmot.net/"
+"\">ZeMarmot Team</a>"
+msgstr ""
+"Si vous avez des questions <a target=\"_blank\" rel=\"noopener noreferrer\" "
+"href=\"https://framacolibri.org/c/qualite/peertube\">un forum</a> est à "
+"votre disposition. Vous pouvez également nous contacter directement sur <a "
+"target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://contact."
+"framasoft.org\">https://contact.framasoft.org.</a>"
 
 #: src/views/News.vue:238
 msgid ""
@@ -1238,7 +1254,7 @@ msgstr ""
 "Son développement est communautaire, il peut s’enrichir des contributions de "
 "chacun·e."
 
-#: src/components/Footer.vue:13
+#: src/components/Footer.vue:15
 msgid "JoinPeerTube Git"
 msgstr "Git de JoinPeerTube"
 
@@ -1270,7 +1286,7 @@ msgstr "En savoir plus sur les logiciels libres"
 msgid "Learn more about the federation"
 msgstr "En savoir plus sur la fédération"
 
-#: src/components/Footer.vue:3
+#: src/components/Footer.vue:5
 msgid "Legal notices"
 msgstr "Mentions légales"
 
@@ -1421,7 +1437,7 @@ msgstr "Actus"
 msgid "News & Politics"
 msgstr "Actualité & Politique"
 
-#: src/components/Footer.vue:7
+#: src/components/Footer.vue:9
 msgid "Newsletter"
 msgstr "Lettre d’information"
 
@@ -1657,7 +1673,7 @@ msgstr "Newsletter du crowdfunding de PeerTube n°3"
 msgid "PeerTube crowdfunding newsletter #4"
 msgstr "Newsletter du crowdfunding de PeerTube n°4"
 
-#: src/components/Footer.vue:15
+#: src/components/Footer.vue:17
 msgid "PeerTube Git"
 msgstr "Git de PeerTube"
 
@@ -2658,6 +2674,18 @@ msgid "We've just released PeerTube 1.3 and it brings a lot of new features."
 msgstr ""
 "Nous venons tout juste de sortir la version 1.3 de PeerTube qui apporte tout "
 "un tas de nouveautés."
+
+#: src/components/Footer.vue:22
+#, fuzzy
+msgid ""
+"Website developed by <a target=\"_blank\" rel=\"noopener noreferrer\" href="
+"\"https://framasoft.org\">Framasoft</a> and designed by <a target=\"_blank\" "
+"rel=\"noopener noreferrer\" href=\"https://www.maiwann.net/\">Maiwann</a>"
+msgstr ""
+"La liste complète des instances <a target=\"_blank\" rel=\"noopener "
+"noreferrer\" href=\"https://instances.joinpeertube.org\">se trouve là</a>, "
+"et nous faisons apparaître <a target=\"_blank\" rel=\"noopener noreferrer\" "
+"href=\"/instances\">ici celles qui sont ouvertes aux inscriptions</a>."
 
 #: src/views/FAQ.vue:38
 msgid "What are the main advantages of PeerTube?"

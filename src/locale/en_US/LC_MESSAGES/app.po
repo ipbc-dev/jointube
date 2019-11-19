@@ -289,7 +289,7 @@ msgstr "Comedy"
 msgid "Concretely here, it means that:"
 msgstr "Concretely here, it means that:"
 
-#: src/components/Footer.vue:5
+#: src/components/Footer.vue:7
 msgid "Contact"
 msgstr "Contact"
 
@@ -488,7 +488,7 @@ msgstr "For those who want to watch videos, PeerTube can offer..."
 msgid "For those who wants to upload their videos, PeerTube allows..."
 msgstr "For those who wants to upload their videos, PeerTube allows..."
 
-#: src/components/Footer.vue:9
+#: src/components/Footer.vue:11
 msgid "Forum"
 msgstr "Forum"
 
@@ -625,6 +625,10 @@ msgstr "If you want to help out in another way, or if you want to request a feat
 msgid "If you would like to interact with videos (like, comment, download...), subscribe to channels, create playlists or play videos, then all you have to do is <strong>create an account on the PeerTube instance of your choice.</strong>"
 msgstr "If you would like to interact with videos (like, comment, download...), subscribe to channels, create playlists or play videos, then all you have to do is <strong>create an account on the PeerTube instance of your choice.</strong>"
 
+#: src/components/Footer.vue:26
+msgid "Illustrations from <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framatube.org/videos/watch/9c9de5e8-0a1e-484a-b099-e80766180a6d\">What is PeerTube video</a>, created by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://libreart.info/\">LILA</a> - <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://film.zemarmot.net/\">ZeMarmot Team</a>"
+msgstr "Illustrations from <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framatube.org/videos/watch/9c9de5e8-0a1e-484a-b099-e80766180a6d\">What is PeerTube video</a>, created by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://libreart.info/\">LILA</a> - <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://film.zemarmot.net/\">ZeMarmot Team</a>"
+
 #: src/views/News.vue:238
 msgid "In December 2018, we released version 1.1 which contained some moderation tools requested by instance administrators."
 msgstr "In December 2018, we released version 1.1 which contained some moderation tools requested by instance administrators."
@@ -709,7 +713,7 @@ msgstr "Italiano"
 msgid "Its development is community-based, it can be enhanced by everyone's contributions."
 msgstr "Its development is community-based, it can be enhanced by everyone's contributions."
 
-#: src/components/Footer.vue:13
+#: src/components/Footer.vue:15
 msgid "JoinPeerTube Git"
 msgstr "JoinPeerTube Git"
 
@@ -741,7 +745,7 @@ msgstr "Learn more about free/libre software"
 msgid "Learn more about the federation"
 msgstr "Learn more about the federation"
 
-#: src/components/Footer.vue:3
+#: src/components/Footer.vue:5
 msgid "Legal notices"
 msgstr "Legal notices"
 
@@ -817,7 +821,7 @@ msgstr "News"
 msgid "News & Politics"
 msgstr "News & Politics"
 
-#: src/components/Footer.vue:7
+#: src/components/Footer.vue:9
 msgid "Newsletter"
 msgstr "Newsletter"
 
@@ -938,7 +942,7 @@ msgstr "PeerTube crowdfunding newsletter #3"
 msgid "PeerTube crowdfunding newsletter #4"
 msgstr "PeerTube crowdfunding newsletter #4"
 
-#: src/components/Footer.vue:15
+#: src/components/Footer.vue:17
 msgid "PeerTube Git"
 msgstr "PeerTube Git"
 
@@ -1413,6 +1417,10 @@ msgstr "We're also redesigning the <strong>PeerTube video player</strong> to off
 #: src/views/News.vue:166
 msgid "We've just released PeerTube 1.3 and it brings a lot of new features."
 msgstr "We've just released PeerTube 1.3 and it brings a lot of new features."
+
+#: src/components/Footer.vue:22
+msgid "Website developed by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framasoft.org\">Framasoft</a> and designed by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.maiwann.net/\">Maiwann</a>"
+msgstr "Website developed by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framasoft.org\">Framasoft</a> and designed by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.maiwann.net/\">Maiwann</a>"
 
 #: src/views/FAQ.vue:38
 msgid "What are the main advantages of PeerTube?"
