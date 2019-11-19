@@ -1,21 +1,21 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-11-14 11:01+0000\n"
-"Last-Translator: sajad mousavi <s.sajad.mousavi@gmail.com>\n"
-"Language-Team: Persian <https://weblate.framasoft.org/projects/joinpeertube/"
-"main/fa/>\n"
-"Language: fa\n"
+"PO-Revision-Date: 2019-11-18 08:23+0000\n"
+"Last-Translator: Attila F. <attilafeher@tuta.io>\n"
+"Language-Team: Hungarian <https://weblate.framasoft.org/projects/"
+"joinpeertube/main/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.9.1\n"
 "Generated-By: easygettext\n"
 
 #: src/views/Home.vue:54 src/views/Home.vue:299
 msgid "?"
-msgstr "؟"
+msgstr "?"
 
 #: src/views/FAQ.vue:431
 msgid "\"It's outrageous and unconscious: you're releasing PeerTube's version 1 when it doesn't contain the necessary tools to effectively manage videos claimed by rights holders, or to effectively manage the issue of online harassment in comments, or to effectively manage monetization through advertising, or to (insert here your request to PeerTube). It will never work! What do you intend to do about it?\""
@@ -24,28 +24,48 @@ msgstr ""
 #: src/components/InstanceCard.vue:49
 msgid "%{ instance.totalInstanceFollowers } follower instance"
 msgid_plural "%{ instance.totalInstanceFollowers } followers instances"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%{ instance.totalInstanceFollowers } követő példány"
+msgstr[1] "%{ instance.totalInstanceFollowers } követők példányok"
 
 #: src/views/News.vue:30
 msgid "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.joinpeertube.org\">PeerTube's official documentation site</a> (administration and use);"
 msgstr ""
+"<a target=\"_blank\" rel=\"noopener noreferrer\" href=\""
+"https://docs.joinpeertube.org\">PeerTube hivatalos dolumentációja</a> ("
+"adminisztráció és használata);"
 
 #: src/views/FAQ.vue:143
 msgid "<strong>But PeerTube doesn't centralize: it federates.</strong> Thanks to the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://activitypub.rocks\">ActivityPub</a> protocol (also used by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://joinmastodon.org\">the Mastodon federation</a>, a free/libre Twitter alternative), PeerTube can federate several small hosters so they don't have to buy thousands of hard disks to host videos for the whole world."
 msgstr ""
+"<strong>De a PeerTube nincsen központosítva: föderál.</strong> Köszönhetően "
+"az <a target=\"_blank\" rel=\"noopener noreferrer\" href=\""
+"https://activitypub.rocks\">ActivityPub</a> protokolnak (amely a <a target=\""
+"_blank\" rel=\"noopener noreferrer\" href=\"https://joinmastodon.org\">"
+"Mastodon szövetség</a> is használ, amely egy ingyenes/szabad Twitter "
+"alternatívája), a PeerTube egyesíteni tud számos kisebb kiszolgálókat, így "
+"nem kell több ezer merevlemezt vásárolniuk, hogy videókat tároljanak az "
+"egész világ számára."
 
 #: src/views/FAQ.vue:134
 msgid "<strong>It's software you install on your server</strong> to create a website where videos are hosted and broadcast... Basically: you create your own \"homemade YouTube\"!"
 msgstr ""
+"<strong>Ez egy olyan szoftver, amelyet a szerverre telepít</strong> egy "
+"olyan webhely létrehozására, ahol a videókat tárolják és sugározzák... "
+"Alapvetően: a te saját \"házi YouTube-ot\" hozzol létre!"
 
 #: src/views/FAQ.vue:218
 msgid "<strong>PeerTube is not only open-source: it's free (as in free speech).</strong> Its free license guarantees our fundamental freedoms as users. It is this respect for our freedoms that allows Framasoft to invite you to contribute to this software, and many evolutions (innovative comment system, etc.) have already been suggested by some of you."
 msgstr ""
+"<strong>A PeerTube nem csak nyílt forráskódú: szabad (mint a szabad "
+"beszédben is).</strong> A szabad licenc garantálja felhasználói alapvető "
+"szabadságainkat. A szabadságunk tiszteletben tartása engedi meg a "
+"Framasoftnak, hogy hívjon meg téged a szoftverhez való hozzájárulását, és "
+"néhányan már közületek is javasoltak sok fejlesztést (innovatív "
+"megjegyzésrendszer stb.)."
 
 #: src/views/Instances.vue:23
 msgid "1. Find the instance that suits you best"
-msgstr ""
+msgstr "1. Keresd meg a hozzád legmegfelelőbb példányt"
 
 #: src/views/News.vue:96
 msgid "2 channels on Framasoft's account on FramaTube instance"
@@ -53,15 +73,17 @@ msgstr ""
 
 #: src/views/Instances.vue:34
 msgid "2. Create your account and enjoy PeerTube"
-msgstr ""
+msgstr "2. Hozz létre a fiókodat és élvezd a PeerTube-ot"
 
 #: src/views/News.vue:75
 msgid "A better interface"
-msgstr ""
+msgstr "Jöbb felület"
 
 #: src/views/FAQ.vue:50
 msgid "A federation of interconnected hosting providers (so more video choices wherever you go to see them);"
 msgstr ""
+"Összekapcsolt kiszolgálók egy szövetségbe (így több a video választás, "
+"bárhová is mész, megnézheted őket);"
 
 #: src/views/Home.vue:77
 msgid "A federation of interconnected hosting services"
@@ -149,7 +171,7 @@ msgstr ""
 
 #: src/components/InstancesList.vue:364
 msgid "Animals"
-msgstr "حبوانات"
+msgstr ""
 
 #: src/views/News.vue:177
 msgid "Another feature of this 1.3 version has been entirely developed by an external contributor: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/joshmorel\">Josh Morel</a> who add <strong>a quarantine system</strong> for videos on PeerTube. If the administrator of an instance enables this feature, any new video uploaded on his instance will automatically be hidden until a moderator approves it."
@@ -165,11 +187,11 @@ msgstr ""
 
 #: src/views/Home.vue:191
 msgid "Are you a video maker?"
-msgstr "آیا شما سازنده فیلم هستید؟"
+msgstr ""
 
 #: src/components/InstancesList.vue:352
 msgid "Art"
-msgstr "هنر"
+msgstr ""
 
 #: src/views/News.vue:428
 msgid "As a reminder, in the first newsletter (July 23rd, 2018), we announced that the localization system and RSS feeds were implemented, and that we were making progress on the subtitles support and the advanced search."
@@ -189,15 +211,15 @@ msgstr ""
 
 #: src/components/InstancesList.vue:85
 msgid "At least 1GB"
-msgstr "حداقل 1 گیگابایت"
+msgstr ""
 
 #: src/components/InstancesList.vue:93
 msgid "At least 20GB"
-msgstr "حداقل 20 گیگابایت"
+msgstr ""
 
 #: src/components/InstancesList.vue:97
 msgid "At least 50GB"
-msgstr "حداقل 50 گبگابایت"
+msgstr ""
 
 #: src/components/InstancesList.vue:89
 msgid "At least 5GB"
@@ -229,7 +251,7 @@ msgstr ""
 
 #: src/components/InstancesList.vue:55
 msgid "Blur"
-msgstr "محو"
+msgstr ""
 
 #: src/views/FAQ.vue:378
 msgid "Blur the title and thumbnail"
@@ -237,7 +259,7 @@ msgstr ""
 
 #: src/components/InstanceCard.vue:80
 msgid "Blurred"
-msgstr "محو شده"
+msgstr ""
 
 #: src/views/Home.vue:277
 msgid "Browse contents"
@@ -275,6 +297,10 @@ msgstr ""
 msgid "Čeština"
 msgstr ""
 
+#: src/components/I18n.vue:75
+msgid "Change interface language"
+msgstr ""
+
 #: src/views/News.vue:355 src/views/News.vue:412 src/views/News.vue:461
 #: src/views/News.vue:505
 msgid "Cheers,"
@@ -282,7 +308,7 @@ msgstr ""
 
 #: src/components/InstancesList.vue:357
 msgid "Comedy"
-msgstr "کمدی"
+msgstr ""
 
 #: src/views/FAQ.vue:73
 msgid "Concretely here, it means that:"
@@ -307,7 +333,7 @@ msgstr ""
 #: src/components/Header.vue:23 src/components/InstancesList.vue:25
 #: src/views/Instances.vue:5
 msgid "Create an account"
-msgstr "ایجاد حساب کاربری"
+msgstr ""
 
 #: src/views/FAQ.vue:255
 msgid "Creation and content"
@@ -355,7 +381,7 @@ msgstr ""
 
 #: src/components/InstancesList.vue:59
 msgid "Display"
-msgstr "نمایش"
+msgstr ""
 
 #: src/views/FAQ.vue:377
 msgid "Display them"
@@ -379,7 +405,7 @@ msgstr ""
 
 #: src/components/InstancesList.vue:361
 msgid "Education"
-msgstr "تحصیلات"
+msgstr ""
 
 #: src/components/InstancesList.vue:369
 msgid "English"
@@ -457,7 +483,7 @@ msgstr[1] ""
 
 #: src/components/InstancesList.vue:366
 msgid "Food"
-msgstr "خوراکی"
+msgstr ""
 
 #: src/views/News.vue:263
 msgid "For 2019, we plan to add a plugin and theme management system (even though basic at first), playlist management, support for audio files upload and many other features."
@@ -517,7 +543,7 @@ msgstr ""
 
 #: src/components/Header.vue:39
 msgid "Git"
-msgstr "Git"
+msgstr ""
 
 #: src/views/NotFound.vue:10
 msgid "Go back to the homepage"
@@ -542,7 +568,7 @@ msgstr ""
 
 #: src/views/News.vue:16
 msgid "Hello,"
-msgstr "سلام،"
+msgstr ""
 
 #: src/views/News.vue:164
 msgid "Hello!"
@@ -728,7 +754,7 @@ msgstr ""
 msgid "Kids"
 msgstr ""
 
-#: src/components/I18n.vue:7
+#: src/components/I18n.vue:8
 msgid "Languages"
 msgstr ""
 
@@ -1285,7 +1311,7 @@ msgstr ""
 msgid "Torrent import"
 msgstr ""
 
-#: src/components/I18n.vue:20
+#: src/components/I18n.vue:22
 msgid "Translate"
 msgstr ""
 
@@ -1523,7 +1549,7 @@ msgstr ""
 
 #: src/views/News.vue:326
 msgid "YouTube video import"
-msgstr "وارد کردن ویدیو از YouTube"
+msgstr ""
 
 #: src/components/InstancesList.vue:376
 msgid "ελληνικά"
