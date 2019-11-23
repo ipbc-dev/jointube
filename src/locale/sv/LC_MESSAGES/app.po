@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-11-22 00:12+0000\n"
+"PO-Revision-Date: 2019-11-25 02:12+0000\n"
 "Last-Translator: Filip Bengtsson <filip@libreradio.org>\n"
 "Language-Team: Swedish <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/sv/>\n"
@@ -197,6 +197,14 @@ msgstr "Öppen källkod med en fri licens"
 #: src/views/Home.vue:126
 msgid "And there's more! PeerTube uses Activity Pub, a federating protocol that <strong>allows you to interact with other software</strong>, provided they also use this protocol. For example, PeerTube and Mastodon -a Twitter alternative- are connected: <strong>you can follow a PeerTube user from Mastodon</strong> (the latest videos from the PeerTube account you follow will appear in your feed), <strong>and even comment on a PeerTube-hosted video directly from your Mastodon's account.</strong>"
 msgstr ""
+"Och det finns mer! PeerTube använder ActivityPub, ett protokoll för "
+"federalisering som <strong>låter dig interagera med andra mjukvaror</strong>"
+", så länge även de använder samma protokoll. Till exempel är PeerTube och "
+"Mastodon – ett alternativ till Twitter – sammankopplade: <strong>du kan "
+"följa en PeerTube-användare från Mastodon</strong> (de senaste videorna från "
+"PeerTube-kontot du följer kommer dyka upp i ditt flöde), <strong>och "
+"dessutom kommentera på en PeerTube-video direkt från ditt Mastodon-"
+"konto.</strong>"
 
 #: src/components/InstancesList.vue:364
 msgid "Animals"
@@ -766,7 +774,7 @@ msgstr ""
 
 #: src/components/Footer.vue:13
 msgid "JoinPeerTube Git"
-msgstr "JoinPeerTube Git"
+msgstr "Git (joinpeertube.org)"
 
 #: src/views/News.vue:470
 msgid "July 23, 2018"
@@ -999,7 +1007,7 @@ msgstr "PeerTubes nyhetsbrev för gräsrotsfinansiering #4"
 
 #: src/components/Footer.vue:15
 msgid "PeerTube Git"
-msgstr "PeerTube Git"
+msgstr "Git (PeerTube)"
 
 #: src/views/Instances.vue:133
 msgid "PeerTube instances"
@@ -1582,6 +1590,9 @@ msgstr "Du vill"
 #: src/views/FAQ.vue:438
 msgid "You're right. PeerTube 1.0 is not the perfect tool, far from it. And we never promised that this version 1.0 would be a tool that would include all the features corresponding to all cases."
 msgstr ""
+"Du har rätt. PeerTube 1.0 är inte den perfekta lösningen, långt därifrån, "
+"och vi har aldrig lovat att version 1.0 skulle innehålla alla funktioner för "
+"samtliga användningsområden."
 
 #: src/views/Home.vue:267
 msgid "Your move!"
