@@ -20,7 +20,11 @@ Vue.use(VueRouter)
 
 const availableLanguages = {
   'en_US': 'English',
-  'fr_FR': 'Français'
+  'fr_FR': 'Français',
+  'de': 'Deutsch',
+  'es': 'Español',
+  'ru': 'русский',
+  'sv': 'svenska'
 }
 const aliasesLanguages = {
   'en': 'en_US',

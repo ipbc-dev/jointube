@@ -37,3 +37,7 @@ Push on master (Weblate will be automatically updated)
 ```
 $ git push origin master
 ```
+
+## Add locale
+
+Add the locale in `src/main.js` and `Makefile`. Then update translations.
