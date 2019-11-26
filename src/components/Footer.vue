@@ -13,6 +13,8 @@
       </div>
 
       <div>
+        <a target="_blank" rel="noopener noreferrer" v-bind:href="buildPublicUrl('press-kit.zip')" v-translate>Press kit</a>
+
         <a target="_blank" rel="noopener noreferrer" href="https://framagit.org/framasoft/peertube/joinpeertube" v-translate>JoinPeerTube Git</a>
 
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/Chocobozzz/PeerTube" v-translate>PeerTube Git</a>
