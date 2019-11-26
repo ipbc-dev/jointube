@@ -391,7 +391,7 @@
         profile: 'viewer',
         wantTo: 'create-account',
         themes: [],
-        nsfw: 'no-opinion',
+        nsfw: 'blur',
         languages: [],
         quota: '5000000000'
       }
