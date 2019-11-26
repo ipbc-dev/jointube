@@ -174,7 +174,7 @@ article li > a {
 .section-title {
   font-size: 34px;
   font-weight: $font-semibold;
-  margin: 100px 0;
+  margin: 100px 0 50px;
   font-family: 'Proza Libre', sans-serif;
 
   .border-title {
@@ -359,4 +359,18 @@ article li > a {
   justify-content: center;
   text-align: center;
   width: fit-content;
+}
+
+.iframe-responsive {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }

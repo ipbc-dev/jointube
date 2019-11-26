@@ -57,11 +57,15 @@
         <div class="border-title"></div>
       </div>
 
-      <div class="two-columns">
-        <img :src="buildImgUrl('peertube-interface.jpg')" alt=""/>
+      <div class="one-column">
+        <div class="iframe-responsive">
+          <iframe sandbox="allow-same-origin allow-scripts" src="https://framatube.org/videos/embed/9c9de5e8-0a1e-484a-b099-e80766180a6d" frameborder="0" allowfullscreen></iframe>
+        </div>
 
         <div>
           <div class="citation">
+            <div class="left-bar"></div>
+
             <div class="text" v-translate>
               PeerTube aspires to be a <strong>decentralized and free/libre alternative</strong> to video broadcasting services.
             </div>
@@ -71,6 +75,8 @@
             Our aim is not to replace them, but rather to simultaneously offer something else, with different values.
           </p>
         </div>
+
+        <img :src="buildImgUrl('peertube-screenshot.jpg')" alt=""/>
       </div>
 
       <div class="federation">
