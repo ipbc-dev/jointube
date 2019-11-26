@@ -59,7 +59,7 @@
 
       <div class="one-column">
         <div class="iframe-responsive">
-          <iframe sandbox="allow-same-origin allow-scripts" src="https://framatube.org/videos/embed/9c9de5e8-0a1e-484a-b099-e80766180a6d" frameborder="0" allowfullscreen></iframe>
+          <iframe sandbox="allow-same-origin allow-scripts" v-bind:src="getIframeUrl()" frameborder="0" allowfullscreen></iframe>
         </div>
 
         <div>
@@ -525,6 +525,13 @@
       switchMascot () {
         this.currentMascot++
         this.currentMascot %= this.mascotPaths.length
+      },
+
+      getIframeUrl () {
+        const currentLanguage = this.$language.current.split('_')[0]
+        const params = '?subtitle=' + currentLanguage
+
+        return 'https://framatube.org/videos/embed/9c9de5e8-0a1e-484a-b099-e80766180a6d' + params
       }
     }
   }
