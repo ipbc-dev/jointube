@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-11-19 08:29+0000\n"
+"PO-Revision-Date: 2019-11-25 02:12+0000\n"
 "Last-Translator: Filip Bengtsson <filip@libreradio.org>\n"
 "Language-Team: Swedish <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/sv/>\n"
@@ -42,14 +42,30 @@ msgstr ""
 #: src/views/FAQ.vue:143
 msgid "<strong>But PeerTube doesn't centralize: it federates.</strong> Thanks to the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://activitypub.rocks\">ActivityPub</a> protocol (also used by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://joinmastodon.org\">the Mastodon federation</a>, a free/libre Twitter alternative), PeerTube can federate several small hosters so they don't have to buy thousands of hard disks to host videos for the whole world."
 msgstr ""
+"<strong>Men PeerTube centraliserar inte, vi federerar.</strong> Med hjälp av "
+"protokollet <a target=\"_blank\" rel=\"noopener noreferrer\" href=\""
+"https://activitypub.rocks\">ActivityPub</a> (som även används av <a target=\""
+"_blank\" rel=\"noopener noreferrer\" href=\"https://joinmastodon.org\""
+">Mastodon-federationen</a>, ett fritt Twitter-alternativ) kan PeerTube "
+"federera många små servrar så att de inte behöver köpa tusentals hårddiskar "
+"för att lagra hela världens videor."
 
 #: src/views/FAQ.vue:134
 msgid "<strong>It's software you install on your server</strong> to create a website where videos are hosted and broadcast... Basically: you create your own \"homemade YouTube\"!"
 msgstr ""
+"<strong>Det är mjukvara du kan installera på din server</strong> för att "
+"skapa en webbplats där video kan lagras och servas ifrån. Kort sagt: du kan "
+"göra ditt eget ”hemmabyggda YouTube”!"
 
 #: src/views/FAQ.vue:218
 msgid "<strong>PeerTube is not only open-source: it's free (as in free speech).</strong> Its free license guarantees our fundamental freedoms as users. It is this respect for our freedoms that allows Framasoft to invite you to contribute to this software, and many evolutions (innovative comment system, etc.) have already been suggested by some of you."
 msgstr ""
+"<strong>PeerTube har inte bara öppen källkod – det är fritt (som i "
+"frihet).</strong> Dess fria licens garanterar vår a fundamentala friheter "
+"som användare. Det är den här respekten för våra friheter som låter "
+"Framasoft bjuda in dig till att bidra till mjukvaran. Många förbättringar ("
+"bland annat ett innovativt kommentarsystem) har redan redan föreslagits av "
+"några av er."
 
 #: src/views/Instances.vue:23
 msgid "1. Find the instance that suits you best"
@@ -60,7 +76,6 @@ msgid "2 channels on Framasoft's account on FramaTube instance"
 msgstr "Två kanaler på Framasofts konto på instansen FramaTube"
 
 #: src/views/Instances.vue:34
-#, fuzzy
 msgid "2. Create your account and enjoy PeerTube"
 msgstr "2. Skapa ditt konto och upplev PeerTube"
 
@@ -71,10 +86,12 @@ msgstr "Ett bättre gränssnitt"
 #: src/views/FAQ.vue:50
 msgid "A federation of interconnected hosting providers (so more video choices wherever you go to see them);"
 msgstr ""
+"En federation av sammanlänkade värdar (alltså, fler videor att välja mellan "
+"oavsett vart du går för att se dem);"
 
 #: src/views/Home.vue:77
 msgid "A federation of interconnected hosting services"
-msgstr ""
+msgstr "En federation av sammanlänkade värdtjänster"
 
 #: src/views/FAQ.vue:7
 msgid "A few questions to discover PeerTube"
@@ -95,26 +112,34 @@ msgstr ""
 #: src/views/News.vue:369
 msgid "A month before the version 1 of PeerTube, we would like to share some (good!) news with you."
 msgstr ""
+"En månad återstår innan version 1 av PeerTube och vi skulle vilja dela några "
+"(goda!) nyheter med er."
 
 #: src/views/News.vue:307
 msgid "A more relevant search, with the ability to set advanced filters (duration, category, tags...)"
 msgstr ""
+"En mer relevant sökfunktion med möjligheten att använda avancerade filter ("
+"speltid, kategorier, taggar …)"
 
 #: src/views/Instances.vue:36
 msgid "A username, an email, a password and you can already <strong>enjoy all the features of PeerTube!</strong>"
 msgstr ""
+"Med bara ett användarnamn, en e-postadress och ett lösenord kan du <strong>"
+"upptäcka alla fördelarna med PeerTube!</strong>"
 
 #: src/views/News.vue:302
 msgid "Ability to import a video through a torrent file or a magnet URI"
-msgstr ""
+msgstr "Möjligheten att importera en video med en torrent-fil eller magnet-länk"
 
 #: src/views/News.vue:301
 msgid "Ability to import videos through an URL (YouTube, Vimeo, Dailymotion and many others!)"
 msgstr ""
+"Möjligheten att importera videor från en länk till YouTube, Vimeo, "
+"Dailymotion och många fler!"
 
 #: src/views/Home.vue:234
 msgid "About peer-to-peer broadcasting and watching"
-msgstr ""
+msgstr "Om tittande och förmedling av videor från person till person"
 
 #: src/components/InstancesList.vue:362
 msgid "Activism"
@@ -135,6 +160,11 @@ msgstr "Avancerad sökning"
 #: src/views/News.vue:18
 msgid "After a year of work and improvements, we have just released version 2 of PeerTube! Everything is explained in detail in the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framablog.org/2019/11/12/peertube-has-worked-twice-as-hard-to-free-your-videos-from-youtube/\">Framablog article</a> that we invite you to read."
 msgstr ""
+"Efter ett års arbete och förbättringar, har vi precis släppt PeerTube "
+"version två! Allting är utförligt förklarat i <a target=\"_blank\" rel=\""
+"noopener noreferrer\" href=\"https://framablog.org/2019/11/12/"
+"peertube-has-worked-twice-as-hard-to-free-your-videos-from-youtube/\""
+">Framablog-artikeln</a> du gärna får läsa."
 
 #: src/views/FAQ.vue:526
 msgid "After discussing it on our forum, we feel that d.tube is not free or open source, because publishing only compiled code hinders freedom of modification."
@@ -143,6 +173,12 @@ msgstr ""
 #: src/views/Home.vue:171
 msgid "All of this is made possible by Peertube's free/libre license (GNU-AGPL). Its code is a digital \"common\", that belongs to everybody, instead of a secret formula that belongs to Google (in the case of Youtube) or to Vivendi/Bolloré (Dailymotion). This free/libre license <strong>guarantees our fundamental freedoms as users and allows many contributors to offer evolutions and new features.</strong>"
 msgstr ""
+"Allt detta är möjligt tack vare PeerTubes fria licens (GNU-AGPL). Koden är "
+"en digital allmänning som tillhör oss alla, i motsats till en hemlig "
+"algoritm som tillhör Google (som är fallet med Youtube) eller Vivendi / "
+"Bolloré (för Dailymotion). Den här fria licensen <strong>garanterar våra "
+"grundläggande friheter som användare och tillåter många bidragsgivare att "
+"erbjuda förbättringar och nya funktioner.</strong>"
 
 #: src/components/InstancesList.vue:81
 msgid "Allowed video space"
@@ -156,11 +192,19 @@ msgstr ""
 
 #: src/views/Home.vue:145
 msgid "An open-source, free/libre licence code"
-msgstr ""
+msgstr "Öppen källkod med en fri licens"
 
 #: src/views/Home.vue:126
 msgid "And there's more! PeerTube uses Activity Pub, a federating protocol that <strong>allows you to interact with other software</strong>, provided they also use this protocol. For example, PeerTube and Mastodon -a Twitter alternative- are connected: <strong>you can follow a PeerTube user from Mastodon</strong> (the latest videos from the PeerTube account you follow will appear in your feed), <strong>and even comment on a PeerTube-hosted video directly from your Mastodon's account.</strong>"
 msgstr ""
+"Och det finns mer! PeerTube använder ActivityPub, ett protokoll för "
+"federalisering som <strong>låter dig interagera med andra mjukvaror</strong>"
+", så länge även de använder samma protokoll. Till exempel är PeerTube och "
+"Mastodon – ett alternativ till Twitter – sammankopplade: <strong>du kan "
+"följa en PeerTube-användare från Mastodon</strong> (de senaste videorna från "
+"PeerTube-kontot du följer kommer dyka upp i ditt flöde), <strong>och "
+"dessutom kommentera på en PeerTube-video direkt från ditt Mastodon-"
+"konto.</strong>"
 
 #: src/components/InstancesList.vue:364
 msgid "Animals"
@@ -730,7 +774,7 @@ msgstr ""
 
 #: src/components/Footer.vue:13
 msgid "JoinPeerTube Git"
-msgstr "JoinPeerTube Git"
+msgstr "Git (joinpeertube.org)"
 
 #: src/views/News.vue:470
 msgid "July 23, 2018"
@@ -963,7 +1007,7 @@ msgstr "PeerTubes nyhetsbrev för gräsrotsfinansiering #4"
 
 #: src/components/Footer.vue:15
 msgid "PeerTube Git"
-msgstr "PeerTube Git"
+msgstr "Git (PeerTube)"
 
 #: src/views/Instances.vue:133
 msgid "PeerTube instances"
@@ -1546,6 +1590,9 @@ msgstr "Du vill"
 #: src/views/FAQ.vue:438
 msgid "You're right. PeerTube 1.0 is not the perfect tool, far from it. And we never promised that this version 1.0 would be a tool that would include all the features corresponding to all cases."
 msgstr ""
+"Du har rätt. PeerTube 1.0 är inte den perfekta lösningen, långt därifrån, "
+"och vi har aldrig lovat att version 1.0 skulle innehålla alla funktioner för "
+"samtliga användningsområden."
 
 #: src/views/Home.vue:267
 msgid "Your move!"
