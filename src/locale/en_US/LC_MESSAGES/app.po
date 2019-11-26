@@ -625,7 +625,7 @@ msgstr "If you want to help out in another way, or if you want to request a feat
 msgid "If you would like to interact with videos (like, comment, download...), subscribe to channels, create playlists or play videos, then all you have to do is <strong>create an account on the PeerTube instance of your choice.</strong>"
 msgstr "If you would like to interact with videos (like, comment, download...), subscribe to channels, create playlists or play videos, then all you have to do is <strong>create an account on the PeerTube instance of your choice.</strong>"
 
-#: src/components/Footer.vue:26
+#: src/components/Footer.vue:28
 msgid "Illustrations from <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framatube.org/videos/watch/9c9de5e8-0a1e-484a-b099-e80766180a6d\">What is PeerTube video</a>, created by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://libreart.info/\">LILA</a> - <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://film.zemarmot.net/\">ZeMarmot Team</a>"
 msgstr "Illustrations from <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framatube.org/videos/watch/9c9de5e8-0a1e-484a-b099-e80766180a6d\">What is PeerTube video</a>, created by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://libreart.info/\">LILA</a> - <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://film.zemarmot.net/\">ZeMarmot Team</a>"
 
@@ -713,7 +713,7 @@ msgstr "Italiano"
 msgid "Its development is community-based, it can be enhanced by everyone's contributions."
 msgstr "Its development is community-based, it can be enhanced by everyone's contributions."
 
-#: src/components/Footer.vue:15
+#: src/components/Footer.vue:17
 msgid "JoinPeerTube Git"
 msgstr "JoinPeerTube Git"
 
@@ -942,7 +942,7 @@ msgstr "PeerTube crowdfunding newsletter #3"
 msgid "PeerTube crowdfunding newsletter #4"
 msgstr "PeerTube crowdfunding newsletter #4"
 
-#: src/components/Footer.vue:17
+#: src/components/Footer.vue:19
 msgid "PeerTube Git"
 msgstr "PeerTube Git"
 
@@ -1033,6 +1033,10 @@ msgstr "Polski"
 #: src/components/InstancesList.vue:384
 msgid "Português (Portugal)"
 msgstr "Português (Portugal)"
+
+#: src/components/Footer.vue:15
+msgid "Press kit"
+msgstr "Press kit"
 
 #: src/views/Help.vue:7
 msgid "Questions on PeerTube? Need help? You've come to the right place!"
@@ -1418,7 +1422,7 @@ msgstr "We're also redesigning the <strong>PeerTube video player</strong> to off
 msgid "We've just released PeerTube 1.3 and it brings a lot of new features."
 msgstr "We've just released PeerTube 1.3 and it brings a lot of new features."
 
-#: src/components/Footer.vue:22
+#: src/components/Footer.vue:24
 msgid "Website developed by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framasoft.org\">Framasoft</a> and designed by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.maiwann.net/\">Maiwann</a>"
 msgstr "Website developed by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framasoft.org\">Framasoft</a> and designed by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.maiwann.net/\">Maiwann</a>"
 
