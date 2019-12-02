@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-11-25 02:12+0000\n"
+"PO-Revision-Date: 2019-12-04 16:13+0000\n"
 "Last-Translator: Filip Bengtsson <filip@libreradio.org>\n"
 "Language-Team: Swedish <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/sv/>\n"
@@ -297,6 +297,10 @@ msgid ""
 "<strong>every instance is created, moderated and maintained independently by "
 "various administrators.</strong>"
 msgstr ""
+"Vem som helst med ett uns tekniska färdigheter kan starta en PeerTube-"
+"server, en instans. Varje instans är värd för sidan användare och lagrar "
+"deras videor. <strong>Varje instans är därför skapad, modererad och "
+"underhållen av olika oberoende administratörer.</strong>"
 
 #: src/views/Home.vue:191
 msgid "Are you a video maker?"
@@ -401,7 +405,7 @@ msgstr "Bläddra bland utbudet"
 
 #: src/views/Home.vue:228
 msgid "Browse/discover PeerTube instances"
-msgstr ""
+msgstr "Bläddra bland PeerTube-instanser"
 
 #: src/views/FAQ.vue:212
 msgid ""
@@ -886,6 +890,12 @@ msgid ""
 "\"_blank\" rel=\"noopener noreferrer\" href=\"https://film.zemarmot.net/"
 "\">ZeMarmot Team</a>"
 msgstr ""
+"Illustrationer från videon <a target=\"_blank\" rel=\"noopener noreferrer\" "
+"href=\"https://framatube.org/videos/watch/9c9de5e8-0a1e-484a-b099-"
+"e80766180a6d\">What is PeerTube</a> skapad av <a target=\"_blank\" rel=\""
+"noopener noreferrer\" href=\"https://libreart.info/\">LILA</a> – <a target=\""
+"_blank\" rel=\"noopener noreferrer\" href=\"https://film.zemarmot.net/\">"
+"ZeMarmot Team</a>"
 
 #: src/views/News.vue:238
 msgid ""
@@ -1064,7 +1074,7 @@ msgstr "Lär dig mer om federationen"
 
 #: src/components/Footer.vue:5
 msgid "Legal notices"
-msgstr ""
+msgstr "Juridisk information"
 
 #: src/views/FAQ.vue:54
 msgid ""
@@ -1259,6 +1269,8 @@ msgid ""
 "Our aim is not to replace them, but rather to simultaneously offer something "
 "else, with different values."
 msgstr ""
+"Vårt mål är inte att ersätta dem, utan att erbjuda någonting annat med en "
+"annorlunda värdegrund."
 
 #: src/views/All-Content-Selections.vue:5
 #: src/views/All-Content-Selections.vue:36
@@ -1494,6 +1506,8 @@ msgid ""
 "Rather, it is <strong>a network of inter-connected small videos hosters</"
 "strong>."
 msgstr ""
+"Tvärt om, det är <strong>ett nätverk av små hopkopplade "
+"videoplattformar</strong>."
 
 #: src/views/Help.vue:31
 msgid "Read the documentation"
@@ -2093,6 +2107,10 @@ msgid ""
 "\"https://framasoft.org\">Framasoft</a> and designed by <a target=\"_blank\" "
 "rel=\"noopener noreferrer\" href=\"https://www.maiwann.net/\">Maiwann</a>"
 msgstr ""
+"Webbplats utvecklad av <a target=\"_blank\" rel=\"noopener noreferrer\" href="
+"\"https://framasoft.org\">Framasoft</a> efter utformning av <a target=\""
+"_blank\" rel=\"noopener noreferrer\" href=\"https://www.maiwann.net/\""
+">Maiwann</a>"
 
 #: src/views/FAQ.vue:38
 msgid "What are the main advantages of PeerTube?"
@@ -2209,6 +2227,8 @@ msgid ""
 "though if the administrator of your instance had previously connected it "
 "with other instances."
 msgstr ""
+"Du kan fortfarande titta på videor från andra instanser med ditt konto om "
+"administratören för din instans anslutit den till andra instanser."
 
 #: src/views/Help.vue:20
 msgid "You have a question?"
