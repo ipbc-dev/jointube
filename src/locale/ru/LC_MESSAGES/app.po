@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-11-28 19:12+0000\n"
+"PO-Revision-Date: 2019-12-04 16:12+0000\n"
 "Last-Translator: Dmitry Kovalevsky <dmitryk1@mail.ru>\n"
 "Language-Team: Russian <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/ru/>\n"
@@ -532,7 +532,7 @@ msgstr "Контакты"
 
 #: src/components/Header.vue:35
 msgid "Contribute"
-msgstr "Донат"
+msgstr "Поддержать"
 
 #: src/views/Help.vue:88
 msgid "Contribute to PeerTube"
@@ -851,7 +851,7 @@ msgstr "ГБ"
 
 #: src/components/Header.vue:39
 msgid "Git"
-msgstr "исходники (Git)"
+msgstr "Исходники (Git)"
 
 #: src/views/NotFound.vue:10
 msgid "Go back to the homepage"
@@ -908,7 +908,7 @@ msgstr "Скрыть их"
 
 #: src/components/Header.vue:19
 msgid "Home"
-msgstr "Дом"
+msgstr "К началу"
 
 #: src/views/FAQ.vue:486
 msgid "How do I contribute to PeerTube’s code?"
@@ -1011,7 +1011,6 @@ msgstr ""
 "запись на выбранном вами экземпляре PeerTube. </strong>"
 
 #: src/components/Footer.vue:28
-#, fuzzy
 msgid ""
 "Illustrations from <a target=\"_blank\" rel=\"noopener noreferrer\" href="
 "\"https://framatube.org/videos/watch/9c9de5e8-0a1e-484a-b099-e80766180a6d"
@@ -1020,11 +1019,12 @@ msgid ""
 "\"_blank\" rel=\"noopener noreferrer\" href=\"https://film.zemarmot.net/"
 "\">ZeMarmot Team</a>"
 msgstr ""
-"Кроме того, вы можете задавать вопросы на <a target=\"_blank\" rel="
-"\"noopener noreferrer\" href=\"https://framacolibri.org/c/qualite/peertube"
-"\"> форуме PeerTube </a>. Вы также можете связаться с нами напрямую на <a "
-"target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://contact."
-"framasoft.org\"> https://contact.framasoft.org. </a>"
+"Иллюстрации из <a target=\"_blank\" rel=\"noopener noreferrer\" href=\""
+"https://framatube.org/videos/watch/9c9de5e8-0a1e-484a-b099-e80766180a6d\">"
+"видео, что такое PeerTube</a>, созданы <a target=\"_blank\" rel=\"noopener "
+"noreferrer\" href=\"https://libreart.info/\">LILA</a> - <a target=\"_blank\" "
+"rel=\"noopener noreferrer\" href=\"https://film.zemarmot.net/\">ZeMarmot "
+"Team</a>"
 
 #: src/views/News.vue:238
 msgid ""
