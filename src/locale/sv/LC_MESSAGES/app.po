@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-12-04 16:13+0000\n"
+"PO-Revision-Date: 2019-12-06 13:28+0000\n"
 "Last-Translator: Filip Bengtsson <filip@libreradio.org>\n"
 "Language-Team: Swedish <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/sv/>\n"
@@ -124,7 +124,7 @@ msgstr "Några frågor för att upptäcka PeerTube"
 
 #: src/views/Home.vue:7
 msgid "A free software to take back control of your videos"
-msgstr "En fri mjukvara för att ta tillbaka kontrollen över dina videor"
+msgstr "Fri mjukvara för att ta tillbaka kontrollen över dina videor"
 
 #: src/App.vue:28
 msgid ""
@@ -280,6 +280,12 @@ msgid ""
 "enables this feature, any new video uploaded on his instance will "
 "automatically be hidden until a moderator approves it."
 msgstr ""
+"En annan finess i version 1.3 version har utvecklats helt och hållet av en "
+"utomstående bidragsgivare, <a target=\"_blank\" rel=\"noopener noreferrer\" "
+"href=\"https://github.com/joshmorel\">Josh Morel</a> som lade till <strong>"
+"ett karantänsystem</strong> för videor på PeerTube. Om administratören för "
+"en instans aktiverar funktionen kommer nyuppladdade videor automatiskt "
+"döljas tills de godkänns av en moderator."
 
 #: src/views/News.vue:120
 msgid ""
