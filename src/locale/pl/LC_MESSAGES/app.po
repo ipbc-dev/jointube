@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-11-23 12:12+0000\n"
+"PO-Revision-Date: 2019-12-05 12:08+0000\n"
 "Last-Translator: Marcin Mikołajczak <me@mkljczk.pl>\n"
 "Language-Team: Polish <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/pl/>\n"
@@ -32,6 +32,9 @@ msgstr[2] ""
 #: src/views/News.vue:30
 msgid "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.joinpeertube.org\">PeerTube's official documentation site</a> (administration and use);"
 msgstr ""
+"<a target=\"_blank\" rel=\"noopener noreferrer\" href=\""
+"https://docs.joinpeertube.org\">Oficjalna strona dokumentacji PeerTube</a> ("
+"administracja i korzystanie);"
 
 #: src/views/FAQ.vue:143
 msgid "<strong>But PeerTube doesn't centralize: it federates.</strong> Thanks to the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://activitypub.rocks\">ActivityPub</a> protocol (also used by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://joinmastodon.org\">the Mastodon federation</a>, a free/libre Twitter alternative), PeerTube can federate several small hosters so they don't have to buy thousands of hard disks to host videos for the whole world."
@@ -47,7 +50,7 @@ msgstr ""
 
 #: src/views/Instances.vue:23
 msgid "1. Find the instance that suits you best"
-msgstr ""
+msgstr "1. Znajdź instancję, która najbardziej Ci odpowiada"
 
 #: src/views/News.vue:96
 msgid "2 channels on Framasoft's account on FramaTube instance"
@@ -55,11 +58,11 @@ msgstr ""
 
 #: src/views/Instances.vue:34
 msgid "2. Create your account and enjoy PeerTube"
-msgstr ""
+msgstr "2. Utwórz konto i ciesz się korzystaniem z PeerTube"
 
 #: src/views/News.vue:75
 msgid "A better interface"
-msgstr ""
+msgstr "Lepszy interfejs"
 
 #: src/views/FAQ.vue:50
 msgid "A federation of interconnected hosting providers (so more video choices wherever you go to see them);"
@@ -76,6 +79,7 @@ msgstr ""
 #: src/views/Home.vue:7
 msgid "A free software to take back control of your videos"
 msgstr ""
+"Wolne oprogramowanie, dzięki któremu odzyskasz kontrolę nad swoimi filmami"
 
 #: src/App.vue:28
 msgid "A free software to take back control of your videos! With more than 100 000 hosted videos, viewed more than 6 millions times and 20 000 users, PeerTube is the decentralized free software alternative to videos platforms developed by Framasoft"
@@ -1538,7 +1542,7 @@ msgstr ""
 
 #: src/views/News.vue:326
 msgid "YouTube video import"
-msgstr ""
+msgstr "Importowanie filmów z YouTube"
 
 #: src/components/InstancesList.vue:376
 msgid "ελληνικά"
