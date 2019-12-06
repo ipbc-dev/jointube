@@ -170,7 +170,7 @@
 
           <div>
             <p v-translate>
-              It allows you to choose a hoster that fits you. YouTube's excesses are a good exemple: its hoster, Google/Alphabet, can
+              It allows you to choose a hoster that fits you. YouTube's excesses are a good example: its hoster, Google/Alphabet, can
               impose its "Robocopyright" (the ContentID system) or its tools to index, recommend and spotlight videos; and those tools seem
               as unfair as they are obscure. Even though, it already forces you
               <a target="_blank" rel="noopener noreferrer" href="https://tosdr.org/#youtube"> to give it extended copyrights on your videos,
