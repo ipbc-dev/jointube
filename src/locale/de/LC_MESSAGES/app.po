@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-11-18 08:23+0000\n"
-"Last-Translator: Predatorix Phoenix <predatorix@web.de>\n"
+"PO-Revision-Date: 2019-12-08 22:13+0000\n"
+"Last-Translator: Niklas Reimer <niklas@nr205.de>\n"
 "Language-Team: German <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/de/>\n"
 "Language: de\n"
@@ -509,12 +509,10 @@ msgstr ""
 "das <strong>deren</strong> Entscheidung."
 
 #: src/components/InstancesList.vue:373
-#, fuzzy
 msgid "Català"
 msgstr "Català"
 
 #: src/components/InstancesList.vue:374
-#, fuzzy
 msgid "Čeština"
 msgstr "Čeština"
 
@@ -565,7 +563,6 @@ msgid "customization options when video sharing"
 msgstr ""
 
 #: src/components/InstancesList.vue:377
-#, fuzzy
 msgid "Deutsch"
 msgstr "Deutsch"
 
@@ -622,6 +619,10 @@ msgid ""
 "target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framacolibri."
 "org/c/peertube\">support forum</a> for that."
 msgstr ""
+"Deine PeerTube Instanz musst du alleine installieren. Wenn du dabei hilfe "
+"brauchst, frag bitte nicht den Entwickler, sondern nutze das Wir haben ein <"
+"a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framacolibri."
+"org/c/peertube\">Support Forum</a>."
 
 #: src/views/Home.vue:338
 msgid "Donate to Framasoft"
@@ -637,13 +638,19 @@ msgid ""
 "want to help translating PeerTube, do not hesitate to check out the "
 "documentation!"
 msgstr ""
+"Während der Crowdfunding Kampagne haben wir weiter daran gearbeitet, mehrere "
+"Sprachen zu unterstützen. Das haben wir jetzt endlich geschafft! Die nächste "
+"Beta-Version (Beta 10) wird diese Funktion bereits enthalten. Aktuell ist "
+"die Oberfläche bereits in Englisch, Französisch, Baskisch, Katalanisch, "
+"Tschechisch und Spanisch verfügbar (Vielen Dank an dieser Stelle an alle "
+"Übersetzer!). Wenn du dabei helfen möchtest, PeerTube zu übersetzen, dann "
+"zögere nicht und wird einen Blick in die Dokumentation!"
 
 #: src/components/InstancesList.vue:361
 msgid "Education"
 msgstr "Bildung"
 
 #: src/components/InstancesList.vue:369
-#, fuzzy
 msgid "English"
 msgstr "English"
 
@@ -657,22 +664,18 @@ msgid "Entertainment"
 msgstr "Unterhaltung"
 
 #: src/components/InstancesList.vue:380
-#, fuzzy
 msgid "Español"
 msgstr "Español"
 
 #: src/components/InstancesList.vue:375
-#, fuzzy
 msgid "Esperanto"
 msgstr "Esperanto"
 
 #: src/components/InstancesList.vue:372
-#, fuzzy
 msgid "Euskara"
 msgstr "Euskara"
 
 #: src/views/FAQ.vue:5 src/views/FAQ.vue:596
-#, fuzzy
 msgid "FAQ"
 msgstr "FAQ"
 
@@ -788,12 +791,10 @@ msgstr ""
 "Für diejenigen, die ihre Videos hochladen wollen, ermöglicht PeerTube..."
 
 #: src/components/Footer.vue:11
-#, fuzzy
 msgid "Forum"
 msgstr "Forum"
 
 #: src/components/InstancesList.vue:370
-#, fuzzy
 msgid "Français"
 msgstr "Français"
 
@@ -809,7 +810,6 @@ msgid ""
 msgstr ""
 
 #: src/components/InstancesList.vue:382
-#, fuzzy
 msgid "Gàidhlig"
 msgstr "Gàidhlig"
 
@@ -818,12 +818,10 @@ msgid "Gaming"
 msgstr "Computerspiele"
 
 #: src/components/InstanceCard.vue:277
-#, fuzzy
 msgid "GB"
 msgstr "GB"
 
 #: src/components/Header.vue:39
-#, fuzzy
 msgid "Git"
 msgstr "Git"
 
@@ -1114,7 +1112,6 @@ msgid ""
 msgstr ""
 
 #: src/components/InstancesList.vue:378
-#, fuzzy
 msgid "Italiano"
 msgstr "Italiano"
 
@@ -1125,7 +1122,6 @@ msgid ""
 msgstr ""
 
 #: src/components/Footer.vue:17
-#, fuzzy
 msgid "JoinPeerTube Git"
 msgstr "JoinPeerTube Git"
 
@@ -1138,7 +1134,6 @@ msgid "June 5, 2019"
 msgstr ""
 
 #: src/components/InstanceCard.vue:275
-#, fuzzy
 msgid "KB"
 msgstr "KB"
 
@@ -1199,7 +1194,6 @@ msgid ""
 msgstr ""
 
 #: src/components/InstanceCard.vue:276
-#, fuzzy
 msgid "MB"
 msgstr "MB"
 
@@ -1241,9 +1235,8 @@ msgid "Music"
 msgstr "Musik"
 
 #: src/components/InstancesList.vue:379
-#, fuzzy
 msgid "Nederlands"
-msgstr "Nederlands"
+msgstr "Niederlande"
 
 #: src/views/Help.vue:28
 msgid "Need a detailed guide?"
@@ -1323,7 +1316,6 @@ msgid ""
 msgstr ""
 
 #: src/components/InstancesList.vue:381
-#, fuzzy
 msgid "Occitan"
 msgstr "Occitan"
 
@@ -1576,12 +1568,10 @@ msgid "Plug-in system"
 msgstr "Plug-in-System"
 
 #: src/components/InstancesList.vue:386
-#, fuzzy
 msgid "Polski"
 msgstr "Polski"
 
 #: src/components/InstancesList.vue:384
-#, fuzzy
 msgid "Português (Portugal)"
 msgstr "Português (Portugal)"
 
@@ -1756,12 +1746,10 @@ msgid ""
 msgstr ""
 
 #: src/components/InstancesList.vue:387
-#, fuzzy
 msgid "suomi"
 msgstr "suomi"
 
 #: src/components/InstancesList.vue:385
-#, fuzzy
 msgid "svenska"
 msgstr "svenska"
 
@@ -2361,21 +2349,17 @@ msgid "YouTube video import"
 msgstr "YouTube-Videoimport"
 
 #: src/components/InstancesList.vue:376
-#, fuzzy
 msgid "ελληνικά"
 msgstr "ελληνικά"
 
 #: src/components/InstancesList.vue:388
-#, fuzzy
 msgid "русский"
 msgstr "русский"
 
 #: src/components/InstancesList.vue:371
-#, fuzzy
 msgid "日本語"
 msgstr "日本語"
 
 #: src/components/InstancesList.vue:383
-#, fuzzy
 msgid "简体中文（中国）"
 msgstr "简体中文（中国）"
