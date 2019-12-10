@@ -2001,7 +2001,7 @@ msgstr "Unbegrenzter Speicherplatz"
 msgid "Upgrade PeerTube"
 msgstr ""
 
-#: src/main.js:57
+#: src/main.js:58
 msgid "value"
 msgstr "Wert"
 

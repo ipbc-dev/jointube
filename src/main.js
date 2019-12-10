@@ -23,9 +23,10 @@ const availableLanguages = {
   'fr_FR': 'Français',
   'de': 'Deutsch',
   'es': 'Español',
+  'it': 'Italiano',
+  'pl': 'Polski',
   'ru': 'русский',
-  'sv': 'svenska',
-  'it': 'Italiano'
+  'sv': 'svenska'
 }
 const aliasesLanguages = {
   'en': 'en_US',

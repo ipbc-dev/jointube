@@ -1924,7 +1924,7 @@ msgstr "Obegränsat utrymme"
 msgid "Upgrade PeerTube"
 msgstr "Uppgradera PeerTube"
 
-#: src/main.js:57
+#: src/main.js:58
 msgid "value"
 msgstr "värde"
 
