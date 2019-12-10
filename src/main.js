@@ -24,7 +24,8 @@ const availableLanguages = {
   'de': 'Deutsch',
   'es': 'Español',
   'ru': 'русский',
-  'sv': 'svenska'
+  'sv': 'svenska',
+  'it': 'Italiano'
 }
 const aliasesLanguages = {
   'en': 'en_US',

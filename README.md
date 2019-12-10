@@ -29,7 +29,7 @@ $ git fetch weblate && git merge weblate/master
 Re generate translations:
 
 ```
-$ npm run i18n:generate
+$ npm run i18n:update
 ```
 
 Push on master (Weblate will be automatically updated)
