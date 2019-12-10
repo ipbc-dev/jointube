@@ -49,7 +49,7 @@ $(TEMPLATE_POT): $(GETTEXT_SOURCES)
 # => `mkdir -p /tmp/`
 	mkdir -p $(dir $@)
 # Extract gettext strings from templates files and create a POT dictionary template.
-	gettext-extract --quiet --attribute v-translate --output $@ $(GETTEXT_SOURCES)
+	gettext-extract --removeHTMLWhitespaces --quiet --attribute v-translate --output $@ $(GETTEXT_SOURCES)
 # Generate .po files for each available language.
 	@for lang in $(LOCALES); do \
 		export PO_FILE=$(OUTPUT_DIR)/locale/$$lang/LC_MESSAGES/app.po; \
