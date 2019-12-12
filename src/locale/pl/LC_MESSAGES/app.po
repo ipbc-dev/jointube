@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-12-08 22:13+0000\n"
+"PO-Revision-Date: 2019-12-13 13:13+0000\n"
 "Last-Translator: Marcin Mikołajczak <me@mkljczk.pl>\n"
 "Language-Team: Polish <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/pl/>\n"
@@ -1149,7 +1149,6 @@ msgid "Is PeerTube's purpose to replace YouTube?"
 msgstr "Czy celem PeerTube jest zastąpić YouTube?"
 
 #: src/views/FAQ.vue:171
-#, fuzzy
 msgid ""
 "It allows you to choose a hoster that fits you. YouTube's excesses are a "
 "good example: its hoster, Google/Alphabet, can impose its \"Robocopyright"
@@ -1797,7 +1796,7 @@ msgstr "Português (Portugal)"
 
 #: src/components/Footer.vue:15
 msgid "Press kit"
-msgstr ""
+msgstr "Dla prasy"
 
 #: src/views/Help.vue:7
 msgid "Questions on PeerTube? Need help? You've come to the right place!"
@@ -2034,12 +2033,12 @@ msgid ""
 "many features along. Several collectives have already created PeerTube "
 "hosts, laying the foundation for the federation."
 msgstr ""
-"Dzięki przeprowadzonej przez nas <a href=\"/hall-of-fame\" target=\"_blank"
-"\">zbiórce (od marca doo lipca 2018)</a>, <strong>organizacja Framasoft "
-"mogła zatrudnić głównego programistę PeerTube.</strong> Po wydaniu wersji "
-"beta w marcu 2018, pierwsze wydanie ukazało się w listopadzie 2018. Od tego "
-"czasu, pojawiło się wiele nowych funkcji. Niektóre grupy utworzyły już "
-"serwery PeerTube, tworząc podwaliny dla federacji."
+"Dzięki przeprowadzonej przez nas <a href=\"/hall-of-fame\" target=\"_blank\">"
+"zbiórce (od marca do lipca 2018)</a>, <strong>organizacja Framasoft mogła "
+"zatrudnić głównego programistę PeerTube.</strong> Po wydaniu wersji beta w "
+"marcu 2018, pierwsze wydanie ukazało się w listopadzie 2018. Od tego czasu, "
+"pojawiło się wiele nowych funkcji. Niektóre grupy utworzyły już serwery "
+"PeerTube, tworząc podwaliny dla federacji."
 
 #: src/views/FAQ.vue:410
 msgid ""
