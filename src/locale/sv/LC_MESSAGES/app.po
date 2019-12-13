@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-12-06 13:28+0000\n"
+"PO-Revision-Date: 2019-12-14 23:13+0000\n"
 "Last-Translator: Filip Bengtsson <filip@libreradio.org>\n"
 "Language-Team: Swedish <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/sv/>\n"
@@ -526,7 +526,6 @@ msgid "Discover instances"
 msgstr "Upptäck instanser"
 
 #: src/views/Home.vue:34
-#, fuzzy
 msgid "Discover our content selection"
 msgstr "Upptäck vårt utbud"
 
@@ -1101,6 +1100,8 @@ msgid ""
 "analyzing your interactions so that they can then bombard your with targeted "
 "advertising."
 msgstr ""
+"De stora videotjänsterna tjänar pengar på din data genom att analysera dina "
+"interaktioner för att kunna bombardera dig med personspecifik reklam."
 
 #: src/views/News.vue:210
 msgid ""
@@ -1154,6 +1155,10 @@ msgid ""
 "PeerTube doesn't use any biased recommendation algorithms to keep you online "
 "for hours on end."
 msgstr ""
+"Viktigast är att <strong>PeerTube behandlar dig som en person och inte en "
+"produkt som måste profileras och fångas i en videoloop.</strong> Till "
+"exempel använder PeerTube inte någon avvägd rekommendationsalgoritm för att "
+"hålla dig inloggad timme efter timme."
 
 #: src/components/InstancesList.vue:349
 msgid "Music"
@@ -1425,6 +1430,8 @@ msgid ""
 "Peertube is not subject to any corporate monopoly, does not rely on ads and "
 "<strong>does not track you.</strong>"
 msgstr ""
+"PeerTube ägs inte av något monopolistiskt företag, är oberoende av "
+"annonsintäkter och <strong>spårar inte dig</strong>."
 
 #: src/views/FAQ.vue:21
 msgid ""
