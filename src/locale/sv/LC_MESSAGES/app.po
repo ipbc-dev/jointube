@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-12-14 23:13+0000\n"
+"PO-Revision-Date: 2019-12-20 02:13+0000\n"
 "Last-Translator: Filip Bengtsson <filip@libreradio.org>\n"
 "Language-Team: Swedish <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/sv/>\n"
@@ -215,6 +215,9 @@ msgid ""
 "source, because publishing only compiled code hinders freedom of "
 "modification."
 msgstr ""
+"Efter att ha diskuterat det på vårt forum, kom vi fram till att d.tube inte "
+"är fri mjukvara och inte har öppen källkod då enbart kompilerad kod "
+"publiceras, vilket motarbetar friheten att modifiera."
 
 #: src/views/Home.vue:177
 msgid ""
@@ -322,6 +325,9 @@ msgid ""
 "the localization system and RSS feeds were implemented, and that we were "
 "making progress on the subtitles support and the advanced search."
 msgstr ""
+"Fört, ett steg tillbaka. Vi skrev i det första nyhetsbrevet (23 juli 2018) "
+"att lokaliseringssystemet och RSS-flöden var implementerade samt att arbetet "
+"gick framåt med stöd för undertexter och den avancerade sökfunktionen."
 
 #: src/views/FAQ.vue:151
 msgid ""
@@ -338,6 +344,8 @@ msgid ""
 "As you can see, we have gone far beyond what the crowdfunding has funded. "
 "And we will continue!"
 msgstr ""
+"Som du kan se har vi kommit mycket längre än vad insamlingen lovade "
+"finansiera, och vi tänker fortsätta så!"
 
 #: src/views/Help.vue:40
 msgid "Ask questions to the community"
@@ -374,6 +382,10 @@ msgid ""
 "\"https://github.com/Chocobozzz/PeerTube/blob/develop/LICENSE\">a license</"
 "a>, so a legally enforceable contract."
 msgstr ""
+"Eftersom fri mjukvara, per sin definition, respekterar våra grundläggande "
+"friheter och garanterar dem genom <a target=\"_blank\" rel=\"noopener "
+"noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube/blob/develop/"
+"LICENSE\">en licens</a>, ett juridiskt bindande kontrakt."
 
 #: src/views/FAQ.vue:190
 msgid ""
