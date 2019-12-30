@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-12-20 02:13+0000\n"
+"PO-Revision-Date: 2019-12-31 22:14+0000\n"
 "Last-Translator: Filip Bengtsson <filip@libreradio.org>\n"
 "Language-Team: Swedish <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/sv/>\n"
@@ -159,8 +159,8 @@ msgid ""
 "A username, an email, a password and you can already <strong>enjoy all the "
 "features of PeerTube!</strong>"
 msgstr ""
-"Med bara ett användarnamn, en e-postadress och ett lösenord kan du "
-"<strong>upptäcka alla fördelarna med PeerTube!</strong>"
+"Med bara ett användarnamn, en e-postadress och ett lösenord kan du <strong>"
+"upptäcka alla fördelarna med PeerTube</strong>!"
 
 #: src/views/News.vue:302
 msgid "Ability to import a video through a torrent file or a magnet URI"
@@ -177,7 +177,7 @@ msgstr ""
 
 #: src/views/Home.vue:240
 msgid "About peer-to-peer broadcasting and watching"
-msgstr "Om tittande och förmedling av videor från person till person"
+msgstr "Om tittande och distribution av videor från person till person"
 
 #: src/components/InstancesList.vue:362
 msgid "Activism"
@@ -233,7 +233,7 @@ msgstr ""
 "algoritm som tillhör Google (som är fallet med Youtube) eller Vivendi / "
 "Bolloré (för Dailymotion). Den här fria licensen <strong>garanterar våra "
 "grundläggande friheter som användare och tillåter många bidragsgivare att "
-"erbjuda förbättringar och nya funktioner.</strong>"
+"erbjuda förbättringar och nya funktioner</strong>."
 
 #: src/components/InstancesList.vue:81
 msgid "Allowed video space"
@@ -262,13 +262,13 @@ msgid ""
 "video directly from your Mastodon's account.</strong>"
 msgstr ""
 "Och det finns mer! PeerTube använder ActivityPub, ett protokoll för "
-"federalisering som <strong>låter dig interagera med andra mjukvaror</"
-"strong>, så länge även de använder samma protokoll. Till exempel är PeerTube "
-"och Mastodon – ett alternativ till Twitter – sammankopplade: <strong>du kan "
+"federalisering som <strong>låter dig interagera med andra mjukvaror</strong>"
+", så länge även de använder samma protokoll. Till exempel är PeerTube och "
+"Mastodon – ett alternativ till Twitter – sammankopplade: <strong>du kan "
 "följa en PeerTube-användare från Mastodon</strong> (de senaste videorna från "
 "PeerTube-kontot du följer kommer dyka upp i ditt flöde), <strong>och "
-"dessutom kommentera på en PeerTube-video direkt från ditt Mastodon-konto.</"
-"strong>"
+"dessutom kommentera på en PeerTube-video direkt från ditt Mastodon-"
+"konto</strong>."
 
 #: src/components/InstancesList.vue:364
 msgid "Animals"
@@ -403,19 +403,19 @@ msgstr ""
 
 #: src/views/Help.vue:18
 msgid "Better understand and use PeerTube"
-msgstr ""
+msgstr "Ta reda på hur du använder PeerTube"
 
 #: src/components/InstancesList.vue:55
 msgid "Blur"
-msgstr ""
+msgstr "Gör suddiga"
 
 #: src/views/FAQ.vue:378
 msgid "Blur the title and thumbnail"
-msgstr ""
+msgstr "Gör titeln och miniatyrbilden suddiga"
 
 #: src/components/InstanceCard.vue:80
 msgid "Blurred"
-msgstr ""
+msgstr "Utsuddat"
 
 #: src/views/Home.vue:283
 msgid "Browse contents"
@@ -448,6 +448,10 @@ msgid ""
 "<strong>languages</strong> you speak, <strong>find an instance whose rules "
 "match your needs!</strong>"
 msgstr ""
+"Genom att <strong>filtrera efter dina behov</strong> (videoskapare eller "
+"tittare), <strong>teman</strong> du letar efter eller <strong>språk</strong> "
+"du behärskar kand du <strong>hitta en instans vars villkor passar dina "
+"behov</strong>!"
 
 #: src/views/FAQ.vue:469
 msgid ""
@@ -524,7 +528,7 @@ msgstr "Tyska"
 
 #: src/components/Header.vue:8
 msgid "developed by"
-msgstr "utvecklad av"
+msgstr "utvecklat av"
 
 #: src/views/Home.vue:220
 msgid ""
@@ -532,6 +536,9 @@ msgid ""
 "longer are the client of a huge tech company, and <strong>you can nurture a "
 "special relationship with your hoster, who distributes your data.</strong>"
 msgstr ""
+"Direktkontakt med en värd på mänsklig nivå ger utrymme för två saker: du är "
+"inte längre kund till ett enormt teknikföretag och <strong>du kan odla en "
+"nära relation med din värd, som distribuerar din data</strong>."
 
 #: src/components/InstancesList.vue:29
 msgid "Discover instances"
@@ -603,6 +610,8 @@ msgstr "Engelska"
 msgid ""
 "Enjoy every feature: history, subscriptions, playlists, notifications..."
 msgstr ""
+"Upplev alla funktionerna: historik, prenumerationer, spellistor, "
+"notifikationer …"
 
 #: src/components/InstancesList.vue:358
 msgid "Entertainment"
@@ -835,11 +844,11 @@ msgstr "Hur installerar jag PeerTube?"
 
 #: src/components/InstancesList.vue:360
 msgid "How To"
-msgstr ""
+msgstr "Instruktioner"
 
 #: src/views/Help.vue:92
 msgid "How to contribute?"
-msgstr ""
+msgstr "Hur kan du hjälpa till?"
 
 #: src/views/FAQ.vue:327
 msgid ""
@@ -897,6 +906,10 @@ msgid ""
 "do is <strong>create an account on the PeerTube instance of your choice.</"
 "strong>"
 msgstr ""
+"Vill du interagera med videor (gilla, kommentera, ladda ner …), prenumerera "
+"på kanaler, skapa spellistor eller titta på videor? Där är allt du behöver "
+"göra att <strong>skaffa ett konto på en PeerTube-instans som passar "
+"dig</strong>."
 
 #: src/components/Footer.vue:28
 msgid ""
@@ -1168,7 +1181,7 @@ msgid ""
 "for hours on end."
 msgstr ""
 "Viktigast är att <strong>PeerTube behandlar dig som en person och inte en "
-"produkt som måste profileras och fångas i en videoloop.</strong> Till "
+"produkt som måste profileras och fångas i en videoloop</strong>. Till "
 "exempel använder PeerTube inte någon avvägd rekommendationsalgoritm för att "
 "hålla dig inloggad timme efter timme."
 
@@ -1315,6 +1328,12 @@ msgid ""
 "tools. As a public interest organization, <strong>over 90% of our funding "
 "comes from donations</strong> (tax deductible for French taxpayers)."
 msgstr ""
+"Vår organisation grundades 2004 och ägnar sig nu åt <strong>folkbildning om "
+"digital teknik</strong>. Vi är en liten förening med färre än 40 medlemmar "
+"och tio anställda. Vi är mest kända för vårt projekt med målet att "
+"”avgooglifiera” internet, där vi lade fram 34 etiska verktyg till Googles "
+"webbtjänster. Som en allmännyttig organisation, kommer <strong>mer än "
+"90&nbsp;% av våra medel från donationer</strong>."
 
 #: src/views/News.vue:134
 msgid ""
@@ -1402,7 +1421,7 @@ msgid ""
 "organization</strong>: Framasoft"
 msgstr ""
 "PeerTube är en <strong>fri mjukvara finansierad av en fransk ideell "
-"organisation</strong>: Framasoft"
+"organisation</strong>, Framasoft"
 
 #: src/views/FAQ.vue:531
 msgid ""
@@ -1519,7 +1538,7 @@ msgstr "Portugisiska (Portugal)"
 
 #: src/components/Footer.vue:15
 msgid "Press kit"
-msgstr ""
+msgstr "Pressmaterial"
 
 #: src/views/Help.vue:7
 msgid "Questions on PeerTube? Need help? You've come to the right place!"
@@ -1711,6 +1730,13 @@ msgid ""
 "many features along. Several collectives have already created PeerTube "
 "hosts, laying the foundation for the federation."
 msgstr ""
+"Tack vare vår <a href=\"/hall-of-fame\" target=\"_blank\">"
+"finansieringskampanj (mellan mars och juni 2018)</a> kunde Framasoft <strong>"
+"anställa PeerTubes huvudutvecklare</strong>. Betaversionen släpptes i mars "
+"2018 och version 1.0.0 kom ut i november 2018. Sedan dess har ett flertal "
+"mellanversioner släppts som introducerat många funktioner. Många gemenskaper "
+"har redan startat sina egna PeerTube-instanser och därigenom lagt grunden "
+"för federationen."
 
 #: src/views/FAQ.vue:410
 msgid ""
@@ -1771,6 +1797,8 @@ msgid ""
 "The more people use, support, and contribute to PeerTube, the quicker it "
 "will become a concrete alternative to platforms like YouTube."
 msgstr ""
+"Ju fler som använder, stöttar och bidrar till PeerTube, desto snabbare "
+"kommer det bli ett seriöst alternativ till plattformar som YouTube."
 
 #: src/views/FAQ.vue:92
 msgid ""
@@ -2210,10 +2238,13 @@ msgid ""
 msgstr ""
 
 #: src/views/Home.vue:207
+#, fuzzy
 msgid ""
 "With PeerTube, chose <strong>your hosting company and the rules you believe "
 "in.</strong>"
 msgstr ""
+"Med PeerTube kan du välja <strong>ett webbhotell med regler du tror "
+"på</strong>."
 
 #: src/views/Home.vue:226
 msgid ""
@@ -2222,6 +2253,10 @@ msgid ""
 "policy, who they chose to federate with... You are not speaking with a huge "
 "tech company, so you can talk it out in case of any issue, need, desire..."
 msgstr ""
+"Med PeerTube har du möjlighet att välja din värd efter deras "
+"användarvillkor, gränser för lagringsutrymme, moderationspolicy, vilka de "
+"federerar med och mycket mer. Du behöver inte längre tala med ett gigantiskt "
+"teknikföretag, så du kan tala ut om dina bekymmer, behov och önskemål."
 
 #: src/views/News.vue:28
 msgid "work to facilitate the federation and presentation of proceedings;"
@@ -2291,6 +2326,9 @@ msgid ""
 "its ContentID system (the infamous \"Robocopyright\") or its videos "
 "recommendation system, all of which appear to be as obscure as unfair."
 msgstr ""
+"Det är uppenbart att YouTube har spårat ur: dess ägare, Google / Alphabet, "
+"kan vidmakthålla sitt ContentID-system (det ökända ”Robocopyright”) och ett "
+"rekommendationssystem som verkar lika icke-transparent som orättvist."
 
 #: src/views/News.vue:326
 msgid "YouTube video import"
