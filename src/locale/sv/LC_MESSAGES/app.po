@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-12-31 22:14+0000\n"
+"PO-Revision-Date: 2020-01-03 14:14+0000\n"
 "Last-Translator: Filip Bengtsson <filip@libreradio.org>\n"
 "Language-Team: Swedish <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/sv/>\n"
@@ -796,15 +796,15 @@ msgstr "Hall of Fame"
 #: src/views/News.vue:293 src/views/News.vue:367 src/views/News.vue:424
 #: src/views/News.vue:473
 msgid "Hello everyone!"
-msgstr "Hallå allihopa!"
+msgstr "Hej allihopa!"
 
 #: src/views/News.vue:16
 msgid "Hello,"
-msgstr "Hallå,"
+msgstr "Hej,"
 
 #: src/views/News.vue:164
 msgid "Hello!"
-msgstr "Hallå!"
+msgstr "Hej!"
 
 #: src/components/Header.vue:31 src/views/Help.vue:5 src/views/Help.vue:199
 msgid "Help"
@@ -2238,7 +2238,6 @@ msgid ""
 msgstr ""
 
 #: src/views/Home.vue:207
-#, fuzzy
 msgid ""
 "With PeerTube, chose <strong>your hosting company and the rules you believe "
 "in.</strong>"
