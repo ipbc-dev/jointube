@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-01-03 14:14+0000\n"
+"PO-Revision-Date: 2020-01-05 16:14+0000\n"
 "Last-Translator: Filip Bengtsson <filip@libreradio.org>\n"
 "Language-Team: Swedish <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/sv/>\n"
@@ -1704,6 +1704,9 @@ msgid ""
 "available soon. When this work is finished, we will develop the advanced "
 "search."
 msgstr ""
+"Stöd för undertexter är på väg och vi borde ha en första version färdig inom "
+"kort. När det jobbet är avklarat kommer vi utveckla den avancerade "
+"sökfunktionen."
 
 #: src/components/InstancesList.vue:387
 msgid "suomi"
@@ -1753,6 +1756,8 @@ msgid ""
 "The <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github."
 "com/Chocobozzz/PeerTube\">Git repository of PeerTube is here</a>."
 msgstr ""
+"<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/"
+"Chocobozzz/PeerTube\">PeerTubes Git-arkiv finns här</a>."
 
 #: src/views/FAQ.vue:88
 msgid ""
@@ -1760,10 +1765,15 @@ msgid ""
 "knitting tutorials to Minecraft constructions through videos of kittens or "
 "holidays... you can find everything!"
 msgstr ""
+"Fördelen med YouTube och andra plattformar är deras videokatalog: från "
+"stickningsinstruktioner till Minecraft-byggen, kattvideor och resor. Du kan "
+"hitta precis vad som helst!"
 
 #: src/views/News.vue:426
 msgid "The development of the crowdfunding features is going well."
 msgstr ""
+"Utvecklingsarbetet går bra för de funktioner som finansieringskampanjen "
+"samlade ihop till."
 
 #: src/views/FAQ.vue:26
 msgid ""
@@ -1771,6 +1781,9 @@ msgid ""
 "platform centralizing videos from the whole world on a single server farm "
 "(which is horribly expensive)."
 msgstr ""
+"Skillnaden mot YouTube är att vårt mål inte är att skapa en gigantisk "
+"plattform som centraliserar videor från jordens alla hörn på en enda "
+"serverfarm (vilket är ofattbart dyrt)."
 
 #: src/views/FAQ.vue:273
 msgid ""
