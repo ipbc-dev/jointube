@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-01-12 01:15+0000\n"
+"PO-Revision-Date: 2020-01-13 06:15+0000\n"
 "Last-Translator: Jordi Brunet <jbrus77@cryptolab.net>\n"
 "Language-Team: Catalan <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/ca/>\n"
@@ -36,54 +36,79 @@ msgstr[1] "%{ instance.totalInstanceFollowers } instàncies seguidores"
 #: src/views/News.vue:30
 msgid "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.joinpeertube.org\">PeerTube's official documentation site</a> (administration and use);"
 msgstr ""
+"<a target=\"_blank\" rel=\"noopener noreferrer\" href=\""
+"https://docs.joinpeertube.org\">Lloc oficial de documentació de PeerTube</a> "
+"(administració i utilització);"
 
 #: src/views/FAQ.vue:143
 msgid "<strong>But PeerTube doesn't centralize: it federates.</strong> Thanks to the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://activitypub.rocks\">ActivityPub</a> protocol (also used by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://joinmastodon.org\">the Mastodon federation</a>, a free/libre Twitter alternative), PeerTube can federate several small hosters so they don't have to buy thousands of hard disks to host videos for the whole world."
 msgstr ""
+"<strong>Però PeerTube no centralitza, federa.</strong> Gràcies al protocol <"
+"a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://activitypub."
+"rocks\">ActivityPub</a> (utilitzat també per <a target=\"_blank\" rel=\""
+"noopener noreferrer\" href=\"https://joinmastodon.org\">la federació "
+"Mastodon</a>, una alternativa lliure a Twitter), PeerTube pot federar "
+"diversos allotjaments petits, per tant, no cal comprar milers de discs durs "
+"per allotjar vídeos de tot el món."
 
 #: src/views/FAQ.vue:134
 msgid "<strong>It's software you install on your server</strong> to create a website where videos are hosted and broadcast... Basically: you create your own \"homemade YouTube\"!"
 msgstr ""
+"<strong>Instal·leu el programari al vostre servidor</strong> per crear un "
+"web on s'allotgin i reprodueixin vídeos… Bàsicament: creeu el vostre propi \""
+"Youtube fet a casa\"!"
 
 #: src/views/FAQ.vue:218
 msgid "<strong>PeerTube is not only open-source: it's free (as in free speech).</strong> Its free license guarantees our fundamental freedoms as users. It is this respect for our freedoms that allows Framasoft to invite you to contribute to this software, and many evolutions (innovative comment system, etc.) have already been suggested by some of you."
 msgstr ""
+"<strong>PeerTube no és només codi obert: és lliure (com la llibertat "
+"d'expressió).</strong> La seva llicència lliure garanteix els nostres drets "
+"fonamentals com a persones usuàries. És aquest respecte pels nostres drets, "
+"el que permet a Framasoft convidar-vos a col·laborar amb aquest programari i "
+"amb diverses innovacions (un sistema innovador de comentaris, etc.) "
+"suggerides per persones com vós."
 
 #: src/views/Instances.vue:23
 msgid "1. Find the instance that suits you best"
-msgstr ""
+msgstr "1. Trobeu la instància que més us convingui"
 
 #: src/views/News.vue:96
 msgid "2 channels on Framasoft's account on FramaTube instance"
-msgstr ""
+msgstr "2 canals al compte de Framasoft, dins la instància Framatube"
 
 #: src/views/Instances.vue:34
 msgid "2. Create your account and enjoy PeerTube"
-msgstr ""
+msgstr "2. Registreu el vostre compte i gaudiu de PeerTube"
 
 #: src/views/News.vue:75
 msgid "A better interface"
-msgstr ""
+msgstr "Una interfície millor"
 
 #: src/views/FAQ.vue:50
 msgid "A federation of interconnected hosting providers (so more video choices wherever you go to see them);"
 msgstr ""
+"Una federació de proveïdors d'allotjament interconnectats (per tant, més "
+"opcions de veure vídeos allà on vulgueu);"
 
 #: src/views/Home.vue:83
 msgid "A federation of interconnected hosting services"
-msgstr ""
+msgstr "Una federació de serveis d'allotjament interconnectats"
 
 #: src/views/FAQ.vue:7
 msgid "A few questions to discover PeerTube"
-msgstr ""
+msgstr "Unes quantes preguntes per descobrir PeerTube"
 
 #: src/views/Home.vue:7
 msgid "A free software to take back control of your videos"
-msgstr ""
+msgstr "Un programari lliure per tenir el control dels vostres vídeos"
 
 #: src/App.vue:28
 msgid "A free software to take back control of your videos! With more than 100 000 hosted videos, viewed more than 6 millions times and 20 000 users, PeerTube is the decentralized free software alternative to videos platforms developed by Framasoft"
 msgstr ""
+"Un programari lliure per tenir el control dels vostres vídeos! Amb més de "
+"100.000 vídeos allotjats, vistos més de 6 milions de vegades i 20.000 "
+"persones usuàries, PeerTube és l'alternativa de programari lliure "
+"descentralitzada a les plataformes de vídeos, desenvolupat per Framasoft"
 
 #: src/views/News.vue:369
 msgid "A month before the version 1 of PeerTube, we would like to share some (good!) news with you."
