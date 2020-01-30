@@ -1686,11 +1686,11 @@ msgstr "Newsletter dot. crowdfundingu PeerTube #4"
 #: src/views/FAQ.vue:504
 msgid ""
 "PeerTube developers are committed to develop and improve moderation tools to "
-"make instances. We welcome you to take part in discussions to <a href="
-"\"https://github.com/Chocobozzz/PeerTube/issues?utf8=%E2%9C%93&q=label%3A"
-"%22Component%3A+Moderation+%3Agodmode%3A%22+\">help ongoing efforts</a> in "
-"that direction or <a href=\"https://github.com/Chocobozzz/PeerTube/issues/new"
-"\">suggest new ones</a>!"
+"make instances always easier to manage. We welcome you to take part in "
+"discussions to <a href=\"https://github.com/Chocobozzz/PeerTube/issues?utf8="
+"%E2%9C%93&q=label%3A%22Component%3A+Moderation+%3Agodmode%3A%22+\">help "
+"ongoing efforts</a> in that direction or <a href=\"https://github.com/"
+"Chocobozzz/PeerTube/issues/new\">suggest new ones</a>!"
 msgstr ""
 
 #: src/views/FAQ.vue:465
