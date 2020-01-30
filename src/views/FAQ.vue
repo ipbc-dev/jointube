@@ -431,7 +431,7 @@
               come.
             </p>
             <p v-translate>
-              We are well aware of the shortcomings of PeerTube 1.0, especially in the moderation tools area (videos, comments, etc.). And
+              We are well aware of the shortcomings of PeerTube, especially in the moderation tools area (videos, comments, etc.). And
               we intend to work on these weaknesses.
             </p>
             <p v-translate>
@@ -455,8 +455,8 @@
               <strong>very</strong> limited.
             </p>
             <p v-translate>
-              In the meantime, as an user if you feel that PeerTube 1.0 does not currently meet your needs, it's simple: don't use it right
-              now :) (we remind you that we don't make money developing PeerTube, and that if we obviously hope for its success, the
+              In the meantime, as an user if you feel that PeerTube does not currently meet your needs, it's simple: don't use it right
+              now (we remind you that we don't make money developing PeerTube, and that if we obviously hope for its success, the
               survival of our association doesn't depend on it).
             </p>
           </div>
