@@ -678,8 +678,8 @@ msgid "In order to make this channel idea more understandable, we have changed t
 msgstr "In order to make this channel idea more understandable, we have changed the sign-up form, which from now on consists of two steps:"
 
 #: src/views/FAQ.vue:456
-msgid "In the meantime, as an user if you feel that PeerTube 1.0 does not currently meet your needs, it's simple: don't use it right now :) (we remind you that we don't make money developing PeerTube, and that if we obviously hope for its success, the survival of our association doesn't depend on it)."
-msgstr "In the meantime, as an user if you feel that PeerTube 1.0 does not currently meet your needs, it's simple: don't use it right now :) (we remind you that we don't make money developing PeerTube, and that if we obviously hope for its success, the survival of our association doesn't depend on it)."
+msgid "In the meantime, as an user if you feel that PeerTube does not currently meet your needs, it's simple: don't use it right now (we remind you that we don't make money developing PeerTube, and that if we obviously hope for its success, the survival of our association doesn't depend on it)."
+msgstr "In the meantime, as an user if you feel that PeerTube does not currently meet your needs, it's simple: don't use it right now (we remind you that we don't make money developing PeerTube, and that if we obviously hope for its success, the survival of our association doesn't depend on it)."
 
 #: src/views/News.vue:253
 msgid "In the meantime, the PeerTube federation has grown: today, more than 300 instances broadcast more than 70,000 videos, with nearly 2 million cumulated views. We remind you that the only official website we maintain around PeerTube is <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://joinpeertube.org/en\">https://joinpeertube.org/en</a> and that we bear no responsibility on any other site that may be published."
@@ -1407,8 +1407,8 @@ msgid "We are pleased to announce that the foundation stones of this system have
 msgstr "We are pleased to announce that the foundation stones of this system have been laid in this 1.4 release! It might be very basic for now, but we plan on improving it bit by bit in Peertube's future releases."
 
 #: src/views/FAQ.vue:432
-msgid "We are well aware of the shortcomings of PeerTube 1.0, especially in the moderation tools area (videos, comments, etc.). And we intend to work on these weaknesses."
-msgstr "We are well aware of the shortcomings of PeerTube 1.0, especially in the moderation tools area (videos, comments, etc.). And we intend to work on these weaknesses."
+msgid "We are well aware of the shortcomings of PeerTube, especially in the moderation tools area (videos, comments, etc.). And we intend to work on these weaknesses."
+msgstr "We are well aware of the shortcomings of PeerTube, especially in the moderation tools area (videos, comments, etc.). And we intend to work on these weaknesses."
 
 #: src/views/FAQ.vue:452
 msgid "We are working as quickly as possible to improve PeerTube, but we are doing so with the resources we have, which means <strong>very</strong> limited."

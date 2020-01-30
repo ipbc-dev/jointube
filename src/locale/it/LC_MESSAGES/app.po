@@ -1023,10 +1023,10 @@ msgstr ""
 
 #: src/views/FAQ.vue:456
 msgid ""
-"In the meantime, as an user if you feel that PeerTube 1.0 does not currently "
-"meet your needs, it's simple: don't use it right now :) (we remind you that "
-"we don't make money developing PeerTube, and that if we obviously hope for "
-"its success, the survival of our association doesn't depend on it)."
+"In the meantime, as an user if you feel that PeerTube does not currently "
+"meet your needs, it's simple: don't use it right now (we remind you that we "
+"don't make money developing PeerTube, and that if we obviously hope for its "
+"success, the survival of our association doesn't depend on it)."
 msgstr ""
 
 #: src/views/News.vue:253
@@ -2093,8 +2093,9 @@ msgid ""
 msgstr ""
 
 #: src/views/FAQ.vue:432
+#, fuzzy
 msgid ""
-"We are well aware of the shortcomings of PeerTube 1.0, especially in the "
+"We are well aware of the shortcomings of PeerTube, especially in the "
 "moderation tools area (videos, comments, etc.). And we intend to work on "
 "these weaknesses."
 msgstr ""
