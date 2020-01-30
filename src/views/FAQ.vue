@@ -400,48 +400,27 @@
       </div>
 
       <div class="block" role="tablist">
-        <div class="title" v-translate>Technical questions</div>
+        <div class="title" v-translate>Comments & Complaints</div>
 
-        <accordion-element accordion="a" id="How do I install PeerTube?">
+        <accordion-element accordion="a" id="PeerTube vx.y.z does not seem to me to contain all the tools necessary for a good management of my instance.">
           <template v-slot:title>
-            {{ 'How do I install PeerTube?' | translate }}
-          </template>
-
-          <div>
-            <p v-translate>
-              The <a target="_blank" rel="noopener noreferrer" href="https://docs.joinpeertube.org/#/install-any-os">installation guide is here</a>
-              (only in English).
-            </p>
-            <p v-translate>
-              We recommend not to install PeerTube on low-end hardware or behind a weak connection (for example, on a RaspberryPi with an
-              ADSL connection): this could slow down all federations.
-            </p>
-            <p v-translate>
-              Don't bother the developer to help you install your instance: we have a
-              <a target="_blank" rel="noopener noreferrer" href="https://framacolibri.org/c/peertube">support forum</a> for that.
-            </p>
-          </div>
-        </accordion-element>
-
-        <accordion-element accordion="a" id="PeerTube v1.0 does not seem to me to contain all the tools necessary for a good management of my instance.">
-          <template v-slot:title>
-            {{ 'PeerTube v1.0 does not seem to me to contain all the tools necessary for a good management of my instance.' | translate }}
+            {{ 'PeerTube vx.y.z does not seem to me to contain all the tools necessary for a good management of my instance.' | translate }}
           </template>
 
           <div>
             <blockquote v-translate>
-              "It's outrageous and unconscious: you're releasing PeerTube's version 1 when it doesn't contain the necessary tools
+              "It's outrageous and unconscious: you're releasing PeerTube's version x.y.z when it doesn't contain the necessary tools
               to effectively manage videos claimed by rights holders, or to effectively manage the issue of online harassment in comments,
               or to effectively manage monetization through advertising, or to (insert here your request to PeerTube). It will never work!
               What do you intend to do about it?"
             </blockquote>
 
             <p v-translate>
-              You're right. PeerTube 1.0 is not the perfect tool, far from it. And we never promised that this version 1.0 would be a
+              You're right. PeerTube is not the perfect tool, far from it. And we never promised that this version 1.0 would be a
               tool that would include all the features corresponding to all cases.
             </p>
             <p v-translate>
-              PeerTube 1.0 is the realization of the commitment we made in October 2017 to take PeerTube from an alpha version (personal
+              PeerTube is the realization of the commitment we made in October 2017 to take PeerTube from an alpha version (personal
               project and proof of concept that a federated video platform could work) to a 1.0 version in October 2018 (which does not mean
               "final version", but "version considered stable and distributable").
             </p>
@@ -479,6 +458,80 @@
               In the meantime, as an user if you feel that PeerTube 1.0 does not currently meet your needs, it's simple: don't use it right
               now :) (we remind you that we don't make money developing PeerTube, and that if we obviously hope for its success, the
               survival of our association doesn't depend on it).
+            </p>
+          </div>
+        </accordion-element>
+
+        <accordion-element accordion="a" id="PeerTube developers did not add moderation tools.">
+          <template v-slot:title>
+            {{ 'PeerTube developers did not add moderation tools.' | translate }}
+          </template>
+
+          <div>
+            <p v-translate>
+              The project's evolution demonstrates the contrary.
+            </p>
+
+            <p v-translate>
+              Since the first stable release of PeerTube in October 2018, <strong>every release</strong> added or improved moderation
+              features:
+            </p>
+
+            <ul>
+              <li v-translate><strong>PeerTube 1.1</strong> added bulk actions in the admin users table and instance/account muting;</li>
+              <li v-translate><strong>PeerTube 1.2</strong> added the ability to unfederate a video on blacklist; the notification system
+                now shows reports, and new users;
+              </li>
+              <li v-translate><strong>PeerTube 1.3</strong> added the possibility for admins to automatically quarantine new videos for
+                new/untrusted users until a moderator reviews it. The instance's followers management was also reworked: UI is improved,
+                follows can be denied;
+              </li>
+              <li v-translate><strong>PeerTube 1.4</strong> added a plugin system, and made sure plugins can for instance automatically
+                blacklist videos or reject comments based on any rule (similar to Pleroma MRF);
+              </li>
+              <li v-translate><strong>PeerTube 2.0</strong> setup now asks the admin to answer questions regarding their moderation policy
+                and dedication to it. Make a feature to automatically follow a public index of PeerTube instances part of core PeerTube,
+                instead of leaving admins to script it themselves. This allows instance administrators to automatically follow instances of
+                a "follow list" of their choice; a list which is self-hostable, so that communities can grow at their own pace;
+              </li>
+              <li v-translate><strong>PeerTube 2.1</strong> added an <em>internal</em> privacy mode to videos (such videos won't be shared
+                outside of the instance), and added quick access to moderation tools below the comments and hooks to create registration
+                plugins (geoblocking or captchas for example); some third-party plugins already demonstrate this ability. This release also
+                put emphasis on describing moderation features within the interface: warnings for features that might increase moderation
+                work like autofollow, and descriptions to the action dropdowns.
+              </li>
+            </ul>
+
+            <p v-translate>
+              PeerTube developers are committed to develop and improve moderation tools to make instances. We welcome you to take part in
+              discussions to <a
+              href="https://github.com/Chocobozzz/PeerTube/issues?utf8=%E2%9C%93&q=label%3A%22Component%3A+Moderation+%3Agodmode%3A%22+">help
+              ongoing efforts</a> in that direction or <a href="https://github.com/Chocobozzz/PeerTube/issues/new">suggest new ones</a>!
+            </p>
+          </div>
+        </accordion-element>
+      </div>
+
+      <div class="block" role="tablist">
+        <div class="title" v-translate>Technical questions</div>
+
+        <accordion-element accordion="a" id="How do I install PeerTube?">
+          <template v-slot:title>
+            {{ 'How do I install PeerTube?' | translate }}
+          </template>
+
+          <div>
+            <p v-translate>
+              The <a target="_blank" rel="noopener noreferrer" href="https://docs.joinpeertube.org/#/install-any-os">installation guide is here</a>
+              (only in English).
+            </p>
+            <p v-translate>
+              We recommend not to install PeerTube on low-end hardware or behind a weak connection (for example, on a RaspberryPi with an
+              ADSL connection): this could slow down all federations.
+            </p>
+            <p v-translate>
+              Don't bother the developer to help you install your instance: we have a
+              <a target="_blank" rel="noopener noreferrer" href="https://framacolibri.org/c/peertube">support forum</a> for that.
             </p>
           </div>
         </accordion-element>
