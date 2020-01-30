@@ -103,8 +103,12 @@
     </div>
 
     <div class="list">
-      <div class="title">
-        <translate>Instances list</translate>
+      <div class="block-title">
+        <div class="left">
+          <div class="title" v-translate>Instances list</div>
+
+          <div class="additional-info" v-translate>Built from instances.joinpeertube.org</div>
+        </div>
 
         <div class="mascot-loading-block">
           <img v-bind:class="{ animate: loadingAnimation }" v-on:animationend="loadingAnimation = false" class="mascot-loading" :src="buildImgUrl('mascot/happy.png')" alt="Loading...">
@@ -171,10 +175,19 @@
   }
 
   .list {
-    .title {
+    .block-title {
       height: 150px;
       display: flex;
       align-items: center;
+
+      .left {
+        max-width: 250px;
+      }
+
+      .additional-info {
+        font-style: italic;
+        font-size: 12px;
+      }
     }
 
     .instance {
