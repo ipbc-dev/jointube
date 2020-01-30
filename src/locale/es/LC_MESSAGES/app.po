@@ -17,9 +17,10 @@ msgstr ""
 msgid "?"
 msgstr "?"
 
-#: src/views/FAQ.vue:431
+#: src/views/FAQ.vue:410
+#, fuzzy
 msgid ""
-"\"It's outrageous and unconscious: you're releasing PeerTube's version 1 "
+"\"It's outrageous and unconscious: you're releasing PeerTube's version x.y.z "
 "when it doesn't contain the necessary tools to effectively manage videos "
 "claimed by rights holders, or to effectively manage the issue of online "
 "harassment in comments, or to effectively manage monetization through "
@@ -78,6 +79,56 @@ msgstr ""
 "<strong>Es un software que instala en su servidor</strong> para crear un "
 "sitio web donde se alojan y transmiten videos ... Básicamente: ¡crea su "
 "propio \"YouTube casero\"!"
+
+#: src/views/FAQ.vue:480
+msgid ""
+"<strong>PeerTube 1.1</strong> added bulk actions in the admin users table "
+"and instance/account muting;"
+msgstr ""
+
+#: src/views/FAQ.vue:481
+msgid ""
+"<strong>PeerTube 1.2</strong> added the ability to unfederate a video on "
+"blacklist; the notification system now shows reports, and new users;"
+msgstr ""
+
+#: src/views/FAQ.vue:484
+msgid ""
+"<strong>PeerTube 1.3</strong> added the possibility for admins to "
+"automatically quarantine new videos for new/untrusted users until a "
+"moderator reviews it. The instance's followers management was also reworked: "
+"UI is improved, follows can be denied;"
+msgstr ""
+
+#: src/views/FAQ.vue:488
+msgid ""
+"<strong>PeerTube 1.4</strong> added a plugin system, and made sure plugins "
+"can for instance automatically blacklist videos or reject comments based on "
+"any rule (similar to Pleroma MRF);"
+msgstr ""
+
+#: src/views/FAQ.vue:491
+msgid ""
+"<strong>PeerTube 2.0</strong> setup now asks the admin to answer questions "
+"regarding their moderation policy and dedication to it. Make a feature to "
+"automatically follow a public index of PeerTube instances part of core "
+"PeerTube, instead of leaving admins to script it themselves. This allows "
+"instance administrators to automatically follow instances of a \"follow list"
+"\" of their choice; a list which is self-hostable, so that communities can "
+"grow at their own pace;"
+msgstr ""
+
+#: src/views/FAQ.vue:496
+msgid ""
+"<strong>PeerTube 2.1</strong> added an <em>internal</em> privacy mode to "
+"videos (such videos won't be shared outside of the instance), and added "
+"quick access to moderation tools below the comments and hooks to create "
+"registration plugins (geoblocking or captchas for example); some third-party "
+"plugins already demonstrate this ability. This release also put emphasis on "
+"describing moderation features within the interface: warnings for features "
+"that might increase moderation work like autofollow, and descriptions to the "
+"action dropdowns."
+msgstr ""
 
 #: src/views/FAQ.vue:218
 msgid ""
@@ -208,7 +259,7 @@ msgid ""
 "a> that we invite you to read."
 msgstr ""
 
-#: src/views/FAQ.vue:526
+#: src/views/FAQ.vue:579
 msgid ""
 "After discussing it on our forum, we feel that d.tube is not free or open "
 "source, because publishing only compiled code hinders freedom of "
@@ -487,7 +538,7 @@ msgstr ""
 "strong> que domina, <strong>¡encuentre una instancia que cumpla sus "
 "criterios!</strong>"
 
-#: src/views/FAQ.vue:469
+#: src/views/FAQ.vue:448
 msgid ""
 "By acting both on the <i>core</i>, but also by allowing the development of "
 "plugins, we believe that PeerTube will, in the long term, be able to respond "
@@ -530,6 +581,10 @@ msgstr "Saludos,"
 #: src/components/InstancesList.vue:370
 msgid "Comedy"
 msgstr "Comedia"
+
+#: src/views/FAQ.vue:402
+msgid "Comments & Complaints"
+msgstr ""
 
 #: src/views/FAQ.vue:73
 msgid "Concretely here, it means that:"
@@ -619,7 +674,7 @@ msgstr "Mostrar"
 msgid "Displayed"
 msgstr "Mostrado"
 
-#: src/views/FAQ.vue:418
+#: src/views/FAQ.vue:531
 msgid ""
 "Don't bother the developer to help you install your instance: we have a <a "
 "target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framacolibri."
@@ -682,7 +737,7 @@ msgstr "Esperanto"
 msgid "Euskara"
 msgstr "Euskera"
 
-#: src/views/FAQ.vue:5 src/views/FAQ.vue:596
+#: src/views/FAQ.vue:5 src/views/FAQ.vue:649
 msgid "FAQ"
 msgstr "Preguntas frecuentes"
 
@@ -926,11 +981,11 @@ msgstr ""
 msgid "Home"
 msgstr "Inicio"
 
-#: src/views/FAQ.vue:486
+#: src/views/FAQ.vue:539
 msgid "How do I contribute to PeerTube’s code?"
 msgstr "¿Cómo contribuyo al código de PeerTube?"
 
-#: src/views/FAQ.vue:405
+#: src/views/FAQ.vue:518
 msgid "How do I install PeerTube?"
 msgstr "¿Cómo instalar PeerTube?"
 
@@ -984,7 +1039,7 @@ msgid ""
 "\">https://framacolibri.org/c/peertube</a>"
 msgstr ""
 
-#: src/views/FAQ.vue:506
+#: src/views/FAQ.vue:559
 msgid ""
 "If you want to help out in another way, or if you want to request a feature, "
 "come discuss it on our <a target=\"_blank\" rel=\"noopener noreferrer\" href="
@@ -1040,7 +1095,7 @@ msgstr ""
 "Para que esta idea del canal sea más comprensible, hemos cambiado el "
 "formulario de registro, que a partir de ahora consta de dos pasos:"
 
-#: src/views/FAQ.vue:477
+#: src/views/FAQ.vue:456
 msgid ""
 "In the meantime, as an user if you feel that PeerTube 1.0 does not currently "
 "meet your needs, it's simple: don't use it right now :) (we remind you that "
@@ -1067,7 +1122,7 @@ msgid ""
 "stream is split, the network optimized."
 msgstr ""
 
-#: src/views/FAQ.vue:462
+#: src/views/FAQ.vue:441
 msgid ""
 "Indeed, we do not claim to have the science behind it and know how best to "
 "manage each of the tools according to each of the needs. For example: with "
@@ -1090,7 +1145,7 @@ msgstr "Idioma de la página"
 msgid "Instances list"
 msgstr ""
 
-#: src/views/FAQ.vue:524
+#: src/views/FAQ.vue:577
 msgid ""
 "IPFS is a great technology, but it still seems very (too!) young for large "
 "scale streaming of large files."
@@ -1239,7 +1294,7 @@ msgstr ""
 msgid "More features"
 msgstr ""
 
-#: src/views/FAQ.vue:542
+#: src/views/FAQ.vue:595
 msgid "More technical questions"
 msgstr ""
 
@@ -1447,15 +1502,6 @@ msgid ""
 "same time exchange bits of files, which relieves the server."
 msgstr ""
 
-#: src/views/FAQ.vue:442
-msgid ""
-"PeerTube 1.0 is the realization of the commitment we made in October 2017 to "
-"take PeerTube from an alpha version (personal project and proof of concept "
-"that a federated video platform could work) to a 1.0 version in October 2018 "
-"(which does not mean \"final version\", but \"version considered stable and "
-"distributable\")."
-msgstr ""
-
 #: src/views/News.vue:160
 msgid "PeerTube 1.3 is out!"
 msgstr ""
@@ -1492,6 +1538,20 @@ msgstr ""
 msgid "PeerTube crowdfunding newsletter #4"
 msgstr ""
 
+#: src/views/FAQ.vue:504
+msgid ""
+"PeerTube developers are committed to develop and improve moderation tools to "
+"make instances. We welcome you to take part in discussions to <a href="
+"\"https://github.com/Chocobozzz/PeerTube/issues?utf8=%E2%9C%93&q=label%3A"
+"%22Component%3A+Moderation+%3Agodmode%3A%22+\">help ongoing efforts</a> in "
+"that direction or <a href=\"https://github.com/Chocobozzz/PeerTube/issues/new"
+"\">suggest new ones</a>!"
+msgstr ""
+
+#: src/views/FAQ.vue:465
+msgid "PeerTube developers did not add moderation tools."
+msgstr ""
+
 #: src/components/Footer.vue:19
 msgid "PeerTube Git"
 msgstr "Github de PeerTube"
@@ -1508,7 +1568,7 @@ msgstr ""
 "Peertube es <strong>un software gratis, financiado por una organización "
 "francesa sin fines de lucro: </strong> Framasoft"
 
-#: src/views/FAQ.vue:531
+#: src/views/FAQ.vue:584
 msgid ""
 "PeerTube is free, decentralized, distributed, and does not impose any "
 "remuneration model. This is the choice we have made, which is debatable, and "
@@ -1555,6 +1615,15 @@ msgstr ""
 "PeerTube es un software que instala en un servidor web. Te permite crear un "
 "sitio web de alojamiento de vídeo, así que crea tu \"YouTube casero\"."
 
+#: src/views/FAQ.vue:421
+msgid ""
+"PeerTube is the realization of the commitment we made in October 2017 to "
+"take PeerTube from an alpha version (personal project and proof of concept "
+"that a federated video platform could work) to a 1.0 version in October 2018 "
+"(which does not mean \"final version\", but \"version considered stable and "
+"distributable\")."
+msgstr ""
+
 #: src/views/FAQ.vue:43
 msgid ""
 "PeerTube is unique because (as far as we know) it's the only video hosting "
@@ -1577,15 +1646,15 @@ msgid ""
 "PeerTube is now available in 19 languages!"
 msgstr ""
 
-#: src/views/FAQ.vue:519
+#: src/views/FAQ.vue:572
 msgid ""
 "PeerTube uses ActivityPub because this federation protocol is recommended by "
 "the W3C and is already used by the federated social network Mastodon."
 msgstr ""
 
-#: src/views/FAQ.vue:426
+#: src/views/FAQ.vue:405
 msgid ""
-"PeerTube v1.0 does not seem to me to contain all the tools necessary for a "
+"PeerTube vx.y.z does not seem to me to contain all the tools necessary for a "
 "good management of my instance."
 msgstr ""
 
@@ -1674,7 +1743,7 @@ msgstr ""
 msgid "Release of PeerTube v2, and redesign of JoinPeertube"
 msgstr ""
 
-#: src/views/FAQ.vue:447
+#: src/views/FAQ.vue:426
 msgid ""
 "Remember that PeerTube has only one (almost) full time developer and a small "
 "handful of very involved volunteers. It is not a product developed by a "
@@ -1733,6 +1802,12 @@ msgid ""
 "user wishes to see the software fulfill their needs. As Framasoft cannot and "
 "will not develop every feature that could be hoped for, we have from the "
 "start of the project planned on creating a plug-in system."
+msgstr ""
+
+#: src/views/FAQ.vue:474
+msgid ""
+"Since the first stable release of PeerTube in October 2018, <strong>every "
+"release</strong> added or improved moderation features:"
 msgstr ""
 
 #: src/views/News.vue:228
@@ -1808,7 +1883,7 @@ msgstr "Finlandés"
 msgid "svenska"
 msgstr "Sueco"
 
-#: src/views/FAQ.vue:402
+#: src/views/FAQ.vue:515
 msgid "Technical questions"
 msgstr "Preguntas técnicas"
 
@@ -1832,7 +1907,7 @@ msgstr ""
 "nuevas versiones han traído muchas características. Varios ya han creado "
 "página con PeerTube."
 
-#: src/views/FAQ.vue:410
+#: src/views/FAQ.vue:523
 msgid ""
 "The <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs."
 "joinpeertube.org/#/install-any-os\">installation guide is here</a> (only in "
@@ -1842,7 +1917,7 @@ msgstr ""
 "joinpeertube.org/#/install-any-os\">La guía de instalación está aquí</a> "
 "(solo en inglés)."
 
-#: src/views/FAQ.vue:491
+#: src/views/FAQ.vue:544
 msgid ""
 "The <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github."
 "com/Chocobozzz/PeerTube\">Git repository of PeerTube is here</a>."
@@ -1949,6 +2024,10 @@ msgid ""
 "The PeerTube software can, whenever necessary, use a peer-to-peer protocol "
 "(P2P) to broadcast viral videos, <strong>lowering the load of their hosts.</"
 "strong>"
+msgstr ""
+
+#: src/views/FAQ.vue:470
+msgid "The project's evolution demonstrates the contrary."
 msgstr ""
 
 #: src/components/InstancesList.vue:35
@@ -2140,14 +2219,14 @@ msgid ""
 "on improving it bit by bit in Peertube's future releases."
 msgstr ""
 
-#: src/views/FAQ.vue:453
+#: src/views/FAQ.vue:432
 msgid ""
 "We are well aware of the shortcomings of PeerTube 1.0, especially in the "
 "moderation tools area (videos, comments, etc.). And we intend to work on "
 "these weaknesses."
 msgstr ""
 
-#: src/views/FAQ.vue:473
+#: src/views/FAQ.vue:452
 msgid ""
 "We are working as quickly as possible to improve PeerTube, but we are doing "
 "so with the resources we have, which means <strong>very</strong> limited."
@@ -2171,7 +2250,7 @@ msgid ""
 "PeerTube."
 msgstr ""
 
-#: src/views/FAQ.vue:457
+#: src/views/FAQ.vue:436
 msgid ""
 "We have chosen to do so as follows: on the one hand we will work primarily "
 "in the coming months to improve these tools within PeerTube itself (in the "
@@ -2200,7 +2279,7 @@ msgstr ""
 msgid "We present, among other things:"
 msgstr ""
 
-#: src/views/FAQ.vue:414
+#: src/views/FAQ.vue:527
 msgid ""
 "We recommend not to install PeerTube on low-end hardware or behind a weak "
 "connection (for example, on a RaspberryPi with an ADSL connection): this "
@@ -2304,7 +2383,7 @@ msgstr "¿Quién es responsable del contenido subido en PeerTube?"
 msgid "Why broadcast PeerTube videos through peer-to-peer?"
 msgstr ""
 
-#: src/views/FAQ.vue:514
+#: src/views/FAQ.vue:567
 msgid ""
 "Why does PeerTube use the ActivityPub federation protocol? Why not IPFS / d."
 "tube / Steemit?"
@@ -2348,7 +2427,7 @@ msgstr ""
 msgid "work to facilitate the federation and presentation of proceedings;"
 msgstr ""
 
-#: src/views/FAQ.vue:496
+#: src/views/FAQ.vue:549
 msgid ""
 "You can <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://"
 "github.com/Chocobozzz/PeerTube/issues\">create an issue</a>, contribute to "
@@ -2388,11 +2467,11 @@ msgstr ""
 msgid "You want to"
 msgstr ""
 
-#: src/views/FAQ.vue:438
+#: src/views/FAQ.vue:417
 msgid ""
-"You're right. PeerTube 1.0 is not the perfect tool, far from it. And we "
-"never promised that this version 1.0 would be a tool that would include all "
-"the features corresponding to all cases."
+"You're right. PeerTube is not the perfect tool, far from it. And we never "
+"promised that this version 1.0 would be a tool that would include all the "
+"features corresponding to all cases."
 msgstr ""
 
 #: src/views/Home.vue:273
