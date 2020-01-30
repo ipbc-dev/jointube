@@ -183,7 +183,7 @@ msgstr ""
 msgid "About peer-to-peer broadcasting and watching"
 msgstr "O transmisji i oglądaniu peer-to-peer"
 
-#: src/components/InstancesList.vue:362
+#: src/components/InstancesList.vue:375
 msgid "Activism"
 msgstr "Aktywizm"
 
@@ -273,7 +273,7 @@ msgstr ""
 "<strong>możesz nawet komentować je bezpośrednio z konta na Mastodonie.</"
 "strong>"
 
-#: src/components/InstancesList.vue:364
+#: src/components/InstancesList.vue:377
 msgid "Animals"
 msgstr "Zwierzęta"
 
@@ -324,7 +324,7 @@ msgstr ""
 msgid "Are you a video maker?"
 msgstr "Jesteś twórcą filmów?"
 
-#: src/components/InstancesList.vue:352
+#: src/components/InstancesList.vue:365
 msgid "Art"
 msgstr "Sztuka"
 
@@ -446,6 +446,10 @@ msgstr "Przeglądaj zawartość"
 msgid "Browse/discover PeerTube instances"
 msgstr "Przeglądaj/poznawaj instancje PeerTube"
 
+#: src/components/InstancesList.vue:109
+msgid "Built from instances.joinpeertube.org"
+msgstr ""
+
 #: src/views/FAQ.vue:212
 msgid ""
 "But above all, <strong>PeerTube treats you like a person, not as a product</"
@@ -503,11 +507,11 @@ msgstr ""
 "postanowią wyświetlać je z filtrem rozmywającym, to tylko <strong>ich</"
 "strong> wybór."
 
-#: src/components/InstancesList.vue:373
+#: src/components/InstancesList.vue:386
 msgid "Català"
 msgstr "Català"
 
-#: src/components/InstancesList.vue:374
+#: src/components/InstancesList.vue:387
 msgid "Čeština"
 msgstr "Čeština"
 
@@ -520,7 +524,7 @@ msgstr "Zmień język interfejsu"
 msgid "Cheers,"
 msgstr "Pozdrawiamy,"
 
-#: src/components/InstancesList.vue:357
+#: src/components/InstancesList.vue:370
 msgid "Comedy"
 msgstr "Komedia"
 
@@ -557,7 +561,7 @@ msgstr "Tworzenie i zawartość"
 msgid "customization options when video sharing"
 msgstr "opcje dostosowywania przy udostępnianiu filmów"
 
-#: src/components/InstancesList.vue:377
+#: src/components/InstancesList.vue:390
 msgid "Deutsch"
 msgstr "Deutsch"
 
@@ -643,11 +647,11 @@ msgstr ""
 "czeskim i esperanto (ogromne podziękowania dla wszystkich tłumaczy). Jeżeli "
 "też chcesz pomóc w tłumaczeniu PeerTube, zajrzyj do dokumentacji!"
 
-#: src/components/InstancesList.vue:361
+#: src/components/InstancesList.vue:374
 msgid "Education"
 msgstr "Edukacja"
 
-#: src/components/InstancesList.vue:369
+#: src/components/InstancesList.vue:382
 msgid "English"
 msgstr "English"
 
@@ -658,19 +662,19 @@ msgstr ""
 "Korzystaj z każdej funkcji: historii oglądania, subskrybcji, list "
 "odtwarzania, powiadomień…"
 
-#: src/components/InstancesList.vue:358
+#: src/components/InstancesList.vue:371
 msgid "Entertainment"
 msgstr "Rozrywka"
 
-#: src/components/InstancesList.vue:380
+#: src/components/InstancesList.vue:393
 msgid "Español"
 msgstr "Español"
 
-#: src/components/InstancesList.vue:375
+#: src/components/InstancesList.vue:388
 msgid "Esperanto"
 msgstr "Esperanto"
 
-#: src/components/InstancesList.vue:372
+#: src/components/InstancesList.vue:385
 msgid "Euskara"
 msgstr "Euskara"
 
@@ -698,7 +702,7 @@ msgstr ""
 "(wyobraź sobie MeowTube, gdzie publikacja filmów z psami jest surowo "
 "wzbroniona 😉)."
 
-#: src/components/InstancesList.vue:350
+#: src/components/InstancesList.vue:363
 msgid "Films"
 msgstr "Filmy"
 
@@ -755,7 +759,7 @@ msgstr[0] "Śledzi %{ instance.totalInstanceFollowing } instancję"
 msgstr[1] "Śledzi %{ instance.totalInstanceFollowing } instancje"
 msgstr[2] "Śledzi %{ instance.totalInstanceFollowing } instancji"
 
-#: src/components/InstancesList.vue:366
+#: src/components/InstancesList.vue:379
 msgid "Food"
 msgstr "Jedzenie"
 
@@ -823,7 +827,7 @@ msgstr "Osobom chcącym wstawić swoje filmy PeerTube pozwala na…"
 msgid "Forum"
 msgstr "Forum"
 
-#: src/components/InstancesList.vue:370
+#: src/components/InstancesList.vue:383
 msgid "Français"
 msgstr "Français"
 
@@ -841,11 +845,11 @@ msgstr ""
 "hostuje nielegalny film. Od niej zależy czy usunie ten film, czy chce zostać "
 "postawiona przed odpowiedzialnością karną."
 
-#: src/components/InstancesList.vue:382
+#: src/components/InstancesList.vue:395
 msgid "Gàidhlig"
 msgstr "Gàidhlig"
 
-#: src/components/InstancesList.vue:355
+#: src/components/InstancesList.vue:368
 msgid "Gaming"
 msgstr "Gry"
 
@@ -923,7 +927,7 @@ msgstr "Jak mogę wziąć udział w tworzeniu kodu PeerTube?"
 msgid "How do I install PeerTube?"
 msgstr "Jak zainstalować PeerTube?"
 
-#: src/components/InstancesList.vue:360
+#: src/components/InstancesList.vue:373
 msgid "How To"
 msgstr "Poradniki"
 
@@ -1132,7 +1136,7 @@ msgstr "Zainstaluj PeerTube"
 msgid "Instance languages"
 msgstr "Języki instancji"
 
-#: src/components/InstancesList.vue:106
+#: src/components/InstancesList.vue:107
 msgid "Instances list"
 msgstr "Lista instancji"
 
@@ -1217,7 +1221,7 @@ msgstr ""
 "wysyłających czy administratorów PeerTube, aby przestrzegać prawa i unikać "
 "problematycznych sytuacji."
 
-#: src/components/InstancesList.vue:378
+#: src/components/InstancesList.vue:391
 msgid "Italiano"
 msgstr "Italiano"
 
@@ -1245,7 +1249,7 @@ msgstr "5 czerwca 2019"
 msgid "KB"
 msgstr "KB"
 
-#: src/components/InstancesList.vue:365
+#: src/components/InstancesList.vue:378
 msgid "Kids"
 msgstr "Dzieci"
 
@@ -1366,11 +1370,11 @@ msgstr ""
 "cały czas oglądać filmy.</strong> PeerTube nie używa algorytmów, mających "
 "trzymać Cię na platformie na długie godziny."
 
-#: src/components/InstancesList.vue:349
+#: src/components/InstancesList.vue:362
 msgid "Music"
 msgstr "Muzyka"
 
-#: src/components/InstancesList.vue:379
+#: src/components/InstancesList.vue:392
 msgid "Nederlands"
 msgstr "Holandia"
 
@@ -1404,7 +1408,7 @@ msgstr ""
 msgid "News"
 msgstr "Aktualności"
 
-#: src/components/InstancesList.vue:359
+#: src/components/InstancesList.vue:372
 msgid "News & Politics"
 msgstr "Wydarzenia i polityka"
 
@@ -1476,7 +1480,7 @@ msgstr ""
 "można zainstalaować utworzone przez społeczność motywy graficzne zmieniające "
 "wygląd interfejsu instancji."
 
-#: src/components/InstancesList.vue:381
+#: src/components/InstancesList.vue:394
 msgid "Occitan"
 msgstr "Oksytański"
 
@@ -1774,7 +1778,7 @@ msgstr ""
 "\"https://activitypub.rocks\">ActivityPub</a>, dzięki czemu łączy się też z "
 "narzędziami takimi jak Mastoodon."
 
-#: src/components/InstancesList.vue:356
+#: src/components/InstancesList.vue:369
 msgid "People"
 msgstr "Ludzie"
 
@@ -1786,11 +1790,11 @@ msgstr "na użytkownika"
 msgid "Plug-in system"
 msgstr "System wtyczek"
 
-#: src/components/InstancesList.vue:386
+#: src/components/InstancesList.vue:399
 msgid "Polski"
 msgstr "Polski"
 
-#: src/components/InstancesList.vue:384
+#: src/components/InstancesList.vue:397
 msgid "Português (Portugal)"
 msgstr "Português (Portugal)"
 
@@ -1888,7 +1892,7 @@ msgstr ""
 "wszystkich sfederowanych instancjach PeerTube, na określonej instancji lub "
 "na kanale który lubisz. Możesz też zasubskrybować strumienie komentarzy!"
 
-#: src/components/InstancesList.vue:363
+#: src/components/InstancesList.vue:376
 msgid "Science & Technology"
 msgstr "Nauka i technologia"
 
@@ -1972,7 +1976,7 @@ msgstr ""
 msgid "Sponsors"
 msgstr "Sponsorzy"
 
-#: src/components/InstancesList.vue:353
+#: src/components/InstancesList.vue:366
 msgid "Sports"
 msgstr "Sport"
 
@@ -2008,11 +2012,11 @@ msgstr ""
 "pojawić się wkrótce. Kiedy zakończymy pracę nad nią, zaczniemy rozwijać "
 "zaawansowane wyszukiwanie."
 
-#: src/components/InstancesList.vue:387
+#: src/components/InstancesList.vue:400
 msgid "suomi"
 msgstr "suomi"
 
-#: src/components/InstancesList.vue:385
+#: src/components/InstancesList.vue:398
 msgid "svenska"
 msgstr "svenska"
 
@@ -2346,7 +2350,7 @@ msgstr "Importowanie torrentów"
 msgid "Translate"
 msgstr "Tłumacz"
 
-#: src/components/InstancesList.vue:354
+#: src/components/InstancesList.vue:367
 msgid "Travels"
 msgstr "Podróże"
 
@@ -2362,7 +2366,7 @@ msgstr "Aktualizuj PeerTube"
 msgid "value"
 msgstr "wartość"
 
-#: src/components/InstancesList.vue:351
+#: src/components/InstancesList.vue:364
 msgid "Vehicles"
 msgstr "Pojazdy"
 
@@ -2809,18 +2813,18 @@ msgstr ""
 msgid "YouTube video import"
 msgstr "Importowanie filmów z YouTube"
 
-#: src/components/InstancesList.vue:376
+#: src/components/InstancesList.vue:389
 msgid "ελληνικά"
 msgstr "ελληνικά"
 
-#: src/components/InstancesList.vue:388
+#: src/components/InstancesList.vue:401
 msgid "русский"
 msgstr "русский"
 
-#: src/components/InstancesList.vue:371
+#: src/components/InstancesList.vue:384
 msgid "日本語"
 msgstr "日本語"
 
-#: src/components/InstancesList.vue:383
+#: src/components/InstancesList.vue:396
 msgid "简体中文（中国）"
 msgstr "简体中文（中国）"

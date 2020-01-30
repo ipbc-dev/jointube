@@ -179,7 +179,7 @@ msgstr ""
 msgid "About peer-to-peer broadcasting and watching"
 msgstr "Om tittande och distribution av videor från person till person"
 
-#: src/components/InstancesList.vue:362
+#: src/components/InstancesList.vue:375
 msgid "Activism"
 msgstr "Aktivism"
 
@@ -270,7 +270,7 @@ msgstr ""
 "dessutom kommentera på en PeerTube-video direkt från ditt Mastodon-konto</"
 "strong>."
 
-#: src/components/InstancesList.vue:364
+#: src/components/InstancesList.vue:377
 msgid "Animals"
 msgstr "Djur"
 
@@ -315,7 +315,7 @@ msgstr ""
 msgid "Are you a video maker?"
 msgstr "Är du en videoskapare?"
 
-#: src/components/InstancesList.vue:352
+#: src/components/InstancesList.vue:365
 msgid "Art"
 msgstr "Konst"
 
@@ -425,6 +425,10 @@ msgstr "Bläddra bland utbudet"
 msgid "Browse/discover PeerTube instances"
 msgstr "Bläddra bland PeerTube-instanser"
 
+#: src/components/InstancesList.vue:109
+msgid "Built from instances.joinpeertube.org"
+msgstr ""
+
 #: src/views/FAQ.vue:212
 msgid ""
 "But above all, <strong>PeerTube treats you like a person, not as a product</"
@@ -468,11 +472,11 @@ msgid ""
 "<strong>their</strong> choice."
 msgstr ""
 
-#: src/components/InstancesList.vue:373
+#: src/components/InstancesList.vue:386
 msgid "Català"
 msgstr "Katalanska"
 
-#: src/components/InstancesList.vue:374
+#: src/components/InstancesList.vue:387
 msgid "Čeština"
 msgstr "Tjeckiska"
 
@@ -485,7 +489,7 @@ msgstr "Byt språk för gränssnittet"
 msgid "Cheers,"
 msgstr "Vänligen,"
 
-#: src/components/InstancesList.vue:357
+#: src/components/InstancesList.vue:370
 msgid "Comedy"
 msgstr "Komedi"
 
@@ -522,7 +526,7 @@ msgstr ""
 msgid "customization options when video sharing"
 msgstr ""
 
-#: src/components/InstancesList.vue:377
+#: src/components/InstancesList.vue:390
 msgid "Deutsch"
 msgstr "Tyska"
 
@@ -598,11 +602,11 @@ msgid ""
 "documentation!"
 msgstr ""
 
-#: src/components/InstancesList.vue:361
+#: src/components/InstancesList.vue:374
 msgid "Education"
 msgstr "Utbildning"
 
-#: src/components/InstancesList.vue:369
+#: src/components/InstancesList.vue:382
 msgid "English"
 msgstr "Engelska"
 
@@ -613,19 +617,19 @@ msgstr ""
 "Upplev alla funktionerna: historik, prenumerationer, spellistor, "
 "notifikationer …"
 
-#: src/components/InstancesList.vue:358
+#: src/components/InstancesList.vue:371
 msgid "Entertainment"
 msgstr "Underhållning"
 
-#: src/components/InstancesList.vue:380
+#: src/components/InstancesList.vue:393
 msgid "Español"
 msgstr "Spanska"
 
-#: src/components/InstancesList.vue:375
+#: src/components/InstancesList.vue:388
 msgid "Esperanto"
 msgstr "Esperanto"
 
-#: src/components/InstancesList.vue:372
+#: src/components/InstancesList.vue:385
 msgid "Euskara"
 msgstr "Baskiska"
 
@@ -649,7 +653,7 @@ msgid ""
 "videos are strictly forbidden 😉)."
 msgstr ""
 
-#: src/components/InstancesList.vue:350
+#: src/components/InstancesList.vue:363
 msgid "Films"
 msgstr "Filmer"
 
@@ -694,7 +698,7 @@ msgid_plural "Follows %{ instance.totalInstanceFollowing } instances"
 msgstr[0] "Följer %{ instance.totalInstanceFollowing } instans"
 msgstr[1] "Följer %{ instance.totalInstanceFollowing } instanser"
 
-#: src/components/InstancesList.vue:366
+#: src/components/InstancesList.vue:379
 msgid "Food"
 msgstr "Mat"
 
@@ -746,7 +750,7 @@ msgstr "För dem som vill ladda upp sina videor, kan PeerTube hjälpa med …"
 msgid "Forum"
 msgstr "Forum"
 
-#: src/components/InstancesList.vue:370
+#: src/components/InstancesList.vue:383
 msgid "Français"
 msgstr "Franska"
 
@@ -761,11 +765,11 @@ msgid ""
 "don't want to be held accountable before the law."
 msgstr ""
 
-#: src/components/InstancesList.vue:382
+#: src/components/InstancesList.vue:395
 msgid "Gàidhlig"
 msgstr "Skotsk gäliska"
 
-#: src/components/InstancesList.vue:355
+#: src/components/InstancesList.vue:368
 msgid "Gaming"
 msgstr "Spel"
 
@@ -842,7 +846,7 @@ msgstr "Hur kan jag bidra till PeerTubes kod?"
 msgid "How do I install PeerTube?"
 msgstr "Hur installerar jag PeerTube?"
 
-#: src/components/InstancesList.vue:360
+#: src/components/InstancesList.vue:373
 msgid "How To"
 msgstr "Instruktioner"
 
@@ -999,7 +1003,7 @@ msgstr "Installera PeerTube"
 msgid "Instance languages"
 msgstr "Instansspråk"
 
-#: src/components/InstancesList.vue:106
+#: src/components/InstancesList.vue:107
 msgid "Instances list"
 msgstr "Instanslista"
 
@@ -1060,7 +1064,7 @@ msgid ""
 "situations."
 msgstr ""
 
-#: src/components/InstancesList.vue:378
+#: src/components/InstancesList.vue:391
 msgid "Italiano"
 msgstr "Italienska"
 
@@ -1086,7 +1090,7 @@ msgstr "5 juni 2018"
 msgid "KB"
 msgstr "kB"
 
-#: src/components/InstancesList.vue:365
+#: src/components/InstancesList.vue:378
 msgid "Kids"
 msgstr "Barn"
 
@@ -1185,11 +1189,11 @@ msgstr ""
 "exempel använder PeerTube inte någon avvägd rekommendationsalgoritm för att "
 "hålla dig inloggad timme efter timme."
 
-#: src/components/InstancesList.vue:349
+#: src/components/InstancesList.vue:362
 msgid "Music"
 msgstr "Musik"
 
-#: src/components/InstancesList.vue:379
+#: src/components/InstancesList.vue:392
 msgid "Nederlands"
 msgstr "Nederländska"
 
@@ -1217,7 +1221,7 @@ msgstr ""
 msgid "News"
 msgstr "Nyheter"
 
-#: src/components/InstancesList.vue:359
+#: src/components/InstancesList.vue:372
 msgid "News & Politics"
 msgstr "Nyheter och politik"
 
@@ -1270,7 +1274,7 @@ msgid ""
 "community created graphical themes to change the instance visual interface."
 msgstr ""
 
-#: src/components/InstancesList.vue:381
+#: src/components/InstancesList.vue:394
 msgid "Occitan"
 msgstr "Occitanska"
 
@@ -1516,7 +1520,7 @@ msgid ""
 "possibility to connect with tools like Mastodon for example."
 msgstr ""
 
-#: src/components/InstancesList.vue:356
+#: src/components/InstancesList.vue:369
 msgid "People"
 msgstr "Människor"
 
@@ -1528,11 +1532,11 @@ msgstr "per användare"
 msgid "Plug-in system"
 msgstr "System för insticksprogram"
 
-#: src/components/InstancesList.vue:386
+#: src/components/InstancesList.vue:399
 msgid "Polski"
 msgstr "Polska"
 
-#: src/components/InstancesList.vue:384
+#: src/components/InstancesList.vue:397
 msgid "Português (Portugal)"
 msgstr "Portugisiska (Portugal)"
 
@@ -1607,7 +1611,7 @@ msgid ""
 "you like. You can also subscribe to comment feeds!"
 msgstr ""
 
-#: src/components/InstancesList.vue:363
+#: src/components/InstancesList.vue:376
 msgid "Science & Technology"
 msgstr "Vetenskap och teknologi"
 
@@ -1675,7 +1679,7 @@ msgstr ""
 msgid "Sponsors"
 msgstr "Sponsorer"
 
-#: src/components/InstancesList.vue:353
+#: src/components/InstancesList.vue:366
 msgid "Sports"
 msgstr "Sport"
 
@@ -1708,11 +1712,11 @@ msgstr ""
 "kort. När det jobbet är avklarat kommer vi utveckla den avancerade "
 "sökfunktionen."
 
-#: src/components/InstancesList.vue:387
+#: src/components/InstancesList.vue:400
 msgid "suomi"
 msgstr "Finska"
 
-#: src/components/InstancesList.vue:385
+#: src/components/InstancesList.vue:398
 msgid "svenska"
 msgstr "Svenska"
 
@@ -1972,7 +1976,7 @@ msgstr ""
 msgid "Translate"
 msgstr "Översätt"
 
-#: src/components/InstancesList.vue:354
+#: src/components/InstancesList.vue:367
 msgid "Travels"
 msgstr "Resor"
 
@@ -1988,7 +1992,7 @@ msgstr "Uppgradera PeerTube"
 msgid "value"
 msgstr "värde"
 
-#: src/components/InstancesList.vue:351
+#: src/components/InstancesList.vue:364
 msgid "Vehicles"
 msgstr "Fordon"
 
@@ -2346,18 +2350,18 @@ msgstr ""
 msgid "YouTube video import"
 msgstr ""
 
-#: src/components/InstancesList.vue:376
+#: src/components/InstancesList.vue:389
 msgid "ελληνικά"
 msgstr "Grekiska"
 
-#: src/components/InstancesList.vue:388
+#: src/components/InstancesList.vue:401
 msgid "русский"
 msgstr "Ryska"
 
-#: src/components/InstancesList.vue:371
+#: src/components/InstancesList.vue:384
 msgid "日本語"
 msgstr "Japanska"
 
-#: src/components/InstancesList.vue:383
+#: src/components/InstancesList.vue:396
 msgid "简体中文（中国）"
 msgstr ""

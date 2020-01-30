@@ -100,7 +100,7 @@ msgstr "Ability to import videos through an URL (YouTube, Vimeo, Dailymotion and
 msgid "About peer-to-peer broadcasting and watching"
 msgstr "About peer-to-peer broadcasting and watching"
 
-#: src/components/InstancesList.vue:362
+#: src/components/InstancesList.vue:375
 msgid "Activism"
 msgstr "Activism"
 
@@ -144,7 +144,7 @@ msgstr "An open-source, free/libre licence code"
 msgid "And there's more! PeerTube uses Activity Pub, a federating protocol that <strong>allows you to interact with other software</strong>, provided they also use this protocol. For example, PeerTube and Mastodon -a Twitter alternative- are connected: <strong>you can follow a PeerTube user from Mastodon</strong> (the latest videos from the PeerTube account you follow will appear in your feed), <strong>and even comment on a PeerTube-hosted video directly from your Mastodon's account.</strong>"
 msgstr "And there's more! PeerTube uses Activity Pub, a federating protocol that <strong>allows you to interact with other software</strong>, provided they also use this protocol. For example, PeerTube and Mastodon -a Twitter alternative- are connected: <strong>you can follow a PeerTube user from Mastodon</strong> (the latest videos from the PeerTube account you follow will appear in your feed), <strong>and even comment on a PeerTube-hosted video directly from your Mastodon's account.</strong>"
 
-#: src/components/InstancesList.vue:364
+#: src/components/InstancesList.vue:377
 msgid "Animals"
 msgstr "Animals"
 
@@ -164,7 +164,7 @@ msgstr "Anyone with a modicum of technical skills can host a PeerTube server, ak
 msgid "Are you a video maker?"
 msgstr "Are you a video maker?"
 
-#: src/components/InstancesList.vue:352
+#: src/components/InstancesList.vue:365
 msgid "Art"
 msgstr "Art"
 
@@ -244,6 +244,10 @@ msgstr "Browse contents"
 msgid "Browse/discover PeerTube instances"
 msgstr "Browse/discover PeerTube instances"
 
+#: src/components/InstancesList.vue:109
+msgid "Built from instances.joinpeertube.org"
+msgstr "Built from instances.joinpeertube.org"
+
 #: src/views/FAQ.vue:212
 msgid "But above all, <strong>PeerTube treats you like a person, not as a product</strong> that it has to track, profile, and lock in video loops to better sell your available brain time. Thus, the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube\">source code</a> (the recipe) of the PeerTube software is open, making its operation transparent."
 msgstr "But above all, <strong>PeerTube treats you like a person, not as a product</strong> that it has to track, profile, and lock in video loops to better sell your available brain time. Thus, the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube\">source code</a> (the recipe) of the PeerTube software is open, making its operation transparent."
@@ -264,11 +268,11 @@ msgstr "By acting both on the <i>core</i>, but also by allowing the development 
 msgid "By default, this configuration is set to \"Hide them\". If some administrators decide to display them with a blur filter for example, it's <strong>their</strong> choice."
 msgstr "By default, this configuration is set to \"Hide them\". If some administrators decide to display them with a blur filter for example, it's <strong>their</strong> choice."
 
-#: src/components/InstancesList.vue:373
+#: src/components/InstancesList.vue:386
 msgid "Català"
 msgstr "Català"
 
-#: src/components/InstancesList.vue:374
+#: src/components/InstancesList.vue:387
 msgid "Čeština"
 msgstr "Čeština"
 
@@ -281,7 +285,7 @@ msgstr "Change interface language"
 msgid "Cheers,"
 msgstr "Cheers,"
 
-#: src/components/InstancesList.vue:357
+#: src/components/InstancesList.vue:370
 msgid "Comedy"
 msgstr "Comedy"
 
@@ -318,7 +322,7 @@ msgstr "Creation and content"
 msgid "customization options when video sharing"
 msgstr "customization options when video sharing"
 
-#: src/components/InstancesList.vue:377
+#: src/components/InstancesList.vue:390
 msgid "Deutsch"
 msgstr "Deutsch"
 
@@ -378,11 +382,11 @@ msgstr "Donate to Framasoft"
 msgid "During the crowdfunding campaign, we continued to work on the localization system. And we are happy to announce it's finally completed: it will be available in the next beta (beta 10) of PeerTube. As of this writing, the web interface is already available in english, french, basque, catalan, czech and esperanto (huge thank you to all of the translators). If you too want to help translating PeerTube, do not hesitate to check out the documentation!"
 msgstr "During the crowdfunding campaign, we continued to work on the localization system. And we are happy to announce it's finally completed: it will be available in the next beta (beta 10) of PeerTube. As of this writing, the web interface is already available in english, french, basque, catalan, czech and esperanto (huge thank you to all of the translators). If you too want to help translating PeerTube, do not hesitate to check out the documentation!"
 
-#: src/components/InstancesList.vue:361
+#: src/components/InstancesList.vue:374
 msgid "Education"
 msgstr "Education"
 
-#: src/components/InstancesList.vue:369
+#: src/components/InstancesList.vue:382
 msgid "English"
 msgstr "English"
 
@@ -390,19 +394,19 @@ msgstr "English"
 msgid "Enjoy every feature: history, subscriptions, playlists, notifications..."
 msgstr "Enjoy every feature: history, subscriptions, playlists, notifications..."
 
-#: src/components/InstancesList.vue:358
+#: src/components/InstancesList.vue:371
 msgid "Entertainment"
 msgstr "Entertainment"
 
-#: src/components/InstancesList.vue:380
+#: src/components/InstancesList.vue:393
 msgid "Español"
 msgstr "Español"
 
-#: src/components/InstancesList.vue:375
+#: src/components/InstancesList.vue:388
 msgid "Esperanto"
 msgstr "Esperanto"
 
-#: src/components/InstancesList.vue:372
+#: src/components/InstancesList.vue:385
 msgid "Euskara"
 msgstr "Euskara"
 
@@ -422,7 +426,7 @@ msgstr "February 26, 2019"
 msgid "Federation offers another benefit: <strong>everyone becomes independent</strong>. Zaïd, Catherin, Solar and yourself can make your own rules, your own Terms of Services (for example, one can imagine a MeowTube where dogs videos are strictly forbidden 😉)."
 msgstr "Federation offers another benefit: <strong>everyone becomes independent</strong>. Zaïd, Catherin, Solar and yourself can make your own rules, your own Terms of Services (for example, one can imagine a MeowTube where dogs videos are strictly forbidden 😉)."
 
-#: src/components/InstancesList.vue:350
+#: src/components/InstancesList.vue:363
 msgid "Films"
 msgstr "Films"
 
@@ -456,7 +460,7 @@ msgid_plural "Follows %{ instance.totalInstanceFollowing } instances"
 msgstr[0] "Follows %{ instance.totalInstanceFollowing } instance"
 msgstr[1] "Follows %{ instance.totalInstanceFollowing } instances"
 
-#: src/components/InstancesList.vue:366
+#: src/components/InstancesList.vue:379
 msgid "Food"
 msgstr "Food"
 
@@ -492,7 +496,7 @@ msgstr "For those who wants to upload their videos, PeerTube allows..."
 msgid "Forum"
 msgstr "Forum"
 
-#: src/components/InstancesList.vue:370
+#: src/components/InstancesList.vue:383
 msgid "Français"
 msgstr "Français"
 
@@ -504,11 +508,11 @@ msgstr "Freely,"
 msgid "From that moment on, Dominique is responsible, because they are warned that they're hosting an illegal video. It is therefore up to them to act if they don't want to be held accountable before the law."
 msgstr "From that moment on, Dominique is responsible, because they are warned that they're hosting an illegal video. It is therefore up to them to act if they don't want to be held accountable before the law."
 
-#: src/components/InstancesList.vue:382
+#: src/components/InstancesList.vue:395
 msgid "Gàidhlig"
 msgstr "Gàidhlig"
 
-#: src/components/InstancesList.vue:355
+#: src/components/InstancesList.vue:368
 msgid "Gaming"
 msgstr "Gaming"
 
@@ -585,7 +589,7 @@ msgstr "How do I contribute to PeerTube’s code?"
 msgid "How do I install PeerTube?"
 msgstr "How do I install PeerTube?"
 
-#: src/components/InstancesList.vue:360
+#: src/components/InstancesList.vue:373
 msgid "How To"
 msgstr "How To"
 
@@ -669,7 +673,7 @@ msgstr "Install PeerTube"
 msgid "Instance languages"
 msgstr "Instance languages"
 
-#: src/components/InstancesList.vue:106
+#: src/components/InstancesList.vue:107
 msgid "Instances list"
 msgstr "Instances list"
 
@@ -705,7 +709,7 @@ msgstr "It's best to contact and talk directly with hosting providers, to unders
 msgid "It's up to everyone to be responsible: parents, visitors, uploaders, PeerTube administrators to respect the law and avoid any problematic situations."
 msgstr "It's up to everyone to be responsible: parents, visitors, uploaders, PeerTube administrators to respect the law and avoid any problematic situations."
 
-#: src/components/InstancesList.vue:378
+#: src/components/InstancesList.vue:391
 msgid "Italiano"
 msgstr "Italiano"
 
@@ -729,7 +733,7 @@ msgstr "June 5, 2019"
 msgid "KB"
 msgstr "KB"
 
-#: src/components/InstancesList.vue:365
+#: src/components/InstancesList.vue:378
 msgid "Kids"
 msgstr "Kids"
 
@@ -793,11 +797,11 @@ msgstr "Moreover, you can ask questions on <a target=\"_blank\" rel=\"noopener n
 msgid "Most importantly, <strong>you are a person to PeerTube, not a product in need of profiling so as to be stuck in video loops.</strong> For example, PeerTube doesn't use any biased recommendation algorithms to keep you online for hours on end."
 msgstr "Most importantly, <strong>you are a person to PeerTube, not a product in need of profiling so as to be stuck in video loops.</strong> For example, PeerTube doesn't use any biased recommendation algorithms to keep you online for hours on end."
 
-#: src/components/InstancesList.vue:349
+#: src/components/InstancesList.vue:362
 msgid "Music"
 msgstr "Music"
 
-#: src/components/InstancesList.vue:379
+#: src/components/InstancesList.vue:392
 msgid "Nederlands"
 msgstr "Nederlands"
 
@@ -817,7 +821,7 @@ msgstr "Nevertheless, the ambition remains to be <strong>a free and decentralize
 msgid "News"
 msgstr "News"
 
-#: src/components/InstancesList.vue:359
+#: src/components/InstancesList.vue:372
 msgid "News & Politics"
 msgstr "News & Politics"
 
@@ -853,7 +857,7 @@ msgstr "Now, administrators can <strong>manage more finely how other instances s
 msgid "Now, this system allows each administrator to <b>create specific plug-ins</b> depending on their needs. They may install extensions created by other people on their instance as well. For example, it is now possible to install community created graphical themes to change the instance visual interface."
 msgstr "Now, this system allows each administrator to <b>create specific plug-ins</b> depending on their needs. They may install extensions created by other people on their instance as well. For example, it is now possible to install community created graphical themes to change the instance visual interface."
 
-#: src/components/InstancesList.vue:381
+#: src/components/InstancesList.vue:394
 msgid "Occitan"
 msgstr "Occitan"
 
@@ -1014,7 +1018,7 @@ msgstr "PeerTube: retrospective, new features and more to come!"
 msgid "PeerTube's federation protocol is fluid (everyone can choose who they want to follow), and based on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://activitypub.rocks\">ActivityPub</a>: this opens the possibility to connect with tools like Mastodon for example."
 msgstr "PeerTube's federation protocol is fluid (everyone can choose who they want to follow), and based on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://activitypub.rocks\">ActivityPub</a>: this opens the possibility to connect with tools like Mastodon for example."
 
-#: src/components/InstancesList.vue:356
+#: src/components/InstancesList.vue:369
 msgid "People"
 msgstr "People"
 
@@ -1026,11 +1030,11 @@ msgstr "per user"
 msgid "Plug-in system"
 msgstr "Plug-in system"
 
-#: src/components/InstancesList.vue:386
+#: src/components/InstancesList.vue:399
 msgid "Polski"
 msgstr "Polski"
 
-#: src/components/InstancesList.vue:384
+#: src/components/InstancesList.vue:397
 msgid "Português (Portugal)"
 msgstr "Português (Portugal)"
 
@@ -1078,7 +1082,7 @@ msgstr "RSS Feeds"
 msgid "RSS feeds, allowing you to track new videos published in all federated PeerTube instances, in a specific PeerTube instance or in a video channel you like. You can also subscribe to comment feeds!"
 msgstr "RSS feeds, allowing you to track new videos published in all federated PeerTube instances, in a specific PeerTube instance or in a video channel you like. You can also subscribe to comment feeds!"
 
-#: src/components/InstancesList.vue:363
+#: src/components/InstancesList.vue:376
 msgid "Science & Technology"
 msgstr "Science & Technology"
 
@@ -1130,7 +1134,7 @@ msgstr "Solal sees Camille's illegal video, and signals it with the button provi
 msgid "Sponsors"
 msgstr "Sponsors"
 
-#: src/components/InstancesList.vue:353
+#: src/components/InstancesList.vue:366
 msgid "Sports"
 msgstr "Sports"
 
@@ -1154,11 +1158,11 @@ msgstr "Subtitles support"
 msgid "Subtitles support is well under way, and we should have a first version available soon. When this work is finished, we will develop the advanced search."
 msgstr "Subtitles support is well under way, and we should have a first version available soon. When this work is finished, we will develop the advanced search."
 
-#: src/components/InstancesList.vue:387
+#: src/components/InstancesList.vue:400
 msgid "suomi"
 msgstr "suomi"
 
-#: src/components/InstancesList.vue:385
+#: src/components/InstancesList.vue:398
 msgid "svenska"
 msgstr "svenska"
 
@@ -1298,7 +1302,7 @@ msgstr "Torrent import"
 msgid "Translate"
 msgstr "Translate"
 
-#: src/components/InstancesList.vue:354
+#: src/components/InstancesList.vue:367
 msgid "Travels"
 msgstr "Travels"
 
@@ -1314,7 +1318,7 @@ msgstr "Upgrade PeerTube"
 msgid "value"
 msgstr "value"
 
-#: src/components/InstancesList.vue:351
+#: src/components/InstancesList.vue:364
 msgid "Vehicles"
 msgstr "Vehicles"
 
@@ -1538,18 +1542,18 @@ msgstr "YouTube has clearly gone astray: its hoster, Google-Alphabet, can enforc
 msgid "YouTube video import"
 msgstr "YouTube video import"
 
-#: src/components/InstancesList.vue:376
+#: src/components/InstancesList.vue:389
 msgid "ελληνικά"
 msgstr "ελληνικά"
 
-#: src/components/InstancesList.vue:388
+#: src/components/InstancesList.vue:401
 msgid "русский"
 msgstr "русский"
 
-#: src/components/InstancesList.vue:371
+#: src/components/InstancesList.vue:384
 msgid "日本語"
 msgstr "日本語"
 
-#: src/components/InstancesList.vue:383
+#: src/components/InstancesList.vue:396
 msgid "简体中文（中国）"
 msgstr "简体中文（中国）"
