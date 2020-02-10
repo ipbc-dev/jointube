@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-12-08 22:13+0000\n"
-"Last-Translator: Niklas Reimer <niklas@nr205.de>\n"
+"PO-Revision-Date: 2020-02-11 21:08+0000\n"
+"Last-Translator: Jaigskim <filzstift112@gmail.com>\n"
 "Language-Team: German <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/de/>\n"
 "Language: de\n"
@@ -78,6 +78,8 @@ msgid ""
 "<strong>PeerTube 1.1</strong> added bulk actions in the admin users table "
 "and instance/account muting;"
 msgstr ""
+"<strong>PeerTube 1.1</strong> hat Sammelaktionen in der Admin-Benutzer-"
+"Tabelle und Instanz-/Account-Stummschaltung hinzugefügt;"
 
 #: src/views/FAQ.vue:481
 msgid ""
@@ -140,7 +142,7 @@ msgstr ""
 
 #: src/views/Instances.vue:23
 msgid "1. Find the instance that suits you best"
-msgstr "1. Finde die Instanz die am besten zu dir passt"
+msgstr "1. Finde die Instanz, die am besten zu dir passt"
 
 #: src/views/News.vue:96
 msgid "2 channels on Framasoft's account on FramaTube instance"
