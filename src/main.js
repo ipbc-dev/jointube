@@ -25,12 +25,14 @@ const availableLanguages = {
   'es': 'Español',
   'it': 'Italiano',
   'pl': 'Polski',
+  'pt_BR': 'Português',
   'ru': 'русский',
   'sv': 'svenska'
 }
 const aliasesLanguages = {
   'en': 'en_US',
-  'fr': 'fr_FR'
+  'fr': 'fr_FR',
+  'pt': 'pt_BR'
 }
 const allLocales = Object.keys(availableLanguages).concat(Object.keys(aliasesLanguages))
 
