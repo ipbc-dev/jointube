@@ -10,6 +10,136 @@
       </div>
 
       <article class="news">
+        <div class="title" v-translate>PeerTube 2.1 is out !</div>
+        <div class="date" v-translate>February 12, 2020</div>
+
+        <div class="body">
+          <p v-translate>Hi everybody,</p>
+          <p v-translate>
+            A few months after PeerTube V2 announcement, we are pleased to announce you that version 2.1 has been released.
+            Here's a quick overview of the features it brings...
+          </p>
+
+          <h4 v-translate>An even more pleasant interface</h4>
+          <p v-translate>
+            We are continually striving to improve PeerTube's interface by collecting users opinions so that we know what is causing them
+            trouble (in terms of understanding and usability for example). Firstly, even if it's no big deal, we have added a small animation
+            on the videos when you play and pause them. We really like this little development! We also worked on the different icons
+            graphics on the video viewing page. The icons and buttons are now more refined and you can also see the icons
+            <em>I like / I don't like</em> without being connected. It provides users to understand how they can interact with the video.
+          </p>
+
+          <figure>
+            <img @click="openModal" :src="buildNewsImgUrl('release-2.1', 'icons-ui.png')" alt="">
+          </figure>
+
+          <p v-translate>
+            When you are logged in and put your mouse on videos' thumbnails, a small clock-shaped icon appears in the thumbnail's upper
+            right corner to display Watch Later. Click it to add the video to your Watch Later playlist.
+          </p>
+
+          <figure>
+            <img @click="openModal" :src="buildNewsImgUrl('release-2.1', 'watch-later.png')" alt="">
+          </figure>
+
+          <p v-translate>
+            We also improved the contents' layout of PeerTube presentation page located in About category / PeerTube tab. On this page,
+            you now have easy access to PeerTube documentation, to the various apps available and to the PeerTube Contribution Guide.
+          </p>
+
+          <figure>
+            <img @click="openModal" :src="buildNewsImgUrl('release-2.1', 'about.png')" alt="">
+          </figure>
+
+          <h4 v-translate>An enhanced documentation</h4>
+
+          <p v-translate>
+            We are aware that documenting software allows more people to use it. That's why we added many contents to the
+            <a href="https://docs.joinpeertube.org" target="_blank">PeerTube documentation</a>.
+            PeerTube's administrators can now find information on how to use remote storage, how to manage videos' redundancy between
+            instances and how to use PeerTube logs to understand what happens on their instances.
+            We also added information on the various available features to customize an instance's interface, on moderation tools and how to mute instances or accounts.
+          </p>
+
+          <p v-translate>
+            Because providing a video player easily integrated into any web environment is essential for us, PeerTube now provides a library
+            for developers to control the integration of a video player via the <a href="https://docs.joinpeertube.org/#/api-embed-player" target="_blank">PeerTube Embed API</a>.
+          </p>
+
+          <h4 v-translate>Developments on comments</h4>
+
+          <p v-translate>
+            Interactivity with users is one of the recipes to success on videos platforms. Interacting with Internet users and responding to
+            comments helps content producers to build an audience. That's why this latest version includes enhancements that help video
+            makers to interact more with their viewers.
+          </p>
+
+          <p v-translate>
+            First, the comments' graphic layout has been modified: it is now easier to find your way between original comments and answers.
+            Avatars' visuals placed next to each user name have been improved and the display name (and its identifier) are now more readable.
+            When a video maker responds to a comment on one of his videos, it is easier to identify him or her because his name is highlighted.
+          </p>
+
+          <figure>
+            <img @click="openModal" :src="buildNewsImgUrl('release-2.1', 'comments-ui.png')" alt="">
+          </figure>
+
+          <p v-translate>
+            It is now possible to display comments according to 2 criteria: the most recent first (default display) or most replies first.
+          </p>
+
+          <figure>
+            <img @click="openModal" :src="buildNewsImgUrl('release-2.1', 'comments-sort.png')" alt="">
+          </figure>
+
+          <p v-translate>
+            Another news: you can now write comments in Markdown language in a restricted syntax.
+          </p>
+
+          <p v-translate>
+            Finally, we added an <em>Options</em> menu underneath users' comments to mute an account or an instance very easily.
+          </p>
+
+          <figure>
+            <img @click="openModal" :src="buildNewsImgUrl('release-2.1', 'comments-options.png')" alt="">
+          </figure>
+
+          <h4 v-translate>More features</h4>
+
+          <p v-translate>
+            As some of you asked us, we added a new privacy mode. You can now choose to broadcast a video in <strong>internal</strong> mode: the video
+            is available only for connected users to the instance on which the video is uploaded. This feature allows a video to be
+            watched only by a group of friends, family or work.
+          </p>
+
+          <p v-translate>
+            PeerTube now automatically generates hyperlinks when a time code is mentioned in the video description or comments.
+            Handy for mentioning a part of the video or making a chapter in the description!
+          </p>
+
+          <figure>
+            <img @click="openModal" :src="buildNewsImgUrl('release-2.1', 'timecode.png')" alt="">
+          </figure>
+
+          <p v-translate>
+            Finally, the collaborative translation of PeerTube's contents is now done using <a href="https://weblate.framasoft.org/projects/peertube/" target="_blank" rel="noreferrer noopener">Weblate</a>,
+            which is much more powerful and pleasant to use than the tool we we're using until now (Zanata).
+          </p>
+
+          <p v-translate>
+            This new release includes many other improvements. You can see the complete list on
+            <a href="https://github.com/Chocobozzz/PeerTube/releases/tag/v2.1.0" target="_blank" rel="noopener noreferrer">https://github.com/Chocobozzz/PeerTube/releases/tag/v2.1.0</a>
+          </p>
+
+          <p>
+            <translate>Thanks to all PeerTube contributors!</translate>
+            <br />
+            Framasoft
+          </p>
+        </div>
+      </article>
+
+      <article class="news">
         <div class="title" v-translate>Release of PeerTube v2, and redesign of JoinPeertube</div>
         <div class="date" v-translate>November 12, 2019</div>
 
@@ -648,6 +778,10 @@
       return {
         imageLocales: {
           'release-1.4': {
+            en: true,
+            fr: true
+          },
+          'release-2.1': {
             en: true,
             fr: true
           }
