@@ -2576,7 +2576,7 @@ msgstr "Безлимитное хранилище"
 msgid "Upgrade PeerTube"
 msgstr "Обновление PeerTube"
 
-#: src/main.js:58
+#: src/main.js:60
 msgid "value"
 msgstr "значение"
 

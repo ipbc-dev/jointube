@@ -2262,7 +2262,7 @@ msgstr ""
 msgid "Upgrade PeerTube"
 msgstr ""
 
-#: src/main.js:58
+#: src/main.js:60
 msgid "value"
 msgstr ""
 
