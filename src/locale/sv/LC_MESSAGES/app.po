@@ -1522,7 +1522,8 @@ msgstr ""
 "ändrats …"
 
 #: src/views/News.vue:12
-msgid "PeerTube 2.1 is out !"
+#, fuzzy
+msgid "PeerTube 2.1 is out!"
 msgstr "PeerTube 2.1 är ute!"
 
 #: src/views/Home.vue:68
@@ -2254,8 +2255,8 @@ msgid ""
 "interact with the video."
 msgstr ""
 "Vår ständiga strävan är att förbättra PeerTubes användargränssnitt genom att "
-"samla in användarnas åsikter för att ta reda på vad de har problem med ("
-"exempelvis begriplighet och användarvänlighet). Till att börja med har vi, "
+"samla in användarnas åsikter för att ta reda på vad de har problem med "
+"(exempelvis begriplighet och användarvänlighet). Till att börja med har vi, "
 "även om det inte är något större problem, lagt till en animering till "
 "videorna när du pausar och spelar dem. Vi är verkligen nöjda med den här "
 "lilla förbättringen! Vi har även filat på de olika ikonerna till videosidan. "
