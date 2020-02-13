@@ -10,7 +10,7 @@
       </div>
 
       <article class="news">
-        <div class="title" v-translate>PeerTube 2.1 is out !</div>
+        <a class="title" v-translate id="release-2-1-0" href="#release-2-1-0">PeerTube 2.1 is out!</a>
         <div class="date" v-translate>February 12, 2020</div>
 
         <div class="body">
@@ -140,7 +140,7 @@
       </article>
 
       <article class="news">
-        <div class="title" v-translate>Release of PeerTube v2, and redesign of JoinPeertube</div>
+        <a class="title" v-translate id="release-2-0-0" href="#release-2-0-0">Release of PeerTube v2, and redesign of JoinPeertube</a>
         <div class="date" v-translate>November 12, 2019</div>
 
         <div class="body">
@@ -178,7 +178,7 @@
       </article>
 
       <article class="news">
-        <div class="title" v-translate>PeerTube 1.4 is out!</div>
+        <a class="title" v-translate id="release-1-4-0" href="#release-1-4-0">PeerTube 1.4 is out!</a>
         <div class="date" v-translate>September 25, 2019</div>
 
         <div class="body">
@@ -288,7 +288,7 @@
       </article>
 
       <article class="news">
-        <div class="title" v-translate>PeerTube 1.3 is out!</div>
+        <a class="title" v-translate id="release-1-3-0" href="#release-1-3-0">PeerTube 1.3 is out!</a>
         <div class="date" v-translate>June 5, 2019</div>
 
         <div class="body">
@@ -352,7 +352,7 @@
       </article>
 
       <article class="news">
-        <div class="title" v-translate>PeerTube: retrospective, new features and more to come!</div>
+        <a class="title" v-translate id="release-since-1-0-0" href="#release-since-1-0-0">PeerTube: retrospective, new features and more to come!</a>
         <div class="date" v-translate>February 26, 2019</div>
 
         <div class="body">
@@ -417,7 +417,7 @@
       </article>
 
       <article class="news">
-        <div class="title" v-translate>PeerTube crowdfunding newsletter #4</div>
+        <a class="title" v-translate id="crowdfunding-4" href="#crowdfunding-4">PeerTube crowdfunding newsletter #4</a>
         <div class="date" v-translate>October 16, 2018</div>
 
         <div class="body">
@@ -491,7 +491,7 @@
       </article>
 
       <article class="news">
-        <div class="title" v-translate>PeerTube crowdfunding newsletter #3</div>
+        <a class="title" v-translate id="crowdfunding-3" href="#crowdfunding-3">PeerTube crowdfunding newsletter #3</a>
         <div class="date" v-translate>September 12, 2018</div>
 
         <div class="body">
@@ -548,7 +548,7 @@
       </article>
 
       <article class="news">
-        <div class="title" v-translate>PeerTube crowdfunding newsletter #2</div>
+        <a class="title" v-translate id="crowdfunding-2" href="#crowdfunding-2">PeerTube crowdfunding newsletter #2</a>
         <div class="date" v-translate>August 20, 2018</div>
 
         <div class="body">
@@ -597,7 +597,7 @@
       </article>
 
       <article class="news">
-        <div class="title" v-translate>PeerTube crowdfunding newsletter #1</div>
+        <a class="title" v-translate id="crowdfunding-1" href="#crowdfunding-1">PeerTube crowdfunding newsletter #1</a>
         <div class="date" v-translate>July 23, 2018</div>
 
         <div class="body">
@@ -680,6 +680,7 @@
 
       .title {
         font-size: 24px;
+        color: #000 !important;
       }
 
       .date {
