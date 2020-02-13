@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-02-12 15:58+0000\n"
+"PO-Revision-Date: 2020-02-13 08:01+0000\n"
 "Last-Translator: chocobozzz <chocobozzz@framasoft.org>\n"
 "Language-Team: French (France) <https://weblate.framasoft.org/projects/"
 "joinpeertube/main/fr_FR/>\n"
@@ -1822,7 +1822,6 @@ msgstr ""
 "qu’elle apporte…"
 
 #: src/views/News.vue:12
-#, fuzzy
 msgid "PeerTube 2.1 is out!"
 msgstr "PeerTube 2.1 est là !"
 
