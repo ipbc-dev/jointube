@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-02-01 06:07+0000\n"
+"PO-Revision-Date: 2020-02-13 07:59+0000\n"
 "Last-Translator: Filip Bengtsson <filip@libreradio.org>\n"
 "Language-Team: Swedish <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/sv/>\n"
@@ -174,6 +174,9 @@ msgid ""
 "that version 2.1 has been released. Here's a quick overview of the features "
 "it brings..."
 msgstr ""
+"Några månader efter annonseringen av PeerTube version 2, kan vi stolt "
+"meddela att version 2.1 har släppts. Här kommer en snabb översikt av de nya "
+"funktionerna …"
 
 #: src/views/FAQ.vue:7
 msgid "A few questions to discover PeerTube"
@@ -297,14 +300,12 @@ msgid "Allowed video space"
 msgstr "Tillåtet utrymme för videor"
 
 #: src/views/News.vue:53
-#, fuzzy
 msgid "An enhanced documentation"
-msgstr "Läs dokumentationen"
+msgstr "En förbättrad dokumentation"
 
 #: src/views/News.vue:22
-#, fuzzy
 msgid "An even more pleasant interface"
-msgstr "Ett bättre gränssnitt"
+msgstr "Ett ännu trevligare gränssnitt"
 
 #: src/views/FAQ.vue:49
 msgid ""
@@ -741,9 +742,8 @@ msgid "features and improvements since v1 of November 2018;"
 msgstr ""
 
 #: src/views/News.vue:13
-#, fuzzy
 msgid "February 12, 2020"
-msgstr "26 februari 2019"
+msgstr "12 februari 2020"
 
 #: src/views/News.vue:355
 msgid "February 26, 2019"
@@ -1522,9 +1522,8 @@ msgstr ""
 "ändrats …"
 
 #: src/views/News.vue:12
-#, fuzzy
-msgid "PeerTube 2.1 is out!"
-msgstr "PeerTube 1.3 är ute!"
+msgid "PeerTube 2.1 is out !"
+msgstr "PeerTube 2.1 är ute!"
 
 #: src/views/Home.vue:68
 msgid ""
@@ -2254,6 +2253,15 @@ msgid ""
 "without being connected. It provides users to understand how they can "
 "interact with the video."
 msgstr ""
+"Vår ständiga strävan är att förbättra PeerTubes användargränssnitt genom att "
+"samla in användarnas åsikter för att ta reda på vad de har problem med ("
+"exempelvis begriplighet och användarvänlighet). Till att börja med har vi, "
+"även om det inte är något större problem, lagt till en animering till "
+"videorna när du pausar och spelar dem. Vi är verkligen nöjda med den här "
+"lilla förbättringen! Vi har även filat på de olika ikonerna till videosidan. "
+"Ikonerna och knapparna är nu lite tydligare och ikonerna för att gilla och "
+"ogilla en video kommer även visas när du inte är inloggad. Detta kan hjälpa "
+"användarna förstå hur de kan interagera med videon."
 
 #: src/views/News.vue:570
 msgid ""
@@ -2429,6 +2437,10 @@ msgid ""
 "clock-shaped icon appears in the thumbnail's upper right corner to display "
 "Watch Later. Click it to add the video to your Watch Later playlist."
 msgstr ""
+"När du är inloggad och håller musen över en videos videos miniatyrbild, "
+"dyker en liten klock-ikon och texten ”Visa senare” upp i högra hörnet. "
+"Klicka på den för att lägga till videon i din spellista för sådant du vill "
+"titta på senare."
 
 #: src/views/FAQ.vue:114
 msgid ""
