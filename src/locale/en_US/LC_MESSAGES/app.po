@@ -897,7 +897,7 @@ msgstr "Nevertheless, it is worth remembering that the vast majority of videos p
 msgid "Nevertheless, the ambition remains to be <strong>a free and decentralized alternative</strong>: the goal of an alternative is not to replace, but to propose something else, with different values, in parallel to what already exists."
 msgstr "Nevertheless, the ambition remains to be <strong>a free and decentralized alternative</strong>: the goal of an alternative is not to replace, but to propose something else, with different values, in parallel to what already exists."
 
-#: src/components/Header.vue:27 src/views/News.vue:823
+#: src/components/Header.vue:27 src/views/News.vue:824
 msgid "News"
 msgstr "News"
 
@@ -1003,8 +1003,8 @@ msgid "Peertube 1.4 just came out! Here's a quick overview of what's new…"
 msgstr "Peertube 1.4 just came out! Here's a quick overview of what's new…"
 
 #: src/views/News.vue:12
-msgid "PeerTube 2.1 is out !"
-msgstr "PeerTube 2.1 is out !"
+msgid "PeerTube 2.1 is out!"
+msgstr "PeerTube 2.1 is out!"
 
 #: src/views/Home.vue:68
 msgid "PeerTube aspires to be a <strong>decentralized and free/libre alternative</strong> to video broadcasting services."

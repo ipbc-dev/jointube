@@ -1549,7 +1549,7 @@ msgstr ""
 "alternatywą</strong>, a celem alternatywy nie jest zastąpienie, lecz bycie "
 "czymś innym, o innych założeniach, równolegle z tym co już istnieje."
 
-#: src/components/Header.vue:27 src/views/News.vue:823
+#: src/components/Header.vue:27 src/views/News.vue:824
 msgid "News"
 msgstr "Aktualności"
 
@@ -1751,7 +1751,7 @@ msgstr "Właśnie wydano PeerTube 1.3! Oto krótki przegląd nowości…"
 
 #: src/views/News.vue:12
 #, fuzzy
-msgid "PeerTube 2.1 is out !"
+msgid "PeerTube 2.1 is out!"
 msgstr "Wydano PeerTube 1.3!"
 
 #: src/views/Home.vue:68

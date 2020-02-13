@@ -1615,7 +1615,7 @@ msgstr ""
 "mais de proposer quelque chose d’autre, avec des valeurs différentes, en "
 "parallèle de ce qui existe déjà."
 
-#: src/components/Header.vue:27 src/views/News.vue:823
+#: src/components/Header.vue:27 src/views/News.vue:824
 msgid "News"
 msgstr "Actus"
 
@@ -1822,7 +1822,8 @@ msgstr ""
 "qu’elle apporte…"
 
 #: src/views/News.vue:12
-msgid "PeerTube 2.1 is out !"
+#, fuzzy
+msgid "PeerTube 2.1 is out!"
 msgstr "PeerTube 2.1 est là !"
 
 #: src/views/Home.vue:68

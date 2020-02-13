@@ -1573,7 +1573,7 @@ msgstr ""
 "mas de propor  alguma outra coisa, com um valor diferente, em paralelo com o "
 "que já existe."
 
-#: src/components/Header.vue:27 src/views/News.vue:823
+#: src/components/Header.vue:27 src/views/News.vue:824
 msgid "News"
 msgstr "Notícias"
 
@@ -1779,7 +1779,7 @@ msgstr ""
 
 #: src/views/News.vue:12
 #, fuzzy
-msgid "PeerTube 2.1 is out !"
+msgid "PeerTube 2.1 is out!"
 msgstr "PeerTube 1.3 foi lançado!"
 
 #: src/views/Home.vue:68

@@ -1366,7 +1366,7 @@ msgid ""
 "exists."
 msgstr ""
 
-#: src/components/Header.vue:27 src/views/News.vue:823
+#: src/components/Header.vue:27 src/views/News.vue:824
 msgid "News"
 msgstr "Notizie"
 
@@ -1519,7 +1519,7 @@ msgstr ""
 
 #: src/views/News.vue:12
 #, fuzzy
-msgid "PeerTube 2.1 is out !"
+msgid "PeerTube 2.1 is out!"
 msgstr "Istanze di PeerTube"
 
 #: src/views/Home.vue:68
