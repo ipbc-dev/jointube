@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-02-13 07:59+0000\n"
+"PO-Revision-Date: 2020-02-15 13:08+0000\n"
 "Last-Translator: Filip Bengtsson <filip@libreradio.org>\n"
 "Language-Team: Swedish <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/sv/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 3.10.3\n"
 "Generated-By: easygettext\n"
 
 #: src/views/Home.vue:54 src/views/Home.vue:305
@@ -1374,7 +1374,7 @@ msgstr "Nyhetsbrev"
 
 #: src/components/InstancesList.vue:63
 msgid "No opinion"
-msgstr "Ingen åsikt"
+msgstr "Inget önskemål"
 
 #: src/components/InstanceCard.vue:24
 msgid "No video quota per user"
@@ -1522,7 +1522,6 @@ msgstr ""
 "ändrats …"
 
 #: src/views/News.vue:12
-#, fuzzy
 msgid "PeerTube 2.1 is out!"
 msgstr "PeerTube 2.1 är ute!"
 
