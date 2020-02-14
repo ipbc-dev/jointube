@@ -16,19 +16,19 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="ml-auto">
-          <b-nav-item to="/" exact>
+          <b-nav-item :to="buildRoute('/')" exact>
             <translate>Home</translate>
           </b-nav-item>
 
-          <b-nav-item class="create-account" to="/instances">
+          <b-nav-item class="create-account" :to="buildRoute('/instances')">
             <translate>Create an account</translate>
-           </b-nav-item>
+          </b-nav-item>
 
-          <b-nav-item to="/news">
+          <b-nav-item :to="buildRoute('/news')">
             <translate>News</translate>
           </b-nav-item>
 
-          <b-nav-item to="/help">
+          <b-nav-item :to="buildRoute('/help')">
             <translate>Help</translate>
           </b-nav-item>
 

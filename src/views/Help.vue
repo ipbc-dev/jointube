@@ -20,7 +20,7 @@
 
           <p v-translate>You have a question?</p>
           <div class="bottom-link-wrapper">
-            <router-link to="/faq" class="bottom-link">
+            <router-link :to="buildRoute('/faq')" class="bottom-link">
               <span class="text" v-translate>Discover our FAQ</span>
               <icon-right></icon-right>
             </router-link>

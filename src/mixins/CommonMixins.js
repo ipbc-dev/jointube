@@ -1,3 +1,5 @@
+import Vue from 'vue'
+
 export default {
   methods: {
     buildImgUrl: function (imageName) {
@@ -6,6 +8,12 @@ export default {
 
     buildPublicUrl: function (name) {
       return process.env.BASE_URL + name
+    },
+
+    buildRoute: function (route) {
+      if (Vue.config.localePath) return '/' + Vue.config.localePath + route
+
+      return route
     }
   }
 }

@@ -46,6 +46,8 @@ const localePath = window.location.pathname
 const languageFromLocalStorage = localStorage.getItem('language')
 
 if (allLocales.includes(localePath)) {
+  Vue.config.localePath = localePath
+
   currentLanguage = aliasesLanguages[localePath] ? aliasesLanguages[localePath] : localePath
   localStorage.setItem('language', currentLanguage)
 } else if (languageFromLocalStorage) {
@@ -85,49 +87,52 @@ p.catch(err => {
   const News = () => import('./views/News')
   const FAQ = () => import('./views/FAQ')
 
-  const routes = [
-    {
-      path: '/',
-      component: Home
-    },
-    {
-      path: '/help',
-      component: Help
-    },
-    {
-      path: '/news',
-      component: News
-    },
-    {
-      path: '/instances',
-      component: Instances
-    },
-    {
-      path: '/hall-of-fame',
-      component: HallOfFame
-    },
-    {
-      path: '/faq',
-      component: FAQ
-    },
-    {
-      path: '/content-selections',
-      component: AllContentSelections
-    },
-    {
+  let routes = []
+
+  for (const locale of [ '' ].concat(allLocales)) {
+    const base = locale
+      ? '/' + locale + '/'
+      : '/'
+
+    routes = routes.concat([
+      {
+        path: '/' + locale,
+        component: Home
+      },
+      {
+        path: base + 'help',
+        component: Help
+      },
+      {
+        path: base + 'news',
+        component: News
+      },
+      {
+        path: base + 'instances',
+        component: Instances
+      },
+      {
+        path: base + 'hall-of-fame',
+        component: HallOfFame
+      },
+      {
+        path: base + 'faq',
+        component: FAQ
+      },
+      {
+        path: base + 'content-selections',
+        component: AllContentSelections
+      }
+    ])
+
+    routes.push({
       path: '/404',
       component: NotFound
-    },
-    {
+    })
+
+    routes.push({
       path: '*',
       redirect: '/404'
-    }
-  ]
-
-  for (const locale of allLocales) {
-    routes.push({
-      path: '/' + locale,
-      component: Home
     })
   }
 
@@ -176,7 +181,7 @@ p.catch(err => {
     const _paq = _paq || [] // eslint-disable-line
 
     // CNIL conformity
-    _paq.push([function piwikCNIL () {
+    _paq.push([ function piwikCNIL () {
       const self = this
 
       function getOriginalVisitorCookieTimeout () {
@@ -189,7 +194,7 @@ p.catch(err => {
       }
 
       this.setVisitorCookieTimeout(getOriginalVisitorCookieTimeout())
-    }])
+    } ])
   }
 
   new Vue({ // eslint-disable-line no-new
