@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-02-15 13:08+0000\n"
+"PO-Revision-Date: 2020-02-17 08:53+0000\n"
 "Last-Translator: Filip Bengtsson <filip@libreradio.org>\n"
 "Language-Team: Swedish <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/sv/>\n"
@@ -81,6 +81,8 @@ msgid ""
 "<strong>PeerTube 1.1</strong> added bulk actions in the admin users table "
 "and instance/account muting;"
 msgstr ""
+"I och med <strong>PeerTube 1.1</strong> blev det möjligt att utföra åtgärder "
+"på flera konton samtidigt samt att ignorera konton och instanser;"
 
 #: src/views/FAQ.vue:481
 msgid ""
