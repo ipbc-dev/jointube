@@ -136,17 +136,24 @@ p.catch(err => {
     })
   }
 
-  const router = new VueRouter({
-    mode: 'history',
-    base: process.env.BASE_URL,
-    routes,
-    scrollBehavior (to, from, savedPosition) {
+  // Don't use scroll behaviour with crawlers
+  // See https://github.com/dansebcar/vue-router-2042
+  let scrollBehavior
+  if (/bot|googlebot|crawler|spider|robot|crawling/i.test(navigator.userAgent) === false) {
+    scrollBehavior = (to, from, savedPosition) => {
       if (to.hash) {
         return { selector: to.hash }
       } else {
         return { x: 0, y: 0 }
       }
     }
+  }
+
+  const router = new VueRouter({
+    mode: 'history',
+    base: process.env.BASE_URL,
+    routes,
+    scrollBehavior
   })
 
   // Stats Matomo
