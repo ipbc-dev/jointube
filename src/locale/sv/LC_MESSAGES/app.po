@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-02-17 08:53+0000\n"
+"PO-Revision-Date: 2020-02-19 09:08+0000\n"
 "Last-Translator: Filip Bengtsson <filip@libreradio.org>\n"
 "Language-Team: Swedish <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/sv/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10.3\n"
+"X-Generator: Weblate 3.11\n"
 "Generated-By: easygettext\n"
 
 #: src/views/Home.vue:54 src/views/Home.vue:305
@@ -365,6 +365,8 @@ msgid ""
 "Another news: you can now write comments in Markdown language in a "
 "restricted syntax."
 msgstr ""
+"Fler nyheter: du kan nu skriva kommentarer men en begränsad version av "
+"Markdown."
 
 #: src/views/News.vue:250
 msgid ""
@@ -423,6 +425,12 @@ msgid ""
 "This feature allows a video to be watched only by a group of friends, family "
 "or work."
 msgstr ""
+"På begäran av några av er, har vi lagt till ett nytt publiceringsalternativ. "
+"Nu kan du välja att lägga upp en video med alternativet "
+"<strong>intern</strong>. Videon kommer då endast vara tillgänglig för "
+"användare på den instansen den laddades upp till. Den här funktionen gör det "
+"enkelt för dig att dela en video med din vänskapskrets, familjen eller dina "
+"kollegor."
 
 #: src/views/News.vue:391
 msgid ""
@@ -480,6 +488,11 @@ msgid ""
 "joinpeertube.org/#/api-embed-player\" target=\"_blank\">PeerTube Embed API</"
 "a>."
 msgstr ""
+"Det är av yttersta vikt för oss att det är enkelt att integrera "
+"videospelaren på vilken webbsida som helst. Därför tillhandahåller PeerTube "
+"nu ett bibliotek som utvecklare kan använda för att hantera videospelaren "
+"via PeerTubes <a href=\"https://docs.joinpeertube.org/#/api-embed-player\" "
+"target=\"_blank\">inbäddnings-API</a>."
 
 #: src/views/FAQ.vue:190
 msgid ""
@@ -589,11 +602,11 @@ msgstr "Komedi"
 
 #: src/views/FAQ.vue:402
 msgid "Comments & Complaints"
-msgstr ""
+msgstr "Kommentarer och synpunkter"
 
 #: src/views/FAQ.vue:73
 msgid "Concretely here, it means that:"
-msgstr ""
+msgstr "Rent konkret betyder det att:"
 
 #: src/components/Footer.vue:7
 msgid "Contact"
@@ -634,7 +647,7 @@ msgstr "utvecklat av"
 
 #: src/views/News.vue:68
 msgid "Developments on comments"
-msgstr ""
+msgstr "Utveckling av kommentarer"
 
 #: src/views/Home.vue:220
 msgid ""
@@ -780,12 +793,18 @@ msgid ""
 "\"_blank\" rel=\"noreferrer noopener\">Weblate</a>, which is much more "
 "powerful and pleasant to use than the tool we we're using until now (Zanata)."
 msgstr ""
+"Avslutningsvis, görs översättningen av PeerTube nu med <a href=\""
+"https://weblate.framasoft.org/projects/peertube/\" target=\"_blank\" rel=\""
+"noreferrer noopener\">Weblate</a> som som är mycket mer kraftfullt och "
+"användarvänligt än verktyget vi har använt hitintills (Zanata)."
 
 #: src/views/News.vue:98
 msgid ""
 "Finally, we added an <em>Options</em> menu underneath users' comments to "
 "mute an account or an instance very easily."
 msgstr ""
+"Till sist, har vi lagt till en meny under användarnas kommentarer för att "
+"enkelt ignorera ett konto eller instans."
 
 #: src/views/News.vue:334
 msgid ""
@@ -821,6 +840,11 @@ msgid ""
 "on one of his videos, it is easier to identify him or her because his name "
 "is highlighted."
 msgstr ""
+"Först har kommentarernas grafiska layout justerats: nu är det enklare att "
+"navigera mellan en kommentar och dess svar. Avatarerna bredvid "
+"användarnamnen har förbättrats och visningsnamnet (och dess identifierare) "
+"är nu mer lättlästa. Det är även enklare att hitta videoskaparens svar när "
+"han eller hon svarar på en kommentar eftersom namnets markeras."
 
 #: src/components/InstanceCard.vue:61
 msgid "Follows %{ instance.totalInstanceFollowing } instance"
@@ -886,7 +910,7 @@ msgstr "Franska"
 
 #: src/views/News.vue:172
 msgid "Freely,"
-msgstr ""
+msgstr "Med fria hälsningar,"
 
 #: src/views/FAQ.vue:302
 msgid ""
@@ -1011,6 +1035,10 @@ msgid ""
 "diluting hosting costs while remaining practical and complete for Internet "
 "users."
 msgstr ""
+"Om administratören för Knitting-PeerTube blir vän med Kittens-Tube och "
+"Framatube kommer deras videor visas på Knitting-PeerTube. På så sätt späs "
+"driftkostnaderna ut och det förblir praktiskt och komplett för "
+"internetanvändare."
 
 #: src/views/News.vue:399
 msgid ""
@@ -1145,6 +1173,11 @@ msgid ""
 "includes enhancements that help video makers to interact more with their "
 "viewers."
 msgstr ""
+"Interaktion med användare är en av grundstenarna i en framgångsrik "
+"videoplattform. Att samspela med internetanvändare och svara på kommentarer "
+"hjälper videoproducenterna bygga upp en publik. Det är bakgrunden till "
+"varför den här versionen innehåller ändringar ämnade att hjälpa videoskapare "
+"interagera mer med sina tittare."
 
 #: src/views/FAQ.vue:577
 msgid ""
@@ -1176,6 +1209,8 @@ msgid ""
 "It is now possible to display comments according to 2 criteria: the most "
 "recent first (default display) or most replies first."
 msgstr ""
+"Nu är det möjligt att sortera kommentarerna på två sätt: de nyaste först ("
+"används som standard) eller de med flest svar först."
 
 #: src/views/Home.vue:263
 msgid ""
@@ -1218,6 +1253,7 @@ msgid ""
 "Its development is community-based, it can be enhanced by everyone's "
 "contributions."
 msgstr ""
+"Dess utveckling drivs på av en gemenskap och kan förbättras av allas bidrag."
 
 #: src/components/Footer.vue:17
 msgid "JoinPeerTube Git"
@@ -1261,6 +1297,8 @@ msgid ""
 "server side, while remaining practical, ethical and fun for the internet "
 "users."
 msgstr ""
+"Tillsammans gör de det enkelt att driva videoservern, samtidigt som det "
+"förblir praktiskt, etiskt och roligt för internetanvändarna."
 
 #: src/views/News.vue:429
 msgid ""
@@ -1284,6 +1322,10 @@ msgid ""
 "\"https://github.com/Chocobozzz/PeerTube/releases/tag/v1.3.0\">https://"
 "github.com/Chocobozzz/PeerTube/releases/tag/v1.3.0</a>."
 msgstr ""
+"Många andra förbättringar har gjorts i den här nya versionen. Du hittar hela "
+"listan på <a target=\"_blank\" rel=\"noopener noreferrer\" href=\""
+"https://github.com/Chocobozzz/PeerTube/releases/tag/v1.3.0\">github.com/"
+"Chocobozzz/PeerTube/releases/tag/v1.3.0</a>."
 
 #: src/views/FAQ.vue:241
 msgid ""
@@ -1439,6 +1481,8 @@ msgid ""
 "On the contrary, PeerTube's concept is to create a network of multiple small "
 "interconnected video hosting providers."
 msgstr ""
+"I stället satsar PeerTube på att skapa ett nätverk av sammanlänkade små "
+"värdservrar."
 
 #: src/views/FAQ.vue:204
 msgid ""
@@ -1500,6 +1544,8 @@ msgid ""
 "Peer-to-peer broadcasting – and therefore viewing – (so no slowing down when "
 "a video becomes viral)."
 msgstr ""
+"Videodelning och -tittande med P2P (så det går inte långsammare om en video "
+"skulle bli väldigt populär)."
 
 #: src/views/FAQ.vue:116
 msgid ""
@@ -1508,6 +1554,10 @@ msgid ""
 "\">WebRTC</a> protocol, that Internet users who watch the same video at the "
 "same time exchange bits of files, which relieves the server."
 msgstr ""
+"Förmedling från person till person med <a target=\"_blank\" rel=\"noopener "
+"noreferrer\" href=\"https://en.wikipedia.org/wiki/WebRTC\">WebRTC</a>låter "
+"internetanvändare som tittar på samma video dela med sig av delar av filen, "
+"vilket avlastar servern."
 
 #: src/views/News.vue:290
 msgid "PeerTube 1.3 is out!"
@@ -1593,6 +1643,8 @@ msgstr ""
 msgid ""
 "PeerTube is freely provided, no need to pay to install it on your server;"
 msgstr ""
+"PeerTube är gratis, du behöver inte betala för att installera det på din "
+"server;"
 
 #: src/views/FAQ.vue:389
 msgid ""
@@ -1627,6 +1679,8 @@ msgid ""
 "PeerTube is software that you install on a web server. It allows you to "
 "create a video hosting website, so create your \"homemade YouTube\"."
 msgstr ""
+"PeerTube är mjukvara som kan installeras på en webbserver för att skapa en "
+"webbplats för videodelning, ett ”hemmabyggt YouTube”."
 
 #: src/views/FAQ.vue:421
 msgid ""
@@ -1642,6 +1696,8 @@ msgid ""
 "PeerTube is unique because (as far as we know) it's the only video hosting "
 "web application which combines three advantages:"
 msgstr ""
+"PeerTube är unikt eftersom det (så vitt vi vet) är den enda "
+"webbapplikationen för videor som kombinerar de här tre fördelarna:"
 
 #: src/views/News.vue:4
 msgid "PeerTube news!"
@@ -1653,6 +1709,10 @@ msgid ""
 "mentioned in the video description or comments. Handy for mentioning a part "
 "of the video or making a chapter in the description!"
 msgstr ""
+"Nu lägger PeerTube automatiskt in länkar när en tidskod nämns i "
+"videobeskrivningen eller kommentarer, vilket underlättar när man vill "
+"hänvisa till en del av videon eller skriver en innehållsförteckning i "
+"beskrivningstexten!"
 
 #: src/views/FAQ.vue:13
 msgid "PeerTube Presentation"
@@ -1665,6 +1725,10 @@ msgid ""
 "Portuguese (PeerTube already support Brazilian Portuguese). Amazing! "
 "PeerTube is now available in 19 languages!"
 msgstr ""
+"PeerTubes team av översättare har gjort ett enormt arbete. <strong>Tre nya "
+"språk</strong> har lagts till: japanska, nederländska och europeisk "
+"portugisiska (PeerTube fanns redan på brasiliansk portugisiska). "
+"Fantastiskt! PeerTube finns nu tillgängligt på 19 språk!"
 
 #: src/views/FAQ.vue:572
 msgid ""
@@ -1689,6 +1753,10 @@ msgid ""
 "href=\"https://activitypub.rocks\">ActivityPub</a>: this opens the "
 "possibility to connect with tools like Mastodon for example."
 msgstr ""
+"PeerTubes federationsprotokoll är anpassningsbart (alla kan välja vilka de "
+"vill följa) och baserat på <a target=\"_blank\" rel=\"noopener noreferrer\" "
+"href=\"https://activitypub.rocks\">ActivityPub</a>. Detta öppnar upp för att "
+"ansluta med verktyg som Mastodon, till exempel."
 
 #: src/components/InstancesList.vue:369
 msgid "People"
@@ -1758,7 +1826,7 @@ msgstr ""
 
 #: src/views/News.vue:142
 msgid "Release of PeerTube v2, and redesign of JoinPeertube"
-msgstr ""
+msgstr "PeerTube v2 släpps och joinpeertube.org får en ny design"
 
 #: src/views/FAQ.vue:426
 msgid ""
@@ -1962,9 +2030,9 @@ msgid ""
 "platform centralizing videos from the whole world on a single server farm "
 "(which is horribly expensive)."
 msgstr ""
-"Skillnaden mot YouTube är att vårt mål inte är att skapa en gigantisk "
-"plattform som centraliserar videor från jordens alla hörn på en enda "
-"serverfarm (vilket är ofattbart dyrt)."
+"Till skillnad från YouTube är vårt mål inte att skapa en gigantisk plattform "
+"som centraliserar videor från jordens alla hörn på en enda serverfarm ("
+"vilket är ofattbart dyrt)."
 
 #: src/views/FAQ.vue:273
 msgid ""
@@ -2000,6 +2068,9 @@ msgid ""
 "more videos are uploaded... but hosting videos from all over the world is "
 "(very, very) expensive!"
 msgstr ""
+"Ju mer variation i videokatalogen, desto fler blir intresserade och desto "
+"fler videor laddas upp … men att tillhandahålla all världens videor blir "
+"väldigt dyrt!"
 
 #: src/views/News.vue:298
 msgid ""
@@ -2088,6 +2159,10 @@ msgid ""
 "etc.), this function is disabled and switches back to an \"old-style\" video "
 "broadcast 😉."
 msgstr ""
+"Du behöver inte göra något, utan din webbläsare gör det automatiskt. Om du "
+"använder en mobiltelefon eller om ditt nätverk inte tillåter det (router, "
+"brandvägg etc.) kommer funktionen avaktiveras och uppspelningen övergår till "
+"en mer ”gammaldags” videoförmedling 😉."
 
 #: src/views/FAQ.vue:345
 msgid ""
@@ -2140,6 +2215,10 @@ msgid ""
 "v2.1.0\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/"
 "Chocobozzz/PeerTube/releases/tag/v2.1.0</a>"
 msgstr ""
+"Den här versionen för med sig många fler förbättringar. Du kan se en "
+"fullständig lista på <a href=\"https://github.com/Chocobozzz/PeerTube/"
+"releases/tag/v2.1.0\" target=\"_blank\" rel=\"noopener noreferrer\""
+">https://github.com/Chocobozzz/PeerTube/releases/tag/v2.1.0</a>."
 
 #: src/views/News.vue:274
 msgid ""
@@ -2224,6 +2303,9 @@ msgid ""
 "PeerTube documentation, to the various apps available and to the PeerTube "
 "Contribution Guide."
 msgstr ""
+"Vi har också förbättrat dispositionen för sidan som presenterar PeerTube, "
+"under fliken Om PeerTube. På sidan kan du nu på ett enkelt sätt ta del av "
+"PeerTubes dokumentation, tillgängliga applikationer och hur du kan bidra."
 
 #: src/views/News.vue:370
 msgid ""
@@ -2242,6 +2324,14 @@ msgid ""
 "available features to customize an instance's interface, on moderation tools "
 "and how to mute instances or accounts."
 msgstr ""
+"Vi är medvetna om att dokumentation av mjukvaran låter fler använda den. "
+"Därför har vi utökat <a href=\"https://docs.joinpeertube.org/\" target=\""
+"_blank\">PeerTubes dokumentation</a> väsentligt. PeerTube-administratörer "
+"kan nu hitta information om hur fjärrlagring och videoredundans mellan "
+"instanser kan användas, och att använda PeerTubes loggfiler för att förstå "
+"vad som sker på deras instanser. Vi har också lagt till information om de "
+"olika funktionerna som kan användas för att anpassa instansens utseende, "
+"moderationsverktyg och hur man ignorerar instanser och konton."
 
 #: src/views/News.vue:23
 msgid ""
@@ -2307,6 +2397,8 @@ msgid ""
 "We can look under the hood of PeerTube (its source code): it's auditable, "
 "transparent;"
 msgstr ""
+"Vi kan se hur PeerTube fungerar bakom kulisserna (dess källkod): den går att "
+"granska och är transparent;"
 
 #: src/views/FAQ.vue:323
 msgid ""
@@ -2431,7 +2523,7 @@ msgstr ""
 
 #: src/views/FAQ.vue:83
 msgid "What's the interest to federate the video hosting providers?"
-msgstr ""
+msgstr "Vad är vitsen med att federera videovärdarna?"
 
 #: src/views/News.vue:35
 msgid ""
@@ -2450,6 +2542,9 @@ msgid ""
 "success: if a video becomes viral and many people watch it at the same time, "
 "the server has a big risk of getting overloaded!"
 msgstr ""
+"När du tillhandahåller är en stor fil, som en video, är framgång det som är "
+"mest skrämmande: om en video blir väldigt populär och många ser på den "
+"samtidigt löper servern en stor risk att bli överbelastad!"
 
 #: src/views/FAQ.vue:339
 msgid "Where can I put my videos?"
@@ -2465,7 +2560,7 @@ msgstr "Vem är ansvarig för det som publiceras på PeerTube?"
 
 #: src/views/FAQ.vue:109
 msgid "Why broadcast PeerTube videos through peer-to-peer?"
-msgstr ""
+msgstr "Varför skickas PeerTube-videor över P2P?"
 
 #: src/views/FAQ.vue:567
 msgid ""
