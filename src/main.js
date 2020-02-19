@@ -139,7 +139,10 @@ p.catch(err => {
   // Don't use scroll behaviour with crawlers
   // See https://github.com/dansebcar/vue-router-2042
   let scrollBehavior
-  if (/bot|googlebot|crawler|spider|robot|crawling/i.test(navigator.userAgent) === false) {
+  if (
+    window.location.host !== 'webcache.googleusercontent.com' && // Don't break google cache
+    /bot|googlebot|crawler|spider|robot|crawling/i.test(navigator.userAgent) === false
+  ) {
     scrollBehavior = (to, from, savedPosition) => {
       if (to.hash) {
         return { selector: to.hash }
@@ -147,6 +150,8 @@ p.catch(err => {
         return { x: 0, y: 0 }
       }
     }
+  } else {
+    console.log('Disabling scroll behaviour.')
   }
 
   const router = new VueRouter({
