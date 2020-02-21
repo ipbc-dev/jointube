@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-02-19 09:08+0000\n"
+"PO-Revision-Date: 2020-02-22 18:08+0000\n"
 "Last-Translator: Filip Bengtsson <filip@libreradio.org>\n"
 "Language-Team: Swedish <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/sv/>\n"
@@ -2115,7 +2115,7 @@ msgstr ""
 
 #: src/views/FAQ.vue:470
 msgid "The project's evolution demonstrates the contrary."
-msgstr ""
+msgstr "Projektets utveckling visar på motsatsen."
 
 #: src/components/InstancesList.vue:35
 msgid "Themes"
@@ -2132,6 +2132,9 @@ msgid ""
 "discover their terms of use (disk space limit per user, content policy, "
 "etc.)."
 msgstr ""
+"Därefter rekommenderar vi att du besöker instansen och läser dess "
+"informationssida, är användarvillkoren står (diskutrymme per användare, "
+"innehållspolicy och liknande)."
 
 #: src/views/FAQ.vue:138
 msgid ""
@@ -2171,6 +2174,10 @@ msgid ""
 "list of those that are <a target=\"_blank\" rel=\"noopener noreferrer\" href="
 "\"/instances\">open to registration here</a>."
 msgstr ""
+"Det finns en fullständig <a target=\"_blank\" rel=\"noopener noreferrer\" "
+"href=\"https://instances.joinpeertube.org\">lista över instanser här</a> och "
+"en lista över de som är <a target=\"_blank\" rel=\"noopener noreferrer\" "
+"href=\"/instances\">öppna för registrering här</a>."
 
 #: src/views/News.vue:563
 msgid ""
