@@ -2658,7 +2658,7 @@ msgstr "Espace illimité"
 msgid "Upgrade PeerTube"
 msgstr "Mettre à jour PeerTube"
 
-#: src/main.js:60
+#: src/main.js:62
 msgid "value"
 msgstr "valeur"
 

@@ -1423,7 +1423,7 @@ msgstr "Unlimited space"
 msgid "Upgrade PeerTube"
 msgstr "Upgrade PeerTube"
 
-#: src/main.js:60
+#: src/main.js:62
 msgid "value"
 msgstr "value"
 
