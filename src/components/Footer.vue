@@ -30,6 +30,10 @@
         Illustrations from <a target="_blank" rel="noopener noreferrer" href="https://framatube.org/videos/watch/9c9de5e8-0a1e-484a-b099-e80766180a6d">What is PeerTube video</a>,
         created by <a target="_blank" rel="noopener noreferrer" href="https://libreart.info/">LILA</a> - <a target="_blank" rel="noopener noreferrer" href="https://film.zemarmot.net/">ZeMarmot Team</a>
       </div>
+
+      <div v-translate>
+        PeerTube mascot created by <a target="_blank" rel="noopener noreferrer" href="https://www.davidrevoy.com/">David Revoy</a>
+      </div>
     </div>
   </footer>
 </template>
