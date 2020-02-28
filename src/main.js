@@ -124,17 +124,20 @@ p.catch(err => {
         component: AllContentSelections
       }
     ])
-
-    routes.push({
-      path: '/404',
-      component: NotFound
-    })
-
-    routes.push({
-      path: '*',
-      redirect: '/404'
-    })
   }
+
+  // To generate a sitemap
+  // console.log(routes.map(r => 'https://joinpeertube.org' + r.path))
+
+  routes.push({
+    path: '/404',
+    component: NotFound
+  })
+
+  routes.push({
+    path: '*',
+    redirect: '/404'
+  })
 
   // Don't use scroll behaviour with crawlers
   // See https://github.com/dansebcar/vue-router-2042
