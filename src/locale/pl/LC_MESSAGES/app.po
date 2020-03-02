@@ -188,7 +188,7 @@ msgid "A free software to take back control of your videos"
 msgstr ""
 "Wolne oprogramowanie, dzięki któremu odzyskasz kontrolę nad swoimi filmami"
 
-#: src/App.vue:28
+#: src/App.vue:29
 msgid ""
 "A free software to take back control of your videos! With more than 100 000 "
 "hosted videos, viewed more than 6 millions times and 20 000 users, PeerTube "
@@ -1889,6 +1889,15 @@ msgid ""
 msgstr ""
 "PeerTube jest wyjątkowe, ponieważ (z tego co wiemy) jest jedyną aplikacją do "
 "hostowania filmów łączącą trzy zalety:"
+
+#: src/components/Footer.vue:33
+#, fuzzy
+msgid ""
+"PeerTube mascot created by <a target=\"_blank\" rel=\"noopener noreferrer\" "
+"href=\"https://www.davidrevoy.com/\">David Revoy</a>"
+msgstr ""
+"<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/"
+"Chocobozzz/PeerTube\">Repozytorium Git PeerTube znajduje się tutaj</a>."
 
 #: src/views/News.vue:4
 msgid "PeerTube news!"
