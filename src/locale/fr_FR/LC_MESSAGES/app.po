@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-02-13 08:01+0000\n"
-"Last-Translator: chocobozzz <chocobozzz@framasoft.org>\n"
+"PO-Revision-Date: 2020-03-07 06:04+0000\n"
+"Last-Translator: libertas. <lcsbr@tutanota.com>\n"
 "Language-Team: French (France) <https://weblate.framasoft.org/projects/"
 "joinpeertube/main/fr_FR/>\n"
 "Language: fr_FR\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 3.11.2\n"
 "Generated-By: easygettext\n"
 
 #: src/views/Home.vue:54 src/views/Home.vue:305
@@ -91,6 +91,9 @@ msgid ""
 "<strong>PeerTube 1.2</strong> added the ability to unfederate a video on "
 "blacklist; the notification system now shows reports, and new users;"
 msgstr ""
+"<strong>PeerTube 1.2</strong> a ajouté la possibilité de non-fédérer une "
+"vidéo sur liste noire ; le système de notification affiche désormais des "
+"rapports, et de nouveaux utilisateurs ;"
 
 #: src/views/FAQ.vue:484
 msgid ""
@@ -99,6 +102,12 @@ msgid ""
 "moderator reviews it. The instance's followers management was also reworked: "
 "UI is improved, follows can be denied;"
 msgstr ""
+"<strong>PeerTube 1.3</strong> a ajouté la possibilité pour les "
+"administrateurs de mettre automatiquement en quarantaine les nouvelles "
+"vidéos pour les utilisateurs nouveaux ou non fiables jusqu'à ce qu'un "
+"modérateur les examine. La gestion des suiveurs de l'instance a également "
+"été retravaillée : L'interface utilisateur est améliorée, les followers "
+"peuvent être refusés ;"
 
 #: src/views/FAQ.vue:488
 msgid ""
@@ -106,6 +115,10 @@ msgid ""
 "can for instance automatically blacklist videos or reject comments based on "
 "any rule (similar to Pleroma MRF);"
 msgstr ""
+"<strong>PeerTube 1.4</strong> a ajouté un système de plugins, et s'est "
+"assuré que les plugins peuvent par exemple blacklister automatiquement les "
+"vidéos ou rejeter les commentaires en fonction d'une règle quelconque ("
+"similaire à Pleroma MRF) ;"
 
 #: src/views/FAQ.vue:491
 msgid ""
@@ -117,6 +130,15 @@ msgid ""
 "\" of their choice; a list which is self-hostable, so that communities can "
 "grow at their own pace;"
 msgstr ""
+"<strong>PeerTube 2.0</strong> demande maintenant à l'administrateur de "
+"répondre aux questions concernant sa politique de modération et son "
+"dévouement à celle-ci. Intégrer une fonctionnalité permettant de suivre "
+"automatiquement un index public des instances de PeerTube dans le noyau de "
+"PeerTube, au lieu de laisser les administrateurs le scripter eux-mêmes. Cela "
+"permet aux administrateurs d'instances de suivre automatiquement les "
+"instances d'une \"liste de suivi\" de leur choix ; une liste qui est auto-"
+"hébergée, afin que les communautés puissent se développer à leur propre "
+"rythme ;"
 
 #: src/views/FAQ.vue:496
 msgid ""
@@ -129,6 +151,16 @@ msgid ""
 "that might increase moderation work like autofollow, and descriptions to the "
 "action dropdowns."
 msgstr ""
+"<strong>PeerTube 2.1</strong> a ajouté un mode de confidentialité "
+"<em>interne</em> des vidéos (ces vidéos ne seront pas partagées en dehors de "
+"l'instance), et l'ajout d'un accès rapide aux outils de modération sous les "
+"commentaires et les accroches pour créer des plugins d'enregistrement ("
+"geoblocking ou captchas par exemple) ; certains plugins tiers démontrent "
+"déjà cette capacité. Cette version a également mis l'accent sur la "
+"description des fonctionnalités de modération au sein de l'interface : "
+"avertissements pour les fonctionnalités qui pourraient augmenter le travail "
+"de modération comme le suivi automatique, et descriptions des menus "
+"déroulants des actions."
 
 #: src/views/FAQ.vue:218
 msgid ""
@@ -1858,10 +1890,17 @@ msgid ""
 "ongoing efforts</a> in that direction or <a href=\"https://github.com/"
 "Chocobozzz/PeerTube/issues/new\">suggest new ones</a>!"
 msgstr ""
+"Les développeurs de PeerTube s'engagent à développer et à améliorer les "
+"outils de modération pour rendre les instances toujours plus faciles à "
+"gérer. Nous vous invitons à prendre part aux discussions pour <a href=\""
+"https ://github.com/Chocobozzz/PeerTube/issues "
+"?utf8=%E2%9C%93&q=label%3A%22Component%3A+Moderation+%3Agodmode%3A%22+\">"
+"aider les efforts en cours</a> dans ce sens ou <a href=\"https ://github.com/"
+"Chocobozzz/PeerTube/issues/new\">suggest new ones</a> !"
 
 #: src/views/FAQ.vue:465
 msgid "PeerTube developers did not add moderation tools."
-msgstr ""
+msgstr "Les développeurs de PeerTube n'ont pas ajouté d'outils de modération."
 
 #: src/components/Footer.vue:19
 msgid "PeerTube Git"
@@ -1964,13 +2003,12 @@ msgstr ""
 "web d’hébergement vidéo qui allie trois avantages :"
 
 #: src/components/Footer.vue:33
-#, fuzzy
 msgid ""
 "PeerTube mascot created by <a target=\"_blank\" rel=\"noopener noreferrer\" "
 "href=\"https://www.davidrevoy.com/\">David Revoy</a>"
 msgstr ""
-"Le <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github."
-"com/Chocobozzz/PeerTube\">dépôt Git du code de PeerTube est ici</a>."
+"Mascotte de PeerTube créée par <a target=\"_blank\" rel=\"noopener "
+"noreferrer\" href=\"https://www.davidrevoy.com/\">David Revoy</a>"
 
 #: src/views/News.vue:4
 msgid "PeerTube news!"
@@ -2202,6 +2240,9 @@ msgid ""
 "Since the first stable release of PeerTube in October 2018, <strong>every "
 "release</strong> added or improved moderation features:"
 msgstr ""
+"Depuis la première version stable de PeerTube en octobre 2018, <strong>"
+"chaque version</strong> a ajouté ou amélioré des fonctionnalités de "
+"modération :"
 
 #: src/views/News.vue:358
 msgid ""
@@ -2478,7 +2519,7 @@ msgstr ""
 
 #: src/views/FAQ.vue:470
 msgid "The project's evolution demonstrates the contrary."
-msgstr ""
+msgstr "L'évolution du projet démontre le contraire."
 
 #: src/components/InstancesList.vue:35
 msgid "Themes"
