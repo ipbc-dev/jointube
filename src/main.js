@@ -40,13 +40,13 @@ const allLocales = Object.keys(availableLanguages).concat(Object.keys(aliasesLan
 const defaultLanguage = 'en_US'
 let currentLanguage = defaultLanguage
 
-const localePath = window.location.pathname
-  .replace(/^\//, '')
-  .replace(/\/$/, '')
+const match = window.location.pathname
+  .match('^/([^/]+)/?')
+const localePath = match ? match[1] : null
 
 const languageFromLocalStorage = localStorage.getItem('language')
 
-if (allLocales.includes(localePath)) {
+if (localePath && allLocales.includes(localePath)) {
   Vue.config.localePath = localePath
 
   currentLanguage = aliasesLanguages[localePath] ? aliasesLanguages[localePath] : localePath
