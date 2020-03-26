@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-03-26 18:47+0000\n"
+"PO-Revision-Date: 2020-03-27 21:09+0000\n"
 "Last-Translator: Balázs Meskó <mesko.balazs@fsf.hu>\n"
 "Language-Team: Hungarian <https://weblate.framasoft.org/projects/"
 "joinpeertube/main/hu/>\n"
@@ -226,7 +226,7 @@ msgstr "Aktivizmus"
 
 #: src/views/News.vue:460
 msgid "Adding subtitles"
-msgstr ""
+msgstr "Feliratok hozzáadása"
 
 #: src/views/Help.vue:79
 msgid "Administer PeerTube"
@@ -234,7 +234,7 @@ msgstr "A PeerTube adminisztrálása"
 
 #: src/views/News.vue:464
 msgid "Advanced search"
-msgstr ""
+msgstr "Speciális keresés"
 
 #: src/views/News.vue:148
 msgid ""
@@ -273,24 +273,24 @@ msgid "Allowed video space"
 msgstr ""
 
 #: src/views/News.vue:53
-#, fuzzy
 msgid "An enhanced documentation"
-msgstr "Olvassa el a dokumentációt"
+msgstr "Továbbfejlesztett dokumentáció"
 
 #: src/views/News.vue:22
-#, fuzzy
 msgid "An even more pleasant interface"
-msgstr "Jobb felület"
+msgstr "Egy még kellemesebb felület"
 
 #: src/views/FAQ.vue:49
 msgid ""
 "An open code (transparency) under a free/libre license (ethic, respect and "
 "community-driven development);"
 msgstr ""
+"Nyílt forráskód (átláthatóság) szabad licenc alatt (etika, tisztelet és "
+"közösség-vezérelt fejlesztés);"
 
 #: src/views/Home.vue:151
 msgid "An open-source, free/libre licence code"
-msgstr "Nyílt forráskódú, szabad licencű kód"
+msgstr "Nyílt forráskódú, szabad licencű forráskód"
 
 #: src/views/Home.vue:132
 msgid ""
@@ -398,27 +398,27 @@ msgstr "Tegyen fel kérdéseket a közösségnek"
 
 #: src/components/InstancesList.vue:85
 msgid "At least 1GB"
-msgstr ""
+msgstr "Legalább 1 GB"
 
 #: src/components/InstancesList.vue:93
 msgid "At least 20GB"
-msgstr ""
+msgstr "Legalább 20 GB"
 
 #: src/components/InstancesList.vue:97
 msgid "At least 50GB"
-msgstr ""
+msgstr "Legalább 50 GB"
 
 #: src/components/InstancesList.vue:89
 msgid "At least 5GB"
-msgstr ""
+msgstr "Legalább 5 GB"
 
 #: src/views/News.vue:551
 msgid "August 20, 2018"
-msgstr ""
+msgstr "2018. augusztus 20."
 
 #: src/components/InstanceCard.vue:274
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: src/views/FAQ.vue:67
 msgid ""
@@ -427,6 +427,10 @@ msgid ""
 "\"https://github.com/Chocobozzz/PeerTube/blob/develop/LICENSE\">a license</"
 "a>, so a legally enforceable contract."
 msgstr ""
+"Mert a szabad szoftverek tisztelik az alapvető szabadságjogokat, és ezt <a "
+"target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/"
+"Chocobozzz/PeerTube/blob/develop/LICENSE\">egy licenccel</a>, tehát egy "
+"jogilag érvényesíthető szerződéssel, garantálják."
 
 #: src/views/News.vue:63
 msgid ""
@@ -461,7 +465,7 @@ msgstr "Homályosítás"
 
 #: src/views/FAQ.vue:378
 msgid "Blur the title and thumbnail"
-msgstr ""
+msgstr "A cím és bélyegkép homályosítása"
 
 #: src/components/InstanceCard.vue:80
 msgid "Blurred"
@@ -524,15 +528,15 @@ msgstr ""
 
 #: src/components/InstancesList.vue:386
 msgid "Català"
-msgstr ""
+msgstr "Català"
 
 #: src/components/InstancesList.vue:387
 msgid "Čeština"
-msgstr ""
+msgstr "Čeština"
 
 #: src/components/I18n.vue:75
 msgid "Change interface language"
-msgstr ""
+msgstr "Felület nyelvének módosítása"
 
 #: src/views/News.vue:485 src/views/News.vue:542 src/views/News.vue:591
 #: src/views/News.vue:635
@@ -545,11 +549,11 @@ msgstr "Vígjáték"
 
 #: src/views/FAQ.vue:402
 msgid "Comments & Complaints"
-msgstr ""
+msgstr "Hozzászólások és panaszok"
 
 #: src/views/FAQ.vue:73
 msgid "Concretely here, it means that:"
-msgstr ""
+msgstr "Itt konkrétan, ezt jelenti:"
 
 #: src/components/Footer.vue:7
 msgid "Contact"
@@ -565,7 +569,7 @@ msgstr "Közreműködés a PeerTube fejlesztésében"
 
 #: src/views/Hall-Of-Fame.vue:426
 msgid "Contributors"
-msgstr ""
+msgstr "Közreműködők"
 
 #: src/components/Header.vue:23 src/components/InstancesList.vue:25
 #: src/views/Instances.vue:5
@@ -574,23 +578,24 @@ msgstr "Fiók létrehozása"
 
 #: src/views/FAQ.vue:255
 msgid "Creation and content"
-msgstr ""
+msgstr "Alkotás és tartalom"
 
 #: src/views/News.vue:259
 msgid "customization options when video sharing"
-msgstr ""
+msgstr "testreszabási lehetőségek videómegosztáskor"
 
 #: src/components/InstancesList.vue:390
 msgid "Deutsch"
 msgstr "Deutsch"
 
 #: src/components/Header.vue:8
+#, fuzzy
 msgid "developed by"
-msgstr ""
+msgstr "fejlesztette a(z)"
 
 #: src/views/News.vue:68
 msgid "Developments on comments"
-msgstr ""
+msgstr "Hozzászólásokat érintő fejlesztések"
 
 #: src/views/Home.vue:220
 msgid ""
@@ -621,7 +626,7 @@ msgstr "PeerTube példányok felfedezése"
 
 #: src/components/ContentSelection.vue:28
 msgid "Discover the channel"
-msgstr ""
+msgstr "Csatorna felfedezése"
 
 #: src/views/News.vue:6
 msgid "Discover the latest PeerTube improvements"
@@ -660,6 +665,13 @@ msgid ""
 "want to help translating PeerTube, do not hesitate to check out the "
 "documentation!"
 msgstr ""
+"A közösségi finanszírozási kampány során tovább dolgoztunk a honosítási "
+"rendszeren. És örömmel jelentjük be, hogy végre elkészült: a Peertube "
+"következő bétájában (béta 10) elérhető lesz. Amikor ezeket a sorokat írjuk, "
+"a webes interfész már elérhető a következő nyelveken: angol, francia, baszk, "
+"katalán, cseh és eszperantó (nagy köszönet az összes fordítónak). Ha Ön is "
+"segíteni a PeerTube lefordításában, akkor ne habozzon, és nézze meg a "
+"dokumentációt!"
 
 #: src/components/InstancesList.vue:374
 msgid "Education"
@@ -686,11 +698,11 @@ msgstr "Español"
 
 #: src/components/InstancesList.vue:388
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperanto"
 
 #: src/components/InstancesList.vue:385
 msgid "Euskara"
-msgstr ""
+msgstr "Euskara"
 
 #: src/views/FAQ.vue:5 src/views/FAQ.vue:649
 msgid "FAQ"
@@ -698,15 +710,15 @@ msgstr "Gyakori kérdések"
 
 #: src/views/News.vue:157
 msgid "features and improvements since v1 of November 2018;"
-msgstr ""
+msgstr "funkciók és fejlesztések a 2018. november v1-es verzió óta;"
 
 #: src/views/News.vue:13
 msgid "February 12, 2020"
-msgstr ""
+msgstr "2020. február 12."
 
 #: src/views/News.vue:355
 msgid "February 26, 2019"
-msgstr ""
+msgstr "2019. február 26."
 
 #: src/views/FAQ.vue:157
 msgid ""
@@ -715,6 +727,10 @@ msgid ""
 "own Terms of Services (for example, one can imagine a MeowTube where dogs "
 "videos are strictly forbidden 😉)."
 msgstr ""
+"A föderálásnak még egy előnye van: <strong>mindenki függetlenné "
+"válik</strong>. Zaïd, Catherin, Solar és Ön is meghozhatja a saját "
+"szabályait, az Ön szolgáltatási feltételeit (például elképzelhetünk egy "
+"MiaúTube-ot, ahol a kutyás videók szigorúan tiltottak 😉)."
 
 #: src/components/InstancesList.vue:363
 msgid "Films"
@@ -755,7 +771,7 @@ msgstr ""
 
 #: src/views/Hall-Of-Fame.vue:23
 msgid "Financial Contributors"
-msgstr ""
+msgstr "Adományozók"
 
 #: src/views/News.vue:605
 msgid "First of all, thank you again for contributing to PeerTube! ❤️"
@@ -843,7 +859,7 @@ msgstr "Français"
 
 #: src/views/News.vue:172
 msgid "Freely,"
-msgstr ""
+msgstr "Szabadon,"
 
 #: src/views/FAQ.vue:302
 msgid ""
@@ -862,7 +878,7 @@ msgstr "Játék"
 
 #: src/components/InstanceCard.vue:277
 msgid "GB"
-msgstr ""
+msgstr "GB"
 
 #: src/components/Header.vue:39
 msgid "Git"
@@ -870,11 +886,11 @@ msgstr "Git"
 
 #: src/views/NotFound.vue:10
 msgid "Go back to the homepage"
-msgstr ""
+msgstr "Ugrás vissza a kezdőoldalra"
 
 #: src/components/ContentSelection.vue:35
 msgid "Go on the instance"
-msgstr ""
+msgstr "Ugrás a példányra"
 
 #: src/views/Help.vue:44
 msgid "Go to the forum"
@@ -882,20 +898,20 @@ msgstr "Ugrás a fórumra"
 
 #: src/views/Hall-Of-Fame.vue:5 src/views/Hall-Of-Fame.vue:632
 msgid "Hall of Fame"
-msgstr ""
+msgstr "Dicsőségcsarnok"
 
 #: src/views/News.vue:423 src/views/News.vue:497 src/views/News.vue:554
 #: src/views/News.vue:603
 msgid "Hello everyone!"
-msgstr ""
+msgstr "Üdv mindenkinek!"
 
 #: src/views/News.vue:146
 msgid "Hello,"
-msgstr ""
+msgstr "Üdv,"
 
 #: src/views/News.vue:294
 msgid "Hello!"
-msgstr ""
+msgstr "Üdv!"
 
 #: src/components/Header.vue:31 src/views/Help.vue:5 src/views/Help.vue:199
 msgid "Help"
@@ -903,7 +919,7 @@ msgstr "Súgó"
 
 #: src/views/News.vue:365
 msgid "Here is a small retrospective of the end of 2018/beginning of 2019:"
-msgstr ""
+msgstr "Itt egy kis visszatekintés 2018 végéről/2019 elejéről:"
 
 #: src/views/News.vue:16 src/views/News.vue:184
 msgid "Hi everybody,"
@@ -919,19 +935,19 @@ msgstr "Elrejtés"
 
 #: src/views/FAQ.vue:379
 msgid "Hide them"
-msgstr ""
+msgstr "Elrejtés"
 
 #: src/components/Header.vue:19
 msgid "Home"
-msgstr ""
+msgstr "Kezdőlap"
 
 #: src/views/FAQ.vue:539
 msgid "How do I contribute to PeerTube’s code?"
-msgstr ""
+msgstr "Hogyan működhetek közre a PeerTube kódjában?"
 
 #: src/views/FAQ.vue:518
 msgid "How do I install PeerTube?"
-msgstr ""
+msgstr "Hogyan telepíthetem fel a PeerTube-ot?"
 
 #: src/components/InstancesList.vue:373
 msgid "How To"
@@ -1186,15 +1202,15 @@ msgstr "JoinPeerTube Git"
 
 #: src/views/News.vue:600
 msgid "July 23, 2018"
-msgstr ""
+msgstr "2018. július 23."
 
 #: src/views/News.vue:291
 msgid "June 5, 2019"
-msgstr ""
+msgstr "2019. június 5."
 
 #: src/components/InstanceCard.vue:275
 msgid "KB"
-msgstr ""
+msgstr "kB"
 
 #: src/components/InstancesList.vue:378
 msgid "Kids"
@@ -1206,11 +1222,11 @@ msgstr "Nyelvek"
 
 #: src/views/Home.vue:1
 msgid "Learn more about free/libre software"
-msgstr ""
+msgstr "Tudjon meg többet a szabad szoftverekről"
 
 #: src/views/Home.vue:1
 msgid "Learn more about the federation"
-msgstr ""
+msgstr "Tudjon meg többet a föderálásról"
 
 #: src/components/Footer.vue:5
 msgid "Legal notices"
@@ -1257,15 +1273,15 @@ msgstr ""
 
 #: src/components/InstanceCard.vue:276
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: src/views/News.vue:106 src/views/News.vue:262
 msgid "More features"
-msgstr ""
+msgstr "További funkciók"
 
 #: src/views/FAQ.vue:595
 msgid "More technical questions"
-msgstr ""
+msgstr "További műszaki kérdések"
 
 #: src/views/FAQ.vue:372
 msgid ""
@@ -1302,7 +1318,7 @@ msgstr "Zene"
 
 #: src/components/InstancesList.vue:392
 msgid "Nederlands"
-msgstr ""
+msgstr "Nederlands"
 
 #: src/views/Help.vue:28
 msgid "Need a detailed guide?"
@@ -1342,7 +1358,7 @@ msgstr "Nincs vélemény"
 
 #: src/components/InstanceCard.vue:24
 msgid "No video quota per user"
-msgstr ""
+msgstr "Nincs felhasználónkénti videókvóta"
 
 #: src/views/FAQ.vue:367
 msgid ""
@@ -1354,7 +1370,7 @@ msgstr ""
 
 #: src/views/News.vue:143
 msgid "November 12, 2019"
-msgstr ""
+msgstr "2019. november 12."
 
 #: src/views/FAQ.vue:290
 msgid ""
@@ -1383,11 +1399,11 @@ msgstr ""
 
 #: src/components/InstancesList.vue:394
 msgid "Occitan"
-msgstr ""
+msgstr "Occitan"
 
 #: src/views/News.vue:420
 msgid "October 16, 2018"
-msgstr ""
+msgstr "2018. október 16."
 
 #: src/views/FAQ.vue:209
 msgid ""
@@ -1458,7 +1474,7 @@ msgstr ""
 
 #: src/views/NotFound.vue:5 src/views/NotFound.vue:48
 msgid "Page not found"
-msgstr ""
+msgstr "Az oldal nem található"
 
 #: src/views/FAQ.vue:51
 msgid ""
@@ -1476,20 +1492,19 @@ msgstr ""
 
 #: src/views/News.vue:290
 msgid "PeerTube 1.3 is out!"
-msgstr ""
+msgstr "Megérkezett a PeerTube 1.3!"
 
 #: src/views/News.vue:180
 msgid "PeerTube 1.4 is out!"
-msgstr ""
+msgstr "Megérkezett a PeerTube 1.4!"
 
 #: src/views/News.vue:185
 msgid "Peertube 1.4 just came out! Here's a quick overview of what's new…"
 msgstr ""
 
 #: src/views/News.vue:12
-#, fuzzy
 msgid "PeerTube 2.1 is out!"
-msgstr "PeerTube Git"
+msgstr "Megérkezett a PeerTube 2.1!"
 
 #: src/views/Home.vue:68
 msgid ""
@@ -1501,19 +1516,19 @@ msgstr ""
 
 #: src/views/News.vue:599
 msgid "PeerTube crowdfunding newsletter #1"
-msgstr ""
+msgstr "1. PeerTube közösségi finanszírozási hírlevél"
 
 #: src/views/News.vue:550
 msgid "PeerTube crowdfunding newsletter #2"
-msgstr ""
+msgstr "2. PeerTube közösségi finanszírozási hírlevél"
 
 #: src/views/News.vue:493
 msgid "PeerTube crowdfunding newsletter #3"
-msgstr ""
+msgstr "3. PeerTube közösségi finanszírozási hírlevél"
 
 #: src/views/News.vue:419
 msgid "PeerTube crowdfunding newsletter #4"
-msgstr ""
+msgstr "4. PeerTube közösségi finanszírozási hírlevél"
 
 #: src/views/FAQ.vue:504
 msgid ""
@@ -1535,7 +1550,7 @@ msgstr "PeerTube Git"
 
 #: src/views/Instances.vue:133
 msgid "PeerTube instances"
-msgstr ""
+msgstr "PeerTube példányok"
 
 #: src/views/Home.vue:315
 msgid ""
@@ -1669,11 +1684,11 @@ msgstr "Emberek"
 
 #: src/components/InstanceCard.vue:21
 msgid "per user"
-msgstr ""
+msgstr "felhasználónként"
 
 #: src/views/News.vue:187
 msgid "Plug-in system"
-msgstr ""
+msgstr "Bővítményrendszer"
 
 #: src/components/InstancesList.vue:399
 msgid "Polski"
@@ -1685,7 +1700,7 @@ msgstr "Português (Portugal)"
 
 #: src/components/Footer.vue:15
 msgid "Press kit"
-msgstr ""
+msgstr "Sajtócsomag"
 
 #: src/views/Help.vue:7
 msgid "Questions on PeerTube? Need help? You've come to the right place!"
@@ -1745,7 +1760,7 @@ msgstr ""
 
 #: src/views/News.vue:448
 msgid "RSS Feeds"
-msgstr ""
+msgstr "RSS hírfolyamok"
 
 #: src/views/News.vue:433
 msgid ""
@@ -1776,11 +1791,11 @@ msgstr "Érzékeny videók"
 
 #: src/views/News.vue:494
 msgid "September 12, 2018"
-msgstr ""
+msgstr "2018. szeptember 18."
 
 #: src/views/News.vue:181
 msgid "September 25, 2019"
-msgstr ""
+msgstr "2019. szeptember 25."
 
 #: src/views/Home.vue:288
 msgid "Sign up"
@@ -1826,7 +1841,7 @@ msgstr ""
 
 #: src/views/Hall-Of-Fame.vue:11
 msgid "Sponsors"
-msgstr ""
+msgstr "Szponzorok"
 
 #: src/components/InstancesList.vue:366
 msgid "Sports"
@@ -1860,7 +1875,7 @@ msgstr ""
 
 #: src/components/InstancesList.vue:400
 msgid "suomi"
-msgstr ""
+msgstr "suomi"
 
 #: src/components/InstancesList.vue:398
 msgid "svenska"
@@ -1868,12 +1883,12 @@ msgstr "svenska"
 
 #: src/views/FAQ.vue:515
 msgid "Technical questions"
-msgstr ""
+msgstr "Műszaki kérdések"
 
 #: src/views/News.vue:134 src/views/News.vue:282 src/views/News.vue:346
 #: src/views/News.vue:410
 msgid "Thanks to all PeerTube contributors!"
-msgstr ""
+msgstr "Köszönjük az összes PeerTube közreműködőnek!"
 
 #: src/views/Home.vue:326
 msgid ""
@@ -2122,7 +2137,7 @@ msgstr ""
 
 #: src/views/News.vue:452
 msgid "Torrent import"
-msgstr ""
+msgstr "Torrent importálása"
 
 #: src/components/I18n.vue:22
 msgid "Translate"
@@ -2134,7 +2149,7 @@ msgstr "Utazás"
 
 #: src/components/InstanceCard.vue:270
 msgid "Unlimited space"
-msgstr ""
+msgstr "Korlátlan tárhely"
 
 #: src/views/Help.vue:72
 msgid "Upgrade PeerTube"
@@ -2142,7 +2157,7 @@ msgstr "A PeerTube frissítése"
 
 #: src/main.js:63
 msgid "value"
-msgstr ""
+msgstr "érték"
 
 #: src/components/InstancesList.vue:364
 msgid "Vehicles"
@@ -2150,7 +2165,7 @@ msgstr "Járművek"
 
 #: src/views/News.vue:468
 msgid "Video channel subscriptions"
-msgstr ""
+msgstr "Videócsatorna-feliratkozások"
 
 #: src/components/InstancesList.vue:15
 msgid "Video maker"
@@ -2534,7 +2549,7 @@ msgstr ""
 
 #: src/views/News.vue:456
 msgid "YouTube video import"
-msgstr ""
+msgstr "YouTube videó importálása"
 
 #: src/components/InstancesList.vue:389
 msgid "ελληνικά"
