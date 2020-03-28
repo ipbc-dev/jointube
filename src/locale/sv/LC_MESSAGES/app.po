@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-03-03 20:08+0000\n"
+"PO-Revision-Date: 2020-03-29 01:35+0000\n"
 "Last-Translator: Filip Bengtsson <filip@libreradio.org>\n"
 "Language-Team: Swedish <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/sv/>\n"
@@ -787,7 +787,7 @@ msgstr "Filmer"
 
 #: src/components/InstancesList.vue:3
 msgid "Filter according to your preferences"
-msgstr "Filtrera enligt dina preferenser"
+msgstr "Filtrera enligt dina önskemål"
 
 #: src/views/FAQ.vue:385
 msgid ""
@@ -2225,6 +2225,12 @@ msgid ""
 "\"noopener noreferrer\" href=\"https://contributopia.org/journal\">donation "
 "campaign</a>."
 msgstr ""
+"Dessa förbättringar är resultatet av de många bidragen PeerTubes gemenskap ("
+"stort tack!) och ett ett års arbete som finansierats tack vare <a target=\""
+"_blank\" rel=\"noopener noreferrer\" href=\"https://soutenir.framasoft.org\">"
+"donationer som stöder föreningens alla projekt</a>, genom <a target=\""
+"_blank\" rel=\"noopener noreferrer\" href=\"https://contributopia.org/"
+"journal\">en pågående kampanj</a>."
 
 #: src/views/Home.vue:125
 msgid "This is just how a <strong>federation</strong> works!"
