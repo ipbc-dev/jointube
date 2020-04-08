@@ -4,7 +4,13 @@
       <div class="title-block">
         <div class="title" v-translate>PeerTube news!</div>
 
-        <p v-translate>Discover the latest PeerTube improvements</p>
+        <p>
+          <span v-translate>Discover the latest PeerTube improvements</span>
+
+          <span v-translate>
+            Stay informed by subscribing to <a href="https://framalistes.org/sympa/subscribe/peertube-newsletter" target="_blank">the newsletter</a>
+          </span>
+        </p>
 
         <div class="separator"></div>
       </div>
@@ -668,6 +674,16 @@
 
     .title-block {
       margin-bottom: 60px;
+
+      a {
+        border-bottom: none;
+        font-weight: $font-semibold;
+        color: #000;
+      }
+
+      p > span {
+        display: block;
+      }
     }
 
     .news {
