@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-12-13 13:13+0000\n"
+"PO-Revision-Date: 2020-04-06 09:08+0000\n"
 "Last-Translator: Marcin Mikołajczak <me@mkljczk.pl>\n"
 "Language-Team: Polish <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/pl/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 3.11.2\n"
 "Generated-By: easygettext\n"
 
 #: src/views/Home.vue:54 src/views/Home.vue:305
@@ -19,7 +19,6 @@ msgid "?"
 msgstr "?"
 
 #: src/views/FAQ.vue:410
-#, fuzzy
 msgid ""
 "\"It's outrageous and unconscious: you're releasing PeerTube's version x.y.z "
 "when it doesn't contain the necessary tools to effectively manage videos "
@@ -28,11 +27,11 @@ msgid ""
 "advertising, or to (insert here your request to PeerTube). It will never "
 "work! What do you intend to do about it?\""
 msgstr ""
-"„To oburzające – wydajecie wersję 1 PeerTube, która nie zawiera wymaganych "
-"narzędzi aby zarządzać filmami z roszczeniami właścicieli praw autorskich "
-"czy efektywnie rozwiązywać problem nękania w komentarzach, narzędzi do "
-"monetyzacji przez reklamy czy (tu wstaw swoje zgłoszenie). To nigdy nie "
-"będzie działać! Co chcecie z tym zrobić?”"
+"„To oburzające – wydajecie wersję x.y.z PeerTube, która nie zawiera "
+"wymaganych narzędzi aby zarządzać filmami z roszczeniami właścicieli praw "
+"autorskich czy efektywnie rozwiązywać problem nękania w komentarzach, "
+"narzędzi do monetyzacji przez reklamy czy (tu wstaw swoje zgłoszenie). To "
+"nigdy nie będzie działać! Co chcecie z tym zrobić?”"
 
 #: src/components/InstanceCard.vue:49
 msgid "%{ instance.totalInstanceFollowers } follower instance"
@@ -84,12 +83,16 @@ msgid ""
 "<strong>PeerTube 1.1</strong> added bulk actions in the admin users table "
 "and instance/account muting;"
 msgstr ""
+"<strong>PeerTube 1.1</strong> dodało masowe działania na tabeli użytkowników "
+"w panelu administracyjnym oraz wyciszanie instancji/użytkowników;"
 
 #: src/views/FAQ.vue:481
 msgid ""
 "<strong>PeerTube 1.2</strong> added the ability to unfederate a video on "
 "blacklist; the notification system now shows reports, and new users;"
 msgstr ""
+"<strong>PeerTube 1.2</strong> dodał możliwość usunięcia filmu z federacji; "
+"nowy system powiadomień wyświetla zgłoszenia i nowych użytkowników;"
 
 #: src/views/FAQ.vue:484
 msgid ""
@@ -98,6 +101,11 @@ msgid ""
 "moderator reviews it. The instance's followers management was also reworked: "
 "UI is improved, follows can be denied;"
 msgstr ""
+"<strong>PeerTube 1.3</strong> dodało administratorom możliwość "
+"automatycznego dodawania do kwarantanny filmy nowych/niezaufanych "
+"użytkowników, zanim zatwierdzi je moderator. Zarządzanie śledzącymi "
+"instancją również zostało przygotowane na nowo: usprawniono interfejs, "
+"śledzenia mogą być odrzucone;"
 
 #: src/views/FAQ.vue:488
 msgid ""
@@ -105,6 +113,9 @@ msgid ""
 "can for instance automatically blacklist videos or reject comments based on "
 "any rule (similar to Pleroma MRF);"
 msgstr ""
+"<strong>PeerTube 1.4</strong> dodało system wtyczek i pozwala wtyczkom na "
+"przykład automatycznie dodawać filmy na czarną listę lub odrzucać je na "
+"podstawie reguły (podobnie do MRF Pleromy);"
 
 #: src/views/FAQ.vue:491
 msgid ""
@@ -178,6 +189,8 @@ msgid ""
 "that version 2.1 has been released. Here's a quick overview of the features "
 "it brings..."
 msgstr ""
+"Kilka miesięcy po ogłoszeniu PeerTube V2, cieszymy się z możliwości "
+"ogłoszenia o wydaniu wersji 2.1. Oto krótkie omówienie jego nowych funkcji…"
 
 #: src/views/FAQ.vue:7
 msgid "A few questions to discover PeerTube"
@@ -301,14 +314,12 @@ msgid "Allowed video space"
 msgstr "Dostępna przestrzeń dyskowa"
 
 #: src/views/News.vue:53
-#, fuzzy
 msgid "An enhanced documentation"
-msgstr "Przeczytaj dokumentację"
+msgstr "Usprawniona dokumentacja"
 
 #: src/views/News.vue:22
-#, fuzzy
 msgid "An even more pleasant interface"
-msgstr "Ulepszony interfejs"
+msgstr "Jeszcze bardziej przyjemny interfejs"
 
 #: src/views/FAQ.vue:49
 msgid ""
@@ -366,6 +377,7 @@ msgid ""
 "Another news: you can now write comments in Markdown language in a "
 "restricted syntax."
 msgstr ""
+"Inne nowości: możesz teraz pisać komentarze w ograniczonej składni Markdown."
 
 #: src/views/News.vue:250
 msgid ""
@@ -540,7 +552,7 @@ msgstr "Przeglądaj/poznawaj instancje PeerTube"
 
 #: src/components/InstancesList.vue:109
 msgid "Built from instances.joinpeertube.org"
-msgstr ""
+msgstr "Na podstawie instances.joinpeertube.org"
 
 #: src/views/FAQ.vue:212
 msgid ""
@@ -622,7 +634,7 @@ msgstr "Komedia"
 
 #: src/views/FAQ.vue:402
 msgid "Comments & Complaints"
-msgstr ""
+msgstr "Komentarze i uwagi"
 
 #: src/views/FAQ.vue:73
 msgid "Concretely here, it means that:"
@@ -667,7 +679,7 @@ msgstr "rozwijane prez"
 
 #: src/views/News.vue:68
 msgid "Developments on comments"
-msgstr ""
+msgstr "Rozwój komentarzy"
 
 #: src/views/Home.vue:220
 msgid ""
@@ -836,6 +848,8 @@ msgid ""
 "Finally, we added an <em>Options</em> menu underneath users' comments to "
 "mute an account or an instance very easily."
 msgstr ""
+"Na koniec, dodaliśmy menu <em>Opcje</em> pod komentarzami użytkowników, "
+"pozwalające na proste wyciszenie użytkownika lub instancji."
 
 #: src/views/News.vue:334
 msgid ""
@@ -1317,6 +1331,8 @@ msgid ""
 "It is now possible to display comments according to 2 criteria: the most "
 "recent first (default display) or most replies first."
 msgstr ""
+"Jest możliwe teraz wyświetlanie komentarzy według dwóch kryteriów: od "
+"najnowszych (domyślnie) i według liczby odpowiedzi."
 
 #: src/views/Home.vue:263
 msgid ""
@@ -1790,7 +1806,7 @@ msgstr ""
 
 #: src/views/FAQ.vue:465
 msgid "PeerTube developers did not add moderation tools."
-msgstr ""
+msgstr "Twórcy PeerTube nie dodali narzędzi moderacyjnych."
 
 #: src/components/Footer.vue:19
 msgid "PeerTube Git"
@@ -2123,6 +2139,8 @@ msgid ""
 "Since the first stable release of PeerTube in October 2018, <strong>every "
 "release</strong> added or improved moderation features:"
 msgstr ""
+"Od wydania pierwszej stabilnej wersji PeerTube w październiku 2018, <strong>"
+"każde wydanie</strong> dodało lub usprawniło funkcje moderacyjne:"
 
 #: src/views/News.vue:358
 msgid ""
@@ -2385,7 +2403,7 @@ msgstr ""
 
 #: src/views/FAQ.vue:470
 msgid "The project's evolution demonstrates the contrary."
-msgstr ""
+msgstr "To, jak rozwija się projekt, przedstawia coś innego."
 
 #: src/components/InstancesList.vue:35
 msgid "Themes"
