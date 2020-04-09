@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-03-27 21:09+0000\n"
+"PO-Revision-Date: 2020-04-10 08:25+0000\n"
 "Last-Translator: Balázs Meskó <mesko.balazs@fsf.hu>\n"
 "Language-Team: Hungarian <https://weblate.framasoft.org/projects/"
 "joinpeertube/main/hu/>\n"
@@ -1852,6 +1852,8 @@ msgid ""
 "Stay informed by subscribing to <a href=\"https://framalistes.org/sympa/"
 "subscribe/peertube-newsletter\" target=\"_blank\">the newsletter</a>"
 msgstr ""
+"Legyen tájékozott, és iratkozzon fel a <a href=\"https://framalistes.org/"
+"sympa/subscribe/peertube-newsletter\" target=\"_blank\">hírlevélre</a>"
 
 #: src/views/News.vue:241
 msgid ""
@@ -2425,7 +2427,7 @@ msgstr "Kinek köszönhető a"
 
 #: src/views/FAQ.vue:281
 msgid "Who is responsible for content published on PeerTube?"
-msgstr ""
+msgstr "Ki a felelős a PeerTube-ra feltöltött tartalomért?"
 
 #: src/views/FAQ.vue:109
 msgid "Why broadcast PeerTube videos through peer-to-peer?"
@@ -2436,10 +2438,12 @@ msgid ""
 "Why does PeerTube use the ActivityPub federation protocol? Why not IPFS / d."
 "tube / Steemit?"
 msgstr ""
+"A PeerTube miért az ActivityPub föderációs protokollt használja? Miért nem "
+"az IPFS-t / d.tube-ot / Steemitet használja?"
 
 #: src/views/FAQ.vue:62
 msgid "Why is it better as free/libre software?"
-msgstr ""
+msgstr "Miért jobb a szabad szoftver?"
 
 #: src/views/Home.vue:12
 msgid ""
@@ -2497,6 +2501,15 @@ msgid ""
 "noreferrer\" href=\"https://docs.joinpeertube.org/#/contribute-getting-"
 "started\">contributing guide</a> for more information."
 msgstr ""
+"<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/"
+"Chocobozzz/PeerTube/issues\">Létrehozhat egy esetet</a>, közreműködhet "
+"benne, vagy nekiláthat egy <a target=\"_blank\" rel=\"noopener noreferrer\" "
+"href=\"https://github.com/Chocobozzz/PeerTube/"
+"issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue+%3Abeginner%3A%22\""
+"> kezdőknek való, könnyű problémának </a>. További információkért lásd a <a "
+"target=\"_blank\" rel=\"noopener noreferrer\" href=\""
+"https://docs.joinpeertube.org/#/contribute-getting-started\">közreműködési "
+"útmutatót</a>."
 
 #: src/views/News.vue:520
 msgid ""
@@ -2504,6 +2517,8 @@ msgid ""
 "github.com/Chocobozzz/PeerTube/blob/develop/CHANGELOG.md#v100-beta12\">here</"
 "a>."
 msgstr ""
+"Elolvashatja a <em>beta 12</em> <a href=\"https://github.com/Chocobozzz/"
+"PeerTube/blob/develop/CHANGELOG.md#v100-beta12\">teljes változásnaplóját</a>."
 
 #: src/views/Home.vue:117
 msgid ""
@@ -2521,7 +2536,7 @@ msgstr "Kérdése van?"
 
 #: src/views/FAQ.vue:344
 msgid "You need to find a PeerTube hosting instance you trust."
-msgstr ""
+msgstr "Keresnie kell egy olyan PeerTube példányt, amelyben megbízik."
 
 #: src/components/InstancesList.vue:21
 msgid "You want to"
@@ -2533,6 +2548,9 @@ msgid ""
 "promised that this version 1.0 would be a tool that would include all the "
 "features corresponding to all cases."
 msgstr ""
+"Igaza van. A PeerTube nem tökéletes eszköz, sőt. Sosem ígértük, hogy ez az "
+"1.0-s verzió lesz az az eszköz, amely minden használati esethez biztosítja "
+"az összes szükséges funkciót."
 
 #: src/views/Home.vue:273
 msgid "Your move!"
