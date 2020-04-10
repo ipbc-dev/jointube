@@ -12,7 +12,7 @@
 
       <div class="marketing" v-translate>
         PeerTube, developed by Framasoft, is the free and decentralized alternative to video platforms,
-        providing you over 200,000 videos published by 30,000 users and viewed over 10 million times.
+        providing you over 200,000 videos published by 30,000 users and viewed over 10 million times
       </div>
 
       <div class="buttons-row">
