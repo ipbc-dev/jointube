@@ -1762,6 +1762,13 @@ msgid ""
 "good management of my instance."
 msgstr ""
 
+#: src/views/Home.vue:12
+msgid ""
+"PeerTube, developed by Framasoft, is the free and decentralized alternative "
+"to video platforms, providing you over 200,000 videos published by 30,000 "
+"users and viewed over 10 million times."
+msgstr ""
+
 #: src/views/News.vue:360
 msgid "PeerTube: retrospective, new features and more to come!"
 msgstr "PeerTube: tillbakablick, nya funktioner och mer på gång!"
@@ -2616,16 +2623,6 @@ msgstr ""
 msgid "Why is it better as free/libre software?"
 msgstr "Varför är det bättre som fri mjukvara?"
 
-#: src/views/Home.vue:12
-msgid ""
-"With more than 100 000 hosted videos, viewed more than 6 millions times and "
-"20 000 users, PeerTube is the decentralized free software alternative to "
-"videos platforms developed by Framasoft"
-msgstr ""
-"Med fler än 100&nbsp;000 videor, visade fler än sex miljoner gånger och "
-"20&nbsp;000 användare, är PeerTube ett decentraliserad fritt alternativ till "
-"videoplattformar, utvecklat av Framasoft"
-
 #: src/views/FAQ.vue:178
 msgid ""
 "With PeerTube, <strong>you can choose the hoster of your videos according to "
@@ -2746,3 +2743,12 @@ msgstr "Japanska"
 #: src/components/InstancesList.vue:396
 msgid "简体中文（中国）"
 msgstr ""
+
+#~ msgid ""
+#~ "With more than 100 000 hosted videos, viewed more than 6 millions times "
+#~ "and 20 000 users, PeerTube is the decentralized free software alternative "
+#~ "to videos platforms developed by Framasoft"
+#~ msgstr ""
+#~ "Med fler än 100&nbsp;000 videor, visade fler än sex miljoner gånger och "
+#~ "20&nbsp;000 användare, är PeerTube ett decentraliserad fritt alternativ "
+#~ "till videoplattformar, utvecklat av Framasoft"

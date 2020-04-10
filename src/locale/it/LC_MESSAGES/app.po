@@ -1671,6 +1671,13 @@ msgid ""
 "good management of my instance."
 msgstr ""
 
+#: src/views/Home.vue:12
+msgid ""
+"PeerTube, developed by Framasoft, is the free and decentralized alternative "
+"to video platforms, providing you over 200,000 videos published by 30,000 "
+"users and viewed over 10 million times."
+msgstr ""
+
 #: src/views/News.vue:360
 msgid "PeerTube: retrospective, new features and more to come!"
 msgstr ""
@@ -2447,13 +2454,6 @@ msgstr ""
 #: src/views/FAQ.vue:62
 msgid "Why is it better as free/libre software?"
 msgstr "Perché è meglio un programma libero?"
-
-#: src/views/Home.vue:12
-msgid ""
-"With more than 100 000 hosted videos, viewed more than 6 millions times and "
-"20 000 users, PeerTube is the decentralized free software alternative to "
-"videos platforms developed by Framasoft"
-msgstr ""
 
 #: src/views/FAQ.vue:178
 msgid ""

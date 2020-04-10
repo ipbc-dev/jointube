@@ -2057,6 +2057,13 @@ msgstr ""
 "PeerTube vx.y.z ne me semble pas contenir tous les outils nécessaires à une "
 "bonne gestion de mon instance."
 
+#: src/views/Home.vue:12
+msgid ""
+"PeerTube, developed by Framasoft, is the free and decentralized alternative "
+"to video platforms, providing you over 200,000 videos published by 30,000 "
+"users and viewed over 10 million times."
+msgstr ""
+
 #: src/views/News.vue:360
 msgid "PeerTube: retrospective, new features and more to come!"
 msgstr "PeerTube : rétrospective et nouvelles fonctionnalités à venir !"
@@ -3117,16 +3124,6 @@ msgstr ""
 msgid "Why is it better as free/libre software?"
 msgstr "Pourquoi c’est mieux que ce soit un logiciel libre ?"
 
-#: src/views/Home.vue:12
-msgid ""
-"With more than 100 000 hosted videos, viewed more than 6 millions times and "
-"20 000 users, PeerTube is the decentralized free software alternative to "
-"videos platforms developed by Framasoft"
-msgstr ""
-"Avec plus de 100 000 vidéos hébergées, visionnées plus de 6 millions de fois "
-"et 20 000 utilisateur⋅ices, PeerTube est l'alternative libre et "
-"décentralisée aux plateformes vidéos proposée par Framasoft"
-
 #: src/views/FAQ.vue:178
 msgid ""
 "With PeerTube, <strong>you can choose the hoster of your videos according to "
@@ -3269,6 +3266,15 @@ msgstr "Japonais"
 #: src/components/InstancesList.vue:396
 msgid "简体中文（中国）"
 msgstr "Chinois simplifié"
+
+#~ msgid ""
+#~ "With more than 100 000 hosted videos, viewed more than 6 millions times "
+#~ "and 20 000 users, PeerTube is the decentralized free software alternative "
+#~ "to videos platforms developed by Framasoft"
+#~ msgstr ""
+#~ "Avec plus de 100 000 vidéos hébergées, visionnées plus de 6 millions de "
+#~ "fois et 20 000 utilisateur⋅ices, PeerTube est l'alternative libre et "
+#~ "décentralisée aux plateformes vidéos proposée par Framasoft"
 
 #~ msgid "A free software to take back control of your videos! "
 #~ msgstr "Un logiciel libre pour reprendre le contrôle de vos vidéos ! "

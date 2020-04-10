@@ -1110,6 +1110,10 @@ msgstr "PeerTube uses ActivityPub because this federation protocol is recommende
 msgid "PeerTube vx.y.z does not seem to me to contain all the tools necessary for a good management of my instance."
 msgstr "PeerTube vx.y.z does not seem to me to contain all the tools necessary for a good management of my instance."
 
+#: src/views/Home.vue:12
+msgid "PeerTube, developed by Framasoft, is the free and decentralized alternative to video platforms, providing you over 200,000 videos published by 30,000 users and viewed over 10 million times."
+msgstr "PeerTube, developed by Framasoft, is the free and decentralized alternative to video platforms, providing you over 200,000 videos published by 30,000 users and viewed over 10 million times."
+
 #: src/views/News.vue:360
 msgid "PeerTube: retrospective, new features and more to come!"
 msgstr "PeerTube: retrospective, new features and more to come!"
@@ -1610,10 +1614,6 @@ msgstr "Why does PeerTube use the ActivityPub federation protocol? Why not IPFS 
 #: src/views/FAQ.vue:62
 msgid "Why is it better as free/libre software?"
 msgstr "Why is it better as free/libre software?"
-
-#: src/views/Home.vue:12
-msgid "With more than 100 000 hosted videos, viewed more than 6 millions times and 20 000 users, PeerTube is the decentralized free software alternative to videos platforms developed by Framasoft"
-msgstr "With more than 100 000 hosted videos, viewed more than 6 millions times and 20 000 users, PeerTube is the decentralized free software alternative to videos platforms developed by Framasoft"
 
 #: src/views/FAQ.vue:178
 msgid "With PeerTube, <strong>you can choose the hoster of your videos according to his terms of services</strong>, his moderation policy, his federation choices... As you don't have a tech giant facing you, you might be able to talk with you hoster if you ever have a problem, a need, or something you want."
