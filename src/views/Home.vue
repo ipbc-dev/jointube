@@ -439,7 +439,7 @@
       .marketing {
         font-size: 16px;
         margin: 30px auto;
-        width: 500px;
+        width: 535px;
         text-align: center;
 
         @media screen and (max-width: $small-screen) {
