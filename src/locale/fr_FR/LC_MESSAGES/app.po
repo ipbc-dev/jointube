@@ -2058,10 +2058,11 @@ msgstr ""
 "bonne gestion de mon instance."
 
 #: src/views/Home.vue:12
+#, fuzzy
 msgid ""
 "PeerTube, developed by Framasoft, is the free and decentralized alternative "
 "to video platforms, providing you over 200,000 videos published by 30,000 "
-"users and viewed over 10 million times."
+"users and viewed over 10 million times"
 msgstr ""
 "PeerTube, proposé par Framasoft, est l'alternative libre et décentralisée "
 "aux plateformes vidéos, qui vous donne accès à plus de 200 000 vidéos "
