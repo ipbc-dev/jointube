@@ -206,7 +206,7 @@
             <div class="left-bar"></div>
 
             <div class="text" v-translate>
-              With PeerTube, chose <strong>your hosting company and the rules you believe in.</strong>
+              With PeerTube, choose <strong>your hosting company and the rules you believe in.</strong>
             </div>
           </div>
 
