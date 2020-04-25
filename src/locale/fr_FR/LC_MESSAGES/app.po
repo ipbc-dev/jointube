@@ -3143,8 +3143,9 @@ msgstr ""
 "une envie."
 
 #: src/views/Home.vue:207
+#, fuzzy
 msgid ""
-"With PeerTube, chose <strong>your hosting company and the rules you believe "
+"With PeerTube, choose <strong>your hosting company and the rules you believe "
 "in.</strong>"
 msgstr ""
 "PeerTube vous permet de choisir <strong>un hébergement et des règles qui "

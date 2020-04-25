@@ -1620,8 +1620,8 @@ msgid "With PeerTube, <strong>you can choose the hoster of your videos according
 msgstr "With PeerTube, <strong>you can choose the hoster of your videos according to his terms of services</strong>, his moderation policy, his federation choices... As you don't have a tech giant facing you, you might be able to talk with you hoster if you ever have a problem, a need, or something you want."
 
 #: src/views/Home.vue:207
-msgid "With PeerTube, chose <strong>your hosting company and the rules you believe in.</strong>"
-msgstr "With PeerTube, chose <strong>your hosting company and the rules you believe in.</strong>"
+msgid "With PeerTube, choose <strong>your hosting company and the rules you believe in.</strong>"
+msgstr "With PeerTube, choose <strong>your hosting company and the rules you believe in.</strong>"
 
 #: src/views/Home.vue:226
 msgid "With PeerTube, you get to choose your hosting provider according to their terms of use, such as their disk space limit per user, their moderation policy, who they chose to federate with... You are not speaking with a huge tech company, so you can talk it out in case of any issue, need, desire..."
