@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-04-20 20:08+0000\n"
+"PO-Revision-Date: 2020-04-29 15:24+0000\n"
 "Last-Translator: Filip Bengtsson <filip@libreradio.org>\n"
 "Language-Team: Swedish <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/sv/>\n"
@@ -1775,6 +1775,9 @@ msgid ""
 "to video platforms, providing you over 200,000 videos published by 30,000 "
 "users and viewed over 10 million times"
 msgstr ""
+"PeerTube, utvecklat av Framasoft, är den fria och decentraliserade webbens "
+"videoplattform med fler än 200&nbsp;000 videor publicerade av 30&nbsp;000 "
+"användare med mer än 10 miljoner visningar"
 
 #: src/views/News.vue:360
 msgid "PeerTube: retrospective, new features and more to come!"
@@ -2642,13 +2645,12 @@ msgid ""
 msgstr ""
 
 #: src/views/Home.vue:207
-#, fuzzy
 msgid ""
 "With PeerTube, choose <strong>your hosting company and the rules you believe "
 "in.</strong>"
 msgstr ""
-"Med PeerTube kan du välja <strong>ett webbhotell med regler du tror på</"
-"strong>."
+"Med PeerTube kan du välja <strong>ett webbhotell med regler du tror "
+"på</strong>"
 
 #: src/views/Home.vue:226
 msgid ""
