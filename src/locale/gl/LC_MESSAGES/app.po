@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-04-30 10:14+0000\n"
+"PO-Revision-Date: 2020-05-06 07:11+0000\n"
 "Last-Translator: josé m. <correo@xmgz.eu>\n"
 "Language-Team: Galician <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/gl/>\n"
@@ -20,6 +20,12 @@ msgstr "?"
 #: src/views/FAQ.vue:410
 msgid "\"It's outrageous and unconscious: you're releasing PeerTube's version x.y.z when it doesn't contain the necessary tools to effectively manage videos claimed by rights holders, or to effectively manage the issue of online harassment in comments, or to effectively manage monetization through advertising, or to (insert here your request to PeerTube). It will never work! What do you intend to do about it?\""
 msgstr ""
+"\"É escandaloso e irresponsable: publicas a versión x.y.z de PeerTube cando "
+"aínda non ten todas as ferramentas necesarias para que as posuidoras dos "
+"dereitos poidan xestionalos vídeos, ou que poidan xestionar os insultos nos "
+"comentarios, ou monetizar o vídeo a través da publicidade, ou (escribe aquí "
+"calquera petición a PeerTube). Nunca vai funcionar! ¿Que pensades facer ao "
+"respecto?\""
 
 #: src/components/InstanceCard.vue:49
 msgid "%{ instance.totalInstanceFollowers } follower instance"
@@ -452,204 +458,241 @@ msgstr ""
 #: src/views/Instances.vue:25
 msgid "By <strong>filtering according to your profile</strong> (video maker or viewer), <strong>themes</strong> that you are looking for or <strong>languages</strong> you speak, <strong>find an instance whose rules match your needs!</strong>"
 msgstr ""
+"A través do <strong>filtro de acordo ao teu perfil</strong> (creadora ou "
+"espectadora), os <strong>temas</strong> que buscas ou os "
+"<strong>idiomas</strong> que falas, <strong>atopa unha instancia que se "
+"axeite as túas necesidades!</strong>"
 
 #: src/views/FAQ.vue:448
 msgid "By acting both on the <i>core</i>, but also by allowing the development of plugins, we believe that PeerTube will, in the long term, be able to respond much better to these issues and allow different communities to adapt PeerTube to their needs."
 msgstr ""
+"Actuando tanto sobre o <i>núcleo</i>, pero tamén permitindo o "
+"desenvolvemento de engadidos, cremos que PeerTube poderá, a longo plazo, "
+"responder moito mellor a estos temas e permitir que diferentes comunidades o "
+"adapten as súas necesidades."
 
 #: src/views/FAQ.vue:381
 msgid "By default, this configuration is set to \"Hide them\". If some administrators decide to display them with a blur filter for example, it's <strong>their</strong> choice."
 msgstr ""
+"Por omisión, esta configuración establécese a \"Agochado\". Se alguén da "
+"administración decide amosalos por exemplo cun filtro de esborranchado, "
+"sería a elección <strong>propia</strong>."
 
 #: src/components/InstancesList.vue:386
 msgid "Català"
-msgstr ""
+msgstr "Catalá"
 
 #: src/components/InstancesList.vue:387
 msgid "Čeština"
-msgstr ""
+msgstr "Čeština"
 
 #: src/components/I18n.vue:75
 msgid "Change interface language"
-msgstr ""
+msgstr "Mudar idioma da interface"
 
 #: src/views/News.vue:491 src/views/News.vue:548 src/views/News.vue:597
 #: src/views/News.vue:641
 msgid "Cheers,"
-msgstr ""
+msgstr "Parabéns,"
 
 #: src/components/InstancesList.vue:370
 msgid "Comedy"
-msgstr ""
+msgstr "Comedia"
 
 #: src/views/FAQ.vue:402
 msgid "Comments & Complaints"
-msgstr ""
+msgstr "Comentarios e Queixas"
 
 #: src/views/FAQ.vue:73
 msgid "Concretely here, it means that:"
-msgstr ""
+msgstr "Concretamente aquí, significa que:"
 
 #: src/components/Footer.vue:7
 msgid "Contact"
-msgstr ""
+msgstr "Contacto"
 
 #: src/components/Header.vue:35
 msgid "Contribute"
-msgstr ""
+msgstr "Contribuír"
 
 #: src/views/Help.vue:88
 msgid "Contribute to PeerTube"
-msgstr ""
+msgstr "Contribuír a PeerTube"
 
 #: src/views/Hall-Of-Fame.vue:426
 msgid "Contributors"
-msgstr ""
+msgstr "Contribuíntes"
 
 #: src/components/Header.vue:23 src/components/InstancesList.vue:25
 #: src/views/Instances.vue:5
 msgid "Create an account"
-msgstr ""
+msgstr "Crear unha conta"
 
 #: src/views/FAQ.vue:255
 msgid "Creation and content"
-msgstr ""
+msgstr "Creatividade e contido"
 
 #: src/views/News.vue:265
 msgid "customization options when video sharing"
-msgstr ""
+msgstr "opcións de personalización ao compartir video"
 
 #: src/components/InstancesList.vue:390
 msgid "Deutsch"
-msgstr ""
+msgstr "Neerlandés"
 
 #: src/components/Header.vue:8
 msgid "developed by"
-msgstr ""
+msgstr "desenvolto por"
 
 #: src/views/News.vue:74
 msgid "Developments on comments"
-msgstr ""
+msgstr "Desenvolvemento en comentarios"
 
 #: src/views/Home.vue:220
 msgid "Direct contact with a human-scale hoster allows for two things: you no longer are the client of a huge tech company, and <strong>you can nurture a special relationship with your hoster, who distributes your data.</strong>"
 msgstr ""
+"O contacto directo a escala humana permíteche: non ser o cliente dunha "
+"empresa enorme, e <strong>establecer unha relación especial con quen hospeda "
+"os teus videos, quen distribúe os teus contidos.</strong>"
 
 #: src/components/InstancesList.vue:29
 msgid "Discover instances"
-msgstr ""
+msgstr "Descubrir instancias"
 
 #: src/views/Home.vue:34
 msgid "Discover our content selection"
-msgstr ""
+msgstr "Descubre a nosa selección de contido"
 
 #: src/views/Help.vue:23
 msgid "Discover our FAQ"
-msgstr ""
+msgstr "Descubre as PMF"
 
 #: src/views/Home.vue:42 src/views/Home.vue:110
 msgid "Discover PeerTube instances"
-msgstr ""
+msgstr "Descubrir instancias PeerTube"
 
 #: src/components/ContentSelection.vue:28
 msgid "Discover the channel"
-msgstr ""
+msgstr "Descubre o canal"
 
 #: src/views/News.vue:7
 msgid "Discover the latest PeerTube improvements"
-msgstr ""
+msgstr "Coñecer as últimas melloras de PeerTube"
 
 #: src/components/InstancesList.vue:59
 msgid "Display"
-msgstr ""
+msgstr "Amosar"
 
 #: src/views/FAQ.vue:377
 msgid "Display them"
-msgstr ""
+msgstr "Móstramos"
 
 #: src/components/InstanceCard.vue:81
 msgid "Displayed"
-msgstr ""
+msgstr "Amosado"
 
 #: src/views/FAQ.vue:531
 msgid "Don't bother the developer to help you install your instance: we have a <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framacolibri.org/c/peertube\">support forum</a> for that."
 msgstr ""
+"Non amoles as desenvolvedoras coa instalación da túa instancia: temos un <a "
+"target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framacolibri."
+"org/c/peertube\">foro de axuda</a> para iso."
 
 #: src/views/Home.vue:344
 msgid "Donate to Framasoft"
-msgstr ""
+msgstr "Doar a Framasoft"
 
 #: src/views/News.vue:613
 msgid "During the crowdfunding campaign, we continued to work on the localization system. And we are happy to announce it's finally completed: it will be available in the next beta (beta 10) of PeerTube. As of this writing, the web interface is already available in english, french, basque, catalan, czech and esperanto (huge thank you to all of the translators). If you too want to help translating PeerTube, do not hesitate to check out the documentation!"
 msgstr ""
+"Durante a campaña de micromecenado, continuamos a traballar na tradución. "
+"Alédanos anunciar que está finalmente completa: na seguinte beta (beta 10) "
+"de PeerTube estará dispoñible. Na hora de escribir isto, a interface web "
+"está dispoñible en inglés, francés, euskera, catalán, checo e esperanto ("
+"moitas grazas as tradutoras). Se queres axudar a traducir PeerTube, non "
+"dubides en ler a documentación!"
 
 #: src/components/InstancesList.vue:374
 msgid "Education"
-msgstr ""
+msgstr "Educación"
 
 #: src/components/InstancesList.vue:382
 msgid "English"
-msgstr ""
+msgstr "Inglés"
 
 #: src/views/Home.vue:290
 msgid "Enjoy every feature: history, subscriptions, playlists, notifications..."
 msgstr ""
+"Desfruta de todas as funcións: historial, subscricións, listas de "
+"reprodución, notificacións..."
 
 #: src/components/InstancesList.vue:371
 msgid "Entertainment"
-msgstr ""
+msgstr "Entretemento"
 
 #: src/components/InstancesList.vue:393
 msgid "Español"
-msgstr ""
+msgstr "Español"
 
 #: src/components/InstancesList.vue:388
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperanto"
 
 #: src/components/InstancesList.vue:385
 msgid "Euskara"
-msgstr ""
+msgstr "Euskera"
 
 #: src/views/FAQ.vue:5 src/views/FAQ.vue:649
 msgid "FAQ"
-msgstr ""
+msgstr "PMF"
 
 #: src/views/News.vue:163
 msgid "features and improvements since v1 of November 2018;"
-msgstr ""
+msgstr "características e melloras desde a v1 de novembro 2018;"
 
 #: src/views/News.vue:19
 msgid "February 12, 2020"
-msgstr ""
+msgstr "12 de Febreiro, 2020"
 
 #: src/views/News.vue:361
 msgid "February 26, 2019"
-msgstr ""
+msgstr "26 de Febreiro, 2019"
 
 #: src/views/FAQ.vue:157
 msgid "Federation offers another benefit: <strong>everyone becomes independent</strong>. Zaïd, Catherin, Solar and yourself can make your own rules, your own Terms of Services (for example, one can imagine a MeowTube where dogs videos are strictly forbidden 😉)."
 msgstr ""
+"A Federación proporciona outro beneficio: <strong>todas obtemos "
+"independencia</strong>. Zaïd, Catherin, Solar e ti mesma podedes ter as "
+"vosas propias normas, os vosos Termos do Servizo (por exemplo, en MichoTube "
+"poderían estar prohibidos os videos dos cadeliños 😉)."
 
 #: src/components/InstancesList.vue:363
 msgid "Films"
-msgstr ""
+msgstr "Películas"
 
 #: src/components/InstancesList.vue:3
 msgid "Filter according to your preferences"
-msgstr ""
+msgstr "Fitro conforme os teus intereses"
 
 #: src/views/FAQ.vue:385
 msgid "Finally, any user can override this configuration, and decides if he want to display, blur or hide these videos for himself."
 msgstr ""
+"Finalmente, calquera usuaria pode sobrescribir esta configuración, e decidir "
+"que quere mostrar, esborranchar ou agochar vídeos por si mesma."
 
 #: src/views/News.vue:129
 msgid "Finally, the collaborative translation of PeerTube's contents is now done using <a href=\"https://weblate.framasoft.org/projects/peertube/\" target=\"_blank\" rel=\"noreferrer noopener\">Weblate</a>, which is much more powerful and pleasant to use than the tool we we're using until now (Zanata)."
 msgstr ""
+"Finalmente, a tradución colectiva dos contidos de PeerTube realízase "
+"utilizando <a href=\"https://weblate.framasoft.org/projects/peertube/\" "
+"target=\"_blank\" rel=\"noreferrer noopener\">Weblate</a>, que é moito máis "
+"potente e de uso amigable que a anterior ferramenta (Zanata)."
 
 #: src/views/News.vue:104
 msgid "Finally, we added an <em>Options</em> menu underneath users' comments to mute an account or an instance very easily."
 msgstr ""
+"Finalmente, engadimos un menú de <em>Opcións</em> baixo os comentarios das "
+"usuarias para acalar unha conta ou instancia facilmente."
 
 #: src/views/News.vue:340
 msgid "Finally, we have made some adjustments to the <strong>user interface</strong> so it easier and nicer to use. For instance, video thumbnails are becoming bigger so that they're more highlighted. Users now have a quick access to their library from the menu that includes their playlists, videos, video watching history and their subscriptions."
