@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-05-06 07:11+0000\n"
+"PO-Revision-Date: 2020-05-07 15:24+0000\n"
 "Last-Translator: josé m. <correo@xmgz.eu>\n"
 "Language-Team: Galician <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/gl/>\n"
@@ -697,72 +697,101 @@ msgstr ""
 #: src/views/News.vue:340
 msgid "Finally, we have made some adjustments to the <strong>user interface</strong> so it easier and nicer to use. For instance, video thumbnails are becoming bigger so that they're more highlighted. Users now have a quick access to their library from the menu that includes their playlists, videos, video watching history and their subscriptions."
 msgstr ""
+"Finalmente, fixemos algúns axustes na <strong>interface de usuaria</strong> "
+"mellorando a usabilidade e aspecto. Por exemplo, as miniaturas dos vídeos "
+"son máis grandes e resaltan máis. As usuarias agora teñen un acceso rápido a "
+"súa biblioteca desde o menú que inclúe listas de reprodución, vídeos, "
+"historial de visualización e subscricións."
 
 #: src/views/Hall-Of-Fame.vue:23
 msgid "Financial Contributors"
-msgstr ""
+msgstr "Contribuíntes financieiros"
 
 #: src/views/News.vue:611
 msgid "First of all, thank you again for contributing to PeerTube! ❤️"
-msgstr ""
+msgstr "Primeiro, agradecerche novamente a contribución a PeerTube! ❤️"
 
 #: src/views/News.vue:218
 msgid "First of all, we realized that most people who discover PeerTube have a hard time understanding <b>the difference between a channel and an account</b>. Indeed, on others video broadcasting services (such as YouTube) these two things are pretty much the same."
 msgstr ""
+"Somos conscientes de que a maioría das persoas que descubren PeerTube "
+"cóstalles un pouquiño comprender <b>a diferenza entre un canal e unha "
+"conta</b>. Claro, noutras plataformas de publicación de vídeos (como YouTube)"
+" estos dous conceptos son practicamente o mesmo."
 
 #: src/views/News.vue:82
 msgid "First, the comments' graphic layout has been modified: it is now easier to find your way between original comments and answers. Avatars' visuals placed next to each user name have been improved and the display name (and its identifier) are now more readable. When a video maker responds to a comment on one of his videos, it is easier to identify him or her because his name is highlighted."
 msgstr ""
+"A disposición gráfica de comentarios foi modificada: agora é máis doado "
+"moverte entre os comentarios orixinais e as respostas. Os avatares aparecen "
+"xunto ao nome da usuaria e melloramos a lexibilidade do nome mostrado (e o "
+"identificador). Cando a creadora dun vídeo responde a un comentario nun dos "
+"seus vídeos é máis doado identificala xa que o nome está resaltado."
 
 #: src/components/InstanceCard.vue:61
 msgid "Follows %{ instance.totalInstanceFollowing } instance"
 msgid_plural "Follows %{ instance.totalInstanceFollowing } instances"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Segue %{ instance.totalInstanceFollowing } instancia"
+msgstr[1] "Segue %{ instance.totalInstanceFollowing } instancias"
 
 #: src/components/InstancesList.vue:379
 msgid "Food"
-msgstr ""
+msgstr "Comida"
 
 #: src/views/News.vue:399
 msgid "For 2019, we plan to add a plugin and theme management system (even though basic at first), playlist management, support for audio files upload and many other features."
 msgstr ""
+"Para 2019 queremos engadir un xestor de decorados e engadidos (aínda sexa "
+"básico), xestión de listas de reprodución, soporte para subir ficheiros de "
+"audio e moitas outras melloras."
 
 #: src/views/FAQ.vue:267
 msgid "For example, in France, discriminatory content <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://fr.wikipedia.org/wiki/Lois_contre_le_racisme_et_les_discours_de_haine\">is prohibited</a> and may be reported to the authorities. PeerTube allows users to report problematic videos, and each administrator must then apply its moderation in accordance with its terms and conditions and the law."
 msgstr ""
+"Por exemplo, en Francia, o contido discriminatorio <a target=\"_blank\" rel="
+"\"noopener noreferrer\" href=\"https://fr.wikipedia.org/wiki/"
+"Lois_contre_le_racisme_et_les_discours_de_haine\">está prohibido</a> e "
+"podería ser denunciado ante as autoridades. PeerTube permite as usuarias "
+"denunciar vídeos problemáticos, e a administración deberá aplicar as normas "
+"en función dos termos e condicións e a lei."
 
 #: src/views/FAQ.vue:317
 msgid "For now, the solution proposed to people who upload videos is to use the \"support\" button under the video. This button displays a frame in which people who upload videos can display text, images, and links freely. For example, it's possible to put a link to Patreon, Tipeee, Paypal, Liberapay (or any other solution) there. Other examples: put a postal address if you'd like to receive physical thank-you cards, put a logo of your enterprise, a link to support a non-profit organisation..."
 msgstr ""
+"Polo de agora a solución proposta a xente que sube vídeos é utilizar o botón "
+"\"axuda\" baixo o vídeo. Este botón mostra un cadro onde a persoa que subeu "
+"o vídeo pode mostrar texto, imaxes, e ligazóns. Por exemplo, pode poñer unha "
+"ligazón a Patreon, Tipeee, Paypal, Liberapay (ou calquera outro). Tamén: un "
+"enderezo postal por se queres recibir un grazas en formato físico, o logo da "
+"empresa, unha ligazón para doazóns a unha ONG..."
 
 #: src/views/Help.vue:61
 msgid "For PeerTube admins"
-msgstr ""
+msgstr "Para admins de PeerTube"
 
 #: src/views/FAQ.vue:129
 msgid "For those who know how to administer a server, PeerTube is..."
-msgstr ""
+msgstr "Para aquelas que saben cómo administrar un servidor, PeerTube é..."
 
 #: src/views/FAQ.vue:199
 msgid "For those who want to watch videos, PeerTube can offer..."
-msgstr ""
+msgstr "Para aquelas que queren ver vídeos, PeerTube pode ofrecer..."
 
 #: src/views/FAQ.vue:166
 msgid "For those who wants to upload their videos, PeerTube allows..."
-msgstr ""
+msgstr "Para aquelas que queren subir os seus vídeos, PeerTube permite..."
 
 #: src/components/Footer.vue:11
 msgid "Forum"
-msgstr ""
+msgstr "Foro"
 
 #: src/components/InstancesList.vue:383
 msgid "Français"
-msgstr ""
+msgstr "Francés"
 
 #: src/views/News.vue:178
 msgid "Freely,"
-msgstr ""
+msgstr "Libremente,"
 
 #: src/views/FAQ.vue:302
 msgid "From that moment on, Dominique is responsible, because they are warned that they're hosting an illegal video. It is therefore up to them to act if they don't want to be held accountable before the law."
