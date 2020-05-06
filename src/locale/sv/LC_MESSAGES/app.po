@@ -2649,8 +2649,8 @@ msgid ""
 "With PeerTube, choose <strong>your hosting company and the rules you believe "
 "in.</strong>"
 msgstr ""
-"Med PeerTube kan du välja <strong>ett webbhotell med regler du tror "
-"på</strong>"
+"Med PeerTube kan du välja <strong>ett webbhotell med regler du tror på</"
+"strong>"
 
 #: src/views/Home.vue:226
 msgid ""
