@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-11-19 08:29+0000\n"
+"PO-Revision-Date: 2020-05-11 14:24+0000\n"
 "Last-Translator: ButterflyOfFire <butterflyoffire@protonmail.com>\n"
 "Language-Team: Arabic <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/ar/>\n"
@@ -11,16 +11,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 3.11.2\n"
 "Generated-By: easygettext\n"
 
 #: src/views/Home.vue:54 src/views/Home.vue:299
 msgid "?"
-msgstr "?"
+msgstr "؟"
 
 #: src/views/FAQ.vue:431
 msgid "\"It's outrageous and unconscious: you're releasing PeerTube's version 1 when it doesn't contain the necessary tools to effectively manage videos claimed by rights holders, or to effectively manage the issue of online harassment in comments, or to effectively manage monetization through advertising, or to (insert here your request to PeerTube). It will never work! What do you intend to do about it?\""
-msgstr ""
+msgstr "مرحبا يا شباب"
 
 #: src/components/InstanceCard.vue:49
 msgid "%{ instance.totalInstanceFollowers } follower instance"
