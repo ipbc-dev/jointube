@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-04-29 15:24+0000\n"
+"PO-Revision-Date: 2020-05-12 02:05+0000\n"
 "Last-Translator: Filip Bengtsson <filip@libreradio.org>\n"
 "Language-Team: Swedish <https://weblate.framasoft.org/projects/joinpeertube/"
 "main/sv/>\n"
@@ -1969,6 +1969,8 @@ msgid ""
 "Stay informed by subscribing to <a href=\"https://framalistes.org/sympa/"
 "subscribe/peertube-newsletter\" target=\"_blank\">the newsletter</a>"
 msgstr ""
+"Håll dig uppdaterad genom att prenumerera på <a href=\"https://framalistes."
+"org/sympa/subscribe/peertube-newsletter\" target=\"_blank\">nyhetsbrevet</a>"
 
 #: src/views/News.vue:241
 msgid ""
