@@ -22,9 +22,9 @@
               <translate>Home</translate>
             </b-nav-item>
 
-            <!-- <b-nav-item class="bold" :to="buildRoute('/roadmap')" exact>
+            <b-nav-item class="bold" :to="buildRoute('/roadmap')" exact>
               <translate>Feuille de route</translate>
-            </b-nav-item> -->
+            </b-nav-item>
 
             <b-nav-item class="create-account" :to="buildRoute('/instances')">
               <translate>Create an account</translate>
