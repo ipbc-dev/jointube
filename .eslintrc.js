@@ -15,7 +15,8 @@ module.exports = {
       switchCase: 1
     }],
     'array-bracket-spacing': [ 'error', 'always' ],
-    'quote-props': 'off'
+    'quote-props': 'off',
+    'no-case-declarations': 'off'
   },
   overrides: [
     {

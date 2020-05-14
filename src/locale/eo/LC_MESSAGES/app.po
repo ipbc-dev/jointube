@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-04-16 18:08+0000\n"
-"Last-Translator: Jorge Maldonado Ventura <jorgesumle@freakspot.net>\n"
+"PO-Revision-Date: 2019-11-18 08:23+0000\n"
+"Last-Translator: Victor Grousset/tuxayo <victor@tuxayo.net>\n"
 "Language-Team: Esperanto <https://weblate.framasoft.org/projects/"
 "joinpeertube/main/eo/>\n"
 "Language: eo\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.2\n"
+"X-Generator: Weblate 3.9.1\n"
 "Generated-By: easygettext\n"
 
 #: src/views/Home.vue:54 src/views/Home.vue:299
@@ -45,7 +45,7 @@ msgstr ""
 
 #: src/views/Instances.vue:23
 msgid "1. Find the instance that suits you best"
-msgstr "1. Trovu la plej taŭgan instancion por vi"
+msgstr ""
 
 #: src/views/News.vue:96
 msgid "2 channels on Framasoft's account on FramaTube instance"
@@ -105,7 +105,7 @@ msgstr ""
 
 #: src/components/InstancesList.vue:362
 msgid "Activism"
-msgstr "Aktivismo"
+msgstr ""
 
 #: src/views/News.vue:330
 msgid "Adding subtitles"
@@ -149,7 +149,7 @@ msgstr ""
 
 #: src/components/InstancesList.vue:364
 msgid "Animals"
-msgstr "Bestoj"
+msgstr ""
 
 #: src/views/News.vue:177
 msgid "Another feature of this 1.3 version has been entirely developed by an external contributor: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/joshmorel\">Josh Morel</a> who add <strong>a quarantine system</strong> for videos on PeerTube. If the administrator of an instance enables this feature, any new video uploaded on his instance will automatically be hidden until a moderator approves it."

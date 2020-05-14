@@ -54,7 +54,7 @@ body {
   background-color: #ffad5c;
 }
 
-.container {
+#app.container {
   padding-top: 0;
   margin-top: 0;
   width: 1024px;
@@ -373,4 +373,8 @@ article li > a {
     width: 100%;
     height: 100%;
   }
+}
+
+.right-space {
+  margin-right: 5px;
 }

@@ -1,49 +1,56 @@
 <template>
-  <header id="main-header">
+  <header id="main-header" class="row">
+    <div class="container">
 
-    <b-navbar toggleable="lg">
-      <b-navbar-brand to="/">
-        <img alt="PeerTube" :src="buildImgUrl('brand-small.png')">
+      <b-navbar toggleable="lg">
+        <b-navbar-brand to="/">
+          <img alt="PeerTube" :src="buildImgUrl('brand-small.png')">
 
-        <div class="support">
-          <translate>developed by</translate>
+          <div class="support">
+            <translate>developed by</translate>
 
-          <img alt="Framasoft" :src="buildImgUrl('framasoft-logo-text-small.png')">
-        </div>
-      </b-navbar-brand>
+            <img alt="Framasoft" :src="buildImgUrl('framasoft-logo-text-small.png')">
+          </div>
+        </b-navbar-brand>
 
-      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-      <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav class="ml-auto">
-          <b-nav-item :to="buildRoute('/')" exact>
-            <translate>Home</translate>
-          </b-nav-item>
+        <b-collapse id="nav-collapse" is-nav>
+          <b-navbar-nav class="ml-auto">
 
-          <b-nav-item class="create-account" :to="buildRoute('/instances')">
-            <translate>Create an account</translate>
-          </b-nav-item>
+            <b-nav-item :to="buildRoute('/')" exact>
+              <translate>Home</translate>
+            </b-nav-item>
 
-          <b-nav-item :to="buildRoute('/news')">
-            <translate>News</translate>
-          </b-nav-item>
+            <!-- <b-nav-item class="bold" :to="buildRoute('/roadmap')" exact>
+              <translate>Feuille de route</translate>
+            </b-nav-item> -->
 
-          <b-nav-item :to="buildRoute('/help')">
-            <translate>Help</translate>
-          </b-nav-item>
+            <b-nav-item class="create-account" :to="buildRoute('/instances')">
+              <translate>Create an account</translate>
+            </b-nav-item>
 
-          <b-nav-item href="https://docs.joinpeertube.org/#/contribute-getting-started" target="_blank" rel="noopener noreferrer">
-            <translate>Contribute</translate>
-          </b-nav-item>
+            <b-nav-item :to="buildRoute('/news')">
+              <translate>News</translate>
+            </b-nav-item>
 
-          <b-nav-item href="https://github.com/Chocobozzz/PeerTube" target="_blank" rel="noopener noreferrer">
-            <translate>Git</translate>
-          </b-nav-item>
+            <b-nav-item :to="buildRoute('/help')">
+              <translate>Help</translate>
+            </b-nav-item>
 
-          <I18n/>
-        </b-navbar-nav>
-      </b-collapse>
-    </b-navbar>
+            <b-nav-item href="https://docs.joinpeertube.org/#/contribute-getting-started" target="_blank" rel="noopener noreferrer">
+              <translate>Contribute</translate>
+            </b-nav-item>
+
+            <b-nav-item href="https://github.com/Chocobozzz/PeerTube" target="_blank" rel="noopener noreferrer">
+              <translate>Git</translate>
+            </b-nav-item>
+
+            <I18n/>
+          </b-navbar-nav>
+        </b-collapse>
+      </b-navbar>
+    </div>
   </header>
 </template>
 
@@ -93,7 +100,7 @@
     }
 
     .nav-item {
-      margin-right: 40px;
+      margin-right: 25px;
     }
 
     .nav-link {
@@ -102,7 +109,7 @@
       font-family: 'Proza Libre', sans-serif;
     }
 
-    .create-account {
+    .bold {
       font-weight: $font-semibold;
     }
 

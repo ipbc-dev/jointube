@@ -10,6 +10,7 @@ import Help from './views/Help'
 import Instances from './views/Instances'
 import NotFound from './views/NotFound'
 import AllContentSelections from './views/All-Content-Selections'
+import Roadmap from './views/Roadmap'
 
 import './scss/main.scss'
 import CommonMixins from './mixins/CommonMixins'
@@ -27,8 +28,7 @@ const availableLanguages = {
   'pl': 'Polski',
   'pt_BR': 'Português',
   'ru': 'русский',
-  'sv': 'svenska',
-  'hu': 'magyar'
+  'sv': 'svenska'
 }
 const aliasesLanguages = {
   'en': 'en_US',
@@ -40,13 +40,13 @@ const allLocales = Object.keys(availableLanguages).concat(Object.keys(aliasesLan
 const defaultLanguage = 'en_US'
 let currentLanguage = defaultLanguage
 
-const match = window.location.pathname
-  .match('^/([^/]+)/?')
-const localePath = match ? match[1] : null
+const localePath = window.location.pathname
+  .replace(/^\//, '')
+  .replace(/\/$/, '')
 
 const languageFromLocalStorage = localStorage.getItem('language')
 
-if (localePath && allLocales.includes(localePath)) {
+if (allLocales.includes(localePath)) {
   Vue.config.localePath = localePath
 
   currentLanguage = aliasesLanguages[localePath] ? aliasesLanguages[localePath] : localePath
@@ -73,7 +73,8 @@ p.catch(err => {
     translations,
     availableLanguages,
     defaultLanguage: 'en_US',
-    silent: process.env.NODE_ENV === 'production'
+    // silent: process.env.NODE_ENV === 'production'
+    silent: true
   })
 
   Vue.config.language = currentLanguage
@@ -99,6 +100,10 @@ p.catch(err => {
       {
         path: '/' + locale,
         component: Home
+      },
+      {
+        path: base + 'roadmap',
+        component: Roadmap
       },
       {
         path: base + 'help',
