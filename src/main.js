@@ -221,11 +221,14 @@ p.catch(err => {
   new Vue({ // eslint-disable-line no-new
     el: '#app',
     router,
+    render: h => h(App),
+
     mounted () {
       // You'll need this for renderAfterDocumentEvent.
       document.dispatchEvent(new Event('render-event'))
-    },
-    render: h => h(App)
+
+      document.dispatchEvent(new Event('x-app-rendered'))
+    }
   })
 })
 

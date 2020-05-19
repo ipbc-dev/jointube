@@ -34,7 +34,9 @@
     "fork-awesome": "^1.1.7",
     "lodash": "^4.17.15",
     "node-sass": "^4.12.0",
+    "prerender-spa-plugin": "^3.2.1",
     "sass-loader": "^8.0.0",
+    "vue-cli-plugin-prerender-spa": "^1.1.6",
     "vue-meta": "^2.2.2",
     "vue-template-compiler": "^2.6.10"
   }
