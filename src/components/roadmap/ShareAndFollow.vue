@@ -92,6 +92,13 @@
     .reddit a { background: #FF4500; }
     .instagram a { background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); }
   }
+
+  @media (max-width: 576px) {
+    #roadmap .share-follow a {
+      padding: 0.75rem;
+      font-size: 1.25rem;
+    }
+  }
 </style>
 
 <script>

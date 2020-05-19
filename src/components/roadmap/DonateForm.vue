@@ -13,6 +13,7 @@
         <b-input-group
           size="lg"
           prepend="€"
+          class=""
         >
           <b-form-input
             id="other1"
@@ -425,8 +426,16 @@
       }
     }
 
-    .input-group-lg .input-group-prepend .input-group-text {
-      border-color: #eee;
+    .input-group-lg {
+      .input-group-prepend .input-group-text {
+        border-color: $orange;
+        background: $orange;
+        color: #fff;
+      }
+
+      .form-control {
+        border-color: $orange;
+      }
     }
 
     .email .input-group,
@@ -625,8 +634,7 @@
         form: {
           don: 10,
           monthly: false,
-          otherM: '',
-          other1: this.amount,
+          other1: 10,
           society: false,
           nickname: '',
           lastname: '',

@@ -15,80 +15,75 @@
                 Pavons la route de PeerTube pour avoir du Live dès la v3&nbsp;!
               </h2>
             </b-col>
+            <b-col md="5" />
+          </b-row>
+        </b-container>
+      </section>
 
+      <section
+        id="funding2"
+        :class="fundingClass"
+      >
+        <b-container>
+          <b-row
+            align-v="center"
+            align-h="around"
+          >
+            <b-col md="4" />
             <!-- Right column -->
             <b-col
-              id="funding"
+              class="funding"
               md="5"
             >
+              <p
+                class="h3"
+                v-translate
+              >
+                Soutenez le développement de PeerTube&nbsp;!
+              </p>
               <p v-translate>
-                Soutenez le développement de PeerTube !
                 Dons, partages, contributions : nous aurons besoin de toute
                 l’aide disponible pour remplir cette feuille de route.
               </p>
 
-              <div v-if="hours >= 0">
-                <p>
-                  <span
-                    id="donations"
+              <b-row>
+                <b-col cols="12">
+                  <b-progress
+                    :max="100"
+                    variant="info"
                     class="h2"
-                    v-text="formatCurrency(progress.total)"
-                  ></span>
-                  <br />
+                  >
+                    <b-progress-bar :value="Math.round(this.progress.total * 100 / steps[2])">
+                      <b>{{ Math.round(this.progress.total * 100 / steps[2]) }}%</b>
+                    </b-progress-bar>
+                  </b-progress>
+                  <div class="progress-meter">
+                    <div
+                      v-for="(file, index) in ['four', 'three', 'two', 'one']"
+                      :key="index"
+                      class="meter meter-right"
+                      :style="`width: ${milestonesContent[file].width}%`"
+                    >
+                      <span class="meter-text">
+                        <span class="money">{{ formatCurrency(steps[3 - index]) }}</span><br />
+                        <span class="label">{{ milestonesContent[file].subtitle }}</span><br />
+                        <span class="date">{{ milestonesContent[file].date }}</span>
+                      </span>
+                    </div>
+                  </div>
+                </b-col>
+                <b-col cols="7">
+                  <h3 id="donations">
+                    {{ formatCurrency(progress.total) }}
+                  </h3>
                   <span
                     class="text-muted"
                     v-translate
                   >
-                    raised on the way to {{ formatCurrency(progress.max) }}
+                    raised in {{ days }} days
                   </span>
-                </p>
-              </div>
-
-              <div v-else>
-                <h2 v-translate>
-                  The fund raising is over!<br />Thank you :)
-                </h2>
-              </div>
-
-              <div>
-                <b-progress :max="100"
-                  variant="info"
-                  class="h2"
-                >
-                  <b-progress-bar :value="Math.round(this.progress.total * 100 / steps[2])">
-                    <b>{{ Math.round(this.progress.total * 100 / steps[2]) }}%</b>
-                  </b-progress-bar>
-                </b-progress>
-                <div class="progress-meter">
-                  <div
-                    class="meter meter-right"
-                    style="width: 33.33%;"
-                  >
-                    <span class="meter-text">{{ formatCurrency(steps[3]) }}</span>
-                  </div>
-                  <div
-                    class="meter meter-right"
-                    style="width: 33.33%;"
-                  >
-                    <!--<span class="meter-text">{{ formatCurrency(steps[2]) }}</span>-->
-                  </div>
-                  <div
-                    class="meter meter-right"
-                    style="width: 16.66%;"
-                  >
-                    <!--<span class="meter-text">{{ formatCurrency(steps[1]) }}</span>-->
-                  </div>
-                  <div
-                    class="meter meter-right"
-                    style="width: 16.66%;"
-                  >
-                    <!--<span class="meter-text">{{ formatCurrency(steps[0]) }}</span>-->
-                  </div>
-                </div>
-              </div>
-
-              <b-row>
-                <div class="col-sm-5">
+                </b-col>
+                <b-col cols="5">
                   <h3 id="donators">{{ count }}</h3>
                   <span
                     class="text-muted"
@@ -96,68 +91,19 @@
                   >
                     contributors
                   </span>
-                </div>
-
-                <div
-                  v-if="hours >= 0"
-                  class="col-sm-7"
-                >
-                  <h3
-                    v-if="days > 1"
-                    id="days"
+                </b-col>
+                <b-col>
+                  <b-button
+                    block size="lg"
+                    variant="primary mb-0"
+                    href="#support"
+                    rel="noopener noreferrer"
                     v-translate
                   >
-                    {{ days }} days
-                  </h3>
-
-                  <h3
-                    v-else
-                    id="days"
-                    v-translate
-                  >
-                    {{ hours }} hours
-                  </h3>
-
-                  <span
-                    class="text-muted"
-                    v-translate
-                  >
-                    to go
-                  </span>
-                </div>
-                <div v-else>
-                  <h3 id="donations">
-                    {{ formatCurrency(progress.total) }}
-                  </h3>
-                  <br />
-                  <span
-                    class="text-muted"
-                    v-translate
-                  >
-                    raised in 60 days
-                  </span>
-                </div>
+                    Contribute
+                  </b-button>
+                </b-col>
               </b-row>
-
-              <p
-                v-if="hours < 0"
-                class="text-muted"
-                v-translate
-              >
-                The fund raising for Mobilizon is complete, but you can still support
-                this project as well as all other Framasoft’s projects in making a donation
-                to the association.
-              </p>
-
-              <b-button
-                block size="lg"
-                variant="primary mb-0"
-                href="#support"
-                rel="noopener noreferrer"
-                v-translate
-              >
-                Contribute
-              </b-button>
             </b-col>
           </b-row>
         </b-container>
@@ -200,7 +146,7 @@
                 >
                   <b-card
                     no-body
-                    class="overflow-hidden"
+                    class="overflow-hidden mb-5"
                   >
                     <b-row no-gutters>
                       <b-col
@@ -218,15 +164,13 @@
                           class="rounded-0"
                         ></b-card-img>
                       </b-col>
-                      <b-col md="6">
+                      <b-col
+                        md="6"
+                        class="d-flex align-items-center justify-content-center"
+                      >
                         <b-card-body>
                           <b-card-text>
-                            <h5>
-                              <img
-                                :src="buildImgUrl(`brand-small.png`)"
-                                alt="Peertube"
-                              />
-                              <br />
+                            <h5 class="h4">
                               <span
                                 class="font-weight-bolder text-secondary"
                                 v-html="milestonesContent[file].subtitle"
@@ -245,11 +189,11 @@
                     </b-row>
                   </b-card>
                 </div>
-                <!-- <p class="text-italic text-center">
-                  <router-link to="/news">
+                <p class="text-italic text-center">
+                  <a href="#more">
                     <span v-translate>Learn more about those milestones</span>
-                  </router-link>
-                </p> -->
+                  </a>
+                </p>
               </div>
             </b-col>
           </b-row>
@@ -262,15 +206,14 @@
             <b-col>
               <blockquote class="blockquote text-right">
                 <span v-translate>
-                  Un « autre » monde ne pourra pas se construire avec les outils
-                  du capitalisme de surveillance.
+                  Un «&nbsp;autre&nbsp;» monde ne pourra pas se construire avec
+                  les outils du capitalisme de surveillance.
                   <br />
-                  [Clarté dans la fédération - pas clair ;) ], partage des pouvoirs
-                  et responsabilités, ouverture aux contributions,
-                  diffusion en direct et en pair-à-pair…
-                  La v3 de PeerTube vise à consolider cet outil comme une
-                  alternative de plus en plus conviviale aux Google-YouTube et
-                  autres Facebook-Live.
+                  Faciliter l’accès aux contenus, partager les pouvoirs et
+                  responsabilités, s’ouvrir aux contributions, démocratiser le
+                  direct grâce au pair-à-pair… La v3 de PeerTube vise à
+                  consolider cet outil comme une alternative de plus en plus
+                  conviviale aux Google-YouTube et autres Facebook-Live.
                 </span>
 
                 <footer class="blockquote-footer">
@@ -287,9 +230,9 @@
         </b-container>
       </section>
 
-      <team />
+      <Team />
 
-      <allocation
+      <MoreInfos
         :steps="steps"
         :active="activeStep"
       />
@@ -307,7 +250,7 @@
                 </div>
                 <div class="border-title"></div>
               </h3>
-              <donate-form />
+              <DonateForm />
             </b-col>
             <b-col lg="9">
               <!-- Share & follow -->
@@ -317,7 +260,7 @@
                 </div>
                 <div class="border-title"></div>
               </h3>
-              <ShareAndFollow/>
+              <ShareAndFollow />
             </b-col>
           </b-row>
         </b-container>
@@ -346,6 +289,7 @@
 
     #main-header {
       background: #fff;
+      margin: 0;
 
       .container {
         max-width: 1024px;
@@ -356,9 +300,14 @@
       }
     }
 
-    p {
+    p:not([class]) { /* C’est pas classe, ma chérie ! */
       margin-bottom: 15px;
       font-size: 18px;
+    }
+
+    #main-footer {
+      max-width: 1024px;
+      margin: 0 auto;
     }
   }
 
@@ -403,14 +352,30 @@
           min-height: 290px;
 
           ul {
-            list-style-type: "\25B8";
+            list-style: none;
             margin-top: 1rem;
             padding-left: 15px;
             margin-left: auto;
             margin-right: auto;
-            max-width: 220px;
+            max-width: 260px;
+
             li {
-              padding-left: 5px;
+              &::before {
+                content: "\25B8";
+                padding-right: 5px;
+              }
+
+              &:nth-of-type(2)::before {
+                color: #fff;
+              }
+
+              &:nth-of-type(3)::before {
+                color: $orange;
+              }
+
+              &:nth-of-type(4)::before {
+                color: $grey;
+              }
             }
           }
         }
@@ -425,9 +390,9 @@
             margin: 20px auto;
             background: #fff !important;
 
-            h5 {
+            /* h5 {
               text-align: left !important;
-            }
+            } */
           }
         }
 
@@ -492,12 +457,13 @@
 
     .quote {
       &, .container {
-        background: #70b9c2;
+        background: #fff3;
         color: #454542;
       }
 
       .container {
         padding: 30px 70px;
+        background: #fff3;
       }
 
       span.text-center {
@@ -560,10 +526,23 @@
       }
     }
 
-    #funding {
+    #funding2 {
+      position: sticky;
+      top: 0;
+      margin-top: -550px;
+      z-index:2;
+
+      .funding * {
+        transition: all 1s ease-in-out;
+      }
+    }
+
+    .funding {
       padding: 30px;
+      border: 1px solid #d9d9d9;
       border-top: 5px solid #f67e08;
       background: #fff;
+      transition: all 1s ease-in-out;
 
       .progress {
         border-radius: 0;
@@ -600,13 +579,13 @@
       .progress-meter > .meter > .meter-text {
         position: absolute;
         display: inline-block;
-        bottom: -5px;
         width: 100%;
         font-size: 0.8em;
         color: #aaa;
         text-align: right;
         padding-right: 2px;
         line-height: 16px;
+        margin-top:15px;
       }
 
       .btn {
@@ -615,7 +594,7 @@
 
       .btn-lg {
         padding: 1rem;
-        margin: 20px 0 30px;
+        margin: 0px;
       }
 
       .input-group {
@@ -637,26 +616,21 @@
         }
       }
 
-      .alert a {
-        color: #3f3d56;
-        font-weight: bold;
+      .col-5 {
+        margin-bottom: 20px;
+      }
+
+      .meter {
+        .label, .date, .money {
+          visibility: hidden;
+          transition: none;
+        }
+      }
+
+      .meter:first-of-type .money {
+        visibility: visible;
       }
     }
-
-    /* @media (max-width: 992px) {
-      #funding {
-        margin-bottom: -520px;
-      }
-    }
-
-    @media (max-width: 576px) {
-      #funding {
-        margin-top: -20px;
-        border-top: none;
-        top: auto;
-        margin-bottom: 0px;
-      }
-    } */
 
     .quote {
       p {
@@ -703,6 +677,77 @@
       }
     }
   }
+
+  @media (min-width: 576px) {
+    #funding2:not(.top) {
+      .funding {
+        border-top: none;
+        padding: 15px 20px 30px;
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+
+      .col-md-4, // ghost lead
+      .col-7, // donations
+      .col-5, // donators
+      p { // intro
+        display: none;
+      }
+
+      .col-12 { // progress bar
+        flex: 0 0 75%;
+        max-width: 75%;
+      }
+
+      .meter {
+        .label, .date, .money {
+          visibility: visible;
+          transition: visibility 1s ease-in-out;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    #roadmap #funding2 {
+      margin-bottom: 30px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    #roadmap {
+      .container.ombre {
+        box-shadow: none;
+        border: none;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    #roadmap {
+      #funding2 {
+        margin-top: 0px;
+      }
+
+      .presentation .row {
+        visibility: hidden;
+      }
+    }
+  }
+
+  @media (max-width: 576px) {
+    #roadmap {
+      .container.ombre {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+
+      #funding2 {
+        position: relative;
+      }
+    }
+  }
 </style>
 
 <script>
@@ -720,14 +765,14 @@
   } from 'bootstrap-vue'
 
   import ShareAndFollow from '../components/roadmap/ShareAndFollow.vue'
-  import Allocation from '../components/roadmap/Allocation.vue'
+  import MoreInfos from '../components/roadmap/MoreInfos.vue'
   import DonateForm from '../components/roadmap/DonateForm.vue'
   import Team from '../components/roadmap/Team.vue'
 
   export default {
     components: {
       ShareAndFollow,
-      Allocation,
+      MoreInfos,
       DonateForm,
       Team,
       BContainer,
@@ -742,18 +787,20 @@
       BProgressBar
     },
     created () {
-      fetch('https://joinmobilizon.org/2019-mbz.json')
+      fetch('https://soutenir.framasoft.org/2020-pt3.json')
         .then(response => response.json())
         .then((data) => {
           this.list = data.list
           this.updateData()
         }).catch((err) => console.error('Unable to load donations', err))
+      window.addEventListener('scroll', this.stickyProgressBar)
     },
     mounted () {
       document.body.classList.add('in-roadmap')
     },
     destroyed () {
       document.body.classList.remove('in-roadmap')
+      window.removeEventListener('scroll', this.stickyProgressBar)
     },
     data () {
       return {
@@ -769,11 +816,13 @@
         activeStep: 0,
         list: [],
         count: 0,
-        amount: 10,
+        fundingClass: 'top',
         milestonesContent: {
           one: {
             title: this.$gettext('Étape 1'),
             subtitle: this.$gettext('Recherche globale'),
+            date: this.$gettext('(juin)'),
+            width: '16.66',
             ul: [
               this.$gettext('Recherche dans le fédiverse'),
               this.$gettext('Possibilité de créer des index'),
@@ -784,6 +833,8 @@
           two: {
             title: this.$gettext('Étape 2'),
             subtitle: this.$gettext('Outils de modération'),
+            date: this.$gettext('(juillet)'),
+            width: '16.66',
             ul: [
               this.$gettext('Suivi des signalements'),
               this.$gettext('Faciliter la modération'),
@@ -794,6 +845,8 @@
           three: {
             title: this.$gettext('Étape 3'),
             subtitle: this.$gettext('Playlist et Plugins'),
+            date: this.$gettext('(août - sept.)'),
+            width: '33.33',
             ul: [
               this.$gettext('Partage des playlists sur le web'),
               this.$gettext('Plugins (annotations, etc.)'),
@@ -804,6 +857,8 @@
           four: {
             title: this.$gettext('Étape 4'),
             subtitle: this.$gettext('Live streaming'),
+            date: this.$gettext('(oct. - nov.)'),
+            width: '33.33',
             ul: [
               this.$gettext('En pair à pair (30s - 1mn lag)'),
               this.$gettext('Sans tchat, ni gif, ni 💖 😠 👍'),
@@ -835,7 +890,7 @@
       },
 
       updateData () {
-        this.days = Math.round(((new Date(this.end)).getTime() - (new Date()).getTime()) / (1000 * 60 * 60 * 24))
+        this.days = Math.round(((new Date()).getTime() - (new Date(this.end)).getTime()) / (1000 * 60 * 60 * 24))
         this.hours = Math.round(((new Date(this.end)).getTime() - (new Date()).getTime()) / (1000 * 60 * 60))
         // Fill donators
 
@@ -846,6 +901,9 @@
             this.progress.total += this.list[i].don
           }
         }
+      },
+      stickyProgressBar () {
+        this.fundingClass = (document.body.getBoundingClientRect().top >= -300) ? 'top' : ''
       }
     }
   }
