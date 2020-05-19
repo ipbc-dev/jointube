@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: process.env.CI_JOB_NAME === 'pages' ? '/joinpeertube/' : '',
+  publicPath: process.env.CI_JOB_NAME === 'pages' ? '/joinpeertube/' : '/',
 
   pluginOptions: {
     prerenderSpa: {

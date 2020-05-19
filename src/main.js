@@ -40,9 +40,13 @@ const allLocales = Object.keys(availableLanguages).concat(Object.keys(aliasesLan
 const defaultLanguage = 'en_US'
 let currentLanguage = defaultLanguage
 
+const basePath = process.env.BASE_URL
+const startRegexp = new RegExp('^' + basePath)
+const endRegexp = new RegExp('/$')
+
 const localePath = window.location.pathname
-  .replace(/^\//, '')
-  .replace(/\/$/, '')
+  .replace(startRegexp, '')
+  .replace(endRegexp, '')
 
 const languageFromLocalStorage = localStorage.getItem('language')
 
