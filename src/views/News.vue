@@ -2,7 +2,7 @@
   <main id="news">
     <div class="blocks">
       <div class="title-block">
-        <div class="title" v-translate>PeerTube news!</div>
+        <h1 v-translate>PeerTube news!</h1>
 
         <p v-translate>Discover the latest PeerTube improvements</p>
 
@@ -652,6 +652,7 @@
 
 <style lang="scss">
   @import '../scss/_variables.scss';
+  @import '../scss/_mixins.scss';
 
   #news {
     p {
@@ -679,6 +680,8 @@
       margin-bottom: 60px;
 
       .title {
+        @include proza-semi-bold;
+
         font-size: 24px;
         color: #000 !important;
       }

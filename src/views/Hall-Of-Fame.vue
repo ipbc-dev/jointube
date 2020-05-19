@@ -3,13 +3,13 @@
     <div class="blocks">
 
       <div class="title-block">
-        <div v-translate class="title">Hall of Fame</div>
+        <h1 v-translate>Hall of Fame</h1>
 
         <div class="separator"></div>
       </div>
 
       <div class="block sponsors">
-        <div class="subtitle" v-translate>Sponsors</div>
+        <h2 v-translate>Sponsors</h2>
 
         <a href="https://qonfucius.com" target="_blank" rel="noopener noreferrer">
           <img :src="buildImgUrl('sponsors/qonfucius.png')" alt="Qonfucius" />
@@ -21,7 +21,7 @@
       </div>
 
       <div class="block">
-        <div class="subtitle" v-translate>Financial Contributors</div>
+        <h2 v-translate>Financial Contributors</h2>
         <ul>
           <li>0x010C</li>
           <li>3dsman</li>
@@ -564,8 +564,10 @@
       margin: 60px auto;
     }
 
-    .subtitle {
-      margin-bottom: 10px;
+    h2 {
+      font-size: 24px;
+      white-space: nowrap;
+      margin: 100px 0 10px 0;
     }
 
     .sponsors {

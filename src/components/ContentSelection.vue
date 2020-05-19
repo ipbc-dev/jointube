@@ -2,7 +2,7 @@
   <div id="content-selection">
 
     <div class="left">
-      <div class="title title-small-screens">
+      <h3 class="title-small-screens">
         <div class="icon">
           <icon-video v-if="type === 'video'"></icon-video>
           <icon-channel v-if="type === 'channel'"></icon-channel>
@@ -10,7 +10,7 @@
         </div>
 
         {{ title }}
-      </div>
+      </h3>
 
       <img :src="buildImgUrl('content-selection-thumbnails/' + thumbnailName)" alt="thumbnail"/>
 
@@ -39,7 +39,7 @@
     </div>
 
     <div class="right">
-      <div class="title title-normal-screens">
+      <h3 class="title-normal-screens">
         <div class="icon">
           <icon-video v-if="type === 'video'"></icon-video>
           <icon-channel v-if="type === 'channel'"></icon-channel>
@@ -47,7 +47,7 @@
         </div>
 
         {{ title }}
-      </div>
+      </h3>
 
       <div class="description">
         {{ description }}
@@ -71,12 +71,10 @@
       display: none !important;
     }
 
-    .title {
+    h3 {
       font-size: 24px;
-      font-weight: $font-semibold;
       display: flex;
       align-items: center;
-      font-family: 'Proza Libre', sans-serif;
 
       .icon {
         margin-right: 10px;
