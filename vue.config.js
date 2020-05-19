@@ -1,3 +1,5 @@
 module.exports = {
-  publicPath: '/joinpeertube/'
+  publicPath: process.env.CI_JOB_NAME === 'pages'
+    ? '/joinpeertube/'
+    : ''
 }
