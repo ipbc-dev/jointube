@@ -198,9 +198,9 @@ article li > a {
 }
 
 .subtitle {
-  font-family: 'Proza Libre', sans-serif;
+  @include proza-semi-bold;
+
   font-size: 24px;
-  font-weight: $font-semibold;
   white-space: nowrap;
   margin: 100px 130px 0;
   width: fit-content;
@@ -315,9 +315,8 @@ article li > a {
   }
 }
 
-.title {
-  font-family: 'Proza Libre', sans-serif;
-  font-weight: $font-semibold;
+h1, h2, h3 {
+  @include proza-semi-bold;
 }
 
 .title-block {
@@ -328,7 +327,7 @@ article li > a {
   align-items: center;
   max-width: 450px;
 
-  .title {
+  h1 {
     margin-bottom: 10px;
     font-size: 34px;
     font-weight: $font-semibold;

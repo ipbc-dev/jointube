@@ -3,7 +3,7 @@
     <div class="blocks">
 
       <div class="title-block">
-        <div class="title" v-translate>FAQ</div>
+        <h1 v-translate>FAQ</h1>
 
         <p v-translate>A few questions to discover PeerTube</p>
 
@@ -11,7 +11,7 @@
       </div>
 
       <div class="block" role="tablist">
-        <div class="title" v-translate>PeerTube Presentation</div>
+        <h2 v-translate>PeerTube Presentation</h2>
 
         <accordion-element accordion="a" id="What is PeerTube?">
           <template v-slot:title>
@@ -253,7 +253,7 @@
       </div>
 
       <div class="block" role="tablist">
-        <div class="title" v-translate>Creation and content</div>
+        <h2 v-translate>Creation and content</h2>
 
         <accordion-element accordion="a" id="If it's free, can we upload illegal stuff on it?">
           <template v-slot:title>
@@ -400,7 +400,7 @@
       </div>
 
       <div class="block" role="tablist">
-        <div class="title" v-translate>Comments & Complaints</div>
+        <h2 v-translate>Comments & Complaints</h2>
 
         <accordion-element accordion="a" id="PeerTube vx.y.z does not seem to me to contain all the tools necessary for a good management of my instance.">
           <template v-slot:title>
@@ -513,7 +513,7 @@
       </div>
 
       <div class="block" role="tablist">
-        <div class="title" v-translate>Technical questions</div>
+        <h2 v-translate>Technical questions</h2>
 
         <accordion-element accordion="a" id="How do I install PeerTube?">
           <template v-slot:title>
@@ -611,7 +611,7 @@
       color: #000;
     }
 
-    .block .title {
+    .block h2 {
       font-size: 22px;
       margin-top: 30px;
       margin-bottom: 15px;

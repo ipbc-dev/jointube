@@ -1,5 +1,11 @@
 # JoinPeerTube
 
+## Install dependencies
+
+```
+$ yarn install --pure-lockfile
+```
+
 ## Dev
 
 ```

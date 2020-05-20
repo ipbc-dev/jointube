@@ -94,6 +94,7 @@
 
 <style lang="scss">
   @import '../scss/_variables.scss';
+  @import '../scss/_mixins.scss';
 
   #instance-card {
     min-height: 185px;
@@ -132,8 +133,8 @@
       }
 
       .name {
-        font-family: "Proza Libre", sans-serif;
-        font-weight: $font-semibold;
+        @include proza-semi-bold;
+
         margin-right: 10px;
       }
 

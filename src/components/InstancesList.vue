@@ -1,7 +1,7 @@
 <template>
   <div id="instances-list">
     <div class="filters">
-      <div v-translate class="title">Filter according to your preferences</div>
+      <h2 v-translate>Filter according to your preferences</h2>
 
       <form @change="onFormChange()">
         <div class="group">
@@ -105,7 +105,7 @@
     <div class="list">
       <div class="block-title">
         <div class="left">
-          <div class="title" v-translate>Instances list</div>
+          <h2 v-translate>Instances list</h2>
 
           <div class="additional-info" v-translate>Built from instances.joinpeertube.org</div>
         </div>
@@ -245,14 +245,14 @@
   }
 
   #instances-list {
-    .title {
+    h2 {
       font-size: 24px;
     }
 
     .filters {
       margin-bottom: 100px;
 
-      .title {
+      h2 {
         margin-bottom: 25px;
       }
 

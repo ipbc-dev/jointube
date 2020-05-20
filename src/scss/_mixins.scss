@@ -32,3 +32,8 @@
     }
   }
 }
+
+@mixin proza-semi-bold {
+  font-family: 'Proza Libre', sans-serif;
+  font-weight: $font-semibold;
+}

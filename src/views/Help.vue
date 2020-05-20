@@ -3,7 +3,7 @@
     <div class="blocks">
 
       <div class="title-block">
-        <div class="title" v-translate>Help</div>
+        <h1 v-translate>Help</h1>
 
         <p v-translate>Questions on PeerTube? Need help? You've come to the right place!</p>
 
@@ -16,7 +16,7 @@
         </div>
 
         <div class="text-block">
-          <div v-translate class="title">Better understand and use PeerTube</div>
+          <h2 v-translate>Better understand and use PeerTube</h2>
 
           <p v-translate>You have a question?</p>
           <div class="bottom-link-wrapper">
@@ -38,7 +38,7 @@
 
       <div class="block-with-image community">
         <div class="text-block">
-          <div class="title" v-translate>Ask questions to the community</div>
+          <h2 v-translate>Ask questions to the community</h2>
 
           <div class="bottom-link-wrapper">
             <a href="https://framacolibri.org/c/peertube" class="bottom-link" target="_blank" rel="noopener noreferrer">
@@ -59,7 +59,7 @@
         </div>
 
         <div class="text-block">
-          <div class="title" v-translate>For PeerTube admins</div>
+          <h2 v-translate>For PeerTube admins</h2>
 
           <div class="bottom-link-wrapper">
             <a class="bottom-link" href="https://docs.joinpeertube.org/#/install-any-os" target="_blank" rel="noopener noreferrer">
@@ -86,7 +86,7 @@
 
       <div class="block-with-image contribute">
         <div class="text-block">
-          <div class="title" v-translate>Contribute to PeerTube</div>
+          <h2 v-translate>Contribute to PeerTube</h2>
 
           <div class="bottom-link-wrapper">
             <a class="bottom-link" href="https://docs.joinpeertube.org/#/contribute-getting-started" target="_blank" rel="noopener noreferrer">
@@ -133,7 +133,7 @@
           margin-bottom: 0;
         }
 
-        .title {
+        h2 {
           font-size: 24px;
           margin-bottom: 25px;
         }

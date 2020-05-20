@@ -3,7 +3,7 @@
     <div class="blocks">
 
       <div class="title-block">
-        <div class="title" v-translate>Create an account</div>
+        <h1 v-translate>Create an account</h1>
 
         <p v-translate>
           If you would like to interact with videos (like, comment, download...), subscribe to channels, create playlists or play videos,
@@ -21,7 +21,7 @@
         </div>
 
         <div>
-          <div class="title" v-translate>1. Find the instance that suits you best</div>
+          <div class="step" v-translate>1. Find the instance that suits you best</div>
 
           <p v-translate>
             By <strong>filtering according to your profile</strong> (video maker or viewer), <strong>themes</strong> that you are
@@ -32,7 +32,7 @@
 
       <div class="block-with-image step-2">
         <div>
-          <div class="title" v-translate>2. Create your account and enjoy PeerTube</div>
+          <div class="step" v-translate>2. Create your account and enjoy PeerTube</div>
 
           <p v-translate>
             A username, an email, a password and you can already <strong>enjoy all the features of PeerTube!</strong>
@@ -51,6 +51,7 @@
 
 <style lang="scss">
   @import '../scss/_variables.scss';
+  @import '../scss/_mixins.scss';
 
   #instances {
     .blocks {
@@ -86,7 +87,9 @@
         margin-right: 20px;
       }
 
-      .title {
+      .step {
+        @include proza-semi-bold;
+
         font-size: 24px;
         margin-bottom: 20px;
       }

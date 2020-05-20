@@ -3,7 +3,7 @@
     <div class="blocks">
 
       <div class="title-block">
-        <div class="title" v-translate>Our content selections</div>
+        <h1 v-translate>Our content selections</h1>
 
         <div class="separator"></div>
       </div>

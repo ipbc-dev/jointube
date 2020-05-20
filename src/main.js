@@ -28,7 +28,8 @@ const availableLanguages = {
   'pl': 'Polski',
   'pt_BR': 'Português',
   'ru': 'русский',
-  'sv': 'svenska'
+  'sv': 'svenska',
+  'hu': 'magyar'
 }
 const aliasesLanguages = {
   'en': 'en_US',
@@ -40,9 +41,13 @@ const allLocales = Object.keys(availableLanguages).concat(Object.keys(aliasesLan
 const defaultLanguage = 'en_US'
 let currentLanguage = defaultLanguage
 
+const basePath = process.env.BASE_URL
+const startRegexp = new RegExp('^' + basePath)
+const endRegexp = new RegExp('/$')
+
 const localePath = window.location.pathname
-  .replace(/^\//, '')
-  .replace(/\/$/, '')
+  .replace(startRegexp, '')
+  .replace(endRegexp, '')
 
 const languageFromLocalStorage = localStorage.getItem('language')
 
@@ -221,11 +226,14 @@ p.catch(err => {
   new Vue({ // eslint-disable-line no-new
     el: '#app',
     router,
+    render: h => h(App),
+
     mounted () {
       // You'll need this for renderAfterDocumentEvent.
       document.dispatchEvent(new Event('render-event'))
-    },
-    render: h => h(App)
+
+      document.dispatchEvent(new Event('x-app-rendered'))
+    }
   })
 })
 
