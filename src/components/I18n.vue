@@ -1,6 +1,6 @@
 <template>
   <div id="i18n">
-    <b-dropdown>
+    <b-dropdown right>
       <template slot="button-content">
         <div :title="getButtonTitle()">
           <img :src="buildImgUrl('language.png')" alt=""/>

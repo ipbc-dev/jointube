@@ -53,7 +53,7 @@
                 </span>
                 <b-dropdown
                   right
-                  :text="`l’étape ${i+1}`"
+                  :text="stepsTitle[i]"
                   variant="outline-secondary"
                 >
                   <b-dropdown-item
@@ -61,12 +61,12 @@
                     :key="j"
                     @click="activeStep = j"
                   >
-                    l’étape {{ j+1 }}
+                    {{ stepsTitle[j] }}
                   </b-dropdown-item>
                 </b-dropdown>
               </h4>
 
-              <p v-html="stepsContent[i]"></p>
+              <div v-html="stepsContent[i]"></div>
             </b-card-body>
           </b-card>
         </b-col>
@@ -165,6 +165,12 @@
     data: function () {
       return {
         activeStep: this.active,
+        stepsTitle: [
+          this.$gettext('Recherche globale'),
+          this.$gettext('Outils de modération'),
+          this.$gettext('Playlist et Plugins'),
+          this.$gettext('Live streaming')
+        ],
         stepsContent: [
           this.$gettext(`
             <p>Lorsqu’on recherche des vidéos sur une instance PeerTube aujourd’hui,

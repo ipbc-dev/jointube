@@ -38,13 +38,13 @@
               <translate>Help</translate>
             </b-nav-item>
 
-            <b-nav-item href="https://docs.joinpeertube.org/#/contribute-getting-started" target="_blank" rel="noopener noreferrer">
+            <!-- <b-nav-item href="https://docs.joinpeertube.org/#/contribute-getting-started" target="_blank" rel="noopener noreferrer">
               <translate>Contribute</translate>
             </b-nav-item>
 
             <b-nav-item href="https://github.com/Chocobozzz/PeerTube" target="_blank" rel="noopener noreferrer">
               <translate>Git</translate>
-            </b-nav-item>
+            </b-nav-item> -->
 
             <I18n/>
           </b-navbar-nav>

@@ -76,7 +76,7 @@
     li {
       a {
         color: #fff;
-        border: none;
+        border: 2px solid transparent;
         &:hover, &:focus {
           opacity: 0.8;
           color: #fff;
@@ -84,7 +84,11 @@
       }
     }
 
-    .newsletter a { background: transparent; color: #393C58 !important; }
+    .newsletter a {
+      background: transparent;
+      color: #393C58 !important;
+      border-color: #d9d9d9;
+    }
     .mastodon a { background: #3088D4; }
     .diaspora a { background: #464646; }
     .twitter a { background: #6DABCE; }

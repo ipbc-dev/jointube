@@ -170,11 +170,15 @@
                       >
                         <b-card-body>
                           <b-card-text>
-                            <h5 class="h4">
+                            <h5 class="h4 text-center p-0">
                               <span
                                 class="font-weight-bolder text-secondary"
                                 v-html="milestonesContent[file].subtitle"
-                              ></span>
+                              ></span><br />
+                              <small
+                                class="text-secondary font-italic"
+                                v-html="milestonesContent[file].date"
+                              ></small>
                             </h5>
                             <ul>
                               <li
@@ -237,11 +241,11 @@
         :active="activeStep"
       />
 
+      <a id="support" class="anchor"></a>
       <section id="action">
         <b-container class="ombre">
           <b-row align-h="center">
             <b-col
-              id="support"
               lg="9"
             >
               <h3 class="section-title mt-5">
@@ -532,8 +536,8 @@
       margin-top: -550px;
       z-index:2;
 
-      .funding * {
-        transition: all 1s ease-in-out;
+      .funding, .col-md-4 {
+        transition: max-width 0.5s linear, flex 0.5s linear;
       }
     }
 
@@ -542,7 +546,6 @@
       border: 1px solid #d9d9d9;
       border-top: 5px solid #f67e08;
       background: #fff;
-      transition: all 1s ease-in-out;
 
       .progress {
         border-radius: 0;
@@ -561,7 +564,7 @@
       .progress-meter > .meter {
         position: relative;
         float: left;
-        min-height: 27px;
+        min-height: 16px;
         border-width: 0px;
         border-style: solid;
         border-color: rgba(221, 221, 221, 0.5);
@@ -620,15 +623,31 @@
         margin-bottom: 20px;
       }
 
+      .col-7, // donations
+      .col-5, // donators
+      p { // intro
+        visibility: visible;
+        opacity: 1;
+        height: auto;
+        transition:
+          visibility 0s,
+          height 0s,
+          opacity 0.25s 0.25s linear !important;
+      }
+
       .meter {
         .label, .date, .money {
           visibility: hidden;
-          transition: none;
+          opacity: 0;
+          transition:
+            visibility 0s,
+            opacity 0.25s linear !important;
         }
       }
 
       .meter:first-of-type .money {
         visibility: visible;
+        opacity: 1;
       }
     }
 
@@ -676,22 +695,56 @@
         }
       }
     }
+
+    .anchor {
+      display:block;
+      padding-top:80px;
+      margin-top:-80px;
+    }
   }
 
   @media (min-width: 576px) {
-    #funding2:not(.top) {
+    #funding2.scrolling {
       .funding {
         border-top: none;
         padding: 15px 20px 30px;
         flex: 0 0 100%;
         max-width: 100%;
+        order: 1
       }
 
-      .col-md-4, // ghost lead
+      .col-md-4 { // ghost lead
+        flex: 0 0 0%;
+        max-width: 0%;
+      }
+
       .col-7, // donations
       .col-5, // donators
       p { // intro
-        display: none;
+        visibility: hidden;
+        margin: 0;
+        opacity: 0;
+        height: 0;
+        transition:
+          visibility 0s,
+          height 0.5s linear,
+          opacity 0.25s 0.75s linear !important;
+      }
+
+      .col-7, // donations
+      .col-5 { // donators
+        transition:
+          visibility 0s,
+          opacity 0s,
+          height 0.75s linear !important;
+      }
+
+      .col-7 {
+        order: 3;
+      }
+
+      .col-5 {
+        order: 4;
       }
 
       .col-12 { // progress bar
@@ -700,9 +753,15 @@
       }
 
       .meter {
+        min-height: 27px !important;
+        transition: min-height 1s 1s linear !important;
+
         .label, .date, .money {
           visibility: visible;
-          transition: visibility 1s ease-in-out;
+          opacity: 1;
+          transition:
+            visibility 0s,
+            opacity 0.25s 0.75s linear !important;
         }
       }
     }
@@ -730,15 +789,20 @@
         margin-top: 0px;
       }
 
-      .presentation .row {
-        visibility: hidden;
+      .presentation {
+        min-height: 20em;
+
+        .row {
+          visibility: hidden;
+        }
       }
     }
   }
 
   @media (max-width: 576px) {
     #roadmap {
-      .container.ombre {
+      .container.ombre,
+      .quote .container {
         padding-left: 30px;
         padding-right: 30px;
       }
@@ -861,7 +925,7 @@
             width: '33.33',
             ul: [
               this.$gettext('En pair à pair (30s - 1mn lag)'),
-              this.$gettext('Sans tchat, ni gif, ni 💖 😠 👍'),
+              this.$gettext('Sans tchat, ni gif, ni ❤️ 👍'),
               this.$gettext('Publication après le live'),
               this.$gettext('Travail de fond UX/UI')
             ]
@@ -903,7 +967,7 @@
         }
       },
       stickyProgressBar () {
-        this.fundingClass = (document.body.getBoundingClientRect().top >= -300) ? 'top' : ''
+        this.fundingClass = (document.body.getBoundingClientRect().top >= -300) ? 'top' : 'scrolling'
       }
     }
   }
