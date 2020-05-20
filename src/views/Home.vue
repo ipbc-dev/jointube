@@ -8,7 +8,47 @@
         <div class="description" v-translate>A free software to take back control of your videos</div>
       </div>
 
-      <img class="peertube-mascot" :src="buildImgUrl(mascotPaths[currentMascot])" @click="switchMascot()" alt="">
+      <!-- <img class="peertube-mascot" :src="buildImgUrl(mascotPaths[currentMascot])" @click="switchMascot()" alt=""> -->
+
+      <div
+        id="roadmapInfo"
+        :class="`card mx-auto mt-4 ${['one', 'two', 'three', 'four'][Math.random() * 4 | 0]}`"
+      >
+        <div class="row no-gutters">
+          <div class="col-sm-5 d-flex">
+            <img
+              v-for="file in ['one', 'two', 'three', 'four']"
+              :key="file"
+              alt=""
+              class="card-img align-self-center"
+              :src="buildImgUrl(`roadmap/step-${file}.png`)"
+            />
+          </div>
+          <div class="col-sm-7">
+            <div class="card-body">
+              <p
+                class="h4 card-title"
+                v-translate
+              >
+                Let’s pave the way towards PeerTube's v3!
+              </p>
+              <p
+                class="card-text"
+                v-translate
+              >
+                Check out PeerTube’s new roadmap for the development of many features
+                including live and peer-to-peer video streaming.
+                Support this v3 scheduled for late 2020.
+              </p>
+              <p class="card-text text-right">
+                <router-link to="roadmap" class="bottom-link">
+                  More informations
+                </router-link>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div class="marketing" v-translate>
         PeerTube, developed by Framasoft, is the free and decentralized alternative to video platforms,
@@ -485,6 +525,57 @@
         width: fit-content;
         margin: 60px auto;
         font-size: 20px;
+      }
+    }
+    #roadmapInfo {
+      max-width: 540px;
+      border-width: 2px;
+      border-radius: 0;
+
+      img {
+        display: none;
+        padding-left: 20px;
+      }
+
+      $one:        #dab19d; // #ff7061;
+      $two:       #f7ca8f;
+      $three:       #acbe82; // #78cc8a;
+      $four:          #9dc2d4; // #36bcd4;
+
+      &.one {
+        border-image: linear-gradient(to left bottom, $one, #fff 15%, #fff 85%, $one) 1;
+        background: linear-gradient(to bottom right, #fff, lighten($one, 15%));
+
+        img:nth-of-type(1) {
+          display: block;
+        }
+      }
+
+      &.two {
+        border-image: linear-gradient(to left bottom, $two, #fff 15%, #fff 85%, $two) 1;
+        background: linear-gradient(to bottom right, #fff, lighten($two, 15%));
+
+        img:nth-of-type(2) {
+          display: block;
+        }
+      }
+
+      &.three {
+        border-image: linear-gradient(to left bottom, $three, #fff 15%, #fff 85%, $three) 1;
+        background: linear-gradient(to bottom right, #fff, lighten($three, 15%));
+
+        img:nth-of-type(3) {
+          display: block;
+        }
+      }
+
+      &.four {
+        border-image: linear-gradient(to left bottom, $four, #fff 15%, #fff 85%, $four) 1;
+        background: linear-gradient(to bottom right, #fff, lighten($four, 15%));
+
+        img:nth-of-type(4) {
+          display: block;
+        }
       }
     }
   }
