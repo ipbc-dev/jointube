@@ -100,4 +100,18 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://joinpeertube.org/pt/content-selections" />
     </url>
 
+    <url>
+        <loc>https://joinpeertube.org/roadmap</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://joinpeertube.org/roadmap" />
+        <xhtml:link rel="alternate" hreflang="hu" href="https://joinpeertube.org/hu/roadmap" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://joinpeertube.org/de/roadmap" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://joinpeertube.org/es/roadmap" />
+        <xhtml:link rel="alternate" hreflang="it" href="https://joinpeertube.org/it/roadmap" />
+        <xhtml:link rel="alternate" hreflang="pl" href="https://joinpeertube.org/pl/roadmap" />
+        <xhtml:link rel="alternate" hreflang="ru" href="https://joinpeertube.org/ru/roadmap" />
+        <xhtml:link rel="alternate" hreflang="sv" href="https://joinpeertube.org/sv/roadmap" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://joinpeertube.org/fr/roadmap" />
+        <xhtml:link rel="alternate" hreflang="pt" href="https://joinpeertube.org/pt/roadmap" />
+    </url>
+
 </urlset>
