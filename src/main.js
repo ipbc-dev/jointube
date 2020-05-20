@@ -28,7 +28,8 @@ const availableLanguages = {
   'pl': 'Polski',
   'pt_BR': 'Português',
   'ru': 'русский',
-  'sv': 'svenska'
+  'sv': 'svenska',
+  'hu': 'magyar'
 }
 const aliasesLanguages = {
   'en': 'en_US',

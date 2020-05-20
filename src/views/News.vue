@@ -2,9 +2,15 @@
   <main id="news">
     <div class="blocks">
       <div class="title-block">
-        <h1 v-translate>PeerTube news!</h1>
+        <div class="title" v-translate>PeerTube news!</div>
 
-        <p v-translate>Discover the latest PeerTube improvements</p>
+        <p>
+          <span v-translate>Discover the latest PeerTube improvements</span>
+
+          <span v-translate>
+            Stay informed by subscribing to <a href="https://framalistes.org/sympa/subscribe/peertube-newsletter" target="_blank">the newsletter</a>
+          </span>
+        </p>
 
         <div class="separator"></div>
       </div>
@@ -652,7 +658,6 @@
 
 <style lang="scss">
   @import '../scss/_variables.scss';
-  @import '../scss/_mixins.scss';
 
   #news {
     p {
@@ -669,6 +674,16 @@
 
     .title-block {
       margin-bottom: 60px;
+
+      a {
+        border-bottom: none;
+        font-weight: $font-semibold;
+        color: #000;
+      }
+
+      p > span {
+        display: block;
+      }
     }
 
     .news {
@@ -680,8 +695,6 @@
       margin-bottom: 60px;
 
       .title {
-        @include proza-semi-bold;
-
         font-size: 24px;
         color: #000 !important;
       }

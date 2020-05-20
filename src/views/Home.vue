@@ -11,8 +11,8 @@
       <img class="peertube-mascot" :src="buildImgUrl(mascotPaths[currentMascot])" @click="switchMascot()" alt="">
 
       <div class="marketing" v-translate>
-        With more than 100 000 hosted videos, viewed more than 6 millions times and 20 000 users,
-        PeerTube is the decentralized free software alternative to videos platforms developed by Framasoft
+        PeerTube, developed by Framasoft, is the free and decentralized alternative to video platforms,
+        providing you over 200,000 videos published by 30,000 users and viewed over 10 million times
       </div>
 
       <div class="buttons-row">
@@ -206,7 +206,7 @@
             <div class="left-bar"></div>
 
             <div class="text" v-translate>
-              With PeerTube, chose <strong>your hosting company and the rules you believe in.</strong>
+              With PeerTube, choose <strong>your hosting company and the rules you believe in.</strong>
             </div>
           </div>
 
@@ -439,7 +439,7 @@
       .marketing {
         font-size: 16px;
         margin: 30px auto;
-        width: 500px;
+        width: 535px;
         text-align: center;
 
         @media screen and (max-width: $small-screen) {
