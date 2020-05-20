@@ -108,8 +108,8 @@
 <script>
   export default {
     data () {
-      const picture = this.buildImgUrl('card-opengraph.jpg')
-      const link = process.env.BASE_URL
+      const picture = `https://joinpeertube.org${this.buildImgUrl('card-opengraph.jpg')}`
+      const link = 'https://joinpeertube.org'
       const text = this.$gettext('Join me and support PeerTube, a free software to take back control of your videos!')
       const title = this.$gettext('Let’s support PeerTube')
 
@@ -131,7 +131,7 @@
           `&amp;title=${encodeURIComponent(title)}`,
           `&amp;description=${encodeURIComponent(text)}`
         ],
-        reddit: 'https://www.reddit.com/r/Mobilizon'
+        reddit: 'https://www.reddit.com/r/PeerTube'
       }
     }
   }
