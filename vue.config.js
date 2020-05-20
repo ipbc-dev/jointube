@@ -11,6 +11,7 @@ module.exports = {
         '/instances',
         '/hall-of-fame',
         '/faq',
+        '/roadmap',
         '/content-selections',
         '/en_US',
         '/fr_FR',
