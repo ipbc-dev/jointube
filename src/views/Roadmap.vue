@@ -12,7 +12,7 @@
                 v-translate
                 class="text-secondary"
               >
-                Pavons la route de PeerTube pour avoir du Live dès la v3&nbsp;!
+                Let's pave the way to PeerTube live in the v3!
               </h2>
             </b-col>
             <b-col md="5" />
@@ -39,11 +39,10 @@
                 class="h3"
                 v-translate
               >
-                Soutenez le développement de PeerTube&nbsp;!
+                Support the development of PeerTube!
               </p>
               <p v-translate>
-                Dons, partages, contributions : nous aurons besoin de toute
-                l’aide disponible pour remplir cette feuille de route.
+                Donate, share: we will need all the help we can get to complete this roadmap.
               </p>
 
               <b-row>
@@ -121,23 +120,18 @@
               <div id="step">
                 <h3 class="section-title mt-5">
                   <div v-translate>
-                    Une feuille de route en 4 étapes
+                    A roadmap in 4 steps
                   </div>
                   <div class="border-title"></div>
                 </h3>
                 <p v-translate>
-                  De juin à novembre 2020, Framasoft va développer de nombreuses
-                  améliorations et fonctionnalités pour PeerTube.
-                  Nous avons découpé cette route en 4 étapes principales,
-                  chacune avec son planning et son coût, qui mènent vers l’ajout
-                  de la diffusion de vidéos en direct et en pair-à-pair pour la
-                  v3 de PeerTube.
+                  From June to November 2020, Framasoft will develop new features and improvments for PeerTube.
+                  We have broken down this roadmap into 4 main steps, each with its own schedule and cost,
+                  leading to peer-to-peer powered live steraming in PeerTube v3.
                 </p>
                 <p v-translate>
-                  Ces développements sont financés grâce aux dons reçus par Framasoft&nbsp;:
-                  nous ouvrons donc une collecte perlée sur ces six prochains
-                  mois de développement, pour que vous puissiez nous soutenir
-                  dans nos efforts.
+                  These developments are funded by donations made to our small non-for-profit:  Framasoft.
+                  We will be collecting support over the next six months of development, so that you can help us in our efforts.
                 </p>
 
                 <div
@@ -210,14 +204,11 @@
             <b-col>
               <blockquote class="blockquote text-right">
                 <span v-translate>
-                  Un «&nbsp;autre&nbsp;» monde ne pourra pas se construire avec
-                  les outils du capitalisme de surveillance.
+                  An "new" world cannot be built with the tools of surveillance capitalism.
                   <br />
-                  Faciliter l’accès aux contenus, partager les pouvoirs et
-                  responsabilités, s’ouvrir aux contributions, démocratiser le
-                  direct grâce au pair-à-pair… La v3 de PeerTube vise à
-                  consolider cet outil comme une alternative de plus en plus
-                  conviviale aux Google-YouTube et autres Facebook-Live.
+                  Facilitating access to content, sharing powers and responsibilities, opening up to contributions, democratizing live
+                  streaming through peer-to-peer... PeerTube v3 aims to consolidate this tool as an increasingly user-friendly alternative
+                  to Google-YouTube and Facebook-Live.
                 </span>
 
                 <footer class="blockquote-footer">
@@ -225,7 +216,7 @@
                     href="https://framablog.org/#2020/05/26"
                     v-translate
                   >
-                    Lire la note d’intention de Framasoft sur le Framablog
+                    Read Framasoft's statement on the Framablog
                   </a>
                 </footer>
               </blockquote>
@@ -263,7 +254,7 @@
               <!-- Share & follow -->
               <h3 class="section-title mt-5 mb-4">
                 <div v-translate>
-                  Suivre et relayer
+                  Share and follow
                 </div>
                 <div class="border-title"></div>
               </h3>
@@ -886,51 +877,51 @@
         fundingClass: 'top',
         milestonesContent: {
           one: {
-            title: this.$gettext('Étape 1'),
-            subtitle: this.$gettext('Recherche globale'),
-            date: this.$gettext('(juin)'),
+            title: this.$gettext('Step 1'),
+            subtitle: this.$gettext('Global search'),
+            date: this.$gettext('(June)'),
             width: '16.66',
             ul: [
-              this.$gettext('Recherche dans le fédiverse'),
-              this.$gettext('Possibilité de créer des index'),
-              this.$gettext('Message d’information'),
-              this.$gettext('Travail de fond UX/UI')
+              this.$gettext('Throughout the fediverse'),
+              this.$gettext('Facilitate index creation'),
+              this.$gettext('Announcements'),
+              this.$gettext('WIP to improve UX/UI')
             ]
           },
           two: {
-            title: this.$gettext('Étape 2'),
-            subtitle: this.$gettext('Outils de modération'),
-            date: this.$gettext('(juillet)'),
+            title: this.$gettext('Step 2'),
+            subtitle: this.$gettext('Moderation'),
+            date: this.$gettext('(July)'),
             width: '16.66',
             ul: [
-              this.$gettext('Suivi des signalements'),
-              this.$gettext('Faciliter la modération'),
-              this.$gettext('Partage de listes noires / blanches (spams)'),
-              this.$gettext('Travail de fond UX/UI')
+              this.$gettext('Feedback on reports'),
+              this.$gettext('Facilitating moderation'),
+              this.$gettext('Sharing balcklists (spam)'),
+              this.$gettext('WIP to improve UX/UI')
             ]
           },
           three: {
-            title: this.$gettext('Étape 3'),
-            subtitle: this.$gettext('Playlist et Plugins'),
-            date: this.$gettext('(août - sept.)'),
+            title: this.$gettext('Step 3'),
+            subtitle: this.$gettext('Plugins & Playlists'),
+            date: this.$gettext('(Aug-Sept.)'),
             width: '33.33',
             ul: [
-              this.$gettext('Partage des playlists sur le web'),
-              this.$gettext('Plugins (annotations, etc.)'),
-              this.$gettext('Mise en valeur des plugins'),
-              this.$gettext('Travail de fond UX/UI')
+              this.$gettext('Playlists embed'),
+              this.$gettext('New plugins (annotations, etc)'),
+              this.$gettext('Promoting plugins'),
+              this.$gettext('WIP to improve UX/UI')
             ]
           },
           four: {
-            title: this.$gettext('Étape 4'),
+            title: this.$gettext('Step 4'),
             subtitle: this.$gettext('Live streaming'),
             date: this.$gettext('(oct. - nov.)'),
             width: '33.33',
             ul: [
-              this.$gettext('En pair à pair (30s - 1mn lag)'),
-              this.$gettext('Sans tchat, ni gif, ni ❤️ 👍'),
-              this.$gettext('Publication après le live'),
-              this.$gettext('Travail de fond UX/UI')
+              this.$gettext('Peer-to-peer (30s - 1mn lag)'),
+              this.$gettext('No chat, no gif, no ❤️ 👍 '),
+              this.$gettext('Post-live publication'),
+              this.$gettext('WIP to improve UX/UI')
             ]
           }
         }
