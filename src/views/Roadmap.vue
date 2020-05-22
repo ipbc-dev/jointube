@@ -246,7 +246,7 @@
                 <div class="border-title"></div>
               </h3>
               <p v-translate>
-                L’argent donné via ce formulaire sera exclusivement dédié au projet PeerTube.
+                The money donated via this form will be exclusively dedicated to the PeerTube project.
               </p>
               <DonateForm />
             </b-col>
