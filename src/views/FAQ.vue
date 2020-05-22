@@ -500,6 +500,10 @@
                 put emphasis on describing moderation features within the interface: warnings for features that might increase moderation
                 work like autofollow, and descriptions to the action dropdowns.
               </li>
+              <li v-translate><strong>PeerTube 2.2</strong> greatly improved video abuses management
+              (search, abuses display, actions on the video or account etc), added moderation hooks and helpers in the plugins API and
+              Framasoft developed an experimental *Auto mute* plugin based on public lists.
+              </li>
             </ul>
 
             <p v-translate>
