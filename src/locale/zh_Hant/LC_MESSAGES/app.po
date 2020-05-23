@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-05-19 17:24+0000\n"
+"PO-Revision-Date: 2020-05-24 06:24+0000\n"
 "Last-Translator: David Soh <sotong0221@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.framasoft.org/projects/"
 "joinpeertube/main/zh_Hant/>\n"
@@ -62,11 +62,11 @@ msgstr "一、尋找最適合您的實例"
 
 #: src/views/News.vue:96
 msgid "2 channels on Framasoft's account on FramaTube instance"
-msgstr "在 FramaTube上的 Framasoft 帳戶中的兩個頻道"
+msgstr "在 FramaTube上的 Framasoft 帳號中的兩個頻道"
 
 #: src/views/Instances.vue:34
 msgid "2. Create your account and enjoy PeerTube"
-msgstr "二、建立您的帳戶並開始享用 PeerTube"
+msgstr "二、建立您的帳號並開始享用 PeerTube"
 
 #: src/views/News.vue:75
 msgid "A better interface"
@@ -341,7 +341,7 @@ msgstr "貢獻者"
 #: src/components/Header.vue:23 src/components/InstancesList.vue:25
 #: src/views/Instances.vue:5
 msgid "Create an account"
-msgstr "建立帳戶"
+msgstr "建立帳號"
 
 #: src/views/FAQ.vue:255
 msgid "Creation and content"
@@ -490,7 +490,7 @@ msgstr "首先，感謝您為 PeerTube 貢獻！❤️"
 #: src/views/News.vue:82
 msgid "First of all, we realized that most people who discover PeerTube have a hard time understanding <b>the difference between a channel and an account</b>. Indeed, on others video broadcasting services (such as YouTube) these two things are pretty much the same."
 msgstr ""
-"首先，我們意識到大部分發現 PeerTube 的人們需要時間和精力才能區分<b>一個頻道和一個帳戶之間的差異</b>。的確，在其他的視頻播放服務（例如 "
+"首先，我們意識到大部分發現 PeerTube 的人們需要時間和精力才能區分<b>一個頻道和一個帳號之間的差異</b>。的確，在其他的視頻播放服務（例如 "
 "YouTube）上這兩樣基本上是同一件事。"
 
 #: src/components/InstanceCard.vue:61
@@ -1176,19 +1176,19 @@ msgstr ""
 
 #: src/views/Hall-Of-Fame.vue:11
 msgid "Sponsors"
-msgstr ""
+msgstr "贊助者"
 
 #: src/components/InstancesList.vue:353
 msgid "Sports"
-msgstr ""
+msgstr "運動"
 
 #: src/views/News.vue:105
 msgid "Step 1: account creation (choosing your username, password, email, etc.)"
-msgstr ""
+msgstr "第一步：建立賬號（選擇您的用戶名、密碼、電子信箱等等）"
 
 #: src/views/News.vue:106
 msgid "Step 2: choosing your default channel name via a new form"
-msgstr ""
+msgstr "第二部：在新的表格中選擇您的默認頻道名稱"
 
 #: src/views/News.vue:308
 msgid "Subscriptions throughout the federation: you can follow your favorite video channels and see all the videos on a dedicated page"
@@ -1196,7 +1196,7 @@ msgstr ""
 
 #: src/views/News.vue:300
 msgid "Subtitles support"
-msgstr ""
+msgstr "字幕支援"
 
 #: src/views/News.vue:489
 msgid "Subtitles support is well under way, and we should have a first version available soon. When this work is finished, we will develop the advanced search."
@@ -1212,11 +1212,11 @@ msgstr ""
 
 #: src/views/FAQ.vue:402
 msgid "Technical questions"
-msgstr ""
+msgstr "技術性問題"
 
 #: src/views/News.vue:152 src/views/News.vue:216 src/views/News.vue:280
 msgid "Thanks to all PeerTube contributors!"
-msgstr ""
+msgstr "感謝所有的 PeerTube 貢獻者！"
 
 #: src/views/Home.vue:326
 msgid "Thanks to our <a href=\"/hall-of-fame\" target=\"_blank\">crowdfunding (from March to July 2018)</a>, <strong>Framasoft were able to employ PeerTube's main developer.</strong> After a beta release in March 2018, release 1 came out in November 2018. Since then, several intermediary releases have brought many features along. Several collectives have already created PeerTube hosts, laying the foundation for the federation."
