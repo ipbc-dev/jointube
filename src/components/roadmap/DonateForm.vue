@@ -18,12 +18,12 @@
           <b-form-input
             id="other1"
             v-model.number="form.other1"
-            :aria-label="$gettext('Amount')"
+            :aria-label="amountLabel"
             min="1"
             max="100000"
             step="any"
             pattern="/^\d+([\.\,]\d{1,2})?$/"
-            :placeholder="$gettext('Amount (e.g.: 42)')"
+            :placeholder="amountPlaceholder"
             type="number"
             @change="check('other1')"
           />
@@ -42,11 +42,11 @@
           <b-form-input
             id="email"
             v-model="form.email"
-            :placeholder="$gettext('E-mail')"
+            :placeholder="emailPlaceholder"
             required
             :title="form.society
-              ? $gettext('e.g. contact@fsf.org')
-              : $gettext('e.g. r.stallman@outlock.com')"
+              ? emailTitleSociety
+              : emailTitleElse"
             type="email"
             @focusout="check('email')"
           />
@@ -70,23 +70,14 @@
           <b-form-input
             id="nickname"
             v-model="form.nickname"
-            :placeholder="$gettext('Nickname')"
-            :title="$gettext('e.g. Lady AAL')"
+            :placeholder="nicknamePlaceholder"
+            :title="nicknameTitle"
             :readonly="form.state.anonymous"
             required
             @focusout="check('nickname')"
           />
         </b-input-group>
-        <!-- Newsletter ?
-          <b-form-checkbox
-            v-model="form.state.newsletter"
-            name="newsletter"
-            switch
-            class="text-muted"
-          >
-            <span v-translate>I want to be informed of Mobilizon’s progress</span>
-          </b-form-checkbox> -->
-        <!-- Anonymous ? -->
+
         <b-form-checkbox
           v-model="form.state.anonymous"
           name="anonymous"
@@ -124,7 +115,7 @@
         <b-form-group
           label-cols-sm="4"
           label-cols-lg="3"
-          :label="$gettext('I represent')"
+          :label="representLabel"
           class="m-0 px-4"
         >
           <b-form-radio-group
@@ -147,7 +138,7 @@
             <b-form-radio
               :value="true"
               class="text-decoration-none"
-              :title="$gettext('Company, association, community…')"
+              :title="representCompany"
             >
               <i
                 class="fa fa-institution"
@@ -172,19 +163,19 @@
               <b-form-input
                 id="lastname"
                 v-model="form.lastname"
-                :placeholder="$gettext('Last name')"
+                :placeholder="lastnamePlaceholder"
                 required
                 :state="form.ok.lastname"
-                :title="$gettext('e.g. Lovelace')"
+                :title="lastnameTitle"
                 @focusout="check('lastname')"
               />
               <b-form-input
                 id="firstname"
                 v-model="form.firstname"
-                :placeholder="$gettext('First name')"
+                :placeholder="firstnamePlaceholder"
                 required
                 :state="form.ok.firstname"
-                :title="$gettext('e.g. Ada')"
+                :title="firstnameTitle"
                 @focusout="check('firstname')"
               />
             </b-input-group>
@@ -204,10 +195,10 @@
               <b-form-input
                 id="lastname"
                 v-model="form.lastname"
-                :placeholder="$gettext('Legal entity')"
+                :placeholder="legalEntityPlaceholder"
                 required
                 :state="form.ok.lastname"
-                :title="$gettext('e.g. Free Software Foundation')"
+                :title="legalEntityTitle"
                 @focusout="check('lastname')"
               />
             </b-input-group>
@@ -227,10 +218,10 @@
               <b-form-input
                 id="address1"
                 v-model="form.address1"
-                :placeholder="$gettext('Address')"
+                :placeholder="addressPlaceholder"
                 required
                 :state="form.ok.address1"
-                :title="$gettext('e.g. 12, Freedom Street')"
+                :title="addressTitle"
                 @focusout="check('address1')"
               />
             </b-input-group>
@@ -248,8 +239,8 @@
               <b-form-input
                 id="address2"
                 v-model="form.address2"
-                :placeholder="$gettext('Address line 2')"
-                :title="$gettext('e.g. Building VI')"
+                :placeholder="address2Placeholder"
+                :title="address2Title"
                 @focusout="check('address2')"
               />
             </b-input-group>
@@ -269,19 +260,19 @@
               <b-form-input
                 id="zip"
                 v-model="form.zip"
-                :placeholder="$gettext('Postal/Zip code')"
+                :placeholder="postalCodePlaceholder"
                 required
                 :state="form.ok.zip"
-                :title="$gettext('e.g. 69007')"
+                :title="postalCodeTitle"
                 @focusout="check('zip')"
               />
               <b-form-input
                 id="city"
                 v-model="form.city"
-                :placeholder="$gettext('City')"
+                :placeholder="cityPlaceholder"
                 required
                 :state="form.ok.city"
-                :title="$gettext('e.g. Saint-Etienne')"
+                :title="cityTitle"
                 @focusout="check('city')"
               />
             </b-input-group>
@@ -321,9 +312,10 @@
           v-if="/(FR|GP|GF|RE|MQ|YT|NC|PF|PM|WF)/.test(form.country)"
           class="text-muted px-4 mb-0 mt-2"
         >
-          <small v-translate>
-            In France, thanks to the {{ calcDefisc().percent }} % tax deduction, <b>your donation of {{ calcDefisc().amount }}</b>
-            will cost you <b>{{ calcDefisc().defisc }}</b>.
+          <small>
+            <translate :translate-params="{ percent: calcDefisc().percent, amount: calcDefisc().amount, defisc: calcDefisc().defisc }">
+              In France, thanks to the %{ percent } tax deduction, your donation of %{ amount } will cost you %{ defisc }.
+            </translate>
           </small>
         </p>
       </b-card>
@@ -359,14 +351,16 @@
         id="btnVerif"
         class="btn btn-lg"
         type="submit">
-        <span
-          style="font-size: 22px;"
-          v-translate>
+
+        <span style="font-size: 22px;" v-translate>
           Give
         </span>
+
         <br />
+
         <span v-if="!isNaN(form.don)">{{ formatCurrency(form.don) }}</span>
-        <span v-translate> now</span>
+
+        <span v-translate>&#8239; now</span>
       </b-button>
     </p>
   </b-form>
@@ -628,6 +622,44 @@
       BFormCheckbox,
       BForm
     },
+
+    computed: {
+      amountLabel () { return this.$gettext('Amount') },
+      amountPlaceholder () { return this.$gettext('Amount (e.g.: 42)') },
+
+      emailPlaceholder () { return this.$gettext('E-mail') },
+      emailTitleSociety () { return this.$gettext('e.g. contact@fsf.org') },
+      emailTitleElse () { return this.$gettext('e.g. r.stallman@outlock.com') },
+
+      nicknamePlaceholder () { return this.$gettext('Nickname') },
+      nicknameTitle () { return this.$gettext('e.g. Lady AAL') },
+
+      representLabel () { return this.$gettext('I represent') },
+
+      representCompany () { return this.$gettext('Company, association, community...') },
+
+      lastnamePlaceholder () { return this.$gettext('Last name') },
+      lastnameTitle () { return this.$gettext('e.g. Lovelace') },
+
+      firstnamePlaceholder () { return this.$gettext('First name') },
+      firstnameTitle () { return this.$gettext('e.g. Ada') },
+
+      legalEntityPlaceholder () { return this.$gettext('Legal entity') },
+      legalEntityTitle () { return this.$gettext('e.g. Free Software Foundation') },
+
+      addressPlaceholder () { return this.$gettext('Address') },
+      addressTitle () { return this.$gettext('e.g. 12, Freedom Street') },
+
+      address2Placeholder () { return this.$gettext('Address line 2') },
+      address2Title () { return this.$gettext('e.g. Building VI') },
+
+      postalCodePlaceholder () { return this.$gettext('Postal/Zip code') },
+      postalCodeTitle () { return this.$gettext('e.g. 42100') },
+
+      cityPlaceholder () { return this.$gettext('City') },
+      cityTitle () { return this.$gettext('e.g. Saint-Etienne') }
+    },
+
     data () {
       return {
         countries,

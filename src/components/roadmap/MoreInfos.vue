@@ -8,7 +8,7 @@
         <b-col cols="12">
           <h3 class="section-title mt-5">
             <div v-translate>
-              Pourquoi une collecte perlée&nbsp;?
+              Why collecting over 6 months?
             </div>
             <div class="border-title"></div>
           </h3>
@@ -16,24 +16,19 @@
         <b-col lg="4">
 
           <p v-translate>
-            À l’heure ou personne ne sait de quoi l’avenir sera fait, il ne nous
-            semblait pas décent de faire une campagne de crowdfunding menaçant
-            de ne pas faire de notre mieux sur PeerTube si nous ne récoltions
-            pas les sommes nécessaires.
+            At a time when no one knows what the future will bring, it didn't seem decent for us to do a crowdfunding campaign
+            threatening to not do our best on PeerTube if we didn't raise the necessary funds.
           </p>
 
           <p v-translate>
-            Nous croyons en l’utilité publique de PeerTube, à tel point que nous
-            nous engageons à travailler six mois pour concrétiser cette v3,
-            même si c’est sur nos fonds propres (ce que <a
-            href="https://framablog.org/2019/11/12/peertube-met-les-bouchees-doubles-pour-emanciper-vos-videos-de-youtube/">
-            nous avions déjà fait pour la v2</a>).
+            We believe in the public utility of PeerTube, so much so that we commit to work on it for six months to make this v3 happen,
+            even if we must do it on our own funds
+            (which <a href="https://framablog.org/2019/11/12/peertube-has-worked-twice-as-hard-to-free-your-videos-from-youtube/">we had already done for v2</a>).
           </p>
 
           <p v-translate>
-            Nous espérons malgré tout qu’en partageant le plus largement cette
-            feuille de route, certain·es d’entre vous nous soutiendront dans
-            notre démarche par un don qui nous permettra de financer ce travail.
+            We still hope that by sharing this roadmap as widely as possible,
+            some of you will support us in our approach with a donation that will allow us to fund this work.
           </p>
         </b-col>
 
@@ -49,7 +44,7 @@
                   v-translate
                   class="right-space"
                 >
-                  Plus de détails sur
+                  Learn more on
                 </span>
                 <b-dropdown
                   right
@@ -166,84 +161,73 @@
       return {
         activeStep: this.active,
         stepsTitle: [
-          this.$gettext('Recherche globale'),
-          this.$gettext('Outils de modération'),
-          this.$gettext('Playlist et Plugins'),
+          this.$gettext('Global search'),
+          this.$gettext('Moderation'),
+          this.$gettext('Plugins & Playlists'),
           this.$gettext('Live streaming')
         ],
         stepsContent: [
           this.$gettext(`
-            <p>Lorsqu’on recherche des vidéos sur une instance PeerTube aujourd’hui,
-            il est difficile d’y <strong>trouver du contenu qui n’est pas dans
-            la bulle de fédération</strong> de cette instance.
-            Nous allons créer <strong>un serveur indexant la globalité des
-            vidéos</strong> et des chaînes de toutes les instances PeerTube qui
-            sont inscrites sur <a href="https://instances.joinpeertube.org/">l’annuaire
-            public</a>.</p>
-            <p>Le code de ce moteur d’indexation sera libre, afin que quiconque
-            puisse héberger le sien en fixant ses propres règles d’admissibilité.
-            Chaque administrateur d’instance PeerTube pourra choisir
-            d’<strong>utiliser un de ces moteurs d’indexation pour la barre de
-            recherche</strong> de son instance.</p>
-            <p>Par ailleurs, <strong>les messages d’information</strong>
-            permettront aux administrateurs d’une instance d’afficher une
-            information aux personnes qui la visitent.</p>
+            <p>Today, when searching videos on a PeerTube instance today, it is hard to
+            <strong>find content that is not in the federation bubble</strong> of that instance.</p>
+
+            <p>We will create a <strong>server that indexes all videos</strong>
+            and channels from all PeerTube instances that are listed on
+            <a href="https://instances.joinpeertube.org/">the public directory</a>.
+            The code for this indexing engine will be open source,
+            so that anyone can host their own by setting their own eligibility rules.</p>
+
+            <p>Each PeerTube instance administrator will be able to choose to <strong>
+            use one of these indexing engines for their instance's search bar</strong> de son instance.</p>
+
+            <p>In addition, <strong>announcements</strong>
+            will allow instance administrators to display information to visitors to their instance.</p>
           `),
+
           this.$gettext(`
-            <p>Bien que chaque nouvelle version de PeerTube ait apporté <a
-            href="https://joinpeertube.org/faq#peertube-developers-did-not-add-moderation-tools">de
-            nouvelles fonctionnalités de modération</a>,
-            il reste encore beaucoup à faire pour <strong>faciliter la modération</strong> des
-            contenus et des comptes dans la fédiverse.
-            Voilà pourquoi nous voulons <strong>consacrer un mois de développement à
-            de nouveaux outils de modération</strong>.</p>
-            <p>La liste des fonctionnalités à développer ou à améliorer est longue :
-            suivi des signalements, historique de modération, modération des
-            commentaires, rapports de modération lié à un compte, retour des
-            actions engagées (ou non) suite à un signalement, <strong>lutte contre les
-            spams</strong>, partage de listes noires d’instances, de comptes, de contenus…</p>
-            <p>Cette liste se construit <a href="https://github.com/Chocobozzz/PeerTube/labels/Component%3A%20Moderation%20%3Agodmode%3A">
-            <strong>en collaboration avec la communauté</strong></a>,
-            et c’est à l’écoute de ces besoins que nous essaierons de prioriser
-            les outils de modération développés durant ce mois.</p>
+            <p>While each new version of PeerTube has brought <a
+            href="https://joinpeertube.org/faq#peertube-developers-did-not-add-moderation-tools">new moderation features</a>,
+            there is still much to be done to <strong>facilitate moderation</strong> of content and accounts in the federation.
+            That's why we want to <strong>dedicate a month of development to new moderation tools</strong>.</p>
+
+            <p>The list of functionalities to develop or improve is long: reports logs and monitoring, moderation history,
+            comments moderation, moderation reports related to an account, feedback on steps taken (or not) following a report,
+            <strong>fight against spam</strong>, sharing blacklists of instances, accounts or content...</p>
+
+            <p>This list is being built
+            <a href="https://github.com/Chocobozzz/PeerTube/labels/Component%3A%20Moderation%20%3Agodmode%3A"><strong>in collaboration with the community</strong></a>,
+            and it is with these needs in mind that we will try to prioritize the moderation tools developed during this month.</p>
           `),
+
           this.$gettext(`
-            <p>S’il est facile d’intégrer une vidéo PeerTube sur un site web ou dans des médias sociaux,
-            on ne peut pas en dire autant des listes de lectures.
-            Nous voulons <strong>retravailler l’intégration et l’affichage des
-            playlists</strong> sur les sites tiers.</p>
-            <p>Nous souhaitons aussi permettre l’<strong>affichage de deux extraits d’une
-            même vidéo dans une liste de lecture</strong>. Associée à la possibilité d’extraire
-            un bout de vidéo précis dans une liste de lecture, <strong>les playlists
-            pourront ainsi devenir des outils de remix</strong> très utiles, par exemple
-            pour des usages pédagogiques.</p>
-            <p>Les plugins permettent à quiconque de contribuer, en codant de
-            nouvelles fonctionnalités à PeerTube, pour les proposer aux
-            administrateurs d’instances.
-            Nous voulons <strong>améliorer le système de plugins</strong> pour offrir plus de
-            possibilités d’interaction.</p>
-            <p>Afin de se mettre à leur place, nous allons nous-mêmes en créer
-            quelques-uns, et par exemple <strong>développer un plugin permettant
-            d’afficher des infos par dessus une vidéo</strong> pour l’annoter à un moment
-            précis du visionnage.</p>
-            <p>Nous voulons enfin travailler à <strong>sélectionner un ensemble de plugins
-            pour les mettre en valeur</strong> sur joinpeertube.org.</p>
+            <p>While it is easy to embed a PeerTube video on a website or social media, the same cannot be said for playlists.
+            We want to rework the <strong>embed and display of playlists</strong> on third party sites.</p>
+
+            <p>We also want to <strong>allow two clips of the same video to be displayed in a playlist</strong>. Combined with the ability to
+            extract a specific piece of video in a playlist, <strong>playlists will thus become very useful remixing tools</strong>,
+            for example for educational purposes.</p>
+
+            <p>Plugins allow anyone to contribute new features to PeerTube by coding them into PeerTube, and offer them to instance
+            administrators. We want to <strong>improve the plugin system</strong> to offer more interaction possibilities.</p>
+
+            <p>In order to put ourselves in their contributors' shoes, we are going to create a few plugins of our own,
+            for example one to <strong>display information over a video to annotate it</strong> at a specific point in the viewing process.</p>
+
+            <p>Finally, we want to work on <strong>selecting a set of plugins to showcase</strong> them on joinpeertube.org.</p>
           `),
+
           this.$gettext(`
-            <p>Le plus gros défi du direct sur PeerTube, c’est de <strong>faire en sorte
-            que le live soit diffusé en pair-à-pair</strong>. Après de nombreux tests,
-            nous pensons que c’est possible.</p>
-            <p>En utilisant la technologie HLS intégrée au lecteur vidéo de PeerTube
-            depuis la version 1.3, nous pensons pouvoir <strong>créer un direct avec
-            une minute de décalage entre vidéastes et spectateurs</strong>.
-            Nous voulons poser les fondations technologiques de cette diffusion
-            en direct : <strong>cette première version de PeerTube Live sera
-            donc minimaliste</strong>.
-            Il n’y aura pas d’outils de captation de flux, ni de tchat intégré,
-            ni d’émoticônes pour réagir…</p>
-            <p>Cependant, nous voulons faire en sorte qu’<strong>une fois le live fini,
-            la vidéo sera traitée et ajoutée à la chaîne du vidéaste</strong>, ce en
-            respectant les impératifs pour que tout soit correctement fédéré.</p>
+            <p>The biggest challenge of live streaming on PeerTube is to <strong>get the live feed to be peer-to-peer</strong>.
+            After extensive testing, we believe this is possible.</p>
+
+            <p>By using the HLS technology that has been built into the PeerTube video player since version 1.3, we believe
+            we can <strong>create a live stream with a one minute lag between streamers and viewers</strong>.</p>
+
+            <p>We want to lay the technological foundation for this live stream feature, so <strong>this first version of
+            PeerTube Live will be minimalist</strong>. There will be no stream captation tools, no built-in chat, no react emojis...</p>
+
+            <p>However, we want to make sure that <strong>once the live is over, the video will be processed and
+            added to the creator's channel</strong>, with every federation requirements checked.</p>
           `)
         ]
       }

@@ -3,7 +3,7 @@
     <li class="newsletter">
       <a rel="nofollow" class="btn"
          href="https://framalistes.org/sympa/info/peertube-newsletter"
-         :title="$gettext('Stay up-to-date with PeerTube')"
+         :title="newsletterTitle"
       >
         <i class="fa fa-fw fa-lg fa-envelope" aria-hidden="true"></i>
         <span class="sr-only" v-translate>Newsletter</span>
@@ -13,7 +13,7 @@
     <li class="mastodon" v-if="mastodon !== ''">
       <a target="_blank" rel="noopener noreferrer nofollow" class="btn"
          :href="mastodon"
-         :title="$gettext('Share on Mastodon')"
+         :title="mastodonTitle"
       >
         <i class="fa fa-fw fa-lg fa-mastodon" aria-hidden="true"></i>
         <span class="sr-only">Mastodon</span>
@@ -23,7 +23,7 @@
     <li class="diaspora">
       <a target="_blank" rel="noopener noreferrer nofollow" class="btn"
          :href="diaspora.join('')"
-         :title="$gettext('Share on Diaspora')"
+         :title="diasporaTitle"
       >
         <i class="fa fa-fw fa-lg fa-diaspora" aria-hidden="true"></i>
         <span class="sr-only">Diaspora</span>
@@ -33,7 +33,7 @@
     <li class="twitter">
       <a target="_blank" rel="noopener noreferrer nofollow" class="btn"
          :href="twitter.join('')"
-         :title="$gettext('Share on Twitter')"
+         :title="twitterTitle"
       >
         <i class="fa fa-fw fa-lg fa-twitter" aria-hidden="true"></i>
         <span class="sr-only">Twitter</span>
@@ -43,7 +43,7 @@
     <li class="facebook">
       <a target="_blank" rel="noopener noreferrer nofollow" class="btn"
          :href="facebook.join('')"
-         :title="$gettext('Share on Facebook')"
+         :title="facebookTitle"
       >
         <i class="fa fa-fw fa-lg fa-facebook" aria-hidden="true"></i>
         <span class="sr-only">Facebook</span>
@@ -52,7 +52,7 @@
     <li class="reddit">
       <a target="_blank" rel="noopener noreferrer nofollow" class="btn"
          :href="reddit"
-         :title="$gettext('Share on Reddit')"
+         :title="redditTitle"
       >
         <i class="fa fa-fw fa-lg fa-reddit" aria-hidden="true"></i>
         <span class="sr-only">Reddit</span>
@@ -107,6 +107,16 @@
 
 <script>
   export default {
+    computed: {
+      newsletterTitle () { return this.$gettext('Stay up-to-date with PeerTube') },
+
+      mastodonTitle () { return this.$gettext('Share on Mastodon') },
+      diasporaTitle () { return this.$gettext('Share on Diaspora') },
+      twitterTitle () { return this.$gettext('Share on Twitter') },
+      facebookTitle () { return this.$gettext('Share on Facebook') },
+      redditTitle () { return this.$gettext('Share on Reddit') }
+    },
+
     data () {
       const picture = `https://joinpeertube.org${this.buildImgUrl('card-opengraph.jpg')}`
       const link = 'https://joinpeertube.org'

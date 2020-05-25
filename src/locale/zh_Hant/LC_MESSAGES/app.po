@@ -1,155 +1,189 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-05-24 06:24+0000\n"
+"Last-Translator: David Soh <sotong0221@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://weblate.framasoft.org/projects/"
+"joinpeertube/main/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.11.2\n"
 "Generated-By: easygettext\n"
 
 #: src/views/Home.vue:54 src/views/Home.vue:305
 msgid "?"
-msgstr ""
+msgstr "？"
 
 #: src/views/FAQ.vue:431
 msgid "\"It's outrageous and unconscious: you're releasing PeerTube's version 1 when it doesn't contain the necessary tools to effectively manage videos claimed by rights holders, or to effectively manage the issue of online harassment in comments, or to effectively manage monetization through advertising, or to (insert here your request to PeerTube). It will never work! What do you intend to do about it?\""
 msgstr ""
+"「這太離譜和不直覺：你發佈 PeerTube "
+"第一版時它並沒有包含可以有效管理被所有人主張版權的視頻的工具，或者可以有效管理留言裡網路霸凌問題的工具，或者可以有效管理廣告營利的工具，或者【"
+"置入任何你對 PeerTube的需求】的工具。這根本不會成功！你打算如何處理這些問題？」"
 
 #: src/components/InstanceCard.vue:49
 msgid "%{ instance.totalInstanceFollowers } follower instance"
 msgid_plural "%{ instance.totalInstanceFollowers } followers instances"
-msgstr[0] ""
+msgstr[0] "%{ instance.totalInstanceFollowers } 本實例追隨數"
 
 #: src/views/News.vue:30
 msgid "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.joinpeertube.org\">PeerTube's official documentation site</a> (administration and use);"
 msgstr ""
+"<a target=\"_blank\" rel=\"noopener noreferrer\" href=\""
+"https://docs.joinpeertube.org\">PeerTube官方文檔</a> （管理與使用相關）;"
 
 #: src/views/FAQ.vue:143
 msgid "<strong>But PeerTube doesn't centralize: it federates.</strong> Thanks to the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://activitypub.rocks\">ActivityPub</a> protocol (also used by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://joinmastodon.org\">the Mastodon federation</a>, a free/libre Twitter alternative), PeerTube can federate several small hosters so they don't have to buy thousands of hard disks to host videos for the whole world."
 msgstr ""
+"<strong>但是 PeerTube 並不是中心化的服務：它是聯邦化的服務。</strong> 感謝 <a target=\"_blank\" rel="
+"\"noopener noreferrer\" href=\"https://activitypub.rocks\">ActivityPub</a> "
+"協議（一個推特的自由替代方案，<a target=\"_blank\" rel=\"noopener noreferrer\" href=\""
+"https://joinmastodon.org\">Mastodon 聯邦宇宙</a> 也採用此協議），PeerTube "
+"才能聯合數個小型託管者，以幫助他們避免投入大量資金去購買數以千計的硬碟以託管來自全世界的視頻。"
 
 #: src/views/FAQ.vue:134
 msgid "<strong>It's software you install on your server</strong> to create a website where videos are hosted and broadcast... Basically: you create your own \"homemade YouTube\"!"
 msgstr ""
+"<strong>它是一個軟體，一個您可以安裝在您的伺服器</strong> 以建立一個託管視頻、分享視頻…的網站。基本上：你可以建立屬於你自己的『自製 "
+"YouTube』！"
 
 #: src/views/FAQ.vue:218
 msgid "<strong>PeerTube is not only open-source: it's free (as in free speech).</strong> Its free license guarantees our fundamental freedoms as users. It is this respect for our freedoms that allows Framasoft to invite you to contribute to this software, and many evolutions (innovative comment system, etc.) have already been suggested by some of you."
 msgstr ""
+"<strong>PeerTube 不僅僅是開放源碼的：它是自由的（「言論自由」的「自由」）。</strong>它是採用自由授權以確保用戶自由的根本。"
+"正是我們對自由尊重讓 Framasoft 可以邀請您為這個軟體貢獻，有許多改變（創新的留言系統等等）便是來自於您們。"
 
 #: src/views/Instances.vue:23
 msgid "1. Find the instance that suits you best"
-msgstr ""
+msgstr "一、尋找最適合您的實例"
 
 #: src/views/News.vue:96
 msgid "2 channels on Framasoft's account on FramaTube instance"
-msgstr ""
+msgstr "在 FramaTube上的 Framasoft 帳號中的兩個頻道"
 
 #: src/views/Instances.vue:34
 msgid "2. Create your account and enjoy PeerTube"
-msgstr ""
+msgstr "二、建立您的帳號並開始享用 PeerTube"
 
 #: src/views/News.vue:75
 msgid "A better interface"
-msgstr ""
+msgstr "更好的介面"
 
 #: src/views/FAQ.vue:50
 msgid "A federation of interconnected hosting providers (so more video choices wherever you go to see them);"
-msgstr ""
+msgstr "一個由相互連接的服務提供者所組成的聯邦 （以提供更多視頻來源供您觀賞）;"
 
 #: src/views/Home.vue:83
 msgid "A federation of interconnected hosting services"
-msgstr ""
+msgstr "一個由相互連接的服務提供者所組成的聯邦"
 
 #: src/views/FAQ.vue:7
 msgid "A few questions to discover PeerTube"
-msgstr ""
+msgstr "有助於深入了解 PeerTube 的提問"
 
 #: src/views/Home.vue:7
 msgid "A free software to take back control of your videos"
-msgstr ""
+msgstr "一個由您主導，視頻分發和觀賞，的自由軟體"
 
 #: src/App.vue:28
 msgid "A free software to take back control of your videos! With more than 100 000 hosted videos, viewed more than 6 millions times and 20 000 users, PeerTube is the decentralized free software alternative to videos platforms developed by Framasoft"
 msgstr ""
+"一個由您主導，視頻分發和觀賞，的自由軟體！PeerTube 是由 Framasoft "
+"研發的去中心化自由軟體代替方案，其託管超過十萬視頻，並累積超過六百萬觀看次數和超過兩萬用戶數"
 
 #: src/views/News.vue:369
 msgid "A month before the version 1 of PeerTube, we would like to share some (good!) news with you."
-msgstr ""
+msgstr "在 PeerTube 第一版推出前，我們想與您分享一些新聞（好消息！）。"
 
 #: src/views/News.vue:307
 msgid "A more relevant search, with the ability to set advanced filters (duration, category, tags...)"
-msgstr ""
+msgstr "更精確的搜尋系統，能使用進階的過濾條件（時長、類別、標籤……）"
 
 #: src/views/Instances.vue:36
 msgid "A username, an email, a password and you can already <strong>enjoy all the features of PeerTube!</strong>"
-msgstr ""
+msgstr "只要一個用戶名、一個電子信箱和一個密碼，您就能夠<strong>享受 PeerTube 的所有功能！</strong>"
 
 #: src/views/News.vue:302
 msgid "Ability to import a video through a torrent file or a magnet URI"
-msgstr ""
+msgstr "可以使用 torrent 種子或磁力連結（Magnet URI）以改善視頻播放"
 
 #: src/views/News.vue:301
 msgid "Ability to import videos through an URL (YouTube, Vimeo, Dailymotion and many others!)"
-msgstr ""
+msgstr "可以使用網址（Youtube, Vimeo, Dailymotion以及其他網站！）以改善視頻播放"
 
 #: src/views/Home.vue:240
 msgid "About peer-to-peer broadcasting and watching"
-msgstr ""
+msgstr "關於點對點廣播和觀賞"
 
 #: src/components/InstancesList.vue:362
 msgid "Activism"
-msgstr ""
+msgstr "行動主義"
 
 #: src/views/News.vue:330
 msgid "Adding subtitles"
-msgstr ""
+msgstr "添加字幕"
 
 #: src/views/Help.vue:79
 msgid "Administer PeerTube"
-msgstr ""
+msgstr "管理 PeerTube"
 
 #: src/views/News.vue:334
 msgid "Advanced search"
-msgstr ""
+msgstr "進階搜尋"
 
 #: src/views/News.vue:18
 msgid "After a year of work and improvements, we have just released version 2 of PeerTube! Everything is explained in detail in the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framablog.org/2019/11/12/peertube-has-worked-twice-as-hard-to-free-your-videos-from-youtube/\">Framablog article</a> that we invite you to read."
 msgstr ""
+"經過一年的工作與優化，我們剛推出 PeerTube 第二版！我們邀請您閱讀 <a target=\"_blank\" rel=\"noopener "
+"noreferrer\" href=\"https://framablog.org/2019/11/12/"
+"peertube-has-worked-twice-as-hard-to-free-your-videos-from-youtube/\">"
+"Framablog 文章</a> 以瞭解第二版的所有細節。"
 
 #: src/views/FAQ.vue:526
 msgid "After discussing it on our forum, we feel that d.tube is not free or open source, because publishing only compiled code hinders freedom of modification."
-msgstr ""
+msgstr "經過我們論壇上的討論，我們覺得 d.tube 不是自由的或開源的，因為僅發布已編譯的源碼是會妨礙修改的自由。"
 
 #: src/views/Home.vue:177
 msgid "All of this is made possible by Peertube's free/libre license (GNU-AGPL). Its code is a digital \"common\", that belongs to everybody, instead of a secret formula that belongs to Google (in the case of Youtube) or to Vivendi/Bolloré (Dailymotion). This free/libre license <strong>guarantees our fundamental freedoms as users and allows many contributors to offer evolutions and new features.</strong>"
 msgstr ""
+"這一切都是因為 Peertube 的自由授權（GNU-AGPL）而成為可能。它的源碼是數位『共享』的，是屬於所有人的，相對於僅由 Google "
+"（Youtube）或 Vivendi （Dailymotion）所有的私有源碼。這個自由授權 "
+"<strong>保障了我們用戶的基本自由並允許許多貢獻者一起改善和添加新的功能。</strong>"
 
 #: src/components/InstancesList.vue:81
 msgid "Allowed video space"
-msgstr ""
+msgstr "被允許的視頻空間"
 
 #: src/views/FAQ.vue:49
 msgid "An open code (transparency) under a free/libre license (ethic, respect and community-driven development);"
-msgstr ""
+msgstr "使用自由授權的開放源碼（公開透明，符合普世價值、尊重和由社區驅動的開發進程）;"
 
 #: src/views/Home.vue:151
 msgid "An open-source, free/libre licence code"
-msgstr ""
+msgstr "自由授權的開放源碼"
 
 #: src/views/Home.vue:132
 msgid "And there's more! PeerTube uses Activity Pub, a federating protocol that <strong>allows you to interact with other software</strong>, provided they also use this protocol. For example, PeerTube and Mastodon -a Twitter alternative- are connected: <strong>you can follow a PeerTube user from Mastodon</strong> (the latest videos from the PeerTube account you follow will appear in your feed), <strong>and even comment on a PeerTube-hosted video directly from your Mastodon's account.</strong>"
 msgstr ""
+"不僅如此！PeerTube 使用 Activity Pub，一個聯邦化的協議，能 "
+"<strong>允許您與其他軟體上的用戶互動</strong>，也就是使用此協議的服務。舉個例子，PeerTube 與 Mastodon ── "
+"一個推特的替代服務 ── 是互相連接的： <strong>您可以在 Mastodon 上追蹤一個 PeerTube 的用戶</strong> "
+"（您追蹤的PeerTube用戶的最新視頻將會出現在您的時間軸上），<strong> 而您更可以用您的 Mastodon 帳號直接在 PeerTube "
+"託管的視頻上留言。</strong>"
 
 #: src/components/InstancesList.vue:364
 msgid "Animals"
-msgstr ""
+msgstr "動物們"
 
 #: src/views/News.vue:177
 msgid "Another feature of this 1.3 version has been entirely developed by an external contributor: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/joshmorel\">Josh Morel</a> who add <strong>a quarantine system</strong> for videos on PeerTube. If the administrator of an instance enables this feature, any new video uploaded on his instance will automatically be hidden until a moderator approves it."
 msgstr ""
+"在 1.3 版本，有一個功能是由外部開發者：<a target=\"_blank\" rel=\"noopener noreferrer\" href="
+"\"https://github.com/joshmorel\">Josh Morel</a>開發的。他針對 PeerTube 視頻設計了<strong>"
+" 一個隔離系統</strong>。如果實力管理員開啟這個功能能，所有在該實例的新上傳視頻會自動隱藏直到版主／調解員批准（才會解除隱藏）。"
 
 #: src/views/News.vue:120
 msgid "Another unclear element was the <b>video sharing pop-up</b>. We have improved it, and it is now possible to share or embed a video by making it start and/or finish at a precise moment (time-code feature), to decide which subtitles will appear by default, and to loop the video. These new options will surely be greatly enjoyed."
@@ -161,11 +195,11 @@ msgstr ""
 
 #: src/views/Home.vue:197
 msgid "Are you a video maker?"
-msgstr ""
+msgstr "您是個視頻創作者？"
 
 #: src/components/InstancesList.vue:352
 msgid "Art"
-msgstr ""
+msgstr "藝術"
 
 #: src/views/News.vue:428
 msgid "As a reminder, in the first newsletter (July 23rd, 2018), we announced that the localization system and RSS feeds were implemented, and that we were making progress on the subtitles support and the advanced search."
@@ -189,23 +223,23 @@ msgstr ""
 
 #: src/components/InstancesList.vue:93
 msgid "At least 20GB"
-msgstr ""
+msgstr "至少 20GB"
 
 #: src/components/InstancesList.vue:97
 msgid "At least 50GB"
-msgstr ""
+msgstr "至少 50GB"
 
 #: src/components/InstancesList.vue:89
 msgid "At least 5GB"
-msgstr ""
+msgstr "至少 5GB"
 
 #: src/views/News.vue:421
 msgid "August 20, 2018"
-msgstr ""
+msgstr "8 月 20 日，2018 年"
 
 #: src/components/InstanceCard.vue:274
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: src/views/FAQ.vue:67
 msgid "Because by design free/libre software respects our fundamental freedoms, and guarantees them by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube/blob/develop/LICENSE\">a license</a>, so a legally enforceable contract."
@@ -221,27 +255,27 @@ msgstr ""
 
 #: src/views/Help.vue:18
 msgid "Better understand and use PeerTube"
-msgstr ""
+msgstr "深入瞭解並使用 PeerTube"
 
 #: src/components/InstancesList.vue:55
 msgid "Blur"
-msgstr ""
+msgstr "模糊"
 
 #: src/views/FAQ.vue:378
 msgid "Blur the title and thumbnail"
-msgstr ""
+msgstr "模糊標題和縮圖"
 
 #: src/components/InstanceCard.vue:80
 msgid "Blurred"
-msgstr ""
+msgstr "已模糊"
 
 #: src/views/Home.vue:283
 msgid "Browse contents"
-msgstr ""
+msgstr "瀏覽內容"
 
 #: src/views/Home.vue:234
 msgid "Browse/discover PeerTube instances"
-msgstr ""
+msgstr "瀏覽／探索 PeerTube 實例"
 
 #: src/views/FAQ.vue:212
 msgid "But above all, <strong>PeerTube treats you like a person, not as a product</strong> that it has to track, profile, and lock in video loops to better sell your available brain time. Thus, the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/Chocobozzz/PeerTube\">source code</a> (the recipe) of the PeerTube software is open, making its operation transparent."
@@ -249,7 +283,7 @@ msgstr ""
 
 #: src/views/FAQ.vue:237
 msgid "But this is just the beginning, PeerTube is not (yet) perfect, and many features are missing. But we intend to keep improving it day after day."
-msgstr ""
+msgstr "但這僅僅是個開始，PeerTube （還）並未完善，缺少許多功能。但是我們打算一天一天地持續改善它。"
 
 #: src/views/Instances.vue:25
 msgid "By <strong>filtering according to your profile</strong> (video maker or viewer), <strong>themes</strong> that you are looking for or <strong>languages</strong> you speak, <strong>find an instance whose rules match your needs!</strong>"
@@ -278,144 +312,150 @@ msgstr ""
 #: src/views/News.vue:355 src/views/News.vue:412 src/views/News.vue:461
 #: src/views/News.vue:505
 msgid "Cheers,"
-msgstr ""
+msgstr "歡呼，"
 
 #: src/components/InstancesList.vue:357
 msgid "Comedy"
-msgstr ""
+msgstr "喜劇"
 
 #: src/views/FAQ.vue:73
 msgid "Concretely here, it means that:"
-msgstr ""
+msgstr "在此具體說明："
 
 #: src/components/Footer.vue:7
 msgid "Contact"
-msgstr ""
+msgstr "聯絡方式"
 
 #: src/components/Header.vue:35
 msgid "Contribute"
-msgstr ""
+msgstr "貢獻"
 
 #: src/views/Help.vue:88
 msgid "Contribute to PeerTube"
-msgstr ""
+msgstr "為 PeerTube 貢獻"
 
 #: src/views/Hall-Of-Fame.vue:426
 msgid "Contributors"
-msgstr ""
+msgstr "貢獻者"
 
 #: src/components/Header.vue:23 src/components/InstancesList.vue:25
 #: src/views/Instances.vue:5
 msgid "Create an account"
-msgstr ""
+msgstr "建立帳號"
 
 #: src/views/FAQ.vue:255
 msgid "Creation and content"
-msgstr ""
+msgstr "創作與內容"
 
 #: src/views/News.vue:129
 msgid "customization options when video sharing"
-msgstr ""
+msgstr "視頻分享時的客製化選項"
 
 #: src/components/InstancesList.vue:377
 msgid "Deutsch"
-msgstr ""
+msgstr "德語"
 
 #: src/components/Header.vue:8
 msgid "developed by"
-msgstr ""
+msgstr "研發團隊"
 
 #: src/views/Home.vue:220
 msgid "Direct contact with a human-scale hoster allows for two things: you no longer are the client of a huge tech company, and <strong>you can nurture a special relationship with your hoster, who distributes your data.</strong>"
 msgstr ""
+"與個人體量的託管者合作會有兩個結果：您不再是大型科技公司的客戶，且<strong>您可以與發佈您的內容的託管者培養專屬的合作關係。</strong>"
 
 #: src/components/InstancesList.vue:29
 msgid "Discover instances"
-msgstr ""
+msgstr "探索實例"
 
 #: src/views/Home.vue:34
 msgid "Discover our content selection"
-msgstr ""
+msgstr "探索我們的內容選項"
 
 #: src/views/Help.vue:23
 msgid "Discover our FAQ"
-msgstr ""
+msgstr "閱讀我們的常見問題列表"
 
 #: src/views/Home.vue:42 src/views/Home.vue:110
 msgid "Discover PeerTube instances"
-msgstr ""
+msgstr "探索 PeerTube 實例"
 
 #: src/components/ContentSelection.vue:28
 msgid "Discover the channel"
-msgstr ""
+msgstr "探索這些頻道"
 
 #: src/views/News.vue:6
 msgid "Discover the latest PeerTube improvements"
-msgstr ""
+msgstr "閱讀最新的 PeerTube 改進消息"
 
 #: src/components/InstancesList.vue:59
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 #: src/views/FAQ.vue:377
 msgid "Display them"
-msgstr ""
+msgstr "顯示它們"
 
 #: src/components/InstanceCard.vue:81
 msgid "Displayed"
-msgstr ""
+msgstr "已顯示"
 
 #: src/views/FAQ.vue:418
 msgid "Don't bother the developer to help you install your instance: we have a <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framacolibri.org/c/peertube\">support forum</a> for that."
 msgstr ""
+"您不需要為了找援手幫忙配置您的實例而打擾研發人員：我們有一個專屬的<a target=\"_blank\" rel=\"noopener "
+"noreferrer\" href=\"https://framacolibri.org/c/peertube\">支援論壇</a>。"
 
 #: src/views/Home.vue:344
 msgid "Donate to Framasoft"
-msgstr ""
+msgstr "捐款給 Framasoft"
 
 #: src/views/News.vue:477
 msgid "During the crowdfunding campaign, we continued to work on the localization system. And we are happy to announce it's finally completed: it will be available in the next beta (beta 10) of PeerTube. As of this writing, the web interface is already available in english, french, basque, catalan, czech and esperanto (huge thank you to all of the translators). If you too want to help translating PeerTube, do not hesitate to check out the documentation!"
 msgstr ""
+"在眾籌階段進行的過程中，我們持續地為本地化系統努力。我們很開心地向大家公佈系統已經完成：系統將在下一個 PeerTube 測試版（beta "
+"10）推出。在編寫這篇文章時，網頁介面已經有英語、法語、巴斯克語、加泰羅尼亞語、捷克語和世界語（獻上大大的感謝給所有的譯者）。如果您也願意幫助 "
+"PeerTube 的翻譯工作，別猶豫，直接查閱文檔！"
 
 #: src/components/InstancesList.vue:361
 msgid "Education"
-msgstr ""
+msgstr "教育"
 
 #: src/components/InstancesList.vue:369
 msgid "English"
-msgstr ""
+msgstr "英語（English）"
 
 #: src/views/Home.vue:290
 msgid "Enjoy every feature: history, subscriptions, playlists, notifications..."
-msgstr ""
+msgstr "享受所有的功能：歷史紀錄、訂閱、播放清單、提示……"
 
 #: src/components/InstancesList.vue:358
 msgid "Entertainment"
-msgstr ""
+msgstr "娛樂"
 
 #: src/components/InstancesList.vue:380
 msgid "Español"
-msgstr ""
+msgstr "西班牙語（Español）"
 
 #: src/components/InstancesList.vue:375
 msgid "Esperanto"
-msgstr ""
+msgstr "世界語（Esperanto）"
 
 #: src/components/InstancesList.vue:372
 msgid "Euskara"
-msgstr ""
+msgstr "巴斯克語（Euskara）"
 
 #: src/views/FAQ.vue:5 src/views/FAQ.vue:596
 msgid "FAQ"
-msgstr ""
+msgstr "常見問題列表"
 
 #: src/views/News.vue:27
 msgid "features and improvements since v1 of November 2018;"
-msgstr ""
+msgstr "自 2018 年 11 月 v1 後的新功能和改進部分;"
 
 #: src/views/News.vue:225
 msgid "February 26, 2019"
-msgstr ""
+msgstr "2 月 26 日，2019 年"
 
 #: src/views/FAQ.vue:157
 msgid "Federation offers another benefit: <strong>everyone becomes independent</strong>. Zaïd, Catherin, Solar and yourself can make your own rules, your own Terms of Services (for example, one can imagine a MeowTube where dogs videos are strictly forbidden 😉)."
@@ -423,48 +463,56 @@ msgstr ""
 
 #: src/components/InstancesList.vue:350
 msgid "Films"
-msgstr ""
+msgstr "影片"
 
 #: src/components/InstancesList.vue:3
 msgid "Filter according to your preferences"
-msgstr ""
+msgstr "您所設的過濾條件"
 
 #: src/views/FAQ.vue:385
 msgid "Finally, any user can override this configuration, and decides if he want to display, blur or hide these videos for himself."
-msgstr ""
+msgstr "最終，所有用戶都可以覆寫這個設定，並自行決定如顯示，或模糊，或隱藏這些視頻。"
 
 #: src/views/News.vue:204
 msgid "Finally, we have made some adjustments to the <strong>user interface</strong> so it easier and nicer to use. For instance, video thumbnails are becoming bigger so that they're more highlighted. Users now have a quick access to their library from the menu that includes their playlists, videos, video watching history and their subscriptions."
 msgstr ""
+"最終，我們對 <strong>用戶界面</strong> 做了一些調整以讓使用的方式更好更簡單。例如，視頻縮圖變得更大，讓用戶更容易看到。用戶可以從菜單快"
+"速連接到他們的視頻庫，菜單包含了播放清單、視頻列表、視頻觀看歷史紀錄和訂閱列表。"
 
 #: src/views/Hall-Of-Fame.vue:23
 msgid "Financial Contributors"
-msgstr ""
+msgstr "資金貢獻者"
 
 #: src/views/News.vue:475
 msgid "First of all, thank you again for contributing to PeerTube! ❤️"
-msgstr ""
+msgstr "首先，感謝您為 PeerTube 貢獻！❤️"
 
 #: src/views/News.vue:82
 msgid "First of all, we realized that most people who discover PeerTube have a hard time understanding <b>the difference between a channel and an account</b>. Indeed, on others video broadcasting services (such as YouTube) these two things are pretty much the same."
 msgstr ""
+"首先，我們意識到大部分發現 PeerTube 的人們需要時間和精力才能區分<b>一個頻道和一個帳號之間的差異</b>。的確，在其他的視頻播放服務（例如 "
+"YouTube）上這兩樣基本上是同一件事。"
 
 #: src/components/InstanceCard.vue:61
 msgid "Follows %{ instance.totalInstanceFollowing } instance"
 msgid_plural "Follows %{ instance.totalInstanceFollowing } instances"
-msgstr[0] ""
+msgstr[0] "追蹤 %{ instance.totalInstanceFollowing } 實例"
 
 #: src/components/InstancesList.vue:366
 msgid "Food"
-msgstr ""
+msgstr "食物"
 
 #: src/views/News.vue:263
 msgid "For 2019, we plan to add a plugin and theme management system (even though basic at first), playlist management, support for audio files upload and many other features."
-msgstr ""
+msgstr "到 2019 年，我們計劃添加掛件和主題管理系統（至少完成基本功能）、播放清單管理、支援音頻上傳和其他許許多多的功能。"
 
 #: src/views/FAQ.vue:267
 msgid "For example, in France, discriminatory content <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://fr.wikipedia.org/wiki/Lois_contre_le_racisme_et_les_discours_de_haine\">is prohibited</a> and may be reported to the authorities. PeerTube allows users to report problematic videos, and each administrator must then apply its moderation in accordance with its terms and conditions and the law."
 msgstr ""
+"舉個例子，在法國，歧視性內容 <a target=\"_blank\" rel=\"noopener noreferrer\" href=\""
+"https://fr.wikipedia.org/wiki/"
+"Lois_contre_le_racisme_et_les_discours_de_haine\">是被禁止的</a> ，以及需要通報給監管機構。"
+"PeerTube 允許用戶舉報有問題的視頻，而每位管理員必須按照當地法律和實例的用戶條款進行調解。"
 
 #: src/views/FAQ.vue:317
 msgid "For now, the solution proposed to people who upload videos is to use the \"support\" button under the video. This button displays a frame in which people who upload videos can display text, images, and links freely. For example, it's possible to put a link to Patreon, Tipeee, Paypal, Liberapay (or any other solution) there. Other examples: put a postal address if you'd like to receive physical thank-you cards, put a logo of your enterprise, a link to support a non-profit organisation..."
@@ -472,43 +520,43 @@ msgstr ""
 
 #: src/views/Help.vue:61
 msgid "For PeerTube admins"
-msgstr ""
+msgstr "致 PeerTube 管理員"
 
 #: src/views/FAQ.vue:129
 msgid "For those who know how to administer a server, PeerTube is..."
-msgstr ""
+msgstr "對於知道如何管理一個伺服器的管理員來說，PeerTube 是…"
 
 #: src/views/FAQ.vue:199
 msgid "For those who want to watch videos, PeerTube can offer..."
-msgstr ""
+msgstr "對於想要觀賞視頻的用戶來說，PeerTube 可以提供…"
 
 #: src/views/FAQ.vue:166
 msgid "For those who wants to upload their videos, PeerTube allows..."
-msgstr ""
+msgstr "對於想要上傳他們的視頻的用戶來說，PeerTube 允許…"
 
 #: src/components/Footer.vue:11
 msgid "Forum"
-msgstr ""
+msgstr "論壇"
 
 #: src/components/InstancesList.vue:370
 msgid "Français"
-msgstr ""
+msgstr "法語（Français）"
 
 #: src/views/News.vue:42
 msgid "Freely,"
-msgstr ""
+msgstr "自由地，"
 
 #: src/views/FAQ.vue:302
 msgid "From that moment on, Dominique is responsible, because they are warned that they're hosting an illegal video. It is therefore up to them to act if they don't want to be held accountable before the law."
-msgstr ""
+msgstr "從那時候起，Dominique 需要負責，因為他們託管違法視頻而被警告。如果他們不想承擔法律責任，就必須採取行動。"
 
 #: src/components/InstancesList.vue:382
 msgid "Gàidhlig"
-msgstr ""
+msgstr "蓋爾語（Gàidhlig）"
 
 #: src/components/InstancesList.vue:355
 msgid "Gaming"
-msgstr ""
+msgstr "遊戲"
 
 #: src/components/InstanceCard.vue:277
 msgid "GB"
@@ -516,84 +564,84 @@ msgstr ""
 
 #: src/components/Header.vue:39
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #: src/views/NotFound.vue:10
 msgid "Go back to the homepage"
-msgstr ""
+msgstr "回到首頁"
 
 #: src/components/ContentSelection.vue:35
 msgid "Go on the instance"
-msgstr ""
+msgstr "前往實例"
 
 #: src/views/Help.vue:44
 msgid "Go to the forum"
-msgstr ""
+msgstr "前往論壇"
 
 #: src/views/Hall-Of-Fame.vue:5 src/views/Hall-Of-Fame.vue:632
 msgid "Hall of Fame"
-msgstr ""
+msgstr "名人堂"
 
 #: src/views/News.vue:293 src/views/News.vue:367 src/views/News.vue:424
 #: src/views/News.vue:473
 msgid "Hello everyone!"
-msgstr ""
+msgstr "大家好！"
 
 #: src/views/News.vue:16
 msgid "Hello,"
-msgstr ""
+msgstr "哈囉，"
 
 #: src/views/News.vue:164
 msgid "Hello!"
-msgstr ""
+msgstr "哈囉！"
 
 #: src/components/Header.vue:31 src/views/Help.vue:5 src/views/Help.vue:199
 msgid "Help"
-msgstr ""
+msgstr "幫助"
 
 #: src/views/News.vue:235
 msgid "Here is a small retrospective of the end of 2018/beginning of 2019:"
-msgstr ""
+msgstr "這裡是 2018 年末／2019 年初的小回顧："
 
 #: src/views/News.vue:54
 msgid "Hi everybody,"
-msgstr ""
+msgstr "大家好，"
 
 #: src/components/InstanceCard.vue:79
 msgid "Hidden"
-msgstr ""
+msgstr "已隱藏"
 
 #: src/components/InstancesList.vue:51
 msgid "Hide"
-msgstr ""
+msgstr "隱藏"
 
 #: src/views/FAQ.vue:379
 msgid "Hide them"
-msgstr ""
+msgstr "隱藏它們"
 
 #: src/components/Header.vue:19
 msgid "Home"
-msgstr ""
+msgstr "首頁"
 
 #: src/views/FAQ.vue:486
 msgid "How do I contribute to PeerTube’s code?"
-msgstr ""
+msgstr "我能如何為 PeerTube 源碼貢獻？"
 
 #: src/views/FAQ.vue:405
 msgid "How do I install PeerTube?"
-msgstr ""
+msgstr "我要如何安裝 PeerTube？"
 
 #: src/components/InstancesList.vue:360
 msgid "How To"
-msgstr ""
+msgstr "如何"
 
 #: src/views/Help.vue:92
 msgid "How to contribute?"
-msgstr ""
+msgstr "要如何貢獻？"
 
 #: src/views/FAQ.vue:327
 msgid "However, many improvements of PeerTube are to be expected... Including those that would allow you to create (and choose) the monetization tools that interest you!"
-msgstr ""
+msgstr "然而，可以期待 PeerTube 的許多改進… 抱括了那些可以讓您創造（和選擇）能幫助您營利的工具！"
 
 #: src/views/News.vue:88
 msgid "However, on PeerTube each account is linked to one or multiple channels that can be named as the users sees fit. You also have to create at least one channel when creating an account. Once the channels have been created, users can upload videos to each channel to organize their contents (for example, you could have a channel about cooking and another one about biking)."
@@ -1119,6 +1167,8 @@ msgstr ""
 #: src/views/FAQ.vue:294
 msgid "Solal goes on Framatube, an instance which follows DominiqueTube. So, Solal can see, from Framatube, the videos published on DominiqueTube."
 msgstr ""
+"Solal 到了 Framatube，一個追蹤 DominiqueTube 的實例。所以 Solal 可以在 Framatube 看到來自 "
+"DominiqueTube 的視頻。"
 
 #: src/views/FAQ.vue:298
 msgid "Solal sees Camille's illegal video, and signals it with the button provided for that purpose. Although the report is made from Framatube, it is sent directly to the person hosting the illegal content, Dominique."
@@ -1126,19 +1176,19 @@ msgstr ""
 
 #: src/views/Hall-Of-Fame.vue:11
 msgid "Sponsors"
-msgstr ""
+msgstr "贊助者"
 
 #: src/components/InstancesList.vue:353
 msgid "Sports"
-msgstr ""
+msgstr "運動"
 
 #: src/views/News.vue:105
 msgid "Step 1: account creation (choosing your username, password, email, etc.)"
-msgstr ""
+msgstr "第一步：建立賬號（選擇您的用戶名、密碼、電子信箱等等）"
 
 #: src/views/News.vue:106
 msgid "Step 2: choosing your default channel name via a new form"
-msgstr ""
+msgstr "第二部：在新的表格中選擇您的默認頻道名稱"
 
 #: src/views/News.vue:308
 msgid "Subscriptions throughout the federation: you can follow your favorite video channels and see all the videos on a dedicated page"
@@ -1146,7 +1196,7 @@ msgstr ""
 
 #: src/views/News.vue:300
 msgid "Subtitles support"
-msgstr ""
+msgstr "字幕支援"
 
 #: src/views/News.vue:489
 msgid "Subtitles support is well under way, and we should have a first version available soon. When this work is finished, we will develop the advanced search."
@@ -1162,11 +1212,11 @@ msgstr ""
 
 #: src/views/FAQ.vue:402
 msgid "Technical questions"
-msgstr ""
+msgstr "技術性問題"
 
 #: src/views/News.vue:152 src/views/News.vue:216 src/views/News.vue:280
 msgid "Thanks to all PeerTube contributors!"
-msgstr ""
+msgstr "感謝所有的 PeerTube 貢獻者！"
 
 #: src/views/Home.vue:326
 msgid "Thanks to our <a href=\"/hall-of-fame\" target=\"_blank\">crowdfunding (from March to July 2018)</a>, <strong>Framasoft were able to employ PeerTube's main developer.</strong> After a beta release in March 2018, release 1 came out in November 2018. Since then, several intermediary releases have brought many features along. Several collectives have already created PeerTube hosts, laying the foundation for the federation."

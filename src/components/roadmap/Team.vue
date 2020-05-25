@@ -5,7 +5,7 @@
         <b-col cols="12">
           <h3 class="section-title mt-5">
             <div v-translate>
-              Qui sommes nous ?
+              Who are we?
             </div>
             <div class="border-title"></div>
           </h3>
@@ -19,38 +19,33 @@
           </p>
 
           <p v-translate>
-            Framasoft (c’est nous&nbsp;!) est une association à but non lucratif créée
-            en 2004, qui se consacre à <b>l’éducation populaire aux enjeux du numérique</b>.
-            Notre petite association (moins de 40 membres, moins de 10 salarié·e·s) est
-            connue pour avoir réalisé le projet <a href="https://degooglisons-internet.org">Dégooglisons Internet</a>,
-            proposant 34 outils en ligne éthiques et alternatifs.
+            <strong>Framasoft</strong> (that's us!) is a French non-for-profit created in 2004, dedicated <strong>to popular education</strong> on digital issues.
+            Our small association (less than 40 members, less than 10 employees) is known to have realized the
+            <a href="https://degooglisons-internet.org">"Degooglize the Internet" project</a>, proposing 34 ethical and alternative online tools.
           </p>
 
           <p v-translate>
-            Notre association crée de nombreux outils numériques (services, cours et
-            ressources, logiciels) pour équiper les personnes qui font la société de contribution.
-            Parmi ces outils, nous portons le développement des logiciels fédérés
-            PeerTube et Mobilizon (une future alternative aux événements, pages et
-            groupes Facebook).
+            Our association creates many digital tools (services, courses and resources, softwares) to equip the people who participate
+            to the contribution society. Among these tools, we carry the development of the federated softwares PeerTube and Mobilizon
+            (a soon-to-be alternative to Facebook events, pages and groups).
           </p>
 
           <p v-translate>
-            Reconnue d’intérêt général, notre association est financée à plus de 95&nbsp;%
-            par les dons des personnes qui nous soutiennent et nous font confiance.
+            Recognised as being of general interest, our association is financed at more than 95% by donations
+            from people who support and trust us.
           </p>
 
           <p>
             <a href="https://framasoft.org" v-translate>
-              En savoir plus sur Framasoft
+              Learn more about Framasoft
             </a>
           </p>
         </b-col>
         <b-col lg="4">
-          <h4 v-translate>Designer invitée</h4>
+          <h4 v-translate>Guest designer</h4>
           <p v-translate>
-            Tout au long de ce développement, nous travaillerons à améliorer l'expérience
-            d’utilisation et l'interface de PeerTube pour offrir plus de clarté et
-            de pouvoir à chaque niveau d'utilisation.
+            Throughout this development we will be improving user experience
+            and interface of PeerTube to provide more clarity and power at every level of use.
           </p>
 
           <b-card>
@@ -63,8 +58,8 @@
                 alt=""
               />
               <p v-translate>
-                « Designer indépendante, chercheuse UX pour comprendre les usages en
-                profondeur et concevoir des outils utilisables, éthiques et inclusifs. »
+                « Independent designer, UX researcher who seeks to thoroughly understand usability and design user-friendly,
+                ethical and inclusive tools. »
               </p>
               <p>
                 <a href="https://mcgodwin.com">mcgodwin.com</a>
