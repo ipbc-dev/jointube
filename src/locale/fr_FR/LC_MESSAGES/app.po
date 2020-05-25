@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-05-25 08:43+0000\n"
+"PO-Revision-Date: 2020-05-25 08:46+0000\n"
 "Last-Translator: chocobozzz <chocobozzz@framasoft.org>\n"
 "Language-Team: French (France) <https://weblate.framasoft.org/projects/"
 "joinpeertube/main/fr_FR/>\n"
@@ -60,7 +60,7 @@ msgstr "(oct. - nov.)"
 
 #: src/components/roadmap/DonateForm.vue:370
 msgid "&nbsp;now"
-msgstr ""
+msgstr "&nbsp;maintenant"
 
 #: src/components/InstanceCard.vue:49
 msgid "%{ instance.totalInstanceFollowers } follower instance"
@@ -426,6 +426,8 @@ msgstr "2. Créez votre compte et profitez de PeerTube"
 msgid ""
 "A \"new\" world cannot be built with the tools of surveillance capitalism."
 msgstr ""
+"Un « autre » monde ne pourra pas se construire avec les outils du "
+"capitalisme de surveillance."
 
 #: src/views/News.vue:211
 msgid "A better interface"
@@ -585,11 +587,11 @@ msgstr "Espace vidéo autorisé"
 
 #: src/components/roadmap/DonateForm.vue:636
 msgid "Amount"
-msgstr ""
+msgstr "Montant"
 
 #: src/components/roadmap/DonateForm.vue:637
 msgid "Amount (e.g.: 42)"
-msgstr ""
+msgstr "Autre montant (ex : 42)"
 
 #: src/views/News.vue:59
 msgid "An enhanced documentation"
@@ -1139,19 +1141,16 @@ msgid "Facilitate index creation"
 msgstr "Possibilité de créer des index"
 
 #: src/views/Roadmap.vue:208
-#, fuzzy
 msgid ""
 "Facilitating access to content, sharing powers and responsibilities, opening "
 "up to contributions, democratizing live streaming through peer-to-peer... "
 "PeerTube v3 aims to consolidate this tool as an increasingly user-friendly "
 "alternative to Google-YouTube and Facebook-Live."
 msgstr ""
-"Un « autre » monde ne pourra pas se construire avec les outils du "
-"capitalisme de surveillance.<br /> Faciliter l'accès aux contenus, partager "
-"les pouvoirs et responsabilités, s'ouvrir aux contributions, démocratiser le "
-"direct grâce au pair-à-pair… La v3 de PeerTube vise à consolider cet outil "
-"comme une alternative de plus en plus conviviale aux Google-YouTube et "
-"autres Facebook-Live."
+"Faciliter l'accès aux contenus, partager les pouvoirs et responsabilités, "
+"s'ouvrir aux contributions, démocratiser le direct grâce au pair-à-pair… La "
+"v3 de PeerTube vise à consolider cet outil comme une alternative de plus en "
+"plus conviviale aux Google-YouTube et autres Facebook-Live."
 
 #: src/views/Roadmap.vue:898
 msgid "Facilitating moderation"
@@ -1609,14 +1608,12 @@ msgstr ""
 "outils de modération demandés par les administrateurs d'instances."
 
 #: src/components/roadmap/DonateForm.vue:323
-#, fuzzy
 msgid ""
 "In France, thanks to the %{ percent } tax deduction, your donation of "
 "%{ amount } will cost you %{ defisc }."
 msgstr ""
-"En France, grâce à la déduction d’impôts de {{ calcDefisc().percent }} %, "
-"<b>votre don de {{ calcDefisc().amount }}</b> vous coûtera "
-"<b>{{ calcDefisc().defisc }}</b>."
+"En France, grâce à la déduction d’impôts de %{ percent }, votre don de %{ "
+"amount } vous coûtera %{ defisc }."
 
 #: src/views/News.vue:379
 msgid ""
@@ -2576,9 +2573,8 @@ msgstr ""
 "Des questions sur PeerTube ? Besoin d'aide ? Vous êtes au bon endroit !"
 
 #: src/views/Roadmap.vue:79
-#, fuzzy
 msgid "raised in %{ days } day"
-msgstr "récoltés en {{ days }} jours"
+msgstr "récoltés en %{ days } jours"
 
 #: src/views/Home.vue:136
 msgid ""
