@@ -148,7 +148,7 @@
                         <h4 class="text-center font-weight-bolder">
                           <span v-html="milestonesContent[file].title"></span>
                           <br />
-                          <i v-if="index < 3">{{ formatCurrency(steps[index]) }}</i>
+                          <i>{{ formatCurrency(steps[index]) }}</i>
                         </h4>
 
                         <b-card-img
@@ -845,7 +845,7 @@
       BProgressBar
     },
     created () {
-      fetch('https://soutenir.framasoft.org/2020-pt3.json')
+      fetch('https://soutenir.framasoft.org/dons/2020-pt3.json')
         .then(response => response.json())
         .then((data) => {
           this.list = data.list
@@ -948,7 +948,7 @@
       },
 
       updateData () {
-        this.days = Math.round(((new Date()).getTime() - (new Date(this.end)).getTime()) / (1000 * 60 * 60 * 24))
+        this.days = Math.round(((new Date()).getTime() - (new Date(this.start)).getTime()) / (1000 * 60 * 60 * 24))
         this.hours = Math.round(((new Date(this.end)).getTime() - (new Date()).getTime()) / (1000 * 60 * 60))
         // Fill donators
 
