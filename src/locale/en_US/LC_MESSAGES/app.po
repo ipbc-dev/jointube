@@ -39,8 +39,8 @@ msgid "(Oct. - Nov.)"
 msgstr "(Oct. - Nov.)"
 
 #: src/components/roadmap/DonateForm.vue:361
-msgid "&nbsp;now"
-msgstr "&nbsp;now"
+msgid "&#8239; now"
+msgstr "&#8239; now"
 
 #: src/components/InstanceCard.vue:49
 msgid "%{ instance.totalInstanceFollowers } follower instance"
@@ -879,7 +879,7 @@ msgstr "GB"
 msgid "Git"
 msgstr "Git"
 
-#: src/components/roadmap/DonateForm.vue:352
+#: src/components/roadmap/DonateForm.vue:353
 msgid "Give"
 msgstr "Give"
 
@@ -1108,7 +1108,7 @@ msgstr "Italiano"
 msgid "Its development is community-based, it can be enhanced by everyone's contributions."
 msgstr "Its development is community-based, it can be enhanced by everyone's contributions."
 
-#: src/components/roadmap/ShareAndFollow.vue:113
+#: src/components/roadmap/ShareAndFollow.vue:123
 msgid "Join me and support PeerTube, a free software to take back control of your videos!"
 msgstr "Join me and support PeerTube, a free software to take back control of your videos!"
 
@@ -1176,7 +1176,7 @@ msgstr "Let's pave the way to PeerTube live in the v3!"
 msgid "Let’s pave the way towards PeerTube's v3!"
 msgstr "Let’s pave the way towards PeerTube's v3!"
 
-#: src/components/roadmap/ShareAndFollow.vue:114
+#: src/components/roadmap/ShareAndFollow.vue:124
 msgid "Let’s support PeerTube"
 msgstr "Let’s support PeerTube"
 
@@ -1277,8 +1277,8 @@ msgid "Nickname"
 msgstr "Nickname"
 
 #: src/views/Roadmap.vue:922
-msgid "No chat, no gif, no ❤️ 👍 "
-msgstr "No chat, no gif, no ❤️ 👍 "
+msgid "No chat, no gif, no ❤️ 👍"
+msgstr "No chat, no gif, no ❤️ 👍"
 
 #: src/components/InstancesList.vue:63
 msgid "No opinion"
@@ -1637,6 +1637,26 @@ msgstr "September 25, 2019"
 msgid "Share and follow"
 msgstr "Share and follow"
 
+#: src/components/roadmap/ShareAndFollow.vue:114
+msgid "Share on Diaspora"
+msgstr "Share on Diaspora"
+
+#: src/components/roadmap/ShareAndFollow.vue:116
+msgid "Share on Facebook"
+msgstr "Share on Facebook"
+
+#: src/components/roadmap/ShareAndFollow.vue:113
+msgid "Share on Mastodon"
+msgstr "Share on Mastodon"
+
+#: src/components/roadmap/ShareAndFollow.vue:117
+msgid "Share on Reddit"
+msgstr "Share on Reddit"
+
+#: src/components/roadmap/ShareAndFollow.vue:115
+msgid "Share on Twitter"
+msgstr "Share on Twitter"
+
 #: src/views/Roadmap.vue:899
 msgid "Sharing blacklists (spam)"
 msgstr "Sharing blacklists (spam)"
@@ -1676,6 +1696,10 @@ msgstr "Sports"
 #: src/views/News.vue:9
 msgid "Stay informed by subscribing to <a href=\"https://framalistes.org/sympa/subscribe/peertube-newsletter\" target=\"_blank\">the newsletter</a>"
 msgstr "Stay informed by subscribing to <a href=\"https://framalistes.org/sympa/subscribe/peertube-newsletter\" target=\"_blank\">the newsletter</a>"
+
+#: src/components/roadmap/ShareAndFollow.vue:111
+msgid "Stay up-to-date with PeerTube"
+msgstr "Stay up-to-date with PeerTube"
 
 #: src/views/Roadmap.vue:880
 msgid "Step 1"

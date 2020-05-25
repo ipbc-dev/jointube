@@ -57,7 +57,7 @@ msgid "(Oct. - Nov.)"
 msgstr ""
 
 #: src/components/roadmap/DonateForm.vue:361
-msgid "&nbsp;now"
+msgid "&#8239; now"
 msgstr ""
 
 #: src/components/InstanceCard.vue:49
@@ -1348,7 +1348,7 @@ msgstr "GB"
 msgid "Git"
 msgstr "Github"
 
-#: src/components/roadmap/DonateForm.vue:352
+#: src/components/roadmap/DonateForm.vue:353
 msgid "Give"
 msgstr ""
 
@@ -1782,7 +1782,7 @@ msgstr ""
 "Su desarrollo se basa en la comunidad, se puede mejorar con las "
 "contribuciones de todos."
 
-#: src/components/roadmap/ShareAndFollow.vue:113
+#: src/components/roadmap/ShareAndFollow.vue:123
 #, fuzzy
 msgid ""
 "Join me and support PeerTube, a free software to take back control of your "
@@ -1856,7 +1856,7 @@ msgstr ""
 msgid "Let’s pave the way towards PeerTube's v3!"
 msgstr ""
 
-#: src/components/roadmap/ShareAndFollow.vue:114
+#: src/components/roadmap/ShareAndFollow.vue:124
 msgid "Let’s support PeerTube"
 msgstr ""
 
@@ -2032,7 +2032,7 @@ msgid "Nickname"
 msgstr ""
 
 #: src/views/Roadmap.vue:922
-msgid "No chat, no gif, no ❤️ 👍 "
+msgid "No chat, no gif, no ❤️ 👍"
 msgstr ""
 
 #: src/components/InstancesList.vue:63
@@ -2659,6 +2659,26 @@ msgstr "25 de septiembre de 2019"
 msgid "Share and follow"
 msgstr ""
 
+#: src/components/roadmap/ShareAndFollow.vue:114
+msgid "Share on Diaspora"
+msgstr ""
+
+#: src/components/roadmap/ShareAndFollow.vue:116
+msgid "Share on Facebook"
+msgstr ""
+
+#: src/components/roadmap/ShareAndFollow.vue:113
+msgid "Share on Mastodon"
+msgstr ""
+
+#: src/components/roadmap/ShareAndFollow.vue:117
+msgid "Share on Reddit"
+msgstr ""
+
+#: src/components/roadmap/ShareAndFollow.vue:115
+msgid "Share on Twitter"
+msgstr ""
+
 #: src/views/Roadmap.vue:899
 msgid "Sharing blacklists (spam)"
 msgstr ""
@@ -2736,6 +2756,10 @@ msgstr "Deportes"
 msgid ""
 "Stay informed by subscribing to <a href=\"https://framalistes.org/sympa/"
 "subscribe/peertube-newsletter\" target=\"_blank\">the newsletter</a>"
+msgstr ""
+
+#: src/components/roadmap/ShareAndFollow.vue:111
+msgid "Stay up-to-date with PeerTube"
 msgstr ""
 
 #: src/views/Roadmap.vue:880

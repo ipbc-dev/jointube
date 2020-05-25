@@ -59,8 +59,8 @@ msgid "(Oct. - Nov.)"
 msgstr "(oct. - nov.)"
 
 #: src/components/roadmap/DonateForm.vue:361
-msgid "&nbsp;now"
-msgstr "&nbsp;maintenant"
+msgid "&#8239; now"
+msgstr ""
 
 #: src/components/InstanceCard.vue:49
 msgid "%{ instance.totalInstanceFollowers } follower instance"
@@ -1465,7 +1465,7 @@ msgstr "Go"
 msgid "Git"
 msgstr "Git"
 
-#: src/components/roadmap/DonateForm.vue:352
+#: src/components/roadmap/DonateForm.vue:353
 msgid "Give"
 msgstr "Donner"
 
@@ -1904,7 +1904,7 @@ msgstr ""
 "Son développement est communautaire, il peut s’enrichir des contributions de "
 "chacun·e."
 
-#: src/components/roadmap/ShareAndFollow.vue:113
+#: src/components/roadmap/ShareAndFollow.vue:123
 msgid ""
 "Join me and support PeerTube, a free software to take back control of your "
 "videos!"
@@ -1976,7 +1976,7 @@ msgstr "Pavons la route de PeerTube pour avoir du Live dès la v3&nbsp;!"
 msgid "Let’s pave the way towards PeerTube's v3!"
 msgstr "Pavons la route de PeerTube vers sa v3 !"
 
-#: src/components/roadmap/ShareAndFollow.vue:114
+#: src/components/roadmap/ShareAndFollow.vue:124
 msgid "Let’s support PeerTube"
 msgstr "Soutenons PeerTube"
 
@@ -2152,7 +2152,8 @@ msgid "Nickname"
 msgstr "Pseudonyme"
 
 #: src/views/Roadmap.vue:922
-msgid "No chat, no gif, no ❤️ 👍 "
+#, fuzzy
+msgid "No chat, no gif, no ❤️ 👍"
 msgstr "Sans Tchat, ni gif, ni ❤️ 👍 "
 
 #: src/components/InstancesList.vue:63
@@ -2791,6 +2792,28 @@ msgstr "25 Septembre 2019"
 msgid "Share and follow"
 msgstr "Suivre et partager"
 
+#: src/components/roadmap/ShareAndFollow.vue:114
+msgid "Share on Diaspora"
+msgstr ""
+
+#: src/components/roadmap/ShareAndFollow.vue:116
+#, fuzzy
+msgid "Share on Facebook"
+msgstr "Suivre et partager"
+
+#: src/components/roadmap/ShareAndFollow.vue:113
+#, fuzzy
+msgid "Share on Mastodon"
+msgstr "Suivre et partager"
+
+#: src/components/roadmap/ShareAndFollow.vue:117
+msgid "Share on Reddit"
+msgstr ""
+
+#: src/components/roadmap/ShareAndFollow.vue:115
+msgid "Share on Twitter"
+msgstr ""
+
 #: src/views/Roadmap.vue:899
 msgid "Sharing blacklists (spam)"
 msgstr "Partage de listes noires (spams)"
@@ -2874,6 +2897,10 @@ msgid ""
 msgstr ""
 "Restez informés en vous abonnant à notre <a href=\"https://framalistes.org/"
 "sympa/subscribe/peertube-newsletter\" target=\"_blank\">newsletter</a>"
+
+#: src/components/roadmap/ShareAndFollow.vue:111
+msgid "Stay up-to-date with PeerTube"
+msgstr ""
 
 #: src/views/Roadmap.vue:880
 msgid "Step 1"
@@ -3935,6 +3962,9 @@ msgstr "Japonais"
 #: src/components/InstancesList.vue:396
 msgid "简体中文（中国）"
 msgstr "Chinois simplifié"
+
+#~ msgid "&nbsp;now"
+#~ msgstr "&nbsp;maintenant"
 
 #~ msgid "now"
 #~ msgstr "maintenant"
