@@ -391,8 +391,8 @@ msgstr ""
 "<strong>PeerTube 2.2</strong> a grandement amélioré la gestion des "
 "signalements de vidéos (recherche, affichage des signalements, actions sur "
 "la vidéo ou le compte etc), a ajouté des hooks et des outils de modération "
-"dans l'API des plugins et Framasoft a développé un plugin expérimental de *"
-"masquage automatique* basé sur des listes publiques."
+"dans l'API des plugins et Framasoft a développé un plugin expérimental de "
+"*masquage automatique* basé sur des listes publiques."
 
 #: src/views/FAQ.vue:218
 msgid ""
