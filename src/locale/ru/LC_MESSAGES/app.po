@@ -41,7 +41,7 @@ msgid ""
 msgstr ""
 
 #: src/views/Roadmap.vue:906
-msgid "(Aug-Sept.)"
+msgid "(Aug. - Sept.)"
 msgstr ""
 
 #: src/views/Roadmap.vue:894
@@ -53,7 +53,7 @@ msgid "(June)"
 msgstr ""
 
 #: src/views/Roadmap.vue:918
-msgid "(oct. - nov.)"
+msgid "(Oct. - Nov.)"
 msgstr ""
 
 #: src/components/InstanceCard.vue:49
@@ -73,7 +73,7 @@ msgstr ""
 "joinpeertube.org\">Официальный сайт документации PeerTube</a> "
 "(администрирование и использование);"
 
-#: src/components/roadmap/MoreInfos.vue:217
+#: src/components/roadmap/MoreInfos.vue:219
 msgid ""
 "<p>The biggest challenge of live streaming on PeerTube is to <strong>get the "
 "live feed to be peer-to-peer</strong>.\n"
@@ -105,7 +105,10 @@ msgid ""
 "strong>\n"
 "          and channels from all PeerTube instances that are listed on\n"
 "          <a href=\"https://instances.joinpeertube.org/\">the public "
-"directory</a>.</p>\n"
+"directory</a>.\n"
+"          The code for this indexing engine will be open source,\n"
+"          so that anyone can host their own by setting their own eligibility "
+"rules.</p>\n"
 "\n"
 "          <p>Each PeerTube instance administrator will be able to choose to "
 "<strong>\n"
@@ -117,7 +120,7 @@ msgid ""
 "visitors to their instance.</p>"
 msgstr ""
 
-#: src/components/roadmap/MoreInfos.vue:185
+#: src/components/roadmap/MoreInfos.vue:187
 msgid ""
 "<p>While each new version of PeerTube has brought <a\n"
 "          href=\"https://joinpeertube.org/faq#peertube-developers-did-not-"
@@ -142,7 +145,7 @@ msgid ""
 "the moderation tools developed during this month.</p>"
 msgstr ""
 
-#: src/components/roadmap/MoreInfos.vue:200
+#: src/components/roadmap/MoreInfos.vue:202
 msgid ""
 "<p>While it is easy to embed a PeerTube video on a website or social media, "
 "the same cannot be said for playlists.\n"
@@ -151,8 +154,8 @@ msgid ""
 "\n"
 "          <p>We also want to <strong>allow two clips of the same video to be "
 "displayed in a playlist</strong>. Combined with the ability to\n"
-"          extract a specific piece of video in a playlist, playlists will "
-"thus become very useful remixing tools,\n"
+"          extract a specific piece of video in a playlist, <strong>playlists "
+"will thus become very useful remixing tools</strong>,\n"
 "          for example for educational purposes.</p>\n"
 "\n"
 "          <p>Plugins allow anyone to contribute new features to PeerTube by "
@@ -186,6 +189,16 @@ msgstr ""
 "a free/libre Twitter alternative), PeerTube объединяет небольшие "
 "видеохостеры не имеющие миллионов для покупки хранилищ и каналов чтобы "
 "предоставлять видео всему миру."
+
+#: src/components/roadmap/Team.vue:20
+msgid ""
+"<strong>Framasoft</strong> (that's us!) is a French non-for-profit created "
+"in 2004, dedicated <strong>to popular education</strong> on digital issues. "
+"Our small association (less than 40 members, less than 10 employees) is "
+"known to have realized the <a href=\"https://degooglisons-internet.org\">"
+"\"Degooglize the Internet\" project</a>, proposing 34 ethical and "
+"alternative online tools."
+msgstr ""
 
 #: src/views/FAQ.vue:134
 msgid ""
@@ -1144,15 +1157,6 @@ msgstr "Для тех, кто хочет загрузить свои видео,
 msgid "Forum"
 msgstr "Форум"
 
-#: src/components/roadmap/Team.vue:20
-msgid ""
-"Framasoft (that's us!) is a French non-for-profit created in 2004, dedicated "
-"to popular education on digital issues. Our small association (less than 40 "
-"members, less than 10 employees) is known to have realized the <a href="
-"\"https://degooglisons-internet.org\">\"Degooglize the Internet\" project</"
-"a>, proposing 34 ethical and alternative online tools."
-msgstr ""
-
 #: src/components/InstancesList.vue:383
 msgid "Français"
 msgstr "Français (Французский)"
@@ -1762,7 +1766,7 @@ msgstr "Больше возможностей"
 
 #: src/views/Home.vue:44
 #, fuzzy
-msgid "More informations"
+msgid "More information"
 msgstr "Больше возможностей"
 
 #: src/views/FAQ.vue:599
@@ -2298,10 +2302,6 @@ msgstr "Люди"
 msgid "per user"
 msgstr "на пользователя"
 
-#: src/components/roadmap/MoreInfos.vue:166
-msgid "Playlist and Plugins"
-msgstr ""
-
 #: src/views/Roadmap.vue:909
 msgid "Playlists embed"
 msgstr ""
@@ -2314,7 +2314,7 @@ msgstr ""
 msgid "Plug-in system"
 msgstr "Плагины"
 
-#: src/views/Roadmap.vue:905
+#: src/components/roadmap/MoreInfos.vue:166 src/views/Roadmap.vue:905
 #, fuzzy
 msgid "Plugins & Playlists"
 msgstr "Плагины"
@@ -2478,7 +2478,7 @@ msgid "Share and follow"
 msgstr ""
 
 #: src/views/Roadmap.vue:899
-msgid "Sharing balcklists (spam)"
+msgid "Sharing blacklists (spam)"
 msgstr ""
 
 #: src/views/Home.vue:328

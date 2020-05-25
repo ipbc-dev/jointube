@@ -43,7 +43,8 @@ msgstr ""
 "profondeur et concevoir des outils utilisables, éthiques et inclusifs. »"
 
 #: src/views/Roadmap.vue:906
-msgid "(Aug-Sept.)"
+#, fuzzy
+msgid "(Aug. - Sept.)"
 msgstr "(août - sept.)"
 
 #: src/views/Roadmap.vue:894
@@ -55,7 +56,7 @@ msgid "(June)"
 msgstr "(juin)"
 
 #: src/views/Roadmap.vue:918
-msgid "(oct. - nov.)"
+msgid "(Oct. - Nov.)"
 msgstr ""
 
 #: src/components/InstanceCard.vue:49
@@ -74,7 +75,7 @@ msgstr ""
 "joinpeertube.org\">le site de la documentation officielle de PeerTube</a> "
 "(d'administration et d'utilisation) ;"
 
-#: src/components/roadmap/MoreInfos.vue:217
+#: src/components/roadmap/MoreInfos.vue:219
 msgid ""
 "<p>The biggest challenge of live streaming on PeerTube is to <strong>get the "
 "live feed to be peer-to-peer</strong>.\n"
@@ -113,6 +114,7 @@ msgstr ""
 "respectant les impératifs pour que tout soit correctement fédéré. </p>"
 
 #: src/components/roadmap/MoreInfos.vue:170
+#, fuzzy
 msgid ""
 "<p>Today, when searching videos on a PeerTube instance today, it is hard to\n"
 "          <strong>find content that is not in the federation bubble</strong> "
@@ -122,7 +124,10 @@ msgid ""
 "strong>\n"
 "          and channels from all PeerTube instances that are listed on\n"
 "          <a href=\"https://instances.joinpeertube.org/\">the public "
-"directory</a>.</p>\n"
+"directory</a>.\n"
+"          The code for this indexing engine will be open source,\n"
+"          so that anyone can host their own by setting their own eligibility "
+"rules.</p>\n"
 "\n"
 "          <p>Each PeerTube instance administrator will be able to choose to "
 "<strong>\n"
@@ -137,21 +142,21 @@ msgstr ""
 "est difficile d'y <strong>trouver du contenu qui n'est pas dans la bulle de "
 "fédération</strong> de cette instance.</p>\n"
 "\n"
-"<p>Nous allons créer <strong>un serveur indexant la globalité des "
-"vidéos</strong> et des chaînes de toutes les instances PeerTube qui sont "
-"inscrites sur <a href=\"https://instances.joinpeertube.org/\">l'annuaire "
-"public</a>. Le code de ce moteur d'indexation sera libre, afin que quiconque "
-"puisse héberger le sien en fixant ses propres règles d'admissibilité.</p>\n"
+"<p>Nous allons créer <strong>un serveur indexant la globalité des vidéos</"
+"strong> et des chaînes de toutes les instances PeerTube qui sont inscrites "
+"sur <a href=\"https://instances.joinpeertube.org/\">l'annuaire public</a>. "
+"Le code de ce moteur d'indexation sera libre, afin que quiconque puisse "
+"héberger le sien en fixant ses propres règles d'admissibilité.</p>\n"
 "\n"
-"<p>Chaque administrateur d'instance PeerTube pourra choisir d'<strong>"
-"utiliser un de ces moteurs d'indexation pour la barre de recherche</strong> "
-"de son instance.</p>\n"
+"<p>Chaque administrateur d'instance PeerTube pourra choisir "
+"d'<strong>utiliser un de ces moteurs d'indexation pour la barre de "
+"recherche</strong> de son instance.</p>\n"
 "\n"
 "<p>Par ailleurs, <strong>les messages d'information</strong> permettront aux "
 "administrateurs d'une instance d'afficher une information aux personnes qui "
 "la visitent.</p>"
 
-#: src/components/roadmap/MoreInfos.vue:185
+#: src/components/roadmap/MoreInfos.vue:187
 msgid ""
 "<p>While each new version of PeerTube has brought <a\n"
 "          href=\"https://joinpeertube.org/faq#peertube-developers-did-not-"
@@ -175,28 +180,29 @@ msgid ""
 "          and it is with these needs in mind that we will try to prioritize "
 "the moderation tools developed during this month.</p>"
 msgstr ""
-"<p>Bien que chaque nouvelle version de PeerTube ait apporté <a href=\""
-"https://joinpeertube.org/faq#peertube-developers-did-not-add-moderation-"
+"<p>Bien que chaque nouvelle version de PeerTube ait apporté <a href="
+"\"https://joinpeertube.org/faq#peertube-developers-did-not-add-moderation-"
 "tools\">de nouvelles fonctionnalités de modération</a>, il reste encore "
 "beaucoup à faire pour <strong>faciliter la modération</strong> des contenus "
-"et des comptes dans la fédiverse. Voilà pourquoi nous voulons <strong>"
-"consacrer un mois de développement à de nouveaux outils de "
+"et des comptes dans la fédiverse. Voilà pourquoi nous voulons "
+"<strong>consacrer un mois de développement à de nouveaux outils de "
 "modération</strong>.</p>\n"
 "\n"
 "<p>La liste des fonctionnalités à développer ou à améliorer est longue : "
 "suivi des signalements, historique de modération, modération des "
 "commentaires, rapports de modération lié à un compte, retour des actions "
-"engagées (ou non) suite à un signalement, <strong>lutte contre les "
-"spams</strong>, partage de listes noires d'instances, de comptes, de "
-"contenus...</p>\n"
+"engagées (ou non) suite à un signalement, <strong>lutte contre les spams</"
+"strong>, partage de listes noires d'instances, de comptes, de contenus...</"
+"p>\n"
 "\n"
 "<p>Cette liste se construit <a href=\"https://github.com/Chocobozzz/PeerTube/"
 "labels/Component%3A%20Moderation%20%3Agodmode%3A\"><strong>en collaboration "
 "avec la communauté</strong></a>, et c'est à l'écoute de ces besoins que nous "
-"essaierons de prioriser les outils de modération développés durant ce "
-"mois.</p>"
+"essaierons de prioriser les outils de modération développés durant ce mois.</"
+"p>"
 
-#: src/components/roadmap/MoreInfos.vue:200
+#: src/components/roadmap/MoreInfos.vue:202
+#, fuzzy
 msgid ""
 "<p>While it is easy to embed a PeerTube video on a website or social media, "
 "the same cannot be said for playlists.\n"
@@ -205,8 +211,8 @@ msgid ""
 "\n"
 "          <p>We also want to <strong>allow two clips of the same video to be "
 "displayed in a playlist</strong>. Combined with the ability to\n"
-"          extract a specific piece of video in a playlist, playlists will "
-"thus become very useful remixing tools,\n"
+"          extract a specific piece of video in a playlist, <strong>playlists "
+"will thus become very useful remixing tools</strong>,\n"
 "          for example for educational purposes.</p>\n"
 "\n"
 "          <p>Plugins allow anyone to contribute new features to PeerTube by "
@@ -224,8 +230,8 @@ msgid ""
 msgstr ""
 "<p>S'il est facile d'intégrer une vidéo PeerTube sur un site web ou dans des "
 "médias sociaux, on ne peut pas en dire autant des listes de lectures. Nous "
-"voulons <strong>retravailler l'intégration et l'affichage des "
-"playlists</strong> sur les sites tiers.</p>\n"
+"voulons <strong>retravailler l'intégration et l'affichage des playlists</"
+"strong> sur les sites tiers.</p>\n"
 "\n"
 "<p>Nous souhaitons aussi permettre l'<strong>affichage de deux extraits "
 "d'une même vidéo dans une liste de lecture</strong>. Associée à la "
@@ -263,6 +269,23 @@ msgstr ""
 "Mastodon</a>, une alternative libre à Twitter) PeerTube fédère plein de "
 "petits hébergeurs pour ne pas les obliger à acheter des milliers de disques "
 "durs afin d’héberger les vidéos du monde entier."
+
+#: src/components/roadmap/Team.vue:20
+#, fuzzy
+msgid ""
+"<strong>Framasoft</strong> (that's us!) is a French non-for-profit created "
+"in 2004, dedicated <strong>to popular education</strong> on digital issues. "
+"Our small association (less than 40 members, less than 10 employees) is "
+"known to have realized the <a href=\"https://degooglisons-internet.org\">"
+"\"Degooglize the Internet\" project</a>, proposing 34 ethical and "
+"alternative online tools."
+msgstr ""
+"<strong>Framasoft</strong> (c’est nous !) est une association à but non "
+"lucratif créée en 2004, qui se consacre à <strong>l’éducation populaire aux "
+"enjeux du numérique</strong>. Notre petite association (moins de 40 membres, "
+"moins de 10 salarié·e·s) est connue pour avoir réalisé <a href=\"https://"
+"degooglisons-internet.org\">le projet Dégooglisons Internet</a>, proposant "
+"34 outils en ligne éthiques et alternatifs."
 
 #: src/views/FAQ.vue:134
 msgid ""
@@ -368,8 +391,8 @@ msgstr ""
 "<strong>PeerTube 2.2<strong> a grandement amélioré la gestion des "
 "signalements de vidéos (recherche, affichage des signalements, actions sur "
 "la vidéo ou le compte etc), a ajouté des hooks et des outils de modération "
-"dans l'API des plugins et Framasoft a développé un plugin expérimental de *"
-"masquage automatique* basé sur des listes publiques."
+"dans l'API des plugins et Framasoft a développé un plugin expérimental de "
+"*masquage automatique* basé sur des listes publiques."
 
 #: src/views/FAQ.vue:218
 msgid ""
@@ -1320,21 +1343,6 @@ msgstr "Pour qui veut diffuser ses vidéos en ligne PeerTube permet…"
 msgid "Forum"
 msgstr "Forum"
 
-#: src/components/roadmap/Team.vue:20
-msgid ""
-"Framasoft (that's us!) is a French non-for-profit created in 2004, dedicated "
-"to popular education on digital issues. Our small association (less than 40 "
-"members, less than 10 employees) is known to have realized the <a href="
-"\"https://degooglisons-internet.org\">\"Degooglize the Internet\" project</"
-"a>, proposing 34 ethical and alternative online tools."
-msgstr ""
-"<strong>Framasoft</strong> (c’est nous !) est une association à but non "
-"lucratif créée en 2004, qui se consacre à <strong>l’éducation populaire aux "
-"enjeux du numérique</strong>. Notre petite association (moins de 40 membres, "
-"moins de 10 salarié·e·s) est connue pour avoir réalisé <a href=\"https"
-"://degooglisons-internet.org\">le projet Dégooglisons Internet</a>, "
-"proposant 34 outils en ligne éthiques et alternatifs."
-
 #: src/components/InstancesList.vue:383
 msgid "Français"
 msgstr "Français"
@@ -1593,9 +1601,9 @@ msgid ""
 "donation of {{ calcDefisc().amount }}</b> will cost you <b>{{ calcDefisc()."
 "defisc }}</b>."
 msgstr ""
-"En France, grâce à la déduction d’impôts de {{ calcDefisc().percent }} %, <b>"
-"votre don de {{ calcDefisc().amount }}</b> vous coûtera <b>{{ calcDefisc()"
-".defisc }}</b>."
+"En France, grâce à la déduction d’impôts de {{ calcDefisc().percent }} %, "
+"<b>votre don de {{ calcDefisc().amount }}</b> vous coûtera "
+"<b>{{ calcDefisc().defisc }}</b>."
 
 #: src/views/News.vue:379
 msgid ""
@@ -1960,7 +1968,8 @@ msgid "More features"
 msgstr "Et aussi"
 
 #: src/views/Home.vue:44
-msgid "More informations"
+#, fuzzy
+msgid "More information"
 msgstr "Plus d'information"
 
 #: src/views/FAQ.vue:599
@@ -2516,23 +2525,20 @@ msgstr "People"
 msgid "per user"
 msgstr "par utilisateur"
 
-#: src/components/roadmap/MoreInfos.vue:166
-msgid "Playlist and Plugins"
-msgstr ""
-
 #: src/views/Roadmap.vue:909
 msgid "Playlists embed"
 msgstr "Partage des playlists sur le web"
 
 #: src/components/roadmap/DonateForm.vue:118
 msgid "Please complete this information so we can prepare your receipt"
-msgstr "Merci de compléter ces informations afin que nous préparions votre reçu"
+msgstr ""
+"Merci de compléter ces informations afin que nous préparions votre reçu"
 
 #: src/views/News.vue:193
 msgid "Plug-in system"
 msgstr "Système de plugins"
 
-#: src/views/Roadmap.vue:905
+#: src/components/roadmap/MoreInfos.vue:166 src/views/Roadmap.vue:905
 msgid "Plugins & Playlists"
 msgstr "Plugins & Playlists"
 
@@ -2701,7 +2707,8 @@ msgid "Share and follow"
 msgstr "Suivre et partager"
 
 #: src/views/Roadmap.vue:899
-msgid "Sharing balcklists (spam)"
+#, fuzzy
+msgid "Sharing blacklists (spam)"
 msgstr "Partage de listes noires (spams)"
 
 #: src/views/Home.vue:328
@@ -3437,8 +3444,8 @@ msgstr ""
 "Nous croyons en l'utilité publique de PeerTube, à tel point que nous nous "
 "engageons à travailler six mois pour concrétiser cette v3, même si c'est sur "
 "nos fonds propres (ce que <a href=\"https://framablog.org/2019/11/12/"
-"peertube-met-les-bouchees-doubles-pour-emanciper-vos-videos-de-youtube/\">"
-"nous avions déjà fait pour la v2</a>)."
+"peertube-met-les-bouchees-doubles-pour-emanciper-vos-videos-de-youtube/"
+"\">nous avions déjà fait pour la v2</a>)."
 
 #: src/views/FAQ.vue:232
 msgid "We can answer with certainty: no!"
