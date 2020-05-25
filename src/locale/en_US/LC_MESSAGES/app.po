@@ -38,10 +38,6 @@ msgstr "(June)"
 msgid "(Oct. - Nov.)"
 msgstr "(Oct. - Nov.)"
 
-#: src/components/roadmap/DonateForm.vue:361
-msgid "&#8239; now"
-msgstr "&#8239; now"
-
 #: src/components/InstanceCard.vue:49
 msgid "%{ instance.totalInstanceFollowers } follower instance"
 msgid_plural "%{ instance.totalInstanceFollowers } followers instances"
@@ -1295,6 +1291,10 @@ msgstr "No. In October 2018, on an average instance federating with ~200 instanc
 #: src/views/News.vue:149
 msgid "November 12, 2019"
 msgstr "November 12, 2019"
+
+#: src/components/roadmap/DonateForm.vue:361
+msgid "now"
+msgstr "now"
 
 #: src/views/FAQ.vue:290
 msgid "Now imagine that Camille has created an account on DominiqueTube and uploads an illegal video, because this video uses music created by Solal."
