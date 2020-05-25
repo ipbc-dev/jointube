@@ -252,14 +252,16 @@ function buildTranslationsPromise (defaultLanguage, currentLanguage) {
         console.error('Cannot save translations in local storage.', err)
       }
 
-      Object.assign(translations, remoteTranslations)
+      return Object.assign(translations, remoteTranslations)
     })
 
   // If we have a cache, try to
   const fromLocalStorage = localStorage.getItem('translations-v1-' + currentLanguage)
   if (fromLocalStorage) {
     try {
-      return Promise.resolve(JSON.parse(fromLocalStorage))
+      Object.assign(translations, JSON.parse(fromLocalStorage))
+
+      return Promise.resolve(translations)
     } catch (err) {
       console.error('Cannot parse translations from local storage.', err)
     }
