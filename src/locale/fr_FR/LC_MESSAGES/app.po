@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-05-25 08:06+0000\n"
+"PO-Revision-Date: 2020-05-25 08:43+0000\n"
 "Last-Translator: chocobozzz <chocobozzz@framasoft.org>\n"
 "Language-Team: French (France) <https://weblate.framasoft.org/projects/"
 "joinpeertube/main/fr_FR/>\n"
@@ -56,7 +56,7 @@ msgstr "(juin)"
 
 #: src/views/Roadmap.vue:918
 msgid "(Oct. - Nov.)"
-msgstr "(Oct. - Nov.)"
+msgstr "(oct. - nov.)"
 
 #: src/components/roadmap/DonateForm.vue:370
 msgid "&nbsp;now"
