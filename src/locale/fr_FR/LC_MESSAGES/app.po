@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-05-25 09:26+0000\n"
+"PO-Revision-Date: 2020-05-25 09:53+0000\n"
 "Last-Translator: chocobozzz <chocobozzz@framasoft.org>\n"
 "Language-Team: French (France) <https://weblate.framasoft.org/projects/"
 "joinpeertube/main/fr_FR/>\n"
@@ -60,7 +60,7 @@ msgstr "(oct. - nov.)"
 
 #: src/components/roadmap/DonateForm.vue:361
 msgid "&#8239; now"
-msgstr ""
+msgstr "&#8239; maintenant"
 
 #: src/components/InstanceCard.vue:49
 msgid "%{ instance.totalInstanceFollowers } follower instance"
@@ -2152,9 +2152,8 @@ msgid "Nickname"
 msgstr "Pseudonyme"
 
 #: src/views/Roadmap.vue:922
-#, fuzzy
 msgid "No chat, no gif, no ❤️ 👍"
-msgstr "Sans Tchat, ni gif, ni ❤️ 👍 "
+msgstr "Sans Tchat, ni gif, ni ❤️ 👍"
 
 #: src/components/InstancesList.vue:63
 msgid "No opinion"
@@ -2794,25 +2793,23 @@ msgstr "Suivre et partager"
 
 #: src/components/roadmap/ShareAndFollow.vue:114
 msgid "Share on Diaspora"
-msgstr ""
+msgstr "Partager sur Diaspora"
 
 #: src/components/roadmap/ShareAndFollow.vue:116
-#, fuzzy
 msgid "Share on Facebook"
-msgstr "Suivre et partager"
+msgstr "Partager sur Facebook"
 
 #: src/components/roadmap/ShareAndFollow.vue:113
-#, fuzzy
 msgid "Share on Mastodon"
-msgstr "Suivre et partager"
+msgstr "Partager sur Mastodon"
 
 #: src/components/roadmap/ShareAndFollow.vue:117
 msgid "Share on Reddit"
-msgstr ""
+msgstr "Partager sur Reddit"
 
 #: src/components/roadmap/ShareAndFollow.vue:115
 msgid "Share on Twitter"
-msgstr ""
+msgstr "Partager sur Twitter"
 
 #: src/views/Roadmap.vue:899
 msgid "Sharing blacklists (spam)"
@@ -2900,7 +2897,7 @@ msgstr ""
 
 #: src/components/roadmap/ShareAndFollow.vue:111
 msgid "Stay up-to-date with PeerTube"
-msgstr ""
+msgstr "Suivre l'actualité de PeerTube"
 
 #: src/views/Roadmap.vue:880
 msgid "Step 1"
