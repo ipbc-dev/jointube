@@ -18,12 +18,12 @@
           <b-form-input
             id="other1"
             v-model.number="form.other1"
-            :aria-label="$gettext('Amount')"
+            :aria-label="amountLabel"
             min="1"
             max="100000"
             step="any"
             pattern="/^\d+([\.\,]\d{1,2})?$/"
-            :placeholder="$gettext('Amount (e.g.: 42)')"
+            :placeholder="amountPlaceholder"
             type="number"
             @change="check('other1')"
           />
@@ -321,9 +321,10 @@
           v-if="/(FR|GP|GF|RE|MQ|YT|NC|PF|PM|WF)/.test(form.country)"
           class="text-muted px-4 mb-0 mt-2"
         >
-          <small v-translate>
-            In France, thanks to the {{ calcDefisc().percent }} % tax deduction, <b>your donation of {{ calcDefisc().amount }}</b>
-            will cost you <b>{{ calcDefisc().defisc }}</b>.
+          <small>
+            <translate :translate-params="{ percent: calcDefisc().percent, amount: calcDefisc().amount, defisc: calcDefisc().defisc }">
+              In France, thanks to the %{ percent } tax deduction, your donation of %{ amount } will cost you %{ defisc }.
+            </translate>
           </small>
         </p>
       </b-card>
@@ -364,9 +365,11 @@
           v-translate>
           Give
         </span>
+
         <br />
+
         <span v-if="!isNaN(form.don)">{{ formatCurrency(form.don) }}</span>
-        <span v-translate> now</span>
+        <span v-translate>&nbsp;now</span>
       </b-button>
     </p>
   </b-form>
@@ -628,6 +631,12 @@
       BFormCheckbox,
       BForm
     },
+
+    computed: {
+      amountLabel () { return this.$gettext('Amount') },
+      amountPlaceholder () { return this.$gettext('Amount (e.g.: 42)') }
+    },
+
     data () {
       return {
         countries,

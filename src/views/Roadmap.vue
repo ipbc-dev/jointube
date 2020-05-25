@@ -75,11 +75,9 @@
                   <h3 id="donations">
                     {{ formatCurrency(progress.total) }}
                   </h3>
-                  <span
-                    class="text-muted"
-                    v-translate
-                  >
-                    raised in {{ days }} days
+
+                  <span class="text-muted">
+                    <translate :translate-n="days" translate-pural="raised in %{ days } days">raised in %{ days } day</translate>
                   </span>
                 </b-col>
                 <b-col cols="5">
@@ -130,7 +128,7 @@
                   leading to peer-to-peer powered live steraming in PeerTube v3.
                 </p>
                 <p v-translate>
-                  These developments are funded by donations made to our small non-for-profit:  Framasoft.
+                  These developments are funded by donations made to our small non-for-profit: Framasoft.
                   We will be collecting support over the next six months of development, so that you can help us in our efforts.
                 </p>
 
@@ -203,12 +201,14 @@
           <b-row>
             <b-col>
               <blockquote class="blockquote text-right">
-                <span v-translate>
-                  An "new" world cannot be built with the tools of surveillance capitalism.
+                <span>
+                  <translate>A "new" world cannot be built with the tools of surveillance capitalism.</translate>
+
                   <br />
-                  Facilitating access to content, sharing powers and responsibilities, opening up to contributions, democratizing live
+
+                  <translate>Facilitating access to content, sharing powers and responsibilities, opening up to contributions, democratizing live
                   streaming through peer-to-peer... PeerTube v3 aims to consolidate this tool as an increasingly user-friendly alternative
-                  to Google-YouTube and Facebook-Live.
+                  to Google-YouTube and Facebook-Live.</translate>
                 </span>
 
                 <footer class="blockquote-footer">
@@ -671,7 +671,7 @@
       blockquote {
         padding: 0px 15px;
 
-        span {
+        > span {
           border-right: 0.2em solid #333;
           position: relative;
           display: block;
