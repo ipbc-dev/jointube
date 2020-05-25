@@ -148,7 +148,7 @@
                         <h4 class="text-center font-weight-bolder">
                           <span v-html="milestonesContent[file].title"></span>
                           <br />
-                          <i v-if="index < 3">{{ formatCurrency(steps[index]) }}</i>
+                          <i>{{ formatCurrency(steps[index]) }}</i>
                         </h4>
 
                         <b-card-img
