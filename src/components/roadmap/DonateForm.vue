@@ -351,16 +351,16 @@
         id="btnVerif"
         class="btn btn-lg"
         type="submit">
-        <span
-          style="font-size: 22px;"
-          v-translate>
+
+        <span style="font-size: 22px;" v-translate>
           Give
         </span>
 
         <br />
 
         <span v-if="!isNaN(form.don)">{{ formatCurrency(form.don) }}</span>
-        <span v-translate>&nbsp;now</span>
+
+        <span v-translate>&#8239; now</span>
       </b-button>
     </p>
   </b-form>

@@ -919,7 +919,7 @@
             width: '33.33',
             ul: [
               this.$gettext('Peer-to-peer (30s - 1mn lag)'),
-              this.$gettext('No chat, no gif, no ❤️ 👍 '),
+              this.$gettext('No chat, no gif, no ❤️ 👍'),
               this.$gettext('Post-live publication'),
               this.$gettext('WIP to improve UX/UI')
             ]

@@ -21,6 +21,8 @@ export default {
     },
 
     formatCurrency (amount) {
+      if (isNaN(amount)) return ''
+
       const options = { style: 'currency', currency: 'EUR', minimumFractionDigits: 0, maximumFractionDigits: 0 }
       return new Intl.NumberFormat(this.getShortLocale(), options).format(amount)
     },
