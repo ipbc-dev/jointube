@@ -52,8 +52,8 @@
                     variant="info"
                     class="h2"
                   >
-                    <b-progress-bar :value="Math.round(this.progress.total * 100 / steps[2])">
-                      <b>{{ Math.round(this.progress.total * 100 / steps[2]) }}%</b>
+                    <b-progress-bar :value="Math.round(this.progress.total * 100 / steps[3])">
+                      <b>{{ Math.round(this.progress.total * 100 / steps[3]) }}%</b>
                     </b-progress-bar>
                   </b-progress>
                   <div class="progress-meter">
