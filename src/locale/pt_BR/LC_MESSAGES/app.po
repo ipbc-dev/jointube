@@ -57,10 +57,6 @@ msgstr ""
 msgid "(Oct. - Nov.)"
 msgstr ""
 
-#: src/components/roadmap/DonateForm.vue:361
-msgid "&#8239; now"
-msgstr ""
-
 #: src/components/InstanceCard.vue:49
 msgid "%{ instance.totalInstanceFollowers } follower instance"
 msgid_plural "%{ instance.totalInstanceFollowers } followers instances"
@@ -2000,6 +1996,10 @@ msgstr ""
 #: src/views/News.vue:149
 msgid "November 12, 2019"
 msgstr "12 de Novembro de 2019"
+
+#: src/components/roadmap/DonateForm.vue:361
+msgid "now"
+msgstr ""
 
 #: src/views/FAQ.vue:290
 msgid ""

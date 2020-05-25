@@ -58,10 +58,6 @@ msgstr "(juin)"
 msgid "(Oct. - Nov.)"
 msgstr "(oct. - nov.)"
 
-#: src/components/roadmap/DonateForm.vue:361
-msgid "&#8239; now"
-msgstr "&#8239; maintenant"
-
 #: src/components/InstanceCard.vue:49
 msgid "%{ instance.totalInstanceFollowers } follower instance"
 msgid_plural "%{ instance.totalInstanceFollowers } followers instances"
@@ -2180,6 +2176,10 @@ msgstr ""
 msgid "November 12, 2019"
 msgstr "12 Novembre 2019"
 
+#: src/components/roadmap/DonateForm.vue:361
+msgid "now"
+msgstr "maintenant"
+
 #: src/views/FAQ.vue:290
 msgid ""
 "Now imagine that Camille has created an account on DominiqueTube and uploads "
@@ -3960,11 +3960,11 @@ msgstr "Japonais"
 msgid "简体中文（中国）"
 msgstr "Chinois simplifié"
 
+#~ msgid "&#8239; now"
+#~ msgstr "&#8239; maintenant"
+
 #~ msgid "&nbsp;now"
 #~ msgstr "&nbsp;maintenant"
-
-#~ msgid "now"
-#~ msgstr "maintenant"
 
 #~ msgid ""
 #~ "With more than 100 000 hosted videos, viewed more than 6 millions times "
