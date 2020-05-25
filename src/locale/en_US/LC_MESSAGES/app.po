@@ -38,7 +38,7 @@ msgstr "(June)"
 msgid "(Oct. - Nov.)"
 msgstr "(Oct. - Nov.)"
 
-#: src/components/roadmap/DonateForm.vue:370
+#: src/components/roadmap/DonateForm.vue:361
 msgid "&nbsp;now"
 msgstr "&nbsp;now"
 
@@ -234,7 +234,7 @@ msgstr "A \"new\" world cannot be built with the tools of surveillance capitalis
 msgid "A better interface"
 msgstr "A better interface"
 
-#: src/components/roadmap/DonateForm.vue:154
+#: src/components/roadmap/DonateForm.vue:145
 msgid "a company"
 msgstr "a company"
 
@@ -298,6 +298,14 @@ msgstr "Activism"
 msgid "Adding subtitles"
 msgstr "Adding subtitles"
 
+#: src/components/roadmap/DonateForm.vue:650
+msgid "Address"
+msgstr "Address"
+
+#: src/components/roadmap/DonateForm.vue:653
+msgid "Address line 2"
+msgstr "Address line 2"
+
 #: src/views/Help.vue:79
 msgid "Administer PeerTube"
 msgstr "Administer PeerTube"
@@ -322,11 +330,11 @@ msgstr "All of this is made possible by Peertube's free/libre license (GNU-AGPL)
 msgid "Allowed video space"
 msgstr "Allowed video space"
 
-#: src/components/roadmap/DonateForm.vue:636
+#: src/components/roadmap/DonateForm.vue:627
 msgid "Amount"
 msgstr "Amount"
 
-#: src/components/roadmap/DonateForm.vue:637
+#: src/components/roadmap/DonateForm.vue:628
 msgid "Amount (e.g.: 42)"
 msgstr "Amount (e.g.: 42)"
 
@@ -338,7 +346,7 @@ msgstr "An enhanced documentation"
 msgid "An even more pleasant interface"
 msgstr "An even more pleasant interface"
 
-#: src/components/roadmap/DonateForm.vue:143
+#: src/components/roadmap/DonateForm.vue:134
 msgid "an individual"
 msgstr "an individual"
 
@@ -519,6 +527,10 @@ msgstr "Check out PeerTube’s new roadmap for the development of many features 
 msgid "Cheers,"
 msgstr "Cheers,"
 
+#: src/components/roadmap/DonateForm.vue:659
+msgid "City"
+msgstr "City"
+
 #: src/components/InstancesList.vue:370
 msgid "Comedy"
 msgstr "Comedy"
@@ -526,6 +538,10 @@ msgstr "Comedy"
 #: src/views/FAQ.vue:402
 msgid "Comments & Complaints"
 msgstr "Comments & Complaints"
+
+#: src/components/roadmap/DonateForm.vue:639
+msgid "Company, association, community..."
+msgstr "Company, association, community..."
 
 #: src/views/FAQ.vue:73
 msgid "Concretely here, it means that:"
@@ -561,7 +577,7 @@ msgstr "Create an account"
 msgid "Creation and content"
 msgstr "Creation and content"
 
-#: src/components/roadmap/DonateForm.vue:343
+#: src/components/roadmap/DonateForm.vue:334
 msgid "Credit card"
 msgstr "Credit card"
 
@@ -636,6 +652,50 @@ msgstr "Donate, share: we will need all the help we can get to complete this roa
 #: src/views/News.vue:613
 msgid "During the crowdfunding campaign, we continued to work on the localization system. And we are happy to announce it's finally completed: it will be available in the next beta (beta 10) of PeerTube. As of this writing, the web interface is already available in english, french, basque, catalan, czech and esperanto (huge thank you to all of the translators). If you too want to help translating PeerTube, do not hesitate to check out the documentation!"
 msgstr "During the crowdfunding campaign, we continued to work on the localization system. And we are happy to announce it's finally completed: it will be available in the next beta (beta 10) of PeerTube. As of this writing, the web interface is already available in english, french, basque, catalan, czech and esperanto (huge thank you to all of the translators). If you too want to help translating PeerTube, do not hesitate to check out the documentation!"
+
+#: src/components/roadmap/DonateForm.vue:630
+msgid "E-mail"
+msgstr "E-mail"
+
+#: src/components/roadmap/DonateForm.vue:651
+msgid "e.g. 12, Freedom Street"
+msgstr "e.g. 12, Freedom Street"
+
+#: src/components/roadmap/DonateForm.vue:657
+msgid "e.g. 42100"
+msgstr "e.g. 42100"
+
+#: src/components/roadmap/DonateForm.vue:645
+msgid "e.g. Ada"
+msgstr "e.g. Ada"
+
+#: src/components/roadmap/DonateForm.vue:654
+msgid "e.g. Building VI"
+msgstr "e.g. Building VI"
+
+#: src/components/roadmap/DonateForm.vue:631
+msgid "e.g. contact@fsf.org"
+msgstr "e.g. contact@fsf.org"
+
+#: src/components/roadmap/DonateForm.vue:648
+msgid "e.g. Free Software Foundation"
+msgstr "e.g. Free Software Foundation"
+
+#: src/components/roadmap/DonateForm.vue:635
+msgid "e.g. Lady AAL"
+msgstr "e.g. Lady AAL"
+
+#: src/components/roadmap/DonateForm.vue:642
+msgid "e.g. Lovelace"
+msgstr "e.g. Lovelace"
+
+#: src/components/roadmap/DonateForm.vue:632
+msgid "e.g. r.stallman@outlock.com"
+msgstr "e.g. r.stallman@outlock.com"
+
+#: src/components/roadmap/DonateForm.vue:660
+msgid "e.g. Saint-Etienne"
+msgstr "e.g. Saint-Etienne"
 
 #: src/components/InstancesList.vue:374
 msgid "Education"
@@ -729,6 +789,10 @@ msgstr "Finally, we have made some adjustments to the <strong>user interface</st
 msgid "Financial Contributors"
 msgstr "Financial Contributors"
 
+#: src/components/roadmap/DonateForm.vue:644
+msgid "First name"
+msgstr "First name"
+
 #: src/views/News.vue:611
 msgid "First of all, thank you again for contributing to PeerTube! ❤️"
 msgstr "First of all, thank you again for contributing to PeerTube! ❤️"
@@ -815,7 +879,7 @@ msgstr "GB"
 msgid "Git"
 msgstr "Git"
 
-#: src/components/roadmap/DonateForm.vue:361
+#: src/components/roadmap/DonateForm.vue:352
 msgid "Give"
 msgstr "Give"
 
@@ -908,15 +972,15 @@ msgstr "However, many improvements of PeerTube are to be expected... Including t
 msgid "However, on PeerTube each account is linked to one or multiple channels that can be named as the users sees fit. You also have to create at least one channel when creating an account. Once the channels have been created, users can upload videos to each channel to organize their contents (for example, you could have a channel about cooking and another one about biking)."
 msgstr "However, on PeerTube each account is linked to one or multiple channels that can be named as the users sees fit. You also have to create at least one channel when creating an account. Once the channels have been created, users can upload videos to each channel to organize their contents (for example, you could have a channel about cooking and another one about biking)."
 
-#: src/components/roadmap/DonateForm.vue:95
+#: src/components/roadmap/DonateForm.vue:637
+msgid "I represent"
+msgstr "I represent"
+
+#: src/components/roadmap/DonateForm.vue:86
 msgid "I want my donation to remain anonymous"
 msgstr "I want my donation to remain anonymous"
 
-#: src/components/roadmap/DonateForm.vue:12
-msgid "I want to be informed of Mobilizon’s progress"
-msgstr "I want to be informed of Mobilizon’s progress"
-
-#: src/components/roadmap/DonateForm.vue:106
+#: src/components/roadmap/DonateForm.vue:97
 msgid "I would like to receive a tax receipt"
 msgstr "I would like to receive a tax receipt"
 
@@ -952,7 +1016,7 @@ msgstr "Illustrations from <a target=\"_blank\" rel=\"noopener noreferrer\" href
 msgid "In December 2018, we released version 1.1 which contained some moderation tools requested by instance administrators."
 msgstr "In December 2018, we released version 1.1 which contained some moderation tools requested by instance administrators."
 
-#: src/components/roadmap/DonateForm.vue:323
+#: src/components/roadmap/DonateForm.vue:314
 msgid "In France, thanks to the %{ percent } tax deduction, your donation of %{ amount } will cost you %{ defisc }."
 msgstr "In France, thanks to the %{ percent } tax deduction, your donation of %{ amount } will cost you %{ defisc }."
 
@@ -1072,6 +1136,10 @@ msgstr "Kids"
 msgid "Languages"
 msgstr "Languages"
 
+#: src/components/roadmap/DonateForm.vue:641
+msgid "Last name"
+msgstr "Last name"
+
 #: src/components/roadmap/Team.vue:38
 msgid "Learn more about Framasoft"
 msgstr "Learn more about Framasoft"
@@ -1091,6 +1159,10 @@ msgstr "Learn more about those milestones"
 #: src/components/roadmap/MoreInfos.vue:42
 msgid "Learn more on"
 msgstr "Learn more on"
+
+#: src/components/roadmap/DonateForm.vue:647
+msgid "Legal entity"
+msgstr "Legal entity"
 
 #: src/components/Footer.vue:5
 msgid "Legal notices"
@@ -1199,6 +1271,10 @@ msgstr "News & Politics"
 #: src/components/Footer.vue:9 src/components/roadmap/ShareAndFollow.vue:8
 msgid "Newsletter"
 msgstr "Newsletter"
+
+#: src/components/roadmap/DonateForm.vue:634
+msgid "Nickname"
+msgstr "Nickname"
 
 #: src/views/Roadmap.vue:922
 msgid "No chat, no gif, no ❤️ 👍 "
@@ -1437,7 +1513,7 @@ msgstr "per user"
 msgid "Playlists embed"
 msgstr "Playlists embed"
 
-#: src/components/roadmap/DonateForm.vue:118
+#: src/components/roadmap/DonateForm.vue:109
 msgid "Please complete this information so we can prepare your receipt"
 msgstr "Please complete this information so we can prepare your receipt"
 
@@ -1460,6 +1536,10 @@ msgstr "Português (Portugal)"
 #: src/views/Roadmap.vue:923
 msgid "Post-live publication"
 msgstr "Post-live publication"
+
+#: src/components/roadmap/DonateForm.vue:656
+msgid "Postal/Zip code"
+msgstr "Postal/Zip code"
 
 #: src/components/Footer.vue:15
 msgid "Press kit"
@@ -1770,8 +1850,8 @@ msgstr "These four features are all implemented, and can already be used on inst
 msgid "These improvements are the result of the many contributions of the members of the PeerTube community (thank you!), but also of a year of work that we have financed through <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://soutenir.framasoft.org\">donations that support all of our association's projects</a>, currently in a <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://contributopia.org/journal\">donation campaign</a>."
 msgstr "These improvements are the result of the many contributions of the members of the PeerTube community (thank you!), but also of a year of work that we have financed through <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://soutenir.framasoft.org\">donations that support all of our association's projects</a>, currently in a <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://contributopia.org/journal\">donation campaign</a>."
 
-#: src/components/roadmap/DonateForm.vue:692
-#: src/components/roadmap/DonateForm.vue:704
+#: src/components/roadmap/DonateForm.vue:715
+#: src/components/roadmap/DonateForm.vue:727
 msgid "This field must be filled in."
 msgstr "This field must be filled in."
 
@@ -2056,7 +2136,7 @@ msgstr "You can still watch from your account videos hosted by other instances t
 msgid "You have a question?"
 msgstr "You have a question?"
 
-#: src/components/roadmap/DonateForm.vue:695
+#: src/components/roadmap/DonateForm.vue:718
 msgid "You must enter a valid email address."
 msgstr "You must enter a valid email address."
 
