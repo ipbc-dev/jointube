@@ -243,6 +243,27 @@ function buildTranslationsPromise (defaultLanguage, currentLanguage) {
   if (currentLanguage === defaultLanguage) return Promise.resolve(translations)
 
   // Fetch translations from server
-  return import('./translations/' + currentLanguage + '.json')
-    .then(module => module.default)
+  const fromRemote = import('./translations/' + currentLanguage + '.json')
+    .then(module => {
+      const remoteTranslations = module.default
+      try {
+        localStorage.setItem('translations-v1-' + currentLanguage, JSON.stringify(remoteTranslations))
+      } catch (err) {
+        console.error('Cannot save translations in local storage.', err)
+      }
+
+      Object.assign(translations, remoteTranslations)
+    })
+
+  // If we have a cache, try to
+  const fromLocalStorage = localStorage.getItem('translations-v1-' + currentLanguage)
+  if (fromLocalStorage) {
+    try {
+      return Promise.resolve(JSON.parse(fromLocalStorage))
+    } catch (err) {
+      console.error('Cannot parse translations from local storage.', err)
+    }
+  }
+
+  return fromRemote
 }
