@@ -58,6 +58,10 @@ msgstr "(juin)"
 msgid "(Oct. - Nov.)"
 msgstr "(Oct. - Nov.)"
 
+#: src/components/roadmap/DonateForm.vue:370
+msgid "&nbsp;now"
+msgstr ""
+
 #: src/components/InstanceCard.vue:49
 msgid "%{ instance.totalInstanceFollowers } follower instance"
 msgid_plural "%{ instance.totalInstanceFollowers } followers instances"
@@ -418,6 +422,11 @@ msgstr ""
 msgid "2. Create your account and enjoy PeerTube"
 msgstr "2. Créez votre compte et profitez de PeerTube"
 
+#: src/views/Roadmap.vue:204
+msgid ""
+"A \"new\" world cannot be built with the tools of surveillance capitalism."
+msgstr ""
+
 #: src/views/News.vue:211
 msgid "A better interface"
 msgstr "Des améliorations de l’interface"
@@ -484,7 +493,7 @@ msgstr ""
 "La recherche, beaucoup plus pertinente qu’avant et acceptant de nombreux "
 "filtres avancés (durée, catégorie, tags…)"
 
-#: src/views/Roadmap.vue:121
+#: src/views/Roadmap.vue:119
 msgid "A roadmap in 4 steps"
 msgstr "Une feuille de route en 4 étapes"
 
@@ -574,20 +583,13 @@ msgstr ""
 msgid "Allowed video space"
 msgstr "Espace vidéo autorisé"
 
-#: src/views/Roadmap.vue:205
-msgid ""
-"An \"new\" world cannot be built with the tools of surveillance capitalism. "
-"<br/> Facilitating access to content, sharing powers and responsibilities, "
-"opening up to contributions, democratizing live streaming through peer-to-"
-"peer... PeerTube v3 aims to consolidate this tool as an increasingly user-"
-"friendly alternative to Google-YouTube and Facebook-Live."
+#: src/components/roadmap/DonateForm.vue:636
+msgid "Amount"
 msgstr ""
-"Un « autre » monde ne pourra pas se construire avec les outils du "
-"capitalisme de surveillance.<br /> Faciliter l'accès aux contenus, partager "
-"les pouvoirs et responsabilités, s'ouvrir aux contributions, démocratiser le "
-"direct grâce au pair-à-pair… La v3 de PeerTube vise à consolider cet outil "
-"comme une alternative de plus en plus conviviale aux Google-YouTube et "
-"autres Facebook-Live."
+
+#: src/components/roadmap/DonateForm.vue:637
+msgid "Amount (e.g.: 42)"
+msgstr ""
 
 #: src/views/News.vue:59
 msgid "An enhanced documentation"
@@ -969,7 +971,7 @@ msgstr "Concrètement, ici, cela signifie que :"
 msgid "Contact"
 msgstr "Contact"
 
-#: src/components/Header.vue:6 src/views/Roadmap.vue:94
+#: src/components/Header.vue:6 src/views/Roadmap.vue:92
 #: src/views/Roadmap.vue:242
 msgid "Contribute"
 msgstr "Contribuer"
@@ -978,7 +980,7 @@ msgstr "Contribuer"
 msgid "Contribute to PeerTube"
 msgstr "Contribuer à PeerTube"
 
-#: src/views/Roadmap.vue:86
+#: src/views/Roadmap.vue:84
 msgid "contributors"
 msgstr "contributeurs"
 
@@ -995,7 +997,7 @@ msgstr "Créer un compte"
 msgid "Creation and content"
 msgstr "Création et contenus"
 
-#: src/components/roadmap/DonateForm.vue:342
+#: src/components/roadmap/DonateForm.vue:343
 msgid "Credit card"
 msgstr "Carte bancaire"
 
@@ -1135,6 +1137,21 @@ msgstr "Basque"
 #: src/views/Roadmap.vue:886
 msgid "Facilitate index creation"
 msgstr "Possibilité de créer des index"
+
+#: src/views/Roadmap.vue:208
+#, fuzzy
+msgid ""
+"Facilitating access to content, sharing powers and responsibilities, opening "
+"up to contributions, democratizing live streaming through peer-to-peer... "
+"PeerTube v3 aims to consolidate this tool as an increasingly user-friendly "
+"alternative to Google-YouTube and Facebook-Live."
+msgstr ""
+"Un « autre » monde ne pourra pas se construire avec les outils du "
+"capitalisme de surveillance.<br /> Faciliter l'accès aux contenus, partager "
+"les pouvoirs et responsabilités, s'ouvrir aux contributions, démocratiser le "
+"direct grâce au pair-à-pair… La v3 de PeerTube vise à consolider cet outil "
+"comme une alternative de plus en plus conviviale aux Google-YouTube et "
+"autres Facebook-Live."
 
 #: src/views/Roadmap.vue:898
 msgid "Facilitating moderation"
@@ -1347,7 +1364,7 @@ msgstr "Français"
 msgid "Freely,"
 msgstr "Librement,"
 
-#: src/views/Roadmap.vue:126
+#: src/views/Roadmap.vue:124
 msgid ""
 "From June to November 2020, Framasoft will develop new features and "
 "improvments for PeerTube. We have broken down this roadmap into 4 main "
@@ -1381,11 +1398,11 @@ msgstr "Jeux vidéos"
 msgid "GB"
 msgstr "Go"
 
-#: src/components/Header.vue:11
+#: src/components/Header.vue:45
 msgid "Git"
 msgstr "Git"
 
-#: src/components/roadmap/DonateForm.vue:360
+#: src/components/roadmap/DonateForm.vue:361
 msgid "Give"
 msgstr "Donner"
 
@@ -1591,11 +1608,11 @@ msgstr ""
 "En décembre 2018, nous avons sorti la version 1.1 qui contenait certains "
 "outils de modération demandés par les administrateurs d'instances."
 
-#: src/components/roadmap/DonateForm.vue:322
+#: src/components/roadmap/DonateForm.vue:323
+#, fuzzy
 msgid ""
-"In France, thanks to the {{ calcDefisc().percent }} % tax deduction, <b>your "
-"donation of {{ calcDefisc().amount }}</b> will cost you <b>{{ calcDefisc()."
-"defisc }}</b>."
+"In France, thanks to the %{ percent } tax deduction, your donation of "
+"%{ amount } will cost you %{ defisc }."
 msgstr ""
 "En France, grâce à la déduction d’impôts de {{ calcDefisc().percent }} %, "
 "<b>votre don de {{ calcDefisc().amount }}</b> vous coûtera "
@@ -1870,7 +1887,7 @@ msgstr "En savoir plus sur les logiciels libres"
 msgid "Learn more about the federation"
 msgstr "En savoir plus sur la fédération"
 
-#: src/views/Roadmap.vue:191
+#: src/views/Roadmap.vue:189
 msgid "Learn more about those milestones"
 msgstr "En savoir plus sur ces étapes"
 
@@ -2089,10 +2106,6 @@ msgstr ""
 #: src/views/News.vue:149
 msgid "November 12, 2019"
 msgstr "12 Novembre 2019"
-
-#: src/components/roadmap/DonateForm.vue:367
-msgid "now"
-msgstr "maintenant"
 
 #: src/views/FAQ.vue:290
 msgid ""
@@ -2562,8 +2575,9 @@ msgid "Questions on PeerTube? Need help? You've come to the right place!"
 msgstr ""
 "Des questions sur PeerTube ? Besoin d'aide ? Vous êtes au bon endroit !"
 
-#: src/views/Roadmap.vue:77
-msgid "raised in {{ days }} days"
+#: src/views/Roadmap.vue:79
+#, fuzzy
+msgid "raised in %{ days } day"
 msgstr "récoltés en {{ days }} jours"
 
 #: src/views/Home.vue:136
@@ -3117,7 +3131,7 @@ msgstr ""
 "et nous faisons apparaître <a target=\"_blank\" rel=\"noopener noreferrer\" "
 "href=\"/instances\">ici celles qui sont ouvertes aux inscriptions</a>."
 
-#: src/views/Roadmap.vue:131
+#: src/views/Roadmap.vue:129
 msgid ""
 "These developments are funded by donations made to our small non-for-profit: "
 "Framasoft. We will be collecting support over the next six months of "
@@ -3163,8 +3177,8 @@ msgstr ""
 "\"noopener noreferrer\" href=\"https://contributopia.org/journal\">campagne "
 "de dons</a>."
 
-#: src/components/roadmap/DonateForm.vue:683
-#: src/components/roadmap/DonateForm.vue:695
+#: src/components/roadmap/DonateForm.vue:692
+#: src/components/roadmap/DonateForm.vue:704
 msgid "This field must be filled in."
 msgstr "Ce champ doit être renseigné."
 
@@ -3784,7 +3798,7 @@ msgstr ""
 msgid "You have a question?"
 msgstr "Vous avez une question ?"
 
-#: src/components/roadmap/DonateForm.vue:686
+#: src/components/roadmap/DonateForm.vue:695
 msgid "You must enter a valid email address."
 msgstr "Vous devez renseigner une adresse mail valide."
 
@@ -3845,6 +3859,9 @@ msgstr "Japonais"
 #: src/components/InstancesList.vue:396
 msgid "简体中文（中国）"
 msgstr "Chinois simplifié"
+
+#~ msgid "now"
+#~ msgstr "maintenant"
 
 #~ msgid ""
 #~ "With more than 100 000 hosted videos, viewed more than 6 millions times "

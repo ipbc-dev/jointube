@@ -49,6 +49,10 @@ msgstr ""
 msgid "(Oct. - Nov.)"
 msgstr ""
 
+#: src/components/roadmap/DonateForm.vue:370
+msgid "&nbsp;now"
+msgstr ""
+
 #: src/components/InstanceCard.vue:49
 msgid "%{ instance.totalInstanceFollowers } follower instance"
 msgid_plural "%{ instance.totalInstanceFollowers } followers instances"
@@ -286,6 +290,11 @@ msgstr ""
 msgid "2. Create your account and enjoy PeerTube"
 msgstr "2. Hozzon létre egy fiókot, és élvezze a PeerTube használatát"
 
+#: src/views/Roadmap.vue:204
+msgid ""
+"A \"new\" world cannot be built with the tools of surveillance capitalism."
+msgstr ""
+
 #: src/views/News.vue:211
 msgid "A better interface"
 msgstr "Jobb felület"
@@ -341,7 +350,7 @@ msgid ""
 "category, tags...)"
 msgstr ""
 
-#: src/views/Roadmap.vue:121
+#: src/views/Roadmap.vue:119
 msgid "A roadmap in 4 steps"
 msgstr ""
 
@@ -419,13 +428,12 @@ msgstr ""
 msgid "Allowed video space"
 msgstr ""
 
-#: src/views/Roadmap.vue:205
-msgid ""
-"An \"new\" world cannot be built with the tools of surveillance capitalism. "
-"<br/> Facilitating access to content, sharing powers and responsibilities, "
-"opening up to contributions, democratizing live streaming through peer-to-"
-"peer... PeerTube v3 aims to consolidate this tool as an increasingly user-"
-"friendly alternative to Google-YouTube and Facebook-Live."
+#: src/components/roadmap/DonateForm.vue:636
+msgid "Amount"
+msgstr ""
+
+#: src/components/roadmap/DonateForm.vue:637
+msgid "Amount (e.g.: 42)"
 msgstr ""
 
 #: src/views/News.vue:59
@@ -737,7 +745,7 @@ msgstr "Itt konkrétan, ezt jelenti:"
 msgid "Contact"
 msgstr "Kapcsolatfelvétel"
 
-#: src/components/Header.vue:6 src/views/Roadmap.vue:94
+#: src/components/Header.vue:6 src/views/Roadmap.vue:92
 #: src/views/Roadmap.vue:242
 msgid "Contribute"
 msgstr "Közreműködés"
@@ -746,7 +754,7 @@ msgstr "Közreműködés"
 msgid "Contribute to PeerTube"
 msgstr "Közreműködés a PeerTube fejlesztésében"
 
-#: src/views/Roadmap.vue:86
+#: src/views/Roadmap.vue:84
 #, fuzzy
 msgid "contributors"
 msgstr "Közreműködők"
@@ -764,7 +772,7 @@ msgstr "Fiók létrehozása"
 msgid "Creation and content"
 msgstr "Alkotás és tartalom"
 
-#: src/components/roadmap/DonateForm.vue:342
+#: src/components/roadmap/DonateForm.vue:343
 msgid "Credit card"
 msgstr ""
 
@@ -899,6 +907,14 @@ msgstr "Euskara"
 
 #: src/views/Roadmap.vue:886
 msgid "Facilitate index creation"
+msgstr ""
+
+#: src/views/Roadmap.vue:208
+msgid ""
+"Facilitating access to content, sharing powers and responsibilities, opening "
+"up to contributions, democratizing live streaming through peer-to-peer... "
+"PeerTube v3 aims to consolidate this tool as an increasingly user-friendly "
+"alternative to Google-YouTube and Facebook-Live."
 msgstr ""
 
 #: src/views/Roadmap.vue:898
@@ -1066,7 +1082,7 @@ msgstr "Français"
 msgid "Freely,"
 msgstr "Szabadon,"
 
-#: src/views/Roadmap.vue:126
+#: src/views/Roadmap.vue:124
 msgid ""
 "From June to November 2020, Framasoft will develop new features and "
 "improvments for PeerTube. We have broken down this roadmap into 4 main "
@@ -1093,11 +1109,11 @@ msgstr "Játék"
 msgid "GB"
 msgstr "GB"
 
-#: src/components/Header.vue:11
+#: src/components/Header.vue:45
 msgid "Git"
 msgstr "Git"
 
-#: src/components/roadmap/DonateForm.vue:360
+#: src/components/roadmap/DonateForm.vue:361
 msgid "Give"
 msgstr ""
 
@@ -1271,11 +1287,10 @@ msgid ""
 "tools requested by instance administrators."
 msgstr ""
 
-#: src/components/roadmap/DonateForm.vue:322
+#: src/components/roadmap/DonateForm.vue:323
 msgid ""
-"In France, thanks to the {{ calcDefisc().percent }} % tax deduction, <b>your "
-"donation of {{ calcDefisc().amount }}</b> will cost you <b>{{ calcDefisc()."
-"defisc }}</b>."
+"In France, thanks to the %{ percent } tax deduction, your donation of "
+"%{ amount } will cost you %{ defisc }."
 msgstr ""
 
 #: src/views/News.vue:379
@@ -1484,7 +1499,7 @@ msgstr "Tudjon meg többet a szabad szoftverekről"
 msgid "Learn more about the federation"
 msgstr "Tudjon meg többet a föderálásról"
 
-#: src/views/Roadmap.vue:191
+#: src/views/Roadmap.vue:189
 #, fuzzy
 msgid "Learn more about those milestones"
 msgstr "Tudjon meg többet a föderálásról"
@@ -1670,10 +1685,6 @@ msgstr ""
 #: src/views/News.vue:149
 msgid "November 12, 2019"
 msgstr "2019. november 12."
-
-#: src/components/roadmap/DonateForm.vue:367
-msgid "now"
-msgstr ""
 
 #: src/views/FAQ.vue:290
 msgid ""
@@ -2052,8 +2063,8 @@ msgstr ""
 "Kérdései vannak a PeerTube-bal kapcsolatban? Segítségre van szüksége? Jó "
 "helyen jár!"
 
-#: src/views/Roadmap.vue:77
-msgid "raised in {{ days }} days"
+#: src/views/Roadmap.vue:79
+msgid "raised in %{ days } day"
 msgstr ""
 
 #: src/views/Home.vue:136
@@ -2479,7 +2490,7 @@ msgid ""
 "\"/instances\">open to registration here</a>."
 msgstr ""
 
-#: src/views/Roadmap.vue:131
+#: src/views/Roadmap.vue:129
 msgid ""
 "These developments are funded by donations made to our small non-for-profit: "
 "Framasoft. We will be collecting support over the next six months of "
@@ -2508,8 +2519,8 @@ msgid ""
 "campaign</a>."
 msgstr ""
 
-#: src/components/roadmap/DonateForm.vue:683
-#: src/components/roadmap/DonateForm.vue:695
+#: src/components/roadmap/DonateForm.vue:692
+#: src/components/roadmap/DonateForm.vue:704
 msgid "This field must be filled in."
 msgstr ""
 
@@ -2972,7 +2983,7 @@ msgstr ""
 msgid "You have a question?"
 msgstr "Kérdése van?"
 
-#: src/components/roadmap/DonateForm.vue:686
+#: src/components/roadmap/DonateForm.vue:695
 msgid "You must enter a valid email address."
 msgstr ""
 

@@ -38,6 +38,10 @@ msgstr "(June)"
 msgid "(Oct. - Nov.)"
 msgstr "(Oct. - Nov.)"
 
+#: src/components/roadmap/DonateForm.vue:370
+msgid "&nbsp;now"
+msgstr "&nbsp;now"
+
 #: src/components/InstanceCard.vue:49
 msgid "%{ instance.totalInstanceFollowers } follower instance"
 msgid_plural "%{ instance.totalInstanceFollowers } followers instances"
@@ -222,6 +226,10 @@ msgstr "2 channels on Framasoft's account on FramaTube instance"
 msgid "2. Create your account and enjoy PeerTube"
 msgstr "2. Create your account and enjoy PeerTube"
 
+#: src/views/Roadmap.vue:204
+msgid "A \"new\" world cannot be built with the tools of surveillance capitalism."
+msgstr "A \"new\" world cannot be built with the tools of surveillance capitalism."
+
 #: src/views/News.vue:211
 msgid "A better interface"
 msgstr "A better interface"
@@ -262,7 +270,7 @@ msgstr "A month before the version 1 of PeerTube, we would like to share some (g
 msgid "A more relevant search, with the ability to set advanced filters (duration, category, tags...)"
 msgstr "A more relevant search, with the ability to set advanced filters (duration, category, tags...)"
 
-#: src/views/Roadmap.vue:121
+#: src/views/Roadmap.vue:119
 msgid "A roadmap in 4 steps"
 msgstr "A roadmap in 4 steps"
 
@@ -314,9 +322,13 @@ msgstr "All of this is made possible by Peertube's free/libre license (GNU-AGPL)
 msgid "Allowed video space"
 msgstr "Allowed video space"
 
-#: src/views/Roadmap.vue:205
-msgid "An \"new\" world cannot be built with the tools of surveillance capitalism. <br/> Facilitating access to content, sharing powers and responsibilities, opening up to contributions, democratizing live streaming through peer-to-peer... PeerTube v3 aims to consolidate this tool as an increasingly user-friendly alternative to Google-YouTube and Facebook-Live."
-msgstr "An \"new\" world cannot be built with the tools of surveillance capitalism. <br/> Facilitating access to content, sharing powers and responsibilities, opening up to contributions, democratizing live streaming through peer-to-peer... PeerTube v3 aims to consolidate this tool as an increasingly user-friendly alternative to Google-YouTube and Facebook-Live."
+#: src/components/roadmap/DonateForm.vue:636
+msgid "Amount"
+msgstr "Amount"
+
+#: src/components/roadmap/DonateForm.vue:637
+msgid "Amount (e.g.: 42)"
+msgstr "Amount (e.g.: 42)"
 
 #: src/views/News.vue:59
 msgid "An enhanced documentation"
@@ -523,7 +535,7 @@ msgstr "Concretely here, it means that:"
 msgid "Contact"
 msgstr "Contact"
 
-#: src/components/Header.vue:6 src/views/Roadmap.vue:94
+#: src/components/Header.vue:6 src/views/Roadmap.vue:92
 #: src/views/Roadmap.vue:242
 msgid "Contribute"
 msgstr "Contribute"
@@ -532,7 +544,7 @@ msgstr "Contribute"
 msgid "Contribute to PeerTube"
 msgstr "Contribute to PeerTube"
 
-#: src/views/Roadmap.vue:86
+#: src/views/Roadmap.vue:84
 msgid "contributors"
 msgstr "contributors"
 
@@ -549,7 +561,7 @@ msgstr "Create an account"
 msgid "Creation and content"
 msgstr "Creation and content"
 
-#: src/components/roadmap/DonateForm.vue:342
+#: src/components/roadmap/DonateForm.vue:343
 msgid "Credit card"
 msgstr "Credit card"
 
@@ -656,6 +668,10 @@ msgstr "Euskara"
 #: src/views/Roadmap.vue:886
 msgid "Facilitate index creation"
 msgstr "Facilitate index creation"
+
+#: src/views/Roadmap.vue:208
+msgid "Facilitating access to content, sharing powers and responsibilities, opening up to contributions, democratizing live streaming through peer-to-peer... PeerTube v3 aims to consolidate this tool as an increasingly user-friendly alternative to Google-YouTube and Facebook-Live."
+msgstr "Facilitating access to content, sharing powers and responsibilities, opening up to contributions, democratizing live streaming through peer-to-peer... PeerTube v3 aims to consolidate this tool as an increasingly user-friendly alternative to Google-YouTube and Facebook-Live."
 
 #: src/views/Roadmap.vue:898
 msgid "Facilitating moderation"
@@ -775,7 +791,7 @@ msgstr "Français"
 msgid "Freely,"
 msgstr "Freely,"
 
-#: src/views/Roadmap.vue:126
+#: src/views/Roadmap.vue:124
 msgid "From June to November 2020, Framasoft will develop new features and improvments for PeerTube. We have broken down this roadmap into 4 main steps, each with its own schedule and cost, leading to peer-to-peer powered live steraming in PeerTube v3."
 msgstr "From June to November 2020, Framasoft will develop new features and improvments for PeerTube. We have broken down this roadmap into 4 main steps, each with its own schedule and cost, leading to peer-to-peer powered live steraming in PeerTube v3."
 
@@ -795,11 +811,11 @@ msgstr "Gaming"
 msgid "GB"
 msgstr "GB"
 
-#: src/components/Header.vue:11
+#: src/components/Header.vue:45
 msgid "Git"
 msgstr "Git"
 
-#: src/components/roadmap/DonateForm.vue:360
+#: src/components/roadmap/DonateForm.vue:361
 msgid "Give"
 msgstr "Give"
 
@@ -936,9 +952,9 @@ msgstr "Illustrations from <a target=\"_blank\" rel=\"noopener noreferrer\" href
 msgid "In December 2018, we released version 1.1 which contained some moderation tools requested by instance administrators."
 msgstr "In December 2018, we released version 1.1 which contained some moderation tools requested by instance administrators."
 
-#: src/components/roadmap/DonateForm.vue:322
-msgid "In France, thanks to the {{ calcDefisc().percent }} % tax deduction, <b>your donation of {{ calcDefisc().amount }}</b> will cost you <b>{{ calcDefisc().defisc }}</b>."
-msgstr "In France, thanks to the {{ calcDefisc().percent }} % tax deduction, <b>your donation of {{ calcDefisc().amount }}</b> will cost you <b>{{ calcDefisc().defisc }}</b>."
+#: src/components/roadmap/DonateForm.vue:323
+msgid "In France, thanks to the %{ percent } tax deduction, your donation of %{ amount } will cost you %{ defisc }."
+msgstr "In France, thanks to the %{ percent } tax deduction, your donation of %{ amount } will cost you %{ defisc }."
 
 #: src/views/News.vue:379
 msgid "In January, we released version 1.2 that supports 3 new languages: Russian, Polish and Italian. Thanks to PeerTube's community of translators, PeerTube is now translated into 16 different languages!"
@@ -1068,7 +1084,7 @@ msgstr "Learn more about free/libre software"
 msgid "Learn more about the federation"
 msgstr "Learn more about the federation"
 
-#: src/views/Roadmap.vue:191
+#: src/views/Roadmap.vue:189
 msgid "Learn more about those milestones"
 msgstr "Learn more about those milestones"
 
@@ -1203,10 +1219,6 @@ msgstr "No. In October 2018, on an average instance federating with ~200 instanc
 #: src/views/News.vue:149
 msgid "November 12, 2019"
 msgstr "November 12, 2019"
-
-#: src/components/roadmap/DonateForm.vue:367
-msgid "now"
-msgstr "now"
 
 #: src/views/FAQ.vue:290
 msgid "Now imagine that Camille has created an account on DominiqueTube and uploads an illegal video, because this video uses music created by Solal."
@@ -1461,9 +1473,9 @@ msgstr "Promoting plugins"
 msgid "Questions on PeerTube? Need help? You've come to the right place!"
 msgstr "Questions on PeerTube? Need help? You've come to the right place!"
 
-#: src/views/Roadmap.vue:77
-msgid "raised in {{ days }} days"
-msgstr "raised in {{ days }} days"
+#: src/views/Roadmap.vue:79
+msgid "raised in %{ days } day"
+msgstr "raised in %{ days } day"
 
 #: src/views/Home.vue:136
 msgid "Rather, it is <strong>a network of inter-connected small videos hosters</strong>."
@@ -1746,7 +1758,7 @@ msgstr "There is nothing to do: your web browser does it automatically. If you a
 msgid "There's a complete <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://instances.joinpeertube.org\">list of instances here</a>, and a list of those that are <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"/instances\">open to registration here</a>."
 msgstr "There's a complete <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://instances.joinpeertube.org\">list of instances here</a>, and a list of those that are <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"/instances\">open to registration here</a>."
 
-#: src/views/Roadmap.vue:131
+#: src/views/Roadmap.vue:129
 msgid "These developments are funded by donations made to our small non-for-profit: Framasoft. We will be collecting support over the next six months of development, so that you can help us in our efforts."
 msgstr "These developments are funded by donations made to our small non-for-profit: Framasoft. We will be collecting support over the next six months of development, so that you can help us in our efforts."
 
@@ -1758,8 +1770,8 @@ msgstr "These four features are all implemented, and can already be used on inst
 msgid "These improvements are the result of the many contributions of the members of the PeerTube community (thank you!), but also of a year of work that we have financed through <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://soutenir.framasoft.org\">donations that support all of our association's projects</a>, currently in a <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://contributopia.org/journal\">donation campaign</a>."
 msgstr "These improvements are the result of the many contributions of the members of the PeerTube community (thank you!), but also of a year of work that we have financed through <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://soutenir.framasoft.org\">donations that support all of our association's projects</a>, currently in a <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://contributopia.org/journal\">donation campaign</a>."
 
-#: src/components/roadmap/DonateForm.vue:683
-#: src/components/roadmap/DonateForm.vue:695
+#: src/components/roadmap/DonateForm.vue:692
+#: src/components/roadmap/DonateForm.vue:704
 msgid "This field must be filled in."
 msgstr "This field must be filled in."
 
@@ -2044,7 +2056,7 @@ msgstr "You can still watch from your account videos hosted by other instances t
 msgid "You have a question?"
 msgstr "You have a question?"
 
-#: src/components/roadmap/DonateForm.vue:686
+#: src/components/roadmap/DonateForm.vue:695
 msgid "You must enter a valid email address."
 msgstr "You must enter a valid email address."
 
