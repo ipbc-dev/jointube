@@ -855,6 +855,7 @@
     },
     mounted () {
       document.body.classList.add('in-roadmap')
+      this.stickyProgressBar()
     },
     destroyed () {
       document.body.classList.remove('in-roadmap')

@@ -698,6 +698,14 @@
     },
     methods: {
       check (input) {
+        if (!this.form.state.receipt) {
+          // Fill requiered fields for DB
+          this.form.lastname = ' '
+          this.form.firstname = ' '
+          this.form.address1 = ' '
+          this.form.city = ' '
+          this.form.zip = ' '
+        }
         const el = document.getElementById(input)
         switch (input) {
           case 'other1':
@@ -774,7 +782,7 @@
             this.addFormField(form, 'adresse2', this.form.address2)
             this.addFormField(form, 'ville', this.form.city)
             this.addFormField(form, 'cp', this.form.zip)
-            this.addFormField(form, 'pays', this.$root.country[this.form.country])
+            this.addFormField(form, 'pays', this.countries[this.form.country])
             this.addFormField(form, 'montant', this.form.don)
             this.addFormField(form, 'texte_libre', encodeURIComponent(custom.join('&')))
             this.addFormField(form, 'lgue', lg)
