@@ -845,7 +845,7 @@
       BProgressBar
     },
     created () {
-      fetch('https://soutenir.framasoft.org/2020-pt3.json')
+      fetch('https://soutenir.framasoft.org/dons/2020-pt3.json')
         .then(response => response.json())
         .then((data) => {
           this.list = data.list
