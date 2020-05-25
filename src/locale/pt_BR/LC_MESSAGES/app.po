@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Weblate 3.9.1\n"
 "Generated-By: easygettext\n"
 
-#: src/views/Home.vue:54 src/views/Home.vue:305
+#: src/views/Home.vue:94 src/views/Home.vue:345
 msgid "?"
 msgstr "?"
 
@@ -35,6 +35,28 @@ msgstr ""
 "sua solicitação para o PeerTube). Isso nunca funcionará! O que você pretende "
 "fazer sobre isso? \""
 
+#: src/components/roadmap/Team.vue:59
+msgid ""
+"« Independent designer, UX researcher who seeks to thoroughly understand "
+"usability and design user-friendly, ethical and inclusive tools. »"
+msgstr ""
+
+#: src/views/Roadmap.vue:906
+msgid "(Aug-Sept.)"
+msgstr ""
+
+#: src/views/Roadmap.vue:894
+msgid "(July)"
+msgstr ""
+
+#: src/views/Roadmap.vue:882
+msgid "(June)"
+msgstr ""
+
+#: src/views/Roadmap.vue:918
+msgid "(oct. - nov.)"
+msgstr ""
+
 #: src/components/InstanceCard.vue:49
 msgid "%{ instance.totalInstanceFollowers } follower instance"
 msgid_plural "%{ instance.totalInstanceFollowers } followers instances"
@@ -50,6 +72,102 @@ msgstr ""
 "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs."
 "joinpeertube.org\">Documentação Oficial do PeerTube</a> (administração e "
 "uso);"
+
+#: src/components/roadmap/MoreInfos.vue:217
+msgid ""
+"<p>The biggest challenge of live streaming on PeerTube is to <strong>get the "
+"live feed to be peer-to-peer</strong>.\n"
+"          After extensive testing, we believe this is possible.</p>\n"
+"\n"
+"          <p>By using the HLS technology that has been built into the "
+"PeerTube video player since version 1.3, we believe\n"
+"          we can <strong>create a live stream with a one minute lag between "
+"streamers and viewers</strong>.</p>\n"
+"\n"
+"          <p>We want to lay the technological foundation for this live "
+"stream feature, so <strong>this first version of\n"
+"          PeerTube Live will be minimalist</strong>. There will be no stream "
+"captation tools, no built-in chat, no react emojis...</p>\n"
+"\n"
+"          <p>However, we want to make sure that <strong>once the live is "
+"over, the video will be processed and\n"
+"          added to the creator's channel</strong>, with every federation "
+"requirements checked.</p>"
+msgstr ""
+
+#: src/components/roadmap/MoreInfos.vue:170
+msgid ""
+"<p>Today, when searching videos on a PeerTube instance today, it is hard to\n"
+"          <strong>find content that is not in the federation bubble</strong> "
+"of that instance.</p>\n"
+"\n"
+"          <p>We will create a <strong>server that indexes all videos</"
+"strong>\n"
+"          and channels from all PeerTube instances that are listed on\n"
+"          <a href=\"https://instances.joinpeertube.org/\">the public "
+"directory</a>.</p>\n"
+"\n"
+"          <p>Each PeerTube instance administrator will be able to choose to "
+"<strong>\n"
+"          use one of these indexing engines for their instance's search bar</"
+"strong> de son instance.</p>\n"
+"\n"
+"          <p>In addition, <strong>announcements</strong>\n"
+"          will allow instance administrators to display information to "
+"visitors to their instance.</p>"
+msgstr ""
+
+#: src/components/roadmap/MoreInfos.vue:185
+msgid ""
+"<p>While each new version of PeerTube has brought <a\n"
+"          href=\"https://joinpeertube.org/faq#peertube-developers-did-not-"
+"add-moderation-tools\">new moderation features</a>,\n"
+"          there is still much to be done to <strong>facilitate moderation</"
+"strong> of content and accounts in the federation.\n"
+"          That's why we want to <strong>dedicate a month of development to "
+"new moderation tools</strong>.</p>\n"
+"\n"
+"          <p>The list of functionalities to develop or improve is long: "
+"reports logs and monitoring, moderation history,\n"
+"          comments moderation, moderation reports related to an account, "
+"feedback on steps taken (or not) following a report,\n"
+"          <strong>fight against spam</strong>, sharing blacklists of "
+"instances, accounts or content...</p>\n"
+"\n"
+"          <p>This list is being built\n"
+"          <a href=\"https://github.com/Chocobozzz/PeerTube/labels/Component"
+"%3A%20Moderation%20%3Agodmode%3A\"><strong>in collaboration with the "
+"community</strong></a>,\n"
+"          and it is with these needs in mind that we will try to prioritize "
+"the moderation tools developed during this month.</p>"
+msgstr ""
+
+#: src/components/roadmap/MoreInfos.vue:200
+msgid ""
+"<p>While it is easy to embed a PeerTube video on a website or social media, "
+"the same cannot be said for playlists.\n"
+"          We want to rework the <strong>embed and display of playlists</"
+"strong> on third party sites.</p>\n"
+"\n"
+"          <p>We also want to <strong>allow two clips of the same video to be "
+"displayed in a playlist</strong>. Combined with the ability to\n"
+"          extract a specific piece of video in a playlist, playlists will "
+"thus become very useful remixing tools,\n"
+"          for example for educational purposes.</p>\n"
+"\n"
+"          <p>Plugins allow anyone to contribute new features to PeerTube by "
+"coding them into PeerTube, and offer them to instance\n"
+"          administrators. We want to <strong>improve the plugin system</"
+"strong> to offer more interaction possibilities.</p>\n"
+"\n"
+"          <p>In order to put ourselves in their contributors' shoes, we are "
+"going to create a few plugins of our own,\n"
+"          for example one to <strong>display information over a video to "
+"annotate it</strong> at a specific point in the viewing process.</p>\n"
+"\n"
+"          <p>Finally, we want to work on <strong>selecting a set of plugins "
+"to showcase</strong> them on joinpeertube.org.</p>"
+msgstr ""
 
 #: src/views/FAQ.vue:143
 msgid ""
@@ -129,6 +247,14 @@ msgid ""
 "action dropdowns."
 msgstr ""
 
+#: src/views/FAQ.vue:502
+msgid ""
+"<strong>PeerTube 2.2</strong> greatly improved video abuses management "
+"(search, abuses display, actions on the video or account etc), added "
+"moderation hooks and helpers in the plugins API and Framasoft developed an "
+"experimental *Auto mute* plugin based on public lists."
+msgstr ""
+
 #: src/views/FAQ.vue:218
 msgid ""
 "<strong>PeerTube is not only open-source: it's free (as in free speech).</"
@@ -159,6 +285,10 @@ msgstr "2. Crie sua conta e aproveite o PeerTube"
 msgid "A better interface"
 msgstr "Uma interface melhor"
 
+#: src/components/roadmap/DonateForm.vue:154
+msgid "a company"
+msgstr ""
+
 #: src/views/FAQ.vue:50
 msgid ""
 "A federation of interconnected hosting providers (so more video choices "
@@ -167,7 +297,7 @@ msgstr ""
 "Uma federação de provedores de hospedagem interconectadas (e com isso mais "
 "escolhas de video, onde quer que você vá);"
 
-#: src/views/Home.vue:83
+#: src/views/Home.vue:123
 msgid "A federation of interconnected hosting services"
 msgstr "Uma federação de serviços de hospedagem interconectadas"
 
@@ -214,6 +344,10 @@ msgstr ""
 "Uma busca mais relevante, com a habilidade de configurar filtros avançados "
 "(duração, categoria, tags...)"
 
+#: src/views/Roadmap.vue:121
+msgid "A roadmap in 4 steps"
+msgstr ""
+
 #: src/views/Instances.vue:36
 msgid ""
 "A username, an email, a password and you can already <strong>enjoy all the "
@@ -236,7 +370,7 @@ msgstr ""
 "Habilidade de importar vídeos através de uma URL (YouTube, Vimeo, "
 "Dailymotion e muitos outros!)"
 
-#: src/views/Home.vue:240
+#: src/views/Home.vue:280
 msgid "About peer-to-peer broadcasting and watching"
 msgstr "Sobre transmissão peer-to-peer e assistir"
 
@@ -270,7 +404,7 @@ msgstr ""
 "worked-twice-as-hard-to-free-your-videos-from-youtube/\">artigo do "
 "Framablog</a> que nós te convidamos a ler."
 
-#: src/views/FAQ.vue:579
+#: src/views/FAQ.vue:583
 msgid ""
 "After discussing it on our forum, we feel that d.tube is not free or open "
 "source, because publishing only compiled code hinders freedom of "
@@ -280,7 +414,7 @@ msgstr ""
 "livre ou código aberto, pois publicar só o código compilado dificulta a "
 "liberdade de modificação."
 
-#: src/views/Home.vue:177
+#: src/views/Home.vue:217
 msgid ""
 "All of this is made possible by Peertube's free/libre license (GNU-AGPL). "
 "Its code is a digital \"common\", that belongs to everybody, instead of a "
@@ -300,6 +434,15 @@ msgstr ""
 msgid "Allowed video space"
 msgstr "Espaço de vídeo permitido"
 
+#: src/views/Roadmap.vue:205
+msgid ""
+"An \"new\" world cannot be built with the tools of surveillance capitalism. "
+"<br/> Facilitating access to content, sharing powers and responsibilities, "
+"opening up to contributions, democratizing live streaming through peer-to-"
+"peer... PeerTube v3 aims to consolidate this tool as an increasingly user-"
+"friendly alternative to Google-YouTube and Facebook-Live."
+msgstr ""
+
 #: src/views/News.vue:59
 #, fuzzy
 msgid "An enhanced documentation"
@@ -310,6 +453,10 @@ msgstr "Leia a documentação"
 msgid "An even more pleasant interface"
 msgstr "Uma interface melhor"
 
+#: src/components/roadmap/DonateForm.vue:143
+msgid "an individual"
+msgstr ""
+
 #: src/views/FAQ.vue:49
 msgid ""
 "An open code (transparency) under a free/libre license (ethic, respect and "
@@ -318,11 +465,11 @@ msgstr ""
 "Um código aberto (transparência) sob a licença livre (ética, respeito e "
 "desenvolvimento comunitário);"
 
-#: src/views/Home.vue:151
+#: src/views/Home.vue:191
 msgid "An open-source, free/libre licence code"
 msgstr "Um código aberto, de licença livre"
 
-#: src/views/Home.vue:132
+#: src/views/Home.vue:172
 msgid ""
 "And there's more! PeerTube uses Activity Pub, a federating protocol that "
 "<strong>allows you to interact with other software</strong>, provided they "
@@ -344,6 +491,10 @@ msgstr ""
 #: src/components/InstancesList.vue:377
 msgid "Animals"
 msgstr "Animais"
+
+#: src/views/Roadmap.vue:887
+msgid "Announcements"
+msgstr ""
 
 #: src/views/News.vue:313
 msgid ""
@@ -382,7 +533,7 @@ msgstr ""
 "qual legenda irá aparecer como padrão e criar um ciclo no video. Essa nova "
 "opção irá certamente ser muito apreciada."
 
-#: src/views/Home.vue:102
+#: src/views/Home.vue:142
 msgid ""
 "Anyone with a modicum of technical skills can host a PeerTube server, aka an "
 "instance. Each instance hosts its users and their videos. In this way, "
@@ -394,7 +545,7 @@ msgstr ""
 "usuários e vídeos.  Assim, <strong> cada instância é criada, moderada e "
 "mantida de forma independente por vários administradores.</strong>"
 
-#: src/views/Home.vue:197
+#: src/views/Home.vue:237
 msgid "Are you a video maker?"
 msgstr "Você é um criador de vídeo?"
 
@@ -450,6 +601,13 @@ msgstr ""
 msgid "Ask questions to the community"
 msgstr "Faça perguntas à comunidade"
 
+#: src/components/roadmap/MoreInfos.vue:17
+msgid ""
+"At a time when no one knows what the future will bring, it didn't seem "
+"decent for us to do a crowdfunding campaign threatening to not do our best "
+"on PeerTube if we didn't raise the necessary funds."
+msgstr ""
+
 #: src/components/InstancesList.vue:85
 msgid "At least 1GB"
 msgstr "Pelo menos 1GB"
@@ -470,7 +628,7 @@ msgstr "Pelo menos 5GB"
 msgid "August 20, 2018"
 msgstr "20 de agosto de 2018"
 
-#: src/components/InstanceCard.vue:274
+#: src/components/InstanceCard.vue:275
 msgid "B"
 msgstr "o"
 
@@ -533,11 +691,11 @@ msgstr "Borrar o título e a miniatura"
 msgid "Blurred"
 msgstr "Desfocado"
 
-#: src/views/Home.vue:283
+#: src/views/Home.vue:323
 msgid "Browse contents"
 msgstr "Procurar conteúdo"
 
-#: src/views/Home.vue:234
+#: src/views/Home.vue:274
 msgid "Browse/discover PeerTube instances"
 msgstr "Procurar/descobrir instâncias PeerTube"
 
@@ -616,6 +774,13 @@ msgstr "Tcheco"
 msgid "Change interface language"
 msgstr "Mudar o idioma do interface"
 
+#: src/views/Home.vue:34
+msgid ""
+"Check out PeerTube’s new roadmap for the development of many features "
+"including live and peer-to-peer video streaming. Support this v3 scheduled "
+"for late 2020."
+msgstr ""
+
 #: src/views/News.vue:491 src/views/News.vue:548 src/views/News.vue:597
 #: src/views/News.vue:641
 msgid "Cheers,"
@@ -637,7 +802,8 @@ msgstr "Concretamente, aqui, isso significa:"
 msgid "Contact"
 msgstr "Contato"
 
-#: src/components/Header.vue:35
+#: src/components/Header.vue:6 src/views/Roadmap.vue:94
+#: src/views/Roadmap.vue:242
 msgid "Contribute"
 msgstr "Contribuir"
 
@@ -645,11 +811,16 @@ msgstr "Contribuir"
 msgid "Contribute to PeerTube"
 msgstr "Contribuir com PeerTube"
 
+#: src/views/Roadmap.vue:86
+#, fuzzy
+msgid "contributors"
+msgstr "Contribuidores"
+
 #: src/views/Hall-Of-Fame.vue:426
 msgid "Contributors"
 msgstr "Contribuidores"
 
-#: src/components/Header.vue:23 src/components/InstancesList.vue:25
+#: src/components/Header.vue:29 src/components/InstancesList.vue:25
 #: src/views/Instances.vue:5
 msgid "Create an account"
 msgstr "Crie uma conta"
@@ -657,6 +828,10 @@ msgstr "Crie uma conta"
 #: src/views/FAQ.vue:255
 msgid "Creation and content"
 msgstr "Criação e conteúdo"
+
+#: src/components/roadmap/DonateForm.vue:342
+msgid "Credit card"
+msgstr ""
 
 #: src/views/News.vue:265
 msgid "customization options when video sharing"
@@ -666,7 +841,7 @@ msgstr "personalizar compartilhamento do vídeo"
 msgid "Deutsch"
 msgstr "Alemão"
 
-#: src/components/Header.vue:8
+#: src/components/Header.vue:9
 msgid "developed by"
 msgstr "desenvolvido por"
 
@@ -674,7 +849,7 @@ msgstr "desenvolvido por"
 msgid "Developments on comments"
 msgstr ""
 
-#: src/views/Home.vue:220
+#: src/views/Home.vue:260
 msgid ""
 "Direct contact with a human-scale hoster allows for two things: you no "
 "longer are the client of a huge tech company, and <strong>you can nurture a "
@@ -689,7 +864,7 @@ msgstr ""
 msgid "Discover instances"
 msgstr "Descobrir instâncias"
 
-#: src/views/Home.vue:34
+#: src/views/Home.vue:74
 msgid "Discover our content selection"
 msgstr "Descubra nossa seleção de conteúdos"
 
@@ -697,7 +872,7 @@ msgstr "Descubra nossa seleção de conteúdos"
 msgid "Discover our FAQ"
 msgstr "Descubra nosso FAQ"
 
-#: src/views/Home.vue:42 src/views/Home.vue:110
+#: src/views/Home.vue:82 src/views/Home.vue:150
 msgid "Discover PeerTube instances"
 msgstr "Descubra instâncias PeerTube"
 
@@ -721,7 +896,7 @@ msgstr "Mostre-os"
 msgid "Displayed"
 msgstr "Mostrado"
 
-#: src/views/FAQ.vue:531
+#: src/views/FAQ.vue:535
 msgid ""
 "Don't bother the developer to help you install your instance: we have a <a "
 "target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framacolibri."
@@ -731,9 +906,14 @@ msgstr ""
 "nós temos um <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://"
 "framacolibri.org/c/peertube\">Forum de Suporte</a> para isso."
 
-#: src/views/Home.vue:344
+#: src/views/Home.vue:384
 msgid "Donate to Framasoft"
 msgstr "Apoiar Framasoft"
+
+#: src/views/Roadmap.vue:43
+msgid ""
+"Donate, share: we will need all the help we can get to complete this roadmap."
+msgstr ""
 
 #: src/views/News.vue:613
 msgid ""
@@ -762,7 +942,7 @@ msgstr "Educação"
 msgid "English"
 msgstr "Inglês"
 
-#: src/views/Home.vue:290
+#: src/views/Home.vue:330
 msgid ""
 "Enjoy every feature: history, subscriptions, playlists, notifications..."
 msgstr ""
@@ -785,7 +965,15 @@ msgstr "Esperanto"
 msgid "Euskara"
 msgstr "Basco"
 
-#: src/views/FAQ.vue:5 src/views/FAQ.vue:649
+#: src/views/Roadmap.vue:886
+msgid "Facilitate index creation"
+msgstr ""
+
+#: src/views/Roadmap.vue:898
+msgid "Facilitating moderation"
+msgstr ""
+
+#: src/views/FAQ.vue:5 src/views/FAQ.vue:653
 msgid "FAQ"
 msgstr "FAQ"
 
@@ -813,6 +1001,10 @@ msgstr ""
 "strong>. Zaïd, Catherin, Solar e você também pode fazer suas próprias "
 "regras, nos seus Termos de Serviços (por exemplo, um pode imaginar um "
 "MiauTube onde vídeos de cães são estritamente proibidos.😉)."
+
+#: src/views/Roadmap.vue:897
+msgid "Feedback on reports"
+msgstr ""
 
 #: src/components/InstancesList.vue:363
 msgid "Films"
@@ -964,6 +1156,15 @@ msgstr "Para aqueles que querem subir seus vídeos, PeerTube permite..."
 msgid "Forum"
 msgstr "Fórum"
 
+#: src/components/roadmap/Team.vue:20
+msgid ""
+"Framasoft (that's us!) is a French non-for-profit created in 2004, dedicated "
+"to popular education on digital issues. Our small association (less than 40 "
+"members, less than 10 employees) is known to have realized the <a href="
+"\"https://degooglisons-internet.org\">\"Degooglize the Internet\" project</"
+"a>, proposing 34 ethical and alternative online tools."
+msgstr ""
+
 #: src/components/InstancesList.vue:383
 msgid "Français"
 msgstr "Francês"
@@ -971,6 +1172,14 @@ msgstr "Francês"
 #: src/views/News.vue:178
 msgid "Freely,"
 msgstr "Livremente,"
+
+#: src/views/Roadmap.vue:126
+msgid ""
+"From June to November 2020, Framasoft will develop new features and "
+"improvments for PeerTube. We have broken down this roadmap into 4 main "
+"steps, each with its own schedule and cost, leading to peer-to-peer powered "
+"live steraming in PeerTube v3."
+msgstr ""
 
 #: src/views/FAQ.vue:302
 msgid ""
@@ -990,13 +1199,21 @@ msgstr "Gaélico"
 msgid "Gaming"
 msgstr "Videogame"
 
-#: src/components/InstanceCard.vue:277
+#: src/components/InstanceCard.vue:278
 msgid "GB"
 msgstr "GB"
 
-#: src/components/Header.vue:39
+#: src/components/Header.vue:11
 msgid "Git"
 msgstr "Git"
+
+#: src/components/roadmap/DonateForm.vue:360
+msgid "Give"
+msgstr ""
+
+#: src/components/roadmap/MoreInfos.vue:164 src/views/Roadmap.vue:881
+msgid "Global search"
+msgstr ""
 
 #: src/views/NotFound.vue:10
 msgid "Go back to the homepage"
@@ -1010,7 +1227,11 @@ msgstr "Ir para a instância"
 msgid "Go to the forum"
 msgstr "Ir para o fórum"
 
-#: src/views/Hall-Of-Fame.vue:5 src/views/Hall-Of-Fame.vue:632
+#: src/components/roadmap/Team.vue:44
+msgid "Guest designer"
+msgstr ""
+
+#: src/views/Hall-Of-Fame.vue:5 src/views/Hall-Of-Fame.vue:634
 msgid "Hall of Fame"
 msgstr "Hall da Fama"
 
@@ -1027,7 +1248,7 @@ msgstr "Olá,"
 msgid "Hello!"
 msgstr "Olá!"
 
-#: src/components/Header.vue:31 src/views/Help.vue:5 src/views/Help.vue:199
+#: src/components/Header.vue:37 src/views/Help.vue:5 src/views/Help.vue:199
 msgid "Help"
 msgstr "Ajuda"
 
@@ -1051,15 +1272,15 @@ msgstr "Ocultar"
 msgid "Hide them"
 msgstr "Ocultá-los"
 
-#: src/components/Header.vue:19
+#: src/components/Header.vue:21
 msgid "Home"
 msgstr "Início"
 
-#: src/views/FAQ.vue:539
+#: src/views/FAQ.vue:543
 msgid "How do I contribute to PeerTube’s code?"
 msgstr "Como é que eu contribuiu para o código do PeerTube?"
 
-#: src/views/FAQ.vue:518
+#: src/views/FAQ.vue:522
 msgid "How do I install PeerTube?"
 msgstr "Como é que eu instalo o PeerTube?"
 
@@ -1095,6 +1316,18 @@ msgstr ""
 "que o canal foi criado, usuários podem subir vídeos para cada canal e "
 "organizar o conteúdo (por exemplo, você pode ter um canal sobre cozinhar e "
 "outro sobre ciclismo)."
+
+#: src/components/roadmap/DonateForm.vue:95
+msgid "I want my donation to remain anonymous"
+msgstr ""
+
+#: src/components/roadmap/DonateForm.vue:12
+msgid "I want to be informed of Mobilizon’s progress"
+msgstr ""
+
+#: src/components/roadmap/DonateForm.vue:106
+msgid "I would like to receive a tax receipt"
+msgstr ""
 
 #: src/views/FAQ.vue:258
 msgid "If it's free, can we upload illegal stuff on it?"
@@ -1133,7 +1366,7 @@ msgstr ""
 "target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framacolibri."
 "org/c/peertube\">https://framacolibri.org/c/peertube</a>"
 
-#: src/views/FAQ.vue:559
+#: src/views/FAQ.vue:563
 msgid ""
 "If you want to help out in another way, or if you want to request a feature, "
 "come discuss it on our <a target=\"_blank\" rel=\"noopener noreferrer\" href="
@@ -1178,6 +1411,13 @@ msgid ""
 msgstr ""
 "Em Dezembro de 2018, nós lançamos a versão 1.1 que continha algumas "
 "ferramentas de moderação solicitada por administradores de instâncias."
+
+#: src/components/roadmap/DonateForm.vue:322
+msgid ""
+"In France, thanks to the {{ calcDefisc().percent }} % tax deduction, <b>your "
+"donation of {{ calcDefisc().amount }}</b> will cost you <b>{{ calcDefisc()."
+"defisc }}</b>."
+msgstr ""
 
 #: src/views/News.vue:379
 msgid ""
@@ -1237,7 +1477,7 @@ msgstr ""
 "joinpeertube.org/en\">https://joinpeertube.org/en</a> e não temos nenhuma "
 "responsabilidade quanto a qualquer outro site que possa ser publicado."
 
-#: src/views/Home.vue:256
+#: src/views/Home.vue:296
 msgid ""
 "In this way, when you watch a video, your computer contributes to its "
 "broadcast. If a lot of people are watching the same video at the same time, "
@@ -1292,7 +1532,7 @@ msgid ""
 "viewers."
 msgstr ""
 
-#: src/views/FAQ.vue:577
+#: src/views/FAQ.vue:581
 msgid ""
 "IPFS is a great technology, but it still seems very (too!) young for large "
 "scale streaming of large files."
@@ -1335,7 +1575,7 @@ msgid ""
 "recent first (default display) or most replies first."
 msgstr ""
 
-#: src/views/Home.vue:263
+#: src/views/Home.vue:303
 msgid ""
 "It might not look like it, but thanks to peer-to-peer broadcasting, popular "
 "video makers and their videos are no longer forced to be hosted by big "
@@ -1398,6 +1638,13 @@ msgstr ""
 "Seu desenvolvimento é feito por comunidade e pode ser melhorado pela "
 "contribuição de todo mundo."
 
+#: src/components/roadmap/ShareAndFollow.vue:113
+#, fuzzy
+msgid ""
+"Join me and support PeerTube, a free software to take back control of your "
+"videos!"
+msgstr "Um software livre para tomar de volta o controle dos seus vídeos"
+
 #: src/components/Footer.vue:17
 msgid "JoinPeerTube Git"
 msgstr "Aderir ao Git de PeerTube"
@@ -1410,7 +1657,7 @@ msgstr "23 de Julho de 2018"
 msgid "June 5, 2019"
 msgstr "5 de Junho de 2019"
 
-#: src/components/InstanceCard.vue:275
+#: src/components/InstanceCard.vue:276
 msgid "KB"
 msgstr "KB"
 
@@ -1422,6 +1669,11 @@ msgstr "Crianças"
 msgid "Languages"
 msgstr "Idiomas"
 
+#: src/components/roadmap/Team.vue:38
+#, fuzzy
+msgid "Learn more about Framasoft"
+msgstr "Aprenda mais sobre o ''software'' gratuito e livre"
+
 #: src/views/Home.vue:1
 msgid "Learn more about free/libre software"
 msgstr "Aprenda mais sobre o ''software'' gratuito e livre"
@@ -1430,9 +1682,30 @@ msgstr "Aprenda mais sobre o ''software'' gratuito e livre"
 msgid "Learn more about the federation"
 msgstr "Aprenda mais sobre a federação"
 
+#: src/views/Roadmap.vue:191
+#, fuzzy
+msgid "Learn more about those milestones"
+msgstr "Aprenda mais sobre a federação"
+
+#: src/components/roadmap/MoreInfos.vue:42
+msgid "Learn more on"
+msgstr ""
+
 #: src/components/Footer.vue:5
 msgid "Legal notices"
 msgstr "Avisos legais"
+
+#: src/views/Roadmap.vue:10
+msgid "Let's pave the way to PeerTube live in the v3!"
+msgstr ""
+
+#: src/views/Home.vue:28
+msgid "Let’s pave the way towards PeerTube's v3!"
+msgstr ""
+
+#: src/components/roadmap/ShareAndFollow.vue:114
+msgid "Let’s support PeerTube"
+msgstr ""
 
 #: src/views/FAQ.vue:54
 msgid ""
@@ -1444,6 +1717,10 @@ msgstr ""
 "de vídeos vendo pelo lado do servidor, enquanto se torna prático, ético e "
 "divertido vendo pelo lado do usuário."
 
+#: src/components/roadmap/MoreInfos.vue:167 src/views/Roadmap.vue:917
+msgid "Live streaming"
+msgstr ""
+
 #: src/views/News.vue:435
 msgid ""
 "Localization support (as we write these lines, PeerTube is already available "
@@ -1452,7 +1729,7 @@ msgstr ""
 "Suporte de Traduções (enquanto escrevemos estas linhas, PeerTube já está "
 "disponível em 13 diferentes idiomas)"
 
-#: src/views/Home.vue:158
+#: src/views/Home.vue:198
 msgid ""
 "Mainstream online video broadcasting services make money off of your data by "
 "analyzing your interactions so that they can then bombard your with targeted "
@@ -1487,15 +1764,25 @@ msgstr ""
 "e contribuirão, e mais rápido ele irá evoluir para uma alternativa concreta "
 "a plataformas tais como YouTube."
 
-#: src/components/InstanceCard.vue:276
+#: src/components/InstanceCard.vue:277
 msgid "MB"
 msgstr "MB"
+
+#: src/components/roadmap/MoreInfos.vue:165 src/views/Roadmap.vue:893
+#, fuzzy
+msgid "Moderation"
+msgstr "Educação"
 
 #: src/views/News.vue:112 src/views/News.vue:268
 msgid "More features"
 msgstr "Mais funcionalidades"
 
-#: src/views/FAQ.vue:595
+#: src/views/Home.vue:44
+#, fuzzy
+msgid "More informations"
+msgstr "Mais funcionalidades"
+
+#: src/views/FAQ.vue:599
 msgid "More technical questions"
 msgstr "Mais questões técnicas"
 
@@ -1525,7 +1812,7 @@ msgstr ""
 "rel=\"noopener noreferrer\" href=\"https://contact.framasoft.org\">https://"
 "contact.framasoft.org.</a>"
 
-#: src/views/Home.vue:171
+#: src/views/Home.vue:211
 msgid ""
 "Most importantly, <strong>you are a person to PeerTube, not a product in "
 "need of profiling so as to be stuck in video loops.</strong> For example, "
@@ -1573,7 +1860,11 @@ msgstr ""
 "mas de propor  alguma outra coisa, com um valor diferente, em paralelo com o "
 "que já existe."
 
-#: src/components/Header.vue:27 src/views/News.vue:840
+#: src/views/Roadmap.vue:910
+msgid "New plugins (annotations, etc)"
+msgstr ""
+
+#: src/components/Header.vue:33 src/views/News.vue:840
 msgid "News"
 msgstr "Notícias"
 
@@ -1581,9 +1872,13 @@ msgstr "Notícias"
 msgid "News & Politics"
 msgstr "Notícias e Políticas"
 
-#: src/components/Footer.vue:9
+#: src/components/Footer.vue:9 src/components/roadmap/ShareAndFollow.vue:8
 msgid "Newsletter"
 msgstr "Boletim Informativo"
+
+#: src/views/Roadmap.vue:922
+msgid "No chat, no gif, no ❤️ 👍 "
+msgstr ""
 
 #: src/components/InstancesList.vue:63
 msgid "No opinion"
@@ -1609,6 +1904,10 @@ msgstr ""
 #: src/views/News.vue:149
 msgid "November 12, 2019"
 msgstr "12 de Novembro de 2019"
+
+#: src/components/roadmap/DonateForm.vue:367
+msgid "now"
+msgstr ""
 
 #: src/views/FAQ.vue:290
 msgid ""
@@ -1689,13 +1988,22 @@ msgstr ""
 "navegador compartilha bits do vídeo que você vê e você participa no uso "
 "sadio da internet."
 
-#: src/views/Home.vue:73
+#: src/views/Home.vue:113
 msgid ""
 "Our aim is not to replace them, but rather to simultaneously offer something "
 "else, with different values."
 msgstr ""
 "Nosso objetivo não é substitui-los, mas ao invés disso, simultaneamente "
 "oferecer alguma outra coisa, com valores diferentes."
+
+#: src/components/roadmap/Team.vue:26
+msgid ""
+"Our association creates many digital tools (services, courses and resources, "
+"softwares) to equip the people who participate to the contribution society. "
+"Among these tools, we carry the development of the federated softwares "
+"PeerTube and Mobilizon (a soon-to-be alternative to Facebook events, pages "
+"and groups)."
+msgstr ""
 
 #: src/views/All-Content-Selections.vue:5
 #: src/views/All-Content-Selections.vue:36
@@ -1711,7 +2019,7 @@ msgstr ""
 "um novo financiamento coletivo [crowdfunding] e sonhando com uma ferramenta "
 "de remixagem de vídeos e de transmissão ao vivo [live streaming]!)."
 
-#: src/views/Home.vue:319
+#: src/views/Home.vue:359
 msgid ""
 "Our organization started in 2004, and now devotes itself <strong>to popular "
 "education about digital technology issues.</strong> We are a small structure "
@@ -1742,6 +2050,10 @@ msgstr ""
 #: src/views/NotFound.vue:5 src/views/NotFound.vue:48
 msgid "Page not found"
 msgstr "Página não encontrada"
+
+#: src/views/Roadmap.vue:921
+msgid "Peer-to-peer (30s - 1mn lag)"
+msgstr ""
 
 #: src/views/FAQ.vue:51
 msgid ""
@@ -1782,7 +2094,7 @@ msgstr ""
 msgid "PeerTube 2.1 is out!"
 msgstr "PeerTube 1.3 foi lançado!"
 
-#: src/views/Home.vue:68
+#: src/views/Home.vue:108
 msgid ""
 "PeerTube aspires to be a <strong>decentralized and free/libre alternative</"
 "strong> to video broadcasting services."
@@ -1806,7 +2118,7 @@ msgstr "Boletim de financiamento coletivo (Crowdfunding) do PeerTube - nº 3"
 msgid "PeerTube crowdfunding newsletter #4"
 msgstr "Boletim de financiamento coletivo (Crowdfunding) do PeerTube - nº 4"
 
-#: src/views/FAQ.vue:504
+#: src/views/FAQ.vue:508
 msgid ""
 "PeerTube developers are committed to develop and improve moderation tools to "
 "make instances always easier to manage. We welcome you to take part in "
@@ -1824,11 +2136,11 @@ msgstr ""
 msgid "PeerTube Git"
 msgstr "Github do PeerTube"
 
-#: src/views/Instances.vue:133
+#: src/views/Instances.vue:136
 msgid "PeerTube instances"
 msgstr "Instâncias do PeerTube"
 
-#: src/views/Home.vue:315
+#: src/views/Home.vue:355
 msgid ""
 "Peertube is a <strong>free/libre software funded by a French non-profit "
 "organization</strong>: Framasoft"
@@ -1836,7 +2148,7 @@ msgstr ""
 "PeerTube é uma <strong>um software livre/gratuito fundado por uma "
 "organização francesa sem fins lucrativos</strong>: Framasoft"
 
-#: src/views/FAQ.vue:584
+#: src/views/FAQ.vue:588
 msgid ""
 "PeerTube is free, decentralized, distributed, and does not impose any "
 "remuneration model. This is the choice we have made, which is debatable, and "
@@ -1874,7 +2186,7 @@ msgstr ""
 "Dominique) a criar um site web de vídeos. (vamos chamar esse dite da "
 "Dominque de DominqueTube)."
 
-#: src/views/Home.vue:91
+#: src/views/Home.vue:131
 msgid ""
 "PeerTube is not meant to become a huge platform that would centralize videos "
 "from all around the world."
@@ -1882,7 +2194,7 @@ msgstr ""
 "PeerTube não foi criado para se tornar uma grande plataforma que "
 "centralizaria vídeos de todo o mundo."
 
-#: src/views/Home.vue:166
+#: src/views/Home.vue:206
 msgid ""
 "Peertube is not subject to any corporate monopoly, does not rely on ads and "
 "<strong>does not track you.</strong>"
@@ -1958,7 +2270,7 @@ msgstr ""
 "Português (Europeu) (PeerTube já suporta o Português (Brasileiro). Grande "
 "PeerTube, disponível agora em 19 idiomas!"
 
-#: src/views/FAQ.vue:572
+#: src/views/FAQ.vue:576
 msgid ""
 "PeerTube uses ActivityPub because this federation protocol is recommended by "
 "the W3C and is already used by the federated social network Mastodon."
@@ -1975,7 +2287,7 @@ msgstr ""
 "PeerTube v1.0 não parece ter, para mim, todos as ferramentas necessárias "
 "para uma boa administração da minha instância."
 
-#: src/views/Home.vue:12
+#: src/views/Home.vue:52
 msgid ""
 "PeerTube, developed by Framasoft, is the free and decentralized alternative "
 "to video platforms, providing you over 200,000 videos published by 30,000 "
@@ -2006,8 +2318,25 @@ msgstr "Pessoas"
 msgid "per user"
 msgstr "por usuário"
 
+#: src/components/roadmap/MoreInfos.vue:166
+msgid "Playlist and Plugins"
+msgstr ""
+
+#: src/views/Roadmap.vue:909
+msgid "Playlists embed"
+msgstr ""
+
+#: src/components/roadmap/DonateForm.vue:118
+msgid "Please complete this information so we can prepare your receipt"
+msgstr ""
+
 #: src/views/News.vue:193
 msgid "Plug-in system"
+msgstr "Sistema de Plugin"
+
+#: src/views/Roadmap.vue:905
+#, fuzzy
+msgid "Plugins & Playlists"
 msgstr "Sistema de Plugin"
 
 #: src/components/InstancesList.vue:399
@@ -2018,15 +2347,27 @@ msgstr "Polaco"
 msgid "Português (Portugal)"
 msgstr "Português (Portugal)"
 
+#: src/views/Roadmap.vue:923
+msgid "Post-live publication"
+msgstr ""
+
 #: src/components/Footer.vue:15
 msgid "Press kit"
 msgstr "Kit de Imprensa"
+
+#: src/views/Roadmap.vue:911
+msgid "Promoting plugins"
+msgstr ""
 
 #: src/views/Help.vue:7
 msgid "Questions on PeerTube? Need help? You've come to the right place!"
 msgstr "Questões no PeerTube? Precisa de ajuda? Veio ao lugar certo!"
 
-#: src/views/Home.vue:96
+#: src/views/Roadmap.vue:77
+msgid "raised in {{ days }} days"
+msgstr ""
+
+#: src/views/Home.vue:136
 msgid ""
 "Rather, it is <strong>a network of inter-connected small videos hosters</"
 "strong>."
@@ -2034,9 +2375,19 @@ msgstr ""
 "Se trata muito mais de  <strong>uma rede de pequenos provedores de vídeo "
 "interconectados.</strong>."
 
+#: src/views/Roadmap.vue:214
+msgid "Read Framasoft's statement on the Framablog"
+msgstr ""
+
 #: src/views/Help.vue:31
 msgid "Read the documentation"
 msgstr "Leia a documentação"
+
+#: src/components/roadmap/Team.vue:32
+msgid ""
+"Recognised as being of general interest, our association is financed at more "
+"than 95% by donations from people who support and trust us."
+msgstr ""
 
 #: src/views/News.vue:448
 msgid ""
@@ -2098,6 +2449,10 @@ msgstr ""
 "desenvolvimento que irá continuar meses afora e, nós esperamos, pelos anos "
 "que virão."
 
+#: src/components/Header.vue:25
+msgid "Roadmap"
+msgstr ""
+
 #: src/views/News.vue:454
 msgid "RSS Feeds"
 msgstr "Feeds RSS"
@@ -2120,7 +2475,7 @@ msgstr "Ciência e Tecnologia"
 msgid "See the instance"
 msgstr "Ver a instância"
 
-#: src/views/Home.vue:27 src/views/Instances.vue:13
+#: src/views/Home.vue:67 src/views/Instances.vue:13
 msgid "See the instances list"
 msgstr "Ver a lista de instâncias"
 
@@ -2140,7 +2495,15 @@ msgstr "12 de Setembro de 2018"
 msgid "September 25, 2019"
 msgstr "25 de setembro de 2019"
 
-#: src/views/Home.vue:288
+#: src/views/Roadmap.vue:255
+msgid "Share and follow"
+msgstr ""
+
+#: src/views/Roadmap.vue:899
+msgid "Sharing balcklists (spam)"
+msgstr ""
+
+#: src/views/Home.vue:328
 msgid "Sign up"
 msgstr "Registrar"
 
@@ -2214,6 +2577,10 @@ msgid ""
 "subscribe/peertube-newsletter\" target=\"_blank\">the newsletter</a>"
 msgstr ""
 
+#: src/views/Roadmap.vue:880
+msgid "Step 1"
+msgstr ""
+
 #: src/views/News.vue:241
 msgid ""
 "Step 1: account creation (choosing your username, password, email, etc.)"
@@ -2221,10 +2588,22 @@ msgstr ""
 "Passo 1: criação de conta (escolha o seu nome de usuário, senha/palavra "
 "chave, e-mail, etc.)"
 
+#: src/views/Roadmap.vue:892
+msgid "Step 2"
+msgstr ""
+
 #: src/views/News.vue:242
 msgid "Step 2: choosing your default channel name via a new form"
 msgstr ""
 "Passo 2: escolha o nome do seu canal predefinido via um novo formulário"
+
+#: src/views/Roadmap.vue:904
+msgid "Step 3"
+msgstr ""
+
+#: src/views/Roadmap.vue:916
+msgid "Step 4"
+msgstr ""
 
 #: src/views/News.vue:444
 msgid ""
@@ -2252,11 +2631,15 @@ msgstr ""
 msgid "suomi"
 msgstr "Finlandês"
 
+#: src/views/Roadmap.vue:37
+msgid "Support the development of PeerTube!"
+msgstr ""
+
 #: src/components/InstancesList.vue:398
 msgid "svenska"
 msgstr "Suéco"
 
-#: src/views/FAQ.vue:515
+#: src/views/FAQ.vue:519
 msgid "Technical questions"
 msgstr "Questões técnicas"
 
@@ -2265,7 +2648,7 @@ msgstr "Questões técnicas"
 msgid "Thanks to all PeerTube contributors!"
 msgstr "Obrigado a todos os colaboradores do PeerTube!"
 
-#: src/views/Home.vue:326
+#: src/views/Home.vue:366
 msgid ""
 "Thanks to our <a href=\"/hall-of-fame\" target=\"_blank\">crowdfunding (from "
 "March to July 2018)</a>, <strong>Framasoft were able to employ PeerTube's "
@@ -2282,7 +2665,7 @@ msgstr ""
 "trouxeram vários recursos e melhorias ao longo do tempo. Vários coletivos já "
 "criaram instâncias PeerTube, colocando assim a fundação para a federação."
 
-#: src/views/FAQ.vue:523
+#: src/views/FAQ.vue:527
 msgid ""
 "The <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs."
 "joinpeertube.org/#/install-any-os\">installation guide is here</a> (only in "
@@ -2292,7 +2675,7 @@ msgstr ""
 "joinpeertube.org/#/install-any-os\">guia de instalação está aqui </a> "
 "(somente em inglês)."
 
-#: src/views/FAQ.vue:544
+#: src/views/FAQ.vue:548
 msgid ""
 "The <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github."
 "com/Chocobozzz/PeerTube\">Git repository of PeerTube is here</a>."
@@ -2356,7 +2739,13 @@ msgstr ""
 "sobrecarga. Se tudo correr bem, nós iremos terminar em cerca de duas semanas "
 "(final de setembro)."
 
-#: src/views/Home.vue:335
+#: src/views/Roadmap.vue:247
+msgid ""
+"The money donated via this form will be exclusively dedicated to the "
+"PeerTube project."
+msgstr ""
+
+#: src/views/Home.vue:375
 msgid ""
 "The more people use, support, and contribute to PeerTube, the quicker it "
 "will become a concrete alternative to platforms like YouTube."
@@ -2426,7 +2815,7 @@ msgstr ""
 "navegadores automaticamente envia pedaços do seu vídeo para outros "
 "telespectadores."
 
-#: src/views/Home.vue:250
+#: src/views/Home.vue:290
 msgid ""
 "The PeerTube software can, whenever necessary, use a peer-to-peer protocol "
 "(P2P) to broadcast viral videos, <strong>lowering the load of their hosts.</"
@@ -2511,6 +2900,13 @@ msgstr ""
 "lista daquelas que estão <a target=\"_blank\" rel=\"noopener noreferrer\" "
 "href=\"/instances\">abertas para resgistros aqui</a>."
 
+#: src/views/Roadmap.vue:131
+msgid ""
+"These developments are funded by donations made to our small non-for-profit: "
+"Framasoft. We will be collecting support over the next six months of "
+"development, so that you can help us in our efforts."
+msgstr ""
+
 #: src/views/News.vue:569
 msgid ""
 "These four features are all implemented, and can already be used on "
@@ -2546,7 +2942,12 @@ msgstr ""
 "a>, atualmente numa<a target=\"_blank\" rel=\"noopener noreferrer\" href="
 "\"https://contributopia.org/journal\">campanha de doação</a>."
 
-#: src/views/Home.vue:125
+#: src/components/roadmap/DonateForm.vue:683
+#: src/components/roadmap/DonateForm.vue:695
+msgid "This field must be filled in."
+msgstr ""
+
+#: src/views/Home.vue:165
 msgid "This is just how a <strong>federation</strong> works!"
 msgstr "É assim que uma <strong>federação</strong> funciona!"
 
@@ -2604,6 +3005,17 @@ msgstr ""
 "comentados, quando alguém os menciona, quando uma de suas inscrições "
 "publicou algum vídeo novo, etc."
 
+#: src/views/Roadmap.vue:885
+msgid "Throughout the fediverse"
+msgstr ""
+
+#: src/components/roadmap/Team.vue:45
+msgid ""
+"Throughout this development we will be improving user experience and "
+"interface of PeerTube to provide more clarity and power at every level of "
+"use."
+msgstr ""
+
 #: src/views/News.vue:458
 msgid "Torrent import"
 msgstr "Importar torrent"
@@ -2616,7 +3028,7 @@ msgstr "Traduzir"
 msgid "Travels"
 msgstr "Viagens"
 
-#: src/components/InstanceCard.vue:270
+#: src/components/InstanceCard.vue:271
 msgid "Unlimited space"
 msgstr "Espaço ilimitado"
 
@@ -2624,7 +3036,7 @@ msgstr "Espaço ilimitado"
 msgid "Upgrade PeerTube"
 msgstr "Atualizar PeerTube"
 
-#: src/main.js:63
+#: src/main.js:68
 msgid "value"
 msgstr "valor"
 
@@ -2764,6 +3176,15 @@ msgstr ""
 "nós estamos fazendo isso com os recursos que nós temos que "
 "significa<strong>muito</strong> limitado."
 
+#: src/components/roadmap/MoreInfos.vue:22
+msgid ""
+"We believe in the public utility of PeerTube, so much so that we commit to "
+"work on it for six months to make this v3 happen, even if we must do it on "
+"our own funds (which <a href=\"https://framablog.org/2019/11/12/peertube-has-"
+"worked-twice-as-hard-to-free-your-videos-from-youtube/\">we had already done "
+"for v2</a>)."
+msgstr ""
+
 #: src/views/FAQ.vue:232
 msgid "We can answer with certainty: no!"
 msgstr "Nós podemos responder com certeza: não!"
@@ -2831,7 +3252,7 @@ msgstr ""
 msgid "We present, among other things:"
 msgstr "Nós apresentamos, entre outras coisas:"
 
-#: src/views/FAQ.vue:527
+#: src/views/FAQ.vue:531
 msgid ""
 "We recommend not to install PeerTube on low-end hardware or behind a weak "
 "connection (for example, on a RaspberryPi with an ADSL connection): this "
@@ -2876,6 +3297,13 @@ msgstr ""
 "Lembramos que você pode acompanhar o progresso do trabalho diretamente no "
 "repositório Git, assim como,  fazer parte das conversas/ relatórios de erros/"
 "pedidos de funcionalidades na aba \"problemas\"."
+
+#: src/components/roadmap/MoreInfos.vue:28
+msgid ""
+"We still hope that by sharing this roadmap as widely as possible, some of "
+"you will support us in our approach with a donation that will allow us to "
+"fund this work."
+msgstr ""
 
 #: src/views/News.vue:212
 msgid ""
@@ -2928,11 +3356,11 @@ msgstr ""
 msgid "What are the main advantages of PeerTube?"
 msgstr "Quais são as principais vantagens do PeerTube?"
 
-#: src/views/Home.vue:52
+#: src/views/Home.vue:92
 msgid "What is"
 msgstr "O que é"
 
-#: src/views/FAQ.vue:16 src/views/Home.vue:21
+#: src/views/FAQ.vue:16 src/views/Home.vue:61
 msgid "What is PeerTube?"
 msgstr "O que é o PeerTube?"
 
@@ -2967,7 +3395,11 @@ msgstr ""
 msgid "Where can I put my videos?"
 msgstr "Onde eu posso colocar os meus vídeos?"
 
-#: src/views/Home.vue:303
+#: src/components/roadmap/Team.vue:6
+msgid "Who are we?"
+msgstr ""
+
+#: src/views/Home.vue:343
 msgid "Who is behind"
 msgstr "Quem está por trás"
 
@@ -2979,7 +3411,11 @@ msgstr "Quem é responsável pelo conteúdo publicado no PeerTube?"
 msgid "Why broadcast PeerTube videos through peer-to-peer?"
 msgstr "Porque transmitir vídeos PeerTube no modo ponto a ponto?"
 
-#: src/views/FAQ.vue:567
+#: src/components/roadmap/MoreInfos.vue:9
+msgid "Why collecting over 6 months?"
+msgstr ""
+
+#: src/views/FAQ.vue:571
 msgid ""
 "Why does PeerTube use the ActivityPub federation protocol? Why not IPFS / d."
 "tube / Steemit?"
@@ -2990,6 +3426,11 @@ msgstr ""
 #: src/views/FAQ.vue:62
 msgid "Why is it better as free/libre software?"
 msgstr "Por que é melhor aplicativos/software gratuito/livre?"
+
+#: src/views/Roadmap.vue:888 src/views/Roadmap.vue:900
+#: src/views/Roadmap.vue:912 src/views/Roadmap.vue:924
+msgid "WIP to improve UX/UI"
+msgstr ""
 
 #: src/views/FAQ.vue:178
 msgid ""
@@ -3006,7 +3447,7 @@ msgstr ""
 "o seu provedor caso você tenha algum problema, uma necessidade, ou algo que "
 "você queira."
 
-#: src/views/Home.vue:207
+#: src/views/Home.vue:247
 #, fuzzy
 msgid ""
 "With PeerTube, choose <strong>your hosting company and the rules you believe "
@@ -3015,7 +3456,7 @@ msgstr ""
 "PeerTube te permite escolher <strong>um provedor de hospedagem de vídeos com "
 "regras que te correspondem.</strong>"
 
-#: src/views/Home.vue:226
+#: src/views/Home.vue:266
 msgid ""
 "With PeerTube, you get to choose your hosting provider according to their "
 "terms of use, such as their disk space limit per user, their moderation "
@@ -3032,7 +3473,7 @@ msgstr ""
 msgid "work to facilitate the federation and presentation of proceedings;"
 msgstr "O trabalho para facilitar a federação e a apresentação das instâncias;"
 
-#: src/views/FAQ.vue:549
+#: src/views/FAQ.vue:553
 msgid ""
 "You can <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://"
 "github.com/Chocobozzz/PeerTube/issues\">create an issue</a>, contribute to "
@@ -3063,7 +3504,7 @@ msgstr ""
 "(changelog) <a href=\"https://github.com/Chocobozzz/PeerTube/blob/develop/"
 "CHANGELOG.md#v100-beta12\">aqui</a>."
 
-#: src/views/Home.vue:117
+#: src/views/Home.vue:157
 msgid ""
 "You can still watch from your account videos hosted by other instances "
 "though if the administrator of your instance had previously connected it "
@@ -3076,6 +3517,10 @@ msgstr ""
 #: src/views/Help.vue:20
 msgid "You have a question?"
 msgstr "Você tem uma questão?"
+
+#: src/components/roadmap/DonateForm.vue:686
+msgid "You must enter a valid email address."
+msgstr ""
 
 #: src/views/FAQ.vue:344
 msgid "You need to find a PeerTube hosting instance you trust."
@@ -3096,7 +3541,7 @@ msgstr ""
 "nós nunca prometemos que a versão 1.0 seria uma ferramenta que incluiria "
 "todas as funcionalidades correspondentes a todos os casos."
 
-#: src/views/Home.vue:273
+#: src/views/Home.vue:313
 msgid "Your move!"
 msgstr "Sua vez de jogar!"
 
@@ -3104,7 +3549,7 @@ msgstr "Sua vez de jogar!"
 msgid "Your profile"
 msgstr "Seu perfil"
 
-#: src/views/Home.vue:212
+#: src/views/Home.vue:252
 msgid ""
 "YouTube has clearly gone astray: its hoster, Google-Alphabet, can enforce "
 "its ContentID system (the infamous \"Robocopyright\") or its videos "
