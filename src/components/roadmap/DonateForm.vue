@@ -358,9 +358,9 @@
 
         <br />
 
-        <span v-if="!isNaN(form.don)">{{ formatCurrency(form.don) }}</span>
+        <span v-if="!isNaN(form.don)">{{ formatCurrency(form.don) + ' ' }}</span>
 
-        <span v-translate>&#8239; now</span>
+        <span v-translate>now</span>
       </b-button>
     </p>
   </b-form>
