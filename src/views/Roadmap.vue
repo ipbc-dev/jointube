@@ -948,7 +948,7 @@
       },
 
       updateData () {
-        this.days = Math.round(((new Date()).getTime() - (new Date(this.end)).getTime()) / (1000 * 60 * 60 * 24))
+        this.days = Math.round(((new Date()).getTime() - (new Date(this.start)).getTime()) / (1000 * 60 * 60 * 24))
         this.hours = Math.round(((new Date(this.end)).getTime() - (new Date()).getTime()) / (1000 * 60 * 60))
         // Fill donators
 
