@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-05-25 08:46+0000\n"
+"PO-Revision-Date: 2020-05-25 09:26+0000\n"
 "Last-Translator: chocobozzz <chocobozzz@framasoft.org>\n"
 "Language-Team: French (France) <https://weblate.framasoft.org/projects/"
 "joinpeertube/main/fr_FR/>\n"
@@ -388,11 +388,11 @@ msgid ""
 "moderation hooks and helpers in the plugins API and Framasoft developed an "
 "experimental *Auto mute* plugin based on public lists."
 msgstr ""
-"<strong>PeerTube 2.2<strong> a grandement amélioré la gestion des "
+"<strong>PeerTube 2.2</strong> a grandement amélioré la gestion des "
 "signalements de vidéos (recherche, affichage des signalements, actions sur "
 "la vidéo ou le compte etc), a ajouté des hooks et des outils de modération "
-"dans l'API des plugins et Framasoft a développé un plugin expérimental de "
-"*masquage automatique* basé sur des listes publiques."
+"dans l'API des plugins et Framasoft a développé un plugin expérimental de *"
+"masquage automatique* basé sur des listes publiques."
 
 #: src/views/FAQ.vue:218
 msgid ""
@@ -534,11 +534,11 @@ msgstr "Le support des sous-titres"
 
 #: src/components/roadmap/DonateForm.vue:650
 msgid "Address"
-msgstr ""
+msgstr "Adresse"
 
 #: src/components/roadmap/DonateForm.vue:653
 msgid "Address line 2"
-msgstr ""
+msgstr "Complément"
 
 #: src/views/Help.vue:79
 msgid "Administer PeerTube"
@@ -967,7 +967,7 @@ msgstr "Librement,"
 
 #: src/components/roadmap/DonateForm.vue:659
 msgid "City"
-msgstr ""
+msgstr "Ville"
 
 #: src/components/InstancesList.vue:370
 msgid "Comedy"
@@ -979,7 +979,7 @@ msgstr "Commentaires & Plaintes"
 
 #: src/components/roadmap/DonateForm.vue:639
 msgid "Company, association, community..."
-msgstr ""
+msgstr "Entreprise, association, collectivité…"
 
 #: src/views/FAQ.vue:73
 msgid "Concretely here, it means that:"
@@ -1123,47 +1123,47 @@ msgstr ""
 
 #: src/components/roadmap/DonateForm.vue:630
 msgid "E-mail"
-msgstr ""
+msgstr "E-mail"
 
 #: src/components/roadmap/DonateForm.vue:651
 msgid "e.g. 12, Freedom Street"
-msgstr ""
+msgstr "ex : 12 rue de la liberté"
 
 #: src/components/roadmap/DonateForm.vue:657
 msgid "e.g. 42100"
-msgstr ""
+msgstr "ex : 42100"
 
 #: src/components/roadmap/DonateForm.vue:645
 msgid "e.g. Ada"
-msgstr ""
+msgstr "ex : Ada"
 
 #: src/components/roadmap/DonateForm.vue:654
 msgid "e.g. Building VI"
-msgstr ""
+msgstr "ex : Bâtiment VI"
 
 #: src/components/roadmap/DonateForm.vue:631
 msgid "e.g. contact@fsf.org"
-msgstr ""
+msgstr "ex : contact@fsf.org"
 
 #: src/components/roadmap/DonateForm.vue:648
 msgid "e.g. Free Software Foundation"
-msgstr ""
+msgstr "ex : Free Software Fondation"
 
 #: src/components/roadmap/DonateForm.vue:635
 msgid "e.g. Lady AAL"
-msgstr ""
+msgstr "ex : Lady AAL"
 
 #: src/components/roadmap/DonateForm.vue:642
 msgid "e.g. Lovelace"
-msgstr ""
+msgstr "ex : Lovelace"
 
 #: src/components/roadmap/DonateForm.vue:632
 msgid "e.g. r.stallman@outlock.com"
-msgstr ""
+msgstr "ex : a.lovelace@example.com"
 
 #: src/components/roadmap/DonateForm.vue:660
 msgid "e.g. Saint-Etienne"
-msgstr ""
+msgstr "ex : Saint-Etienne"
 
 #: src/components/InstancesList.vue:374
 msgid "Education"
@@ -1308,7 +1308,7 @@ msgstr "Donateurs"
 
 #: src/components/roadmap/DonateForm.vue:644
 msgid "First name"
-msgstr ""
+msgstr "Prénom"
 
 #: src/views/News.vue:611
 msgid "First of all, thank you again for contributing to PeerTube! ❤️"
@@ -1578,7 +1578,7 @@ msgstr ""
 
 #: src/components/roadmap/DonateForm.vue:637
 msgid "I represent"
-msgstr ""
+msgstr "Je représente"
 
 #: src/components/roadmap/DonateForm.vue:86
 msgid "I want my donation to remain anonymous"
@@ -1938,7 +1938,7 @@ msgstr "Langues"
 
 #: src/components/roadmap/DonateForm.vue:641
 msgid "Last name"
-msgstr ""
+msgstr "Nom"
 
 #: src/components/roadmap/Team.vue:38
 msgid "Learn more about Framasoft"
@@ -1961,9 +1961,8 @@ msgid "Learn more on"
 msgstr "En savoir plus sur"
 
 #: src/components/roadmap/DonateForm.vue:647
-#, fuzzy
 msgid "Legal entity"
-msgstr "Mentions légales"
+msgstr "Raison sociale"
 
 #: src/components/Footer.vue:5
 msgid "Legal notices"
@@ -2150,7 +2149,7 @@ msgstr "Lettre d’information"
 
 #: src/components/roadmap/DonateForm.vue:634
 msgid "Nickname"
-msgstr ""
+msgstr "Pseudonyme"
 
 #: src/views/Roadmap.vue:922
 msgid "No chat, no gif, no ❤️ 👍 "
@@ -2638,7 +2637,7 @@ msgstr "Publication après le live"
 
 #: src/components/roadmap/DonateForm.vue:656
 msgid "Postal/Zip code"
-msgstr ""
+msgstr "Code postal"
 
 #: src/components/Footer.vue:15
 msgid "Press kit"
