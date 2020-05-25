@@ -19,7 +19,7 @@
           </p>
 
           <p v-translate>
-            Framasoft (that's us!) is a French non-for-profit created in 2004, dedicated to popular education on digital issues.
+            <strong>Framasoft</strong> (that's us!) is a French non-for-profit created in 2004, dedicated <strong>to popular education</strong> on digital issues.
             Our small association (less than 40 members, less than 10 employees) is known to have realized the
             <a href="https://degooglisons-internet.org">"Degooglize the Internet" project</a>, proposing 34 ethical and alternative online tools.
           </p>

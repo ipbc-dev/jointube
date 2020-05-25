@@ -896,14 +896,14 @@
             ul: [
               this.$gettext('Feedback on reports'),
               this.$gettext('Facilitating moderation'),
-              this.$gettext('Sharing balcklists (spam)'),
+              this.$gettext('Sharing blacklists (spam)'),
               this.$gettext('WIP to improve UX/UI')
             ]
           },
           three: {
             title: this.$gettext('Step 3'),
             subtitle: this.$gettext('Plugins & Playlists'),
-            date: this.$gettext('(Aug-Sept.)'),
+            date: this.$gettext('(Aug. - Sept.)'),
             width: '33.33',
             ul: [
               this.$gettext('Playlists embed'),
@@ -915,7 +915,7 @@
           four: {
             title: this.$gettext('Step 4'),
             subtitle: this.$gettext('Live streaming'),
-            date: this.$gettext('(oct. - nov.)'),
+            date: this.$gettext('(Oct. - Nov.)'),
             width: '33.33',
             ul: [
               this.$gettext('Peer-to-peer (30s - 1mn lag)'),

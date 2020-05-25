@@ -42,7 +42,7 @@
               </p>
               <p class="card-text text-right">
                 <router-link to="roadmap" class="bottom-link">
-                  <translate>More informations</translate>
+                  <translate>More information</translate>
                 </router-link>
               </p>
             </div>

@@ -163,7 +163,7 @@
         stepsTitle: [
           this.$gettext('Global search'),
           this.$gettext('Moderation'),
-          this.$gettext('Playlist and Plugins'),
+          this.$gettext('Plugins & Playlists'),
           this.$gettext('Live streaming')
         ],
         stepsContent: [
@@ -173,7 +173,9 @@
 
             <p>We will create a <strong>server that indexes all videos</strong>
             and channels from all PeerTube instances that are listed on
-            <a href="https://instances.joinpeertube.org/">the public directory</a>.</p>
+            <a href="https://instances.joinpeertube.org/">the public directory</a>.
+            The code for this indexing engine will be open source,
+            so that anyone can host their own by setting their own eligibility rules.</p>
 
             <p>Each PeerTube instance administrator will be able to choose to <strong>
             use one of these indexing engines for their instance's search bar</strong> de son instance.</p>
@@ -202,7 +204,7 @@
             We want to rework the <strong>embed and display of playlists</strong> on third party sites.</p>
 
             <p>We also want to <strong>allow two clips of the same video to be displayed in a playlist</strong>. Combined with the ability to
-            extract a specific piece of video in a playlist, playlists will thus become very useful remixing tools,
+            extract a specific piece of video in a playlist, <strong>playlists will thus become very useful remixing tools</strong>,
             for example for educational purposes.</p>
 
             <p>Plugins allow anyone to contribute new features to PeerTube by coding them into PeerTube, and offer them to instance
