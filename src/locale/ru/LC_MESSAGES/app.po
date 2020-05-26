@@ -40,19 +40,19 @@ msgid ""
 "usability and design user-friendly, ethical and inclusive tools. »"
 msgstr ""
 
-#: src/views/Roadmap.vue:907
+#: src/views/Roadmap.vue:904
 msgid "(Aug. - Sept.)"
 msgstr ""
 
-#: src/views/Roadmap.vue:895
+#: src/views/Roadmap.vue:892
 msgid "(July)"
 msgstr ""
 
-#: src/views/Roadmap.vue:883
+#: src/views/Roadmap.vue:880
 msgid "(June)"
 msgstr ""
 
-#: src/views/Roadmap.vue:919
+#: src/views/Roadmap.vue:916
 msgid "(Oct. - Nov.)"
 msgstr ""
 
@@ -62,6 +62,13 @@ msgid_plural "%{ instance.totalInstanceFollowers } followers instances"
 msgstr[0] "%{ instance.totalInstanceFollowers } сервер на связи"
 msgstr[1] "%{ instance.totalInstanceFollowers } сервера на связи"
 msgstr[2] "%{ instance.totalInstanceFollowers } серверов на связи"
+
+#: src/views/Roadmap.vue:213
+msgid ""
+"<a href=\"https://framablog.org/2020/05/26/our-plans-for-peertube-v3-"
+"progressive-fundraising-live-streaming-coming-next-fall\"> Read Framasoft's "
+"statement on the Framablog </a>"
+msgstr ""
 
 #: src/views/News.vue:166
 msgid ""
@@ -513,7 +520,7 @@ msgstr ""
 msgid "Animals"
 msgstr "Животные"
 
-#: src/views/Roadmap.vue:888
+#: src/views/Roadmap.vue:885
 msgid "Announcements"
 msgstr ""
 
@@ -829,7 +836,7 @@ msgid "Contact"
 msgstr "Контакты"
 
 #: src/components/Header.vue:6 src/views/Roadmap.vue:92
-#: src/views/Roadmap.vue:242
+#: src/views/Roadmap.vue:239
 msgid "Contribute"
 msgstr "Поддержать"
 
@@ -1031,7 +1038,7 @@ msgstr "Esperanto (Эсперанто)"
 msgid "Euskara"
 msgstr "Euskara (Баскский)"
 
-#: src/views/Roadmap.vue:887
+#: src/views/Roadmap.vue:884
 msgid "Facilitate index creation"
 msgstr ""
 
@@ -1043,7 +1050,7 @@ msgid ""
 "alternative to Google-YouTube and Facebook-Live."
 msgstr ""
 
-#: src/views/Roadmap.vue:899
+#: src/views/Roadmap.vue:896
 msgid "Facilitating moderation"
 msgstr ""
 
@@ -1076,7 +1083,7 @@ msgstr ""
 "свои собственные правила, свои собственные Условия обслуживания (например, "
 "можно представить себе MeowTube, где видео собак строго запрещено 😉)."
 
-#: src/views/Roadmap.vue:898
+#: src/views/Roadmap.vue:895
 msgid "Feedback on reports"
 msgstr ""
 
@@ -1279,7 +1286,7 @@ msgstr "Исходники (Git)"
 msgid "Give"
 msgstr ""
 
-#: src/components/roadmap/MoreInfos.vue:164 src/views/Roadmap.vue:882
+#: src/components/roadmap/MoreInfos.vue:164 src/views/Roadmap.vue:879
 msgid "Global search"
 msgstr ""
 
@@ -1788,7 +1795,7 @@ msgstr ""
 "оставаясь при этом практичными, этичными и увлекательными для пользователей "
 "Интернета."
 
-#: src/components/roadmap/MoreInfos.vue:167 src/views/Roadmap.vue:918
+#: src/components/roadmap/MoreInfos.vue:167 src/views/Roadmap.vue:915
 msgid "Live streaming"
 msgstr ""
 
@@ -1839,7 +1846,7 @@ msgstr ""
 msgid "MB"
 msgstr "МБ"
 
-#: src/components/roadmap/MoreInfos.vue:165 src/views/Roadmap.vue:894
+#: src/components/roadmap/MoreInfos.vue:165 src/views/Roadmap.vue:891
 #, fuzzy
 msgid "Moderation"
 msgstr "Обучающие"
@@ -1930,7 +1937,7 @@ msgstr ""
 "альтернативой </strong>: цель альтернативы - не заменить, а предложить что-"
 "то другое, с другими ценностями, параллельно тому, что уже существует."
 
-#: src/views/Roadmap.vue:911
+#: src/views/Roadmap.vue:908
 msgid "New plugins (annotations, etc)"
 msgstr ""
 
@@ -1950,7 +1957,7 @@ msgstr "Новостная рассылка"
 msgid "Nickname"
 msgstr ""
 
-#: src/views/Roadmap.vue:923
+#: src/views/Roadmap.vue:920
 msgid "No chat, no gif, no ❤️ 👍"
 msgstr ""
 
@@ -2126,7 +2133,7 @@ msgstr ""
 msgid "Page not found"
 msgstr "Страница не найдена"
 
-#: src/views/Roadmap.vue:922
+#: src/views/Roadmap.vue:919
 msgid "Peer-to-peer (30s - 1mn lag)"
 msgstr ""
 
@@ -2389,7 +2396,7 @@ msgstr "Люди"
 msgid "per user"
 msgstr "на пользователя"
 
-#: src/views/Roadmap.vue:910
+#: src/views/Roadmap.vue:907
 msgid "Playlists embed"
 msgstr ""
 
@@ -2401,7 +2408,7 @@ msgstr ""
 msgid "Plug-in system"
 msgstr "Плагины"
 
-#: src/components/roadmap/MoreInfos.vue:166 src/views/Roadmap.vue:906
+#: src/components/roadmap/MoreInfos.vue:166 src/views/Roadmap.vue:903
 #, fuzzy
 msgid "Plugins & Playlists"
 msgstr "Плагины"
@@ -2414,7 +2421,7 @@ msgstr "Polski (Польский)"
 msgid "Português (Portugal)"
 msgstr "Português (Португальский)"
 
-#: src/views/Roadmap.vue:924
+#: src/views/Roadmap.vue:921
 msgid "Post-live publication"
 msgstr ""
 
@@ -2426,7 +2433,7 @@ msgstr ""
 msgid "Press kit"
 msgstr "О нас в прессе"
 
-#: src/views/Roadmap.vue:912
+#: src/views/Roadmap.vue:909
 msgid "Promoting plugins"
 msgstr ""
 
@@ -2444,10 +2451,6 @@ msgid ""
 "strong>."
 msgstr ""
 "Скорее, это <strong> сеть независимых небольших видео хостеров</strong>."
-
-#: src/views/Roadmap.vue:214
-msgid "Read Framasoft's statement on the Framablog"
-msgstr ""
 
 #: src/views/Help.vue:31
 msgid "Read the documentation"
@@ -2564,7 +2567,7 @@ msgstr "12 сентября 2018"
 msgid "September 25, 2019"
 msgstr "25 сентября 2019"
 
-#: src/views/Roadmap.vue:255
+#: src/views/Roadmap.vue:252
 msgid "Share and follow"
 msgstr ""
 
@@ -2588,7 +2591,7 @@ msgstr ""
 msgid "Share on Twitter"
 msgstr ""
 
-#: src/views/Roadmap.vue:900
+#: src/views/Roadmap.vue:897
 msgid "Sharing blacklists (spam)"
 msgstr ""
 
@@ -2670,7 +2673,7 @@ msgstr ""
 msgid "Stay up-to-date with PeerTube"
 msgstr ""
 
-#: src/views/Roadmap.vue:881
+#: src/views/Roadmap.vue:878
 msgid "Step 1"
 msgstr ""
 
@@ -2681,7 +2684,7 @@ msgstr ""
 "Шаг 1: создание учетной записи (выбор имени пользователя, пароля, адреса "
 "электронной почты и т. д.)"
 
-#: src/views/Roadmap.vue:893
+#: src/views/Roadmap.vue:890
 msgid "Step 2"
 msgstr ""
 
@@ -2689,11 +2692,11 @@ msgstr ""
 msgid "Step 2: choosing your default channel name via a new form"
 msgstr "Шаг 2: выбор названия вашего канала по умолчанию, через новую форму"
 
-#: src/views/Roadmap.vue:905
+#: src/views/Roadmap.vue:902
 msgid "Step 3"
 msgstr ""
 
-#: src/views/Roadmap.vue:917
+#: src/views/Roadmap.vue:914
 msgid "Step 4"
 msgstr ""
 
@@ -2826,7 +2829,7 @@ msgstr ""
 "экземпляров. Если все пойдет хорошо, мы должны закончить его примерно через "
 "две недели (конец сентября)."
 
-#: src/views/Roadmap.vue:247
+#: src/views/Roadmap.vue:244
 msgid ""
 "The money donated via this form will be exclusively dedicated to the "
 "PeerTube project."
@@ -3095,7 +3098,7 @@ msgstr ""
 "почте), когда их видео комментируется, когда кто-то упоминает их, когда одна "
 "из их подписок опубликовала новое видео и т. д."
 
-#: src/views/Roadmap.vue:886
+#: src/views/Roadmap.vue:883
 msgid "Throughout the fediverse"
 msgstr ""
 
@@ -3510,8 +3513,8 @@ msgstr ""
 msgid "Why is it better as free/libre software?"
 msgstr "Почему для PeerTube лучше быть бесплатным и свободным?"
 
-#: src/views/Roadmap.vue:889 src/views/Roadmap.vue:901
-#: src/views/Roadmap.vue:913 src/views/Roadmap.vue:925
+#: src/views/Roadmap.vue:886 src/views/Roadmap.vue:898
+#: src/views/Roadmap.vue:910 src/views/Roadmap.vue:922
 msgid "WIP to improve UX/UI"
 msgstr ""
 

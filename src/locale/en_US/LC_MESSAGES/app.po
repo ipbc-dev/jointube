@@ -22,19 +22,19 @@ msgstr "\"It's outrageous and unconscious: you're releasing PeerTube's version x
 msgid "« Independent designer, UX researcher who seeks to thoroughly understand usability and design user-friendly, ethical and inclusive tools. »"
 msgstr "« Independent designer, UX researcher who seeks to thoroughly understand usability and design user-friendly, ethical and inclusive tools. »"
 
-#: src/views/Roadmap.vue:907
+#: src/views/Roadmap.vue:904
 msgid "(Aug. - Sept.)"
 msgstr "(Aug. - Sept.)"
 
-#: src/views/Roadmap.vue:895
+#: src/views/Roadmap.vue:892
 msgid "(July)"
 msgstr "(July)"
 
-#: src/views/Roadmap.vue:883
+#: src/views/Roadmap.vue:880
 msgid "(June)"
 msgstr "(June)"
 
-#: src/views/Roadmap.vue:919
+#: src/views/Roadmap.vue:916
 msgid "(Oct. - Nov.)"
 msgstr "(Oct. - Nov.)"
 
@@ -43,6 +43,10 @@ msgid "%{ instance.totalInstanceFollowers } follower instance"
 msgid_plural "%{ instance.totalInstanceFollowers } followers instances"
 msgstr[0] "%{ instance.totalInstanceFollowers } follower instance"
 msgstr[1] "%{ instance.totalInstanceFollowers } followers instances"
+
+#: src/views/Roadmap.vue:213
+msgid "<a href=\"https://framablog.org/2020/05/26/our-plans-for-peertube-v3-progressive-fundraising-live-streaming-coming-next-fall\"> Read Framasoft's statement on the Framablog </a>"
+msgstr "<a href=\"https://framablog.org/2020/05/26/our-plans-for-peertube-v3-progressive-fundraising-live-streaming-coming-next-fall\"> Read Framasoft's statement on the Framablog </a>"
 
 #: src/views/News.vue:166
 msgid "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.joinpeertube.org\">PeerTube's official documentation site</a> (administration and use);"
@@ -362,7 +366,7 @@ msgstr "And there's more! PeerTube uses Activity Pub, a federating protocol that
 msgid "Animals"
 msgstr "Animals"
 
-#: src/views/Roadmap.vue:888
+#: src/views/Roadmap.vue:885
 msgid "Announcements"
 msgstr "Announcements"
 
@@ -548,7 +552,7 @@ msgid "Contact"
 msgstr "Contact"
 
 #: src/components/Header.vue:6 src/views/Roadmap.vue:92
-#: src/views/Roadmap.vue:242
+#: src/views/Roadmap.vue:239
 msgid "Contribute"
 msgstr "Contribute"
 
@@ -721,7 +725,7 @@ msgstr "Esperanto"
 msgid "Euskara"
 msgstr "Euskara"
 
-#: src/views/Roadmap.vue:887
+#: src/views/Roadmap.vue:884
 msgid "Facilitate index creation"
 msgstr "Facilitate index creation"
 
@@ -729,7 +733,7 @@ msgstr "Facilitate index creation"
 msgid "Facilitating access to content, sharing powers and responsibilities, opening up to contributions, democratizing live streaming through peer-to-peer... PeerTube v3 aims to consolidate this tool as an increasingly user-friendly alternative to Google-YouTube and Facebook-Live."
 msgstr "Facilitating access to content, sharing powers and responsibilities, opening up to contributions, democratizing live streaming through peer-to-peer... PeerTube v3 aims to consolidate this tool as an increasingly user-friendly alternative to Google-YouTube and Facebook-Live."
 
-#: src/views/Roadmap.vue:899
+#: src/views/Roadmap.vue:896
 msgid "Facilitating moderation"
 msgstr "Facilitating moderation"
 
@@ -753,7 +757,7 @@ msgstr "February 26, 2019"
 msgid "Federation offers another benefit: <strong>everyone becomes independent</strong>. Zaïd, Catherin, Solar and yourself can make your own rules, your own Terms of Services (for example, one can imagine a MeowTube where dogs videos are strictly forbidden 😉)."
 msgstr "Federation offers another benefit: <strong>everyone becomes independent</strong>. Zaïd, Catherin, Solar and yourself can make your own rules, your own Terms of Services (for example, one can imagine a MeowTube where dogs videos are strictly forbidden 😉)."
 
-#: src/views/Roadmap.vue:898
+#: src/views/Roadmap.vue:895
 msgid "Feedback on reports"
 msgstr "Feedback on reports"
 
@@ -879,7 +883,7 @@ msgstr "Git"
 msgid "Give"
 msgstr "Give"
 
-#: src/components/roadmap/MoreInfos.vue:164 src/views/Roadmap.vue:882
+#: src/components/roadmap/MoreInfos.vue:164 src/views/Roadmap.vue:879
 msgid "Global search"
 msgstr "Global search"
 
@@ -1180,7 +1184,7 @@ msgstr "Let’s support PeerTube"
 msgid "Linked together, these three features makes it easy to host videos on the server side, while remaining practical, ethical and fun for the internet users."
 msgstr "Linked together, these three features makes it easy to host videos on the server side, while remaining practical, ethical and fun for the internet users."
 
-#: src/components/roadmap/MoreInfos.vue:167 src/views/Roadmap.vue:918
+#: src/components/roadmap/MoreInfos.vue:167 src/views/Roadmap.vue:915
 msgid "Live streaming"
 msgstr "Live streaming"
 
@@ -1204,7 +1208,7 @@ msgstr "March 2018 thus represents the birth of the PeerTube federations: the mo
 msgid "MB"
 msgstr "MB"
 
-#: src/components/roadmap/MoreInfos.vue:165 src/views/Roadmap.vue:894
+#: src/components/roadmap/MoreInfos.vue:165 src/views/Roadmap.vue:891
 msgid "Moderation"
 msgstr "Moderation"
 
@@ -1252,7 +1256,7 @@ msgstr "Nevertheless, it is worth remembering that the vast majority of videos p
 msgid "Nevertheless, the ambition remains to be <strong>a free and decentralized alternative</strong>: the goal of an alternative is not to replace, but to propose something else, with different values, in parallel to what already exists."
 msgstr "Nevertheless, the ambition remains to be <strong>a free and decentralized alternative</strong>: the goal of an alternative is not to replace, but to propose something else, with different values, in parallel to what already exists."
 
-#: src/views/Roadmap.vue:911
+#: src/views/Roadmap.vue:908
 msgid "New plugins (annotations, etc)"
 msgstr "New plugins (annotations, etc)"
 
@@ -1272,7 +1276,7 @@ msgstr "Newsletter"
 msgid "Nickname"
 msgstr "Nickname"
 
-#: src/views/Roadmap.vue:923
+#: src/views/Roadmap.vue:920
 msgid "No chat, no gif, no ❤️ 👍"
 msgstr "No chat, no gif, no ❤️ 👍"
 
@@ -1357,7 +1361,7 @@ msgstr "Our wonderful community of translators is once again to thank for their 
 msgid "Page not found"
 msgstr "Page not found"
 
-#: src/views/Roadmap.vue:922
+#: src/views/Roadmap.vue:919
 msgid "Peer-to-peer (30s - 1mn lag)"
 msgstr "Peer-to-peer (30s - 1mn lag)"
 
@@ -1509,7 +1513,7 @@ msgstr "People"
 msgid "per user"
 msgstr "per user"
 
-#: src/views/Roadmap.vue:910
+#: src/views/Roadmap.vue:907
 msgid "Playlists embed"
 msgstr "Playlists embed"
 
@@ -1521,7 +1525,7 @@ msgstr "Please complete this information so we can prepare your receipt"
 msgid "Plug-in system"
 msgstr "Plug-in system"
 
-#: src/components/roadmap/MoreInfos.vue:166 src/views/Roadmap.vue:906
+#: src/components/roadmap/MoreInfos.vue:166 src/views/Roadmap.vue:903
 msgid "Plugins & Playlists"
 msgstr "Plugins & Playlists"
 
@@ -1533,7 +1537,7 @@ msgstr "Polski"
 msgid "Português (Portugal)"
 msgstr "Português (Portugal)"
 
-#: src/views/Roadmap.vue:924
+#: src/views/Roadmap.vue:921
 msgid "Post-live publication"
 msgstr "Post-live publication"
 
@@ -1545,7 +1549,7 @@ msgstr "Postal/Zip code"
 msgid "Press kit"
 msgstr "Press kit"
 
-#: src/views/Roadmap.vue:912
+#: src/views/Roadmap.vue:909
 msgid "Promoting plugins"
 msgstr "Promoting plugins"
 
@@ -1560,10 +1564,6 @@ msgstr "raised in %{ days } day"
 #: src/views/Home.vue:136
 msgid "Rather, it is <strong>a network of inter-connected small videos hosters</strong>."
 msgstr "Rather, it is <strong>a network of inter-connected small videos hosters</strong>."
-
-#: src/views/Roadmap.vue:214
-msgid "Read Framasoft's statement on the Framablog"
-msgstr "Read Framasoft's statement on the Framablog"
 
 #: src/views/Help.vue:31
 msgid "Read the documentation"
@@ -1633,7 +1633,7 @@ msgstr "September 12, 2018"
 msgid "September 25, 2019"
 msgstr "September 25, 2019"
 
-#: src/views/Roadmap.vue:255
+#: src/views/Roadmap.vue:252
 msgid "Share and follow"
 msgstr "Share and follow"
 
@@ -1657,7 +1657,7 @@ msgstr "Share on Reddit"
 msgid "Share on Twitter"
 msgstr "Share on Twitter"
 
-#: src/views/Roadmap.vue:900
+#: src/views/Roadmap.vue:897
 msgid "Sharing blacklists (spam)"
 msgstr "Sharing blacklists (spam)"
 
@@ -1701,7 +1701,7 @@ msgstr "Stay informed by subscribing to <a href=\"https://framalistes.org/sympa/
 msgid "Stay up-to-date with PeerTube"
 msgstr "Stay up-to-date with PeerTube"
 
-#: src/views/Roadmap.vue:881
+#: src/views/Roadmap.vue:878
 msgid "Step 1"
 msgstr "Step 1"
 
@@ -1709,7 +1709,7 @@ msgstr "Step 1"
 msgid "Step 1: account creation (choosing your username, password, email, etc.)"
 msgstr "Step 1: account creation (choosing your username, password, email, etc.)"
 
-#: src/views/Roadmap.vue:893
+#: src/views/Roadmap.vue:890
 msgid "Step 2"
 msgstr "Step 2"
 
@@ -1717,11 +1717,11 @@ msgstr "Step 2"
 msgid "Step 2: choosing your default channel name via a new form"
 msgstr "Step 2: choosing your default channel name via a new form"
 
-#: src/views/Roadmap.vue:905
+#: src/views/Roadmap.vue:902
 msgid "Step 3"
 msgstr "Step 3"
 
-#: src/views/Roadmap.vue:917
+#: src/views/Roadmap.vue:914
 msgid "Step 4"
 msgstr "Step 4"
 
@@ -1794,7 +1794,7 @@ msgstr "The import system will complete the first crowdfunding goal. The next fe
 msgid "The last feature we have to implement is the videos redundancy between instances, which will further increase resilience on instance overload. If all goes well, we should finish it in about two weeks (end of september)."
 msgstr "The last feature we have to implement is the videos redundancy between instances, which will further increase resilience on instance overload. If all goes well, we should finish it in about two weeks (end of september)."
 
-#: src/views/Roadmap.vue:247
+#: src/views/Roadmap.vue:244
 msgid "The money donated via this form will be exclusively dedicated to the PeerTube project."
 msgstr "The money donated via this form will be exclusively dedicated to the PeerTube project."
 
@@ -1899,7 +1899,7 @@ msgstr "This new release includes many other improvements. You can see the compl
 msgid "This version also includes a notification system that allows users to be informed (on the web interface or through email) when their video is commented, when someone mention them, when one of their subscriptions has published a new video, etc."
 msgstr "This version also includes a notification system that allows users to be informed (on the web interface or through email) when their video is commented, when someone mention them, when one of their subscriptions has published a new video, etc."
 
-#: src/views/Roadmap.vue:886
+#: src/views/Roadmap.vue:883
 msgid "Throughout the fediverse"
 msgstr "Throughout the fediverse"
 
@@ -2123,8 +2123,8 @@ msgstr "Why does PeerTube use the ActivityPub federation protocol? Why not IPFS 
 msgid "Why is it better as free/libre software?"
 msgstr "Why is it better as free/libre software?"
 
-#: src/views/Roadmap.vue:889 src/views/Roadmap.vue:901
-#: src/views/Roadmap.vue:913 src/views/Roadmap.vue:925
+#: src/views/Roadmap.vue:886 src/views/Roadmap.vue:898
+#: src/views/Roadmap.vue:910 src/views/Roadmap.vue:922
 msgid "WIP to improve UX/UI"
 msgstr "WIP to improve UX/UI"
 
