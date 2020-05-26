@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-05-26 07:02+0000\n"
+"PO-Revision-Date: 2020-05-26 07:03+0000\n"
 "Last-Translator: chocobozzz <chocobozzz@framasoft.org>\n"
 "Language-Team: French (France) <https://weblate.framasoft.org/projects/"
 "joinpeertube/main/fr_FR/>\n"
@@ -70,6 +70,9 @@ msgid ""
 "progressive-fundraising-live-streaming-coming-next-fall\"> Read Framasoft's "
 "statement on the Framablog </a>"
 msgstr ""
+"<a href=\"https://framablog.org/2020/05/26/nos-plans-pour-peertube-v3"
+"-collecte-perlee-du-live-pour-cet-automne\">Lire la note d’intention de "
+"Framasoft sur le Framablog</a>"
 
 #: src/views/News.vue:166
 msgid ""
