@@ -2,7 +2,7 @@
   <main id="news">
     <div class="blocks">
       <div class="title-block">
-        <div class="title" v-translate>PeerTube news!</div>
+        <h1 v-translate>PeerTube news!</h1>
 
         <p>
           <span v-translate>Discover the latest PeerTube improvements</span>
