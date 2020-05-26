@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-05-25 09:53+0000\n"
+"PO-Revision-Date: 2020-05-26 07:02+0000\n"
 "Last-Translator: chocobozzz <chocobozzz@framasoft.org>\n"
 "Language-Team: French (France) <https://weblate.framasoft.org/projects/"
 "joinpeertube/main/fr_FR/>\n"
@@ -2403,7 +2403,6 @@ msgid "PeerTube crowdfunding newsletter #4"
 msgstr "Newsletter du crowdfunding de PeerTube n°4"
 
 #: src/views/FAQ.vue:510
-#, fuzzy
 msgid ""
 "PeerTube developers are committed to develop and improve moderation tools to "
 "make instances always easier to manage. We welcome you to take part in "
@@ -2413,11 +2412,10 @@ msgid ""
 msgstr ""
 "Les développeurs de PeerTube s'engagent à développer et à améliorer les "
 "outils de modération pour rendre les instances toujours plus faciles à "
-"gérer. Nous vous invitons à prendre part aux discussions pour <a href="
-"\"https ://github.com/Chocobozzz/PeerTube/issues ?utf8=%E2%9C%93&q=label%3A"
-"%22Component%3A+Moderation+%3Agodmode%3A%22+\">aider les efforts en cours</"
-"a> dans ce sens ou <a href=\"https ://github.com/Chocobozzz/PeerTube/issues/"
-"new\">suggest new ones</a> !"
+"gérer. Nous vous invitons à prendre part aux discussions pour <a href=\""
+"https://github.com/Chocobozzz/PeerTube/issues\">aider les efforts en "
+"cours</a> dans ce sens ou <a href=\"https ://github.com/Chocobozzz/PeerTube/"
+"issues/new\">suggest new ones</a> !"
 
 #: src/views/FAQ.vue:467
 msgid "PeerTube developers did not add moderation tools."
