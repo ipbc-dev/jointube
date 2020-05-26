@@ -797,7 +797,7 @@
               `&amount=${this.form.don}`,
               `&item_name=${encodeURIComponent('Framasoft (don ponctuel)')}`,
               '&business=6HSVUPKRDAGC2', // Framasoft Paypal ID
-              `&return=${encodeURIComponent('https://soutenir.framasoft.org/merci')}`,
+              `&return=${encodeURIComponent('https://joinpeertube.org/thank-you')}`,
               '&currency_code=EUR',
               '&address_override=1', // Prefill Paypal’s form
               '&charset=utf-8',

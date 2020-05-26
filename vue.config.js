@@ -13,6 +13,7 @@ module.exports = {
         '/faq',
         '/roadmap',
         '/content-selections',
+        '/thank-you',
         '/en_US',
         '/fr_FR',
         '/de',

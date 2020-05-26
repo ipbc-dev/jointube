@@ -11,6 +11,7 @@ import Instances from './views/Instances'
 import NotFound from './views/NotFound'
 import AllContentSelections from './views/All-Content-Selections'
 import Roadmap from './views/Roadmap'
+import ThankYou from './views/Thank-You'
 
 import './scss/main.scss'
 import CommonMixins from './mixins/CommonMixins'
@@ -132,6 +133,10 @@ p.catch(err => {
       {
         path: base + 'content-selections',
         component: AllContentSelections
+      },
+      {
+        path: base + 'thank-you',
+        component: ThankYou
       }
     ])
   }
