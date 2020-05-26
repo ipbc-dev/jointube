@@ -211,11 +211,8 @@
                   to Google-YouTube and Facebook-Live.</translate>
                 </span>
 
-                <footer class="blockquote-footer">
-                  <a
-                    href="https://framablog.org/#2020/05/26"
-                    v-translate
-                  >
+                <footer class="blockquote-footer" v-translate>
+                  <a href="https://framablog.org/2020/05/26/our-plans-for-peertube-v3-progressive-fundraising-live-streaming-coming-next-fall">
                     Read Framasoft's statement on the Framablog
                   </a>
                 </footer>
