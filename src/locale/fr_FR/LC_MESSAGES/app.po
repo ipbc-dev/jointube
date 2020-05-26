@@ -42,19 +42,19 @@ msgstr ""
 "« Designer indépendante, chercheuse UX pour comprendre les usages en "
 "profondeur et concevoir des outils utilisables, éthiques et inclusifs. »"
 
-#: src/views/Roadmap.vue:904
+#: src/views/Roadmap.vue:902
 msgid "(Aug. - Sept.)"
 msgstr "(août - sept.)"
 
-#: src/views/Roadmap.vue:892
+#: src/views/Roadmap.vue:890
 msgid "(July)"
 msgstr "(juillet)"
 
-#: src/views/Roadmap.vue:880
+#: src/views/Roadmap.vue:878
 msgid "(June)"
 msgstr "(juin)"
 
-#: src/views/Roadmap.vue:916
+#: src/views/Roadmap.vue:914
 msgid "(Oct. - Nov.)"
 msgstr "(oct. - nov.)"
 
@@ -65,13 +65,14 @@ msgstr[0] "%{ instance.totalInstanceFollowers } instance abonnée"
 msgstr[1] "%{ instance.totalInstanceFollowers } instances abonnées"
 
 #: src/views/Roadmap.vue:213
+#, fuzzy
 msgid ""
 "<a href=\"https://framablog.org/2020/05/26/our-plans-for-peertube-v3-"
-"progressive-fundraising-live-streaming-coming-next-fall\"> Read Framasoft's "
-"statement on the Framablog </a>"
+"progressive-fundraising-live-streaming-coming-next-fall\">Read Framasoft's "
+"statement on the Framablog</a>"
 msgstr ""
-"<a href=\"https://framablog.org/2020/05/26/nos-plans-pour-peertube-v3"
-"-collecte-perlee-du-live-pour-cet-automne\">Lire la note d’intention de "
+"<a href=\"https://framablog.org/2020/05/26/nos-plans-pour-peertube-v3-"
+"collecte-perlee-du-live-pour-cet-automne\">Lire la note d’intention de "
 "Framasoft sur le Framablog</a>"
 
 #: src/views/News.vue:166
@@ -654,7 +655,7 @@ msgstr ""
 msgid "Animals"
 msgstr "Animaux"
 
-#: src/views/Roadmap.vue:885
+#: src/views/Roadmap.vue:883
 msgid "Announcements"
 msgstr "Messages d’information"
 
@@ -996,7 +997,7 @@ msgid "Contact"
 msgstr "Contact"
 
 #: src/components/Header.vue:6 src/views/Roadmap.vue:92
-#: src/views/Roadmap.vue:239
+#: src/views/Roadmap.vue:237
 msgid "Contribute"
 msgstr "Contribuer"
 
@@ -1202,7 +1203,7 @@ msgstr "Espéranto"
 msgid "Euskara"
 msgstr "Basque"
 
-#: src/views/Roadmap.vue:884
+#: src/views/Roadmap.vue:882
 msgid "Facilitate index creation"
 msgstr "Possibilité de créer des index"
 
@@ -1218,7 +1219,7 @@ msgstr ""
 "v3 de PeerTube vise à consolider cet outil comme une alternative de plus en "
 "plus conviviale aux Google-YouTube et autres Facebook-Live."
 
-#: src/views/Roadmap.vue:896
+#: src/views/Roadmap.vue:894
 msgid "Facilitating moderation"
 msgstr "Faciliter la modération"
 
@@ -1251,7 +1252,7 @@ msgstr ""
 "d’Utilisation (on peut, par exemple, imaginer un MiaouTube où les vidéos de "
 "chiens seraient strictement interdites 😉)."
 
-#: src/views/Roadmap.vue:895
+#: src/views/Roadmap.vue:893
 msgid "Feedback on reports"
 msgstr "Suivi des signalements"
 
@@ -1475,7 +1476,7 @@ msgstr "Git"
 msgid "Give"
 msgstr "Donner"
 
-#: src/components/roadmap/MoreInfos.vue:164 src/views/Roadmap.vue:879
+#: src/components/roadmap/MoreInfos.vue:164 src/views/Roadmap.vue:877
 msgid "Global search"
 msgstr "Recherche Globale"
 
@@ -1996,7 +1997,7 @@ msgstr ""
 "l’hébergement de vidéos côté serveur, tout en restant pratique, éthique et "
 "amusant côté internautes."
 
-#: src/components/roadmap/MoreInfos.vue:167 src/views/Roadmap.vue:915
+#: src/components/roadmap/MoreInfos.vue:167 src/views/Roadmap.vue:913
 msgid "Live streaming"
 msgstr "Live streaming"
 
@@ -2047,7 +2048,7 @@ msgstr ""
 msgid "MB"
 msgstr "Mo"
 
-#: src/components/roadmap/MoreInfos.vue:165 src/views/Roadmap.vue:891
+#: src/components/roadmap/MoreInfos.vue:165 src/views/Roadmap.vue:889
 msgid "Moderation"
 msgstr "Outils de Modération"
 
@@ -2137,7 +2138,7 @@ msgstr ""
 "mais de proposer quelque chose d’autre, avec des valeurs différentes, en "
 "parallèle de ce qui existe déjà."
 
-#: src/views/Roadmap.vue:908
+#: src/views/Roadmap.vue:906
 msgid "New plugins (annotations, etc)"
 msgstr "Plugins (annotations, etc.)"
 
@@ -2157,7 +2158,7 @@ msgstr "Lettre d’information"
 msgid "Nickname"
 msgstr "Pseudonyme"
 
-#: src/views/Roadmap.vue:920
+#: src/views/Roadmap.vue:918
 msgid "No chat, no gif, no ❤️ 👍"
 msgstr "Sans Tchat, ni gif, ni ❤️ 👍"
 
@@ -2339,7 +2340,7 @@ msgstr ""
 msgid "Page not found"
 msgstr "Page non trouvée"
 
-#: src/views/Roadmap.vue:919
+#: src/views/Roadmap.vue:917
 msgid "Peer-to-peer (30s - 1mn lag)"
 msgstr "En pair à pair (30s - 1min de lag)"
 
@@ -2415,8 +2416,8 @@ msgid ""
 msgstr ""
 "Les développeurs de PeerTube s'engagent à développer et à améliorer les "
 "outils de modération pour rendre les instances toujours plus faciles à "
-"gérer. Nous vous invitons à prendre part aux discussions pour <a href=\""
-"https://github.com/Chocobozzz/PeerTube/issues\">aider les efforts en "
+"gérer. Nous vous invitons à prendre part aux discussions pour <a href="
+"\"https://github.com/Chocobozzz/PeerTube/issues\">aider les efforts en "
 "cours</a> dans ce sens ou <a href=\"https ://github.com/Chocobozzz/PeerTube/"
 "issues/new\">suggest new ones</a> !"
 
@@ -2614,7 +2615,7 @@ msgstr "People"
 msgid "per user"
 msgstr "par utilisateur"
 
-#: src/views/Roadmap.vue:907
+#: src/views/Roadmap.vue:905
 msgid "Playlists embed"
 msgstr "Partage des playlists sur le web"
 
@@ -2627,7 +2628,7 @@ msgstr ""
 msgid "Plug-in system"
 msgstr "Système de plugins"
 
-#: src/components/roadmap/MoreInfos.vue:166 src/views/Roadmap.vue:903
+#: src/components/roadmap/MoreInfos.vue:166 src/views/Roadmap.vue:901
 msgid "Plugins & Playlists"
 msgstr "Plugins & Playlists"
 
@@ -2639,7 +2640,7 @@ msgstr "Polonais"
 msgid "Português (Portugal)"
 msgstr "Portugais (Portugal)"
 
-#: src/views/Roadmap.vue:921
+#: src/views/Roadmap.vue:919
 msgid "Post-live publication"
 msgstr "Publication après le live"
 
@@ -2651,7 +2652,7 @@ msgstr "Code postal"
 msgid "Press kit"
 msgstr "Kit de presse"
 
-#: src/views/Roadmap.vue:909
+#: src/views/Roadmap.vue:907
 msgid "Promoting plugins"
 msgstr "Mise en valeur des plugins"
 
@@ -2791,7 +2792,7 @@ msgstr "12 Septembre 2018"
 msgid "September 25, 2019"
 msgstr "25 Septembre 2019"
 
-#: src/views/Roadmap.vue:252
+#: src/views/Roadmap.vue:250
 msgid "Share and follow"
 msgstr "Suivre et partager"
 
@@ -2815,7 +2816,7 @@ msgstr "Partager sur Reddit"
 msgid "Share on Twitter"
 msgstr "Partager sur Twitter"
 
-#: src/views/Roadmap.vue:897
+#: src/views/Roadmap.vue:895
 msgid "Sharing blacklists (spam)"
 msgstr "Partage de listes noires (spams)"
 
@@ -2903,7 +2904,7 @@ msgstr ""
 msgid "Stay up-to-date with PeerTube"
 msgstr "Suivre l'actualité de PeerTube"
 
-#: src/views/Roadmap.vue:878
+#: src/views/Roadmap.vue:876
 msgid "Step 1"
 msgstr "Étape 1"
 
@@ -2914,7 +2915,7 @@ msgstr ""
 "À l’étape 1, on crée son compte (on spécifie son nom d’utilisateur⋅ice, son "
 "mot de passe, son email, etc.)"
 
-#: src/views/Roadmap.vue:890
+#: src/views/Roadmap.vue:888
 msgid "Step 2"
 msgstr "Étape 2"
 
@@ -2924,11 +2925,11 @@ msgstr ""
 "À l’étape 2, on spécifie le nom de sa chaîne par défaut via un nouveau "
 "formulaire"
 
-#: src/views/Roadmap.vue:902
+#: src/views/Roadmap.vue:900
 msgid "Step 3"
 msgstr "Étape 3"
 
-#: src/views/Roadmap.vue:914
+#: src/views/Roadmap.vue:912
 msgid "Step 4"
 msgstr "Étape 4"
 
@@ -3067,7 +3068,7 @@ msgstr ""
 "résilience en cas de surcharge d'une instance. Si tout se passe bien, nous "
 "devrions la terminer dans environ deux semaines (fin septembre)."
 
-#: src/views/Roadmap.vue:244
+#: src/views/Roadmap.vue:242
 msgid ""
 "The money donated via this form will be exclusively dedicated to the "
 "PeerTube project."
@@ -3345,7 +3346,7 @@ msgstr ""
 "lorsque leur vidéo est commentée, lorsque quelqu'un les mentionne, lorsqu'un "
 "de leur abonnement a publié une nouvelle vidéo, etc."
 
-#: src/views/Roadmap.vue:883
+#: src/views/Roadmap.vue:881
 msgid "Throughout the fediverse"
 msgstr "Recherche dans la fediverse"
 
@@ -3812,8 +3813,8 @@ msgstr ""
 msgid "Why is it better as free/libre software?"
 msgstr "Pourquoi c’est mieux que ce soit un logiciel libre ?"
 
-#: src/views/Roadmap.vue:886 src/views/Roadmap.vue:898
-#: src/views/Roadmap.vue:910 src/views/Roadmap.vue:922
+#: src/views/Roadmap.vue:884 src/views/Roadmap.vue:896
+#: src/views/Roadmap.vue:908 src/views/Roadmap.vue:920
 msgid "WIP to improve UX/UI"
 msgstr "Travail de fond UX/UI"
 

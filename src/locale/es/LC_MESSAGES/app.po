@@ -40,19 +40,19 @@ msgid ""
 "usability and design user-friendly, ethical and inclusive tools. »"
 msgstr ""
 
-#: src/views/Roadmap.vue:904
+#: src/views/Roadmap.vue:902
 msgid "(Aug. - Sept.)"
 msgstr ""
 
-#: src/views/Roadmap.vue:892
+#: src/views/Roadmap.vue:890
 msgid "(July)"
 msgstr ""
 
-#: src/views/Roadmap.vue:880
+#: src/views/Roadmap.vue:878
 msgid "(June)"
 msgstr ""
 
-#: src/views/Roadmap.vue:916
+#: src/views/Roadmap.vue:914
 msgid "(Oct. - Nov.)"
 msgstr ""
 
@@ -65,8 +65,8 @@ msgstr[1] "%{ instance.totalInstanceFollowers } página de seguidores"
 #: src/views/Roadmap.vue:213
 msgid ""
 "<a href=\"https://framablog.org/2020/05/26/our-plans-for-peertube-v3-"
-"progressive-fundraising-live-streaming-coming-next-fall\"> Read Framasoft's "
-"statement on the Framablog </a>"
+"progressive-fundraising-live-streaming-coming-next-fall\">Read Framasoft's "
+"statement on the Framablog</a>"
 msgstr ""
 
 #: src/views/News.vue:166
@@ -555,7 +555,7 @@ msgstr ""
 msgid "Animals"
 msgstr "Animales"
 
-#: src/views/Roadmap.vue:885
+#: src/views/Roadmap.vue:883
 msgid "Announcements"
 msgstr ""
 
@@ -886,7 +886,7 @@ msgid "Contact"
 msgstr "Contacto"
 
 #: src/components/Header.vue:6 src/views/Roadmap.vue:92
-#: src/views/Roadmap.vue:239
+#: src/views/Roadmap.vue:237
 msgid "Contribute"
 msgstr "Contribuir"
 
@@ -1091,7 +1091,7 @@ msgstr "Esperanto"
 msgid "Euskara"
 msgstr "Euskera"
 
-#: src/views/Roadmap.vue:884
+#: src/views/Roadmap.vue:882
 msgid "Facilitate index creation"
 msgstr ""
 
@@ -1103,7 +1103,7 @@ msgid ""
 "alternative to Google-YouTube and Facebook-Live."
 msgstr ""
 
-#: src/views/Roadmap.vue:896
+#: src/views/Roadmap.vue:894
 msgid "Facilitating moderation"
 msgstr ""
 
@@ -1136,7 +1136,7 @@ msgstr ""
 "puede imaginar un MeowTube donde los vídeos de perros están estrictamente "
 "prohibidos 😉)."
 
-#: src/views/Roadmap.vue:895
+#: src/views/Roadmap.vue:893
 msgid "Feedback on reports"
 msgstr ""
 
@@ -1355,7 +1355,7 @@ msgstr "Github"
 msgid "Give"
 msgstr ""
 
-#: src/components/roadmap/MoreInfos.vue:164 src/views/Roadmap.vue:879
+#: src/components/roadmap/MoreInfos.vue:164 src/views/Roadmap.vue:877
 msgid "Global search"
 msgstr ""
 
@@ -1873,7 +1873,7 @@ msgstr ""
 "vídeos en el lado del servidor, sin dejar de ser práctico, ético y divertido "
 "para los usuarios de Internet."
 
-#: src/components/roadmap/MoreInfos.vue:167 src/views/Roadmap.vue:915
+#: src/components/roadmap/MoreInfos.vue:167 src/views/Roadmap.vue:913
 msgid "Live streaming"
 msgstr ""
 
@@ -1923,7 +1923,7 @@ msgstr ""
 msgid "MB"
 msgstr "MB"
 
-#: src/components/roadmap/MoreInfos.vue:165 src/views/Roadmap.vue:891
+#: src/components/roadmap/MoreInfos.vue:165 src/views/Roadmap.vue:889
 #, fuzzy
 msgid "Moderation"
 msgstr "Educación"
@@ -2014,7 +2014,7 @@ msgstr ""
 "sino proponer otra cosa, con valores diferentes, en paralelo a lo que ya "
 "existe."
 
-#: src/views/Roadmap.vue:908
+#: src/views/Roadmap.vue:906
 msgid "New plugins (annotations, etc)"
 msgstr ""
 
@@ -2034,7 +2034,7 @@ msgstr "Suscripción"
 msgid "Nickname"
 msgstr ""
 
-#: src/views/Roadmap.vue:920
+#: src/views/Roadmap.vue:918
 msgid "No chat, no gif, no ❤️ 👍"
 msgstr ""
 
@@ -2211,7 +2211,7 @@ msgstr ""
 msgid "Page not found"
 msgstr "Página no encontrada"
 
-#: src/views/Roadmap.vue:919
+#: src/views/Roadmap.vue:917
 msgid "Peer-to-peer (30s - 1mn lag)"
 msgstr ""
 
@@ -2484,7 +2484,7 @@ msgstr "Gente"
 msgid "per user"
 msgstr "por usuario"
 
-#: src/views/Roadmap.vue:907
+#: src/views/Roadmap.vue:905
 msgid "Playlists embed"
 msgstr ""
 
@@ -2496,7 +2496,7 @@ msgstr ""
 msgid "Plug-in system"
 msgstr "Systema de extensiones"
 
-#: src/components/roadmap/MoreInfos.vue:166 src/views/Roadmap.vue:903
+#: src/components/roadmap/MoreInfos.vue:166 src/views/Roadmap.vue:901
 #, fuzzy
 msgid "Plugins & Playlists"
 msgstr "Systema de extensiones"
@@ -2509,7 +2509,7 @@ msgstr "Polaco"
 msgid "Português (Portugal)"
 msgstr "Portugués (Portugal)"
 
-#: src/views/Roadmap.vue:921
+#: src/views/Roadmap.vue:919
 msgid "Post-live publication"
 msgstr ""
 
@@ -2521,7 +2521,7 @@ msgstr ""
 msgid "Press kit"
 msgstr "Dossier de prensa"
 
-#: src/views/Roadmap.vue:909
+#: src/views/Roadmap.vue:907
 msgid "Promoting plugins"
 msgstr ""
 
@@ -2658,7 +2658,7 @@ msgstr "12 de septiembre de 2018"
 msgid "September 25, 2019"
 msgstr "25 de septiembre de 2019"
 
-#: src/views/Roadmap.vue:252
+#: src/views/Roadmap.vue:250
 msgid "Share and follow"
 msgstr ""
 
@@ -2682,7 +2682,7 @@ msgstr ""
 msgid "Share on Twitter"
 msgstr ""
 
-#: src/views/Roadmap.vue:897
+#: src/views/Roadmap.vue:895
 msgid "Sharing blacklists (spam)"
 msgstr ""
 
@@ -2765,7 +2765,7 @@ msgstr ""
 msgid "Stay up-to-date with PeerTube"
 msgstr ""
 
-#: src/views/Roadmap.vue:878
+#: src/views/Roadmap.vue:876
 msgid "Step 1"
 msgstr ""
 
@@ -2776,7 +2776,7 @@ msgstr ""
 "Paso 1: creación de cuenta (elegir nombre de usuario, contraseña, correo "
 "electrónico, etc.)"
 
-#: src/views/Roadmap.vue:890
+#: src/views/Roadmap.vue:888
 msgid "Step 2"
 msgstr ""
 
@@ -2786,11 +2786,11 @@ msgstr ""
 "Paso 2: elige el nombre de tu canal predeterminado a través de un nuevo "
 "formulario"
 
-#: src/views/Roadmap.vue:902
+#: src/views/Roadmap.vue:900
 msgid "Step 3"
 msgstr ""
 
-#: src/views/Roadmap.vue:914
+#: src/views/Roadmap.vue:912
 msgid "Step 4"
 msgstr ""
 
@@ -2925,7 +2925,7 @@ msgstr ""
 "sobrecarga de instancias. Si todo va bien, deberíamos terminarlo en "
 "aproximadamente dos semanas (finales de septiembre)."
 
-#: src/views/Roadmap.vue:244
+#: src/views/Roadmap.vue:242
 msgid ""
 "The money donated via this form will be exclusively dedicated to the "
 "PeerTube project."
@@ -3193,7 +3193,7 @@ msgstr ""
 "cuando se comenta tu video, cuando alguien los menciona, cuando una de tus "
 "suscripciones ha publicado un nuevo video, etc."
 
-#: src/views/Roadmap.vue:883
+#: src/views/Roadmap.vue:881
 msgid "Throughout the fediverse"
 msgstr ""
 
@@ -3639,8 +3639,8 @@ msgstr ""
 msgid "Why is it better as free/libre software?"
 msgstr "¿Por qué es mejor como software libre?"
 
-#: src/views/Roadmap.vue:886 src/views/Roadmap.vue:898
-#: src/views/Roadmap.vue:910 src/views/Roadmap.vue:922
+#: src/views/Roadmap.vue:884 src/views/Roadmap.vue:896
+#: src/views/Roadmap.vue:908 src/views/Roadmap.vue:920
 msgid "WIP to improve UX/UI"
 msgstr ""
 
