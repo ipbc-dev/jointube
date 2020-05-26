@@ -35,7 +35,7 @@
       margin: 60px auto 100px auto;
 
       .title-block {
-        max-width: 80%;
+        max-width: 85%;
 
         h1 {
           font-size: 26px;
