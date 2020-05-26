@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-05-26 07:05+0000\n"
+"PO-Revision-Date: 2020-05-26 08:53+0000\n"
 "Last-Translator: chocobozzz <chocobozzz@framasoft.org>\n"
 "Language-Team: French (France) <https://weblate.framasoft.org/projects/"
 "joinpeertube/main/fr_FR/>\n"
@@ -1260,6 +1260,8 @@ msgid ""
 "Feel free <strong>to share your gesture</strong> on your favourite social "
 "networks and to talk about PeerTube around you!"
 msgstr ""
+"N'hésitez pas à <strong>partager votre belle démarche</strong> sur vos "
+"réseaux sociaux préférés et à en parler autour de vous !"
 
 #: src/components/InstancesList.vue:363
 msgid "Films"
@@ -2979,11 +2981,11 @@ msgstr "Questions techniques"
 
 #: src/views/Thank-You.vue:69
 msgid "Thank you"
-msgstr ""
+msgstr "Merci"
 
 #: src/views/Thank-You.vue:5
 msgid "Thank you very much for your donation to the PeerTube project!"
-msgstr ""
+msgstr "Merci infiniment pour votre don au projet PeerTube !"
 
 #: src/views/News.vue:140 src/views/News.vue:288 src/views/News.vue:352
 #: src/views/News.vue:416
@@ -3012,6 +3014,8 @@ msgid ""
 "Thanks to you, Framasoft’s teams will be able to continue and expand the "
 "work already started on this software."
 msgstr ""
+"Grâce à celui-ci, vous allez permettre aux équipes de Framasoft de continuer "
+"et d’approfondir le travail déjà entamé sur ce logiciel."
 
 #: src/views/FAQ.vue:529
 msgid ""
@@ -3189,6 +3193,9 @@ msgid ""
 "strong> to raise awareness about this roadmap, so we can share our "
 "enthousiasm about Peertube's v3."
 msgstr ""
+"Le succès de cette collecte ne dépend que de vous : <strong>nous avons "
+"besoin de vous</strong> pour faire connaître cette feuille de route, afin "
+"que nous partagions notre enthousiasme sur la v3 de PeerTube."
 
 #: src/components/InstancesList.vue:35
 msgid "Themes"
