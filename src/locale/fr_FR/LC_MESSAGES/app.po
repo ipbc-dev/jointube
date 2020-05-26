@@ -70,8 +70,8 @@ msgid ""
 "progressive-fundraising-live-streaming-coming-next-fall\">Read Framasoft's "
 "statement on the Framablog</a>"
 msgstr ""
-"<a href=\"https://framablog.org/2020/05/26/nos-plans-pour-peertube-v3"
-"-collecte-perlee-du-live-pour-cet-automne\">Lire la note d’intention de "
+"<a href=\"https://framablog.org/2020/05/26/nos-plans-pour-peertube-v3-"
+"collecte-perlee-du-live-pour-cet-automne\">Lire la note d’intention de "
 "Framasoft sur le Framablog</a>"
 
 #: src/views/News.vue:166
