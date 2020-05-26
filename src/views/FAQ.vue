@@ -400,7 +400,9 @@
       </div>
 
       <div class="block" role="tablist">
-        <h2 v-translate>Comments & Complaints</h2>
+        <h2>
+          <translate>Comments & Complaints</translate>
+        </h2>
 
         <accordion-element accordion="a" id="PeerTube vx.y.z does not seem to me to contain all the tools necessary for a good management of my instance.">
           <template v-slot:title>
@@ -506,10 +508,10 @@
               </li>
             </ul>
 
-            <p v-translate>
+            <p v-translate render-html="true">
               PeerTube developers are committed to develop and improve moderation tools to make instances always easier to manage.
               We welcome you to take part in discussions to <a
-              href="https://github.com/Chocobozzz/PeerTube/issues?utf8=%E2%9C%93&q=label%3A%22Component%3A+Moderation+%3Agodmode%3A%22+">help
+              href="https://github.com/Chocobozzz/PeerTube/issues">help
               ongoing efforts</a> in that direction or <a href="https://github.com/Chocobozzz/PeerTube/issues/new">suggest new ones</a>!
             </p>
           </div>
