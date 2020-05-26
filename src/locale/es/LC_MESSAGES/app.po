@@ -1140,6 +1140,12 @@ msgstr ""
 msgid "Feedback on reports"
 msgstr ""
 
+#: src/views/Thank-You.vue:21
+msgid ""
+"Feel free <strong>to share your gesture</strong> on your favourite social "
+"networks and to talk about PeerTube around you!"
+msgstr ""
+
 #: src/components/InstancesList.vue:363
 msgid "Films"
 msgstr "Películas"
@@ -2832,6 +2838,14 @@ msgstr "Sueco"
 msgid "Technical questions"
 msgstr "Preguntas técnicas"
 
+#: src/views/Thank-You.vue:69
+msgid "Thank you"
+msgstr ""
+
+#: src/views/Thank-You.vue:5
+msgid "Thank you very much for your donation to the PeerTube project!"
+msgstr ""
+
 #: src/views/News.vue:140 src/views/News.vue:288 src/views/News.vue:352
 #: src/views/News.vue:416
 msgid "Thanks to all PeerTube contributors!"
@@ -2852,6 +2866,12 @@ msgstr ""
 "marzo de 2018, la versión 1 salió en noviembre de 2018. Desde entonces, "
 "nuevas versiones han traído muchas características. Varios ya han creado "
 "página con PeerTube."
+
+#: src/views/Thank-You.vue:11
+msgid ""
+"Thanks to you, Framasoft’s teams will be able to continue and expand the "
+"work already started on this software."
+msgstr ""
 
 #: src/views/FAQ.vue:529
 msgid ""
@@ -3016,6 +3036,13 @@ msgstr ""
 #: src/views/FAQ.vue:472
 msgid "The project's evolution demonstrates the contrary."
 msgstr "La evolución del proyecto demuestra lo contrario."
+
+#: src/views/Thank-You.vue:17
+msgid ""
+"The success of this fundraising depends only on you: <strong>we need you</"
+"strong> to raise awareness about this roadmap, so we can share our "
+"enthousiasm about Peertube's v3."
+msgstr ""
 
 #: src/components/InstancesList.vue:35
 msgid "Themes"
@@ -3224,7 +3251,7 @@ msgstr "Espacio ilimitado"
 msgid "Upgrade PeerTube"
 msgstr "Actualizar PeerTube"
 
-#: src/main.js:68
+#: src/main.js:69
 msgid "value"
 msgstr "valor"
 

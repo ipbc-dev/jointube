@@ -761,6 +761,10 @@ msgstr "Federation offers another benefit: <strong>everyone becomes independent<
 msgid "Feedback on reports"
 msgstr "Feedback on reports"
 
+#: src/views/Thank-You.vue:21
+msgid "Feel free <strong>to share your gesture</strong> on your favourite social networks and to talk about PeerTube around you!"
+msgstr "Feel free <strong>to share your gesture</strong> on your favourite social networks and to talk about PeerTube around you!"
+
 #: src/components/InstancesList.vue:363
 msgid "Films"
 msgstr "Films"
@@ -1753,6 +1757,14 @@ msgstr "svenska"
 msgid "Technical questions"
 msgstr "Technical questions"
 
+#: src/views/Thank-You.vue:69
+msgid "Thank you"
+msgstr "Thank you"
+
+#: src/views/Thank-You.vue:5
+msgid "Thank you very much for your donation to the PeerTube project!"
+msgstr "Thank you very much for your donation to the PeerTube project!"
+
 #: src/views/News.vue:140 src/views/News.vue:288 src/views/News.vue:352
 #: src/views/News.vue:416
 msgid "Thanks to all PeerTube contributors!"
@@ -1761,6 +1773,10 @@ msgstr "Thanks to all PeerTube contributors!"
 #: src/views/Home.vue:366
 msgid "Thanks to our <a href=\"/hall-of-fame\" target=\"_blank\">crowdfunding (from March to July 2018)</a>, <strong>Framasoft were able to employ PeerTube's main developer.</strong> After a beta release in March 2018, release 1 came out in November 2018. Since then, several intermediary releases have brought many features along. Several collectives have already created PeerTube hosts, laying the foundation for the federation."
 msgstr "Thanks to our <a href=\"/hall-of-fame\" target=\"_blank\">crowdfunding (from March to July 2018)</a>, <strong>Framasoft were able to employ PeerTube's main developer.</strong> After a beta release in March 2018, release 1 came out in November 2018. Since then, several intermediary releases have brought many features along. Several collectives have already created PeerTube hosts, laying the foundation for the federation."
+
+#: src/views/Thank-You.vue:11
+msgid "Thanks to you, Framasoft’s teams will be able to continue and expand the work already started on this software."
+msgstr "Thanks to you, Framasoft’s teams will be able to continue and expand the work already started on this software."
 
 #: src/views/FAQ.vue:529
 msgid "The <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.joinpeertube.org/#/install-any-os\">installation guide is here</a> (only in English)."
@@ -1829,6 +1845,10 @@ msgstr "The PeerTube software can, whenever necessary, use a peer-to-peer protoc
 #: src/views/FAQ.vue:472
 msgid "The project's evolution demonstrates the contrary."
 msgstr "The project's evolution demonstrates the contrary."
+
+#: src/views/Thank-You.vue:17
+msgid "The success of this fundraising depends only on you: <strong>we need you</strong> to raise awareness about this roadmap, so we can share our enthousiasm about Peertube's v3."
+msgstr "The success of this fundraising depends only on you: <strong>we need you</strong> to raise awareness about this roadmap, so we can share our enthousiasm about Peertube's v3."
 
 #: src/components/InstancesList.vue:35
 msgid "Themes"
@@ -1927,7 +1947,7 @@ msgstr "Unlimited space"
 msgid "Upgrade PeerTube"
 msgstr "Upgrade PeerTube"
 
-#: src/main.js:68
+#: src/main.js:69
 msgid "value"
 msgstr "value"
 
