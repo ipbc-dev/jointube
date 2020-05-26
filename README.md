@@ -1,4 +1,4 @@
-# JoinPeerTube
+# JoinTube https://jointube.net
 
 ## Install dependencies
 
